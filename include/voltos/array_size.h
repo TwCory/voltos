@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ARRAY_SIZE_H_
+#define _VOLTOS_ARRAY_SIZE_H_
+
+#endif /* _VOLTOS_ARRAY_SIZE_H_ */
