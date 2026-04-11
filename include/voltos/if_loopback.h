@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_IF_LOOPBACK_H_
+#define _VOLTOS_IF_LOOPBACK_H_
+
+#endif /* _VOLTOS_IF_LOOPBACK_H_ */

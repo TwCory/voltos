@@ -4,12 +4,15 @@
 #include <platform/complex.h>
 #include <platform/float16.h>
 #include <platform/float32.h>
+#include <platform/float128-struct.h>
 #include <platform/int8.h>
 #include <platform/int16.h>
 #include <platform/int32.h>
 #include <platform/int64-const.h>
 #include <platform/int128-const.h>
 #include <platform/intminmax.h>
+#include <platform/intptr.h>
+#include <platform/size.h>
 #include <platform/string.h>
 
 #ifdef __PLATFORM_INTERNAL_BOOL_TYPE__
@@ -23,6 +26,18 @@
 #else
 #include <platform/float64-type.h>
 #endif /* __PLATFORM_INTERNAL_FLOAT64_TYPE__ */
+
+#ifdef __PLATFORM_INT64_LONG_TYPE__
+#include <platform/int64-long.h>
+#else
+#include <platform/int64-ll.h>
+#endif /* __PLATFORM_INT64_LONG_TYPE__ */
+
+#ifdef __PLATFORM_INTERNAL_INT128_TYPE__
+#include <platform/int128-struct.h>
+#else
+#include <platform/int128-type.h>
+#endif /* __PLATFORM_INTERNAL_INT128_TYPE__ */
 
 typedef signed char         __s_char;
 typedef unsigned char       __u_char;

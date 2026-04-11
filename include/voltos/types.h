@@ -110,4 +110,21 @@ typedef struct {
 } atomic64_t;
 #endif /* __VOLTOS_CONFIG_64BIT__ */
 
+typedef __u16 __voltos_acl_id_t;
+typedef __u32 __voltos_acl_seqno_t;
+
+typedef __u32 __voltos_idb_index_t;
+typedef __u32 __voltos_idb_sort_t;
+typedef __u32 __voltos_if_index_t;
+
+typedef __u32 __voltos_netns_id_t;
+
+typedef __u16 __voltos_sa_family_t;
+
+typedef __u16 __voltos_tty_id_t;
+
+typedef __u16 __voltos_vlan_id_t;
+typedef __u32 __voltos_vrf_id_t;
+typedef __u8 __voltos_vty_id_t;
+
 #endif /* _VOLTOS_TYPES_H_ */

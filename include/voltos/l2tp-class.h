@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_L2TP_CLASS_H_
+#define _VOLTOS_L2TP_CLASS_H_
+
+#endif /* _VOLTOS_L2TP_CLASS_H_ */

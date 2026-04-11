@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_IDB_HW_SUBBLOCK_H_
+#define _VOLTOS_IDB_HW_SUBBLOCK_H_
+
+#endif /* _VOLTOS_IDB_HW_SUBBLOCK_H_ */
