@@ -1,16 +1,12 @@
 #ifndef _VOLTOS_RBTREE_TYPES_H_
 #define _VOLTOS_RBTREE_TYPES_H_
 
-struct rb_node {
-    
-};
+typedef struct {
 
-struct rb_root {
-	
-};
+} rb_node_t;
 
-struct rb_root_cached {
-	
-};
+typedef struct {
+
+} rb_tree_t;
 
 #endif /* _VOLTOS_RBTREE_TYPES_H_ */

@@ -428,6 +428,9 @@ struct interface {
 			u16 ZeroTier;
 		} if_path;
 	} if_name_ctx;
+
+	if_admin_state_t if_admin_state;
+	if_oper_state_t if_oper_state;
 };
 
 #endif /* _VOLTOS_IF_H_ */

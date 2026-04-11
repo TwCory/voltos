@@ -22,20 +22,6 @@ typedef enum {
 	__IDB_STATE_T_MAX__
 } idb_state_t;
 
-struct idb {
-    struct interface            *idb_ifp;
 
-    idb_type_t                  idb_type;
-
-    idb_state_t                 idb_admin_state;
-    idb_state_t                 idb_oper_state;
-    idb_state_t                 idb_shadow_state;
-
-    idb_index_t                 idb_index;
-    idb_sort_t                  idb_sort_index;
-
-    bool                        idb_active;
-    u_size                      idb_size;
-};
 
 #endif /* _VOLTOS_IDB_H_ */

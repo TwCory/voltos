@@ -1,10 +1,12 @@
 #ifndef _VOLTOS_IF_FDDI_H_
 #define _VOLTOS_IF_FDDI_H_
 
-#define FDDI_ADDR_LEN       6
+#include <voltos/types.h>
 
-struct fddi_addr {
-    unsigned char octets[FDDI_ADDR_LEN];
-} __attribute__ ((packed));
+#define FDDI_ADDR_SIZE          6
+
+typedef struct {
+    __byte bytes[FDDI_ADDR_SIZE];
+} __attribute__ ((packed)) fddi_addr_t;
 
 #endif /* _VOLTOS_IF_FDDI_H_ */

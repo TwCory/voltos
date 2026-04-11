@@ -28,4 +28,8 @@ enum {
 
 #define AF_MAX                      (__AF_T_MAX__ - 1)
 
+struct socket {
+
+};
+
 #endif /* _VOLTOS_SOCKET_H_ */

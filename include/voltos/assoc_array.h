@@ -1,8 +1,8 @@
 #ifndef _VOLTOS_ASSOC_ARRAY_H_
 #define _VOLTOS_ASSOC_ARRAY_H_
 
-struct assoc_array {
+typedef struct {
 
-};
+} assoc_array_t;
 
 #endif /* _VOLTOS_ASSOC_ARRAY_H_ */
