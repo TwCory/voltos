@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_MAPLE_TREE_H_
-#define _VOLTOS_MAPLE_TREE_H_
-
-#endif /* _VOLTOS_MAPLE_TREE_H_ */

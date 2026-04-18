@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_ASSOC_ARRAY_INT_H_
-#define _VOLTOS_ASSOC_ARRAY_INT_H_
-
-#endif /* _VOLTOS_ASSOC_ARRAY_INT_H_ */

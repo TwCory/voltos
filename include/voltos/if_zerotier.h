@@ -1,7 +1,0 @@
-#ifndef _VOLTOS_IF_ZEROTIER_H_
-#define _VOLTOS_IF_ZEROTIER_H_
-
-#define ZEROTIER_MTU_MIN        1280
-#define ZEROTIER_MTU_MAX        10000
-
-#endif /* _VOLTOS_IF_ZEROTIER_H_ */
