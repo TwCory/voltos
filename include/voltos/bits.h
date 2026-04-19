@@ -5,4 +5,8 @@
 
 #include <platform/bits.h>
 
+#ifndef __bits
+#define __bits(x)       (8 * sizeof(x))
+#endif /* __bits */
+
 #endif /* _VOLTOS_BITS_H_ */

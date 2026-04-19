@@ -21,7 +21,6 @@ typedef __u_long                        u_long;
 typedef __s_llong                       s_llong;
 typedef __u_llong                       u_llong;
 
-typedef __boolean                       bool;
 typedef __string                        string;
 typedef __strptr                        strptr;
 
@@ -98,13 +97,27 @@ typedef struct {
     s64                                 counter;
 } atomic64_t;
 
+typedef __u_short                       __voltos_acl_id_t;
+typedef __u_llong                       __voltos_acl_seqno_t;
+typedef __u_short                       __voltos_br_domain_id_t;
+typedef __u_int                         __voltos_fd_t;
+typedef __u_int                         __voltos_gid32_t;
+typedef __u_llong                       __voltos_gid64_t;
 typedef __u_long                        __voltos_idb_index_t;
 typedef __u_int                         __voltos_idb_sort_t;
 typedef __u_int                         __voltos_if_index_t;
+typedef __u_int                         __voltos_ipc_key_t;
 typedef __u_int                         __voltos_netns_id_t;
+typedef __u_int                         __voltos_pid32_t;
+typedef __u_llong                       __voltos_pid64_t;
 typedef __u_short                       __voltos_sa_family_t;
+typedef __u_long                        __voltos_time_t;
+typedef __u_short                       __voltos_tty_id_t;
+typedef __u_int                         __voltos_uid32_t;
+typedef __u_llong                       __voltos_uid64_t;
 typedef __u_short                       __voltos_vlan_id_t;
 typedef __u_int                         __voltos_vrf_id_t;
+typedef __u_char                        __voltos_vty_id_t;
 
 #define __aligned_s64                   __s64 __attribute__ ((aligned(8)))
 #define __aligned_u64                   __u64 __attribute__ ((aligned(8)))

@@ -3,6 +3,7 @@
 #ifndef _PLATFORM_TYPES_H_
 #define _PLATFORM_TYPES_H_
 
+#include <platform/bits.h>
 #include <platform/boolean.h>
 #include <platform/float16.h>
 #include <platform/float32.h>

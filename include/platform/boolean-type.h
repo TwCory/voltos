@@ -6,6 +6,6 @@
 #define false       0
 #define true        1
 
-typedef _Bool __boolean;
+typedef _Bool bool;
 
 #endif /* _PLATFORM_BOOLEAN_TYPE_H_ */
