@@ -1,5 +1,12 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
+/*
+ *	voltos/lib/base64.c
+ *
+ * 	Copyright (C) 2023, 2024 Cory Voltz
+ * 
+ */
+
 #include <voltos/base64.h>
 
 static const char *B64_ENCODE_TABLE = 

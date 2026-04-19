@@ -1,0 +1,72 @@
+module voltos-ethernet {
+    yang-version 1.1;
+    prefix v-eth;
+
+    import ietf-interfaces {
+        prefix if;
+    }
+    import iana-if-type {
+        prefix if-type;
+    }
+
+    identity ethernet-if-speed {
+        description
+            "Identifier for the Speed of an Ethernet Interface";
+    }
+
+    identity ethernet-if-speed-10mbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-100mbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-1000mbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-2500mbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-5gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-10gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-25gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-40gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-50gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-100gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-200gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-400gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-800gbit {
+        base ethernet-if-speed;
+    }
+
+    identity ethernet-if-speed-1600gbit {
+        base ethernet-if-speed;
+    }
+}

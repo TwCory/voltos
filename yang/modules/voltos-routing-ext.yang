@@ -1,0 +1,98 @@
+module voltos-routing-ext {
+    prefix v-rt-ext;
+
+    import voltos-semver {
+        prefix v-semver;
+    }
+    import ietf-routing {
+        prefix rt;
+    }
+
+    identity babel {
+        base rt:routing-protocol;
+    }
+
+    identity bgp {
+        base rt:routing-protocol;
+    }
+
+    identity carp {
+        base rt:routing-protocol;
+    }
+
+    identity eigrp {
+        base rt:routing-protocol;
+    }
+
+    identity hsls {
+        base rt:routing-protocol;
+    }
+
+    identity hsrp {
+        base rt:routing-protocol;
+    }
+
+    identity idpr {
+        base rt:routing-protocol;
+    }
+
+    identity idrp {
+        base rt:routing-protocol;
+    }
+
+    identity igrp {
+        base rt:routing-protocol;
+    }
+
+    identity isis {
+        base rt:routing-protocol;
+    }
+
+    identity lisp {
+        base rt:routing-protocol;
+    }
+
+    identity nat {
+        base rt:routing-protocol;
+    }
+
+    identity nd {
+        base rt:routing-protocol;
+    }
+
+    identity nhrp {
+        base rt:routing-protocol;
+    }
+
+    identity olsr {
+        base rt:routing-protocol;
+    }
+
+    identity openfabric {
+        base rt:routing-protocol;
+    }
+
+    identity ospf {
+        base rt:routing-protocol;
+    }
+
+    identity ospfv3 {
+        base rt:routing-protocol;
+    }
+
+    identity rip {
+        base rt:routing-protocol;
+    }
+
+    identity ripng {
+        base rt:routing-protocol;
+    }
+
+    identity vrrp {
+        base rt:routing-protocol;
+    }
+
+    identity zhls {
+        base rt:routing-protocol;
+    }
+}

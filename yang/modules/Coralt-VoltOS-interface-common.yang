@@ -1,0 +1,345 @@
+module Coralt-VoltOS-interface-common {
+    yang-version 1.1;
+    prefix voltos-ifc;
+
+    grouping interface-grouping {
+        choice interface-choice {
+            leaf AppGigabitEthernet {
+                description
+                    "App-Hosting Gigabit Ethernet Interface";
+            }
+            leaf AppleTalk {
+                description
+                    "AppleTalk Interface";
+            }
+            leaf AppNav-Compress {
+                description
+                    "Service-Context Virtual Interface Compress";
+            }
+            leaf AppNav-UnCompress {
+                description
+                    "Service-Context Virtual Interface UnCompress";
+            }
+            leaf ARCNET {
+                description
+                    "ARCNET Interface";
+            }
+            leaf Async {
+                description
+                    "Asynchronous Serial Interface";
+            }
+            leaf ATM {
+                description
+                    "ATM Interface";
+            }
+            leaf ATM-ACR {
+                description
+                    "ATM Access Circuit Redundancy Interface";
+            }
+            leaf Auto-Template {
+                description
+                    "Auto-Template Interface";
+            }
+            leaf BATMAN-Advanced {
+                description
+                    "B.A.T.M.A.N. Ad-Hoc Mesh Router Interface";
+            }
+            leaf BDI {
+                description
+                    "Bridge-Domain Interface";
+            }
+            leaf Bluetooth {
+                description
+                    "Bluetooth Interface";
+            }
+            leaf Bundle {
+                description
+                    "Bundle Interface";
+            }
+            leaf BVI {
+                description
+                    "Bridge-Group Virtual Interface";
+            }
+            leaf Cable-Modem {
+                description
+                    "Cable Modem Interface";
+            }
+            leaf CAN {
+                description
+                    "CAN Bus Interface";
+            }
+            leaf CDMA-1x {
+                description
+                    "CDMA 1x Interface";
+            }
+            leaf Cellular {
+                description
+                    "Cellular Interface";
+            }
+            leaf CTunnel {
+                description
+                    "CTunnel Interface";
+            }
+            leaf Dialer {
+                description
+                    "Dialer Interface";
+            }
+            leaf DSA {
+                description
+                    "Distributed Switch Architecture Interface";
+            }
+            leaf EightHundredGigE {
+                description
+                    "800 Gbit Ethernet Interface";
+            }
+            leaf Embedded-Service-Engine {
+                description
+                    "VoltOS Integrated Service Engine Interface";
+            }
+            leaf Ethernet {
+                description
+                    "Ethernet (10Mbit) Interface";
+            }
+            leaf ExpEthernet {
+                description
+                    "Experimental Ethernet (3Mbit) Interface";
+            }
+            leaf FastEthernet {
+                description
+                    "Fast Ethernet (100Mbit) Interface";
+            }
+            leaf FDDI {
+                description
+                    "Fiber Distributed Data Interface";
+            }
+            leaf FibreChannel {
+                description
+                    "Fibre Channel Interface"
+            }
+            leaf FiftyGigabitEthernet {
+                description
+                    "50 Gbit Ethernet Interface";
+            }
+            leaf FiveGigabitEthernet {
+                description
+                    "5 Gbit Ethernet Interface";
+            }
+            leaf FortyGigabitEthernet {
+                description
+                    "40 Gbit Ethernet Interface";
+            }
+            leaf FourHundredGigE {
+                description
+                    "400 Gbit Ethernet Interface";
+            }
+            leaf GigabitEthernet {
+                description
+                    "Gigabit Ethernet (1000 Mbit) Interface";
+            }
+            leaf GMPLS {
+                description
+                    "MPLS Virtual Interface";
+            }
+            leaf Group-Async {
+                description
+                    "Async Group Interface";
+            }
+            leaf HIPPI {
+                description
+                    "High-Performance Parallel Interface";
+            }
+            leaf HSSI {
+                description
+                    "High-Speed Serial Interface";
+            }
+            leaf HundredGigE {
+                description
+                    "100 Gbit Ethernet Interface";
+            }
+            leaf InfiniBand {
+                description
+                    "InfiniBand(TM) Interface";
+            }
+            leaf ISDN-BRI {
+                description
+                    "ISDN Basic Rate Interface";
+            }
+            leaf ISDN-PRI {
+                description
+                    "ISDN Primary Rate Interface";
+            }
+            leaf LISP {
+                description
+                    "Locator/ID Separation Protocol Virtual Interface";
+            }
+            leaf LongReachEthernet {
+                description
+                    "Cisco Long-Reach Ethernet (LRE) Interface";
+            }
+            leaf Loopback {
+                description
+                    "Loopback Interface";
+            }
+            leaf LSP-VIF {
+                description
+                    "LSP Virtual Interface";
+            }
+            leaf MFR {
+                description
+                    "Multilink Frame Relay Bundle Interface";
+            }
+            leaf Multilink {
+                description
+                    "Multilink-Group Interface";
+            }
+            leaf Nebula {
+                description
+                    "Nebula Overlay Interface";
+            }
+            leaf Netlink-Monitor {
+                description
+                    "Netlink IPC System Monitor Interface";
+            }
+            leaf NFC {
+                description
+                    "Nearfield Communication Radio Interface";
+            }
+            leaf Null {
+                description
+                    "Null-Type Interface";
+            }
+            leaf NVE {
+                description
+                    "Network Virtualization Endpoint Interface";
+            }
+            leaf OmniPath {
+                description
+                    "Omni-Path Architecture (OPA) Interface";
+            }
+            leaf OpenVPN {
+                description
+                    "OpenVPN(R) Tunnel Interface";
+            }
+            leaf Overlay {
+                description
+                    "Overlay Interface";
+            }
+            leaf Parallel {
+                description
+                    "Parallel Interface";
+            }
+            leaf Port-Channel {
+                description
+                    "Ethernet Channel of Interfaces";
+            }
+            leaf PRP-Channel {
+                description
+                    "Ethernet Channel of Interfaces with PRP/HSR";
+            }
+            leaf Pseudowire {
+                description
+                    "Pseudowire Interface";
+            }
+            leaf Serial {
+                description
+                    "Serial Interface";
+            }
+            leaf SM {
+                description
+                    "SM Interface";
+            }
+            leaf SoftEther {
+                description
+                    "SoftEther VPN Interface";
+            }
+            leaf STunnel {
+                description
+                    "STunnel Interface";
+            }
+            leaf Tailscale {
+                description
+                    "Tailscale/Headscale Overlay Interface";
+            }
+            leaf TenGigabitEthernet {
+                description
+                    "10 Gbit Ethernet Interface";
+            }
+            leaf TerabitEthernet {
+                description
+                    "1000 Gbit or More Ethernet Interface";
+            }
+            leaf Tunnel {
+                description
+                    "Tunnel Interface";
+            }
+            leaf TwentyFiveGigE {
+                description
+                    "25 Gbit Ethernet Interface";
+            }
+            leaf TwoGigabitEthernet {
+                description
+                    "2.5 Gbit Ethernet Interface";
+            }
+            leaf TwoHundredGigE {
+                description
+                    "200 Gbit Ethernet Interface";
+            }
+            leaf VasiLeft {
+                description
+                    "Vasi Left Interface";
+            }
+            leaf VasiRight {
+                description
+                    "Vasi Right Interface";
+            }
+            leaf VIF {
+                description
+                    "PGM Multicast Host Interface";
+            }
+            leaf Virtual-Access {
+                description
+                    "Virtual Access Interface";
+            }
+            leaf Virtual-CAN {
+                description
+                    "Virtual CAN Bus Interface";
+            }
+            leaf Virtual-Ethernet {
+                description
+                    "Virtual Ethernet Tunnel Interface";
+            }
+            leaf Virtual-PPP {
+                description
+                    "Virtual PPP Interface";
+            }
+            leaf Virtual-Template {
+                description
+                    "Virtual Template Interface";
+            }
+            leaf Virtual-TokenRing {
+                description
+                    "Virtual Token Ring Interface";
+            }
+            leaf VirtualPortGroup {
+                description
+                    "Virtual Port-Group Interface";
+            }
+            leaf VLAN {
+                description
+                    "VLAN Interface";
+            }
+            leaf VMI {
+                description
+                    "Virtual Multipoint Interface";
+            }
+            leaf Wi-Fi {
+                description
+                    "Wi-Fi (IEEE 802.11) Interface";
+            }
+            leaf ZeroTier {
+                description
+                    "ZeroTier Overlay Interface";
+            }
+        }
+    }
+}
