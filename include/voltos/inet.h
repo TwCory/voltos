@@ -33,46 +33,65 @@ typedef enum {
 #define IP4_ADDR_FIELDS                     4
 
 typedef struct {
-    u8                                      fields[IP4_ADDR_FIELDS];
+    u8                                      a_fields[IP4_ADDR_FIELDS];
 } ip4_addr_t;
 
 #define IP6_ADDR_FIELDS                     8
 
 typedef struct {
-    u16                                     fields[IP6_ADDR_FIELDS];
+    u16                                     a_fields[IP6_ADDR_FIELDS];
 } ip6_addr_t;
 
 typedef struct {
-    ip_version_t                            version;
+    ip_version_t                            a_version;
     union {
         ip4_addr_t                          ip4;
         ip6_addr_t                          ip6;
-    } addr;
+    } a_addr;
 } ip_addr_t;
 
 #define IP4_PREFIX_LEN_MIN                  0
 #define IP4_PREFIX_LEN_MAX                  32
 
 typedef struct {
-    ip4_addr_t                              addr;
-    u8                                      prefix_len;
+    ip4_addr_t                              p_addr;
+    u8                                      p_len;
 } ip4_prefix_t;
 
 #define IP6_PREFIX_LEN_MIN                  0
 #define IP6_PREFIX_LEN_MAX                  128
 
 typedef struct {
-    ip6_addr_t                              addr;
-    u8                                      prefix_len;
+    ip6_addr_t                              p_addr;
+    u8                                      p_len;
 } ip6_prefix_t;
 
 typedef struct {
-    ip_version_t                            version;
+    ip_version_t                            p_version;
     union {
         ip4_prefix_t                        ip4;
         ip6_prefix_t                        ip6;
-    } prefix;
+    } p_prefix;
 } ip_prefix_t;
+
+typedef struct {
+    ip4_addr_t                              h_addr;
+    hostname_t                              h_name;
+} ip4_host_t;
+
+typedef struct {
+    ip6_addr_t                              h_addr;
+    hostname_t                              h_name;
+} ip6_host_t;
+
+typedef struct {
+    ip_version_t                            h_version;
+    union {
+        ip4_addr_t                          ip4;
+        ip6_addr_t                          ip6;
+    } h_addr;
+    hostname_t                              h_name;
+} ip_host_t;
 
 typedef enum {
     IP4_ADDR_CLASS_T_UNSPEC                 = 0,

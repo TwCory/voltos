@@ -8,5 +8,8 @@
 
 typedef __voltos_sa_family_t sa_family_t;
 
+struct socket {
+
+};
 
 #endif /* _VOLTOS_SOCKET_H_ */

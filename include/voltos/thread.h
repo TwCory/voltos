@@ -8,4 +8,8 @@
 #include <thread_db.h>
 #include <sys/single_threaded.h>
 
+struct thread {
+
+};
+
 #endif /* _VOLTOS_THREAD_H_ */

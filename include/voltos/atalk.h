@@ -6,6 +6,10 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct atalk_addr {
+
+};
+
 struct sockaddr_at {
     sa_family_t sat_family;
 };

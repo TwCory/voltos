@@ -5,4 +5,8 @@
 
 #include <sys/eventfd.h>
 
+struct event {
+
+};
+
 #endif /* _VOLTOS_EVENT_H_ */

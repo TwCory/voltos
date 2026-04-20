@@ -7,4 +7,8 @@
 #include <sys/ttychars.h>
 #include <sys/ttydefaults.h>
 
+struct tty {
+
+};
+
 #endif /* _VOLTOS_TTY_H_ */

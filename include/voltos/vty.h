@@ -10,4 +10,8 @@
 
 typedef __voltos_vty_id_t vty_id_t;
 
+struct vty {
+
+};
+
 #endif /* _VOLTOS_VTY_H_ */
