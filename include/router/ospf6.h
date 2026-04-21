@@ -4,6 +4,7 @@
 #define _OSPF6_ROUTER_H_
 
 #include <voltos/ospfv3.h>
+#include <voltos/vrf.h>
 
 struct ospfv3 {
 

@@ -4,6 +4,7 @@
 #define _OSPF_ROUTER_H_
 
 #include <voltos/ospf.h>
+#include <voltos/vrf.h>
 
 struct ospf {
 

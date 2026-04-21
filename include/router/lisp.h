@@ -4,5 +4,6 @@
 #define _LISP_ROUTER_H_
 
 #include <voltos/lisp.h>
+#include <voltos/vrf.h>
 
 #endif /* _LISP_ROUTER_H_ */

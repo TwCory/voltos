@@ -4,6 +4,7 @@
 #define _OPENFABRIC_ROUTER_H_
 
 #include <voltos/openfabric.h>
+#include <voltos/vrf.h>
 
 struct openfabric {
 

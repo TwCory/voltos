@@ -4,6 +4,7 @@
 #define _PIM6_ROUTER_H_
 
 #include <voltos/pimv6.h>
+#include <voltos/vrf.h>
 
 struct pimv6 {
 

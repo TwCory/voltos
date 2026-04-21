@@ -4,5 +4,6 @@
 #define _IGMP_ROUTER_H_
 
 #include <voltos/igmp.h>
+#include <voltos/vrf.h>
 
 #endif /* _IGMP_ROUTER_H_ */

@@ -4,5 +4,8 @@
 #define _DVMRP_ROUTER_H_
 
 #include <voltos/dvmrp.h>
+#include <voltos/vrf.h>
+
+extern int dvmrp_create_sock(struct vrf *vrf);
 
 #endif /* _DVMRP_ROUTER_H_ */

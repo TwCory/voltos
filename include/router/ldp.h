@@ -4,5 +4,6 @@
 #define _LDP_ROUTER_H_
 
 #include <voltos/mpls_ldp.h>
+#include <voltos/vrf.h>
 
 #endif /* _LDP_ROUTER_H_ */

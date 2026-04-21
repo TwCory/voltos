@@ -4,6 +4,7 @@
 #define _PGM_ROUTER_H_
 
 #include <voltos/pgm.h>
+#include <voltos/vrf.h>
 
 struct pgm {
 

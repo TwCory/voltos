@@ -4,6 +4,7 @@
 #define _ISIS_ROUTER_H_
 
 #include <voltos/isis.h>
+#include <voltos/vrf.h>
 
 struct isis {
 

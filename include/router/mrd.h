@@ -4,5 +4,6 @@
 #define _MRD_ROUTER_H_
 
 #include <voltos/mrd.h>
+#include <voltos/vrf.h>
 
 #endif /* _MRD_ROUTER_H_ */

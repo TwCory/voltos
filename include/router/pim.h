@@ -4,6 +4,7 @@
 #define _PIM_ROUTER_H_
 
 #include <voltos/pim.h>
+#include <voltos/vrf.h>
 
 struct pim {
 
