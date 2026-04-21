@@ -12,6 +12,9 @@ typedef __voltos_vrf_id_t       vrf_id_t;
 struct vrf {
     vrf_id_t                    vrf_id;
     string                      vrf_name[VRF_NAME_SIZE];
+
+    void                        *vrf_user_ctx;
+    void                        *vrf_netns_ctx;
 };
 
 #endif /* _VOLTOS_VRF_H_ */

@@ -3,7 +3,7 @@
 #ifndef _VOLTOS_IP_H_
 #define _VOLTOS_IP_H_
 
-struct ip_hdr {
+struct ip {
 
 };
 

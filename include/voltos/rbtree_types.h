@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef _VOLTOS_RBTREE_TYPES_H_
+#define _VOLTOS_RBTREE_TYPES_H_
+
+struct rb_node {
+    struct rb_node *rb_left;
+    struct rb_node *rb_right;
+};
+
+struct rb_root {
+    struct rb_node *rb_node;
+};
+
+struct rb_root_cached {
+
+};
+
+#endif /* _VOLTOS_RBTREE_TYPES_H_ */

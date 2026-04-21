@@ -3,5 +3,6 @@
 #ifndef _BFD_ROUTER_H_
 #define _BFD_ROUTER_H_
 
+#include <voltos/bfd.h>
 
 #endif /* _BFD_ROUTER_H_ */

@@ -3,5 +3,10 @@
 #ifndef _PIM_ROUTER_H_
 #define _PIM_ROUTER_H_
 
+#include <voltos/pim.h>
+
+struct pim {
+
+};
 
 #endif /* _PIM_ROUTER_H_ */

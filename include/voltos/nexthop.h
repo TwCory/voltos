@@ -7,4 +7,8 @@ struct next_hop {
 
 };
 
+struct next_hop_group {
+
+};
+
 #endif /* _VOLTOS_NEXTHOP_H_ */
