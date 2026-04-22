@@ -18,15 +18,6 @@ struct babel_interface {
 
 struct babel_neighbour {
     struct babel *babel;
-    ip_addr_t address;
-
-    u16 reach;
-    u16 txcost;
-
-    u16 hello_interval;
-    u16 ihu_interval;
-    u32 hello_send_us;
-    u32 rtt;
 };
 
 extern void babel_init(void);

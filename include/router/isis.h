@@ -17,6 +17,10 @@ struct isis_interface {
     struct interface *ifp;
 };
 
+struct isis_circuit {
+    struct isis *isis;
+};
+
 extern void isis_init(void);
 extern void isis_interface_init(void);
 

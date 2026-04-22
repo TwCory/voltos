@@ -17,6 +17,10 @@ struct ospfv3_interface {
     struct interface *ifp;
 };
 
+struct ospfv3_area {
+    struct ospfv3 *ospfv3;
+};
+
 extern void ospfv3_init(void);
 extern void ospfv3_interface_init(void);
 

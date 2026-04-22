@@ -8,7 +8,7 @@ struct ip {
 };
 
 struct ip_interface {
-
+    struct vrf *vrf;
 };
 
 #endif /* _VOLTOS_IP_H_ */

@@ -11,7 +11,8 @@
 typedef __voltos_vty_id_t vty_id_t;
 
 struct vty {
-
+    vty_id_t vty_id;
+    int vty_fd;
 };
 
 #endif /* _VOLTOS_VTY_H_ */

@@ -17,6 +17,10 @@ struct ospf_interface {
     struct interface *ifp;
 };
 
+struct ospf_area {
+    struct ospf *ospf;
+};
+
 extern void ospf_init(void);
 extern void ospf_interface_init(void);
 

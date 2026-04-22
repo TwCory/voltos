@@ -17,6 +17,10 @@ struct openfabric_interface {
     struct interface *ifp;
 };
 
+struct openfabric_circuit {
+    struct openfabric *openfabric;
+};
+
 extern void openfabric_init(void);
 extern void openfabric_interface_init(void);
 
