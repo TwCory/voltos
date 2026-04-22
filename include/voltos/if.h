@@ -9,6 +9,7 @@ typedef __voltos_if_index_t if_index_t;
 
 struct interface {
     if_index_t if_index;
+    void *if_ctx;
 };
 
 #endif /* _VOLTOS_IF_H_ */

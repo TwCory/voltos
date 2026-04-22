@@ -5,4 +5,6 @@
 
 #include <voltos/carp.h>
 
+extern void carp_init(void);
+
 #endif /* _CARP_ROUTER_H_ */

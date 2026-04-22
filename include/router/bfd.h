@@ -5,4 +5,6 @@
 
 #include <voltos/bfd.h>
 
+extern void bfd_init(void);
+
 #endif /* _BFD_ROUTER_H_ */

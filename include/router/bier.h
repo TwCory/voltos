@@ -5,4 +5,6 @@
 
 #include <voltos/bier.h>
 
+extern void bier_init(void);
+
 #endif /* _BIER_ROUTER_H_ */

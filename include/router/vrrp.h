@@ -5,4 +5,6 @@
 
 #include <voltos/vrrp.h>
 
+extern void vrrp_init(void);
+
 #endif /* _VRRP_ROUTER_H_ */

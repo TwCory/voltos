@@ -5,4 +5,6 @@
 
 #include <voltos/hsrp.h>
 
+extern void hsrp_init(void);
+
 #endif /* _HSRP_ROUTER_H_ */
