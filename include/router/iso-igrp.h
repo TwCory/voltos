@@ -8,12 +8,12 @@
 #include <router/protocol.h>
 
 struct iso_igrp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct iso_igrp_interface {
     struct iso_igrp *iso_igrp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void iso_igrp_init(void);

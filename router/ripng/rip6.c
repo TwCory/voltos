@@ -5,10 +5,7 @@
 
 #include <router/rip6.h>
 
-
-int ripng_create_sock(struct vrf *vrf)
+void ripng_init(void)
 {
-    int rc;
-
-    struct sockaddr_in6 addr;
+    ripng_interface_init();
 }

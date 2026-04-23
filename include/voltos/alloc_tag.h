@@ -3,8 +3,15 @@
 #ifndef _VOLTOS_ALLOC_TAG_H_
 #define _VOLTOS_ALLOC_TAG_H_
 
-struct alloc_tag {
+#include <voltos/types.h>
 
+struct alloc_tag_counters {
+    u64 bytes;
+    u64 calls;
+};
+
+struct alloc_tag {
+    struct alloc_tag_counters *counters;
 };
 
 #endif /* _VOLTOS_ALLOC_TAG_H_ */

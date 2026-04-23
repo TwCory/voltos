@@ -5,16 +5,17 @@
 
 #include <voltos/if.h>
 #include <voltos/pgm.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct pgm {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct pgm_interface {
     struct pgm *pgm;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void pgm_init(void);

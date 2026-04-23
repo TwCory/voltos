@@ -4,16 +4,17 @@
 #define _RSVP_ROUTER_H_
 
 #include <voltos/if.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct rsvp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct rsvp_interface {
     struct rsvp *rsvp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void rsvp_init(void);

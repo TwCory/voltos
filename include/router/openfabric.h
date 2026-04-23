@@ -5,16 +5,17 @@
 
 #include <voltos/if.h>
 #include <voltos/openfabric.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct openfabric {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct openfabric_interface {
     struct openfabric *openfabric;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 struct openfabric_circuit {

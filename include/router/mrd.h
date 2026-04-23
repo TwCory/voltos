@@ -12,7 +12,7 @@ struct mrd {
 
 struct mrd_interface {
     struct mrd *mrd;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void mrd_init(void);

@@ -9,12 +9,12 @@
 #include <router/protocol.h>
 
 struct isis {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct isis_interface {
     struct isis *isis;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 struct isis_circuit {

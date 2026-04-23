@@ -9,16 +9,15 @@
 #include <router/protocol.h>
 
 struct dvmrp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct dvmrp_interface {
     struct dvmrp *dvmrp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void dvmrp_init(void);
 extern void dvmrp_interface_init(void);
-extern int dvmrp_create_sock(struct vrf *vrf);
 
 #endif /* _DVMRP_ROUTER_H_ */

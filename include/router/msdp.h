@@ -9,12 +9,12 @@
 #include <router/protocol.h>
 
 struct msdp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct msdp_interface {
     struct msdp *msdp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void msdp_init(void);

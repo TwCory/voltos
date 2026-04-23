@@ -9,12 +9,12 @@
 #include <router/protocol.h>
 
 struct lisp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct lisp_interface {
     struct lisp *lisp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void lisp_init(void);

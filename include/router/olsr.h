@@ -4,15 +4,16 @@
 #define _OLSR_ROUTER_H_
 
 #include <voltos/if.h>
+#include <voltos/types.h>
 #include <router/protocol.h>
 
 struct olsr {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct olsr_interface {
     struct olsr *olsr;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void olsr_init(void);

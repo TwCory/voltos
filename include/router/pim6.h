@@ -5,16 +5,17 @@
 
 #include <voltos/if.h>
 #include <voltos/pimv6.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct pimv6 {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct pimv6_interface {
     struct pimv6 *pimv6;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void pimv6_init(void);

@@ -9,12 +9,12 @@
 #include <router/protocol.h>
 
 struct mld {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct mld_interface {
     struct mld *mld;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void mld_init(void);

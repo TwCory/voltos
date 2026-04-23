@@ -24,7 +24,7 @@ enum ldp_hello_type {
 };
 
 struct ldp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
     ip4_addr_t router_id;
     ip4_addr_t mc_addr_ipv4;
     ip6_addr_t mc_addr_ipv6;
@@ -32,7 +32,7 @@ struct ldp {
 
 struct ldp_interface {
     struct ldp *ldp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void ldp_init(void);

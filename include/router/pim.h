@@ -5,16 +5,17 @@
 
 #include <voltos/if.h>
 #include <voltos/pim.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct pim {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct pim_interface {
     struct pim *pim;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void pim_init(void);

@@ -5,24 +5,33 @@
 
 #include <voltos/if.h>
 #include <voltos/rip.h>
+#include <voltos/route.h>
+#include <voltos/route_table.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct rip {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
+    struct route_table *rt_ptr;
+
+    string *vrf_name;
+    struct vrf *vrf_ptr;
+
+    bool is_enabled;
 };
 
 struct rip_interface {
     struct rip *rip;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 struct rip_peer {
     struct rip *rip;
 };
 
-struct rip_route_ctx {
-
+struct rip_route {
+    struct route *r_ptr;
 };
 
 struct rip_offset_list {
@@ -31,6 +40,5 @@ struct rip_offset_list {
 
 extern void rip_init(void);
 extern void rip_interface_init(void);
-extern int rip_create_sock(struct vrf *vrf);
 
 #endif /* _RIP_ROUTER_H_ */

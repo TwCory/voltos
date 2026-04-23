@@ -7,11 +7,11 @@
 #include <voltos/vrrp.h>
 
 struct vrrp_router {
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 struct vrrp_virtual_router {
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void vrrp_init(void);

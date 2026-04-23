@@ -9,12 +9,12 @@
 #include <router/protocol.h>
 
 struct igmp {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct igmp_interface {
     struct igmp *igmp;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 extern void igmp_init(void);

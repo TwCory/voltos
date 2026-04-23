@@ -5,16 +5,17 @@
 
 #include <voltos/if.h>
 #include <voltos/ospfv3.h>
+#include <voltos/types.h>
 #include <voltos/vrf.h>
 #include <router/protocol.h>
 
 struct ospfv3 {
-    struct protocol *protocol;
+    struct protocol *p_ptr;
 };
 
 struct ospfv3_interface {
     struct ospfv3 *ospfv3;
-    struct interface *ifp;
+    struct interface *if_ptr;
 };
 
 struct ospfv3_area {
