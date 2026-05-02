@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_ROUTE_TAG_H_
+#define _NBAPI_VOLTOS_ROUTE_TAG_H_
+
+#define ROUTE_TAG_LIST_NAME_SIZE        24
+
+#endif /* _NBAPI_VOLTOS_ROUTE_TAG_H_ */
