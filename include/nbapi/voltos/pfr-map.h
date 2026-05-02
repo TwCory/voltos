@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_PFR_MAP_H_
+#define _NBAPI_VOLTOS_PFR_MAP_H_
+
+#define PFR_MAP_NAME_SIZE       36
+
+#endif /* _NBAPI_VOLTOS_PFR_MAP_H_ */

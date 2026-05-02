@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_BBA_GROUP_H_
+#define _NBAPI_VOLTOS_BBA_GROUP_H_
+
+#define BBA_GROUP_NAME_SIZE         32
+
+#endif /* _NBAPI_VOLTOS_BBA_GROUP_H_ */
