@@ -3,7 +3,6 @@
 #ifndef _PLATFORM_UNISTD_H_
 #define _PLATFORM_UNISTD_H_
 
-#include <unistd.h>
-#include <sys/unistd.h>
+#include <nbapi/platform/unistd.h>
 
 #endif /* _PLATFORM_UNISTD_H_ */

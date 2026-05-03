@@ -1,0 +1,4 @@
+#ifndef _PLATFORM_SEMBUF_H_
+#define _PLATFORM_SEMBUF_H_
+
+#endif /* _PLATFORM_SEMBUF_H_ */

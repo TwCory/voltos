@@ -3,16 +3,18 @@
 #ifndef _PLATFORM_INT64_H_
 #define _PLATFORM_INT64_H_
 
-#ifdef __PLATFORM_INT64_IS_LONG__
-#include <platform/int64-long.h>
-#else
-#include <platform/int64-ll.h>
-#endif /* __PLATFORM_INT64_IS_LONG__ */
+#include <nbapi/platform/int64.h>
 
-typedef __s64 __least_s64;
-typedef __u64 __least_u64;
+typedef __s8 s8;
+typedef __u8 u8;
 
-typedef __s64 __fast_s64;
-typedef __u64 __fast_u64;
+typedef __s16 s16;
+typedef __u16 u16;
+
+typedef __s32 s32;
+typedef __u32 u32;
+
+typedef __s64 s64;
+typedef __u64 u64;
 
 #endif /* _PLATFORM_INT64_H_ */

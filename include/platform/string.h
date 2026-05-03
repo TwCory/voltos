@@ -5,6 +5,5 @@
 
 #include <string.h>
 #include <strings.h>
-#include <platform/string-type.h>
 
 #endif /* _PLATFORM_STRING_H_ */

@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_HOST_LIST_H_
+#define _NBAPI_VOLTOS_HOST_LIST_H_
+
+#define HOST_LIST_NAME_SIZE         36
+
+#endif /* _NBAPI_VOLTOS_HOST_LIST_H_ */

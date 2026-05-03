@@ -3,12 +3,11 @@
 #ifndef _PLATFORM_BITS_H_
 #define _PLATFORM_BITS_H_
 
-#include <stdbit.h>
+#include <nbapi/platform/bits.h>
 
-typedef unsigned char __bit;
-typedef unsigned char __nibble;
-typedef unsigned char __byte;
-typedef unsigned char __octet;
-typedef unsigned short __hextet;
+#define BITS_PER_NIBBLE         4
+#define BITS_PER_BYTE           8
+#define BITS_PER_OCTET          8
+#define BITS_PER_HEXTET         16
 
 #endif /* _PLATFORM_BITS_H_ */
