@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/zone-pair.h>
 
+struct zone_pair {
+
+};
+
 #endif /* _VOLTOS_ZONE_PAIR_H_ */

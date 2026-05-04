@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/zone.h>
 
+struct zone {
+
+};
+
 #endif /* _VOLTOS_ZONE_H_ */

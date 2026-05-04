@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/map-list.h>
 
+struct map_list {
+
+};
+
 #endif /* _VOLTOS_MAP_LIST_H_ */

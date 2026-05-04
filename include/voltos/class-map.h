@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/class-map.h>
 
+struct class_map {
+
+};
+
 #endif /* _VOLTOS_CLASS_MAP_H_ */

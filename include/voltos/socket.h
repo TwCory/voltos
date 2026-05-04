@@ -3,4 +3,16 @@
 
 #include <nbapi/voltos/socket.h>
 
+struct sockaddr {
+
+};
+
+struct linger {
+
+};
+
+struct socket {
+
+};
+
 #endif /* _VOLTOS_SOCKET_H_ */

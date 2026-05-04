@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/pfr-map.h>
 
+struct pfr_map {
+
+};
+
 #endif /* _VOLTOS_PFR_MAP_H_ */
