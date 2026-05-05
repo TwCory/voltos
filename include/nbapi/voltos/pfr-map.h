@@ -3,4 +3,6 @@
 
 #define PFR_MAP_NAME_SIZE       36
 
+typedef unsigned int            __voltos_pfr_map_id_t;
+
 #endif /* _NBAPI_VOLTOS_PFR_MAP_H_ */

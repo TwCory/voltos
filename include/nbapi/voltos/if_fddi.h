@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_IF_FDDI_H_
+#define _NBAPI_VOLTOS_IF_FDDI_H_
+
+#define FDDI_ADDR_SIZE      6
+
+#endif /* _NBAPI_VOLTOS_IF_FDDI_H_ */

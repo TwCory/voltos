@@ -9,4 +9,8 @@ struct sockaddr_in6 {
 
 };
 
+struct in6_ifaddr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IN6_H_ */

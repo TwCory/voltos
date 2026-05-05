@@ -3,6 +3,8 @@
 
 #include <nbapi/voltos/socket.h>
 
+typedef __voltos_sa_family_t sa_family_t;
+
 struct sockaddr {
 
 };

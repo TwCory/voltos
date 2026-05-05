@@ -1,9 +1,6 @@
 #ifndef _VOLTOS_VTY_H_
 #define _VOLTOS_VTY_H_
 
-struct vty {
-    int input_fd;
-    int output_fd;
-};
+#include <voltos/vty_struct.h>
 
 #endif /* _VOLTOS_VTY_H_ */

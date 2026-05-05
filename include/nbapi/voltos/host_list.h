@@ -3,4 +3,6 @@
 
 #define HOST_LIST_NAME_SIZE         36
 
+typedef unsigned int                __voltos_host_list_id_t;
+
 #endif /* _NBAPI_VOLTOS_HOST_LIST_H_ */

@@ -8,7 +8,7 @@ struct atalk {
 };
 
 struct atalk_interface {
-
+    struct atalk *atalk;
 };
 
 #endif /* _VOLTOS_ATALK_H_ */
