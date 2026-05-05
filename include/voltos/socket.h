@@ -11,8 +11,4 @@ struct linger {
 
 };
 
-struct socket {
-
-};
-
 #endif /* _VOLTOS_SOCKET_H_ */

@@ -3,4 +3,12 @@
 
 #include <nbapi/voltos/ipx.h>
 
+struct ipx {
+
+};
+
+struct ipx_interface {
+
+};
+
 #endif /* _VOLTOS_IPX_H_ */

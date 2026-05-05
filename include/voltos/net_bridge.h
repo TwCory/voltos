@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_NET_BRIDGE_H_
+#define _VOLTOS_NET_BRIDGE_H_
+
+#endif /* _VOLTOS_NET_BRIDGE_H_ */

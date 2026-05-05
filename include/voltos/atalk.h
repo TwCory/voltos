@@ -3,4 +3,12 @@
 
 #include <nbapi/voltos/atalk.h>
 
+struct atalk {
+
+};
+
+struct atalk_interface {
+
+};
+
 #endif /* _VOLTOS_ATALK_H_ */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_BUFFER_HEAD_H_
+#define _VOLTOS_BUFFER_HEAD_H_
+
+#endif /* _VOLTOS_BUFFER_HEAD_H_ */
