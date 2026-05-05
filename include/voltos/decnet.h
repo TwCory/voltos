@@ -3,4 +3,12 @@
 
 #include <nbapi/voltos/decnet.h>
 
+struct decnet {
+
+};
+
+struct decnet_interface {
+
+};
+
 #endif /* _VOLTOS_DECNET_H_ */
