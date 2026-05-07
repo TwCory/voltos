@@ -11,6 +11,8 @@
 #define DDP_SIZE_MAX            587
 #define DDP_HOPS_MAX            15
 
+#define IF_PREFIX_AppleTalk     "AppleTalk"
+
 struct atalk_addr {
     __net16                     s_net;
     __u8                        s_node;

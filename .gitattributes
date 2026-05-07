@@ -1,1 +1,4 @@
+# SPDX-License-Identifier: BSD-3-Clause
+
+*.[ch] diff=cpp
 *.rs diff=rust

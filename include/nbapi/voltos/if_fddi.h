@@ -3,4 +3,6 @@
 
 #define FDDI_ADDR_SIZE      6
 
+#define IF_PREFIX_FDDI      "FDDI"
+
 #endif /* _NBAPI_VOLTOS_IF_FDDI_H_ */

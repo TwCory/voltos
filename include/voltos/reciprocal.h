@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RECIPROCAL_H_
+#define _VOLTOS_RECIPROCAL_H_
+
+#endif /* _VOLTOS_RECIPROCAL_H_ */
