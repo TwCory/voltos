@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Virtual Local Area Networks (VLANs)
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_VLAN_H_
 #define _NBAPI_VOLTOS_VLAN_H_
 

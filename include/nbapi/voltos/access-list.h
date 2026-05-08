@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Access Control Lists (ACLs)
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_ACCESS_LIST_H_
 #define _NBAPI_VOLTOS_ACCESS_LIST_H_
 

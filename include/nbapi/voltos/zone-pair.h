@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Firewall Zone Pairings
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_ZONE_PAIR_H_
 #define _NBAPI_VOLTOS_ZONE_PAIR_H_
 

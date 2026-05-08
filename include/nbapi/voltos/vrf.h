@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Virtual Routing and Forwarding (VRF) Instances
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_VRF_H_
 #define _NBAPI_VOLTOS_VRF_H_
 

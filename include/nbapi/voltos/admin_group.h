@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Administrative Groups and
+ *	Extended Administrative Groups
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_ADMIN_GROUP_H_
 #define _NBAPI_VOLTOS_ADMIN_GROUP_H_
 

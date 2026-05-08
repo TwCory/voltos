@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Virtual TeleType (VTY) CLI Lines
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_VTY_H_
 #define _NBAPI_VOLTOS_VTY_H_
 

@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Bridge-Domain Instances
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_BRIDGE_DOMAIN_H_
 #define _NBAPI_VOLTOS_BRIDGE_DOMAIN_H_
 

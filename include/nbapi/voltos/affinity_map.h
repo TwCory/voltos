@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Affinity Maps for Traffic Engineering
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_AFFINITY_MAP_H_
 #define _NBAPI_VOLTOS_AFFINITY_MAP_H_
 

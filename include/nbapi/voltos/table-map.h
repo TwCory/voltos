@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	Table Maps
+ *
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_TABLE_MAP_H_
 #define _NBAPI_VOLTOS_TABLE_MAP_H_
 
