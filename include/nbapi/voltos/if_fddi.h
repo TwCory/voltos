@@ -5,4 +5,6 @@
 
 #define IF_PREFIX_FDDI      "FDDI"
 
+#define IF_HELP_FDDI        "Fiber Distributed Data Interface\n"
+
 #endif /* _NBAPI_VOLTOS_IF_FDDI_H_ */

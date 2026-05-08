@@ -4,4 +4,8 @@
 #define IPV6_MTU_DEFAULT            1500
 #define IPV6_HOP_LIMIT_DEFAULT      64
 
+struct ipv6_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IPV6_H_ */
