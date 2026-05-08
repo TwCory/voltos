@@ -1,4 +1,8 @@
 #ifndef _VOLTOS_BITSET_H_
 #define _VOLTOS_BITSET_H_
 
+#define BITSET_WORD_BYTES_SIZE
+
+#define BITSET_WORD_BITS_SIZE
+
 #endif /* _VOLTOS_BITSET_H_ */
