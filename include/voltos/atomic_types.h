@@ -44,4 +44,7 @@ typedef __atomic__ __u128       __atomic_u128;
 typedef __atomic__ s_intptr     __atomic_s_intptr;
 typedef __atomic__ u_intptr     __atomic_u_intptr;
 
+typedef __atomic__ s_size	__atomic_s_size;
+typedef __atomic__ u_size	__atomic_u_size;
+
 #endif /* _VOLTOS_ATOMIC_TYPES_H_ */

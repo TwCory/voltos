@@ -14,6 +14,11 @@ struct vrf {
 struct vrf_list {
     char                        vl_name[VRF_LIST_NAME_SIZE];
     __voltos_vrf_list_id_t      vl_index;
+
+    void			*vl_user_ctx;
 };
+
+void vrf_init(void);
+void vrf_list_init(void);
 
 #endif /* _VOLTOS_VRF_H_ */

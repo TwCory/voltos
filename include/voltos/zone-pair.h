@@ -10,4 +10,6 @@ struct zone_pair {
     void                            *zp_user_ctx;
 };
 
+void zone_pair_init(void);
+
 #endif /* _VOLTOS_ZONE_PAIR_H_ */

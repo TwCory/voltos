@@ -10,4 +10,6 @@ struct zone_security {
     void                    *zone_user_ctx;
 };
 
+void zone_security_init(void);
+
 #endif /* _VOLTOS_ZONE_H_ */

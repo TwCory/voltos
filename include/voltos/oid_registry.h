@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_OID_REGISTRY_H_
+#define _VOLTOS_OID_REGISTRY_H_
+
+#endif /* _VOLTOS_OID_REGISTRY_H_ */

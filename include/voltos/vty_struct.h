@@ -13,4 +13,6 @@ struct vty {
     int                 vty_output_fd;
 };
 
+void vty_struct_init(void);
+
 #endif /* _VOLTOS_VTY_STRUCT_H_ */

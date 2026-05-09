@@ -2,6 +2,8 @@
 #define _VOLTOS_IDB_H_
 
 #include <voltos/atomic.h>
+#include <voltos/list.h>
+#include <nbapi/voltos/idb.h>
 
 #define __idb_statistic(var_name)       \
     union {                             \
@@ -16,8 +18,25 @@ struct idb_stats {
 };
 #undef __idb_statistic
 
-struct idb {
+struct idb_snpa_entry {
+	idb_snpa_type_t 		snpa_type;
+	union {
+		unsigned char 		ieee48[6];
+		unsigned char 		ieee16[2];
+	};
+};
 
+struct idb_snpa_list {
+	int 				count;
+};
+
+struct idb {
+	__voltos_idb_index_t 		idb_index;
+	__voltos_idb_sort_t 		idb_sort_index;
+
+	idb_type_t 			idb_type;
+
+	
 };
 
 #endif /* _VOLTOS_IDB_H_ */

@@ -1,6 +1,8 @@
 #ifndef _VOLTOS_BBU_H_
 #define _VOLTOS_BBU_H_
 
+#include <nbapi/voltos/bbu.h>
+
 struct bbu {
 
 };

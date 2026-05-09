@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CPU_FEATURE_H_
+#define _VOLTOS_CPU_FEATURE_H_
+
+#endif /* _VOLTOS_CPU_FEATURE_H_ */

@@ -1,10 +1,34 @@
 #ifndef _NBAPI_VOLTOS_BRIDGE_H_
 #define _NBAPI_VOLTOS_BRIDGE_H_
 
-#define IF_PREFIX_BDI       "BDI"
-#define IF_PREFIX_BVI       "BVI"
+#define IF_PREFIX_BDI       			"BDI"
+#define IF_PREFIX_BVI       			"BVI"
 
-#define IF_HELP_BDI         "Bridge-Domain Interface\n"
-#define IF_HELP_BVI         "Bridge-Domain Virtual IP Interface\n"
+#define IF_HELP_BDI         			"Bridge-Domain Interface\n"
+#define IF_HELP_BVI         			"Bridge-Domain Virtual IP Interface\n"
+
+enum {
+    BRIDGE_IF_STATE_T_UNSPEC 			= 0,
+#define BRIDGE_IF_STATE_UNSPEC			BRIDGE_IF_STATE_T_UNSPEC
+    BRIDGE_IF_STATE_T_DOWN 			= 1,
+#define BRIDGE_IF_STATE_DOWN			BRIDGE_IF_STATE_T_DOWN
+    BRIDGE_IF_STATE_T_UP 			= 2,
+#define BRIDGE_IF_STATE_UP			BRIDGE_IF_STATE_T_UP
+    __BRIDGE_IF_STATE_T_MAX__
+};
+
+#define BRIDGE_IF_STATE_MAX			(__BRIDGE_IF_STATE_T_MAX__ - 1)
+
+enum {
+    BRIDGE_MAC_TYPE_T_UNSPEC 			= 0,
+#define BRIDGE_MAC_TYPE_UNSPEC			BRIDGE_MAC_TYPE_T_UNSPEC
+    BRIDGE_MAC_TYPE_T_STATIC 			= 1,
+#define BRIDGE_MAC_TYPE_STATIC			BRIDGE_MAC_TYPE_T_STATIC
+    BRIDGE_MAC_TYPE_T_DYNAMIC 			= 2,
+#define BRIDGE_MAC_TYPE_DYNAMIC			BRIDGE_MAC_TYPE_T_DYNAMIC
+    __BRIDGE_MAC_TYPE_T_MAX__
+};
+
+#define BRIDGE_MAC_TYPE_MAX			(__BRIDGE_MAC_TYPE_T_MAX__ - 1)
 
 #endif /* _NBAPI_VOLTOS_BRIDGE_H_ */
