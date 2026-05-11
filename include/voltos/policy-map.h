@@ -4,8 +4,11 @@
 #include <nbapi/voltos/policy-map.h>
 
 struct policy_map {
-    char                            pm_name[POLICY_MAP_NAME_SIZE];
-    __voltos_policy_map_id_t        pm_index;
+    char                            	pm_name[POLICY_MAP_NAME_SIZE];
+    __voltos_policy_map_id_t        	pm_index;
+
+    void				*pm_user_ctx;
+    void				*pm_internal_ctx;
 };
 
 #endif /* _VOLTOS_POLICY_MAP_H_ */

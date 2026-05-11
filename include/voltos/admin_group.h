@@ -6,6 +6,9 @@
 struct admin_group {
     char                        ag_name[ADMIN_GROUP_NAME_SIZE];
     __voltos_admin_group_id_t   ag_index;
+
+    void			*ag_user_ctx;
+    void			*ag_internal_ctx;
 };
 
 #endif /* _VOLTOS_ADMIN_GROUP_H_ */
