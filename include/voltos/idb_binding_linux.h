@@ -56,6 +56,9 @@ enum {
 struct idb_binding_linux {
 	char			if_name[IF_LINUX_NAME_SIZE];
 	__if_linux_index_t	if_index;
+	int				if_type;
+
+	struct idb 		*if_idb;
 };
 
 #endif /* _VOLTOS_IDB_BINDING_LINUX_H_ */

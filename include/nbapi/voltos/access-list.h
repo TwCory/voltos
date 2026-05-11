@@ -24,6 +24,18 @@
 #define ACL_ID_IPV4_EXTENDED_EXP_MIN        2000
 #define ACL_ID_IPV4_EXTENDED_EXP_MAX        2699
 
+enum {
+    ACL_ACTION_T_NONE                   = 0,
+#define ACL_ACTION_NONE                 ACL_ACTION_T_NONE
+    ACL_ACTION_T_DENY                   = 1,
+#define ACL_ACTION_DENY                 ACL_ACTION_T_DENY
+    ACL_ACTION_T_PERMIT                 = 2,
+#define ACL_ACTION_PERMIT               ACL_ACTION_PERMIT
+    __ACL_ACTION_T_MAX__
+};
+
+#define ACL_ACTION_MAX                  (__ACL_ACTION_T_MAX__ - 1)
+
 /* Legacy ACL Number/ID */
 typedef unsigned short                      __voltos_acl_id_t;
 

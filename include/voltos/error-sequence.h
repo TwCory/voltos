@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_ERROR_SEQUENCE_H_
+#define _VOLTOS_ERROR_SEQUENCE_H_
+
+
+
+#endif /* _VOLTOS_ERROR_SEQUENCE_H_ */

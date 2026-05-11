@@ -1,0 +1,16 @@
+#ifndef _VOLTOS_ETHERNET_DUPLEX_H_
+#define _VOLTOS_ETHERNET_DUPLEX_H_
+
+enum {
+    ETH_DUPLEX_T_HALF           = 1,
+#define ETH_DUPLEX_HALF         TH_DUPLEX_T_HALF
+    ETH_DUPLEX_T_FULL           = 2,
+#define ETH_DUPLEX_FULL         ETH_DUPLEX_T_FULL
+    ETH_DUPLEX_T_AUTO_DETECT    = 3,
+#define ETH_DUPLEX_AUTO_DETECT  ETH_DUPLEX_T_AUTO_DETECT
+    __ETH_DUPLEX_T_MAX__
+};
+
+#define ETH_DUPLEX_MAX          (__ETH_DUPLEX_T_MAX__ - 1)
+
+#endif /* _VOLTOS_ETHERNET_DUPLEX_H_ */

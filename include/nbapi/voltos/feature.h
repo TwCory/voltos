@@ -1,4 +1,7 @@
 #ifndef _NBAPI_VOLTOS_FEATURE_H_
 #define _NBAPI_VOLTOS_FEATURE_H_
 
+#define FEATURE_NAME_SIZE               64
+#define FEATURE_DESCRIPTION_SIZE        200
+
 #endif /* _NBAPI_VOLTOS_FEATURE_H_ */

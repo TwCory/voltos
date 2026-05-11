@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_ELF_CORE_COMPAT_H_
+#define _VOLTOS_ELF_CORE_COMPAT_H_
+
+
+
+#endif /* _VOLTOS_ELF_CORE_COMPAT_H_ */

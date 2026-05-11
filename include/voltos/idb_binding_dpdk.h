@@ -1,6 +1,8 @@
 #ifndef _VOLTOS_IDB_BINDING_DPDK_H_
 #define _VOLTOS_IDB_BINDING_DPDK_H_
 
+#define IF_DPDK_NAME_SIZE		32
+
 enum {
 	IF_DPDK_TYPE_T_BASEBAND,
 	IF_DPDK_TYPE_T_COMPRESS,
@@ -14,5 +16,12 @@ enum {
 	IF_DPDK_TYPE_T_REGEX,
 	__IF_DPDK_TYPE_T_MAX__
 }
+
+struct idb_binding_dpdk {
+	char 		if_name[IF_DPDK_NAME_SIZE];
+	int			if_type;
+
+	struct idb 	*if_idb;
+};
 
 #endif /* _VOLTOS_IDB_BINDING_DPDK_H_ */
