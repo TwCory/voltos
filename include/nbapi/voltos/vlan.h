@@ -11,6 +11,7 @@
 
 #define VLAN_NAME_SIZE                  24
 #define VLAN_GROUP_NAME_SIZE            24
+#define VLAN_FILTER_NAME_SIZE		20
 #define VLAN_COMMENT_SIZE               128
 
 #define VLAN_ID_MIN                     1
