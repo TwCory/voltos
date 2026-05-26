@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_SIGNAL_HOOK_H_
-#define _VOLTOS_SIGNAL_HOOK_H_
-
-#endif /* _VOLTOS_SIGNAL_HOOK_H_ */

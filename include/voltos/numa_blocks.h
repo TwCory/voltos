@@ -1,6 +1,0 @@
-#ifndef _VOLTOS_NUMA_BLOCKS_H_
-#define _VOLTOS_NUMA_BLOCKS_H_
-
-
-
-#endif /* _VOLTOS_NUMA_BLOCKS_H_ */

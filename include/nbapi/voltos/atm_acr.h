@@ -1,6 +1,0 @@
-#ifndef _NBAPI_VOLTOS_ATM_ACR_H_
-#define _NBAPI_VOLTOS_ATM_ACR_H_
-
-#define IF_PREFIX_ATM_ACR       "ATM-ACR"
-
-#endif /* _NBAPI_VOLTOS_ATM_ACR_H_ */

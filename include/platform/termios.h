@@ -1,4 +1,0 @@
-#ifndef _PLATFORM_TERMIOS_H_
-#define _PLATFORM_TERMIOS_H_
-
-#endif /* _PLATFORM_TERMIOS_H_ */

@@ -1,6 +1,0 @@
-#ifndef _NBAPI_VOLTOS_BATMAN_ADV_H_
-#define _NBAPI_VOLTOS_BATMAN_ADV_H_
-
-#define IF_PREFIX_BATMAN_Advanced		"BATMAN-Advanced"
-
-#endif /* _NBAPI_VOLTOS_BATMAN_ADV_H_ */

@@ -1,4 +1,0 @@
-#ifndef _PLATFORM_POSIX_TYPES_H_
-#define _PLATFORM_POSIX_TYPES_H_
-
-#endif /* _PLATFORM_POSIX_TYPES_H_ */

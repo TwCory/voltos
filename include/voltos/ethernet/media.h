@@ -1,9 +1,0 @@
-#ifndef _VOLTOS_ETHERNET_MEDIA_H_
-#define _VOLTOS_ETHERNET_MEDIA_H_
-
-enum {
-    ETH_MEDIA_TYPE_T_RJ45,
-    __ETH_MEDIA_TYPE_T_MAX__
-};
-
-#endif /* _VOLTOS_ETHERNET_MEDIA_H_ */

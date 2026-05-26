@@ -1,4 +1,0 @@
-#ifndef _NBAPI_VOLTOS_KEYCHAIN_H_
-#define _NBAPI_VOLTOS_KEYCHAIN_H_
-
-#endif /* _NBAPI_VOLTOS_KEYCHAIN_H_ */

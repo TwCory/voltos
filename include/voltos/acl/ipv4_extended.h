@@ -1,6 +1,0 @@
-#ifndef _VOLTOS_ACL_IPV4_EXTENDED_H_
-#define _VOLTOS_ACL_IPV4_EXTENDED_H_
-
-
-
-#endif /* _VOLTOS_ACL_IPV4_EXTENDED_H_ */

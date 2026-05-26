@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_BACKTRACE_H_
-#define _VOLTOS_BACKTRACE_H_
-
-#endif /* _VOLTOS_BACKTRACE_H_ */

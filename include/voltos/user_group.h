@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_USER_GROUP_H_
-#define _VOLTOS_USER_GROUP_H_
-
-#endif /* _VOLTOS_USER_GROUP_H_ */

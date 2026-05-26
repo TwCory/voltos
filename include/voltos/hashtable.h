@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_HASHTABLE_H_
-#define _VOLTOS_HASHTABLE_H_
-
-#endif /* _VOLTOS_HASHTABLE_H_ */

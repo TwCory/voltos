@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_TYPECHECK_H_
-#define _VOLTOS_TYPECHECK_H_
-
-#endif /* _VOLTOS_TYPECHECK_H_ */

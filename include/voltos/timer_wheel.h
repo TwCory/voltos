@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_TIMER_WHEEL_H_
-#define _VOLTOS_TIMER_WHEEL_H_
-
-#endif /* _VOLTOS_TIMER_WHEEL_H_ */

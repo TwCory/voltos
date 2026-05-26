@@ -1,4 +1,0 @@
-#ifndef _PLATFORM_AUXVEC_H_
-#define _PLATFORM_AUXVEC_H_
-
-#endif /* _PLATFORM_AUXVEC_H_ */

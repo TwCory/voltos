@@ -1,4 +1,0 @@
-#ifndef _PLATFORM_STATFS_H_
-#define _PLATFORM_STATFS_H_
-
-#endif /* _PLATFORM_STATFS_H_ */

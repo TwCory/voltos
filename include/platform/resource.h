@@ -1,4 +1,0 @@
-#ifndef _PLATFORM_RESOURCE_H_
-#define _PLATFORM_RESOURCE_H_
-
-#endif /* _PLATFORM_RESOURCE_H_ */
