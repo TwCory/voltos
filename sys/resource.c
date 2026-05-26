@@ -1,0 +1,1 @@
+#include <voltos/resource.h>
