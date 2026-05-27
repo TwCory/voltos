@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_TIMER_QUEUE_H_
+#define _VOLTOS_TIMER_QUEUE_H_
+
+#endif /* _VOLTOS_TIMER_QUEUE_H_ */

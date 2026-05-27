@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_FORMAT_ANSI_H_
+#define _VOLTOS_FORMAT_ANSI_H_
+
+#endif /* _VOLTOS_FORMAT_ANSI_H_ */

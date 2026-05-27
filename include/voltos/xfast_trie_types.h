@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_XFAST_TRIE_TYPES_H_
+#define _VOLTOS_XFAST_TRIE_TYPES_H_
+
+
+
+#endif /* _VOLTOS_XFAST_TRIE_TYPES_H_ */

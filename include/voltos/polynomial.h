@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_POLYNOMIAL_H_
+#define _VOLTOS_POLYNOMIAL_H_
+
+#endif /* _VOLTOS_POLYNOMIAL_H_ */

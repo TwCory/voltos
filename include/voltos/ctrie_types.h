@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_CTRIE_TYPES_H_
+#define _VOLTOS_CTRIE_TYPES_H_
+
+
+
+#endif /* _VOLTOS_CTRIE_TYPES_H_ */

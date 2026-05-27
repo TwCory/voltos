@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ERROR_INJECT_H_
+#define _VOLTOS_ERROR_INJECT_H_
+
+#endif /* _VOLTOS_ERROR_INJECT_H_ */
