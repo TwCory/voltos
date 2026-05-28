@@ -3,4 +3,8 @@
 
 #define TCP_PROTOCOL		6
 
+struct tcp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_TCP_H_ */

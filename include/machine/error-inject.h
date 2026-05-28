@@ -1,0 +1,4 @@
+#ifndef _MACHINE_ERROR_INJECT_H_
+#define _MACHINE_ERROR_INJECT_H_
+
+#endif /* _MACHINE_ERROR_INJECT_H_ */

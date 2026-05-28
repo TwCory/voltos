@@ -1,0 +1,4 @@
+#ifndef _SECURITY_LOGGING_H_
+#define _SECURITY_LOGGING_H_
+
+#endif /* _SECURITY_LOGGING_H_ */

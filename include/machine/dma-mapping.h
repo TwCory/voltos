@@ -1,0 +1,4 @@
+#ifndef _MACHINE_DMA_MAPPING_H_
+#define _MACHINE_DMA_MAPPING_H_
+
+#endif /* _MACHINE_DMA_MAPPING_H_ */

@@ -1,0 +1,4 @@
+#ifndef _MACHINE_AUDIT_WRITE_H_
+#define _MACHINE_AUDIT_WRITE_H_
+
+#endif /* _MACHINE_AUDIT_WRITE_H_ */

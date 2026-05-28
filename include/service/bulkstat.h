@@ -1,0 +1,4 @@
+#ifndef _SERVICE_BULKSTAT_H_
+#define _SERVICE_BULKSTAT_H_
+
+#endif /* _SERVICE_BULKSTAT_H_ */

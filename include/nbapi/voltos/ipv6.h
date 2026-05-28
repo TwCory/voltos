@@ -3,4 +3,8 @@
 
 #define IPV6_VERSION		6
 
+struct ipv6_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IPV6_H_ */

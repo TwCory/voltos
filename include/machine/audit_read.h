@@ -1,0 +1,4 @@
+#ifndef _MACHINE_AUDIT_READ_H_
+#define _MACHINE_AUDIT_READ_H_
+
+#endif /* _MACHINE_AUDIT_READ_H_ */

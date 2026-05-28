@@ -1,0 +1,4 @@
+#ifndef _BRIDGE_MAC_LEARNING_H_
+#define _BRIDGE_MAC_LEARNING_H_
+
+#endif /* _BRIDGE_MAC_LEARNING_H_ */

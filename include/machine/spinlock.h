@@ -1,0 +1,4 @@
+#ifndef _MACHINE_SPINLOCK_H_
+#define _MACHINE_SPINLOCK_H_
+
+#endif /* _MACHINE_SPINLOCK_H_ */

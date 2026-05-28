@@ -1,0 +1,4 @@
+#ifndef _SERVICE_DNS_SERVER_H_
+#define _SERVICE_DNS_SERVER_H_
+
+#endif /* _SERVICE_DNS_SERVER_H_ */

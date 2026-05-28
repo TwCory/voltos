@@ -1,0 +1,4 @@
+#ifndef _SERVICE_DHCP_SNOOPING_H_
+#define _SERVICE_DHCP_SNOOPING_H_
+
+#endif /* _SERVICE_DHCP_SNOOPING_H_ */

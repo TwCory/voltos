@@ -1,0 +1,4 @@
+#ifndef _ROUTER_STATIC_ROUTES_H_
+#define _ROUTER_STATIC_ROUTES_H_
+
+#endif /* _ROUTER_STATIC_ROUTES_H_ */

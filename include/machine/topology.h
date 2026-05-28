@@ -1,0 +1,4 @@
+#ifndef _MACHINE_TOPOLOGY_H_
+#define _MACHINE_TOPOLOGY_H_
+
+#endif /* _MACHINE_TOPOLOGY_H_ */
