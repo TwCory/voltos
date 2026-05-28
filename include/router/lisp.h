@@ -5,4 +5,8 @@ struct lisp {
 
 };
 
+struct lisp_interface {
+
+};
+
 #endif /* _ROUTER_LISP_H_ */

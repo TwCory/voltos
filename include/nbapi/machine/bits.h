@@ -1,0 +1,4 @@
+#ifndef _NBAPI_MACHINE_BITS_H_
+#define _NBAPI_MACHINE_BITS_H_
+
+#endif /* _NBAPI_MACHINE_BITS_H_ */

@@ -5,4 +5,8 @@ struct openfabric {
 
 };
 
+struct openfabric_interface {
+
+};
+
 #endif /* _ROUTER_OPENFABRIC_H_ */

@@ -1,0 +1,4 @@
+#ifndef _SERVICE_IGMP_SNOOPING_H_
+#define _SERVICE_IGMP_SNOOPING_H_
+
+#endif /* _SERVICE_IGMP_SNOOPING_H_ */

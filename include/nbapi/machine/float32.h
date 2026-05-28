@@ -1,0 +1,4 @@
+#ifndef _NBAPI_MACHINE_FLOAT32_H_
+#define _NBAPI_MACHINE_FLOAT32_H_
+
+#endif /* _NBAPI_MACHINE_FLOAT32_H_ */

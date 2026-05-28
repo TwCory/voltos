@@ -5,4 +5,8 @@ struct nat64 {
 
 };
 
+struct nat64_interface {
+
+};
+
 #endif /* _SERVICE_NAT64_H_ */

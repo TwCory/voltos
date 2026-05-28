@@ -5,4 +5,8 @@ struct hsls {
 
 };
 
+struct hsls_interface {
+
+};
+
 #endif /* _ROUTER_HSLS_H_ */

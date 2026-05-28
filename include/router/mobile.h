@@ -5,4 +5,8 @@ struct mobile {
 
 };
 
+struct mobile_interface {
+
+};
+
 #endif /* _ROUTER_MOBILE_H_ */

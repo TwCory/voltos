@@ -1,0 +1,4 @@
+#ifndef _NBAPI_MACHINE_BOOL_TYPE_H_
+#define _NBAPI_MACHINE_BOOL_TYPE_H_
+
+#endif /* _NBAPI_MACHINE_BOOL_TYPE_H_ */

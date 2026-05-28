@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_TELNET_H_
+#define _NBAPI_VOLTOS_TELNET_H_
+
+#endif /* _NBAPI_VOLTOS_TELNET_H_ */

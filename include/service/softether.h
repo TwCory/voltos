@@ -1,0 +1,4 @@
+#ifndef _SERVICE_SOFTETHER_H_
+#define _SERVICE_SOFTETHER_H_
+
+#endif /* _SERVICE_SOFTETHER_H_ */

@@ -5,4 +5,8 @@ struct dsr {
 
 };
 
+struct dsr_interface {
+
+};
+
 #endif /* _ROUTER_DSR_H_ */

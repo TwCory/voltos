@@ -5,4 +5,8 @@ struct olsr {
 
 };
 
+struct olsr_interface {
+
+};
+
 #endif /* _ROUTER_OLSR_H_ */

@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_TN3270_H_
+#define _NBAPI_VOLTOS_TN3270_H_
+
+#endif /* _NBAPI_VOLTOS_TN3270_H_ */

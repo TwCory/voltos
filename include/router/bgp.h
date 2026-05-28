@@ -5,4 +5,20 @@ struct bgp {
 
 };
 
+struct bgp_interface {
+
+};
+
+struct bgp_peer {
+
+};
+
+struct bgp_peer_group {
+
+};
+
+struct bgp_update_group {
+
+};
+
 #endif /* _ROUTER_BGP_H_ */

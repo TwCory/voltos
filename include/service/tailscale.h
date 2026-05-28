@@ -1,0 +1,4 @@
+#ifndef _SERVICE_TAILSCALE_H_
+#define _SERVICE_TAILSCALE_H_
+
+#endif /* _SERVICE_TAILSCALE_H_ */

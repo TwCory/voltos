@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_SYSLOG_H_
+#define _NBAPI_VOLTOS_SYSLOG_H_
+
+#endif /* _NBAPI_VOLTOS_SYSLOG_H_ */

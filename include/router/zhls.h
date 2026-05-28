@@ -5,4 +5,8 @@ struct zhls {
 
 };
 
+struct zhls_interface {
+
+};
+
 #endif /* _ROUTER_ZHLS_H_ */

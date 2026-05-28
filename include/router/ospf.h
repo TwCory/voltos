@@ -5,4 +5,12 @@ struct ospf {
 
 };
 
+struct ospf_area {
+
+};
+
+struct ospf_interface {
+
+};
+
 #endif /* _ROUTER_OSPF_H_ */
