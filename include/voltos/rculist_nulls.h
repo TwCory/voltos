@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RCULIST_NULLS_H_
+#define _VOLTOS_RCULIST_NULLS_H_
+
+#endif /* _VOLTOS_RCULIST_NULLS_H_ */
