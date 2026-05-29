@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: BSD-3-Clause
+
+---
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+ForEachMacros:
+    - '__config_node_list'
+...

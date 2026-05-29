@@ -1,6 +1,18 @@
 #ifndef _NBAPI_MACHINE_TYPES_H_
 #define _NBAPI_MACHINE_TYPES_H_
 
+#include <nbapi/machine/bits.h>
+#include <nbapi/machine/bool.h>
+#include <nbapi/machine/float16.h>
+#include <nbapi/machine/float32.h>
+#include <nbapi/machine/float64.h>
+#include <nbapi/machine/float128.h>
+#include <nbapi/machine/int8.h>
+#include <nbapi/machine/int16.h>
+#include <nbapi/machine/int32.h>
+#include <nbapi/machine/int64.h>
+#include <nbapi/machine/int128.h>
+
 typedef char 			__char;
 typedef signed char 		__s_char;
 typedef unsigned char 		__u_char;
