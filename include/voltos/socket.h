@@ -1,4 +1,24 @@
 #ifndef _VOLTOS_SOCKET_H_
 #define _VOLTOS_SOCKET_H_
 
+struct sockaddr {
+
+};
+
+struct linger {
+
+};
+
+struct msghdr {
+
+};
+
+struct mmsghdr {
+
+};
+
+struct cmsghdr {
+
+};
+
 #endif /* _VOLTOS_SOCKET_H_ */

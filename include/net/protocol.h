@@ -5,4 +5,12 @@ struct protocol {
 
 };
 
+struct ip_protocol {
+
+};
+
+struct ipv6_protocol {
+
+};
+
 #endif /* _NET_PROTOCOL_H_ */
