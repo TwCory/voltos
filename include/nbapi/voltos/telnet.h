@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_TELNET_H_
 #define _NBAPI_VOLTOS_TELNET_H_
 
+#define TELNET_PORT	23
+
 #endif /* _NBAPI_VOLTOS_TELNET_H_ */
