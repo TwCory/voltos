@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_XDP_DIAG_H_
+#define _NBAPI_VOLTOS_XDP_DIAG_H_
+
+#endif /* _NBAPI_VOLTOS_XDP_DIAG_H_ */

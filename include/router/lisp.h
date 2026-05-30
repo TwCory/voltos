@@ -6,7 +6,7 @@ struct lisp {
 };
 
 struct lisp_interface {
-
+	struct lisp *lisp;
 };
 
 #endif /* _ROUTER_LISP_H_ */

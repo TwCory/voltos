@@ -6,7 +6,7 @@ struct batman_adv {
 };
 
 struct batman_adv_interface {
-
+	struct batman_adv *batadv;
 };
 
 #endif /* _ROUTER_BATMAN_ADV_H_ */

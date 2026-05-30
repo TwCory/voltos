@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_IPC_ZONE_H_
 #define _NBAPI_VOLTOS_IPC_ZONE_H_
 
+#define IPC_ZONE_NAME_SIZE	36
+
 #endif /* _NBAPI_VOLTOS_IPC_ZONE_H_ */

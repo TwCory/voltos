@@ -6,7 +6,7 @@ struct bgp {
 };
 
 struct bgp_interface {
-
+	struct bgp *bgp;
 };
 
 struct bgp_peer {

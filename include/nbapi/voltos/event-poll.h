@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_EVENT_POLL_H_
+#define _NBAPI_VOLTOS_EVENT_POLL_H_
+
+#endif /* _NBAPI_VOLTOS_EVENT_POLL_H_ */

@@ -6,11 +6,11 @@ struct ospf {
 };
 
 struct ospf_area {
-
+	struct ospf *ospf;
 };
 
 struct ospf_interface {
-
+	struct ospf *ospf;
 };
 
 #endif /* _ROUTER_OSPF_H_ */

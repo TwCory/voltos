@@ -1,6 +1,8 @@
 #ifndef _NET_BFD_H_
 #define _NET_BFD_H_
 
+#include <voltos/bfd.h>
+
 struct bfd {
 
 };

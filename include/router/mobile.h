@@ -6,7 +6,7 @@ struct mobile {
 };
 
 struct mobile_interface {
-
+	struct mobile *mobile;
 };
 
 #endif /* _ROUTER_MOBILE_H_ */

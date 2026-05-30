@@ -1,6 +1,8 @@
 #ifndef _NET_BIER_H_
 #define _NET_BIER_H_
 
+#include <voltos/bier.h>
+
 struct bier {
 
 };

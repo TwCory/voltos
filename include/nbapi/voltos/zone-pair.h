@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_ZONE_PAIR_H_
 #define _NBAPI_VOLTOS_ZONE_PAIR_H_
 
+#define ZONE_PAIR_NAME_SIZE		36
+
 #endif /* _NBAPI_VOLTOS_ZONE_PAIR_H_ */

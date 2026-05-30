@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_DIALER_H_
+#define _NBAPI_VOLTOS_DIALER_H_
+
+#endif /* _NBAPI_VOLTOS_DIALER_H_ */

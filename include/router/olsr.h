@@ -6,7 +6,7 @@ struct olsr {
 };
 
 struct olsr_interface {
-
+	struct olsr *olsr;
 };
 
 #endif /* _ROUTER_OLSR_H_ */

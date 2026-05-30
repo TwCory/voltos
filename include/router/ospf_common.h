@@ -1,0 +1,4 @@
+#ifndef _ROUTER_OSPF_COMMON_H_
+#define _ROUTER_OSPF_COMMON_H_
+
+#endif /* _ROUTER_OSPF_COMMON_H_ */

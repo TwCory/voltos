@@ -6,7 +6,7 @@ struct rip {
 };
 
 struct rip_interface {
-
+	struct rip *rip;
 };
 
 #endif /* _ROUTER_RIP_H_ */

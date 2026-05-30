@@ -6,7 +6,7 @@ struct ripng {
 };
 
 struct ripng_interface {
-
+	struct ripng *ripng;
 };
 
 #endif /* _ROUTER_RIPNG_H_ */

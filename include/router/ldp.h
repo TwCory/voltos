@@ -6,7 +6,7 @@ struct ldp {
 };
 
 struct ldp_interface {
-
+	struct ldp *ldp;
 };
 
 #endif /* _ROUTER_LDP_H_ */

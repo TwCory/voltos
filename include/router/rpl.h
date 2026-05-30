@@ -6,7 +6,7 @@ struct rpl {
 };
 
 struct rpl_interface {
-
+	struct rpl *rpl;
 };
 
 #endif /* _ROUTER_RPL_H_ */

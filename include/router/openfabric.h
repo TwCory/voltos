@@ -6,7 +6,7 @@ struct openfabric {
 };
 
 struct openfabric_interface {
-
+	struct openfabric *openfabric;
 };
 
 #endif /* _ROUTER_OPENFABRIC_H_ */
