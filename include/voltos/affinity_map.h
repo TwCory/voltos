@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/affinity_map.h>
 
+struct affinity_map {
+
+};
+
 #endif /* _VOLTOS_AFFINITY_MAP_H_ */

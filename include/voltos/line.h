@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/line.h>
 
+struct line {
+
+};
+
 #endif /* _VOLTOS_LINE_H_ */

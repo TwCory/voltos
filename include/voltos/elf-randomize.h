@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ELF_RANDOMIZE_H_
+#define _VOLTOS_ELF_RANDOMIZE_H_
+
+#endif /* _VOLTOS_ELF_RANDOMIZE_H_ */

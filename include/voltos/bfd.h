@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/bfd.h>
 
+struct bfd_profile {
+
+};
+
 #endif /* _VOLTOS_BFD_H_ */

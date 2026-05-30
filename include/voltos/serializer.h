@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SERIALIZER_H_
+#define _VOLTOS_SERIALIZER_H_
+
+#endif /* _VOLTOS_SERIALIZER_H_ */

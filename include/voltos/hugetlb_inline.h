@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_HUGETLB_INLINE_H_
+#define _VOLTOS_HUGETLB_INLINE_H_
+
+#endif /* _VOLTOS_HUGETLB_INLINE_H_ */

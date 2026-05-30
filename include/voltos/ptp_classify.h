@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_PTP_CLASSIFY_H_
+#define _VOLTOS_PTP_CLASSIFY_H_
+
+#endif /* _VOLTOS_PTP_CLASSIFY_H_ */

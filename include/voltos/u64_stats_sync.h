@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_U64_STATS_SYNC_H_
+#define _VOLTOS_U64_STATS_SYNC_H_
+
+#endif /* _VOLTOS_U64_STATS_SYNC_H_ */

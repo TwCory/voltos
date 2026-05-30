@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/ipc_zone.h>
 
+struct ipc_zone {
+
+};
+
 #endif /* _VOLTOS_IPC_ZONE_H_ */

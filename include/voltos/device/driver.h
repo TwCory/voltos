@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DEVICE_DRIVER_H_
+#define _VOLTOS_DEVICE_DRIVER_H_
+
+#endif /* _VOLTOS_DEVICE_DRIVER_H_ */

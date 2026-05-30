@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/ipc.h>
 
+struct ipc_key {
+
+};
+
 #endif /* _VOLTOS_IPC_H_ */
