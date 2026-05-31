@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DNS_RESOLVER_H_
+#define _VOLTOS_DNS_RESOLVER_H_
+
+#endif /* _VOLTOS_DNS_RESOLVER_H_ */

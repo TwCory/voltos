@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_WORKQUEUE_H_
+#define _VOLTOS_WORKQUEUE_H_
+
+#endif /* _VOLTOS_WORKQUEUE_H_ */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SNMP_SERVER_H_
+#define _VOLTOS_SNMP_SERVER_H_
+
+#endif /* _VOLTOS_SNMP_SERVER_H_ */

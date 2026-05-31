@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_BOOT_INTEGRITY_H_
+#define _VOLTOS_BOOT_INTEGRITY_H_
+
+#endif /* _VOLTOS_BOOT_INTEGRITY_H_ */
