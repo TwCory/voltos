@@ -3,8 +3,10 @@
 
 #include <voltos/decnet.h>
 
-struct decnet {
+#include <net/protocol.h>
 
+struct decnet {
+	struct protocol *p_ptr;
 };
 
 struct decnet_interface {

@@ -1,6 +1,8 @@
 #ifndef _NET_IGMP_H_
 #define _NET_IGMP_H_
 
+#include <voltos/igmp.h>
+
 struct igmp {
 
 };

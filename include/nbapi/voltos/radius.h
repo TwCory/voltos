@@ -1,4 +1,8 @@
 #ifndef _NBAPI_VOLTOS_RADIUS_H_
 #define _NBAPI_VOLTOS_RADIUS_H_
 
+#define RADIUS_PORT		1812
+#define RADIUS_ACCT_PORT	1813
+#define RADSEC_PORT		2083
+
 #endif /* _NBAPI_VOLTOS_RADIUS_H_ */

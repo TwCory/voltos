@@ -1,4 +1,9 @@
 #ifndef _NBAPI_VOLTOS_GRE_H_
 #define _NBAPI_VOLTOS_GRE_H_
 
+
+#define GRE_CHANNEL_ETHERTYPE	0xB7EA
+
+#define GRE_PROTOCOL		47
+
 #endif /* _NBAPI_VOLTOS_GRE_H_ */

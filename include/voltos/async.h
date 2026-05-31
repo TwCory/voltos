@@ -5,4 +5,8 @@
 #define __async
 #endif /* __async */
 
+struct async_group {
+
+};
+
 #endif /* _VOLTOS_ASYNC_H_ */

@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_PGM_H_
 #define _NBAPI_VOLTOS_PGM_H_
 
+#define PGM_PROTOCOL		113
+
 struct pgm_spm_pkt {
 
 };

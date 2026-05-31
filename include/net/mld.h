@@ -1,6 +1,8 @@
 #ifndef _NET_MLD_H_
 #define _NET_MLD_H_
 
+#include <voltos/mld.h>
+
 struct mld {
 
 };

@@ -1,4 +1,9 @@
 #ifndef _NBAPI_VOLTOS_L2TP_H_
 #define _NBAPI_VOLTOS_L2TP_H_
 
+#define L2TP_PROTOCOL		115
+
+#define L2TP_PORT		1701
+#define L2TP_IPSEC_PORT		1707
+
 #endif /* _NBAPI_VOLTOS_L2TP_H_ */

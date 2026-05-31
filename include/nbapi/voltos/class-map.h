@@ -3,4 +3,6 @@
 
 #define CLASS_MAP_NAME_SIZE		36
 
+typedef unsigned int __voltos_class_map_idx_t;
+
 #endif /* _NBAPI_VOLTOS_CLASS_MAP_H_ */

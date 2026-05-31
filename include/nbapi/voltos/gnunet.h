@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_GNUNET_H_
+#define _NBAPI_VOLTOS_GNUNET_H_
+
+#define GNUNET_PORT	2086
+
+#endif /* _NBAPI_VOLTOS_GNUNET_H_ */

@@ -3,4 +3,6 @@
 
 #define TABLE_MAP_NAME_SIZE	36
 
+typedef unsigned int __voltos_table_map_idx_t;
+
 #endif /* _NBAPI_VOLTOS_TABLE_MAP_H_ */

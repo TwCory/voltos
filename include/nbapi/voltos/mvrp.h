@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_MVRP_H_
 #define _NBAPI_VOLTOS_MVRP_H_
 
+#define MVRP_ETHERTYPE		0x88F5
+
 #endif /* _NBAPI_VOLTOS_MVRP_H_ */

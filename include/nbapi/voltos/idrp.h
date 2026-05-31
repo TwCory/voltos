@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_IDRP_H_
+#define _NBAPI_VOLTOS_IDRP_H_
+
+#define IDRP_PROTOCOL		45
+
+#endif /* _NBAPI_VOLTOS_IDRP_H_ */

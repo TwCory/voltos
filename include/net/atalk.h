@@ -3,8 +3,10 @@
 
 #include <voltos/atalk.h>
 
-struct appletalk {
+#include <net/protocol.h>
 
+struct appletalk {
+	struct protocol *p_ptr;
 };
 
 struct appletalk_interface {

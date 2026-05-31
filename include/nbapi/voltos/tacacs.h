@@ -1,6 +1,7 @@
 #ifndef _NBAPI_VOLTOS_TACACS_H_
 #define _NBAPI_VOLTOS_TACACS_H_
 
-#define TACACS_PORT	49
+#define TACACS_PORT		49
+#define TACACS_DB_PORT		65
 
 #endif /* _NBAPI_VOLTOS_TACACS_H_ */

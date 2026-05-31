@@ -3,8 +3,10 @@
 
 #include <voltos/clns.h>
 
-struct clns {
+#include <net/protocol.h>
 
+struct clns {
+	struct protocol *p_ptr;
 };
 
 struct clns_interface {

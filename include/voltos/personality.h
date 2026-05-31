@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_PERSONALITY_H_
+#define _VOLTOS_PERSONALITY_H_
+
+#endif /* _VOLTOS_PERSONALITY_H_ */

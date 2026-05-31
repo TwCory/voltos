@@ -1,0 +1,6 @@
+#ifndef _NBAPI_VOLTOS_SHIM6_H_
+#define _NBAPI_VOLTOS_SHIM6_H_
+
+#define SHIM6_PROTOCOL		140
+
+#endif /* _NBAPI_VOLTOS_SHIM6_H_ */

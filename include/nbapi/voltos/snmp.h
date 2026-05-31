@@ -1,4 +1,10 @@
 #ifndef _NBAPI_VOLTOS_SNMP_H_
 #define _NBAPI_VOLTOS_SNMP_H_
 
+#define SNMP_ETHERTYPE		0x814C
+
+#define SNMP_PORT		161
+#define SNMP_TRAP_PORT		162
+#define SMUX_PORT		199
+
 #endif /* _NBAPI_VOLTOS_SNMP_H_ */

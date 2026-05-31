@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_LLDP_H_
 #define _NBAPI_VOLTOS_LLDP_H_
 
+#define LLDP_ETHERTYPE		0x88CC
+
 #endif /* _NBAPI_VOLTOS_LLDP_H_ */

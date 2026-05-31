@@ -3,8 +3,10 @@
 
 #include <voltos/dlsw.h>
 
-struct dlsw {
+#include <net/protocol.h>
 
+struct dlsw {
+	struct protocol *p_ptr;
 };
 
 struct dlsw_interface {

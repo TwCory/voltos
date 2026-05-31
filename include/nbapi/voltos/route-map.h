@@ -3,4 +3,6 @@
 
 #define ROUTE_MAP_NAME_SIZE		36
 
+typedef unsigned int __voltos_route_map_idx_t;
+
 #endif /* _NBAPI_VOLTOS_ROUTE_MAP_H_ */

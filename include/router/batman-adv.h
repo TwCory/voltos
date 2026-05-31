@@ -1,12 +1,16 @@
 #ifndef _ROUTER_BATMAN_ADV_H_
 #define _ROUTER_BATMAN_ADV_H_
 
-struct batman_adv {
+#include <voltos/batman-adv.h>
+#include <voltos/if.h>
+
+struct batadv {
 
 };
 
-struct batman_adv_interface {
-	struct batman_adv *batadv;
+struct batadv_interface {
+	struct batadv *batadv;
+	struct interface *if_ptr;
 };
 
 #endif /* _ROUTER_BATMAN_ADV_H_ */

@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_SCTP_H_
 #define _NBAPI_VOLTOS_SCTP_H_
 
+#define SCTP_PROTOCOL		132
+
 #endif /* _NBAPI_VOLTOS_SCTP_H_ */

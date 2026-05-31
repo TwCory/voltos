@@ -4,6 +4,8 @@
 #include <voltos/types.h>
 
 #define ARP_ETHERTYPE		0x0806
+#define FR_ARP_ETHERTYPE	0x0808
+#define RARP_ETHERTYPE		0x8035
 
 #define ARP_HRD_ETHERNET	1
 #define ARP_HRD_EXPETHER	2

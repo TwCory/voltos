@@ -1,0 +1,7 @@
+#ifndef _NBAPI_VOLTOS_IDPR_H_
+#define _NBAPI_VOLTOS_IDPR_H_
+
+#define IDPR_PROTOCOL		35
+#define IDPR_CMTP_PROTOCOL	38
+
+#endif /* _NBAPI_VOLTOS_IDPR_H_ */

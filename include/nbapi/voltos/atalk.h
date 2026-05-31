@@ -4,6 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define ATALK_ETHERTYPE		0x809B
+
 struct atalk_addr {
 
 };

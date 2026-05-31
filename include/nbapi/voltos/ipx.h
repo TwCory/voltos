@@ -4,6 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define IPX_PORT		213
+
 struct sockaddr_ipx {
 	__voltos_sa_family_t sipx_family;
 };

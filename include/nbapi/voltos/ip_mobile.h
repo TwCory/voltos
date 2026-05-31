@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_IP_MOBILE_H_
 #define _NBAPI_VOLTOS_IP_MOBILE_H_
 
+#define IP_MOBILE_AGENT_PORT		434
+
 #endif /* _NBAPI_VOLTOS_IP_MOBILE_H_ */

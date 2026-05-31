@@ -1,4 +1,6 @@
 #ifndef _NBAPI_VOLTOS_IDENT_H_
 #define _NBAPI_VOLTOS_IDENT_H_
 
+#define IDENT_PORT	113
+
 #endif /* _NBAPI_VOLTOS_IDENT_H_ */
