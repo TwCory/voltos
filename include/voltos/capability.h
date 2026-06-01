@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CAPABILITY_H_
+#define _VOLTOS_CAPABILITY_H_
+
+#endif /* _VOLTOS_CAPABILITY_H_ */

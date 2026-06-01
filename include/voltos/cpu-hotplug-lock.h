@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CPU_HOTPLUG_LOCK_H_
+#define _VOLTOS_CPU_HOTPLUG_LOCK_H_
+
+#endif /* _VOLTOS_CPU_HOTPLUG_LOCK_H_ */

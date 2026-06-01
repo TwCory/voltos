@@ -1,3 +1,8 @@
+/*
+ *  TCP/IP Connection-Oriented Sockets
+ *
+ */
+
 #ifndef _NET_INET_CONNECTION_SOCK_H_
 #define _NET_INET_CONNECTION_SOCK_H_
 
