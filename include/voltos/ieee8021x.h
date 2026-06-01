@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_IEEE8021X_H_
+#define _VOLTOS_IEEE8021X_H_
+
+#endif /* _VOLTOS_IEEE8021X_H_ */
