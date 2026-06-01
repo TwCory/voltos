@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ALARM_TIMER_H_
+#define _VOLTOS_ALARM_TIMER_H_
+
+#endif /* _VOLTOS_ALARM_TIMER_H_ */
