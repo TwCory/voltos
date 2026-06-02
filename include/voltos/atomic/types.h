@@ -52,4 +52,12 @@ typedef __atomic__ __u64	__atomic_u64;
 typedef __atomic__ __s128	__atomic_s128;
 typedef __atomic__ __u128	__atomic_u128;
 
+typedef struct {
+	__atomic__ s32 		counter;
+} atomic_t;
+
+typedef struct {
+	__atomic__ s64 		counter;
+} atomic64_t;
+
 #endif /* _VOLTOS_ATOMIC_TYPES_H_ */

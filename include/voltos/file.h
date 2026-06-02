@@ -3,4 +3,8 @@
 
 #include <sys/file.h>
 
+struct file {
+
+};
+
 #endif /* _VOLTOS_FILE_H_ */

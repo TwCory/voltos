@@ -4,6 +4,10 @@
 #include <sys/ipc.h>
 #include <nbapi/voltos/ipc.h>
 
+struct ipc {
+
+};
+
 struct ipc_key {
 
 };

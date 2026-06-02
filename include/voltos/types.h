@@ -6,6 +6,15 @@
 
 typedef __string 		string_t;
 
+typedef signed long 		intptr_t;
+typedef unsigned long 		uintptr_t;
+
+typedef signed long 		intfptr_t;
+typedef unsigned long 		uintfptr_t;
+
+typedef signed long 		intmax_t;
+typedef unsigned long 		uintmax_t;
+
 #ifdef __VOLTOS_PHY_ADDR_64BIT__
 typedef u64 			phy_addr_t;
 #else

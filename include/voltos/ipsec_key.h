@@ -1,4 +1,8 @@
 #ifndef _VOLTOS_IPSEC_KEY_H_
 #define _VOLTOS_IPSEC_KEY_H_
 
+struct ipsec_key {
+
+};
+
 #endif /* _VOLTOS_IPSEC_KEY_H_ */

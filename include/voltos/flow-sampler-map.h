@@ -4,7 +4,8 @@
 #include <nbapi/voltos/flow-sampler-map.h>
 
 struct flow_sampler_map {
-
+	__voltos_flow_sampler_map_idx_t 	index;
+	char 					name[FLOW_SAMPLER_MAP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_FLOW_SAMPLER_MAP_H_ */

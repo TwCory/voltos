@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_RSVP_TE_H_
+#define _NBAPI_VOLTOS_RSVP_TE_H_
+
+#endif /* _NBAPI_VOLTOS_RSVP_TE_H_ */

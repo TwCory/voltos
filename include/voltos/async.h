@@ -5,7 +5,7 @@
 #define __async
 #endif /* __async */
 
-struct async_group {
+struct async_namespace {
 
 };
 

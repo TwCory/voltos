@@ -5,6 +5,10 @@ struct mbuf_head {
 
 };
 
+struct mbuf_common_ctx {
+
+};
+
 struct mbuf {
 	
 };
@@ -14,6 +18,10 @@ struct mbuf_fast_clones {
 };
 
 struct mbuf_seq_state {
+
+};
+
+struct mbuf_ext {
 
 };
 

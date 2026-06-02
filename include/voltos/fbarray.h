@@ -3,6 +3,6 @@
 
 typedef struct {
 
-} fbarray_t;
+} fb_array_t;
 
 #endif /* _VOLTOS_FBARRAY_H_ */

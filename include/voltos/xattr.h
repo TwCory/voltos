@@ -4,4 +4,12 @@
 #include <sys/xattr.h>
 #include <nbapi/voltos/xattr.h>
 
+struct xattr_handle {
+
+};
+
+struct xattr {
+
+};
+
 #endif /* _VOLTOS_XATTR_H_ */

@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_ATM_TCP_H_
+#define _NBAPI_VOLTOS_ATM_TCP_H_
+
+#endif /* _NBAPI_VOLTOS_ATM_TCP_H_ */
