@@ -1,4 +1,6 @@
 #ifndef _SERVICE_IPOE_H_
 #define _SERVICE_IPOE_H_
 
+#include <voltos/ipoe.h>
+
 #endif /* _SERVICE_IPOE_H_ */

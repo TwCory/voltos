@@ -1,6 +1,8 @@
 #ifndef _SERVICE_NHRP_H_
 #define _SERVICE_NHRP_H_
 
+#include <voltos/nhrp.h>
+
 struct nhrp_cache {
 
 };
