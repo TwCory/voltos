@@ -6,8 +6,10 @@
 #include <voltos/device/class.h>
 #include <voltos/device/driver.h>
 
-struct device {
+typedef unsigned long long 		__voltos_device_idx_t;
 
+struct device {
+	__voltos_device_idx_t 		index;
 };
 
 #endif /* _VOLTOS_DEVICE_H_ */

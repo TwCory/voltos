@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/feature.h>
 
+struct feature {
+
+};
+
 #endif /* _VOLTOS_FEATURE_H_ */

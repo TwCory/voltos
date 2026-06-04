@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/module.h>
 
+struct module {
+
+};
+
 #endif /* _VOLTOS_MODULE_H_ */

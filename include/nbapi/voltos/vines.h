@@ -5,4 +5,8 @@
 #define VINES_LOOPBACK_ETHERTYPE	0x0BAE
 #define VINES_ECHO_ETHERTYPE		0x0BAF
 
+struct sockaddr_vines {
+
+};
+
 #endif /* _NBAPI_VOLTOS_VINES_H_ */
