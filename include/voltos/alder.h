@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_ALDER_H_
-#define _VOLTOS_ALDER_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_ALDER_H_ */
+#ifndef VOLTOS_ALDER_H
+#define VOLTOS_ALDER_H
+
+#endif /* VOLTOS_ALDER_H */

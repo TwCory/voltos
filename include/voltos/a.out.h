@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#ifndef _VOLTOS_A_OUT_H_
-#define _VOLTOS_A_OUT_H_
+#ifndef VOLTOS_A_OUT_H
+#define VOLTOS_A_OUT_H
 
 #include <nbapi/voltos/a.out.h>
 
-#endif /* _VOLTOS_A_OUT_H_ */
+#endif /* VOLTOS_A_OUT_H */

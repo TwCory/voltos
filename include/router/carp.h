@@ -1,6 +1,6 @@
-#ifndef _ROUTER_CARP_H_
-#define _ROUTER_CARP_H_
+#ifndef CARP_ROUTER_H
+#define CARP_ROUTER_H
 
 #include <voltos/carp.h>
 
-#endif /* _ROUTER_CARP_H_ */
+#endif /* CARP_ROUTER_H */

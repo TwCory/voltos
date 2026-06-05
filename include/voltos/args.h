@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_ARGS_H_
-#define _VOLTOS_ARGS_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_ARGS_H_ */
+#ifndef VOLTOS_ARGS_H
+#define VOLTOS_ARGS_H
+
+#endif /* VOLTOS_ARGS_H */

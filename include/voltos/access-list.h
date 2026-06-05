@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#ifndef _VOLTOS_ACCESS_LIST_H_
-#define _VOLTOS_ACCESS_LIST_H_
+#ifndef VOLTOS_ACCESS_LIST_H
+#define VOLTOS_ACCESS_LIST_H
 
 #include <nbapi/voltos/access-list.h>
 
@@ -11,4 +11,4 @@ struct access_list {
 	__voltos_acl_id_t 	acl_number;
 };
 
-#endif /* _VOLTOS_ACCESS_LIST_H_ */
+#endif /* VOLTOS_ACCESS_LIST_H */

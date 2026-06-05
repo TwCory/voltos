@@ -1,5 +1,5 @@
-#ifndef _ROUTER_DSR_H_
-#define _ROUTER_DSR_H_
+#ifndef DSR_ROUTER_H
+#define DSR_ROUTER_H
 
 #include <voltos/dsr.h>
 #include <voltos/if.h>
@@ -13,4 +13,4 @@ struct dsr_interface {
 	struct interface *if_ptr;
 };
 
-#endif /* _ROUTER_DSR_H_ */
+#endif /* DSR_ROUTER_H */

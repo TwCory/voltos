@@ -1,5 +1,7 @@
-#ifndef _VOLTOS_ATOMIC_TYPES_H_
-#define _VOLTOS_ATOMIC_TYPES_H_
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef VOLTOS_ATOMIC_TYPES_H
+#define VOLTOS_ATOMIC_TYPES_H
 
 #include <voltos/types.h>
 
@@ -60,4 +62,4 @@ typedef struct {
 	__atomic__ s64 		counter;
 } atomic64_t;
 
-#endif /* _VOLTOS_ATOMIC_TYPES_H_ */
+#endif /* VOLTOS_ATOMIC_TYPES_H */

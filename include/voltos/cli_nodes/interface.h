@@ -1,5 +1,7 @@
-#ifndef _VOLTOS_CLI_NODES_INTERFACE_H_
-#define _VOLTOS_CLI_NODES_INTERFACE_H_
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef VOLTOS_CLI_NODES_INTERFACE_H
+#define VOLTOS_CLI_NODES_INTERFACE_H
 
 
 #define __foreach_cli_interface_node		\
@@ -44,4 +46,4 @@
 	_ ("x25", 			"") \
 	_ ("zone-member", 		"") \
 
-#endif /* _VOLTOS_CLI_NODES_INTERFACE_H_ */
+#endif /* VOLTOS_CLI_NODES_INTERFACE_H */

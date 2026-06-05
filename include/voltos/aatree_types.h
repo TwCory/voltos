@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#ifndef _VOLTOS_AATREE_TYPES_H_
-#define _VOLTOS_AATREE_TYPES_H_
+#ifndef VOLTOS_AATREE_TYPES_H
+#define VOLTOS_AATREE_TYPES_H
 
 struct aa_node {
 	struct aa_node 		*aa_left;
@@ -16,4 +16,4 @@ struct aa_root_cached {
 	struct aa_root 		aa_root;
 };
 
-#endif /* _VOLTOS_AATREE_TYPES_H_ */
+#endif /* VOLTOS_AATREE_TYPES_H */

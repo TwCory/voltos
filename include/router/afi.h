@@ -1,5 +1,5 @@
-#ifndef _ROUTER_AFI_H_
-#define _ROUTER_AFI_H_
+#ifndef ROUTER_AFI_H
+#define ROUTER_AFI_H
 
 #define AFI_IPV4			1
 #define AFI_IPV6			2
@@ -84,4 +84,4 @@
 typedef unsigned short 			afi_t;
 typedef unsigned char 			safi_t;
 
-#endif /* _ROUTER_AFI_H_ */
+#endif /* ROUTER_AFI_H */

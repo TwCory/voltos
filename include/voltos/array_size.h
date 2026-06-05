@@ -1,8 +1,10 @@
-#ifndef _VOLTOS_ARRAY_SIZE_H_
-#define _VOLTOS_ARRAY_SIZE_H_
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef VOLTOS_ARRAY_SIZE_H
+#define VOLTOS_ARRAY_SIZE_H
 
 #ifndef array_size
 #define array_size(array)		(sizeof(array) / sizeof((array)[0]))
 #endif /* array_size */
 
-#endif /* _VOLTOS_ARRAY_SIZE_H_ */
+#endif /* VOLTOS_ARRAY_SIZE_H */

@@ -1,5 +1,5 @@
-#ifndef _ROUTER_BABEL_H_
-#define _ROUTER_BABEL_H_
+#ifndef BABEL_ROUTER_H
+#define BABEL_ROUTER_H
 
 #include <voltos/babel.h>
 #include <voltos/if.h>
@@ -51,4 +51,4 @@ struct babel_xroute {
 	struct babel 			*babel;
 };
 
-#endif /* _ROUTER_BABEL_H_ */
+#endif /* BABEL_ROUTER_H */

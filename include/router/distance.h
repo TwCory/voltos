@@ -1,9 +1,9 @@
-#ifndef _ROUTER_DISTANCE_H_
-#define _ROUTER_DISTANCE_H_
+#ifndef ROUTER_DISTANCE_H
+#define ROUTER_DISTANCE_H
 
 #define DISTANCE_MIN		0
 #define DISTANCE_MAX		255
 
 typedef unsigned char 		distance_t;
 
-#endif /* _ROUTER_DISTANCE_H_ */
+#endif /* ROUTER_DISTANCE_H */

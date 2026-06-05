@@ -1,5 +1,7 @@
-#ifndef _VOLTOS_CLI_NODES_CONFIGURE_H_
-#define _VOLTOS_CLI_NODES_CONFIGURE_H_
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef VOLTOS_CLI_NODES_CONFIGURE_H
+#define VOLTOS_CLI_NODES_CONFIGURE_H
 
 #define __foreach_cli_configure_node \
     	_ ("aaa", 				"Authentication, Authorization and Accounting\n") \
@@ -209,4 +211,20 @@
     	_ ("zone", 				"") \
     	_ ("zone-pair", 			"") \
 
-#endif /* _VOLTOS_CLI_NODES_CONFIGURE_H_ */
+#define __foreach_cli_configure_router_node 										\
+	_ ("babel", 			"Babel Routing Protocol\n") 							\
+	_ ("bgp", 			"Border Gateway Protocol (BGP)\n") 						\
+	_ ("eigrp", 			"Cisco Enhanced Interior Gateway Routing Protocol (EIGRP)\n") 			\
+	_ ("hsls", 			"Hazy-Sighted Link State (HSLS) Routing Protocol\n") 				\
+	_ ("isis", 			"ISO/IEC Intermediate System to Intermediate System (IS-IS)\n") 		\
+	_ ("iso-igrp", 			"Cisco Interior Gateway Routing Protocol (IGRP) for ISO/IEC Networks\n") 	\
+	_ ("lisp", 			"Locator/ID Separation Protocol (LISP)\n") 					\
+	_ ("mobile", 			"Mobile IP Routes\n") 								\
+	_ ("olsr", 			"Optimized Link State Routing (OLSR) Protocol\n") 				\
+	_ ("openfabric", 		"IETF OpenFabric Link State Protocol\n") 					\
+	_ ("ospf", 			"Open Shortest Path First (OSPF)\n") 						\
+	_ ("ospfv3", 			"Open Shortest Path First Version 3 (OSPFv3)\n") 				\
+	_ ("rip", 			"Routing Information Protocol (RIP)\n") 					\
+	_ ("zhls", 			"Zone-Based Hierarchical Link State (ZHLS) Routing Protocol\n") 		\
+
+#endif /* VOLTOS_CLI_NODES_CONFIGURE_H */

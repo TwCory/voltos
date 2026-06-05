@@ -1,5 +1,5 @@
-#ifndef _ROUTER_BGP_H_
-#define _ROUTER_BGP_H_
+#ifndef BGP_ROUTER_H
+#define BGP_ROUTER_H
 
 #include <voltos/bgp.h>
 #include <voltos/if.h>
@@ -43,4 +43,4 @@ struct bgp_update_group {
 
 };
 
-#endif /* _ROUTER_BGP_H_ */
+#endif /* BGP_ROUTER_H */

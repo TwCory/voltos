@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_BYTEORDER_HOST_H_
-#define _VOLTOS_BYTEORDER_HOST_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_BYTEORDER_HOST_H_ */
+#ifndef VOLTOS_BYTEORDER_HOST_H
+#define VOLTOS_BYTEORDER_HOST_H
+
+#endif /* VOLTOS_BYTEORDER_HOST_H */

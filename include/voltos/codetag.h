@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_CODETAG_H_
-#define _VOLTOS_CODETAG_H_
+#ifndef VOLTOS_CODETAG_H
+#define VOLTOS_CODETAG_H
 
 struct codetag {
 
@@ -13,4 +13,4 @@ struct codetag_iter {
 
 };
 
-#endif /* _VOLTOS_CODETAG_H_ */
+#endif /* VOLTOS_CODETAG_H */

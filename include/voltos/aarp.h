@@ -5,9 +5,9 @@
  *
  */
 
-#ifndef _VOLTOS_AARP_H_
-#define _VOLTOS_AARP_H_
+#ifndef VOLTOS_AARP_H
+#define VOLTOS_AARP_H
 
 #include <nbapi/voltos/aarp.h>
 
-#endif /* _VOLTOS_AARP_H_ */
+#endif /* VOLTOS_AARP_H */

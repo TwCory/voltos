@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_CLI_NODES_LINE_H_
-#define _VOLTOS_CLI_NODES_LINE_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_CLI_NODES_LINE_H_ */
+#ifndef VOLTOS_CLI_NODES_LINE_H
+#define VOLTOS_CLI_NODES_LINE_H
+
+#endif /* VOLTOS_CLI_NODES_LINE_H */

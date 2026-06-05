@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ASCII85_H_
-#define _VOLTOS_ASCII85_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
+#ifndef VOLTOS_ASCII85_H
+#define VOLTOS_ASCII85_H
 
-
-#endif /* _VOLTOS_ASCII85_H_ */
+#endif /* VOLTOS_ASCII85_H */

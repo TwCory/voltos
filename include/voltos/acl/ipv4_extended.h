@@ -1,8 +1,10 @@
-#ifndef _VOLTOS_ACL_IPV4_EXTENDED_H_
-#define _VOLTOS_ACL_IPV4_EXTENDED_H_
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef VOLTOS_ACL_IPV4_EXTENDED_H
+#define VOLTOS_ACL_IPV4_EXTENDED_H
 
 struct ipv4_extended_ace {
 
 };
 
-#endif /* _VOLTOS_ACL_IPV4_EXTENDED_H_ */
+#endif /* VOLTOS_ACL_IPV4_EXTENDED_H */

@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_COMPILER_TYPES_H_
-#define _VOLTOS_COMPILER_TYPES_H_
+#ifndef VOLTOS_COMPILER_TYPES_H
+#define VOLTOS_COMPILER_TYPES_H
 
 #include <voltos/compiler_attributes.h>
 
@@ -26,4 +26,4 @@ struct f_trace_likely_ctx {
 	unsigned long 				constant;
 };
 
-#endif /* _VOLTOS_COMPILER_TYPES_H_ */
+#endif /* VOLTOS_COMPILER_TYPES_H */

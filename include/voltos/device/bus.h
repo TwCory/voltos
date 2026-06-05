@@ -1,4 +1,10 @@
-#ifndef _VOLTOS_DEVICE_BUS_H_
-#define _VOLTOS_DEVICE_BUS_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_DEVICE_BUS_H_ */
+#ifndef VOLTOS_DEVICE_BUS_H
+#define VOLTOS_DEVICE_BUS_H
+
+struct device_bus {
+
+};
+
+#endif /* VOLTOS_DEVICE_BUS_H */

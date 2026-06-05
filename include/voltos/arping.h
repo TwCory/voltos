@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_ARPING_H_
-#define _VOLTOS_ARPING_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_ARPING_H_ */
+#ifndef VOLTOS_ARPING_H
+#define VOLTOS_ARPING_H
+
+#endif /* VOLTOS_ARPING_H */

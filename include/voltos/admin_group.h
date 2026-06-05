@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ADMIN_GROUP_H_
-#define _VOLTOS_ADMIN_GROUP_H_
+#ifndef VOLTOS_ADMIN_GROUP_H
+#define VOLTOS_ADMIN_GROUP_H
 
 #include <nbapi/voltos/admin_group.h>
 
@@ -13,4 +13,4 @@ struct ext_admin_group {
 	char 				name[EXT_ADMIN_GROUP_NAME_SIZE];
 };
 
-#endif /* _VOLTOS_ADMIN_GROUP_H_ */
+#endif /* VOLTOS_ADMIN_GROUP_H */

@@ -1,8 +1,10 @@
-#ifndef _VOLTOS_ACL_XNS_STANDARD_H_
-#define _VOLTOS_ACL_XNS_STANDARD_H_
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef VOLTOS_ACL_XNS_STANDARD_H
+#define VOLTOS_ACL_XNS_STANDARD_H
 
 struct xns_standard_ace {
 
 };
 
-#endif /* _VOLTOS_ACL_XNS_STANDARD_H_ */
+#endif /* VOLTOS_ACL_XNS_STANDARD_H */

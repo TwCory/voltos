@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ALIGN_H_
-#define _VOLTOS_ALIGN_H_
+#ifndef VOLTOS_ALIGN_H
+#define VOLTOS_ALIGN_H
 
 #include <stdalign.h>
 
-#endif /* _VOLTOS_ALIGN_H_ */
+#endif /* VOLTOS_ALIGN_H */

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#ifndef _VOLTOS_AATREE_H_
-#define _VOLTOS_AATREE_H_
+#ifndef VOLTOS_AATREE_H
+#define VOLTOS_AATREE_H
 
 #include <voltos/aatree_types.h>
 
-#endif /* _VOLTOS_AATREE_H_ */
+#endif /* VOLTOS_AATREE_H */

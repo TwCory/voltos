@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_AFFINITY_MAP_H_
-#define _VOLTOS_AFFINITY_MAP_H_
+#ifndef VOLTOS_AFFINITY_MAP_H
+#define VOLTOS_AFFINITY_MAP_H
 
 #include <nbapi/voltos/affinity_map.h>
 
@@ -8,4 +8,4 @@ struct affinity_map {
 	char 				name[AFFINITY_MAP_NAME_SIZE];
 };
 
-#endif /* _VOLTOS_AFFINITY_MAP_H_ */
+#endif /* VOLTOS_AFFINITY_MAP_H */

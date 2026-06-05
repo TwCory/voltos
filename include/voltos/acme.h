@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ACME_H_
-#define _VOLTOS_ACME_H_
+#ifndef VOLTOS_ACME_H
+#define VOLTOS_ACME_H
 
 #include <nbapi/voltos/acme.h>
 
-#endif /* _VOLTOS_ACME_H_ */
+#endif /* VOLTOS_ACME_H */

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#ifndef _VOLTOS_COMPILER_ATTRIBUTES_H_
-#define _VOLTOS_COMPILER_ATTRIBUTES_H_
+#ifndef VOLTOS_COMPILER_ATTRIBUTES_H
+#define VOLTOS_COMPILER_ATTRIBUTES_H
 
 #define __alias(symbol)			__attribute__ ((__alias__(#symbol)))
 
@@ -141,4 +141,4 @@
 
 
 
-#endif /* _VOLTOS_COMPILER_ATTRIBUTES_H_ */
+#endif /* VOLTOS_COMPILER_ATTRIBUTES_H */

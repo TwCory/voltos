@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_ALARM_TIMER_H_
-#define _VOLTOS_ALARM_TIMER_H_
+#ifndef VOLTOS_ALARM_TIMER_H
+#define VOLTOS_ALARM_TIMER_H
 
 struct alarm {
 
 };
 
-#endif /* _VOLTOS_ALARM_TIMER_H_ */
+#endif /* VOLTOS_ALARM_TIMER_H */
