@@ -1,17 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
 #ifndef _VOLTOS_INET_H_
 #define _VOLTOS_INET_H_
 
-#include <voltos/types.h>
-
-typedef u16 		asn16_t;
-typedef u32 		asn32_t;
-
-typedef u16 		ip_port_t;
-typedef u8 		ip_protocol_t;
-typedef u8 		ip_ttl_t;
-
-typedef signed char 	hostname_t;
-typedef signed char 	domain_name_t;
-typedef signed char 	uri_t;
+#include <voltos/inet_const.h>
+#include <voltos/inet_helpers.h>
+#include <voltos/inet_types.h>
 
 #endif /* _VOLTOS_INET_H_ */
