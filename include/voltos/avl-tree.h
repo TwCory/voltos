@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_AVL_TREE_H_
-#define _VOLTOS_AVL_TREE_H_
+#ifndef VOLTOS_AVL_TREE_H
+#define VOLTOS_AVL_TREE_H
 
 #include <voltos/avl-tree-types.h>
 
-#endif /* _VOLTOS_AVL_TREE_H_ */
+#define avl_parent
+
+#define avl_entry
+
+#endif /* VOLTOS_AVL_TREE_H */

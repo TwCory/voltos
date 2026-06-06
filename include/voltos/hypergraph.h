@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_HYPERGRAPH_H_
-#define _VOLTOS_HYPERGRAPH_H_
+#ifndef VOLTOS_HYPERGRAPH_H
+#define VOLTOS_HYPERGRAPH_H
 
 #include <voltos/hypergraph_types.h>
 
-#endif /* _VOLTOS_HYPERGRAPH_H_ */
+#endif /* VOLTOS_HYPERGRAPH_H */

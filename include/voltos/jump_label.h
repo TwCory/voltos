@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_JUMP_LABEL_H_
-#define _VOLTOS_JUMP_LABEL_H_
+#ifndef VOLTOS_JUMP_LABEL_H
+#define VOLTOS_JUMP_LABEL_H
 
 struct jump_entry {
 
 };
 
-#endif /* _VOLTOS_JUMP_LABEL_H_ */
+#endif /* VOLTOS_JUMP_LABEL_H */

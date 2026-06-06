@@ -1,6 +1,6 @@
-#ifndef _ROUTER_IGMP_H_
-#define _ROUTER_IGMP_H_
+#ifndef IGMP_ROUTER_H
+#define IGMP_ROUTER_H
 
 #include <voltos/igmp.h>
 
-#endif /* _ROUTER_IGMP_H_ */
+#endif /* IGMP_ROUTER_H */

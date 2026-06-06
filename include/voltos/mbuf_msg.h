@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_MBUF_MSG_H_
-#define _VOLTOS_MBUF_MSG_H_
+#ifndef VOLTOS_MBUF_MSG_H
+#define VOLTOS_MBUF_MSG_H
 
 struct mbuf_msg_sgl {
 
@@ -9,4 +9,4 @@ struct mbuf_msg {
 
 };
 
-#endif /* _VOLTOS_MBUF_MSG_H_ */
+#endif /* VOLTOS_MBUF_MSG_H */

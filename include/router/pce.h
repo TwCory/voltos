@@ -1,4 +1,4 @@
-#ifndef _ROUTER_PCE_H_
-#define _ROUTER_PCE_H_
+#ifndef ROUTER_PCE_H
+#define ROUTER_PCE_H
 
-#endif /* _ROUTER_PCE_H_ */
+#endif /* ROUTER_PCE_H */

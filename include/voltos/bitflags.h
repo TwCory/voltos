@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_BITFLAGS_H_
-#define _VOLTOS_BITFLAGS_H_
+#ifndef VOLTOS_BITFLAGS_H
+#define VOLTOS_BITFLAGS_H
 
-#endif /* _VOLTOS_BITFLAGS_H_ */
+#endif /* VOLTOS_BITFLAGS_H */

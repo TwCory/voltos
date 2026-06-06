@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_BSTR_H_
-#define _VOLTOS_BSTR_H_
+#ifndef VOLTOS_BSTR_H
+#define VOLTOS_BSTR_H
 
-#endif /* _VOLTOS_BSTR_H_ */
+#endif /* VOLTOS_BSTR_H */

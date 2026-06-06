@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_PFR_H_
-#define _VOLTOS_PFR_H_
+#ifndef VOLTOS_PFR_H
+#define VOLTOS_PFR_H
 
 #include <nbapi/voltos/pfr.h>
 
-#endif /* _VOLTOS_PFR_H_ */
+#endif /* VOLTOS_PFR_H */

@@ -1,6 +1,10 @@
-#ifndef _ROUTER_PIM_H_
-#define _ROUTER_PIM_H_
+#ifndef PIM_ROUTER_H
+#define PIM_ROUTER_H
 
 #include <voltos/pim.h>
 
-#endif /* _ROUTER_PIM_H_ */
+struct pim_mroute {
+
+};
+
+#endif /* PIM_ROUTER_H */

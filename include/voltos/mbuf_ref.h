@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_MBUF_REF_H_
-#define _VOLTOS_MBUF_REF_H_
+#ifndef VOLTOS_MBUF_REF_H
+#define VOLTOS_MBUF_REF_H
 
-#endif /* _VOLTOS_MBUF_REF_H_ */
+#endif /* VOLTOS_MBUF_REF_H */

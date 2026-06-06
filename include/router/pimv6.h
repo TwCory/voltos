@@ -1,6 +1,10 @@
-#ifndef _ROUTER_PIMV6_H_
-#define _ROUTER_PIMV6_H_
+#ifndef PIMV6_ROUTER_H
+#define PIMV6_ROUTER_H
 
 #include <voltos/pimv6.h>
 
-#endif /* _ROUTER_PIMV6_H_ */
+struct pimv6_mroute {
+
+};
+
+#endif /* PIMV6_ROUTER_H */

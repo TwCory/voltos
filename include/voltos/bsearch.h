@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_BSEARCH_H_
-#define _VOLTOS_BSEARCH_H_
+#ifndef VOLTOS_BSEARCH_H
+#define VOLTOS_BSEARCH_H
 
-#endif /* _VOLTOS_BSEARCH_H_ */
+#endif /* VOLTOS_BSEARCH_H */

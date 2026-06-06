@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_BBA_GROUP_H_
-#define _VOLTOS_BBA_GROUP_H_
+#ifndef VOLTOS_BBA_GROUP_H
+#define VOLTOS_BBA_GROUP_H
 
 #include <voltos/refcount.h>
 #include <nbapi/voltos/bba-group.h>
@@ -11,4 +11,4 @@ struct bba_group {
 	refcount_t 			ref_count;
 };
 
-#endif /* _VOLTOS_BBA_GROUP_H_ */
+#endif /* VOLTOS_BBA_GROUP_H */

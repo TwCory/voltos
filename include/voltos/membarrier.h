@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_MEMBARRIER_H_
-#define _VOLTOS_MEMBARRIER_H_
+#ifndef VOLTOS_MEMBARRIER_H
+#define VOLTOS_MEMBARRIER_H
 
 #include <nbapi/voltos/membarrier.h>
 
-#endif /* _VOLTOS_MEMBARRIER_H_ */
+#endif /* VOLTOS_MEMBARRIER_H */

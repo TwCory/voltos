@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_BSM_H_
-#define _VOLTOS_BSM_H_
+#ifndef VOLTOS_BSM_H
+#define VOLTOS_BSM_H
 
 #include <nbapi/voltos/bsm.h>
 
-#endif /* _VOLTOS_BSM_H_ */
+#endif /* VOLTOS_BSM_H */

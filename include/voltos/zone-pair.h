@@ -1,11 +1,14 @@
-#ifndef _VOLTOS_ZONE_PAIR_H_
-#define _VOLTOS_ZONE_PAIR_H_
+#ifndef VOLTOS_ZONE_PAIR_H
+#define VOLTOS_ZONE_PAIR_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/zone-pair.h>
 
 struct zone_pair {
 	__voltos_zone_pair_idx_t 	index;
 	char 				name[ZONE_PAIR_NAME_SIZE];
+
+	refcount_t 			ref_count;
 };
 
-#endif /* _VOLTOS_ZONE_PAIR_H_ */
+#endif /* VOLTOS_ZONE_PAIR_H */

@@ -1,5 +1,5 @@
-#ifndef _ROUTER_EIGRP_TYPES_H_
-#define _ROUTER_EIGRP_TYPES_H_
+#ifndef ROUTER_EIGRP_TYPES_H
+#define ROUTER_EIGRP_TYPES_H
 
 #include <voltos/types.h>
 
@@ -14,4 +14,4 @@ typedef u32 		eigrp_system_metric_t;
 typedef u32 		eigrp_system_delay_t;
 typedef u32 		eigrp_system_bandwidth_t;
 
-#endif /* _ROUTER_EIGRP_TYPES_H_ */
+#endif /* ROUTER_EIGRP_TYPES_H */

@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_BITVEC_H_
-#define _VOLTOS_BITVEC_H_
+#ifndef VOLTOS_BITVEC_H
+#define VOLTOS_BITVEC_H
 
 typedef struct {
 
 } bitvec_t;
 
-#endif /* _VOLTOS_BITVEC_H_ */
+#endif /* VOLTOS_BITVEC_H */

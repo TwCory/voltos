@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_CLASS_MAP_H_
-#define _VOLTOS_CLASS_MAP_H_
+#ifndef VOLTOS_CLASS_MAP_H
+#define VOLTOS_CLASS_MAP_H
 
 #include <voltos/refcount.h>
 #include <nbapi/voltos/class-map.h>
@@ -11,4 +11,4 @@ struct class_map {
 	refcount_t 			ref_count;
 };
 
-#endif /* _VOLTOS_CLASS_MAP_H_ */
+#endif /* VOLTOS_CLASS_MAP_H */

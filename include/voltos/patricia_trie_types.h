@@ -1,6 +1,12 @@
-#ifndef _VOLTOS_PATRICIA_TRIE_TYPES_H_
-#define _VOLTOS_PATRICIA_TRIE_TYPES_H_
+#ifndef VOLTOS_PATRICIA_TRIE_TYPES_H
+#define VOLTOS_PATRICIA_TRIE_TYPES_H
 
+struct patricia_trie_node {
 
+};
 
-#endif /* _VOLTOS_PATRICIA_TRIE_TYPES_H_ */
+struct patricia_trie_head {
+
+};
+
+#endif /* VOLTOS_PATRICIA_TRIE_TYPES_H */

@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_MHASH_H_
-#define _VOLTOS_MHASH_H_
+#ifndef VOLTOS_MHASH_H
+#define VOLTOS_MHASH_H
 
-#endif /* _VOLTOS_MHASH_H_ */
+#endif /* VOLTOS_MHASH_H */

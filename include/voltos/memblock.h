@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_MEMBLOCK_H_
-#define _VOLTOS_MEMBLOCK_H_
+#ifndef VOLTOS_MEMBLOCK_H
+#define VOLTOS_MEMBLOCK_H
 
 struct mem_block_region {
 
@@ -13,4 +13,4 @@ struct mem_block {
 
 };
 
-#endif /* _VOLTOS_MEMBLOCK_H_ */
+#endif /* VOLTOS_MEMBLOCK_H */

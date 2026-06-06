@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_LOG2_H_
-#define _VOLTOS_LOG2_H_
+#ifndef VOLTOS_LOG2_H
+#define VOLTOS_LOG2_H
 
-#endif /* _VOLTOS_LOG2_H_ */
+#endif /* VOLTOS_LOG2_H */

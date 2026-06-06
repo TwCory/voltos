@@ -1,8 +1,8 @@
-#ifndef _ROUTER_FILTER_H_
-#define _ROUTER_FILTER_H_
+#ifndef ROUTER_FILTER_H
+#define ROUTER_FILTER_H
 
 struct filter_ctx {
 
 };
 
-#endif /* _ROUTER_FILTER_H_ */
+#endif /* ROUTER_FILTER_H */

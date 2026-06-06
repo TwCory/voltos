@@ -1,5 +1,5 @@
-#ifndef _ROUTER_IF_H_
-#define _ROUTER_IF_H_
+#ifndef ROUTER_IF_H
+#define ROUTER_IF_H
 
 typedef enum {
 	IF_PASSIVE_TYPE_T_DISABLE				= 0,
@@ -14,4 +14,4 @@ typedef enum {
 	__IF_SPLIT_HORIZON_POLICY_T_MAX__
 } if_split_horizon_policy_t;
 
-#endif /* _ROUTER_IF_H_ */
+#endif /* ROUTER_IF_H */

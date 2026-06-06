@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_ASYNC_STREAM_H_
-#define _VOLTOS_ASYNC_STREAM_H_
+#ifndef VOLTOS_ASYNC_STREAM_H
+#define VOLTOS_ASYNC_STREAM_H
 
 struct async_stream {
 
 };
 
-#endif /* _VOLTOS_ASYNC_STREAM_H_ */
+#endif /* VOLTOS_ASYNC_STREAM_H */

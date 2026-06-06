@@ -1,7 +1,7 @@
-#ifndef _ROUTER_PFR_H_
-#define _ROUTER_PFR_H_
+#ifndef PFR_ROUTER_H
+#define PFR_ROUTER_H
 
 #include <voltos/pfr.h>
 #include <voltos/pfr-map.h>
 
-#endif /* _ROUTER_PFR_H_ */
+#endif /* PFR_ROUTER_H */

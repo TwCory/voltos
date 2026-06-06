@@ -1,6 +1,6 @@
-#ifndef _ROUTER_MSDP_H_
-#define _ROUTER_MSDP_H_
+#ifndef MSDP_ROUTER_H
+#define MSDP_ROUTER_H
 
 #include <voltos/msdp.h>
 
-#endif /* _ROUTER_MSDP_H_ */
+#endif /* MSDP_ROUTER_H */

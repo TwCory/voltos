@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_MEMREMAP_H_
-#define _VOLTOS_MEMREMAP_H_
+#ifndef VOLTOS_MEMREMAP_H
+#define VOLTOS_MEMREMAP_H
 
 struct mem_pagemap {
 
 };
 
-#endif /* _VOLTOS_MEMREMAP_H_ */
+#endif /* VOLTOS_MEMREMAP_H */

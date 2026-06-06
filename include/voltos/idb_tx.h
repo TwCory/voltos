@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_IDB_TX_H_
-#define _VOLTOS_IDB_TX_H_
+#ifndef VOLTOS_IDB_TX_H
+#define VOLTOS_IDB_TX_H
 
 struct idb_transmit {
 
 };
 
-#endif /* _VOLTOS_IDB_TX_H_ */
+#endif /* VOLTOS_IDB_TX_H */

@@ -1,6 +1,10 @@
-#ifndef _ROUTER_DVMRP_H_
-#define _ROUTER_DVMRP_H_
+#ifndef DVMRP_ROUTER_H
+#define DVMRP_ROUTER_H
 
 #include <voltos/dvmrp.h>
 
-#endif /* _ROUTER_DVMRP_H_ */
+struct dvmrp_mroute {
+
+};
+
+#endif /* DVMRP_ROUTER_H */

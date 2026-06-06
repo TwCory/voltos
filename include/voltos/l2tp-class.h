@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_L2TP_CLASS_H_
-#define _VOLTOS_L2TP_CLASS_H_
+#ifndef VOLTOS_L2TP_CLASS_H
+#define VOLTOS_L2TP_CLASS_H
 
 #include <voltos/refcount.h>
 #include <nbapi/voltos/l2tp-class.h>
@@ -11,4 +11,4 @@ struct l2tp_class {
 	refcount_t 			ref_count;
 };
 
-#endif /* _VOLTOS_L2TP_CLASS_H_ */
+#endif /* VOLTOS_L2TP_CLASS_H */

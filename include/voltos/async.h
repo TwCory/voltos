@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ASYNC_H_
-#define _VOLTOS_ASYNC_H_
+#ifndef VOLTOS_ASYNC_H
+#define VOLTOS_ASYNC_H
 
 #ifndef __async
 #define __async
@@ -9,4 +9,4 @@ struct async_namespace {
 
 };
 
-#endif /* _VOLTOS_ASYNC_H_ */
+#endif /* VOLTOS_ASYNC_H */

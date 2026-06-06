@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_LUA_H_
-#define _VOLTOS_LUA_H_
+#ifndef VOLTOS_LUA_H
+#define VOLTOS_LUA_H
 
-#endif /* _VOLTOS_LUA_H_ */
+#endif /* VOLTOS_LUA_H */

@@ -1,16 +1,17 @@
-#ifndef _ROUTER_LDP_H_
-#define _ROUTER_LDP_H_
+#ifndef LDP_ROUTER_H
+#define LDP_ROUTER_H
 
 #include <voltos/if.h>
 #include <voltos/ldp.h>
+#include <voltos/net_router.h>
 
 struct ldp {
-
+	struct router 			*router;
 };
 
 struct ldp_interface {
-	struct ldp *ldp;
-	struct interface *if_ptr;
+	struct ldp 			*ldp;
+	struct interface 		*if_ptr;
 };
 
-#endif /* _ROUTER_LDP_H_ */
+#endif /* LDP_ROUTER_H */

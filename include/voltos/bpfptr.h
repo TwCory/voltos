@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_BPFPTR_H_
-#define _VOLTOS_BPFPTR_H_
+#ifndef VOLTOS_BPFPTR_H
+#define VOLTOS_BPFPTR_H
 
-#endif /* _VOLTOS_BPFPTR_H_ */
+#include <voltos/sockptr.h>
+
+typedef sockptr_t bpfptr_t;
+
+#endif /* VOLTOS_BPFPTR_H */

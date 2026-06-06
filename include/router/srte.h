@@ -1,4 +1,4 @@
-#ifndef _ROUTER_SRTE_H_
-#define _ROUTER_SRTE_H_
+#ifndef ROUTER_SRTE_H
+#define ROUTER_SRTE_H
 
-#endif /* _ROUTER_SRTE_H_ */
+#endif /* ROUTER_SRTE_H */

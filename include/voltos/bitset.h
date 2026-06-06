@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_BITSET_H_
-#define _VOLTOS_BITSET_H_
+#ifndef VOLTOS_BITSET_H
+#define VOLTOS_BITSET_H
 
 typedef struct {
 
 } bitset_t;
 
-#endif /* _VOLTOS_BITSET_H_ */
+#endif /* VOLTOS_BITSET_H */

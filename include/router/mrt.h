@@ -1,4 +1,4 @@
-#ifndef _ROUTER_MRT_H_
-#define _ROUTER_MRT_H_
+#ifndef MRT_ROUTER_H
+#define MRT_ROUTER_H
 
-#endif /* _ROUTER_MRT_H_ */
+#endif /* MRT_ROUTER_H */

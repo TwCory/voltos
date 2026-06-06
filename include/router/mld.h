@@ -1,6 +1,6 @@
-#ifndef _ROUTER_MLD_H_
-#define _ROUTER_MLD_H_
+#ifndef MLD_ROUTER_H
+#define MLD_ROUTER_H
 
 #include <voltos/mld.h>
 
-#endif /* _ROUTER_MLD_H_ */
+#endif /* MLD_ROUTER_H */

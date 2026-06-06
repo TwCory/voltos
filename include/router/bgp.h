@@ -3,10 +3,14 @@
 
 #include <voltos/bgp.h>
 #include <voltos/if.h>
+#include <voltos/net_router.h>
+#include <voltos/route.h>
 
 #include <router/bgp_types.h>
 
 struct bgp {
+	struct router 		*router;
+
 	bgp_asn_t 		asn;
 	char 			*asn_str;
 
@@ -40,7 +44,12 @@ struct bgp_peer_group {
 };
 
 struct bgp_update_group {
+	struct bgp 		*bgp;
+};
 
+struct bgp_route {
+	struct bgp 		*bgp;
+	struct route 		*route_ptr;
 };
 
 #endif /* BGP_ROUTER_H */

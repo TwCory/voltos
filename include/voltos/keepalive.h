@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_KEEPALIVE_H_
-#define _VOLTOS_KEEPALIVE_H_
+#ifndef VOLTOS_KEEPALIVE_H
+#define VOLTOS_KEEPALIVE_H
 
-#endif /* _VOLTOS_KEEPALIVE_H_ */
+#endif /* VOLTOS_KEEPALIVE_H */

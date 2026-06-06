@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_LSDB_H_
-#define _VOLTOS_LSDB_H_
+#ifndef VOLTOS_LSDB_H
+#define VOLTOS_LSDB_H
 
 struct lsdb_head {
 
@@ -9,4 +9,4 @@ struct lsdb_node {
 
 };
 
-#endif /* _VOLTOS_LSDB_H_ */
+#endif /* VOLTOS_LSDB_H */

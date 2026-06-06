@@ -1,6 +1,6 @@
-#ifndef _ROUTER_HSRP_H_
-#define _ROUTER_HSRP_H_
+#ifndef HSRP_ROUTER_H
+#define HSRP_ROUTER_H
 
 #include <voltos/hsrp.h>
 
-#endif /* _ROUTER_HSRP_H_ */
+#endif /* HSRP_ROUTER_H */

@@ -1,6 +1,11 @@
-#ifndef _VOLTOS_BITS_H_
-#define _VOLTOS_BITS_H_
+#ifndef VOLTOS_BITS_H
+#define VOLTOS_BITS_H
 
 #include <nbapi/voltos/bits.h>
 
-#endif /* _VOLTOS_BITS_H_ */
+#define __bit_mask
+#define __bit_word
+#define __bit_ull_mask
+#define __bit_ull_word
+
+#endif /* VOLTOS_BITS_H */

@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_IPHC_PROFILE_H_
-#define _VOLTOS_IPHC_PROFILE_H_
+#ifndef VOLTOS_IPHC_PROFILE_H
+#define VOLTOS_IPHC_PROFILE_H
 
 #include <voltos/refcount.h>
 #include <nbapi/voltos/iphc-profile.h>
@@ -11,4 +11,4 @@ struct iphc_profile {
 	refcount_t 			ref_count;
 };
 
-#endif /* _VOLTOS_IPHC_PROFILE_H_ */
+#endif /* VOLTOS_IPHC_PROFILE_H */

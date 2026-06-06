@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_HYPERGRAPH_TYPES_H_
-#define _VOLTOS_HYPERGRAPH_TYPES_H_
+#ifndef VOLTOS_HYPERGRAPH_TYPES_H
+#define VOLTOS_HYPERGRAPH_TYPES_H
 
 struct hypergraph_head {
 
@@ -9,4 +9,4 @@ struct hypergraph_node {
 
 };
 
-#endif /* _VOLTOS_HYPERGRAPH_TYPES_H_ */
+#endif /* VOLTOS_HYPERGRAPH_TYPES_H */

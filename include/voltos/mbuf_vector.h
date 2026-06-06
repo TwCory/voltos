@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_MBUF_VECTOR_H_
-#define _VOLTOS_MBUF_VECTOR_H_
+#ifndef VOLTOS_MBUF_VECTOR_H
+#define VOLTOS_MBUF_VECTOR_H
 
 struct mbuf_vector {
 
 };
 
-#endif /* _VOLTOS_MBUF_VECTOR_H_ */
+#endif /* VOLTOS_MBUF_VECTOR_H */

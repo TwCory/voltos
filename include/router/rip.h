@@ -1,10 +1,12 @@
-#ifndef _ROUTER_RIP_H_
-#define _ROUTER_RIP_H_
+#ifndef RIP_ROUTER_H
+#define RIP_ROUTER_H
 
 #include <voltos/bfd.h>
 #include <voltos/if.h>
 #include <voltos/inet.h>
+#include <voltos/net_router.h>
 #include <voltos/rip.h>
+#include <voltos/route.h>
 #include <voltos/thread.h>
 #include <voltos/types.h>
 #include <voltos/vrf.h>
@@ -16,6 +18,8 @@
 #include <router/redistribute.h>
 
 struct rip {
+	struct router 			*router;
+
 	char 				*vrf_name;
 	struct vrf 			*vrf_ptr;
 
@@ -49,7 +53,7 @@ struct rip {
 	struct {
 		u64 			route_changes;
 		u64 			queries;
-	} snmp_counters;
+	} counters;
 };
 
 struct rip_interface {
@@ -100,4 +104,13 @@ struct rip_peer {
 	struct bfd_session_ctx 		*bfd_session;
 };
 
-#endif /* _ROUTER_RIP_H_ */
+struct rip_route {
+	struct rip 			*rip;
+	struct route 			*route_ptr;
+};
+
+struct rip_offset_list {
+	struct rip 			*rip;
+};
+
+#endif /* RIP_ROUTER_H */

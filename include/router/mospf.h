@@ -1,6 +1,10 @@
-#ifndef _ROUTER_MOSPF_H_
-#define _ROUTER_MOSPF_H_
+#ifndef MOSPF_ROUTER_H
+#define MOSPF_ROUTER_H
 
 #include <voltos/mospf.h>
 
-#endif /* _ROUTER_MOSPF_H_ */
+struct mospf_mroute {
+
+};
+
+#endif /* MOSPF_ROUTER_H */

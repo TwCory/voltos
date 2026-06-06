@@ -3,9 +3,17 @@
 
 #include <voltos/babel.h>
 #include <voltos/if.h>
+#include <voltos/net_router.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
+#include <voltos/vrf.h>
 
 struct babel {
+	struct router 			*router;
+
+	char 				*vrf_name;
+	struct vrf 			*vrf_ptr;
+
 	u64 				router_id;
 	u16 				update_seqno;
 	u8 				update_seqno_inc;
@@ -32,6 +40,7 @@ struct babel_resend {
 
 struct babel_route {
 	struct babel 			*babel;
+	struct route 			*route_ptr;
 
 	u64 				router_id;
 	u8 				feasible;

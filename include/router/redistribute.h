@@ -1,8 +1,8 @@
-#ifndef _ROUTER_REDISTRIBUTE_H_
-#define _ROUTER_REDISTRIBUTE_H_
+#ifndef ROUTER_REDISTRIBUTE_H
+#define ROUTER_REDISTRIBUTE_H
 
 struct redistribute_ctx {
 
 };
 
-#endif /* _ROUTER_REDISTRIBUTE_H_ */
+#endif /* ROUTER_REDISTRIBUTE_H */

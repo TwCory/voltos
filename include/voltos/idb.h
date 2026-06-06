@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_IDB_H_
-#define _VOLTOS_IDB_H_
+#ifndef VOLTOS_IDB_H
+#define VOLTOS_IDB_H
 
 #include <voltos/if.h>
 #include <nbapi/voltos/idb.h>
@@ -43,4 +43,4 @@ struct idb {
 	struct interface 		*if_ptr;
 };
 
-#endif /* _VOLTOS_IDB_H_ */
+#endif /* VOLTOS_IDB_H */

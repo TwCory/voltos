@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_MEMORY_H_
-#define _VOLTOS_MEMORY_H_
+#ifndef VOLTOS_MEMORY_H
+#define VOLTOS_MEMORY_H
 
 struct memory_group {
 
@@ -13,4 +13,4 @@ struct memory_notify {
 
 };
 
-#endif /* _VOLTOS_MEMORY_H_ */
+#endif /* VOLTOS_MEMORY_H */

@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_BITMAP_H_
-#define _VOLTOS_BITMAP_H_
+#ifndef VOLTOS_BITMAP_H
+#define VOLTOS_BITMAP_H
 
 typedef struct {
 
 } bitmap_t;
 
-#endif /* _VOLTOS_BITMAP_H_ */
+#endif /* VOLTOS_BITMAP_H */

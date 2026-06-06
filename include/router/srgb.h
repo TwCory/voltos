@@ -1,4 +1,4 @@
-#ifndef _ROUTER_SRGB_H_
-#define _ROUTER_SRGB_H_
+#ifndef ROUTER_SRGB_H
+#define ROUTER_SRGB_H
 
-#endif /* _ROUTER_SRGB_H_ */
+#endif /* ROUTER_SRGB_H */

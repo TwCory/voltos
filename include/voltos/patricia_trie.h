@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_PATRICIA_TRIE_H_
-#define _VOLTOS_PATRICIA_TRIE_H_
+#ifndef VOLTOS_PATRICIA_TRIE_H
+#define VOLTOS_PATRICIA_TRIE_H
 
 #include <voltos/patricia_trie_types.h>
 
-#endif /* _VOLTOS_PATRICIA_TRIE_H_ */
+#endif /* VOLTOS_PATRICIA_TRIE_H */

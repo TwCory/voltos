@@ -1,8 +1,8 @@
-#ifndef _ROUTER_MRM_H_
-#define _ROUTER_MRM_H_
+#ifndef ROUTER_MRM_H
+#define ROUTER_MRM_H
 
 struct mrm {
 
 };
 
-#endif /* _ROUTER_MRM_H_ */
+#endif /* ROUTER_MRM_H */

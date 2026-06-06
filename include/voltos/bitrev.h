@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_BITREV_H_
-#define _VOLTOS_BITREV_H_
+#ifndef VOLTOS_BITREV_H
+#define VOLTOS_BITREV_H
 
 #define __bitrev8
 #define __bitrev16
 #define __bitrev32
 
-#endif /* _VOLTOS_BITREV_H_ */
+#endif /* VOLTOS_BITREV_H */

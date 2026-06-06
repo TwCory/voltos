@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_MEMREGION_H_
-#define _VOLTOS_MEMREGION_H_
+#ifndef VOLTOS_MEMREGION_H
+#define VOLTOS_MEMREGION_H
 
 struct mem_region_ctx {
 
 };
 
-#endif /* _VOLTOS_MEMREGION_H_ */
+#endif /* VOLTOS_MEMREGION_H */

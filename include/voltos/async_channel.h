@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_ASYNC_CHANNEL_H_
-#define _VOLTOS_ASYNC_CHANNEL_H_
+#ifndef VOLTOS_ASYNC_CHANNEL_H
+#define VOLTOS_ASYNC_CHANNEL_H
 
 struct async_channel {
 
 };
 
-#endif /* _VOLTOS_ASYNC_CHANNEL_H_ */
+#endif /* VOLTOS_ASYNC_CHANNEL_H */

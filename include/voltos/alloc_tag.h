@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ALLOC_TAG_H_
-#define _VOLTOS_ALLOC_TAG_H_
+#ifndef VOLTOS_ALLOC_TAG_H
+#define VOLTOS_ALLOC_TAG_H
 
 #include <voltos/codetag.h>
 #include <voltos/percpu.h>
@@ -35,4 +35,4 @@ struct codetag_bytes {
 	s64 					bytes;
 };
 
-#endif /* _VOLTOS_ALLOC_TAG_H_ */
+#endif /* VOLTOS_ALLOC_TAG_H */
