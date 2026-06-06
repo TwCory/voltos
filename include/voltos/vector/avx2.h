@@ -1,0 +1,4 @@
+#ifndef VOLTOS_VECTOR_AVX2_H
+#define VOLTOS_VECTOR_AVX2_H
+
+#endif /* VOLTOS_VECTOR_AVX2_H */

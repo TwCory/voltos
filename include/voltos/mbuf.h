@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_MBUF_H_
-#define _VOLTOS_MBUF_H_
+#ifndef VOLTOS_MBUF_H
+#define VOLTOS_MBUF_H
 
 #include <voltos/idb.h>
 #include <voltos/list.h>
@@ -34,6 +34,13 @@ struct mbuf {
 	};
 
 	struct socket 				*socket;
+
+	__u16 					transport_header;
+	__u16 					network_header;
+	__u16 					link_header;
+
+	unsigned char 				*head;
+	unsigned char 				*data;
 };
 
 struct mbuf_fast_clones {
@@ -48,4 +55,20 @@ struct mbuf_ext {
 
 };
 
-#endif /* _VOLTOS_MBUF_H_ */
+static inline unsigned char *mbuf_transport_header(const struct mbuf *m)
+{
+	return m->head + m->transport_header;
+}
+
+static inline unsigned char *mbuf_network_header(const struct mbuf *m)
+{
+	return m->head + m->network_header;
+}
+
+static inline unsigned char *mbuf_link_header(const struct mbuf *m)
+{
+	return m->head + m->link_header;
+}
+
+
+#endif /* VOLTOS_MBUF_H */

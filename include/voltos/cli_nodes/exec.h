@@ -4,15 +4,172 @@
 #define VOLTOS_CLI_NODES_EXEC_H
 
 #define __foreach_cli_exec_node		\
+	_ ("access-enable", "") \
+	_ ("access-profile", "") \
+	_ ("access-template", "") \
+	_ ("alps", "") \
+	_ ("archive", "") \
+	_ ("audio-prompt", "") \
+	_ ("auto", "") \
+	_ ("beep", "") \
+	_ ("bfe", "") \
+	_ ("bert", "") \
+	_ ("calendar", "") \
+	_ ("call", "") \
+	_ ("call-home", "") \
+	_ ("cd", "") \
+	_ ("clear", "") \
+	_ ("clock", "") \
+	_ ("cns", "") \
+	_ ("configure", "") \
+	_ ("connect", "") \
 	_ ("copy", "") \
+	_ ("crypto", "") \
+	_ ("dcm", "") \
 	_ ("debug", "") \
 	_ ("disable", "") \
+	_ ("disconnect", "") \
 	_ ("enable", "") \
+	_ ("exit", "") \
+	_ ("help", "") \
 	_ ("login", "") \
 	_ ("logout", "") \
+	_ ("mkdir", "") \
+	_ ("name-connection", "") \
+	_ ("pad", "") \
 	_ ("ping", "") \
+	_ ("ppp", "") \
+	_ ("resume", "") \
+	_ ("rlogin", "") \
+	_ ("rmdir", "") \
+	_ ("set", "") \
 	_ ("show", "") \
+	_ ("slip", "") \
+	_ ("ssh", "") \
+	_ ("systat", "") \
+	_ ("telnet", "") \
 	_ ("traceroute", "") \
+	_ ("tunnel", "") \
+	_ ("undebug", "") \
+	_ ("where", "") \
 	_ ("write", "") \
+	_ ("x28", "") \
+	_ ("x3", "") \
+
+#define __foreach_cli_exec_show \
+	_ ("aaa", "") \
+	_ ("aal2", "") \
+	_ ("access-lists", "") \
+	_ ("accounting", "") \
+	_ ("acircuit", "") \
+	_ ("adjacency", "") \
+	_ ("alarm-interface", "") \
+	_ ("alg", "") \
+	_ ("aliases", "") \
+	_ ("alignment", "") \
+	_ ("alps", "") \
+	_ ("als", "") \
+	_ ("appfw", "") \
+	_ ("appletalk", "") \
+	_ ("application-buckets", "") \
+	_ ("aps", "") \
+	_ ("arap", "") \
+	_ ("archive", "") \
+	_ ("arp", "") \
+	_ ("asic-version", "") \
+	_ ("async", "") \
+	_ ("atm", "") \
+	_ ("audit", "") \
+	_ ("authentication", "") \
+	_ ("auto", "") \
+	_ ("auto-config", "") \
+	_ ("auto-ip-ring", "") \
+	_ ("auto-upgrade", "") \
+	_ ("autonomic", "") \
+	_ ("backhaul-session-manager", "") \
+	_ ("backup", "") \
+	_ ("bfd", "") \
+	_ ("bgp", "") \
+	_ ("bootflash:", "") \
+	_ ("bootvar:", "") \
+	_ ("bridge", "") \
+	_ ("bridge-domain", "") \
+	_ ("bsc", "") \
+	_ ("bstun", "") \
+	_ ("buffers", "") \
+	_ ("busyout", "") \
+	_ ("cable", "") \
+	_ ("cable-diagnostics", "") \
+	_ ("calendar", "") \
+	_ ("call", "") \
+	_ ("call-home", "") \
+	_ ("call-router", "") \
+	_ ("caller", "") \
+	_ ("callmon", "") \
+	_ ("cca", "") \
+	_ ("ccm", "") \
+	_ ("cdapi", "") \
+	_ ("cdma", "") \
+	_ ("cdp", "") \
+	_ ("cellular", "") \
+	_ ("cem", "") \
+	_ ("ces", "") \
+	_ ("cfmpal", "") \
+	_ ("chassis", "") \
+	_ ("checkpoint", "") \
+	_ ("class", "") \
+	_ ("class-map", "") \
+	_ ("clns", "") \
+	_ ("clock", "") \
+	_ ("cls", "") \
+	_ ("cmts", "") \
+	_ ("cofp", "") \
+	_ ("compress", "") \
+	_ ("configuration", "") \
+	_ ("connect", "") \
+	_ ("connection", "") \
+	_ ("content-scan", "") \
+	_ ("context", "") \
+	_ ("control-plane", "") \
+	_ ("controllers", "") \
+	_ ("cops", "") \
+	_ ("cot", "") \
+	_ ("counters", "") \
+	_ ("coverage", "") \
+	_ ("cpd", "") \
+	_ ("crm", "") \
+	_ ("crypto", "") \
+	_ ("csm", "") \
+	_ ("cwan", "") \
+	_ ("cwmp", "") \
+	_ ("dampening", "") \
+	_ ("data-corruption", "") \
+	_ ("data-store", "") \
+	_ ("database", "") \
+	_ ("debug", "") \
+	_ ("debugging", "") \
+	_ ("declassify", "") \
+	_ ("decnet", "") \
+	_ ("depi", "") \
+	_ ("derived-config", "") \
+	_ ("device-sensor", "") \
+	_ ("dhcp", "") \
+	_ ("diagnostic", "") \
+	_ ("dial-peer", "") \
+	_ ("dialer", "") \
+	_ ("dialplan", "") \
+	_ ("diameter", "") \
+	_ ("disk", "") \
+	_ ("dlsw", "") \
+	_ ("dmvpn", "") \
+	_ ("dn-numbers", "") \
+	_ ("dnsix", "") \
+	_ ("interfaces", "") \
+	_ ("ip", "") \
+	_ ("ipv6", "") \
+	_ ("ipx", "") \
+	_ ("lldp", "") \
+	_ ("mpls", "") \
+	_ ("x25", "") \
 
 #endif /* VOLTOS_CLI_NODES_EXEC_H */

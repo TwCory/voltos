@@ -1,0 +1,4 @@
+#ifndef VOLTOS_LPM_SCALAR_H
+#define VOLTOS_LPM_SCALAR_H
+
+#endif /* VOLTOS_LPM_SCALAR_H */

@@ -1,0 +1,4 @@
+#ifndef VOLTOS_CLI_NODES_VRF_AF_H
+#define VOLTOS_CLI_NODES_VRF_AF_H
+
+#endif /* VOLTOS_CLI_NODES_VRF_AF_H */

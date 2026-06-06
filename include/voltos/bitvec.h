@@ -3,6 +3,6 @@
 
 typedef struct {
 
-} bit_vector_t;
+} bitvec_t;
 
 #endif /* _VOLTOS_BITVEC_H_ */

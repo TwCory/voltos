@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_RADIX_TREE_H_
-#define _VOLTOS_RADIX_TREE_H_
+#ifndef VOLTOS_RADIX_TREE_H
+#define VOLTOS_RADIX_TREE_H
 
-#endif /* _VOLTOS_RADIX_TREE_H_ */
+#endif /* VOLTOS_RADIX_TREE_H */
