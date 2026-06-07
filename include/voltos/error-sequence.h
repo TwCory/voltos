@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_ERROR_SEQUENCE_H_
-#define _VOLTOS_ERROR_SEQUENCE_H_
+#ifndef VOLTOS_ERROR_SEQUENCE_H
+#define VOLTOS_ERROR_SEQUENCE_H
 
-#endif /* _VOLTOS_ERROR_SEQUENCE_H_ */
+typedef unsigned int error_seq_t;
+
+#endif /* VOLTOS_ERROR_SEQUENCE_H */

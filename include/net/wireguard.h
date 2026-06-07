@@ -1,8 +1,4 @@
-#ifndef _NET_WIREGUARD_H_
-#define _NET_WIREGUARD_H_
+#ifndef NET_WIREGUARD_H
+#define NET_WIREGUARD_H
 
-struct wireguard_tunnel {
-
-};
-
-#endif /* _NET_WIREGUARD_H_ */
+#endif /* NET_WIREGUARD_H */

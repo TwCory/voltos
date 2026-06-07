@@ -1,6 +1,6 @@
-#ifndef _NET_VRF_H_
-#define _NET_VRF_H_
+#ifndef NET_VRF_H
+#define NET_VRF_H
 
 #include <voltos/vrf.h>
 
-#endif /* _NET_VRF_H_ */
+#endif /* NET_VRF_H */

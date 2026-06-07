@@ -1,6 +1,6 @@
-#ifndef _NET_SNMP_H_
-#define _NET_SNMP_H_
+#ifndef NET_SNMP_H
+#define NET_SNMP_H
 
 #include <voltos/snmp.h>
 
-#endif /* _NET_SNMP_H_ */
+#endif /* NET_SNMP_H */

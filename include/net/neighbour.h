@@ -1,8 +1,8 @@
-#ifndef _NET_NEIGHBOUR_H_
-#define _NET_NEIGHBOUR_H_
+#ifndef NET_NEIGHBOUR_H
+#define NET_NEIGHBOUR_H
 
 struct neighbour {
 
 };
 
-#endif /* _NET_NEIGHBOUR_H_ */
+#endif /* NET_NEIGHBOUR_H */

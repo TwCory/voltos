@@ -3,8 +3,16 @@
 #ifndef VOLTOS_ACL_XNS_STANDARD_H
 #define VOLTOS_ACL_XNS_STANDARD_H
 
-struct xns_standard_ace {
+#include <voltos/access-list.h>
 
+struct xns_standard_acl {
+	struct access_list 		*acl_ptr;
+};
+
+struct xns_standard_ace {
+	struct xns_standard_acl 	*ace_list;
+	__voltos_acl_seqno_t 		ace_seqno;
+	char 				ace_remark[ACL_REMARK_SIZE];
 };
 
 #endif /* VOLTOS_ACL_XNS_STANDARD_H */

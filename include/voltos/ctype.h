@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_CTYPE_H_
-#define _VOLTOS_CTYPE_H_
+#ifndef VOLTOS_CTYPE_H
+#define VOLTOS_CTYPE_H
 
 #include <ctype.h>
 
-#endif /* _VOLTOS_CTYPE_H_ */
+#endif /* VOLTOS_CTYPE_H */

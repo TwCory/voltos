@@ -1,8 +1,4 @@
-#ifndef _NET_IP_TUNNEL_H_
-#define _NET_IP_TUNNEL_H_
+#ifndef NET_IP_TUNNEL_H
+#define NET_IP_TUNNEL_H
 
-struct ip_tunnel {
-
-};
-
-#endif /* _NET_IP_TUNNEL_H_ */
+#endif /* NET_IP_TUNNEL_H */

@@ -1,14 +1,6 @@
-#ifndef _NET_MLD_H_
-#define _NET_MLD_H_
+#ifndef NET_MLD_H
+#define NET_MLD_H
 
 #include <voltos/mld.h>
 
-struct mld {
-
-};
-
-struct mld_interface {
-
-};
-
-#endif /* _NET_MLD_H_ */
+#endif /* NET_MLD_H */

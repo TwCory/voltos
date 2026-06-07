@@ -1,4 +1,4 @@
-#ifndef _NET_IPV6_FIB_H_
-#define _NET_IPV6_FIB_H_
+#ifndef NET_IPV6_FIB_H
+#define NET_IPV6_FIB_H
 
-#endif /* _NET_IPV6_FIB_H_ */
+#endif /* NET_IPV6_FIB_H */

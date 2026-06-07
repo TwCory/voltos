@@ -1,8 +1,8 @@
-#ifndef _NET_UDP_TUNNEL_H_
-#define _NET_UDP_TUNNEL_H_
+#ifndef NET_UDP_TUNNEL_H
+#define NET_UDP_TUNNEL_H
 
 struct udp_tunnel {
 
 };
 
-#endif /* _NET_UDP_TUNNEL_H_ */
+#endif /* NET_UDP_TUNNEL_H */

@@ -1,6 +1,7 @@
 #ifndef _MACHINE_BITS_H_
 #define _MACHINE_BITS_H_
 
+#include <asm/bitsperlong.h>
 #include <nbapi/machine/bits.h>
 
 #define BITS_PER_NIBBLE 4

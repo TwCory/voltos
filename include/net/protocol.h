@@ -3,8 +3,8 @@
  *
  */
 
-#ifndef _NET_PROTOCOL_H_
-#define _NET_PROTOCOL_H_
+#ifndef NET_PROTOCOL_H
+#define NET_PROTOCOL_H
 
 struct protocol {
 
@@ -18,4 +18,4 @@ struct ipv6_protocol {
 
 };
 
-#endif /* _NET_PROTOCOL_H_ */
+#endif /* NET_PROTOCOL_H */

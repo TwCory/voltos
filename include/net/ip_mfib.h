@@ -1,4 +1,4 @@
-#ifndef _NET_IP_MFIB_H_
-#define _NET_IP_MFIB_H_
+#ifndef NET_IP_MFIB_H
+#define NET_IP_MFIB_H
 
-#endif /* _NET_IP_MFIB_H_ */
+#endif /* NET_IP_MFIB_H */

@@ -1,8 +1,4 @@
-#ifndef _NET_DECNET_ROUTE_H_
-#define _NET_DECNET_ROUTE_H_
+#ifndef NET_DECNET_ROUTE_H
+#define NET_DECNET_ROUTE_H
 
-struct decnet_route {
-
-};
-
-#endif /* _NET_DECNET_ROUTE_H_ */
+#endif /* NET_DECNET_ROUTE_H */

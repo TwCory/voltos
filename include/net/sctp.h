@@ -1,14 +1,6 @@
-#ifndef _NET_SCTP_H_
-#define _NET_SCTP_H_
+#ifndef NET_SCTP_H
+#define NET_SCTP_H
 
 #include <voltos/sctp.h>
 
-struct sctp {
-
-};
-
-struct sctp_interface {
-
-};
-
-#endif /* _NET_SCTP_H_ */
+#endif /* NET_SCTP_H */

@@ -1,5 +1,5 @@
-#ifndef _NET_GRE_H_
-#define _NET_GRE_H_
+#ifndef NET_GRE_H
+#define NET_GRE_H
 
 #include <voltos/gre.h>
 
@@ -7,4 +7,4 @@ struct gre_tunnel {
 
 };
 
-#endif /* _NET_GRE_H_ */
+#endif /* NET_GRE_H */

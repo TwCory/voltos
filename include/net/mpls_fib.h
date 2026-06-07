@@ -1,4 +1,4 @@
-#ifndef _NET_MPLS_FIB_H_
-#define _NET_MPLS_FIB_H_
+#ifndef NET_MPLS_FIB_H
+#define NET_MPLS_FIB_H
 
-#endif /* _NET_MPLS_FIB_H_ */
+#endif /* NET_MPLS_FIB_H */

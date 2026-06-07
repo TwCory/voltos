@@ -1,8 +1,6 @@
-#ifndef _NET_IP_ROUTE_H_
-#define _NET_IP_ROUTE_H_
+#ifndef NET_IP_ROUTE_H
+#define NET_IP_ROUTE_H
 
-struct ip_route {
+#include <voltos/ip_route.h>
 
-};
-
-#endif /* _NET_IP_ROUTE_H_ */
+#endif /* NET_IP_ROUTE_H */

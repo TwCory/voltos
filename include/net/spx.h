@@ -1,14 +1,6 @@
-#ifndef _NET_SPX_H_
-#define _NET_SPX_H_
+#ifndef NET_SPX_H
+#define NET_SPX_H
 
 #include <voltos/spx.h>
 
-struct spx {
-
-};
-
-struct spx_interface {
-
-};
-
-#endif /* _NET_SPX_H_ */
+#endif /* NET_SPX_H */

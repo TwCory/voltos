@@ -1,10 +1,6 @@
-#ifndef _NET_GTP_H_
-#define _NET_GTP_H_
+#ifndef NET_GTP_H
+#define NET_GTP_H
 
 #include <voltos/gtp.h>
 
-struct gtp_tunnel {
-
-};
-
-#endif /* _NET_GTP_H_ */
+#endif /* NET_GTP_H */

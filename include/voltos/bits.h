@@ -3,9 +3,9 @@
 
 #include <nbapi/voltos/bits.h>
 
-#define __bit_mask
-#define __bit_word
-#define __bit_ull_mask
-#define __bit_ull_word
+#define __bit_mask(n)
+#define __bit_word(n)
+#define __bit_ull_mask(n)
+#define __bit_ull_word(n)
 
 #endif /* VOLTOS_BITS_H */

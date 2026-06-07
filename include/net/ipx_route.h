@@ -1,8 +1,6 @@
-#ifndef _NET_IPX_ROUTE_H_
-#define _NET_IPX_ROUTE_H_
+#ifndef NET_IPX_ROUTE_H
+#define NET_IPX_ROUTE_H
 
-struct ipx_route {
+#include <voltos/ipx_route.h>
 
-};
-
-#endif /* _NET_IPX_ROUTE_H_ */
+#endif /* NET_IPX_ROUTE_H */

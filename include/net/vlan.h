@@ -1,6 +1,6 @@
-#ifndef _NET_VLAN_H_
-#define _NET_VLAN_H_
+#ifndef NET_VLAN_H
+#define NET_VLAN_H
 
 #include <voltos/vlan.h>
 
-#endif /* _NET_VLAN_H_ */
+#endif /* NET_VLAN_H */

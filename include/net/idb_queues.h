@@ -1,6 +1,6 @@
-#ifndef _NET_IF_QUEUES_H_
-#define _NET_IF_QUEUES_H_
+#ifndef NET_IDB_QUEUES_H
+#define NET_IDB_QUEUES_H
 
 #include <voltos/idb.h>
 
-#endif /* _NET_IF_QUEUES_H_ */
+#endif /* NET_IDB_QUEUES_H */

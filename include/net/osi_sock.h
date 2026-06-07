@@ -1,5 +1,5 @@
-#ifndef _NET_OSI_SOCK_H_
-#define _NET_OSI_SOCK_H_
+#ifndef NET_OSI_SOCK_H
+#define NET_OSI_SOCK_H
 
 #include <voltos/osi.h>
 
@@ -7,4 +7,4 @@ struct osi_sock {
 
 };
 
-#endif /* _NET_OSI_SOCK_H_ */
+#endif /* NET_OSI_SOCK_H */

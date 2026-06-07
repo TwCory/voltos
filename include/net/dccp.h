@@ -1,14 +1,6 @@
-#ifndef _NET_DCCP_H_
-#define _NET_DCCP_H_
+#ifndef NET_DCCP_H
+#define NET_DCCP_H
 
 #include <voltos/dccp.h>
 
-struct dccp {
-
-};
-
-struct dccp_interface {
-
-};
-
-#endif /* _NET_DCCP_H_ */
+#endif /* NET_DCCP_H */

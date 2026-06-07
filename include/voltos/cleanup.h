@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_CLEANUP_H_
-#define _VOLTOS_CLEANUP_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_CLEANUP_H_ */
+#ifndef VOLTOS_CLEANUP_H
+#define VOLTOS_CLEANUP_H
+
+#include <voltos/compiler.h>
+
+#endif /* VOLTOS_CLEANUP_H */

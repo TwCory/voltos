@@ -1,8 +1,8 @@
-#ifndef _NET_SESSION_H_
-#define _NET_SESSION_H_
+#ifndef NET_SESSION_H
+#define NET_SESSION_H
 
 struct session {
 
 };
 
-#endif /* _NET_SESSION_H_ */
+#endif /* NET_SESSION_H */

@@ -1,8 +1,8 @@
-#ifndef _NET_SRC_H_
-#define _NET_SRC_H_
+#ifndef NET_SRC_H
+#define NET_SRC_H
 
 struct src_entry {
 
 };
 
-#endif /* _NET_SRC_H_ */
+#endif /* NET_SRC_H */

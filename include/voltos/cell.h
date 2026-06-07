@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_CELL_H_
-#define _VOLTOS_CELL_H_
+#ifndef VOLTOS_CELL_H
+#define VOLTOS_CELL_H
 
-#endif /* _VOLTOS_CELL_H_ */
+struct cell {
+	unsigned int index;
+};
+
+#endif /* VOLTOS_CELL_H */

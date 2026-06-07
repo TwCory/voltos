@@ -1,14 +1,6 @@
-#ifndef _NET_UDP_H_
-#define _NET_UDP_H_
+#ifndef NET_UDP_H
+#define NET_UDP_H
 
 #include <voltos/udp.h>
 
-struct udp {
-
-};
-
-struct udp_interface {
-
-};
-
-#endif /* _NET_UDP_H_ */
+#endif /* NET_UDP_H */

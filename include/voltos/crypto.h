@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_CRYPTO_H_
-#define _VOLTOS_CRYPTO_H_
+#ifndef VOLTOS_CRYPTO_H
+#define VOLTOS_CRYPTO_H
 
-#endif /* _VOLTOS_CRYPTO_H_ */
+#endif /* VOLTOS_CRYPTO_H */

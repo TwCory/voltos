@@ -1,5 +1,5 @@
-#ifndef _NET_L2F_H_
-#define _NET_L2F_H_
+#ifndef NET_L2F_H
+#define NET_L2F_H
 
 #include <voltos/l2f.h>
 
@@ -7,4 +7,4 @@ struct l2f_tunnel {
 
 };
 
-#endif /* _NET_L2F_H_ */
+#endif /* NET_L2F_H */

@@ -1,8 +1,8 @@
-#ifndef _NET_DST_CACHE_H_
-#define _NET_DST_CACHE_H_
+#ifndef NET_DST_CACHE_H
+#define NET_DST_CACHE_H
 
 struct dst_cache {
 
 };
 
-#endif /* _NET_DST_CACHE_H_ */
+#endif /* NET_DST_CACHE_H */

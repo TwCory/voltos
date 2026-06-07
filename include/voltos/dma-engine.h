@@ -1,4 +1,32 @@
-#ifndef _VOLTOS_DMA_ENGINE_H_
-#define _VOLTOS_DMA_ENGINE_H_
+#ifndef VOLTOS_DMA_ENGINE_H
+#define VOLTOS_DMA_ENGINE_H
 
-#endif /* _VOLTOS_DMA_ENGINE_H_ */
+struct dma_channel {
+
+};
+
+struct dma_channel_device {
+
+};
+
+struct dma_channel_percpu {
+
+};
+
+struct dma_data_chunk {
+
+};
+
+struct dma_interleaved_template {
+
+};
+
+struct dma_router {
+
+};
+
+struct dma_vector {
+
+};
+
+#endif /* VOLTOS_DMA_ENGINE_H */

@@ -1,8 +1,6 @@
-#ifndef _NET_IPV6_ROUTE_H_
-#define _NET_IPV6_ROUTE_H_
+#ifndef NET_IPV6_ROUTE_H
+#define NET_IPV6_ROUTE_H
 
-struct ipv6_route {
+#include <voltos/ipv6_route.h>
 
-};
-
-#endif /* _NET_IPV6_ROUTE_H_ */
+#endif /* NET_IPV6_ROUTE_H */

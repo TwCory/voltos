@@ -1,12 +1,6 @@
-#ifndef _NET_TRILL_H_
-#define _NET_TRILL_H_
+#ifndef NET_TRILL_H
+#define NET_TRILL_H
 
-struct trill {
+#include <voltos/trill.h>
 
-};
-
-struct trill_interface {
-
-};
-
-#endif /* _NET_TRILL_H_ */
+#endif /* NET_TRILL_H */

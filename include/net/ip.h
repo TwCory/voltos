@@ -1,14 +1,6 @@
-#ifndef _NET_IP_H_
-#define _NET_IP_H_
+#ifndef NET_IP_H
+#define NET_IP_H
 
-#include <net/protocol.h>
+#include <voltos/ip.h>
 
-struct ip {
-	struct protocol *p_ptr;
-};
-
-struct ip_interface {
-
-};
-
-#endif /* _NET_IP_H_ */
+#endif /* NET_IP_H */

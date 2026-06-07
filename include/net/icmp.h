@@ -1,6 +1,6 @@
-#ifndef _NET_ICMP_H_
-#define _NET_ICMP_H_
+#ifndef NET_ICMP_H
+#define NET_ICMP_H
 
 #include <voltos/icmp.h>
 
-#endif /* _NET_ICMP_H_ */
+#endif /* NET_ICMP_H */

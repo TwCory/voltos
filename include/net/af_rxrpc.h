@@ -1,6 +1,10 @@
-#ifndef _NET_AF_RXRPC_H_
-#define _NET_AF_RXRPC_H_
+#ifndef NET_AF_RXRPC_H
+#define NET_AF_RXRPC_H
 
 #include <voltos/rxrpc.h>
 
-#endif /* _NET_AF_RXRPC_H_ */
+struct af_rxrpc_sock {
+
+};
+
+#endif /* NET_AF_RXRPC_H */

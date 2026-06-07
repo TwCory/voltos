@@ -1,14 +1,6 @@
-#ifndef _NET_QUIC_H_
-#define _NET_QUIC_H_
+#ifndef NET_QUIC_H
+#define NET_QUIC_H
 
 #include <voltos/quic.h>
 
-struct quic {
-
-};
-
-struct quic_interface {
-
-};
-
-#endif /* _NET_QUIC_H_ */
+#endif /* NET_QUIC_H */

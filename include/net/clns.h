@@ -1,16 +1,6 @@
-#ifndef _NET_CLNS_H_
-#define _NET_CLNS_H_
+#ifndef NET_CLNS_H
+#define NET_CLNS_H
 
 #include <voltos/clns.h>
 
-#include <net/protocol.h>
-
-struct clns {
-	struct protocol *p_ptr;
-};
-
-struct clns_interface {
-
-};
-
-#endif /* _NET_CLNS_H_ */
+#endif /* NET_CLNS_H */

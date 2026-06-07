@@ -1,4 +1,4 @@
-#ifndef _NET_CLNS_FIB_H_
-#define _NET_CLNS_FIB_H_
+#ifndef NET_CLNS_FIB_H
+#define NET_CLNS_FIB_H
 
-#endif /* _NET_CLNS_FIB_H_ */
+#endif /* NET_CLNS_FIB_H */

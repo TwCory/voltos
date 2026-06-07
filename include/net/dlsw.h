@@ -1,16 +1,6 @@
-#ifndef _NET_DLSW_H_
-#define _NET_DLSW_H_
+#ifndef NET_DLSW_H
+#define NET_DLSW_H
 
 #include <voltos/dlsw.h>
 
-#include <net/protocol.h>
-
-struct dlsw {
-	struct protocol *p_ptr;
-};
-
-struct dlsw_interface {
-
-};
-
-#endif /* _NET_DLSW_H_ */
+#endif /* NET_DLSW_H */

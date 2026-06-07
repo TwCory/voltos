@@ -1,5 +1,5 @@
-#ifndef _NET_L2TP_H_
-#define _NET_L2TP_H_
+#ifndef NET_L2TP_H
+#define NET_L2TP_H
 
 #include <voltos/l2tp.h>
 
@@ -7,4 +7,4 @@ struct l2tp_tunnel {
 
 };
 
-#endif /* _NET_L2TP_H_ */
+#endif /* NET_L2TP_H */

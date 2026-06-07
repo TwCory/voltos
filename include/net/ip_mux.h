@@ -1,4 +1,4 @@
-#ifndef _NET_IP_MUX_H_
-#define _NET_IP_MUX_H_
+#ifndef NET_IP_MUX_H
+#define NET_IP_MUX_H
 
-#endif /* _NET_IP_MUX_H_ */
+#endif /* NET_IP_MUX_H */

@@ -1,14 +1,6 @@
-#ifndef _NET_BFD_H_
-#define _NET_BFD_H_
+#ifndef NET_BFD_H
+#define NET_BFD_H
 
 #include <voltos/bfd.h>
 
-struct bfd {
-
-};
-
-struct bfd_interface {
-
-};
-
-#endif /* _NET_BFD_H_ */
+#endif /* NET_BFD_H */

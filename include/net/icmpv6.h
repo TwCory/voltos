@@ -1,6 +1,6 @@
-#ifndef _NET_ICMPV6_H_
-#define _NET_ICMPV6_H_
+#ifndef NET_ICMPV6_H
+#define NET_ICMPV6_H
 
 #include <voltos/icmpv6.h>
 
-#endif /* _NET_ICMPV6_H_ */
+#endif /* NET_ICMPV6_H */

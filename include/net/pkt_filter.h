@@ -3,7 +3,7 @@
  *
  */
 
-#ifndef _NET_PKT_FILTER_H_
-#define _NET_PKT_FILTER_H_
+#ifndef NET_PKT_FILTER_H
+#define NET_PKT_FILTER_H
 
-#endif /* _NET_PKT_FILTER_H_ */
+#endif /* NET_PKT_FILTER_H */

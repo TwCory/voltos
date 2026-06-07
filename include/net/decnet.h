@@ -1,16 +1,6 @@
-#ifndef _NET_DECNET_H_
-#define _NET_DECNET_H_
+#ifndef NET_DECNET_H
+#define NET_DECNET_H
 
 #include <voltos/decnet.h>
 
-#include <net/protocol.h>
-
-struct decnet {
-	struct protocol *p_ptr;
-};
-
-struct decnet_interface {
-
-};
-
-#endif /* _NET_DECNET_H_ */
+#endif /* NET_DECNET_H */

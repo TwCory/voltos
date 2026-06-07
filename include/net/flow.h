@@ -1,4 +1,24 @@
-#ifndef _NET_FLOW_H_
-#define _NET_FLOW_H_
+#ifndef NET_FLOW_H
+#define NET_FLOW_H
 
-#endif /* _NET_FLOW_H_ */
+struct flow_common {
+
+};
+
+struct flow_tunnel {
+
+};
+
+struct flow_ipv4 {
+
+};
+
+struct flow_ipv6 {
+
+};
+
+struct flow {
+
+};
+
+#endif /* NET_FLOW_H */

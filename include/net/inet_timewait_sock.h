@@ -1,8 +1,8 @@
-#ifndef _NET_INET_TIMEWAIT_SOCK_H_
-#define _NET_INET_TIMEWAIT_SOCK_H_
+#ifndef NET_INET_TIMEWAIT_SOCK_H
+#define NET_INET_TIMEWAIT_SOCK_H
 
 struct inet_timewait_sock {
 
 };
 
-#endif /* _NET_INET_TIMEWAIT_SOCK_H_ */
+#endif /* NET_INET_TIMEWAIT_SOCK_H */

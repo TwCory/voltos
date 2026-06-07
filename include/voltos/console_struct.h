@@ -1,8 +1,10 @@
 #ifndef _VOLTOS_CONSOLE_STRUCT_H_
 #define _VOLTOS_CONSOLE_STRUCT_H_
 
-struct console {
+#include <voltos/device.h>
 
+struct console {
+	struct device *device;
 };
 
 

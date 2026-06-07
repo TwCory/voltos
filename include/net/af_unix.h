@@ -1,5 +1,5 @@
-#ifndef _NET_AF_UNIX_H_
-#define _NET_AF_UNIX_H_
+#ifndef NET_AF_UNIX_H
+#define NET_AF_UNIX_H
 
 #include <voltos/un.h>
 
@@ -7,4 +7,4 @@ struct af_unix_sock {
 
 };
 
-#endif /* _NET_AF_UNIX_H_ */
+#endif /* NET_AF_UNIX_H */

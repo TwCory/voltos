@@ -1,16 +1,6 @@
-#ifndef _NET_IPX_H_
-#define _NET_IPX_H_
+#ifndef NET_IPX_H
+#define NET_IPX_H
 
 #include <voltos/ipx.h>
 
-#include <net/protocol.h>
-
-struct ipx {
-	struct protocol *p_ptr;
-};
-
-struct ipx_interface {
-
-};
-
-#endif /* _NET_IPX_H_ */
+#endif /* NET_IPX_H */

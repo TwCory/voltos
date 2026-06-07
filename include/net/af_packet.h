@@ -1,5 +1,10 @@
-#ifndef _NET_AF_PACKET_H_
-#define _NET_AF_PACKET_H_
+#ifndef NET_AF_PACKET_H
+#define NET_AF_PACKET_H
 
+#include <voltos/if_packet.h>
 
-#endif /* _NET_AF_PACKET_H_ */
+struct af_packet_sock {
+
+};
+
+#endif /* NET_AF_PACKET_H */

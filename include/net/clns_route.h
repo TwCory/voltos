@@ -1,8 +1,4 @@
-#ifndef _NET_CLNS_ROUTE_H_
-#define _NET_CLNS_ROUTE_H_
+#ifndef NET_CLNS_ROUTE_H
+#define NET_CLNS_ROUTE_H
 
-struct clns_route {
-
-};
-
-#endif /* _NET_CLNS_ROUTE_H_ */
+#endif /* NET_CLNS_ROUTE_H */

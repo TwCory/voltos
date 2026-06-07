@@ -1,22 +1,6 @@
-#ifndef _NET_IPV6_ND_H_
-#define _NET_IPV6_ND_H_
+#ifndef NET_IPV6_ND_H
+#define NET_IPV6_ND_H
 
 #include <voltos/ipv6_nd.h>
 
-struct ipv6_nd {
-
-};
-
-struct ipv6_nd_interface {
-
-};
-
-struct ipv6_neighbour {
-
-};
-
-struct ipv6_nd_table {
-
-};
-
-#endif /* _NET_IPV6_ND_H_ */
+#endif /* NET_IPV6_ND_H */

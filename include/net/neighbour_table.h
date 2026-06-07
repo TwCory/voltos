@@ -1,8 +1,8 @@
-#ifndef _NET_NEIGHBOUR_TABLE_H_
-#define _NET_NEIGHBOUR_TABLE_H_
+#ifndef NET_NEIGHBOUR_TABLE_H
+#define NET_NEIGHBOUR_TABLE_H
 
 struct neighbour_table {
 
 };
 
-#endif /* _NET_NEIGHBOUR_TABLE_H_ */
+#endif /* NET_NEIGHBOUR_TABLE_H */

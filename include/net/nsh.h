@@ -1,6 +1,6 @@
-#ifndef _NET_NSH_H_
-#define _NET_NSH_H_
+#ifndef NET_NSH_H
+#define NET_NSH_H
 
 #include <voltos/nsh.h>
 
-#endif /* _NET_NSH_H_ */
+#endif /* NET_NSH_H */

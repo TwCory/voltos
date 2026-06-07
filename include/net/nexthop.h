@@ -1,12 +1,6 @@
-#ifndef _NET_NEXTHOP_H_
-#define _NET_NEXTHOP_H_
+#ifndef NET_NEXTHOP_H
+#define NET_NEXTHOP_H
 
-struct next_hop {
+#include <voltos/nexthop.h>
 
-};
-
-struct next_hop_group {
-
-};
-
-#endif /* _NET_NEXTHOP_H_ */
+#endif /* NET_NEXTHOP_H */

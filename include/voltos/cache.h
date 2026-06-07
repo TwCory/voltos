@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_CACHE_H_
-#define _VOLTOS_CACHE_H_
+#ifndef VOLTOS_CACHE_H
+#define VOLTOS_CACHE_H
 
-#endif /* _VOLTOS_CACHE_H_ */
+#endif /* VOLTOS_CACHE_H */

@@ -1,8 +1,10 @@
-#ifndef _NET_NETLINK_SOCK_H_
-#define _NET_NETLINK_SOCK_H_
+#ifndef NET_NETLINK_SOCK_H
+#define NET_NETLINK_SOCK_H
+
+#include <voltos/netlink.h>
 
 struct netlink_sock {
 
 };
 
-#endif /* _NET_NETLINK_SOCK_H_ */
+#endif /* NET_NETLINK_SOCK_H */

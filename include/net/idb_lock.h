@@ -1,6 +1,6 @@
-#ifndef _NET_IF_LOCK_H_
-#define _NET_IF_LOCK_H_
+#ifndef NET_IDB_LOCK_H
+#define NET_IDB_LOCK_H
 
 #include <voltos/idb.h>
 
-#endif /* _NET_IF_LOCK_H_ */
+#endif /* NET_IDB_LOCK_H */

@@ -1,6 +1,6 @@
-#ifndef _NET_PPP_H_
-#define _NET_PPP_H_
+#ifndef NET_PPP_H
+#define NET_PPP_H
 
 #include <voltos/ppp.h>
 
-#endif /* _NET_PPP_H_ */
+#endif /* NET_PPP_H */

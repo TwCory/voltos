@@ -1,8 +1,8 @@
-#ifndef _NET_MPLS_TUNNEL_H_
-#define _NET_MPLS_TUNNEL_H_
+#ifndef NET_MPLS_TUNNEL_H
+#define NET_MPLS_TUNNEL_H
 
 struct mpls_tunnel {
 
 };
 
-#endif /* _NET_MPLS_TUNNEL_H_ */
+#endif /* NET_MPLS_TUNNEL_H */

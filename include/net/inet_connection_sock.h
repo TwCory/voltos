@@ -3,11 +3,11 @@
  *
  */
 
-#ifndef _NET_INET_CONNECTION_SOCK_H_
-#define _NET_INET_CONNECTION_SOCK_H_
+#ifndef NET_INET_CONNECTION_SOCK_H
+#define NET_INET_CONNECTION_SOCK_H
 
 struct inet_connection_sock {
 
 };
 
-#endif /* _NET_INET_CONNECTION_SOCK_H_ */
+#endif /* NET_INET_CONNECTION_SOCK_H */

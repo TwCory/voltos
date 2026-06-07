@@ -1,8 +1,6 @@
-#ifndef _NET_ROUTE_H_
-#define _NET_ROUTE_H_
+#ifndef NET_ROUTE_H
+#define NET_ROUTE_H
 
-struct route {
+#include <voltos/route.h>
 
-};
-
-#endif /* _NET_ROUTE_H_ */
+#endif /* NET_ROUTE_H */

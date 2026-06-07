@@ -1,4 +1,8 @@
-#ifndef _NET_AF_KEY_H_
-#define _NET_AF_KEY_H_
+#ifndef NET_AF_KEY_H
+#define NET_AF_KEY_H
 
-#endif /* _NET_AF_KEY_H_ */
+struct af_key_sock {
+
+};
+
+#endif /* NET_AF_KEY_H */

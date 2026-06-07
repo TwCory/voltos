@@ -1,6 +1,6 @@
-#ifndef _NET_GENEVE_H_
-#define _NET_GENEVE_H_
+#ifndef NET_GENEVE_H
+#define NET_GENEVE_H
 
 #include <voltos/geneve.h>
 
-#endif /* _NET_GENEVE_H_ */
+#endif /* NET_GENEVE_H */

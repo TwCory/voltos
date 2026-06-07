@@ -1,4 +1,6 @@
-#ifndef _NET_NVGRE_H_
-#define _NET_NVGRE_H_
+#ifndef NET_NVGRE_H
+#define NET_NVGRE_H
 
-#endif /* _NET_NVGRE_H_ */
+#include <voltos/nvgre.h>
+
+#endif /* NET_NVGRE_H */

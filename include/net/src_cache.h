@@ -1,8 +1,8 @@
-#ifndef _NET_SRC_CACHE_H_
-#define _NET_SRC_CACHE_H_
+#ifndef NET_SRC_CACHE_H
+#define NET_SRC_CACHE_H
 
 struct src_cache {
 
 };
 
-#endif /* _NET_SRC_CACHE_H_ */
+#endif /* NET_SRC_CACHE_H */

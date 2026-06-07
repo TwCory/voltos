@@ -1,8 +1,8 @@
-#ifndef _NET_DECNET_SOCK_H_
-#define _NET_DECNET_SOCK_H_
+#ifndef NET_DECNET_SOCK_H
+#define NET_DECNET_SOCK_H
 
 struct decnet_sock {
 
 };
 
-#endif /* _NET_DECNET_SOCK_H_ */
+#endif /* NET_DECNET_SOCK_H */

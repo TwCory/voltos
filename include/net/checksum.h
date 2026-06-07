@@ -1,4 +1,6 @@
-#ifndef _NET_CHECKSUM_H_
-#define _NET_CHECKSUM_H_
+#ifndef NET_CHECKSUM_H
+#define NET_CHECKSUM_H
 
-#endif /* _NET_CHECKSUM_H_ */
+#include <machine/checksum.h>
+
+#endif /* NET_CHECKSUM_H */

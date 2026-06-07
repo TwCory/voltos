@@ -1,4 +1,4 @@
-#ifndef _NET_ATALK_FIB_H_
-#define _NET_ATALK_FIB_H_
+#ifndef NET_ATALK_FIB_H
+#define NET_ATALK_FIB_H
 
-#endif /* _NET_ATALK_FIB_H_ */
+#endif /* NET_ATALK_FIB_H */

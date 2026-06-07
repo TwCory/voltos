@@ -1,8 +1,10 @@
 #ifndef _VOLTOS_BLOCK_TYPES_H_
 #define _VOLTOS_BLOCK_TYPES_H_
 
-struct block_device {
+#include <voltos/device.h>
 
+struct block_device {
+	struct device *device;
 };
 
 struct block_io {

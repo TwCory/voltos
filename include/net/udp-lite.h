@@ -1,12 +1,4 @@
-#ifndef _NET_UDP_LITE_H_
-#define _NET_UDP_LITE_H_
+#ifndef NET_UDP_LITE_H
+#define NET_UDP_LITE_H
 
-struct udp_lite {
-
-};
-
-struct udp_lite_interface {
-
-};
-
-#endif /* _NET_UDP_LITE_H_ */
+#endif /* NET_UDP_LITE_H */

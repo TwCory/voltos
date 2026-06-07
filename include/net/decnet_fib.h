@@ -1,4 +1,4 @@
-#ifndef _NET_DECNET_FIB_H_
-#define _NET_DECNET_FIB_H_
+#ifndef NET_DECNET_FIB_H
+#define NET_DECNET_FIB_H
 
-#endif /* _NET_DECNET_FIB_H_ */
+#endif /* NET_DECNET_FIB_H */

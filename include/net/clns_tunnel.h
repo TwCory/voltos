@@ -1,8 +1,4 @@
-#ifndef _NET_CLNS_TUNNEL_H_
-#define _NET_CLNS_TUNNEL_H_
+#ifndef NET_CLNS_TUNNEL_H
+#define NET_CLNS_TUNNEL_H
 
-struct clns_tunnel {
-
-};
-
-#endif /* _NET_CLNS_TUNNEL_H_ */
+#endif /* NET_CLNS_TUNNEL_H */

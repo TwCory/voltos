@@ -1,14 +1,6 @@
-#ifndef _NET_X25_H_
-#define _NET_X25_H_
+#ifndef NET_X25_H
+#define NET_X25_H
 
 #include <voltos/x25.h>
 
-struct x25 {
-
-};
-
-struct x25_interface {
-
-};
-
-#endif /* _NET_X25_H_ */
+#endif /* NET_X25_H */

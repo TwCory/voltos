@@ -1,8 +1,8 @@
-#ifndef _NET_SRC_OPS_H_
-#define _NET_SRC_OPS_H_
+#ifndef NET_SRC_OPS_H
+#define NET_SRC_OPS_H
 
 struct src_ops {
 
 };
 
-#endif /* _NET_SRC_OPS_H_ */
+#endif /* NET_SRC_OPS_H */

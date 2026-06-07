@@ -1,14 +1,6 @@
-#ifndef _NET_BIER_H_
-#define _NET_BIER_H_
+#ifndef NET_BIER_H
+#define NET_BIER_H
 
 #include <voltos/bier.h>
 
-struct bier {
-
-};
-
-struct bier_interface {
-
-};
-
-#endif /* _NET_BIER_H_ */
+#endif /* NET_BIER_H */

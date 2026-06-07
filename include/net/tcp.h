@@ -1,14 +1,6 @@
-#ifndef _NET_TCP_H_
-#define _NET_TCP_H_
+#ifndef NET_TCP_H
+#define NET_TCP_H
 
 #include <voltos/tcp.h>
 
-struct tcp {
-
-};
-
-struct tcp_interface {
-
-};
-
-#endif /* _NET_TCP_H_ */
+#endif /* NET_TCP_H */

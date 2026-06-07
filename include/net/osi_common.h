@@ -1,6 +1,6 @@
-#ifndef _NET_OSI_COMMON_H_
-#define _NET_OSI_COMMON_H_
+#ifndef NET_OSI_COMMON_H
+#define NET_OSI_COMMON_H
 
 #include <voltos/osi.h>
 
-#endif /* _NET_OSI_COMMON_H_ */
+#endif /* NET_OSI_COMMON_H */

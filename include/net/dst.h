@@ -1,12 +1,8 @@
-/*
- *  Protocol-Independent Destination Cache
- */
-
-#ifndef _NET_DST_H_
-#define _NET_DST_H_
+#ifndef NET_DST_H
+#define NET_DST_H
 
 struct dst_entry {
 
 };
 
-#endif /* _NET_DST_H_ */
+#endif /* NET_DST_H */

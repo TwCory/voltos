@@ -1,14 +1,6 @@
-#ifndef _NET_ARP_H_
-#define _NET_ARP_H_
+#ifndef NET_ARP_H
+#define NET_ARP_H
 
 #include <voltos/arp.h>
 
-struct arp {
-
-};
-
-struct arp_interface {
-
-};
-
-#endif /* _NET_ARP_H_ */
+#endif /* NET_ARP_H */

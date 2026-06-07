@@ -1,6 +1,6 @@
-#ifndef _NET_PPTP_H_
-#define _NET_PPTP_H_
+#ifndef NET_PPTP_H
+#define NET_PPTP_H
 
 #include <voltos/pptp.h>
 
-#endif /* _NET_PPTP_H_ */
+#endif /* NET_PPTP_H */

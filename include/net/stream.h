@@ -1,8 +1,8 @@
-#ifndef _NET_STREAM_H_
-#define _NET_STREAM_H_
+#ifndef NET_STREAM_H
+#define NET_STREAM_H
 
 struct stream {
 
 };
 
-#endif /* _NET_STREAM_H_ */
+#endif /* NET_STREAM_H */

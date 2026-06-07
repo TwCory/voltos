@@ -1,12 +1,6 @@
-#ifndef _NET_SEND_H_
-#define _NET_SEND_H_
+#ifndef NET_SEND_H
+#define NET_SEND_H
 
-struct send {
+#include <voltos/ipv6_send.h>
 
-};
-
-struct send_interface {
-
-};
-
-#endif /* _NET_SEND_H_ */
+#endif /* NET_SEND_H */
