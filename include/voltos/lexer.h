@@ -1,4 +1,9 @@
-#ifndef _VOLTOS_LEXER_H_
-#define _VOLTOS_LEXER_H_
+#ifndef VOLTOS_LEXER_H
+#define VOLTOS_LEXER_H
 
-#endif /* _VOLTOS_LEXER_H_ */
+struct token {
+	int 		index;
+	const char 	*match;
+};
+
+#endif /* VOLTOS_LEXER_H */

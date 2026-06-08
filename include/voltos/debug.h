@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_DEBUG_H_
-#define _VOLTOS_DEBUG_H_
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_DEBUG_H_ */
+#ifndef VOLTOS_DEBUG_H
+#define VOLTOS_DEBUG_H
+
+#endif /* VOLTOS_DEBUG_H */

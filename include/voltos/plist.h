@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_PLIST_H_
-#define _VOLTOS_PLIST_H_
+#ifndef VOLTOS_PLIST_H
+#define VOLTOS_PLIST_H
 
 #include <voltos/plist_types.h>
 
-#endif /* _VOLTOS_PLIST_H_ */
+#endif /* VOLTOS_PLIST_H */

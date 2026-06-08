@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_RCU_REF_H_
-#define _VOLTOS_RCU_REF_H_
+#ifndef VOLTOS_RCU_REF_H
+#define VOLTOS_RCU_REF_H
 
-#endif /* _VOLTOS_RCU_REF_H_ */
+typedef struct {
+	int ref_count;
+} rcu_ref_t;
+
+#endif /* VOLTOS_RCU_REF_H */

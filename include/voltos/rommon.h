@@ -1,4 +1,10 @@
-#ifndef _VOLTOS_ROMMON_H_
-#define _VOLTOS_ROMMON_H_
+#ifndef VOLTOS_ROMMON_H
+#define VOLTOS_ROMMON_H
 
-#endif /* _VOLTOS_ROMMON_H_ */
+#include <voltos/device.h>
+
+struct rommon_device {
+	struct device *device;
+};
+
+#endif /* VOLTOS_ROMMON_H */

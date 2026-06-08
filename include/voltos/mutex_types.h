@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_MUTEX_TYPES_H_
-#define _VOLTOS_MUTEX_TYPES_H_
+#ifndef VOLTOS_MUTEX_TYPES_H
+#define VOLTOS_MUTEX_TYPES_H
 
 typedef struct {
 
 } mutex_t;
 
-#endif /* _VOLTOS_MUTEX_TYPES_H_ */
+#endif /* VOLTOS_MUTEX_TYPES_H */

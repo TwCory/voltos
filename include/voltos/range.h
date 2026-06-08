@@ -1,6 +1,14 @@
-#ifndef _VOLTOS_RANGE_H_
-#define _VOLTOS_RANGE_H_
+#ifndef VOLTOS_RANGE_H
+#define VOLTOS_RANGE_H
 
-#define __range
+#include <voltos/types.h>
 
-#endif /* _VOLTOS_RANGE_H_ */
+struct range {
+	u64 			start;
+	u64 			stop;
+	unsigned char 		step;
+};
+
+#define __range(start, stop, step)
+
+#endif /* VOLTOS_RANGE_H */

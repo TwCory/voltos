@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_MUTEX_H_
-#define _VOLTOS_MUTEX_H_
+#ifndef VOLTOS_MUTEX_H
+#define VOLTOS_MUTEX_H
 
-#endif /* _VOLTOS_MUTEX_H_ */
+#include <voltos/mutex_types.h>
+
+#endif /* VOLTOS_MUTEX_H */

@@ -1,12 +1,16 @@
-#ifndef _VOLTOS_PLIST_TYPES_H_
-#define _VOLTOS_PLIST_TYPES_H_
+#ifndef VOLTOS_PLIST_TYPES_H
+#define VOLTOS_PLIST_TYPES_H
+
+#include <voltos/list.h>
 
 struct plist_head {
-
+	struct list_head 	node_list;
 };
 
 struct plist_node {
-
+	int 			priority;
+	struct list_head 	priority_list;
+	struct list_head 	node_list;
 };
 
-#endif /* _VOLTOS_PLIST_TYPES_H_ */
+#endif /* VOLTOS_PLIST_TYPES_H */

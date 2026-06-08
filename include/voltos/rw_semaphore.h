@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-#ifndef _VOLTOS_RW_SEMAPHORE_H_
-#define _VOLTOS_RW_SEMAPHORE_H_
+#ifndef VOLTOS_RW_SEMAPHORE_H
+#define VOLTOS_RW_SEMAPHORE_H
 
-#endif /* _VOLTOS_RW_SEMAPHORE_H_ */
+struct rw_semaphore {
+
+};
+
+#endif /* VOLTOS_RW_SEMAPHORE_H */

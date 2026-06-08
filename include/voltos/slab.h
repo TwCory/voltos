@@ -1,8 +1,10 @@
-#ifndef _VOLTOS_SLAB_H_
-#define _VOLTOS_SLAB_H_
+#ifndef VOLTOS_SLAB_H
+#define VOLTOS_SLAB_H
+
+typedef unsigned int slab_flags_t;
 
 struct mm_cache_args {
 
 };
 
-#endif /* _VOLTOS_SLAB_H_ */
+#endif /* VOLTOS_SLAB_H */
