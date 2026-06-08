@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_BFD_H_
-#define _VOLTOS_BFD_H_
+#ifndef VOLTOS_BFD_H
+#define VOLTOS_BFD_H
 
 #include <nbapi/voltos/bfd.h>
 
@@ -11,4 +11,8 @@ struct bfd_session_ctx {
 
 };
 
-#endif /* _VOLTOS_BFD_H_ */
+struct bfd_interface {
+
+};
+
+#endif /* VOLTOS_BFD_H */

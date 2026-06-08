@@ -1,6 +1,6 @@
-#ifndef _NBAPI_VOLTOS_BBU_H_
-#define _NBAPI_VOLTOS_BBU_H_
+#ifndef NBAPI_VOLTOS_BBU_H
+#define NBAPI_VOLTOS_BBU_H
 
 typedef unsigned char 		__voltos_bbu_idx_t;
 
-#endif /* _NBAPI_VOLTOS_BBU_H_ */
+#endif /* NBAPI_VOLTOS_BBU_H */

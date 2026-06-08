@@ -1,5 +1,5 @@
-#ifndef _NBAPI_VOLTOS_BABEL_H_
-#define _NBAPI_VOLTOS_BABEL_H_
+#ifndef NBAPI_VOLTOS_BABEL_H
+#define NBAPI_VOLTOS_BABEL_H
 
 #include <voltos/types.h>
 
@@ -91,4 +91,4 @@ struct babel_hdr {
 	__net16 				length;
 };
 
-#endif /* _NBAPI_VOLTOS_BABEL_H_ */
+#endif /* NBAPI_VOLTOS_BABEL_H */

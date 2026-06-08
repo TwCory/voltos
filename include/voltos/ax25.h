@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_AX25_H_
-#define _VOLTOS_AX25_H_
+#ifndef VOLTOS_AX25_H
+#define VOLTOS_AX25_H
 
 #include <nbapi/voltos/ax25.h>
 
-#endif /* _VOLTOS_AX25_H_ */
+struct ax25_interface {
+
+};
+
+#endif /* VOLTOS_AX25_H */

@@ -1,6 +1,6 @@
-#ifndef _NBAPI_VOLTOS_AARP_H_
-#define _NBAPI_VOLTOS_AARP_H_
+#ifndef NBAPI_VOLTOS_AARP_H
+#define NBAPI_VOLTOS_AARP_H
 
 #define AARP_ETHERTYPE		0x80F3
 
-#endif /* _NBAPI_VOLTOS_AARP_H_ */
+#endif /* NBAPI_VOLTOS_AARP_H */

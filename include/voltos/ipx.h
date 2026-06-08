@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_IPX_H_
-#define _VOLTOS_IPX_H_
+#ifndef VOLTOS_IPX_H
+#define VOLTOS_IPX_H
 
 #include <nbapi/voltos/ipx.h>
 
-#endif /* _VOLTOS_IPX_H_ */
+struct ipx_interface {
+
+};
+
+#endif /* VOLTOS_IPX_H */

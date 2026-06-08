@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_MPLS_H_
-#define _VOLTOS_MPLS_H_
+#ifndef VOLTOS_MPLS_H
+#define VOLTOS_MPLS_H
 
 #include <nbapi/voltos/mpls.h>
 
-#endif /* _VOLTOS_MPLS_H_ */
+struct mpls_interface {
+
+};
+
+#endif /* VOLTOS_MPLS_H */

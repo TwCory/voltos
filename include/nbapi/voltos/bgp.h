@@ -1,5 +1,5 @@
-#ifndef _NBAPI_VOLTOS_BGP_H_
-#define _NBAPI_VOLTOS_BGP_H_
+#ifndef NBAPI_VOLTOS_BGP_H
+#define NBAPI_VOLTOS_BGP_H
 
 #define BGP_VERSION		4
 #define BGP_PORT		179
@@ -28,4 +28,4 @@ struct bgp_route_refresh_pkt {
 
 };
 
-#endif /* _NBAPI_VOLTOS_BGP_H_ */
+#endif /* NBAPI_VOLTOS_BGP_H */

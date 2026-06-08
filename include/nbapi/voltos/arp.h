@@ -1,5 +1,5 @@
-#ifndef _NBAPI_VOLTOS_ARP_H_
-#define _NBAPI_VOLTOS_ARP_H_
+#ifndef NBAPI_VOLTOS_ARP_H
+#define NBAPI_VOLTOS_ARP_H
 
 #include <voltos/types.h>
 
@@ -23,4 +23,4 @@ struct arp_hdr {
 	__net16 		arp_opcode;
 };
 
-#endif /* _NBAPI_VOLTOS_ARP_H_ */
+#endif /* NBAPI_VOLTOS_ARP_H */

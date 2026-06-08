@@ -1,5 +1,5 @@
-#ifndef _NBAPI_VOLTOS_BFD_H_
-#define _NBAPI_VOLTOS_BFD_H_
+#ifndef NBAPI_VOLTOS_BFD_H
+#define NBAPI_VOLTOS_BFD_H
 
 #define BFD_PROFILE_NAME_SIZE		36
 
@@ -23,4 +23,4 @@ struct bfd_dplane_pkt {
 
 };
 
-#endif /* _NBAPI_VOLTOS_BFD_H_ */
+#endif /* NBAPI_VOLTOS_BFD_H */

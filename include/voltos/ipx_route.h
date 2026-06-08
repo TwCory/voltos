@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_IPX_ROUTE_H_
-#define _VOLTOS_IPX_ROUTE_H_
+#ifndef VOLTOS_IPX_ROUTE_H
+#define VOLTOS_IPX_ROUTE_H
 
-#endif /* _VOLTOS_IPX_ROUTE_H_ */
+struct ipx_route {
+
+};
+
+#endif /* VOLTOS_IPX_ROUTE_H */

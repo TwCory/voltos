@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_ATALK_H_
-#define _VOLTOS_ATALK_H_
+#ifndef VOLTOS_ATALK_H
+#define VOLTOS_ATALK_H
 
 #include <nbapi/voltos/atalk.h>
 
-#endif /* _VOLTOS_ATALK_H_ */
+struct atalk_interface {
+
+};
+
+#endif /* VOLTOS_ATALK_H */

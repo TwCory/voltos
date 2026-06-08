@@ -1,6 +1,11 @@
-#ifndef _VOLTOS_CLNS_H_
-#define _VOLTOS_CLNS_H_
+#ifndef VOLTOS_CLNS_H
+#define VOLTOS_CLNS_H
 
+#include <voltos/idb.h>
 #include <nbapi/voltos/clns.h>
 
-#endif /* _VOLTOS_CLNS_H_ */
+struct clns_interface {
+	struct idb *idb;
+};
+
+#endif /* VOLTOS_CLNS_H */

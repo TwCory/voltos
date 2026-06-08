@@ -1,4 +1,4 @@
-#ifndef _NBAPI_VOLTOS_ACAP_H_
-#define _NBAPI_VOLTOS_ACAP_H_
+#ifndef NBAPI_VOLTOS_ACAP_H
+#define NBAPI_VOLTOS_ACAP_H
 
-#endif /* _NBAPI_VOLTOS_ACAP_H_ */
+#endif /* NBAPI_VOLTOS_ACAP_H */

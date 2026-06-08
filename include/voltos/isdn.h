@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/isdn.h>
 
+struct isdn_interface {
+
+};
+
 #endif /* _VOLTOS_ISDN_H_ */

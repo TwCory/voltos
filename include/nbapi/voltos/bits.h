@@ -1,7 +1,7 @@
-#ifndef _NBAPI_VOLTOS_BITS_H_
-#define _NBAPI_VOLTOS_BITS_H_
+#ifndef NBAPI_VOLTOS_BITS_H
+#define NBAPI_VOLTOS_BITS_H
 
 #include <stdbit.h>
 #include <machine/bits.h>
 
-#endif /* _NBAPI_VOLTOS_BITS_H_ */
+#endif /* NBAPI_VOLTOS_BITS_H */

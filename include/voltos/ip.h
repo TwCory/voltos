@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_IP_H_
-#define _VOLTOS_IP_H_
+#ifndef VOLTOS_IP_H
+#define VOLTOS_IP_H
 
 #include <nbapi/voltos/ip.h>
 
-#endif /* _VOLTOS_IP_H_ */
+struct ip_interface {
+
+};
+
+#endif /* VOLTOS_IP_H */

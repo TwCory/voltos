@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_MCTP_H_
-#define _VOLTOS_MCTP_H_
+#ifndef VOLTOS_MCTP_H
+#define VOLTOS_MCTP_H
 
 #include <nbapi/voltos/mctp.h>
 
-#endif /* _VOLTOS_MCTP_H_ */
+struct mctp_interface {
+
+};
+
+#endif /* VOLTOS_MCTP_H */

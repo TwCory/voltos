@@ -1,6 +1,11 @@
-#ifndef _VOLTOS_IPV6_H_
-#define _VOLTOS_IPV6_H_
+#ifndef VOLTOS_IPV6_H
+#define VOLTOS_IPV6_H
 
+#include <voltos/idb.h>
 #include <nbapi/voltos/ipv6.h>
 
-#endif /* _VOLTOS_IPV6_H_ */
+struct ipv6_interface {
+	struct idb *idb;
+};
+
+#endif /* VOLTOS_IPV6_H */

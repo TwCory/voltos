@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_ILNP_H_
-#define _VOLTOS_ILNP_H_
+#ifndef VOLTOS_ILNP_H
+#define VOLTOS_ILNP_H
 
 #include <nbapi/voltos/ilnp.h>
 
-#endif /* _VOLTOS_ILNP_H_ */
+struct ilnp_interface {
+
+};
+
+#endif /* VOLTOS_ILNP_H */

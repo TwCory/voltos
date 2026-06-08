@@ -1,5 +1,5 @@
-#ifndef _NBAPI_VOLTOS_BEEP_H_
-#define _NBAPI_VOLTOS_BEEP_H_
+#ifndef NBAPI_VOLTOS_BEEP_H
+#define NBAPI_VOLTOS_BEEP_H
 
 #define BEEP_TUNNEL_PORT		604
 #define BEEP_IRIS_PORT			702
@@ -43,4 +43,4 @@ enum {
 #define BEEP_KEYWORD_ANS		"ANS"
 #define BEEP_KEYWORD_NUL		"NUL"
 
-#endif /* _NBAPI_VOLTOS_BEEP_H_ */
+#endif /* NBAPI_VOLTOS_BEEP_H */

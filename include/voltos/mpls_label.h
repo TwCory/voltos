@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_MPLS_LABEL_H_
-#define _VOLTOS_MPLS_LABEL_H_
+#ifndef VOLTOS_MPLS_LABEL_H
+#define VOLTOS_MPLS_LABEL_H
 
-#endif /* _VOLTOS_MPLS_LABEL_H_ */
+struct mpls_label {
+
+};
+
+#endif /* VOLTOS_MPLS_LABEL_H */

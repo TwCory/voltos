@@ -1,8 +1,8 @@
-#ifndef _NBAPI_VOLTOS_BIER_H_
-#define _NBAPI_VOLTOS_BIER_H_
+#ifndef NBAPI_VOLTOS_BIER_H
+#define NBAPI_VOLTOS_BIER_H
 
 struct bier_hdr {
 
 };
 
-#endif /* _NBAPI_VOLTOS_BIER_H_ */
+#endif /* NBAPI_VOLTOS_BIER_H */

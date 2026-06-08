@@ -1,4 +1,4 @@
-#ifndef _NBAPI_VOLTOS_ALTO_H_
-#define _NBAPI_VOLTOS_ALTO_H_
+#ifndef NBAPI_VOLTOS_ALTO_H
+#define NBAPI_VOLTOS_ALTO_H
 
-#endif /* _NBAPI_VOLTOS_ALTO_H_ */
+#endif /* NBAPI_VOLTOS_ALTO_H */

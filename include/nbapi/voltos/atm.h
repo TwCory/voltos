@@ -1,4 +1,4 @@
-#ifndef _NBAPI_VOLTOS_ATM_H_
-#define _NBAPI_VOLTOS_ATM_H_
+#ifndef NBAPI_VOLTOS_ATM_H
+#define NBAPI_VOLTOS_ATM_H
 
-#endif /* _NBAPI_VOLTOS_ATM_H_ */
+#endif /* NBAPI_VOLTOS_ATM_H */
