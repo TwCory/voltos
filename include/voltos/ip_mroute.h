@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_IP_MROUTE_H_
-#define _VOLTOS_IP_MROUTE_H_
+#ifndef VOLTOS_IP_MROUTE_H
+#define VOLTOS_IP_MROUTE_H
 
-#endif /* _VOLTOS_IP_MROUTE_H_ */
+struct ip_mroute_ctx {
+
+};
+
+#endif /* VOLTOS_IP_MROUTE_H */

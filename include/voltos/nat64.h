@@ -1,4 +1,12 @@
-#ifndef _VOLTOS_NAT64_H_
-#define _VOLTOS_NAT64_H_
+#ifndef VOLTOS_NAT64_H
+#define VOLTOS_NAT64_H
 
-#endif /* _VOLTOS_NAT64_H_ */
+struct nat64_prefix {
+
+};
+
+struct nat64_route {
+
+};
+
+#endif /* VOLTOS_NAT64_H */

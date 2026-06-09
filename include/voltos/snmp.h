@@ -1,6 +1,10 @@
-#ifndef _VOLTOS_SNMP_H_
-#define _VOLTOS_SNMP_H_
+#ifndef VOLTOS_SNMP_H
+#define VOLTOS_SNMP_H
 
 #include <nbapi/voltos/snmp.h>
 
-#endif /* _VOLTOS_SNMP_H_ */
+struct snmp_agent {
+
+};
+
+#endif /* VOLTOS_SNMP_H */

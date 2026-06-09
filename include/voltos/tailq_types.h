@@ -1,0 +1,4 @@
+#ifndef VOLTOS_TAILQ_TYPES_H
+#define VOLTOS_TAILQ_TYPES_H
+
+#endif /* VOLTOS_TAILQ_TYPES_H */

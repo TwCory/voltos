@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_GMPLS_H_
-#define _VOLTOS_GMPLS_H_
+#ifndef VOLTOS_GMPLS_H
+#define VOLTOS_GMPLS_H
 
-#endif /* _VOLTOS_GMPLS_H_ */
+struct gmpls_interface {
+
+};
+
+#endif /* VOLTOS_GMPLS_H */

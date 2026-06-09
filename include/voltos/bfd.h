@@ -11,6 +11,10 @@ struct bfd_session_ctx {
 
 };
 
+struct bfd {
+
+};
+
 struct bfd_interface {
 
 };

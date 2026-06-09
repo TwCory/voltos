@@ -1,6 +1,14 @@
-#ifndef _VOLTOS_MLD_H_
-#define _VOLTOS_MLD_H_
+#ifndef VOLTOS_MLD_H
+#define VOLTOS_MLD_H
 
 #include <nbapi/voltos/mld.h>
 
-#endif /* _VOLTOS_MLD_H_ */
+struct mld {
+
+};
+
+struct mld_interface {
+
+};
+
+#endif /* VOLTOS_MLD_H */

@@ -3,8 +3,12 @@
 
 #include <nbapi/voltos/mctp.h>
 
-struct mctp_interface {
+struct mctp {
 
+};
+
+struct mctp_interface {
+	struct mctp *mctp;
 };
 
 #endif /* VOLTOS_MCTP_H */

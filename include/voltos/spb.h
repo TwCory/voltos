@@ -1,4 +1,12 @@
-#ifndef _VOLTOS_SPB_H_
-#define _VOLTOS_SPB_H_
+#ifndef VOLTOS_SPB_H
+#define VOLTOS_SPB_H
 
-#endif /* _VOLTOS_SPB_H_ */
+struct spb {
+
+};
+
+struct spb_interface {
+
+};
+
+#endif /* VOLTOS_SPB_H */

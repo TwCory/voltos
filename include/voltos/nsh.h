@@ -1,6 +1,14 @@
-#ifndef _VOLTOS_NSH_H_
-#define _VOLTOS_NSH_H_
+#ifndef VOLTOS_NSH_H
+#define VOLTOS_NSH_H
 
 #include <nbapi/voltos/nsh.h>
 
-#endif /* _VOLTOS_NSH_H_ */
+struct nsh {
+
+};
+
+struct nsh_interface {
+
+};
+
+#endif /* VOLTOS_NSH_H */

@@ -1,4 +1,12 @@
-#ifndef _VOLTOS_XNS_H_
-#define _VOLTOS_XNS_H_
+#ifndef VOLTOS_XNS_H
+#define VOLTOS_XNS_H
 
-#endif /* _VOLTOS_XNS_H_ */
+struct xns {
+
+};
+
+struct xns_interface {
+
+};
+
+#endif /* VOLTOS_XNS_H */

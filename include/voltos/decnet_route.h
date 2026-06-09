@@ -1,0 +1,4 @@
+#ifndef VOLTOS_DECNET_ROUTE_H
+#define VOLTOS_DECNET_ROUTE_H
+
+#endif /* VOLTOS_DECNET_ROUTE_H */

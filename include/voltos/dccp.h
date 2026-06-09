@@ -1,6 +1,14 @@
-#ifndef _VOLTOS_DCCP_H_
-#define _VOLTOS_DCCP_H_
+#ifndef VOLTOS_DCCP_H
+#define VOLTOS_DCCP_H
 
 #include <nbapi/voltos/dccp.h>
 
-#endif /* _VOLTOS_DCCP_H_ */
+struct dccp {
+
+};
+
+struct dccp_interface {
+
+};
+
+#endif /* VOLTOS_DCCP_H */

@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_IP_NAT_H_
-#define _VOLTOS_IP_NAT_H_
+#ifndef VOLTOS_IP_NAT_H
+#define VOLTOS_IP_NAT_H
 
-#endif /* _VOLTOS_IP_NAT_H_ */
+struct ip_nat_pool {
+
+};
+
+#endif /* VOLTOS_IP_NAT_H */

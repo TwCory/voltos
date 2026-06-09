@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_VLAN_H_
-#define _VOLTOS_VLAN_H_
+#ifndef VOLTOS_VLAN_H
+#define VOLTOS_VLAN_H
 
 #include <nbapi/voltos/vlan.h>
 
@@ -8,4 +8,4 @@ struct vlan {
 	char 			vlan_name[VLAN_NAME_SIZE];
 };
 
-#endif /* _VOLTOS_VLAN_H_ */
+#endif /* VOLTOS_VLAN_H */

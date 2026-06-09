@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_IP_MOBILE_H_
-#define _VOLTOS_IP_MOBILE_H_
+#ifndef VOLTOS_IP_MOBILE_H
+#define VOLTOS_IP_MOBILE_H
 
 #include <nbapi/voltos/ip_mobile.h>
 
-#endif /* _VOLTOS_IP_MOBILE_H_ */
+#endif /* VOLTOS_IP_MOBILE_H */

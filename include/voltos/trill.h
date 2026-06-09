@@ -1,4 +1,12 @@
-#ifndef _VOLTOS_TRILL_H_
-#define _VOLTOS_TRILL_H_
+#ifndef VOLTOS_TRILL_H
+#define VOLTOS_TRILL_H
 
-#endif /* _VOLTOS_TRILL_H_ */
+struct trill {
+
+};
+
+struct trill_interface {
+
+};
+
+#endif /* VOLTOS_TRILL_H */

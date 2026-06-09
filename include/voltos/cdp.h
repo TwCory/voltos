@@ -1,6 +1,14 @@
-#ifndef _VOLTOS_CDP_H_
-#define _VOLTOS_CDP_H_
+#ifndef VOLTOS_CDP_H
+#define VOLTOS_CDP_H
 
 #include <nbapi/voltos/cdp.h>
 
-#endif /* _VOLTOS_CDP_H_ */
+struct cdp {
+
+};
+
+struct cdp_interface {
+
+};
+
+#endif /* VOLTOS_CDP_H */

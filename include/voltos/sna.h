@@ -1,4 +1,12 @@
-#ifndef _VOLTOS_SNA_H_
-#define _VOLTOS_SNA_H_
+#ifndef VOLTOS_SNA_H
+#define VOLTOS_SNA_H
 
-#endif /* _VOLTOS_SNA_H_ */
+struct sna {
+
+};
+
+struct sna_interface {
+
+};
+
+#endif /* VOLTOS_SNA_H */

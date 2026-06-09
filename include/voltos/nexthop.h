@@ -1,6 +1,8 @@
 #ifndef VOLTOS_NEXTHOP_H
 #define VOLTOS_NEXTHOP_H
 
+struct next_hop_group;
+
 struct next_hop {
 
 };

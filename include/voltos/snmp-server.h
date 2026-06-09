@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_SNMP_SERVER_H_
-#define _VOLTOS_SNMP_SERVER_H_
+#ifndef VOLTOS_SNMP_SERVER_H
+#define VOLTOS_SNMP_SERVER_H
 
-#endif /* _VOLTOS_SNMP_SERVER_H_ */
+struct snmp_server {
+
+};
+
+#endif /* VOLTOS_SNMP_SERVER_H */

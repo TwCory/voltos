@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_IPV6_MUX_H_
-#define _VOLTOS_IPV6_MUX_H_
+#ifndef VOLTOS_IPV6_MUX_H
+#define VOLTOS_IPV6_MUX_H
 
-#endif /* _VOLTOS_IPV6_MUX_H_ */
+struct ipv6_mux_profile {
+
+};
+
+#endif /* VOLTOS_IPV6_MUX_H */

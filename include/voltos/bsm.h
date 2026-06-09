@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/bsm.h>
 
+struct bsm_engine {
+
+};
+
 #endif /* VOLTOS_BSM_H */

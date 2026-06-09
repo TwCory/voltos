@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_IP_MUX_H_
-#define _VOLTOS_IP_MUX_H_
+#ifndef VOLTOS_IP_MUX_H
+#define VOLTOS_IP_MUX_H
 
-#endif /* _VOLTOS_IP_MUX_H_ */
+struct ip_mux_profile {
+
+};
+
+#endif /* VOLTOS_IP_MUX_H */
