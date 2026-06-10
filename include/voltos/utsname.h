@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_UTSNAME_H_
-#define _VOLTOS_UTSNAME_H_
+#ifndef VOLTOS_UTSNAME_H
+#define VOLTOS_UTSNAME_H
 
 #include <sys/utsname.h>
 
-#endif /* _VOLTOS_UTSNAME_H_ */
+#endif /* VOLTOS_UTSNAME_H */
