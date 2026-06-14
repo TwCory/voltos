@@ -1,0 +1,4 @@
+module Coralt-VoltOS-dlsw {
+
+    grouping config-dlsw-grouping;
+}

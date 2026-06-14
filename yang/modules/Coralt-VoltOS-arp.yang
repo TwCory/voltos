@@ -1,0 +1,5 @@
+module Coralt-VoltOS-arp {
+    
+    grouping config-arp-grouping;
+    grouping interface-arp-grouping;
+}

@@ -1,0 +1,9 @@
+module Coralt-VoltOS-ethernet {
+
+    grouping config-ethernet-grouping {
+        leaf lmi;
+        leaf mac-flush;
+        leaf mac-tunnel;
+    }
+    grouping interface-ethernet-grouping;
+}

@@ -1,0 +1,4 @@
+module Coralt-VoltOS-route-map {
+
+    grouping config-route-map-grouping;
+}

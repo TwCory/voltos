@@ -1,0 +1,5 @@
+module Coralt-VoltOS-snmp {
+    
+    grouping config-snmp-grouping;
+    grouping config-snmp-server-grouping;
+}

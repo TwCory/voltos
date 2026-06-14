@@ -1,0 +1,5 @@
+module Coralt-VoltOS-mvrp {
+
+    grouping config-mvrp-grouping;
+    grouping interface-mvrp-grouping;
+}

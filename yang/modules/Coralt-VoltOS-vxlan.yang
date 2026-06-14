@@ -1,0 +1,6 @@
+module Coralt-VoltOS-vxlan {
+
+    grouping config-vxlan-grouping {
+        leaf port;
+    }
+}

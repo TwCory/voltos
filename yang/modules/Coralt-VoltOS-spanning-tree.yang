@@ -1,0 +1,5 @@
+module Coralt-VoltOS-spanning-tree {
+    
+    grouping config-spanning-tree-grouping;
+    grouping interface-spanning-tree-grouping;
+}

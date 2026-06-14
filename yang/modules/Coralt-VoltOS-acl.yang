@@ -1,0 +1,15 @@
+module Coralt-VoltOS-acl {
+    
+    grouping config-access-list-grouping {
+        leaf compiled;
+        leaf rate-limit;
+    }
+    grouping config-ip-access-list-grouping {
+        leaf extended;
+        leaf hardware;
+        leaf log-update;
+        leaf logging;
+        leaf standard;
+    }
+    grouping config-ipv6-access-list-grouping;
+}

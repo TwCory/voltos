@@ -1,0 +1,4 @@
+module Coralt-VoltOS-buffers {
+
+    grouping config-buffers-grouping;
+}

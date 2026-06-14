@@ -1,0 +1,64 @@
+module Coralt-VoltOS-clns {
+
+    grouping config-clns-grouping {
+        container clns {
+            description
+                "Global CLNS Configuration Commands";
+            container cache-invalidate-delay {
+                leaf min-delay {
+                    default "2";
+                    type uint16 {
+                        range "0..300";
+                    }
+                }
+                leaf max-delay {
+                    default "5";
+                    type uint16 {
+                        range "0..300";
+                    }
+                }
+                leaf quiet-interval {
+                    default "3";
+                    type uint16 {
+                        range "0..600";
+                    }
+                }
+                leaf quiet-threshold {
+                    default "0";
+                    type uint32 {
+                        range "0..4294967295";
+                    }
+                }
+            }
+            leaf packet-rate {
+                type uint16;
+            }
+            leaf holding-time {
+                type uint16;
+            }
+            leaf packet-lifetime {
+                type uint8;
+            }
+            leaf queue-depth {
+                type uint32 {
+                    range "1..2147483647";
+                }
+            }
+            container security {
+                leaf pass-through {
+                    type empty;
+                }
+            }
+            leaf routing {
+                type empty;
+            }
+            leaf want-erpdu {
+                default "true";
+                type boolean;
+            }
+        }
+    }
+
+
+    grouping interface-clns-grouping;
+}

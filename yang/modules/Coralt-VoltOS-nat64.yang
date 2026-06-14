@@ -1,0 +1,5 @@
+module Coralt-VoltOS-nat64 {
+
+    grouping config-nat64-grouping;
+    grouping interface-nat64-grouping;
+}

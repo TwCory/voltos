@@ -1,0 +1,5 @@
+module Coralt-VoltOS-vlan {
+
+
+    grouping config-vlan-grouping;
+}

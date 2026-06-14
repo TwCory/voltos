@@ -1,0 +1,4 @@
+module Coralt-VoltOS-ospf {
+
+    grouping router-ospf-grouping;
+}

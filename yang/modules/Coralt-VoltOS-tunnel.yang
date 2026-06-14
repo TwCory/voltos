@@ -1,0 +1,5 @@
+module Coralt-VoltOS-tunnel {
+
+    grouping interface-tunnel-grouping;
+
+}

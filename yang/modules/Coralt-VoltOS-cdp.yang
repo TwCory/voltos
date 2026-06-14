@@ -1,0 +1,10 @@
+module Coralt-VoltOS-cdp {
+
+    grouping config-cdp-grouping {
+        container cdp {
+            leaf advertise-v2;
+            leaf run;
+        }
+    }
+    grouping interface-cdp-grouping;
+}

@@ -1,0 +1,4 @@
+module Coralt-VoltOS-dot1x {
+
+    grouping config-dot1x-grouping;
+}

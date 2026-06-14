@@ -1,0 +1,6 @@
+module Coralt-VoltOS-trill {
+
+    grouping config-trill-grouping;
+
+    grouping interface-trill-grouping;
+}

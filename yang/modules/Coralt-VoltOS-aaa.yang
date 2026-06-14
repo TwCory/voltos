@@ -1,0 +1,7 @@
+module Coralt-VoltOS-aaa {
+
+    grouping config-aaa-grouping {
+        leaf new-model;
+    }
+    grouping interface-aaa-grouping;
+}

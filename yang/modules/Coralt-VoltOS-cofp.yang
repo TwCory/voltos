@@ -1,0 +1,11 @@
+module Coralt-VoltOS-cofp {
+
+    grouping config-cofp-grouping;
+    grouping config-ip-cofp-grouping {
+        leaf distributed;
+    }
+    grouping config-ipv6-cofp-grouping {
+        leaf distributed;
+    }
+
+}

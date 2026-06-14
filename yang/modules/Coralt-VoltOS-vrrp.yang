@@ -1,0 +1,4 @@
+module Coralt-VoltOS-vrrp {
+
+    grouping interface-vrrp-grouping;
+}

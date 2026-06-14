@@ -1,0 +1,4 @@
+module Coralt-VoltOS-frame-relay {
+
+    grouping config-frame-relay-grouping;
+}

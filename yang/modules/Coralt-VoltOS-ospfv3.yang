@@ -1,0 +1,5 @@
+module Coralt-VoltOS-ospfv3 {
+
+    grouping ipv6-router-ospf-grouping;
+    grouping router-ospfv3-grouping;
+}

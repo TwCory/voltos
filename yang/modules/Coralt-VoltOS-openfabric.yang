@@ -1,0 +1,4 @@
+module Coralt-VoltOS-openfabric {
+
+    grouping router-openfabric-grouping;
+}

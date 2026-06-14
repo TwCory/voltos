@@ -1,0 +1,5 @@
+module Coralt-VoltOS-lldp {
+
+    grouping config-lldp-grouping;
+    grouping interface-lldp-grouping;
+}

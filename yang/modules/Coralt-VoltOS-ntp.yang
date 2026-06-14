@@ -1,0 +1,4 @@
+module Coralt-VoltOS-ntp {
+
+    grouping config-ntp-grouping;
+}

@@ -1,0 +1,4 @@
+module Coralt-VoltOS-rip {
+
+    grouping router-rip-grouping;
+}

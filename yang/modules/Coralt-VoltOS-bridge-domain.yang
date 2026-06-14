@@ -1,0 +1,4 @@
+module Coralt-VoltOS-bridge-domain {
+
+    grouping config-bridge-domain-grouping;
+}

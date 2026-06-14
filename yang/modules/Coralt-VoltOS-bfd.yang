@@ -1,0 +1,6 @@
+module Coralt-VoltOS-bfd {
+    
+    grouping config-bfd-grouping;
+    grouping config-bfd-template-grouping;
+    grouping interface-bfd-grouping;
+}

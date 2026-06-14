@@ -1,0 +1,4 @@
+module Coralt-VoltOS-qos {
+
+    grouping config-qos-grouping;
+}

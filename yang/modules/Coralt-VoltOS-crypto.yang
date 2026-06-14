@@ -1,0 +1,16 @@
+module Coralt-VoltOS-crypto {
+
+    grouping config-crypto-grouping {
+        leaf ikev2;
+        leaf ipsec;
+        leaf isakmp;
+        leaf key;
+        leaf vpn;
+        leaf xauth;
+    }
+    grouping config-key-grouping {
+        leaf chain;
+    }
+
+    grouping interface-crypto-grouping;
+}

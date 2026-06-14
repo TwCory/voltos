@@ -1,0 +1,4 @@
+module Coralt-VoltOS-parser {
+
+    grouping config-parser-grouping;
+}

@@ -211,20 +211,62 @@
     	_ ("zone", 				"") \
     	_ ("zone-pair", 			"") \
 
+#define __foreach_cli_configure_interface_node 		\
+	_ ("AppNav-Compress", 			"") \
+	_ ("AppNav-UnCompress", 		"") \
+	_ ("Auto-Template", 			"") \
+	_ ("BDI", 				"Bridge-Domain Interface\n") \
+	_ ("Bundle", 				"Bundle Interface\n") \
+	_ ("BVI", 				"Bridge Group Virtual IP Interface\n") \
+	_ ("CDMA-1x", 				"") \
+	_ ("CEM", 				"") \
+	_ ("CTunnel", 				"") \
+	_ ("Dialer", 				"Dialer Interface\n") \
+	_ ("Embedded-Service-Engine", 		"") \
+	_ ("GMPLS", 				"MPLS Virtual Interface\n") \
+	_ ("Group-Async", 			"") \
+	_ ("LISP", 				"LISP Virtual Interface\n") \
+	_ ("Loopback", 				"Loopback Interface\n") \
+	_ ("LSP-VIF", 				"") \
+	_ ("MFR", 				"") \
+	_ ("Multilink", 			"Multilink-Group Interface\n") \
+	_ ("Nebula", 				"") \
+	_ ("Netlink-Monitor", 			"") \
+	_ ("NVE", 				"Network Virtualization Endpoint Interface\n") \
+	_ ("OpenVPN", 				"") \
+	_ ("Overlay", 				"Overlay Interface\n") \
+	_ ("Port-Channel", 			"") \
+	_ ("PRP-Channel", 			"") \
+	_ ("Pseudowire", 			"") \
+	_ ("SoftEther", 			"SoftEther VPN Interface\n") \
+	_ ("STunnel", 				"") \
+	_ ("Tailscale", 			"") \
+	_ ("Tunnel", 				"Tunnel Interface\n") \
+	_ ("VIF", 				"") \
+	_ ("Virtual-CAN", 			"") \
+	_ ("Virtual-Ethernet", 			"") \
+	_ ("Virtual-PPP", 			"") \
+	_ ("Virtual-Template", 			"") \
+	_ ("Virtual-TokenRing", 		"") \
+	_ ("VirtualPortGroup", 			"") \
+	_ ("VLAN", 				"") \
+	_ ("VMI", 				"Virtual Multipoint Interface\n") \
+	_ ("ZeroTier", 				"") \
+
 #define __foreach_cli_configure_router_node 										\
-	_ ("babel", 			"Babel Routing Protocol\n") 							\
-	_ ("bgp", 			"Border Gateway Protocol (BGP)\n") 						\
-	_ ("eigrp", 			"Cisco Enhanced Interior Gateway Routing Protocol (EIGRP)\n") 			\
-	_ ("hsls", 			"Hazy-Sighted Link State (HSLS) Routing Protocol\n") 				\
-	_ ("isis", 			"ISO/IEC Intermediate System to Intermediate System (IS-IS)\n") 		\
-	_ ("iso-igrp", 			"Cisco Interior Gateway Routing Protocol (IGRP) for ISO/IEC Networks\n") 	\
-	_ ("lisp", 			"Locator/ID Separation Protocol (LISP)\n") 					\
-	_ ("mobile", 			"Mobile IP Routes\n") 								\
-	_ ("olsr", 			"Optimized Link State Routing (OLSR) Protocol\n") 				\
-	_ ("openfabric", 		"IETF OpenFabric Link State Protocol\n") 					\
-	_ ("ospf", 			"Open Shortest Path First (OSPF)\n") 						\
-	_ ("ospfv3", 			"Open Shortest Path First Version 3 (OSPFv3)\n") 				\
-	_ ("rip", 			"Routing Information Protocol (RIP)\n") 					\
-	_ ("zhls", 			"Zone-Based Hierarchical Link State (ZHLS) Routing Protocol\n") 		\
+	_ ("babel", 				"Babel Routing Protocol\n") 							\
+	_ ("bgp", 				"Border Gateway Protocol (BGP)\n") 						\
+	_ ("eigrp", 				"Cisco Enhanced Interior Gateway Routing Protocol (EIGRP)\n") 			\
+	_ ("hsls", 				"Hazy-Sighted Link State (HSLS) Routing Protocol\n") 				\
+	_ ("isis", 				"ISO/IEC Intermediate System to Intermediate System (IS-IS)\n") 		\
+	_ ("iso-igrp", 				"Cisco Interior Gateway Routing Protocol (IGRP) for ISO/IEC Networks\n") 	\
+	_ ("lisp", 				"Locator/ID Separation Protocol (LISP)\n") 					\
+	_ ("mobile", 				"Mobile IP Routes\n") 								\
+	_ ("olsr", 				"Optimized Link State Routing (OLSR) Protocol\n") 				\
+	_ ("openfabric", 			"IETF OpenFabric Link State Protocol\n") 					\
+	_ ("ospf", 				"Open Shortest Path First (OSPF)\n") 						\
+	_ ("ospfv3", 				"Open Shortest Path First Version 3 (OSPFv3)\n") 				\
+	_ ("rip", 				"Routing Information Protocol (RIP)\n") 					\
+	_ ("zhls", 				"Zone-Based Hierarchical Link State (ZHLS) Routing Protocol\n") 		\
 
 #endif /* VOLTOS_CLI_NODES_CONFIGURE_H */

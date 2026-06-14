@@ -1,0 +1,5 @@
+module Coralt-VoltOS-pgm {
+
+    grouping config-ip-pgm-grouping;
+    grouping config-ipv6-pgm-grouping;
+}

@@ -1,0 +1,4 @@
+module Coralt-VoltOS-ripng {
+
+    grouping ipv6-router-rip-grouping;
+}

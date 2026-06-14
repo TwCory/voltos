@@ -1,0 +1,5 @@
+module Coralt-VoltOS-rsvp {
+
+    grouping config-ip-rsvp-grouping;
+    grouping config-ipv6-rsvp-grouping;
+}

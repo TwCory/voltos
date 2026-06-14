@@ -1,0 +1,4 @@
+module Coralt-VoltOS-object-group {
+
+    grouping config-object-group-grouping;
+}

@@ -1,0 +1,5 @@
+module Coralt-VoltOS-ipv6 {
+    
+    grouping config-ipv6-grouping;
+    grouping interface-ipv6-grouping;
+}

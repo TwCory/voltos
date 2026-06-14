@@ -1,0 +1,4 @@
+module Coralt-VoltOS-cwmp {
+
+    grouping config-cwmp-grouping;
+}

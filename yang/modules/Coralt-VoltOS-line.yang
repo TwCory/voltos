@@ -1,0 +1,4 @@
+module Coralt-VoltOS-line {
+
+    grouping config-line-grouping;
+}

@@ -146,4 +146,7 @@ module Coralt-VoltOS-types {
     typedef ipv6-host;
     typedef ip-host;
 
+    typedef stack-slot-port;
+    typedef slot-port;
+
 }

@@ -1,0 +1,35 @@
+module Coralt-VoltOS-ip {
+    
+
+    grouping config-ip-grouping {
+        leaf access-list;
+        leaf accounting-list;
+        leaf accounting-threshold;
+        leaf accounting-transits;
+        leaf address-pool;
+        leaf admission;
+        leaf alias;
+        leaf arp;
+        leaf as-path;
+        leaf auth-proxy;
+
+        leaf bgp-community;
+        leaf bootp;
+
+        leaf cache-invalidate-delay;
+        leaf classless;
+        leaf cofp;
+        leaf community-list;
+
+        leaf dccp;
+        leaf ddns;
+        leaf default-gateway;
+        leaf default-network;
+        leaf device;
+        leaf dhcp;
+        leaf dhcp-client;
+
+        leaf routing;
+        
+    }
+}

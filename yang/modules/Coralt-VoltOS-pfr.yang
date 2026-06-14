@@ -1,0 +1,5 @@
+module Coralt-VoltOS-pfr {
+
+    grouping config-pfr-grouping;
+    grouping config-pfr-map-grouping;
+}

@@ -1,0 +1,4 @@
+module Coralt-VoltOS-ipc {
+
+    grouping config-ipc-grouping;
+}

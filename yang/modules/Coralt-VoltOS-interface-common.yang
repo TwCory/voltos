@@ -2,95 +2,121 @@ module Coralt-VoltOS-interface-common {
     yang-version 1.1;
     prefix voltos-ifc;
 
+    import Coralt-VoltOS-types {
+        prefix voltos-types;
+    }
+
     grouping interface-grouping {
         choice interface-choice {
             leaf AppGigabitEthernet {
                 description
                     "App-Hosting Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf AppleTalk {
                 description
                     "AppleTalk Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf AppNav-Compress {
                 description
                     "Service-Context Virtual Interface Compress";
+                type uint16;
             }
             leaf AppNav-UnCompress {
                 description
                     "Service-Context Virtual Interface UnCompress";
+                type uint16;
             }
-            leaf ARCNET {
+            leaf ARCnet {
                 description
-                    "ARCNET Interface";
+                    "ARCnet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Async {
                 description
                     "Asynchronous Serial Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf ATM {
                 description
                     "ATM Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf ATM-ACR {
                 description
                     "ATM Access Circuit Redundancy Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Auto-Template {
                 description
                     "Auto-Template Interface";
+                type uint16;
             }
             leaf BATMAN-Advanced {
                 description
                     "B.A.T.M.A.N. Ad-Hoc Mesh Router Interface";
+                type uint16;
             }
             leaf BDI {
                 description
                     "Bridge-Domain Interface";
+                type string;
             }
             leaf Bluetooth {
                 description
                     "Bluetooth Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Bundle {
                 description
                     "Bundle Interface";
+                type uint32;
             }
             leaf BVI {
                 description
                     "Bridge-Group Virtual Interface";
+                type string;
             }
             leaf Cable-Modem {
                 description
                     "Cable Modem Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf CAN {
                 description
-                    "CAN Bus Interface";
+                    "Controller Area Network (CAN) Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf CDMA-1x {
                 description
                     "CDMA 1x Interface";
+                type uint32;
             }
             leaf Cellular {
                 description
                     "Cellular Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf CTunnel {
                 description
                     "CTunnel Interface";
+                type uint16;
             }
             leaf Dialer {
                 description
                     "Dialer Interface";
+                type string;
             }
             leaf DSA {
                 description
-                    "Distributed Switch Architecture Interface";
+                    "Distributed Switch Architecture (DSA) Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf EightHundredGigE {
                 description
-                    "800 Gbit Ethernet Interface";
+                    "800 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Embedded-Service-Engine {
                 description
@@ -98,247 +124,452 @@ module Coralt-VoltOS-interface-common {
             }
             leaf Ethernet {
                 description
-                    "Ethernet (10Mbit) Interface";
-            }
-            leaf ExpEthernet {
-                description
-                    "Experimental Ethernet (3Mbit) Interface";
+                    "10 Megabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FastEthernet {
                 description
-                    "Fast Ethernet (100Mbit) Interface";
+                    "Fast Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FDDI {
                 description
                     "Fiber Distributed Data Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FibreChannel {
                 description
-                    "Fibre Channel Interface"
+                    "Fibre Channel Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FiftyGigabitEthernet {
                 description
-                    "50 Gbit Ethernet Interface";
+                    "50 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FiveGigabitEthernet {
                 description
-                    "5 Gbit Ethernet Interface";
+                    "5 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FortyGigabitEthernet {
                 description
-                    "40 Gbit Ethernet Interface";
+                    "40 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf FourHundredGigE {
                 description
-                    "400 Gbit Ethernet Interface";
+                    "400 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf GigabitEthernet {
                 description
-                    "Gigabit Ethernet (1000 Mbit) Interface";
+                    "Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf GMPLS {
                 description
                     "MPLS Virtual Interface";
+                type uint32;
             }
             leaf Group-Async {
                 description
                     "Async Group Interface";
+                type uint8;
             }
             leaf HIPPI {
                 description
                     "High-Performance Parallel Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf HSSI {
                 description
                     "High-Speed Serial Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf HundredGigE {
                 description
-                    "100 Gbit Ethernet Interface";
+                    "100 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf InfiniBand {
                 description
                     "InfiniBand(TM) Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf ISDN-BRI {
                 description
                     "ISDN Basic Rate Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf ISDN-PRI {
                 description
                     "ISDN Primary Rate Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf LISP {
                 description
                     "Locator/ID Separation Protocol Virtual Interface";
+                type string;
             }
             leaf LongReachEthernet {
                 description
                     "Cisco Long-Reach Ethernet (LRE) Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Loopback {
                 description
                     "Loopback Interface";
+                type uint32 {
+                    range "0..2147483647";
+                }
             }
             leaf LSP-VIF {
                 description
                     "LSP Virtual Interface";
+                type uint16;
             }
             leaf MFR {
                 description
                     "Multilink Frame Relay Bundle Interface";
+                type uint32;
             }
             leaf Multilink {
                 description
                     "Multilink-Group Interface";
+                type uint16;
             }
             leaf Nebula {
                 description
                     "Nebula Overlay Interface";
+                type uint16;
             }
             leaf Netlink-Monitor {
                 description
                     "Netlink IPC System Monitor Interface";
+                type uint32;
             }
             leaf NFC {
                 description
                     "Nearfield Communication Radio Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Null {
                 description
-                    "Null-Type Interface";
+                    "Null Interface";
+                type uint32;
             }
             leaf NVE {
                 description
                     "Network Virtualization Endpoint Interface";
+                type uint16;
             }
             leaf OmniPath {
                 description
                     "Omni-Path Architecture (OPA) Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf OpenVPN {
                 description
                     "OpenVPN(R) Tunnel Interface";
+                type uint16;
             }
             leaf Overlay {
                 description
                     "Overlay Interface";
+                type uint16;
             }
             leaf Parallel {
                 description
                     "Parallel Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Port-Channel {
                 description
                     "Ethernet Channel of Interfaces";
+                type uint8 {
+                    range "0..32";
+                }
             }
             leaf PRP-Channel {
                 description
                     "Ethernet Channel of Interfaces with PRP/HSR";
+                type uint8 {
+                    range "0..32";
+                }
             }
             leaf Pseudowire {
                 description
                     "Pseudowire Interface";
+                type uint32;
             }
             leaf Serial {
                 description
                     "Serial Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf SM {
                 description
                     "SM Interface";
+                type uint16;
             }
             leaf SoftEther {
                 description
-                    "SoftEther VPN Interface";
+                    "SoftEther VPN Tunnel Interface";
+                type uint16;
             }
             leaf STunnel {
                 description
-                    "STunnel Interface";
+                    "STunnel VPN Interface";
+                type uint16;
             }
             leaf Tailscale {
                 description
                     "Tailscale/Headscale Overlay Interface";
+                type uint16;
             }
             leaf TenGigabitEthernet {
                 description
-                    "10 Gbit Ethernet Interface";
+                    "10 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf TerabitEthernet {
                 description
-                    "1000 Gbit or More Ethernet Interface";
+                    "1000 Gigabit or More Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf Tunnel {
                 description
                     "Tunnel Interface";
+                type uint32;
             }
             leaf TwentyFiveGigE {
                 description
-                    "25 Gbit Ethernet Interface";
+                    "25 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf TwoGigabitEthernet {
                 description
-                    "2.5 Gbit Ethernet Interface";
+                    "2.5 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf TwoHundredGigE {
                 description
-                    "200 Gbit Ethernet Interface";
+                    "200 Gigabit Ethernet Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf VasiLeft {
                 description
                     "Vasi Left Interface";
+                type uint16;
             }
             leaf VasiRight {
                 description
                     "Vasi Right Interface";
+                type uint16;
             }
             leaf VIF {
                 description
                     "PGM Multicast Host Interface";
+                type uint16;
             }
             leaf Virtual-Access {
                 description
                     "Virtual Access Interface";
+                type uint16;
             }
             leaf Virtual-CAN {
                 description
                     "Virtual CAN Bus Interface";
+                type uint32;
             }
             leaf Virtual-Ethernet {
                 description
                     "Virtual Ethernet Tunnel Interface";
+                type uint16;
             }
             leaf Virtual-PPP {
                 description
                     "Virtual PPP Interface";
+                type uint16;
             }
             leaf Virtual-Template {
                 description
                     "Virtual Template Interface";
+                type uint16;
             }
             leaf Virtual-TokenRing {
                 description
                     "Virtual Token Ring Interface";
+                type uint16;
             }
             leaf VirtualPortGroup {
                 description
                     "Virtual Port-Group Interface";
+                type uint32;
             }
             leaf VLAN {
                 description
                     "VLAN Interface";
+                type uint16 {
+                    range "1..4094";
+                }
             }
             leaf VMI {
                 description
                     "Virtual Multipoint Interface";
+                type uint16;
             }
             leaf Wi-Fi {
                 description
                     "Wi-Fi (IEEE 802.11) Interface";
+                type voltos-types:stack-slot-port;
             }
             leaf ZeroTier {
                 description
                     "ZeroTier Overlay Interface";
+                type uint16;
+            }
+        }
+    }
+
+    grouping interface-grouping-list {
+        list AppGigabitEthernet;
+        list AppleTalk;
+        list AppNav-Compress;
+        list AppNav-UnCompress;
+        list ARCnet;
+        list Async;
+        list ATM;
+        list ATM-ACR;
+        list Auto-Template;
+        list BATMAN-Advanced;
+        list BDI;
+        list Bluetooth;
+        list Bundle;
+        list BVI;
+        list Cable-Modem;
+        list CAN;
+        list CDMA-1x;
+        list Cellular;
+        list CTunnel;
+        list Dialer;
+        list DSA;
+        list EightHundredGigE;
+        list Embedded-Service-Engine;
+        list Ethernet;
+        list FastEthernet;
+        list FDDI;
+        list FibreChannel;
+        list FiftyGigabitEthernet;
+        list FiveGigabitEthernet;
+        list FortyGigabitEthernet;
+        list FourHundredGigE;
+        list GigabitEthernet;
+        list GMPLS;
+        list Group-Async;
+        list HIPPI;
+        list HSSI;
+        list HundredGigE;
+        list InfiniBand;
+        list ISDN-BRI;
+        list ISDN-PRI;
+        list LISP;
+        list Loopback {
+            description
+                "Loopback Interface";
+            key "Loopback";
+            leaf Loopback {
+                type uint32 {
+                    range "0..2147483647";
+                }
+            }
+        }
+        list LSP-VIF;
+        list MFR;
+        list Multilink;
+        list Nebula;
+        list Netlink-Monitor;
+        list NFC;
+        list Null;
+        list NVE;
+        list OmniPath;
+        list OpenVPN;
+        list Overlay {
+            description
+                "Overlay Interface";
+            key "Overlay";
+            leaf Overlay {
+                type uint16;
+            }
+        }
+        list Parallel;
+        list Port-Channel;
+        list PRP-Channel;
+        list Pseudowire;
+        list Serial;
+        list SM;
+        list SoftEther;
+        list STunnel;
+        list Tailscale;
+        list TenGigabitEthernet;
+        list TerabitEthernet;
+        list Tunnel {
+            description
+                "Tunnel Interface";
+            key "Tunnel";
+            leaf Tunnel {
+                type uint32;
+            }
+        }
+        list TwentyFiveGigE;
+        list TwoGigabitEthernet;
+        list TwoHundredGigE;
+        list VasiLeft;
+        list VasiRight;
+        list VIF;
+        list Virtual-Access;
+        list Virtual-CAN;
+        list Virtual-Ethernet;
+        list Virtual-PPP;
+        list Virtual-Template;
+        list Virtual-TokenRing;
+        list VirtualPortGroup;
+        list VLAN;
+        list VMI;
+        list Wi-Fi;
+        list ZeroTier {
+            description
+                "ZeroTier Overlay Interface";
+            key "ZeroTier";
+            leaf ZeroTier {
+                type uint16;
+            }
+        }
+    }
+
+    grouping passive-interface-grouping {
+        container passive-interface {
+            description
+                "Suppress Routing Protocol Updates on an Interface";
+            choice passive-interface-choice {
+                leaf default {
+                    description
+                        "Suppress Routing Updates on All Interfaces";
+                    type empty;
+                }
+                leaf-list interface {
+                    type string;
+                }
+            }
+        }
+        container disable {
+            when '../passive-interface/default';
+            list passive-interface {
+                key "interface";
+                leaf interface {
+                    type string;
+                }
             }
         }
     }

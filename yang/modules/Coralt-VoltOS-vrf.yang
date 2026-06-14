@@ -1,0 +1,5 @@
+module Coralt-VoltOS-vrf {
+
+    grouping config-ip-vrf-grouping;
+    grouping config-vrf-grouping;
+}

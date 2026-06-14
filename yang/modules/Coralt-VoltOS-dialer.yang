@@ -1,0 +1,5 @@
+module Coralt-VoltOS-dialer {
+
+    grouping config-dialer-grouping;
+    grouping config-dialer-list-grouping;
+}

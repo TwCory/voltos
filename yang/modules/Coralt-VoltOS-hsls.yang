@@ -1,0 +1,4 @@
+module Coralt-VoltOS-hsls {
+
+    grouping router-hsls-grouping;
+}

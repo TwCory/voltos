@@ -1,0 +1,5 @@
+module Coralt-VoltOS-bridge {
+
+    grouping config-bridge-grouping;
+    grouping config-bridge-group-grouping;
+}

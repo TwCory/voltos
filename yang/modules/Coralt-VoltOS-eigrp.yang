@@ -1,0 +1,4 @@
+module Coralt-VoltOS-eigrp {
+
+    grouping router-eigrp-grouping;
+}

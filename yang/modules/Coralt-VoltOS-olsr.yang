@@ -1,0 +1,4 @@
+module Coralt-VoltOS-olsr {
+
+    grouping router-olsr-grouping;
+}
