@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ZHLS_H_
-#define _VOLTOS_ZHLS_H_
+#ifndef VOLTOS_ZHLS_H
+#define VOLTOS_ZHLS_H
 
 #include <nbapi/voltos/zhls.h>
 
-#endif /* _VOLTOS_ZHLS_H_ */
+#endif /* VOLTOS_ZHLS_H */

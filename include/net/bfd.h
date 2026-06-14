@@ -3,4 +3,8 @@
 
 #include <voltos/bfd.h>
 
+struct bfd_session {
+
+};
+
 #endif /* NET_BFD_H */

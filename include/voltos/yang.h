@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_YANG_H_
-#define _VOLTOS_YANG_H_
+#ifndef VOLTOS_YANG_H
+#define VOLTOS_YANG_H
 
-#endif /* _VOLTOS_YANG_H_ */
+#endif /* VOLTOS_YANG_H */

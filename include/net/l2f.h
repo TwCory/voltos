@@ -3,7 +3,7 @@
 
 #include <voltos/l2f.h>
 
-struct l2f_tunnel {
+struct l2f_tunnel_ctx {
 
 };
 

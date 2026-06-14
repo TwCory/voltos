@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ZIPTREE_H_
-#define _VOLTOS_ZIPTREE_H_
+#ifndef VOLTOS_ZIPTREE_H
+#define VOLTOS_ZIPTREE_H
 
 #include <voltos/ziptree_types.h>
 
-#endif /* _VOLTOS_ZIPTREE_H_ */
+#endif /* VOLTOS_ZIPTREE_H */

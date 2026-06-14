@@ -1,0 +1,4 @@
+#ifndef NET_NEXTHOP_GROUP_H
+#define NET_NEXTHOP_GROUP_H
+
+#endif /* NET_NEXTHOP_GROUP_H */

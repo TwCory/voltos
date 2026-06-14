@@ -3,4 +3,8 @@
 
 #include <voltos/pptp.h>
 
+struct pptp_tunnel_ctx {
+
+};
+
 #endif /* NET_PPTP_H */

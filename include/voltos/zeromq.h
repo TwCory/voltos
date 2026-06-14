@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_ZEROMQ_H_
-#define _VOLTOS_ZEROMQ_H_
+#ifndef VOLTOS_ZEROMQ_H
+#define VOLTOS_ZEROMQ_H
 
-#endif /* _VOLTOS_ZEROMQ_H_ */
+#endif /* VOLTOS_ZEROMQ_H */

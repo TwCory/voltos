@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_UIO_H_
-#define _VOLTOS_UIO_H_
+#ifndef VOLTOS_UIO_H
+#define VOLTOS_UIO_H
 
 #include <sys/uio.h>
 #include <nbapi/voltos/uio.h>
@@ -20,4 +20,4 @@ struct uio_metadata {
 
 };
 
-#endif /* _VOLTOS_UIO_H_ */
+#endif /* VOLTOS_UIO_H */

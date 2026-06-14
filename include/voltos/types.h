@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_TYPES_H_
-#define _VOLTOS_TYPES_H_
+#ifndef VOLTOS_TYPES_H
+#define VOLTOS_TYPES_H
 
 #include <sys/types.h>
 #include <nbapi/voltos/types.h>
@@ -49,4 +49,4 @@ typedef struct {
 #define aligned_net128      	__aligned_net128
 #define aligned_host128     	__aligned_host128
 
-#endif /* _VOLTOS_TYPES_H_ */
+#endif /* VOLTOS_TYPES_H */

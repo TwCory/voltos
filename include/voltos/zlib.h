@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_ZLIB_H_
-#define _VOLTOS_ZLIB_H_
+#ifndef VOLTOS_ZLIB_H
+#define VOLTOS_ZLIB_H
 
-#endif /* _VOLTOS_ZLIB_H_ */
+#endif /* VOLTOS_ZLIB_H */

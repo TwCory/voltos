@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_ATM_TCP_H_
-#define _VOLTOS_ATM_TCP_H_
+#ifndef VOLTOS_ATM_TCP_H
+#define VOLTOS_ATM_TCP_H
 
-#endif /* _VOLTOS_ATM_TCP_H_ */
+#endif /* VOLTOS_ATM_TCP_H */

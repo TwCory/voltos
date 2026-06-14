@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_ASN1_H_
-#define _VOLTOS_ASN1_H_
+#ifndef VOLTOS_ASN1_H
+#define VOLTOS_ASN1_H
 
-#endif /* _VOLTOS_ASN1_H_ */
+#endif /* VOLTOS_ASN1_H */

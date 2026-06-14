@@ -1,7 +1,7 @@
 #ifndef NET_MPLS_TUNNEL_H
 #define NET_MPLS_TUNNEL_H
 
-struct mpls_tunnel {
+struct mpls_tunnel_ctx {
 
 };
 

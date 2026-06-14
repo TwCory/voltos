@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ZIPPER_H_
-#define _VOLTOS_ZIPPER_H_
+#ifndef VOLTOS_ZIPPER_H
+#define VOLTOS_ZIPPER_H
 
 struct zipper_head {
 
@@ -9,4 +9,4 @@ struct zipper_node {
 
 };
 
-#endif /* _VOLTOS_ZIPPER_H_ */
+#endif /* VOLTOS_ZIPPER_H */

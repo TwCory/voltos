@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_ATTRIBUTE_H_
-#define _VOLTOS_ATTRIBUTE_H_
+#ifndef VOLTOS_ATTRIBUTE_H
+#define VOLTOS_ATTRIBUTE_H
 
 struct attribute {
 	int state;
 };
 
-#endif /* _VOLTOS_ATTRIBUTE_H_ */
+#endif /* VOLTOS_ATTRIBUTE_H */

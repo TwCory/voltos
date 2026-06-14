@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_AVB_H_
-#define _VOLTOS_AVB_H_
+#ifndef VOLTOS_AVB_H
+#define VOLTOS_AVB_H
 
-#endif /* _VOLTOS_AVB_H_ */
+#endif /* VOLTOS_AVB_H */

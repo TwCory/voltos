@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ATMPVC_H_
-#define _VOLTOS_ATMPVC_H_
+#ifndef VOLTOS_ATMPVC_H
+#define VOLTOS_ATMPVC_H
 
 #include <nbapi/voltos/atmpvc.h>
 
-#endif /* _VOLTOS_ATMPVC_H_ */
+#endif /* VOLTOS_ATMPVC_H */

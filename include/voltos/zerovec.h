@@ -1,4 +1,8 @@
-#ifndef _VOLTOS_ZEROVEC_H_
-#define _VOLTOS_ZEROVEC_H_
+#ifndef VOLTOS_ZEROVEC_H
+#define VOLTOS_ZEROVEC_H
 
-#endif /* _VOLTOS_ZEROVEC_H_ */
+typedef struct {
+
+} zerovec_t;
+
+#endif /* VOLTOS_ZEROVEC_H */

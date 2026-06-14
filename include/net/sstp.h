@@ -3,7 +3,7 @@
 
 #include <voltos/sstp.h>
 
-struct sstp_tunnel {
+struct sstp_tunnel_ctx {
 
 };
 

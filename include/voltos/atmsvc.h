@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ATMSVC_H_
-#define _VOLTOS_ATMSVC_H_
+#ifndef VOLTOS_ATMSVC_H
+#define VOLTOS_ATMSVC_H
 
 #include <nbapi/voltos/atmsvc.h>
 
-#endif /* _VOLTOS_ATMSVC_H_ */
+#endif /* VOLTOS_ATMSVC_H */

@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_ZSTD_LIB_H_
-#define _VOLTOS_ZSTD_LIB_H_
+#ifndef VOLTOS_ZSTD_LIB_H
+#define VOLTOS_ZSTD_LIB_H
 
-#endif /* _VOLTOS_ZSTD_LIB_H_ */
+#endif /* VOLTOS_ZSTD_LIB_H */

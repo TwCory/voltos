@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_ALTO_H_
-#define _VOLTOS_ALTO_H_
+#ifndef VOLTOS_ALTO_H
+#define VOLTOS_ALTO_H
 
 #include <nbapi/voltos/alto.h>
 
-#endif /* _VOLTOS_ALTO_H_ */
+#endif /* VOLTOS_ALTO_H */

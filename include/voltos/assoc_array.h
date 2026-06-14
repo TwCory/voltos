@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ASSOC_ARRAY_H_
-#define _VOLTOS_ASSOC_ARRAY_H_
+#ifndef VOLTOS_ASSOC_ARRAY_H
+#define VOLTOS_ASSOC_ARRAY_H
 
 #include <voltos/types.h>
 
@@ -20,4 +20,4 @@ struct assoc_array_ops {
 
 struct assoc_array_edit;
 
-#endif /* _VOLTOS_ASSOC_ARRAY_H_ */
+#endif /* VOLTOS_ASSOC_ARRAY_H */

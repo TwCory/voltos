@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_AUDIT_H_
-#define _VOLTOS_AUDIT_H_
+#ifndef VOLTOS_AUDIT_H
+#define VOLTOS_AUDIT_H
 
 #include <nbapi/voltos/audit.h>
 
@@ -15,4 +15,4 @@ struct audit_field {
 
 };
 
-#endif /* _VOLTOS_AUDIT_H_ */
+#endif /* VOLTOS_AUDIT_H */

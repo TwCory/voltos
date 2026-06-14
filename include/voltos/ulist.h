@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_ULIST_H_
-#define _VOLTOS_ULIST_H_
+#ifndef VOLTOS_ULIST_H
+#define VOLTOS_ULIST_H
 
-#endif /* _VOLTOS_ULIST_H_ */
+#endif /* VOLTOS_ULIST_H */

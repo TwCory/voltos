@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ATTRIBUTE_CONTAINER_H_
-#define _VOLTOS_ATTRIBUTE_CONTAINER_H_
+#ifndef VOLTOS_ATTRIBUTE_CONTAINER_H
+#define VOLTOS_ATTRIBUTE_CONTAINER_H
 
 #include <voltos/bitflags.h>
 
@@ -7,4 +7,4 @@ struct attribute_container {
 	unsigned long __bitflags 	flags;
 };
 
-#endif /* _VOLTOS_ATTRIBUTE_CONTAINER_H_ */
+#endif /* VOLTOS_ATTRIBUTE_CONTAINER_H */

@@ -3,7 +3,7 @@
 
 #include <voltos/gre.h>
 
-struct gre_tunnel {
+struct gre_tunnel_ctx {
 
 };
 

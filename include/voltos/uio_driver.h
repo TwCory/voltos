@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_UIO_DRIVER_H_
-#define _VOLTOS_UIO_DRIVER_H_
+#ifndef VOLTOS_UIO_DRIVER_H
+#define VOLTOS_UIO_DRIVER_H
 
 #include <voltos/device.h>
 
@@ -19,4 +19,4 @@ struct uio_ctx {
 
 };
 
-#endif /* _VOLTOS_UIO_DRIVER_H_ */
+#endif /* VOLTOS_UIO_DRIVER_H */

@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_UN_H_
-#define _VOLTOS_UN_H_
+#ifndef VOLTOS_UN_H
+#define VOLTOS_UN_H
 
 #include <nbapi/voltos/un.h>
 
-#endif /* _VOLTOS_UN_H_ */
+#endif /* VOLTOS_UN_H */

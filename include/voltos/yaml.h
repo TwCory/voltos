@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_YAML_H_
-#define _VOLTOS_YAML_H_
+#ifndef VOLTOS_YAML_H
+#define VOLTOS_YAML_H
 
-#endif /* _VOLTOS_YAML_H_ */
+#endif /* VOLTOS_YAML_H */

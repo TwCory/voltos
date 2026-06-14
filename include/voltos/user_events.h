@@ -1,8 +1,8 @@
-#ifndef _VOLTOS_USER_EVENTS_H_
-#define _VOLTOS_USER_EVENTS_H_
+#ifndef VOLTOS_USER_EVENTS_H
+#define VOLTOS_USER_EVENTS_H
 
 struct user_event_memory {
 
 };
 
-#endif /* _VOLTOS_USER_EVENTS_H_ */
+#endif /* VOLTOS_USER_EVENTS_H */

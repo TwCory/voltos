@@ -3,4 +3,8 @@
 
 #include <voltos/geneve.h>
 
+struct geneve_tunnel_ctx {
+
+};
+
 #endif /* NET_GENEVE_H */

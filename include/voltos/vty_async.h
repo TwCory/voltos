@@ -1,0 +1,4 @@
+#ifndef VOLTOS_VTY_ASYNC_H
+#define VOLTOS_VTY_ASYNC_H
+
+#endif /* VOLTOS_VTY_ASYNC_H */

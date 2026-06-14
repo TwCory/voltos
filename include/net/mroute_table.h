@@ -1,0 +1,4 @@
+#ifndef NET_MROUTE_TABLE_H
+#define NET_MROUTE_TABLE_H
+
+#endif /* NET_MROUTE_TABLE_H */

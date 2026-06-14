@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_VTY_H_
-#define _VOLTOS_VTY_H_
+#ifndef VOLTOS_VTY_H
+#define VOLTOS_VTY_H
 
 #include <nbapi/voltos/vty.h>
 
-#endif /* _VOLTOS_VTY_H_ */
+#endif /* VOLTOS_VTY_H */

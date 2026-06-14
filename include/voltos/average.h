@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_AVERAGE_H_
-#define _VOLTOS_AVERAGE_H_
+#ifndef VOLTOS_AVERAGE_H
+#define VOLTOS_AVERAGE_H
 
-#endif /* _VOLTOS_AVERAGE_H_ */
+#endif /* VOLTOS_AVERAGE_H */

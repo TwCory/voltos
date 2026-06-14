@@ -1,4 +1,4 @@
-#ifndef _VOLTOS_VERSION_H_
-#define _VOLTOS_VERSION_H_
+#ifndef VOLTOS_VERSION_H
+#define VOLTOS_VERSION_H
 
-#endif /* _VOLTOS_VERSION_H_ */
+#endif /* VOLTOS_VERSION_H */

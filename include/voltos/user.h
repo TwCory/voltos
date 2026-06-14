@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_USER_H_
-#define _VOLTOS_USER_H_
+#ifndef VOLTOS_USER_H
+#define VOLTOS_USER_H
 
 #include <sys/user.h>
 
-#endif /* _VOLTOS_USER_H_ */
+#endif /* VOLTOS_USER_H */

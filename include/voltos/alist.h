@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ALIST_H_
-#define _VOLTOS_ALIST_H_
+#ifndef VOLTOS_ALIST_H
+#define VOLTOS_ALIST_H
 
 struct alist_node;
 
@@ -12,4 +12,4 @@ struct alist_node {
 	struct alist_node 	**pprev;
 };
 
-#endif /* _VOLTOS_ALIST_H_ */
+#endif /* VOLTOS_ALIST_H */

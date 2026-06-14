@@ -3,7 +3,7 @@
 
 #include <voltos/tsp.h>
 
-struct tsp_tunnel {
+struct tsp_tunnel_ctx {
 
 };
 

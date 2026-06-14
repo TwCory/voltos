@@ -3,4 +3,8 @@
 
 #include <voltos/nvgre.h>
 
+struct nvgre_tunnel_ctx {
+
+};
+
 #endif /* NET_NVGRE_H */

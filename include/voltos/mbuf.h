@@ -6,7 +6,7 @@
 #include <voltos/rbtree.h>
 #include <voltos/types.h>
 
-#include <net/socket.h>
+#include <net/sock.h>
 
 struct mbuf_head {
 
@@ -33,7 +33,7 @@ struct mbuf {
 		struct list_head 		list;
 	};
 
-	struct socket 				*socket;
+	struct sock 				*sock;
 
 	__u16 					transport_header;
 	__u16 					network_header;

@@ -1,6 +1,6 @@
-#ifndef _VOLTOS_AODV_H_
-#define _VOLTOS_AODV_H_
+#ifndef VOLTOS_AODV_H
+#define VOLTOS_AODV_H
 
 #include <nbapi/voltos/aodv.h>
 
-#endif /* _VOLTOS_AODV_H_ */
+#endif /* VOLTOS_AODV_H */

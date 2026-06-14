@@ -1,5 +1,5 @@
-#ifndef _VOLTOS_ZIPTREE_TYPES_H_
-#define _VOLTOS_ZIPTREE_TYPES_H_
+#ifndef VOLTOS_ZIPTREE_TYPES_H
+#define VOLTOS_ZIPTREE_TYPES_H
 
 struct zip_node {
 	struct zip_node 	*zip_left;
@@ -14,4 +14,4 @@ struct zip_root_cached {
 	struct zip_root 	zip_root;
 };
 
-#endif /* _VOLTOS_ZIPTREE_TYPES_H_ */
+#endif /* VOLTOS_ZIPTREE_TYPES_H */
