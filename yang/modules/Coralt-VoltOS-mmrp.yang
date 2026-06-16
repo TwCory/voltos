@@ -1,0 +1,7 @@
+module Coralt-VoltOS-mmrp {
+
+    grouping config-mmrp-grouping;
+
+    grouping interface-mmrp-grouping;
+
+}

@@ -1,0 +1,6 @@
+module Coralt-VoltOS-l2vpn {
+
+    grouping config-l2vpn-grouping {
+        
+    }
+}

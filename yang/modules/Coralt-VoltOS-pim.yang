@@ -2,4 +2,7 @@ module Coralt-VoltOS-pim {
 
     grouping config-ip-pim-grouping;
     grouping config-ipv6-pim-grouping;
+
+    grouping interface-ip-pim-grouping;
+    grouping interface-ipv6-pim-grouping;
 }

@@ -1,3 +1,4 @@
 module Coralt-VoltOS-nhrp {
-
+    grouping interface-ip-nhrp-grouping;
+    grouping interface-ipv6-nhrp-grouping;
 }

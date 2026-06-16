@@ -1,11 +1,24 @@
 module Coralt-VoltOS-cofp {
 
-    grouping config-cofp-grouping;
-    grouping config-ip-cofp-grouping {
-        leaf distributed;
+    grouping config-cofp-grouping {
+        leaf table;
     }
-    grouping config-ipv6-cofp-grouping {
+
+    grouping config-ip-cofp-grouping {
+        leaf accounting;
         leaf distributed;
+        leaf linecard;
+        leaf load-sharing;
+        leaf optimize;
+        leaf table;
+        leaf traffic-statistics;
+    }
+
+    grouping config-ipv6-cofp-grouping {
+        leaf accounting;
+        leaf distributed;
+        leaf load-sharing;
+        leaf optimize;
     }
 
 }

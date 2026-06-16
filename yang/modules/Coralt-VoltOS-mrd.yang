@@ -1,0 +1,5 @@
+module Coralt-VoltOS-mrd {
+
+
+    grouping config-ipv6-mrd-grouping;
+}

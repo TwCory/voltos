@@ -1,0 +1,4 @@
+module Coralt-VoltOS-mka {
+
+    grouping config-mka-grouping;
+}

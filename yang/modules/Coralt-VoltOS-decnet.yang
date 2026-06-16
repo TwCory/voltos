@@ -1,0 +1,10 @@
+module Coralt-VoltOS-decnet {
+    grouping config-decnet-grouping {
+        leaf route;
+        leaf routing;
+    }
+
+    grouping interface-decnet-grouping {
+
+    }
+}

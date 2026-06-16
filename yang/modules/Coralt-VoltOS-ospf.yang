@@ -1,4 +1,12 @@
 module Coralt-VoltOS-ospf {
 
-    grouping router-ospf-grouping;
+    grouping config-ip-ospf-grouping;
+
+    grouping router-ospf-grouping {
+        container address-family {
+            leaf ipv4;
+        }
+    }
+
+    grouping interface-ip-ospf-grouping;
 }

@@ -1,0 +1,7 @@
+module Coralt-VoltOS-nd {
+
+    grouping config-ipv6-nd-grouping;
+    grouping config-ipv6-neighbour-grouping;
+
+    grouping interface-ipv6-nd-grouping;
+}

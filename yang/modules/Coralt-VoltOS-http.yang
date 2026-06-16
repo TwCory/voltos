@@ -1,3 +1,11 @@
 module Coralt-VoltOS-http {
 
+    grouping config-http-grouping {
+        leaf client;
+    }
+
+    grouping config-ip-http-grouping {
+        leaf secure-server;
+        leaf server;
+    }
 }

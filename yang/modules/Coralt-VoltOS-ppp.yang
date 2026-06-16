@@ -1,0 +1,4 @@
+module Coralt-VoltOS-ppp {
+
+    grouping config-ppp-grouping;
+}

@@ -1,5 +1,33 @@
 module Coralt-VoltOS-spanning-tree {
     
-    grouping config-spanning-tree-grouping;
-    grouping interface-spanning-tree-grouping;
+    grouping config-spanning-tree-grouping {
+        leaf backbonefast;
+        leaf bpdu;
+        leaf bridge;
+        leaf etherchannel;
+        leaf extend;
+        leaf logging;
+        leaf loopguard;
+        leaf mode;
+        leaf mst;
+        leaf optimize;
+        leaf pathcost;
+        leaf portfast;
+        leaf transmit;
+        leaf uplinkfast;
+        leaf vlan;
+    }
+
+    grouping interface-spanning-tree-grouping {
+        leaf bpdufilter;
+        leaf bpduguard;
+        leaf cost;
+        leaf guard;
+        leaf link-type;
+        leaf loopguard;
+        leaf mst;
+        leaf port-priority;
+        leaf portfast;
+        leaf vlan;
+    }
 }

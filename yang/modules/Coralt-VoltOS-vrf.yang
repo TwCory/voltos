@@ -1,5 +1,10 @@
 module Coralt-VoltOS-vrf {
 
     grouping config-ip-vrf-grouping;
-    grouping config-vrf-grouping;
+
+    grouping config-vrf-grouping {
+        leaf definition;
+        leaf list;
+        leaf upgrade-cli;
+    }
 }

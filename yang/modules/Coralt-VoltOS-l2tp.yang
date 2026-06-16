@@ -1,0 +1,5 @@
+module Coralt-VoltOS-l2tp {
+
+    grouping config-l2tp-grouping;
+    grouping config-l2tp-class-grouping;
+}

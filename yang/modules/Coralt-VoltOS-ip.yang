@@ -1,35 +1,339 @@
 module Coralt-VoltOS-ip {
     
+    import Coralt-VoltOS-types {
+        prefix voltos-types;
+    }
 
     grouping config-ip-grouping {
-        leaf access-list;
+        container access-list;
         leaf accounting-list;
         leaf accounting-threshold;
         leaf accounting-transits;
-        leaf address-pool;
-        leaf admission;
+        leaf address-pool {
+            type enumeration {
+                enum dhcp-pool;
+                enum dhcp-proxy-client;
+                enum local;
+            }
+        }
+        container admission;
         leaf alias;
-        leaf arp;
+        container arp;
         leaf as-path;
-        leaf auth-proxy;
+        container auth-proxy;
 
-        leaf bgp-community;
-        leaf bootp;
-
-        leaf cache-invalidate-delay;
-        leaf classless;
-        leaf cofp;
+        container bgp-community {
+            leaf new-format;
+        }
+        container bootp {
+            leaf server;
+        }
+        container cache-invalidate-delay;
+        leaf classless {
+            type boolean;
+        }
+        container cofp;
         leaf community-list;
-
-        leaf dccp;
-        leaf ddns;
+        container dccp;
+        container ddns;
         leaf default-gateway;
         leaf default-network;
-        leaf device;
-        leaf dhcp;
-        leaf dhcp-client;
+        container device;
+        container dhcp;
+        container dhcp-client;
+        container dhcp-relay;
+        container dhcp-server;
+        container diameter {
+            leaf source-interface;
+        }
+        container dns;
+        container domain {
+            leaf list;
+            leaf lookup;
+            leaf multicast;
+            leaf name;
+            leaf round-robin;
+            leaf timeout;
+        }
+        leaf domain-list;
+        leaf domain-lookup;
+        leaf domain-name;
 
-        leaf routing;
-        
+        leaf explicit-path;
+        leaf extcommunity-list;
+
+        container finger;
+        container flow;
+        container forward-protocol {
+            leaf nd {
+                type boolean;
+                default "true";
+            }
+            leaf sdns {
+                type boolean;
+            }
+            container spanning-tree {
+                leaf any-local-broadcast {
+                    type boolean;
+                }
+            }
+            container turbo-flood {
+                leaf udp-checksum {
+                    type boolean;
+                }
+            }
+            container udp;
+        }
+        container ftp {
+            leaf passive;
+            leaf password;
+            leaf source-interface;
+            leaf username;
+        }
+        container gdp;
+        leaf gratuitous-arps;
+        leaf host;
+        leaf host-list;
+        leaf host-routing {
+            type boolean;
+        }
+        container hostname {
+            leaf strict;
+        }
+        leaf hp-host {
+            type boolean;
+        }
+        container http;
+        container icmp;
+        leaf ident {
+            type boolean;
+        }
+        container igmp;
+        container inspect;
+        container kerberos {
+            leaf source-interface;
+        }
+        container ldap {
+            leaf source-interface;
+        }
+        container local {
+            leaf policy;
+            leaf pool;
+        }
+        container mfib;
+        leaf mobile;
+        leaf mpf;
+        leaf mrm;
+        leaf mroute;
+        container msdp;
+        container multicast;
+        leaf multicast-routing {
+            type boolean;
+        }
+        container mux;
+        container name-server;
+        container nat;
+        container nbar;
+        container options {
+            leaf drop;
+        }
+        container ospf {
+            leaf name-lookup;
+        }
+        container pgm;
+        container pim;
+        leaf policy-list;
+        leaf port-map;
+        leaf prefix-list;
+        container pxf;
+        container quic;
+        container radius {
+            leaf source-interface;
+        }
+        container rcmd;
+        leaf reflexive-list;
+        leaf route;
+        leaf routing {
+            type boolean;
+            default "true";
+        }
+        container routing-conf {
+            container protocol {
+                container purge {
+                    leaf interface {
+                        type boolean;
+                    }
+                }
+            }
+        }
+        container rsvp;
+        leaf sap;
+        leaf scp;
+        container sctp;
+        leaf sdee;
+        leaf sdr;
+        leaf security;
+        container sla;
+        container slb;
+        leaf source-route {
+            type boolean;
+        }
+        leaf source-track;
+        container spd;
+        container ssh;
+        leaf sticky-arp {
+            type boolean;
+        }
+        leaf subnet-zero {
+            type boolean;
+        }
+        container tacacs {
+            leaf source-interface;
+        }
+        container tcp {
+            leaf chunk-size;
+            leaf ecn;
+            leaf keepalive;
+            leaf mss;
+            leaf path-mtu-discovery;
+            leaf queuemax;
+            leaf selective-ack;
+            leaf synwait-time;
+            leaf timestamp;
+            leaf window-size;
+        }
+        container telnet {
+            leaf source-interface;
+        }
+        container tftp {
+            leaf source-interface;
+        }
+        leaf trigger-authentication;
+        container udp;
+        container udp-lite;
+        leaf udptn;
+        leaf urd;
+        container url-filter;
+        container verify;
+        leaf vrf;
+        container wccp;
+    }
+
+    grouping interface-ip-grouping {
+        container access-group;
+        container accounting;
+        container address;
+        container admission;
+        container arp {
+            container inspection {
+                container limit;
+                leaf trust;
+            }
+        }
+        leaf audit;
+        leaf auth-proxy;
+        leaf authentication;
+        leaf broadcast-address {
+            type voltos-types:ipv4-address;
+        }
+        leaf clear-dont-fragment {
+            type boolean;
+        }
+        leaf cofp;
+        leaf dampening-change;
+        leaf dccp;
+        leaf dhcp;
+        leaf directed-broadcast {
+            type boolean;
+        }
+        container dvmrp;
+
+        leaf header-compression;
+        leaf hello-interval;
+        leaf helper-address {
+            type voltos-types:ipv4-address;
+        }
+        leaf hold-time;
+
+        leaf ips;
+
+        leaf local-proxy-arp {
+            type boolean;
+        }
+
+        leaf mask-reply {
+            type boolean;
+        }
+        leaf mroute-cache {
+            type boolean;
+        }
+        leaf mtu {
+            type uint16 {
+                range "68..18000";
+            }
+            default "1500";
+        }
+        leaf mux;
+        leaf nat;
+        leaf nbar;
+        leaf network-broadcast {
+            type boolean;
+        }
+        leaf next-hop-self;
+        leaf nhrp;
+        leaf ospf;
+        leaf pgm;
+        leaf pim;
+        leaf policy;
+        leaf proxy-arp {
+            type boolean;
+        }
+        leaf quic;
+        leaf rarp-server {
+            type boolean;
+        }
+        leaf redirects {
+            type boolean;
+        }
+        leaf rip;
+        leaf route-cache;
+        leaf router;
+
+        leaf sctp;
+        leaf split-horizon;
+        leaf sticky-arp {
+            type boolean;
+        }
+        leaf summary-address;
+
+        container tcp {
+            leaf adjust-mss;
+            leaf header-compression;
+        }
+        leaf traffic-export;
+        leaf trigger-authentication;
+        leaf ttl {
+            type uint8;
+        }
+        leaf udp;
+        leaf udp-lite;
+        leaf unnumbered {
+            type boolean;
+        }
+        leaf unreachables {
+            type boolean;
+        }
+        leaf verify;
+        leaf virtual-reassembly;
+        container vrf {
+            container forwarding;
+            leaf receive;
+            leaf sitemap;
+        }
+        leaf wccp;
+    }
+
+    augment "/voltos:main/voltos:ip" {
+        uses config-ip-grouping;
     }
 }

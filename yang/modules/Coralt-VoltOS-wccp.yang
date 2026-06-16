@@ -2,4 +2,7 @@ module Coralt-VoltOS-wccp {
 
     grouping config-ip-wccp-grouping;
     grouping config-ipv6-wccp-grouping;
+
+    grouping interface-ip-wccp-grouping;
+    grouping interface-ipv6-wccp-grouping;
 }

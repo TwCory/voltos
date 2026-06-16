@@ -1,0 +1,7 @@
+module Coralt-VoltOS-netbios {
+
+    grouping config-netbios-grouping;
+
+    grouping interface-netbios-grouping;
+
+}

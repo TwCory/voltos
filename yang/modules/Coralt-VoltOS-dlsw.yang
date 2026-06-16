@@ -1,4 +1,41 @@
 module Coralt-VoltOS-dlsw {
 
-    grouping config-dlsw-grouping;
+    grouping config-dlsw-grouping {
+        leaf allroute-netbios;
+        leaf allroute-sna;
+        leaf bgroup-list;
+        leaf bridge-group;
+        leaf cache-ignore-netbios-datagram;
+        leaf disable;
+        leaf duplicate-path-bias;
+        leaf explorerq-depth;
+        leaf group-cache;
+        leaf history-log;
+        leaf icannotreach;
+        leaf icanreach;
+        leaf llc2;
+        leaf load-balance;
+        leaf local-peer;
+        leaf mac-addr;
+        leaf max-multiple-rifs;
+        leaf multicast;
+        leaf netbios-cache-length;
+        leaf netbios-keepalive-filter;
+        leaf netbios-name;
+        leaf peer-log-changes;
+        leaf peer-on-demand-defaults;
+        leaf port-list;
+        leaf prom-peer-defaults;
+        leaf redundant-rings;
+        leaf remote-peer;
+        leaf ring-list;
+        leaf rsvp;
+        leaf timer;
+        leaf tos;
+        leaf udp-disable;
+    }
+
+    grouping interface-dlsw-grouping {
+        leaf transparent;
+    }
 }

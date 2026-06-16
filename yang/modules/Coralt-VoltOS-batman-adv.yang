@@ -1,3 +1,5 @@
 module Coralt-VoltOS-batman-adv {
 
+    grouping router-batman-adv-grouping;
+    
 }

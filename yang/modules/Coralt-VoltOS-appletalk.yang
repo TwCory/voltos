@@ -1,0 +1,50 @@
+module Coralt-VoltOS-appletalk {
+
+
+    grouping config-appletalk-grouping {
+        leaf alternate-addressing;
+        leaf arp;
+
+        leaf checksum;
+
+        leaf domain;
+
+        leaf eigrp;
+        leaf event-logging;
+
+        leaf ignore-verify-errors;
+        leaf iptalk-base-port;
+
+        leaf lookup-type;
+
+        leaf macip;
+        leaf maximum-paths;
+        
+        leaf name-lookup-interval;
+
+        leaf permit-partial-zones;
+        leaf pre-fdditalk;
+        leaf proxy-nbp;
+
+        leaf require-route-zones;
+        leaf route;
+        leaf route-redistribution;
+        leaf routing;
+        leaf rtmp;
+
+        leaf static;
+        leaf strict-rtmp-checking;
+
+        leaf timers;
+
+        leaf virtual-net;
+
+        leaf zip-query-interval;
+    }
+
+    grouping interface-appletalk-grouping {
+        leaf address;
+    }
+
+
+}

@@ -1,5 +1,154 @@
 module Coralt-VoltOS-ipv6 {
     
-    grouping config-ipv6-grouping;
-    grouping interface-ipv6-grouping;
+    grouping config-ipv6-grouping {
+        leaf access-list;
+        leaf alias;
+
+        leaf cga;
+        leaf cofp;
+
+        leaf destination-guard;
+        leaf dhcp;
+        leaf dhcp-ldra;
+        leaf dhcp-relay;
+        container diameter {
+            leaf source-interface;
+        }
+
+        leaf flow;
+        leaf flow-aggregation;
+        leaf flow-cache;
+        leaf flow-export;
+        leaf flowset;
+
+        leaf general-prefix;
+
+        leaf hop-limit {
+            type uint8 {
+                range "1..255";
+                default "64";
+            }
+        }
+        leaf host;
+
+        leaf icmp;
+        leaf inspect;
+
+        container kerberos {
+            leaf source-interface;
+        }
+
+        container ldap {
+            leaf source-interface;
+        }
+        container local {
+            leaf policy;
+            leaf pool;
+        }
+
+        leaf mfib;
+        leaf mld;
+        leaf mobile;
+        leaf multicast;
+        leaf multicast-routing {
+            type empty;
+        }
+        leaf mux;
+
+        leaf nat;
+        leaf nd;
+        leaf neighbour;
+
+        container ospf {
+            leaf name-lookup;
+        }
+
+        leaf pgm;
+        leaf pim;
+        leaf port-map;
+        leaf prefix-list;
+
+        container radius {
+            leaf source-interface;
+        }
+        leaf route;
+        leaf router;
+
+        leaf security;
+        leaf source-guard;
+        leaf source-route {
+            type empty;
+        }
+        leaf spd;
+
+        container tacacs {
+            leaf source-interface;
+        }
+        container telnet {
+            leaf source-interface;
+        }
+        container tftp {
+            leaf source-interface;
+        }
+        leaf traffic;
+        leaf trigger-authentication;
+
+        leaf unicast-routing {
+            type empty;
+        }
+
+        leaf verify;
+
+        leaf wccp;
+    }
+
+
+    grouping interface-ipv6-grouping {
+        leaf address;
+        leaf authentication;
+
+        leaf cofp;
+
+        leaf dhcp;
+
+        leaf eigrp;
+        leaf enable;
+
+        leaf flow;
+
+        leaf hello-interval;
+        leaf hold-time;
+        leaf hop-limit;
+
+        leaf mfib-cofp;
+        leaf mld;
+        leaf mobile;
+        leaf mtu;
+        leaf mux;
+
+        leaf nat;
+        leaf nd;
+        leaf nhrp;
+
+        leaf ospf;
+
+        leaf pgm;
+        leaf pim;
+        leaf policy;
+
+        leaf redirects;
+        leaf rip;
+
+        leaf split-horizon;
+        leaf summary-address;
+
+        leaf traffic-filter;
+
+        leaf unnumbered;
+        leaf unreachables;
+
+        leaf virtual-reassembly;
+
+        leaf wccp;
+    }
 }

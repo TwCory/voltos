@@ -1,4 +1,7 @@
 module Coralt-VoltOS-cwmp {
 
-    grouping config-cwmp-grouping;
+    grouping config-cwmp-grouping {
+        leaf agent;
+        leaf wan;
+    }
 }

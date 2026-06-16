@@ -1,5 +1,9 @@
 module Coralt-VoltOS-logging {
 
-    grouping config-logging-grouping;
+    grouping config-logging-grouping {
+        leaf host;
+    }
+
+
     grouping interface-logging-grouping;
 }

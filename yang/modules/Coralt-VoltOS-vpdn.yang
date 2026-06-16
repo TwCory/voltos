@@ -1,0 +1,9 @@
+module Coralt-VoltOS-vpdn {
+    
+
+    grouping config-vpdn-grouping;
+
+    grouping config-vpdn-group-grouping;
+
+    grouping config-vpdn-template-grouping;
+}

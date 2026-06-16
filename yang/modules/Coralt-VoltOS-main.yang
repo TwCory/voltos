@@ -1,666 +1,529 @@
 module Coralt-VoltOS-main {
-    yang-version 1.1;
-    namespace "http://coralt.net/ns/yang/Coralt-VoltOS-main";
-    prefix voltos;
-
-    import ietf-inet-types {
-        prefix inet;
-    }
+    
     import Coralt-VoltOS-types {
         prefix voltos-types;
     }
-    import Coralt-VoltOS-features {
-        prefix voltos-features;
-    }
-    import Coralt-VoltOS-interface-common {
-        prefix voltos-ifc;
-    }
-
-    include Coralt-VoltOS-parser;
-    include Coralt-VoltOS-license;
-    include Coralt-VoltOS-line;
-    include Coralt-VoltOS-logging;
-    include Coralt-VoltOS-ip;
-    include Coralt-VoltOS-ipv6;
-    include Coralt-VoltOS-interfaces;
-    include Coralt-VoltOS-hsrp;
-    include Coralt-VoltOS-location;
-    include Coralt-VoltOS-transciever-monitor;
-    include Coralt-VoltOS-transport;
-
-    revision 2024-06-24 {
-        description
-            "Initial Revision";
-    }
-
-    grouping banner-grouping {
-        leaf banner {
-            description
-                "Banner Message";
-            type string;
-        }
-    }
 
     container main {
-        container default {
+        container aaa {
             description
-                "Set a Command to its Defaults";
+                "Authentication, Authorization and Accounting";
+        }
+        container aal2-profile {
+            description
+                "ATM Adaptation Layer 2 (AAL2) Profile Configuration";
+        }
+        container access-list {
+            description
+                "Add an Access Control List Entry";
+        }
+        container alarm-contact {
+            description
+                "Alarm Contact Configuration Commands";
+        }
+        leaf alias {
+            description
+                "Create a Command Alias";
+        }
+        container alps {
+            description
+                "Airline Product Set (ALPS) Configuration";
+        }
+        container appfw {
+            description
+                "Configure the Application Firewall Policy";
+        }
+        container appletalk {
+            description
+                "Global AppleTalk Configuration Commands";
+        }
+        container aqm-register-fnf {
+            description
+                "Export Audio/Video Stats to a Flow Record";
+        }
+        container archive {
+            description
+                "Archive the System Configuration";
+        }
+        leaf arp {
+            description
+                "Set a Static ARP Cache Entry";
+        }
+        container async-bootp {
+            description
+                "Modify System BOOTP Parameters";
+        }
+        container authentication {
+            description
+                "Configure Authentication Options";
+        }
+        container auto {
+            description
+                "Configure Automation";
+        }
+        container avb {
+            description
+                "Audio-Video Bridging (AVB) Configuration";
+        }
+        container avc {
+            description
+                "Application Visibility and Control (AVC) Configuration";
+        }
+        container backhaul-session-manager {
+            description
+                "Configure the Backhaul Session Manager";
+        }
+        container banner {
+            description
+                "Define a Login Banner";
+        }
+        container bba-group {
+            description
+                "Configure Broadband Aggregation (BBA) Group";
+        }
+        container beep {
+            description
+                "Configure Blocks Extensible Exchange Protocol (BEEP)";
         }
         container bfd {
             description
                 "BFD Configuration Commands";
         }
-        leaf version {
+        container bfd-template {
             description
-                "VoltOS Version";
-            type string;
-        }
-        leaf boot-start-marker {
-            type empty;
+                "BFD-Template Configuration";
         }
         container boot {
             description
-                "Modify Boot System Parameters";
-            container system {
-                description
-                    "System Image";
-                leaf tftp-path {
-                    description
-                        "Example: A.B.C.D/<path-to-image>";
-                    type string;
-                }
-                leaf tftp {
-                    description
-                        "Example: A.B.C.D/<path-to-image>";
-                    type string;
-                }
-                container bootfile {
-                    list filename-list {
-                        ordered-by user;
-                        key "filename";
-                        leaf filename {
-                            description
-                                "WORD - TFTP File Name or URL";
-                            type string;
-                        }
-                    }
-                }
-                container flash {
-                    list flash-list {
-                        ordered-by user;
-                        key "flash-leaf";
-                        leaf flash-leaf {
-                            type string;
-                        }
-                    }
-                }
-            }
+                "Modify System Boot Parameters";
         }
-        leaf boot-end-marker {
-            type empty;
-        }
-        container banner {
+        container bridge {
             description
-                "Define a Login Banner";
-            container exec {
-                description
-                    "Set EXEC Process Creation Banner";
-                uses banner-grouping;
-            }
-            container login {
-                description
-                    "Set Login Banner";
-                uses banner-grouping;
-            }
-            container prompt-timeout {
-                description
-                    "Set Banner for Login Authentication Timeout";
-                uses banner-grouping;
-            }
-            container motd {
-                description
-                    "Set Message of the Day (MOTD) Banner";
-                uses banner-grouping;
-            }
+                "Bridge Global Configuration Commands";
         }
-        leaf captive-portal-bypass {
+        container bridge-domain {
             description
-                "Enable Captive Portal Bypass for Apple Devices";
-            type empty;
+                "Bridge-Domain Global Configuration Commands";
         }
-        container memory {
+        container bridge-group {
             description
-                "Configure Memory Management Settings";
-            container statistics {
-                description
-                    "Configure Statistics History Table";
-                container history {
-                    description
-                        "Configure Statistics History Table";
-                    leaf table {
-                        description
-                            "Configure Statistics History Table";
-                        type uint8 {
-                            range "12..72";
-                        }
-                    }
-                }
-            }
-            container chunk {
-                container siblings {
-                    leaf threshold {
-                        type uint32 {
-                            range "2..4294967295";
-                        }
-                    }
-                }
-            }
-            container free {
-                container low-watermark {
-                    leaf io {
-                        type uint32 {
-                            range "1..3994575";
-                        }
-                    }
-                    leaf processor {
-                        type uint32 {
-                            range "1..3994575";
-                        }
-                    }
-                }
-            }
-            leaf lite {
-                type empty;
-            }
-            container reserve {
-                container critical {
-                    leaf memory-range {
-                        type uint32 {
-                            range "1..4294967295";
-                        }
-                    }
-                }
-            }
-            container sanity {
-                leaf all {
-                    type empty;
-                }
-                leaf buffer {
-                    type empty;
-                }
-                leaf queue {
-                    type empty;
-                }
-            }
+                "Bridge-Group Global Configuration";
+        }
+        container bstun {
+            description
+                "Block Serial Tunnel (BSTUN) Configuration Commands";
+        }
+        container buffers {
+            description
+                "Modify System Buffer Pool Parameters";
+        }
+        container bulkstat {
+            description
+                "Bulkstat Application Configuration";
+        }
+        leaf busy-message {
+            description
+                "Display Message When Connection to Host Fails";
+        }
+        container call {
+            description
+                "Call Configuration Commands";
         }
         container call-home {
             description
                 "Enter Call-Home Configuration Mode";
         }
-        container stack-power {
-            list stack;
-        }
-        container hw-module {
-            container uplink {
-                leaf select;
-                leaf mode;
-            }
-            container auto-off {
-                leaf led;
-            }
-            list breakout;
-            list switch;
-            list slot;
-            list subslot;
-            leaf sm;
-            leaf pvdm;
-            container breakout-conf {
-                container range {
-                    list start-end-port;
-                }
-            }
-        }
-        container cisp {
-            leaf enable;
-        }
-        container module;
-        list domain {
-            key "name";
-            leaf name;
-            list vrf;
-        }
-        container service {
+        leaf captive-portal-bypass {
             description
-                "Modify the Usage of Network Based Services";
-            leaf internal;
-            container pad-conf {
-                leaf pad;
-            }
-            container pad-conf-more {
-                container pad-conf-opt {
-                    leaf cmns;
-                    leaf from-xot;
-                    leaf to-xot;
-                }
-            }
-            leaf password-encryption;
-            leaf password-recovery;
-            leaf private-config-encryption;
-            container timestamps {
-                container debug;
-                container log;
-
-            }
-            container alignment {
-                leaf detection;
-                leaf logging;
-            }
-            leaf call-home;
-            leaf compress-config;
-            leaf config;
-            container counters {
-                container max {
-                    leaf age;
-                }
-            }
-            leaf dhcp;
-            leaf disable-ip-fast-frag;
-            leaf exec-callback;
-            leaf exec-wait;
-            leaf finger;
-            container heartbeat {
-                leaf fatal-count;
-                leaf interrupt-interval;
-                leaf interrupt-max;
-                leaf transmit-interval;
-                leaf warning-timeout;
-            }
-            leaf hide-telnet-addresses;
-            leaf line-number;
-            leaf log-hidden;
-            leaf nagle;
-            leaf old-slip-prompts;
-            leaf pt-vty-logging;
-            leaf sequence-numbers;
-            leaf slave-log;
-            leaf tcp-keepalives-in;
-            leaf tcp-keepalives-out;
-            leaf telnet-zeroidle;
-            leaf tcp-small-servers;
-            leaf udp-small-servers;
-            leaf unsupported-transciever;
-        }
-        container platform;
-        leaf hostname {
-            description
-                "Specify the System's Network Name";
-            type string;
-        }
-        container enable {
-            container password;
-            leaf last-resort;
-            container secret {
-                leaf level;
-                leaf type;
-                leaf secret;
-            }
-            leaf use-tacacs;
-        }
-        container password {
-            container encryption {
-                leaf aes;
-            }
-        }
-        container eap {
-            container key-name {
-                leaf compilance;
-            }
-            container method {
-                container fast {
-                    list profile;
-                }
-            }
-            list profile;
-        }
-        container archive {
-            container log {
-                container config {
-                    container logging {
-                        leaf enable;
-                        leaf size;
-                        container persistent {
-                            leaf auto;
-                            leaf reload;
-                        }
-                    }
-                    leaf hidekeys;
-                    container notify {
-                        container syslog {
-                            leaf content-type;
-                        }
-                    }
-                    container record {
-                        leaf rc;
-                    }
-                }
-            }
-            leaf path;
-            leaf maximum;
-            leaf write-memory;
-            leaf time-period;
-        }
-        list username {
-            description
-                "Establish User Name Authentication";
+                "Enable Captive Portal Bypass for Apple Devices";
         }
         container card;
-        container controller;
-        container frame-relay;
-        leaf aqm-register-fnf;
-        container rmon {
-            list alarm;
-            list event;
-        }
-        list sampler;
-        container flow;
-        container mka;
-        container macro {
-            container global {
-                leaf description;
-            }
-            container auto;
-        }
-        container vlan;
-        container mvrp;
-        container avb;
-        container ptp;
-        container cdp;
-        container avc;
-        container policy;
-        list route-map;
-        container route-tag;
-        list table-map;
-        container sdm;
-        container mls;
-        container object-group;
-        list pseudowire-class;
-        list l2tp-class;
-        container control-plane {
+        container carrier-id;
+        container cdma;
+        container cdp {
             description
-                "Configure Control Plane Services";
+                "CDP Configuration Commands";
         }
-        container control-plane-host {
-            container control-plane {
-                container host {
-                    list management-interface;
-                }
-            }
-        }
-        leaf config-register {
+        container cfg-mode;
+        container chat-script {
             description
-                "Set the Configuration Register Value";
+                "Define a Modem Chat Script";
+        }
+        container cisp {
+            description
+                "Configure CISP Parameters";
+        }
+        container class-map {
+            description
+                "Configure a QoS Class Map";
+        }
+        container clns {
+            description
+                "Global CLNS Configuration Commands";
         }
         container clock {
             description
                 "Configure System Clock";
-            container calendar-valid;
-            container summer-time {
-                leaf zone;
-                choice summer-time-choice;
-            }
-            container timezone {
-                leaf zone;
-                leaf offset;
-                leaf hours;
-                leaf minutes;
-            }
         }
-        container aaa {
+        container cofp;
+        container connect {
             description
-                "Authentication, Authorization and Accounting";
+                "Cross-Connect Multiple Interfaces";
+        }
+        container control-plane {
+            description
+                "Configure Control Plane Services";
+        }
+        container controller {
+            description
+                "Interface Controller Configuration";
+        }
+        container crypto {
+            description
+                "Crypto/Encryption Engine Configuration";
+        }
+        container csdb {
+            description
+                "Common Session Database (CSDB) Configuration";
+        }
+        container cwmp {
+            description
+                "CPE WAN Management Protocol (CWMP) Module Configuration";
+        }
+        container cws {
+            description
+                "Cloud Web Security (CWS) Configuration";
+        }
+        container decnet {
+            description
+                "Global DECnet Configuration Commands";
+        }
+        leaf default-value;
+        leaf define;
+        container device-sensor;
+        container device-tracking;
+        leaf dialer;
+        leaf dialer-list;
+        container diameter {
+            description
+                "Diameter Server Configuration Commands";
+        }
+        container dlsw {
+            description
+                "Data-Link Switching (DLSW) Global Configuration";
+        }
+        container dnsix-dmdp;
+        container dnsix-nat;
+        leaf domain;
+        container dot1x {
+            description
+                "IEEE 802.1X Global Configuration Commands";
+        }
+        leaf downward-compatible-config {
+            description
+                "Generate a Backwards-Compatible System Configuration";
+        }
+        container dspu {
+            description
+                "Down-Stream Physical Unit (DSPU) Configuration";
+        }
+        container eap;
+        container enable {
+            description
+                "Modify Enable Password Parameters";
+        }
+        container endpoint-tracker {
+            description
+                "Endpoint Tracker Configuration Commands";
+        }
+        container eou {
+            description
+                "EAPoUDP Global Configuration";
+        }
+        container epm;
+        container ethernet {
+            description
+                "Global Ethernet Configuration";
+        }
+        container event;
+        container exception {
+            description
+                "Exception Handling Options";
+        }
+        container fabric;
+        container facility-alarm;
+        container fallback;
+        container fhrp {
+            description
+                "Configure First-Hop Redundancy Protocol (FHRP) Parameters";
+        }
+        container file;
+        container flow {
+            description
+                "Global Flow Configuration Commands";
+        }
+        leaf flow-sampler-map;
+        leaf format;
+        container frame-relay {
+            description
+                "Global Frame-Relay Configuration";
+        }
+        container global-address-family {
+            description
+                "Global Address Family Template Configuration";
+        }
+        container gvrp;
+        leaf help;
+        leaf hostname {
+            description
+                "Set the System's Network Name";
+        }
+        container http {
+            description
+                "HTTP Client Configuration Parameters";
+        }
+        container hw-module;
+        container hw-programmable;
+        container ida-client;
+        container identity;
+        container interface {
+            description
+                "Select an Interface to Configure";
+        }
+        container iox {
+            description
+                "Configure IOx Services";
+        }
+        container ip {
+            description
+                "Global IP Configuration Commands";
+        }
+        container ipc {
+            description
+                "Configure the IPC Subsystem";
+        }
+        container iphc-profile {
+            description
+                "Configure an IP Header Compression Profile";
+        }
+        container ipv6 {
+            description
+                "Global IPv6 Configuration Commands";
+        }
+        container ipx {
+            description
+                "Global IPX Configuration Commands";
+        }
+        container isdn;
+        container isis;
+        container ixi;
+        container kerberos;
+        container key {
+            description
+                "System Key Management";
+        }
+        leaf keymap;
+        container kron;
+        container l2 {
+            description
+                "Layer 2 Configuration";
+        }
+        container l2tp {
+            description
+                "Layer 2 Tunneling Protocol (L2TP) Configuration";
+        }
+        leaf l2tp-class {
+            description
+                "L2TP Class Configuration";
+        }
+        container l2vpn {
+            description
+                "Layer 2 VPN Configuration Commands";
+        }
+        container l3vpn {
+            description
+                "Layer 3 VPN Configuration Commands";
+        }
+        container lacp;
+        container lat {
+            description
+                "DEC Local Area Transport (LAT) Global Configuration";
+        }
+        container ldap {
+            description
+                "LDAP Server Configuration Commands";
+        }
+        container line {
+            description
+                "Configure a Terminal Line";
+        }
+        container lldp {
+            description
+                "LLDP Configuration Commands";
+        }
+        leaf locaddr-priority-list;
+        container location {
+            description
+                "Global Location Configuration Commands";
+        }
+        container logging {
+            description
+                "Configure Logging Parameters";
         }
         container login {
             description
                 "Enable Secure Login Checking";
-            leaf delay;
-            leaf password-reuse-interval;
-            container on-failure {
-                container log {
-                    leaf every;
-                }
-            }
-            container on-success {
-                container log {
-                    leaf every;
-                }
-            }
-            container password-warning-interval {
-                leaf years;
-                leaf days;
-                leaf minutes;
-                leaf seconds;
-                leaf months;
-                leaf hours;
-            }
-            container quiet-mode {
-                leaf access-class;
-            }
-            container block {
-                leaf block-for;
-                leaf attempts;
-                leaf within;
-            }
+        }
+        container login-string;
+        container mab {
+            description
+                "MAC Authentication Bypass Configuration";
+        }
+        container mac-address-table {
+            description
+                "Configure the MAC Address Table";
+        }
+        leaf map-class;
+        leaf map-list;
+        container mediatrace;
+        container memory {
+            description
+                "Configure Memory Management";
+        }
+        container memory-size {
+            description
+                "Adjust Memory Size Using Percentage";
+        }
+        container metadata {
+            description
+                "Metadata Application Configuration";
+        }
+        container microcode;
+        container mka;
+        container mls;
+        container modemcap;
+        container monitor {
+            description
+                "VoltOS Event Monitoring Configuration";
+        }
+        container mop;
+        container mpls {
+            description
+                "Global MPLS Configuration Commands";
         }
         container multilink {
             description
                 "PPP Multilink Global Configuration";
         }
-        container mac-address-table {
+        container nat64;
+        container netbios;
+        container netconf;
+        container network-clock;
+        container ntp;
+        container object-group {
             description
-                "Configure the MAC Address Table";
-            container evc-xconnect {
-                leaf l2pt-forward-all;
-            }
-            container limit {
-                list bdomain;
-            }
-            container learning {
-                list vlan;
-            }
+                "Configure an Object Group";
         }
+        container onep;
+        leaf parameter-map;
+        container parser;
+        container password;
+        container performance;
+        container pfr {
+            description
+                "Performance Routing (PfR) Configuration";
+        }
+        leaf pfr-map;
+        leaf policy;
+        leaf policy-map;
+        container ppp;
+        leaf pppoe;
+        container privilege;
+        container process;
+        container process-max-time;
+        leaf profile;
+        leaf pseudowire-class {
+            description
+                "Pseudowire-Class Configuration";
+        }
+        container ptp;
+        container qos {
+            description
+                "Global QoS Configuration Commands";
+        }
+        container radius {
+            description
+                "RADIUS Server Configuration Commands";
+        }
+        container radius-server {
+            description
+                "Modify RADIUS Query Parameters";
+        }
+        container rbe;
         container redundancy {
             description
-                "Enter Redundancy Mode";
-            container application {
-                container redundancy {
-                    list group;
-                    leaf dampening;
-                    list protocol;
-                }
-            }
-            leaf maintenance-mode;
-            container main-cpu {
-                container auto-sync {
-                    leaf running-config;
-                    leaf config-register;
-                    leaf bootvar;
-                    leaf standard;
-                }
-                container standby {
-                    container console {
-                        leaf enable;
-                    }
-                    container initialization {
-                        container delay {
-                            leaf second;
-                            leaf boot-only;
-                        }
-                    }
-                }
-            }
-            leaf mode;
-            leaf notification-timer;
-            container policy {
-                container config-sync {
-                    container bulk {
-                        container prc {
-                            leaf reload;
-                        }
-                    }
-                    container lbl {
-                        container prc {
-                            leaf reload;
-                        }
-                    }
-                }
-            }
-            container timer {
-                leaf rpso;
-            }
-            container interchassis {
-                list group;
-            }
+                "Enter Redundancy Configuration Mode";
         }
+        leaf regex;
+        leaf remote-management;
+        leaf rlogin;
+        leaf rmon;
+        leaf route-map;
+        container route-tag;
+        container router {
+            description
+                "Enable a Routing Protocol Process";
+        }
+        container rsrb;
+        container sampler;
+        leaf sap-priority-list;
         container scheduler {
             description
-                "Scheduler Configuration Options";
-            leaf interval;
-            container runtime {
-                leaf netinput;
-            }
-            container allocate {
-                leaf interrupt-time;
-                leaf process-time;
-            }
+                "VoltOS Scheduler Configuration Parameters";
         }
-        container epm {
+        container scripting;
+        container sdm;
+        container secure;
+        container security;
+        container service {
             description
-                "EPM Global Configuration Commands";
-            leaf logging;
+                "Modify the Usage of Network and System Services";
+        }
+        container service-chain;
+        container service-class;
+        container service-discovery;
+        container service-insertion;
+        container service-instance;
+        leaf service-list;
+        container service-module;
+        container service-routing;
+        container setup {
+            description
+                "Express Setup Utility Configuration Parameters";
+        }
+        container snmp {
+            description
+                "Modify SNMP Non-Engine Parameters";
+        }
+        container snmp-server {
+            description
+                "Modify SNMP Server Engine Parameters";
+        }
+        container sntp {
+            description
+                "Simple NTP (SNTP) Configuration";
         }
         container spanning-tree {
             description
                 "Spanning Tree Protocol Subsystem Configuration";
         }
-        container subscriber {
+        container spe;
+        container standby {
             description
-                "Subscriber Configuration Commands";
-            container template {
-                leaf templating;
-            }
-            container service {
-                leaf multiple-accept;
-                leaf coa-rfc-compliant;
-            }
-            container policy {
-                leaf format-option82-for-cats;
-                container recording {
-                    container profile {
-                        leaf service;
-                        leaf user;
-                    }
-                    container rules {
-                        leaf rules;
-                    }
-                    container rules-limit {
-                        container rules {
-                            leaf limit;
-                        }
-                    }
-                }
-            }
-            container session {
-                leaf auto-service-fail-ignore;
-            }
-            container redundancy {
-                container bulk {
-                    container limit {
-                        leaf time;
-                    }
-                }
-            }
+                "Hot Standby Router Protocol (HSRP) Configuration";
         }
-        container track {
-            description
-                "Object Tracking Configuration Commands";
-        }
-        container dot1x {
-            description
-                "Global IEEE 802.1x Configuration Commands";
-        }
-        container mab {
-            description
-                "MAC Authentication Bypass Configuration";
-            container logging {
-                leaf verbose;
-            }
-            container request {
-                container format {
-                    container attribute {
-                        container one {
-                            container groupsize {
-                                leaf size;
-                                leaf separator;
-                                leaf case;
-                            }
-                        }
-                        container two {
-                            leaf type;
-                            leaf LINE;
-                        }
-                        container thirty-two {
-                            container vlan {
-                                leaf access-vlan;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        container fallback {
-            description
-                "Fallback Configuration Commands";
-        }
-        container parameter-map {
-            description
-                "Parameter Map Configuration";
-            container type;
-        }
-        container ppp {
-            description
-                "PPP Global Configuration Options";
-        }
-        container mac {
-            description
-                "Global MAC Configuration Commands";
-            container address-table {
-                container aging-time {
-                    list aging-time-list;
-                    leaf val;
-                    leaf routed-mac;
-                    leaf vlan;
-                }
-                leaf control-packet-learn;
-                container learning {
-                    leaf vlan;
-                }
-                container notification {
-                    container change {
-                        leaf history-size;
-                        leaf interval;
-                    }
-                    leaf mac-move;
-                    container threshold {
-                        leaf interval;
-                        container limit {
-                            leaf percentage;
-                            leaf interval;
-                        }
-                    }
-                }
-                list static;
-            }
-        }
+        leaf subscriber;
+        leaf table-map;
         container tacacs {
             description
                 "TACACS+ Server Configuration Commands";
@@ -669,581 +532,95 @@ module Coralt-VoltOS-main {
             description
                 "Modify TACACS+ Query Parameters";
         }
-        container scada-gw {
-            description
-                "SCADA Gateway Configuration Commands";
-        }
-        container software {
-            description
-                "Configure Software Installation Parameters";
-            container auto-upgrade {
-                leaf enable;
-            }
-        }
-        container upgrade {
-            description
-                "Global Upgrade Configuration Commands";
-            container fpd {
-                leaf auto;
-                leaf path;
-            }
-        }
-        container xconnect;
-        container fabric {
-            description
-                "VoltOS Crossbar Fabric Configuration Options";
-            container switching-mode {
-                container allow {
-                    choice allow-choice;
-                }
-                container force {
-                    leaf bus-mode;
-                }
-            }
-        }
-        container lacp {
-            description
-                "LACP Global Configuration Options";
-            leaf system-priority;
-        }
-        container port-channel {
-            description
-                "EtherChannel Configuration Commands";
-        }
-        container key {
-            description
-                "Key Management Configuration";
-        }
-        container l2 {
-            description
-                "Layer 2 Configuration Options";
-            leaf router-id;
-        }
-        container system {
-            description
-                "Set the System's Configuration";
-        }
-        container errdisable {
-            description
-                "Error Disable Configuration Options";
-            container detect {
-                container cause {
-                    leaf all;
-                    leaf arp-inspection;
-                    container bpduguard {
-                        container shutdown {
-                            leaf vlan;
-                        }
-                    }
-                    leaf dhcp-rate-limit;
-                    leaf gbic-invalid;
-                    leaf inline-power;
-                    leaf l2ptguard;
-                    leaf link-flap;
-                    leaf loopback;
-                    leaf mlacp-minlink;
-                    leaf pagp-flap;
-                    leaf pppoe-ia-rate-limit;
-                    container security-violation {
-                        container shutdown {
-                            leaf vlan;
-                        }
-                    }
-                    leaf sfp-config-mismatch;
-                    leaf small-frame;
-                    leaf loopdetect;
-                    container psp {
-                        container shutdown {
-                            leaf vlan;
-                        }
-                    }
-                }
-            }
-            container flap-setting {
-                container cause {
-                    container link-flap {
-                        leaf max-flaps;
-                        leaf time;
-                    }
-                    container pagp-flap {
-                        leaf max-flaps;
-                        leaf time;
-                    }
-                }
-            }
-            container recovery {
-                container cause {
-                    leaf all;
-                    leaf arp-inspection;
-                    leaf bpduguard;
-                    leaf channel-misconfig;
-                    leaf dhcp-rate-limit;
-                    leaf gbic-invalid;
-                    leaf inline-power;
-                    leaf l2ptguard;
-                    leaf link-flap;
-                    leaf link-monitor-failure;
-                    leaf loopback;
-                    leaf mac-limit;
-                    leaf mlacp-minlink;
-                    leaf mrp-miscabling;
-                    container oam-remote-failure {
-                        leaf critical-event;
-                        leaf dying-gasp;
-                        leaf link-fault;
-                    }
-                    leaf pagp-flap;
-                    leaf port-mode-failure;
-                    leaf pppoe-ia-rate-limit;
-                    leaf psp;
-                    leaf psecure-violation;
-                    leaf security-violation;
-                    leaf sfp-config-mismatch;
-                    leaf small-frame;
-                    leaf storm-control;
-                    leaf udld;
-                    leaf unicast-flood;
-                    leaf vmps;
-                    leaf loopdetect;
-                }
-                leaf interval;
-            }
-        }
-        container nat {
-            description
-                "NAT Scale Support";
-            leaf scale;
-        }
-        container identity {
-            description
-                "Identity Configuration Commands";
-            list policy;
-            container profile {
-                leaf dot1x;
-                leaf default;
-            }
-        }
-        container monitor {
-            description
-                "System Event Monitoring Options";
-            container event-trace {
-                container platform {
-                    container cofp {
-                        leaf enable;
-                    }
-                }
-                container cofp {
-                    container ipv4 {
-                        leaf enable;
-                    }
-                    container ipv6 {
-                        leaf enable;
-                    }
-                }
-                container adjacency {
-                    leaf enable;
-                }
-                container timestamps {
-                    leaf uptime;
-                }
-                leaf arp;
-                container ipv6 {
-                    leaf nd;
-                }
-                container atom {
-                    container atom-error-enable {
-                        leaf error;
-                    }
-                    container atom-event-enable {
-                        leaf event;
-                    }
-                    container atom-major-enable {
-                        leaf major;
-                    }
-                }
-                container l2fib {
-                    container l2fib-error-enable {
-                        leaf error;
-                    }
-                    container l2fib-events-enable {
-                        leaf event;
-                    }
-                    container l2fib-events-opts {
-                        container event {
-                            container exclude {
-                                leaf detail;
-                            }
-                        }
-                    }
-                }
-                container eigrp {
-                    leaf dump-file;
-                    container perf-events-enable {
-                        leaf perf-events;
-                    }
-                    container perf-events-opts {
-                        container perf-events {
-                            leaf dump-file;
-                            leaf rate-limiting;
-                            leaf size;
-                            container stacktrace {
-                                leaf stacktrace-value;
-                            }
-                        }
-                    }
-                }
-                leaf sequence-number;
-                container tunnel {
-                    container tunnel-enable {
-                        leaf tunnel;
-                    }
-                    container tunnel-opts {
-                        leaf dump-file;
-                        leaf size;
-                        container stacktrace {
-                            leaf stacktrace-value;
-                        }
-                    }
-                }
-            }
-            container drop {
-                container log {
-                    leaf urpf;
-                }
-                container match {
-                    list ip;
-                }
-            }
-            list session;
-        }
-        list md-list {
-            description
-                "Configure MD List";
-        }
+        container tarp;
+        container tdm;
+        container tech-support;
+        leaf template;
+        leaf terminal-queue;
         container tftp-server {
             description
-                "Provide TFTP Service for NETLOAD Requests";
-            list flash;
-            container rom {
-                list alias;
-            }
-            list bootflash;
-            list harddisk;
-            list null;
-            list system;
-            list tmpsys;
-            list nvram;
+                "Provide TFTP Service for Netload Requests";
         }
-        container radius-server {
-            description
-                "Modify RADIUS Query Parameters";
-        }
-        container radius {
-            description
-                "RADIUS Server Configuration Commands";
-        }
-        container ldap {
-            description
-                "LDAP Server Configuration Commands";
-        }
-        container endpoint-tracker {
-            description
-                "Endpoint Tracker Configuration";
-        }
-        container zone {
-            description
-                "Zone-Based Firewall Configuration";
-        }
-        container zone-pair {
-            description
-                "Firewall Zone-Pair Configuration Commands";
-        }
-        list alarm-contact;
-        container ethernet {
-            description
-                "Global Ethernet Configuration Commands";
-        }
-        container bridge-domain {
-            description
-                "Bridge Domain Global Configuration Commands";
-        }
-        container clns {
-            description
-                "Global CLNS/CLNP Configuration Commands";
-        }
-        container crypto {
-            description
-                "Cryptography Engine and Subsystem Configuration";
-        }
-        container cwmp {
-            description
-                "TR-069 CPE WAN Management Protocol Configuration";
-        }
-        container bfd-template {
-            description
-                "BFD Template Configuration";
-        }
-        container pfr {
-            description
-                "Performance Routing Configuration Sub-Modes";
-        }
-        list pfr-map {
-            description
-                "Create PfR-Map and Enter PfR-Map Configuration Mode";
-        }
-        container facility-alarm {
-            description
-                "Configure Facility Alarms";
-            leaf severity;
-            leaf exceed-action;
-        }
-        container setup {
-            description
-                "Configure SETUP Utility Options";
-        }
+        leaf time-range;
+        container tn3270;
         container tod-clock {
             description
-                "Time-of-Day Clock Configuration Commands";
+                "Configure the Time-of-Day (ToD) Clock";
         }
-        container network-clock {
+        leaf track;
+        leaf transceiver;
+        leaf translate;
+        leaf transport-map {
             description
-                "Network Clock Configuration Commands";
+                "Configure a Transport Map";
         }
-        container l2vpn {
+        leaf trunk;
+        leaf ttycap;
+        leaf udld;
+        leaf upgrade;
+        leaf user-group;
+        leaf username {
             description
-                "Layer 2 VPN Configuration Commands";
+                "Establish User Name Authentication";
         }
-        container l3vpn {
+        leaf vc-group;
+        leaf version {
             description
-                "Layer 3 VPN TCP/IP Encapsulation Configuration";
+                "VoltOS Version";
         }
-        container mpls {
+        leaf virtual-profile;
+        leaf virtual-service;
+        leaf virtual-template;
+        container vlan {
             description
-                "Global MPLS Configuration Commands";
+                "Global VLAN Configuration";
         }
-        container router {
-            description
-                "Enable a Routing Process";
-        }
-        container service-chain {
-            description
-                "Enter Service Chain Configuration Mode";
-        }
-        container performance {
-            description
-                "Global Performance Monitoring Configuration";
-        }
-        container remote-management {
-            description
-                "Enable Remote System Management";
-            leaf dmi;
-            leaf restful-api;
-        }
-        list virtual-service {
-            description
-                "Configure Virtual Service";
-        }
-        container virtual-template {
-            description
-                "Virtual Template Configuration";
-            leaf snmp;
-        }
+        leaf vofm;
+        leaf voice;
+        leaf voice-class;
+        leaf voice-port;
+        leaf vpdn;
+        leaf vpdn-group;
+        leaf vpdn-template;
+        container vrf;
+        container vrrs;
+        container vty-async;
         container vxlan {
             description
                 "VxLAN Configuration Commands";
         }
-        container snmp {
-            description
-                "SNMP Non-Engine Configuration Parameters";
-        }
-        container snmp-server {
-            description
-                "Modify SNMP Engine Configuration Parameters";
-        }
-        container segment-routing;
-        container performance-measurement;
-        leaf disable-eadi {
-            type empty;
-        }
-        container memory-size {
-            description
-                "Adjust Memory Size via Percentage";
-            leaf iomem;
-        }
-        container transciever;
-        container service-insertion {
-            description
-                "Enter Service Insertion Mode";
-        }
-        container qos {
-            description
-                "Global Quality of Service (QoS) Configuration";
-        }
-        list time-range {
-            description
-                "Define a Time Range Entry";
-        }
-        container device-tracking {
-            description
-                "Device Tracking Configuration Commands";
-        }
-        container fhrp {
-            container version {
-                leaf vrrp;
-            }
-            container mac-address {
-                leaf bia;
-            }
-            leaf bfd;
-            leaf sso;
-        }
-        container standby {
-            container bfd {
-                leaf all-interfaces;
-            }
-            container redirects {
-                choice redirects-choice;
-            }
-            leaf sso;
-        }
-        container metadata {
-            container flow {
-                leaf transmit;
-            }
-        }
-        container profile {
-            leaf flow;
-        }
-        container alias {
-            list exec;
-            list configure;
-        }
-        container ntp {
-            description
-                "Configure NTP Parameters";
-        }
+        container vxml;
+        container waas;
+        container webvpn;
+        container wlccp;
         container wsma {
             description
-                "Configure Web Services Management Agents";
+                "Web Services Management Agent (WAAS) Configuration";
         }
-        container event {
+        container x25 {
             description
-                "Event-Related Configuration Commands";
+                "Global X.25 Configuration Commands";
         }
-        container template {
+        container x28 {
             description
-                "Template Configuration";
+                "X.28 Global Configuration";
         }
-        container process {
-            container cpu {
-                container threshold {
-                    container type {
-                        container interrupt;
-                        container process;
-                        container total;
-                    }
-                }
-                container autoprofile {
-                    leaf hog;
-                }
-                container statistics {
-                    container limit {
-                        container entry-percentage {
-                            leaf entry-range;
-                            leaf size;
-                        }
-                    }
-                }
-                container extended {
-                    leaf history;
-                }
-            }
-        }
-        container exception {
-            container crashinfo {
-                leaf buffersize;
-                leaf file;
-                container maximum {
-                    leaf files;
-                }
-            }
-            container data-corruption {
-                container buffer {
-                    leaf log;
-                }
-            }
-        }
-        container iox {
-            leaf switch;
-        }
-        container transport-map {
-            container type {
-                container persistent {
-                    list persistent-type-name;
-                }
-            }
-        }
-        container l2tp {
+        container x29;
+        container x3;
+        container xconnect;
+        container xml;
+        container xot {
             description
-                "Layer 2 Tunneling Protocol (L2TP) Options";
-            container tunnel {
-                description
-                    "Enable L2TP Tunnel Options";
-                container l2tpv3 {
-                    description
-                        "Configure L2TPv3-Specific Options";
-                    container accounting {
-                        description
-                            "Configure Tunnel Accounting Options";
-                        leaf headers {
-                            description
-                                "Configure Tunnel Accounting to Include Headers";
-                            type boolean;
-                            default "true";
-                        }
-                    }
-                }
-            }
-            container sso {
-                description
-                    "L2TP High Availability Configurations";
-                leaf enable {
-                    description
-                        "Enable L2TP High Availability";
-                    type boolean;
-                    default "true";
-                }
-            }
+                "X.25 over TCP (XoT) Configuration Commands";
         }
-        container redun-management {
+        container xsm;
+        container zone {
             description
-                "Redundancy Management Interface Configuration";
+                "Zone-Based Firewall Configuration Commands";
         }
-        container management {
+        container zone-pair {
             description
-                "Management Gateway-Failover Configuration";
-        }
-        container file {
-            description
-                "Set Privilege Level of a File";
-            leaf privilege {
-                description
-                    "Specify the Privilege Level of a File";
-                type uint8 {
-                    range "0..15";
-                }
-                default "15";
-            }
-            leaf prompt {
-                description
-                    "Prompt Level for File Operations";
-                type enumeration {
-                    enum quiet;
-                    enum alert;
-                    enum noisy;
-                }
-                default "alert";
-            }
+                "Zone Pair Configuration Commands";
         }
     }
 }

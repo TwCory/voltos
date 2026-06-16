@@ -1,4 +1,5 @@
 module Coralt-VoltOS-mpls {
 
     grouping config-mpls-grouping;
+    grouping interface-mpls-grouping;
 }

@@ -1,0 +1,7 @@
+module Coralt-VoltOS-l3vpn {
+
+    grouping config-l3vpn-grouping {
+        
+    }
+
+}

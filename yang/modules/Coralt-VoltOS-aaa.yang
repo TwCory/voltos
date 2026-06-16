@@ -1,7 +1,50 @@
 module Coralt-VoltOS-aaa {
 
     grouping config-aaa-grouping {
+        leaf accounting;
+        leaf attribute;
+        leaf authentication;
+        leaf authorization;
+        container cache {
+            leaf filter;
+            leaf filter-server;
+            leaf profile;
+        }
+        leaf common-criteria;
+        leaf configuration;
+        leaf dnis;
+        container group {
+            container server {
+                leaf diameter;
+                leaf ldap;
+                leaf radius;
+                leaf tacacs;
+            }
+        }
+        leaf intercept;
+        leaf local;
+        leaf max-sessions;
+        leaf memory;
+        leaf nas;
         leaf new-model;
+        leaf password;
+        leaf pod;
+        leaf preauth;
+        leaf processes;
+        leaf route;
+        container server {
+            container radius {
+                leaf dynamic-author;
+                leaf policy-device;
+                leaf proxy;
+            }
+        }
+        leaf service-profile;
+        leaf session-id;
+        leaf session-mib;
+        leaf traceback;
+        leaf user;
+        leaf username;
     }
     grouping interface-aaa-grouping;
 }

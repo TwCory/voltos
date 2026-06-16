@@ -1,3 +1,26 @@
 module Coralt-VoltOS-bgp {
-    grouping router-bgp-grouping;
+
+    grouping router-bgp-grouping {
+
+        container address-family {
+            leaf ipv4;
+            leaf ipv6;
+            leaf l2vpn;
+            leaf nsap;
+            leaf rtfilter;
+            leaf vpnv4;
+            leaf vpnv6;
+        }
+
+        leaf bgp;
+
+        leaf neighbour;
+
+        leaf peer-group;
+
+        leaf scope;
+
+        leaf timers;
+    }
+
 }

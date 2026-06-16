@@ -1,0 +1,8 @@
+module Coralt-VoltOS-nbar {
+
+    grouping config-ip-nbar-grouping;
+    grouping config-ipv6-nbar-grouping;
+
+    grouping interface-ip-nbar-grouping;
+    grouping interface-ipv6-nbar-grouping;
+}

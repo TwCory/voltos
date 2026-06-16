@@ -2,4 +2,7 @@ module Coralt-VoltOS-pgm {
 
     grouping config-ip-pgm-grouping;
     grouping config-ipv6-pgm-grouping;
+
+    grouping interface-ip-pgm-grouping;
+    grouping interface-ipv6-pgm-grouping;
 }

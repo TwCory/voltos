@@ -1,3 +1,6 @@
 module Coralt-VoltOS-icmp {
-
+    grouping config-ip-icmp-grouping {
+        leaf rate-limit;
+        leaf redirect;
+    }
 }

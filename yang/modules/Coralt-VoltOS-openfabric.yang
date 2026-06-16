@@ -1,4 +1,6 @@
 module Coralt-VoltOS-openfabric {
 
-    grouping router-openfabric-grouping;
+    grouping router-openfabric-grouping {
+        container address-family;
+    }
 }

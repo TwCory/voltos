@@ -1,4 +1,30 @@
 module Coralt-VoltOS-dot1x {
 
-    grouping config-dot1x-grouping;
+    grouping config-dot1x-grouping {
+        leaf credentials;
+        leaf critical;
+        leaf default;
+        leaf max-req;
+        leaf max-start;
+        leaf system-auth-control;
+        leaf timeout;
+    }
+
+    grouping interface-dot1x-grouping {
+        leaf control-direction;
+        leaf credentials;
+        leaf critical;
+        leaf default;
+        leaf guest-vlan;
+        leaf host-mode;
+        leaf mac-auth-bypass;
+        leaf max-auth-req;
+        leaf max-req;
+        leaf max-start;
+        leaf multiple-hosts;
+        leaf pae;
+        leaf port-control;
+        leaf reauthentication;
+        leaf timeout;
+    }
 }

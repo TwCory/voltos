@@ -1,5 +1,10 @@
 module Coralt-VoltOS-arp {
     
     grouping config-arp-grouping;
-    grouping interface-arp-grouping;
+
+    grouping interface-arp-grouping {
+        leaf arpa;
+        leaf frame-relay;
+        leaf snap;
+    }
 }

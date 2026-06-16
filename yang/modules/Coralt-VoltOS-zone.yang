@@ -2,4 +2,6 @@ module Coralt-VoltOS-zone {
 
     grouping config-zone-grouping;
     grouping config-zone-pair-grouping;
+
+    grouping interface-zone-member-grouping;
 }

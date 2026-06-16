@@ -1,4 +1,76 @@
 module Coralt-VoltOS-rip {
 
-    grouping router-rip-grouping;
+    grouping router-rip-grouping {
+        container address-family {
+            container ipv4 {
+                container unicast;
+                list vrf;
+            }
+        }
+        leaf auto-summary {
+            type boolean;
+        }
+        container default-information {
+            container originate;
+        }
+        leaf default-metric {
+            type uint32 {
+                range "1..4294967295";
+            }
+        }
+        leaf distance {
+            type uint8;
+        }
+        leaf distribute-list;
+
+        leaf flash-update-threshold {
+            type uint8 {
+                range "0..30";
+            }
+        }
+
+        leaf input-queue {
+            type uint16 {
+                range "0..1024";
+            }
+            default "150";
+        }
+
+        leaf maximum-paths {
+            type uint8 {
+                range "1..32";
+            }
+            default "4";
+        }
+
+        leaf neighbour;
+        leaf network;
+
+        leaf offset-list;
+        leaf output-delay {
+            type uint8 {
+                range "8..50";
+            }
+        }
+
+        leaf passive-interface;
+
+        leaf redistribute;
+
+        leaf shutdown {
+            type empty;
+        }
+
+        leaf timers;
+
+        leaf validate-update-source {
+            type boolean;
+            default "true";
+        }
+        leaf version;
+    }
+
+    grouping interface-ip-rip-grouping {
+        
+    }
 }

@@ -2,151 +2,38 @@ module Coralt-VoltOS-types {
     yang-version 1.1;
     prefix voltos-types;
 
+    typedef appletalk-address;
 
-    import ietf-inet-types {
-        prefix inet;
-    }
+    typedef dccp-port;
+    typedef domain-name;
 
-    typedef weekday-type {
-        type enumeration {
-            enum Monday;
-            enum Tuesday;
-            enum Wednesday;
-            enum Thursday;
-            enum Friday;
-            enum Saturday;
-            enum Sunday;
-        }
-    }
+    typedef hostname;
 
-
-    typedef month-type {
-        type enumeration {
-            enum January;
-            enum February;
-            enum March;
-            enum April;
-            enum May;
-            enum June;
-            enum July;
-            enum August;
-            enum September;
-            enum October;
-            enum November;
-            enum December;
-        }
-    }
-
-    typedef dccp-port-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef sctp-port-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef tcp-port-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef udp-port-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef hostname {
-        type string;
-    }
-    typedef rd-type;
-
-    typedef bgp-asn-type {
-        type uint32 {
-            range "1..4294967295";
-        }
-    }
-    typedef bgp-afi-type {
-        type enumeration {
-            enum ipv4;
-            enum ipv6;
-            enum l2vpn;
-            enum nsap;
-            enum rtfilter;
-            enum vpnv4;
-            enum vpnv6;
-        }
-    }
-
-    typedef bgp-ipv4-safi-type {
-        type enumeration {
-            enum flowspec;
-            enum mdt;
-            enum multicast;
-            enum mvpn;
-            enum unicast;
-        }
-    }
-
-    typedef bgp-ipv6-safi-type {
-        type enumeration {
-            enum flowspec;
-            enum multicast;
-            enum mvpn;
-            enum unicast;
-        }
-    }
-
-    typedef eigrp-asn-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef ospf-pid-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef ospf-area-id-type {
-        type uint32 {
-            range "1..4294967295";
-        }
-    }
-
-    typedef ospf-cost-type {
-        type uint16 {
-            range "1..65535";
-        }
-    }
-
-    typedef rip-metric-type {
-        type uint8 {
-            range "1..15";
-        }
-    }
+    typedef ip-address;
+    typedef ip-port;
+    typedef ip-prefix;
+    typedef ip-protocol;
 
     typedef ipv4-address;
-    typedef ipv6-address;
-    typedef ip-address;
-    typedef mac-address;
-
     typedef ipv4-prefix;
+
+    typedef ipv6-address;
     typedef ipv6-prefix;
-    typedef ip-prefix;
+
+    typedef mac-address;
     typedef mac-prefix;
 
-    typedef ipv4-host;
-    typedef ipv6-host;
-    typedef ip-host;
+    typedef nsap-address;
 
-    typedef stack-slot-port;
-    typedef slot-port;
+    typedef sctp-port;
+
+    typedef tcp-port;
+
+    typedef udp-port;
+    typedef url;
+
+    typedef vlan-id;
+
+
 
 }

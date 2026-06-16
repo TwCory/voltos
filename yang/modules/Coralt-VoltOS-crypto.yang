@@ -1,16 +1,148 @@
 module Coralt-VoltOS-crypto {
 
     grouping config-crypto-grouping {
-        leaf ikev2;
-        leaf ipsec;
-        leaf isakmp;
-        leaf key;
+        container aaa {
+            leaf attribute;
+        }
+        container ca {
+            leaf authenticate;
+            leaf cert;
+            leaf certificate;
+            leaf crl;
+            leaf enroll;
+            leaf export;
+            leaf identity;
+            leaf import;
+            leaf profile;
+            leaf trusted-root;
+            leaf trustpoint;
+        }
+        container call {
+            leaf admission;
+        }
+        leaf dynamic-map;
+        container engine {
+            leaf accelerator;
+            leaf aim;
+            leaf em;
+            leaf mode;
+            leaf nm;
+            leaf onboard;
+            leaf slot;
+        }
+        container gdoi {
+            leaf gm;
+            leaf group;
+            leaf ks;
+        }
+        leaf identity;
+        container ikev2 {
+            leaf authorization;
+            leaf certificate-cache;
+            leaf cluster;
+            leaf cookie-challenge;
+            leaf diagnose;
+            leaf dpd;
+            leaf fragmentation;
+            leaf http-url;
+            leaf keyring;
+            leaf limit;
+            leaf name;
+            leaf nat;
+            leaf policy;
+            leaf profile;
+            leaf proposal;
+            leaf redirect;
+            leaf window;
+        }
+        container ipsec {
+            leaf client;
+            leaf default;
+            leaf df-bit;
+            leaf fragmentation;
+            leaf ipv4-deny;
+            leaf nat-transparency;
+            leaf optional;
+            leaf profile;
+            leaf security-association;
+            leaf server;
+            leaf transform-set;
+        }
+        container isakmp {
+            leaf aggressive-mode;
+            leaf client;
+            leaf default;
+            leaf enable;
+            leaf fragmentation;
+            leaf identity;
+            leaf invalid-spi-recovery;
+            leaf keepalive;
+            leaf key;
+            leaf nat;
+            leaf peer;
+            leaf policy;
+            leaf profile;
+        }
+        container key {
+            leaf decrypt;
+            leaf encrypt;
+            leaf export;
+            leaf generate;
+            leaf import;
+            leaf lock;
+            leaf move;
+            leaf pubkey-chain;
+            leaf storage;
+            leaf unlock;
+            leaf zeroize;
+        }
+        leaf keyring;
+        container logging {
+            leaf ezvpn;
+            leaf ikev2;
+            leaf session;
+        }
+        container map {
+            leaf client;
+            leaf gdoi;
+            leaf isakmp-profile;
+            leaf local-address;
+            leaf redundancy;
+        }
+        container mib {
+            leaf ipsec;
+            leaf topn;
+        }
+        container pki {
+            leaf authenticate;
+            leaf benchmark;
+            leaf cert;
+            leaf certificate;
+            leaf crl;
+            leaf enroll;
+            leaf export;
+            leaf import;
+            leaf profile;
+            leaf server;
+            leaf token;
+            leaf trustpoint;
+            leaf trustpool;
+        }
+        container provisioning {
+            leaf petitioner;
+            leaf registrar;
+        }
         leaf vpn;
         leaf xauth;
     }
     grouping config-key-grouping {
         leaf chain;
+        leaf config-key;
     }
 
-    grouping interface-crypto-grouping;
+    grouping interface-crypto-grouping {
+        leaf engine;
+        leaf ipsec;
+        leaf map;
+    }
 }

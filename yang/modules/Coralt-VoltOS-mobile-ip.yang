@@ -1,0 +1,9 @@
+module Coralt-VoltOS-mobile-ip {
+
+    grouping config-ip-mobile-grouping;
+
+    grouping config-ipv6-mobile-grouping;
+
+    grouping router-mobile-grouping;
+
+}
