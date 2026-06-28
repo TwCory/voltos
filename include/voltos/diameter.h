@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DIAMETER_H
+#define _VOLTOS_DIAMETER_H
+
+#endif /* _VOLTOS_DIAMETER_H */

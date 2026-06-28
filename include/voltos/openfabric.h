@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_OPENFABRIC_H
+#define _VOLTOS_OPENFABRIC_H
+
+#endif /* _VOLTOS_OPENFABRIC_H */
