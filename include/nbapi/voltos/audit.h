@@ -1,4 +1,0 @@
-#ifndef NBAPI_VOLTOS_AUDIT_H
-#define NBAPI_VOLTOS_AUDIT_H
-
-#endif /* NBAPI_VOLTOS_AUDIT_H */

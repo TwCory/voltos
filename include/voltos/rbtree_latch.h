@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_RBTREE_LATCH_H_
-#define _VOLTOS_RBTREE_LATCH_H_
-
-#endif /* _VOLTOS_RBTREE_LATCH_H_ */

@@ -1,7 +1,0 @@
-#ifndef _NBAPI_VOLTOS_HSRP_H_
-#define _NBAPI_VOLTOS_HSRP_H_
-
-#define HSRP_IPV4_PORT		1985
-#define HSRP_IPV6_PORT		2029
-
-#endif /* _NBAPI_VOLTOS_HSRP_H_ */

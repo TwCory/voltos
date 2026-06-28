@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_PERCPU_COUNTER_H_
-#define _VOLTOS_PERCPU_COUNTER_H_
-
-#endif /* _VOLTOS_PERCPU_COUNTER_H_ */

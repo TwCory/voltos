@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_RCU_NOTIFIER_H_
-#define _VOLTOS_RCU_NOTIFIER_H_
-
-#endif /* _VOLTOS_RCU_NOTIFIER_H_ */

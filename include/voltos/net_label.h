@@ -1,6 +1,0 @@
-#ifndef VOLTOS_NET_LABEL_H
-#define VOLTOS_NET_LABEL_H
-
-
-
-#endif /* VOLTOS_NET_LABEL_H */

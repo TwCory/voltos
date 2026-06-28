@@ -1,4 +1,0 @@
-#ifndef VOLTOS_BITFIELD_H
-#define VOLTOS_BITFIELD_H
-
-#endif /* VOLTOS_BITFIELD_H */

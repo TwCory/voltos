@@ -1,7 +1,0 @@
-#ifndef _NBAPI_VOLTOS_ISIS_H_
-#define _NBAPI_VOLTOS_ISIS_H_
-
-#define L2_ISIS_ETHERTYPE		0x22F4
-#define ISIS_OVER_IPV4_PROTOCOL		124
-
-#endif /* _NBAPI_VOLTOS_ISIS_H_ */

@@ -1,4 +1,0 @@
-#ifndef NBAPI_VOLTOS_ABFAB_H
-#define NBAPI_VOLTOS_ABFAB_H
-
-#endif /* NBAPI_VOLTOS_ABFAB_H */

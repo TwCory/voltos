@@ -1,4 +1,0 @@
-#ifndef NBAPI_VOLTOS_AHCP_H
-#define NBAPI_VOLTOS_AHCP_H
-
-#endif /* NBAPI_VOLTOS_AHCP_H */

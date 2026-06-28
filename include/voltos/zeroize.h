@@ -1,4 +1,0 @@
-#ifndef VOLTOS_ZEROIZE_H
-#define VOLTOS_ZEROIZE_H
-
-#endif /* VOLTOS_ZEROIZE_H */

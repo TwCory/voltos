@@ -1,4 +1,0 @@
-#ifndef _MACHINE_BYTEORDER_H_
-#define _MACHINE_BYTEORDER_H_
-
-#endif /* _MACHINE_BYTEORDER_H_ */

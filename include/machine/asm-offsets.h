@@ -1,4 +1,0 @@
-#ifndef _MACHINE_ASM_OFFSETS_H_
-#define _MACHINE_ASM_OFFSETS_H_
-
-#endif /* _MACHINE_ASM_OFFSETS_H_ */

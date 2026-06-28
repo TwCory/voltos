@@ -1,4 +1,0 @@
-#ifndef NBAPI_VOLTOS_BGP_LS_H
-#define NBAPI_VOLTOS_BGP_LS_H
-
-#endif /* NBAPI_VOLTOS_BGP_LS_H */

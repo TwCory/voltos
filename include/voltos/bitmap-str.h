@@ -1,4 +1,0 @@
-#ifndef VOLTOS_BITMAP_STR_H
-#define VOLTOS_BITMAP_STR_H
-
-#endif /* VOLTOS_BITMAP_STR_H */

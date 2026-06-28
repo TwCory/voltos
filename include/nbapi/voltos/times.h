@@ -1,4 +1,0 @@
-#ifndef _NBAPI_VOLTOS_TIMES_H_
-#define _NBAPI_VOLTOS_TIMES_H_
-
-#endif /* _NBAPI_VOLTOS_TIMES_H_ */

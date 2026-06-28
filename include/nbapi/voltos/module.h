@@ -1,4 +1,0 @@
-#ifndef _NBAPI_VOLTOS_MODULE_H_
-#define _NBAPI_VOLTOS_MODULE_H_
-
-#endif /* _NBAPI_VOLTOS_MODULE_H_ */

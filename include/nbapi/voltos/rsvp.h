@@ -1,9 +1,0 @@
-#ifndef _NBAPI_VOLTOS_RSVP_H_
-#define _NBAPI_VOLTOS_RSVP_H_
-
-#define RSVP_PROTOCOL			46
-#define RSVP_E2E_IGNORE_PROTOCOL	134
-
-#define RSVP_PORT			3455
-
-#endif /* _NBAPI_VOLTOS_RSVP_H_ */

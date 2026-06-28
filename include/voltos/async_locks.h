@@ -1,4 +1,0 @@
-#ifndef VOLTOS_ASYNC_LOCKS_H
-#define VOLTOS_ASYNC_LOCKS_H
-
-#endif /* VOLTOS_ASYNC_LOCKS_H */

@@ -1,4 +1,0 @@
-#ifndef VOLTOS_MEMORY_TCAM_H
-#define VOLTOS_MEMORY_TCAM_H
-
-#endif /* VOLTOS_MEMORY_TCAM_H */

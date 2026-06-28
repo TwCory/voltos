@@ -1,6 +1,0 @@
-// SPDX-License-Identifier: BSD-3-Clause
-
-#ifndef VOLTOS_ATOMIC_ATOMIC_FETCH_H
-#define VOLTOS_ATOMIC_ATOMIC_FETCH_H
-
-#endif /* VOLTOS_ATOMIC_ATOMIC_FETCH_H */

@@ -1,4 +1,0 @@
-#ifndef ROUTER_OSPF_COMMON_H
-#define ROUTER_OSPF_COMMON_H
-
-#endif /* ROUTER_OSPF_COMMON_H */

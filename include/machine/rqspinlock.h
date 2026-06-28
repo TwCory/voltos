@@ -1,4 +1,0 @@
-#ifndef _MACHINE_RQSPINLOCK_H_
-#define _MACHINE_RQSPINLOCK_H_
-
-#endif /* _MACHINE_RQSPINLOCK_H_ */

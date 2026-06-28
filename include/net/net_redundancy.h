@@ -1,4 +1,0 @@
-#ifndef NET_NET_REDUNDANCY_H
-#define NET_NET_REDUNDANCY_H
-
-#endif /* NET_NET_REDUNDANCY_H */

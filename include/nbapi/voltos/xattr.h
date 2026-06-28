@@ -1,4 +1,0 @@
-#ifndef _NBAPI_VOLTOS_XATTR_H_
-#define _NBAPI_VOLTOS_XATTR_H_
-
-#endif /* _NBAPI_VOLTOS_XATTR_H_ */

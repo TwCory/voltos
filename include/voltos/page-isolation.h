@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_PAGE_ISOLATION_H_
-#define _VOLTOS_PAGE_ISOLATION_H_
-
-#endif /* _VOLTOS_PAGE_ISOLATION_H_ */

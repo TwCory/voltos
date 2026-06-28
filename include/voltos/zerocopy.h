@@ -1,4 +1,0 @@
-#ifndef VOLTOS_ZEROCOPY_H
-#define VOLTOS_ZEROCOPY_H
-
-#endif /* VOLTOS_ZEROCOPY_H */

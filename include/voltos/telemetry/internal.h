@@ -1,6 +1,0 @@
-// SPDX-License-Identifier: BSD-3-Clause
-
-#ifndef VOLTOS_TELEMETRY_INTERNAL_H
-#define VOLTOS_TELEMETRY_INTERNAL_H
-
-#endif /* VOLTOS_TELEMETRY_INTERNAL_H */

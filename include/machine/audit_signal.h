@@ -1,4 +1,0 @@
-#ifndef _MACHINE_AUDIT_SIGNAL_H_
-#define _MACHINE_AUDIT_SIGNAL_H_
-
-#endif /* _MACHINE_AUDIT_SIGNAL_H_ */

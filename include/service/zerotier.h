@@ -1,4 +1,0 @@
-#ifndef _SERVICE_ZEROTIER_H_
-#define _SERVICE_ZEROTIER_H_
-
-#endif /* _SERVICE_ZEROTIER_H_ */

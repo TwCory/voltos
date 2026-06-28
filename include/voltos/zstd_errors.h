@@ -1,4 +1,0 @@
-#ifndef VOLTOS_ZSTD_ERRORS_H
-#define VOLTOS_ZSTD_ERRORS_H
-
-#endif /* VOLTOS_ZSTD_ERRORS_H */

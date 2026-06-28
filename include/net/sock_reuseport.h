@@ -1,4 +1,0 @@
-#ifndef NET_SOCK_REUSEPORT_H
-#define NET_SOCK_REUSEPORT_H
-
-#endif /* NET_SOCK_REUSEPORT_H */

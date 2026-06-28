@@ -1,6 +1,0 @@
-// SPDX-License-Identifier: BSD-3-Clause
-
-#ifndef VOLTOS_BYTEORDER_GENERIC_H
-#define VOLTOS_BYTEORDER_GENERIC_H
-
-#endif /* VOLTOS_BYTEORDER_GENERIC_H */

@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_LINE_COMMON_H_
-#define _VOLTOS_LINE_COMMON_H_
-
-#endif /* _VOLTOS_LINE_COMMON_H_ */

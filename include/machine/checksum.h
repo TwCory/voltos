@@ -1,4 +1,0 @@
-#ifndef _MACHINE_CHECKSUM_H_
-#define _MACHINE_CHECKSUM_H_
-
-#endif /* _MACHINE_CHECKSUM_H_ */

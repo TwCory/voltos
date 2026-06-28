@@ -1,4 +1,0 @@
-#ifndef _SERVICE_OPENCONNECT_H_
-#define _SERVICE_OPENCONNECT_H_
-
-#endif /* _SERVICE_OPENCONNECT_H_ */

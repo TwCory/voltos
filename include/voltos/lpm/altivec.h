@@ -1,4 +1,0 @@
-#ifndef VOLTOS_LPM_ALTIVEC_H
-#define VOLTOS_LPM_ALTIVEC_H
-
-#endif /* VOLTOS_LPM_ALTIVEC_H */

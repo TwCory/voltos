@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_THREAD_POOL_H_
-#define _VOLTOS_THREAD_POOL_H_
-
-#endif /* _VOLTOS_THREAD_POOL_H_ */

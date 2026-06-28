@@ -1,4 +1,0 @@
-#ifndef VOLTOS_VECTOR_NEON_H
-#define VOLTOS_VECTOR_NEON_H
-
-#endif /* VOLTOS_VECTOR_NEON_H */

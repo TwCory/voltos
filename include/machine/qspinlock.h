@@ -1,4 +1,0 @@
-#ifndef _MACHINE_QSPINLOCK_H_
-#define _MACHINE_QSPINLOCK_H_
-
-#endif /* _MACHINE_QSPINLOCK_H_ */

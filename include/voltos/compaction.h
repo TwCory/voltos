@@ -1,4 +1,0 @@
-#ifndef VOLTOS_COMPACTION_H
-#define VOLTOS_COMPACTION_H
-
-#endif /* VOLTOS_COMPACTION_H */

@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_RBTREE_AUGMENT_H_
-#define _VOLTOS_RBTREE_AUGMENT_H_
-
-#endif /* _VOLTOS_RBTREE_AUGMENT_H_ */

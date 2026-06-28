@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_WEBSOCKET_H_
-#define _VOLTOS_WEBSOCKET_H_
-
-#endif /* _VOLTOS_WEBSOCKET_H_ */

@@ -1,4 +1,0 @@
-#ifndef VOLTOS_BYTEORDER_H
-#define VOLTOS_BYTEORDER_H
-
-#endif /* VOLTOS_BYTEORDER_H */

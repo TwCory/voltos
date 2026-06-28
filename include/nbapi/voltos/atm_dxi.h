@@ -1,4 +1,0 @@
-#ifndef NBAPI_VOLTOS_ATM_DXI_H
-#define NBAPI_VOLTOS_ATM_DXI_H
-
-#endif /* NBAPI_VOLTOS_ATM_DXI_H */

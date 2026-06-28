@@ -1,4 +1,0 @@
-#ifndef NET_INET_HASHTABLES_H
-#define NET_INET_HASHTABLES_H
-
-#endif /* NET_INET_HASHTABLES_H */

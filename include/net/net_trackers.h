@@ -1,4 +1,0 @@
-#ifndef NET_NET_TRACKERS_H
-#define NET_NET_TRACKERS_H
-
-#endif /* NET_NET_TRACKERS_H */

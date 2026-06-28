@@ -1,4 +1,0 @@
-#ifndef _NBAPI_VOLTOS_SECURITY_H_
-#define _NBAPI_VOLTOS_SECURITY_H_
-
-#endif /* _NBAPI_VOLTOS_SECURITY_H_ */

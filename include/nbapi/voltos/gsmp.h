@@ -1,6 +1,0 @@
-#ifndef _NBAPI_VOLTOS_GSMP_H_
-#define _NBAPI_VOLTOS_GSMP_H_
-
-#define GSMP_ETHERTYPE		0x880C
-
-#endif /* _NBAPI_VOLTOS_GSMP_H_ */

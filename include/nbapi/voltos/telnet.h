@@ -1,7 +1,0 @@
-#ifndef _NBAPI_VOLTOS_TELNET_H_
-#define _NBAPI_VOLTOS_TELNET_H_
-
-#define TELNET_PORT	23
-#define TELNETS_PORT	992
-
-#endif /* _NBAPI_VOLTOS_TELNET_H_ */

@@ -1,4 +1,0 @@
-#ifndef VOLTOS_CLI_NODES_VLAN_H
-#define VOLTOS_CLI_NODES_VLAN_H
-
-#endif /* VOLTOS_CLI_NODES_VLAN_H */

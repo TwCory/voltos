@@ -1,4 +1,0 @@
-#ifndef _MACHINE_COMPILER_H_
-#define _MACHINE_COMPILER_H_
-
-#endif /* _MACHINE_COMPILER_H_ */

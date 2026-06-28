@@ -1,4 +1,0 @@
-#ifndef NBAPI_VOLTOS_A_OUT_H
-#define NBAPI_VOLTOS_A_OUT_H
-
-#endif /* NBAPI_VOLTOS_A_OUT_H */

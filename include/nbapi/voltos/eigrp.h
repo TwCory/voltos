@@ -1,6 +1,0 @@
-#ifndef _NBAPI_VOLTOS_EIGRP_H_
-#define _NBAPI_VOLTOS_EIGRP_H_
-
-#define EIGRP_PROTOCOL		88
-
-#endif /* _NBAPI_VOLTOS_EIGRP_H_ */

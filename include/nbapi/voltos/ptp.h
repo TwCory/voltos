@@ -1,9 +1,0 @@
-#ifndef _NBAPI_VOLTOS_PTP_H_
-#define _NBAPI_VOLTOS_PTP_H_
-
-#define PTP_ETHERTYPE		0x88F7
-
-#define PTP_EVENT_PORT		319
-#define PTP_GENERAL_PORT	320
-
-#endif /* _NBAPI_VOLTOS_PTP_H_ */

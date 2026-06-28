@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_REF_TRACKER_H_
-#define _VOLTOS_REF_TRACKER_H_
-
-#endif /* _VOLTOS_REF_TRACKER_H_ */

@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_TIME_KEEPER_H_
-#define _VOLTOS_TIME_KEEPER_H_
-
-#endif /* _VOLTOS_TIME_KEEPER_H_ */

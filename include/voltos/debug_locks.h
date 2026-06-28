@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_DEBUG_LOCKS_H_
-#define _VOLTOS_DEBUG_LOCKS_H_
-
-#endif /* _VOLTOS_DEBUG_LOCKS_H_ */
