@@ -1,53 +1,105 @@
 module Coralt-VoltOS-ip {
     
-    import Coralt-VoltOS-types {
-        prefix voltos-types;
+    import ietf-inet-types {
+        prefix inet;
     }
 
     grouping config-ip-grouping {
-        container access-list;
+        container access-list {
+            description
+                "Named IP Access-List Configuration";
+        }
         leaf accounting-list;
         leaf accounting-threshold;
         leaf accounting-transits;
         leaf address-pool {
+            description
+                "Specify IP Address Pooling Method";
             type enumeration {
                 enum dhcp-pool;
                 enum dhcp-proxy-client;
                 enum local;
             }
         }
-        container admission;
+        container admission {
+            description
+                "Network Admission Control (NAC) Configuration";
+        }
         leaf alias;
-        container arp;
-        leaf as-path;
+        container arp {
+            description
+                "IP ARP Global Configuration";
+        }
+        container as-path {
+            description
+                "BGP AS_PATH Attribute Filter Configuration";
+        }
         container auth-proxy;
-
         container bgp-community {
-            leaf new-format;
+            description
+                "Specify Format for BGP Communities";
+            leaf new-format {
+                description
+                    "Select AA:NN Format for BGP Communities";
+                type boolean;
+            }
         }
         container bootp {
-            leaf server;
+            description
+                "Configure IP BOOTP Services";
+            leaf server {
+                description
+                    "Enable BOOTP Server";
+                type boolean;
+            }
         }
         container cache-invalidate-delay;
         leaf classless {
+            description
+                "Follow Classless IP Routing/Forwarding Rules";
             type boolean;
+            default "true";
         }
-        container cofp;
+        container cofp {
+            description
+                "Coralt Optimized Forwarding Plane (COFP) for IP";
+        }
         leaf community-list;
         container dccp;
         container ddns;
-        leaf default-gateway;
+        leaf default-gateway {
+            description
+                "Specify Default Gateway Address (If Not Routing IP)";
+            type inet:ipv4-address;
+        }
         leaf default-network;
         container device;
-        container dhcp;
-        container dhcp-client;
-        container dhcp-relay;
-        container dhcp-server;
+        container dhcp {
+            description
+                "Configure IP DHCP Server and Relay Parameters";
+        }
+        container dhcp-client {
+            description
+                "Configure IP DHCP Client Operational Parameters";
+        }
+        container dhcp-relay {
+            description
+                "Configure IP DHCP Relay Agent";
+        }
+        container dhcp-server {
+            description
+                "Configure IP DHCP Server Parameters";
+        }
         container diameter {
             leaf source-interface;
         }
-        container dns;
+        container dns {
+            description
+                "Configure DNS Server for a Zone";
+        }
         container domain {
+            description
+                "IP Domain Name System (DNS) Resolver";
             leaf list;
             leaf lookup;
             leaf multicast;
@@ -62,9 +114,19 @@ module Coralt-VoltOS-ip {
         leaf explicit-path;
         leaf extcommunity-list;
 
-        container finger;
+        container finger {
+            description
+                "Finger Protocol Server Configuration";
+        }
         container flow;
+        container flow-aggregation;
+        container flow-cache;
+        container flow-capture;
+        container flow-export;
+        container flow-top-talkers;
         container forward-protocol {
+            description
+                "Control Forwarding of Physical/Directed Network Broadcasts";
             leaf nd {
                 type boolean;
                 default "true";
@@ -95,10 +157,19 @@ module Coralt-VoltOS-ip {
         leaf host;
         leaf host-list;
         leaf host-routing {
+            description
+                "Enable Host-Based Routing (Proxy ARP and ICMP Redirect)";
             type boolean;
         }
         container hostname {
-            leaf strict;
+            description
+                "Configure Hostname Options";
+            leaf strict {
+                description
+                    "Allow Only Hostnames Compliant with RFC 1123";
+                type boolean;
+                default "false";
+            }
         }
         leaf hp-host {
             type boolean;
@@ -117,6 +188,8 @@ module Coralt-VoltOS-ip {
             leaf source-interface;
         }
         container local {
+            description
+                "Specify IP Local Options";
             leaf policy;
             leaf pool;
         }
@@ -135,10 +208,18 @@ module Coralt-VoltOS-ip {
         container nat;
         container nbar;
         container options {
-            leaf drop;
+            leaf drop {
+                type boolean;
+            }
         }
         container ospf {
-            leaf name-lookup;
+            description
+                "Configure for OSPF";
+            leaf name-lookup {
+                description
+                    "Display OSPF Router IDs as DNS Names";
+                type boolean;
+            }
         }
         container pgm;
         container pim;
@@ -154,6 +235,8 @@ module Coralt-VoltOS-ip {
         leaf reflexive-list;
         leaf route;
         leaf routing {
+            description
+                "Enable/Disable IP Routing";
             type boolean;
             default "true";
         }
@@ -185,6 +268,8 @@ module Coralt-VoltOS-ip {
             type boolean;
         }
         leaf subnet-zero {
+            description
+                "Allow for Subnet-Zero IP Networks";
             type boolean;
         }
         container tacacs {
@@ -215,7 +300,10 @@ module Coralt-VoltOS-ip {
         leaf urd;
         container url-filter;
         container verify;
-        leaf vrf;
+        list vrf {
+            description
+                "Configure an IP VPN Routing/Forwarding Instance";
+        }
         container wccp;
     }
 
@@ -234,7 +322,7 @@ module Coralt-VoltOS-ip {
         leaf auth-proxy;
         leaf authentication;
         leaf broadcast-address {
-            type voltos-types:ipv4-address;
+            type inet:ipv4-address;
         }
         leaf clear-dont-fragment {
             type boolean;
@@ -251,7 +339,7 @@ module Coralt-VoltOS-ip {
         leaf header-compression;
         leaf hello-interval;
         leaf helper-address {
-            type voltos-types:ipv4-address;
+            type inet:ipv4-address;
         }
         leaf hold-time;
 

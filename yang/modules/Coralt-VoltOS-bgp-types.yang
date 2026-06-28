@@ -1,0 +1,22 @@
+module Coralt-VoltOS-bgp-types {
+    
+    import ietf-inet-types {
+        prefix inet;
+    }
+
+    typedef bgp-asn-type {
+        type union {
+            type uint16 {
+                range "1..65535";
+            }
+            type uint32 {
+                range "1..4294967295";
+            }
+            type inet:ipv4-address;
+        }
+    }
+
+    typedef bgp-router-id-type {
+        type inet:ipv4-address;
+    }
+}

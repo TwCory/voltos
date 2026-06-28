@@ -1,0 +1,20 @@
+module Coralt-VoltOS-ospf-types {
+    
+    import ietf-inet-types {
+        prefix inet;
+    }
+
+    typedef ospf-area-id-type {
+        type inet:ipv4-address;
+    }
+
+    typedef ospf-cost-type {
+        type uint16;
+    }
+
+    typedef ospf-process-id-type {
+        type uint16 {
+            range "1..65535";
+        }
+    }
+}

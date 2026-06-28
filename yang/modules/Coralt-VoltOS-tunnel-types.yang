@@ -1,0 +1,32 @@
+module Coralt-VoltOS-tunnel-types {
+    
+
+    typedef tunnel-mode-type {
+        type enumeration {
+            enum 6o4;
+            enum 6rd;
+            enum 6to4;
+            enum ayiya;
+            enum bareudp;
+            enum fou;
+            enum geneve;
+            enum gre;
+            enum gtp;
+            enum ipip;
+            enum ipoe;
+            enum ipsec;
+            enum isatap;
+            enum l2f;
+            enum l2tp;
+            enum l2tpv3;
+            enum nvgre;
+            enum pptp;
+            enum sstp;
+            enum teredo;
+            enum tsp;
+            enum udp;
+            enum vxlan;
+            enum wireguard;
+        }
+    }
+}

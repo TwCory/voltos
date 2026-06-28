@@ -1,0 +1,9 @@
+module Coralt-VoltOS-eigrp-types {
+    
+
+    typedef eigrp-asn-type {
+        type uint16 {
+            range "1..65535";
+        }
+    }
+}

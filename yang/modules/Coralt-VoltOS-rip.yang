@@ -1,9 +1,21 @@
 module Coralt-VoltOS-rip {
 
+    import ietf-inet-types {
+        prefix inet;
+    }
+
     grouping router-rip-grouping {
         container address-family {
             container ipv4 {
-                container unicast;
+                container unicast {
+                    container disable;
+                    leaf flash-update-threshold;
+                    leaf input-queue;
+                    leaf output-delay;
+                    container passive-interface;
+                    container traffic-share;
+
+                }
                 list vrf;
             }
         }
@@ -21,7 +33,7 @@ module Coralt-VoltOS-rip {
         leaf distance {
             type uint8;
         }
-        leaf distribute-list;
+        container distribute-list;
 
         leaf flash-update-threshold {
             type uint8 {
@@ -43,8 +55,21 @@ module Coralt-VoltOS-rip {
             default "4";
         }
 
-        leaf neighbour;
-        leaf network;
+        list neighbour {
+            key "ip";
+            leaf ip {
+                type inet:ipv4-address;
+            }
+            leaf bfd {
+                type boolean;
+            }
+        }
+        list network {
+            key "ip";
+            leaf ip {
+                type inet:ipv4-address;
+            }
+        }
 
         leaf offset-list;
         leaf output-delay {
@@ -58,7 +83,7 @@ module Coralt-VoltOS-rip {
         leaf redistribute;
 
         leaf shutdown {
-            type empty;
+            type boolean;
         }
 
         leaf timers;

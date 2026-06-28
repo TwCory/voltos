@@ -1,0 +1,9 @@
+module Coralt-VoltOS-openvpn-types {
+    
+    typedef openvpn-interface-mode-type {
+        type enumeration {
+            enum l2;
+            enum l3;
+        }
+    }
+}

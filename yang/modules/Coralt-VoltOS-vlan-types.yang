@@ -1,0 +1,8 @@
+module Coralt-VoltOS-vlan-types {
+    
+    typedef vlan-id-type {
+        type uint16 {
+            range "1..4095";
+        }
+    }
+}

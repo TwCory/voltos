@@ -2,6 +2,76 @@ module Coralt-VoltOS-bba-group {
     
 
     grouping config-bba-group-grouping {
-        leaf pppoe;
+        container bba-group {
+            description
+                "Configure Broadband Aggregation (BBA) Group";
+            list pppoe {
+                description
+                    "Configure PPPoE BBA Group";
+                key "id";
+                leaf id {
+                    type union {
+                        type string;
+                        type enumeration {
+                            enum global;
+                        }
+                    }
+                }
+                container service {
+                    description
+                        "Services to Associate With This Group";
+                    leaf profile {
+                        description
+                            "Subscriber Profile to Associate With This Group";
+                        type string {
+                            length "1..230";
+                        }
+                    }
+                }
+                container vendor-tag {
+                    description
+                        "PPPoE Vendor-Specific Tag Information";
+                    container circuit-id {
+                        description
+                            "Circuit-ID";
+                        leaf service {
+                            description
+                                "Enable Processing";
+                            type boolean;
+                        }
+                    }
+                    container dsl-sync-rate {
+                        description
+                            "DSL-Sync-Rate";
+                        leaf service {
+                            description
+                                "Enable Processing";
+                            type boolean;
+                        }
+                    }
+                    container remote-id {
+                        description
+                            "Remote-ID";
+                        leaf service {
+                            description
+                                "Enable Processing";
+                            type boolean;
+                        }
+                    }
+                    leaf strip {
+                        description
+                            "Strip All Vendor Tags";
+                        type boolean;
+                    }
+                }
+                leaf virtual-template {
+                    description
+                        "BBA Group Virtual-Template";
+                    type uint16 {
+                        range "1..4095";
+                    }
+                }
+            }
+        }
     }
 }
