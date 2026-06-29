@@ -1,6 +1,0 @@
-module Coralt-VoltOS-ipx {
-    
-    grouping config-ipx-grouping;
-
-    grouping interface-ipx-grouping;
-}
