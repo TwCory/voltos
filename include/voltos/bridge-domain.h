@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_BRIDGE_DOMAIN_H
+#define _VOLTOS_BRIDGE_DOMAIN_H
+
+#endif /* _VOLTOS_BRIDGE_DOMAIN_H */

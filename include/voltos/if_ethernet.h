@@ -1,0 +1,12 @@
+#ifndef _VOLTOS_IF_ETHERNET_H
+#define _VOLTOS_IF_ETHERNET_H
+
+#define EPON_ETHERTYPE			0x8808
+#define SLOW_PROTOCOL_ETHERTYPE		0x8809
+#define NIC_TEST_ETHERTYPE		0x8822
+
+struct eth_hdr {
+
+};
+
+#endif /* _VOLTOS_IF_ETHERNET_H */

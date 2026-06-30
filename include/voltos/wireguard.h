@@ -1,4 +1,6 @@
 #ifndef _VOLTOS_WIREGUARD_H
 #define _VOLTOS_WIREGUARD_H
 
+#define WIREGUARD_PORT		51820
+
 #endif /* _VOLTOS_WIREGUARD_H */

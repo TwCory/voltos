@@ -1,0 +1,7 @@
+#ifndef _VOLTOS_IF_VLAN_H
+#define _VOLTOS_IF_VLAN_H
+
+#define VLAN_C_TAG_ETHERTYPE		0x8100
+#define VLAN_S_TAG_ETHERTYPE		0x88A8
+
+#endif /* _VOLTOS_IF_VLAN_H */

@@ -1,0 +1,4 @@
+#ifndef _ROUTER_DISTANCE_H
+#define _ROUTER_DISTANCE_H
+
+#endif /* _ROUTER_DISTANCE_H */

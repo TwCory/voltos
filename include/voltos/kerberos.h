@@ -1,4 +1,6 @@
 #ifndef _VOLTOS_KERBEROS_H
 #define _VOLTOS_KERBEROS_H
 
+#define KERBEROS_PORT		88
+
 #endif /* _VOLTOS_KERBEROS_H */

@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_IF_LOOPBACK_H
+#define _VOLTOS_IF_LOOPBACK_H
+
+#define LOOPBACK_ETHERTYPE		0x9000
+
+#endif /* _VOLTOS_IF_LOOPBACK_H */
