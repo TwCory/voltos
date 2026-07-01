@@ -1,0 +1,4 @@
+#ifndef _NET_PROTOCOL_MEMORY_H
+#define _NET_PROTOCOL_MEMORY_H
+
+#endif /* _NET_PROTOCOL_MEMORY_H */

@@ -1,3 +1,5 @@
+// Blocks Extensible Exchange Protocol
+
 #ifndef _VOLTOS_BEEP_H
 #define _VOLTOS_BEEP_H
 
