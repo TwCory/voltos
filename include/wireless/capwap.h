@@ -1,0 +1,4 @@
+#ifndef _WIRELESS_CAPWAP_H
+#define _WIRELESS_CAPWAP_H
+
+#endif /* _WIRELESS_CAPWAP_H */

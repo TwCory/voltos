@@ -3,4 +3,8 @@
 
 #include <voltos/un.h>
 
+struct unix_sock {
+
+};
+
 #endif /* _NET_AF_UNIX_H */

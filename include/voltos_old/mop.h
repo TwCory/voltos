@@ -1,0 +1,7 @@
+#ifndef _VOLTOS_MOP_H
+#define _VOLTOS_MOP_H
+
+#define MOP_DUMP_LOAD_ETHERTYPE			0x6001
+#define MOP_REMOTE_CONSOLE_ETHERTYPE		0x6002
+
+#endif /* _VOLTOS_MOP_H */

@@ -1,0 +1,4 @@
+#ifndef _ROUTER_RIB_SRCDST_H
+#define _ROUTER_RIB_SRCDST_H
+
+#endif /* _ROUTER_RIB_SRCDST_H */
