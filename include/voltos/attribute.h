@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ATTRIBUTE_H
+#define _VOLTOS_ATTRIBUTE_H
+
+#endif /* _VOLTOS_ATTRIBUTE_H */

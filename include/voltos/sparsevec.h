@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SPARSEVEC_H
+#define _VOLTOS_SPARSEVEC_H
+
+#endif /* _VOLTOS_SPARSEVEC_H */

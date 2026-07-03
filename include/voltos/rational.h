@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RATIONAL_H
+#define _VOLTOS_RATIONAL_H
+
+#endif /* _VOLTOS_RATIONAL_H */

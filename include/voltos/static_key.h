@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_STATIC_KEY_H
+#define _VOLTOS_STATIC_KEY_H
+
+#endif /* _VOLTOS_STATIC_KEY_H */

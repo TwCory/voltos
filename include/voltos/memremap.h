@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_MEMREMAP_H
+#define _VOLTOS_MEMREMAP_H
+
+#endif /* _VOLTOS_MEMREMAP_H */

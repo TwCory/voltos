@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SPLAY_TREE_H
+#define _VOLTOS_SPLAY_TREE_H
+
+#endif /* _VOLTOS_SPLAY_TREE_H */
