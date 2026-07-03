@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DECLASSIFY_H
+#define _VOLTOS_DECLASSIFY_H
+
+#endif /* _VOLTOS_DECLASSIFY_H */

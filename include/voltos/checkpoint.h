@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CHECKPOINT_H
+#define _VOLTOS_CHECKPOINT_H
+
+#endif /* _VOLTOS_CHECKPOINT_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_PRIVILEGE_H
+#define _VOLTOS_PRIVILEGE_H
+
+#endif /* _VOLTOS_PRIVILEGE_H */
