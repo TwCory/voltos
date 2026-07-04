@@ -1,0 +1,11 @@
+#ifndef _ROUTER_PIMV6_H
+#define _ROUTER_PIMV6_H
+
+#include <voltos/in6.h>
+#include <voltos/mbuf.h>
+#include <voltos/types.h>
+#include <router/if.h>
+#include <router/ipv6.h>
+#include <router/mroute.h>
+
+#endif /* _ROUTER_PIMV6_H */

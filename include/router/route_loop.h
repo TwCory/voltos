@@ -1,0 +1,4 @@
+#ifndef _ROUTER_ROUTE_LOOP_H
+#define _ROUTER_ROUTE_LOOP_H
+
+#endif /* _ROUTER_ROUTE_LOOP_H */

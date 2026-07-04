@@ -1,0 +1,4 @@
+#ifndef _ROUTER_DIJKSTRA_H
+#define _ROUTER_DIJKSTRA_H
+
+#endif /* _ROUTER_DIJKSTRA_H */

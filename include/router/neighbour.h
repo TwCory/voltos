@@ -1,0 +1,4 @@
+#ifndef _ROUTER_NEIGHBOUR_H
+#define _ROUTER_NEIGHBOUR_H
+
+#endif /* _ROUTER_NEIGHBOUR_H */
