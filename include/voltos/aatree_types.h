@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_AATREE_TYPES_H
+#define _VOLTOS_AATREE_TYPES_H
+
+#endif /* _VOLTOS_AATREE_TYPES_H */

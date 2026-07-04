@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_AVL_TREE_TYPES_H
+#define _VOLTOS_AVL_TREE_TYPES_H
+
+#endif /* _VOLTOS_AVL_TREE_TYPES_H */

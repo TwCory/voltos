@@ -3,4 +3,8 @@
 
 #include <voltos/types.h>
 
+struct codetag {
+
+};
+
 #endif /* _VOLTOS_CODETAG_H */

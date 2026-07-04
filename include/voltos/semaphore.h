@@ -4,4 +4,8 @@
 #include <voltos/list.h>
 #include <voltos/spinlock.h>
 
+struct semaphore {
+
+};
+
 #endif /* _VOLTOS_SEMAPHORE_H */

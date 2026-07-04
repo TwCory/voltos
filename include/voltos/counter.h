@@ -8,4 +8,8 @@
 #include <voltos/types.h>
 #include <voltos/wait.h>
 
+struct counter_device {
+
+};
+
 #endif /* _VOLTOS_COUNTER_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RBTREE_TYPES_H
+#define _VOLTOS_RBTREE_TYPES_H
+
+#endif /* _VOLTOS_RBTREE_TYPES_H */

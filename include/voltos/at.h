@@ -4,4 +4,12 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct at_addr {
+
+};
+
+struct sockaddr_at {
+
+};
+
 #endif /* _VOLTOS_AT_H */

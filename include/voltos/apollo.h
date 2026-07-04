@@ -4,4 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct sockaddr_apollo {
+
+};
+
 #endif /* _VOLTOS_APOLLO_H */

@@ -4,4 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct sockaddr_mctp {
+
+};
+
 #endif /* _VOLTOS_MCTP_H */

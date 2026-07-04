@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_TIME_RANGE_H
+#define _VOLTOS_TIME_RANGE_H
+
+#endif /* _VOLTOS_TIME_RANGE_H */

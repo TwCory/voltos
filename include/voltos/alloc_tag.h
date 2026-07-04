@@ -10,4 +10,8 @@
 #include <voltos/static_key.h>
 #include <voltos/types.h>
 
+struct alloc_tag {
+
+};
+
 #endif /* _VOLTOS_ALLOC_TAG_H */

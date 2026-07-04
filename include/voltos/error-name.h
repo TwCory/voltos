@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ERROR_NAME_H
+#define _VOLTOS_ERROR_NAME_H
+
+#endif /* _VOLTOS_ERROR_NAME_H */

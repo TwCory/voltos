@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_MEMLEAK_H
+#define _VOLTOS_MEMLEAK_H
+
+#endif /* _VOLTOS_MEMLEAK_H */

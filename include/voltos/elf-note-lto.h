@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ELF_NOTE_LTO_H
+#define _VOLTOS_ELF_NOTE_LTO_H
+
+#endif /* _VOLTOS_ELF_NOTE_LTO_H */

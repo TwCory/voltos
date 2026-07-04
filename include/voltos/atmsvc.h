@@ -4,4 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct sockaddr_atmsvc {
+
+};
+
 #endif /* _VOLTOS_ATMSVC_H */

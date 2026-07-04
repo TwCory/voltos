@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_TSTREE_TYPES_H
+#define _VOLTOS_TSTREE_TYPES_H
+
+#endif /* _VOLTOS_TSTREE_TYPES_H */

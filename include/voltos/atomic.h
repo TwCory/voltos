@@ -6,4 +6,12 @@
 #include <voltos/atomic/atomic-store.h>
 #include <voltos/atomic/types.h>
 
+typedef struct {
+
+} atomic_t;
+
+typedef struct {
+
+} atomic64_t;
+
 #endif /* _VOLTOS_ATOMIC_H */

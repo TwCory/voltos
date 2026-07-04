@@ -4,4 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct sockaddr_bridge {
+
+};
+
 #endif /* _VOLTOS_IF_BRIDGE_H */

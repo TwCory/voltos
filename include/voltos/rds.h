@@ -4,4 +4,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct sockaddr_rds {
+
+};
+
 #endif /* _VOLTOS_RDS_H */

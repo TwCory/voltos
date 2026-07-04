@@ -5,4 +5,8 @@
 #include <voltos/device.h>
 #include <voltos/node.h>
 
+struct cpu {
+
+};
+
 #endif /* _VOLTOS_CPU_H */

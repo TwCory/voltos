@@ -1,0 +1,4 @@
+#ifndef _NET_NEIGHBOUR_TABLE_H
+#define _NET_NEIGHBOUR_TABLE_H
+
+#endif /* _NET_NEIGHBOUR_TABLE_H */

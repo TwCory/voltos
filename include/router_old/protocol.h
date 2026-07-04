@@ -1,0 +1,4 @@
+#ifndef _ROUTER_PROTOCOL_H
+#define _ROUTER_PROTOCOL_H
+
+#endif /* _ROUTER_PROTOCOL_H */
