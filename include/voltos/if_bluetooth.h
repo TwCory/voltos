@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_IF_BLUETOOTH_H
+#define _VOLTOS_IF_BLUETOOTH_H
+
+#endif /* _VOLTOS_IF_BLUETOOTH_H */

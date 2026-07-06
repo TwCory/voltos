@@ -70,6 +70,36 @@ typedef __u32	__bitwise		__csum32;
 
 typedef _Bool 				bool;
 
+typedef __s_char s_char;
+typedef __u_char u_char;
+
+typedef __s_short s_short;
+typedef __u_short u_short;
+
+typedef __s_int s_int;
+typedef __u_int u_int;
+
+typedef __s_long s_long;
+typedef __u_long u_long;
+
+typedef __s_llong s_llong;
+typedef __u_llong u_llong;
+
+typedef __s_char schar;
+typedef __u_char uchar;
+
+typedef __s_short sshort;
+typedef __u_short ushort;
+
+typedef __s_int sint;
+typedef __u_int uint;
+
+typedef __s_long slong;
+typedef __u_long ulong;
+
+typedef __s_llong sllong;
+typedef __u_llong ullong;
+
 typedef __s8 				s8;
 typedef __u8 				u8;
 
@@ -98,5 +128,31 @@ typedef struct {
 		double 			data64[FLOAT128_DOUBLE_SIZE];
 	};
 } __attribute__ ((packed)) f128;
+
+#ifdef __DMA_ADDR_T_64BIT__
+typedef __u64 dma_addr_t;
+#else
+typedef __u32 dma_addr_t;
+#endif /* __DMA_ADDR_T_64BIT__ */
+
+#ifdef __PHY_ADDR_T_64BIT__
+typedef __u64 phy_addr_t;
+#else
+typedef __u32 phy_addr_t;
+#endif /* __PHY_ADDR_T_64BIT__ */
+
+#ifdef __SIZE_T_64BIT__
+typedef __u64 size_t;
+typedef __s64 ssize_t;
+typedef __u64 uintptr_t;
+typedef __s64 intptr_t;
+typedef __s64 ptrdiff_t;
+#else
+typedef __u32 size_t;
+typedef __s32 ssize_t;
+typedef __u32 uintptr_t;
+typedef __s32 intptr_t;
+typedef __s32 ptrdiff_t;
+#endif /* __SIZE_T_64BIT__ */
 
 #endif /* _VOLTOS_TYPES_H */

@@ -8,4 +8,8 @@
 #include <voltos/rcu.h>
 #include <voltos/sockptr.h>
 
+enum socket_type {
+SOCKET_TYPE_T_
+};
+
 #endif /* _VOLTOS_NET_H */
