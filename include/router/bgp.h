@@ -18,4 +18,20 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define EBGP_ROUTE_DISTANCE		20
+#define IBGP_ROUTE_DISTANCE		200
+#define BGP_ROUTE_CODE			"B"
+
+struct bgp_main {
+
+};
+
+struct bgp_interface {
+
+};
+
+struct bgp_route {
+
+};
+
 #endif /* _ROUTER_BGP_H */

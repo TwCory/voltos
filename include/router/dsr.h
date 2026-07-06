@@ -18,4 +18,16 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+struct dsr_main {
+
+};
+
+struct dsr_interface {
+
+};
+
+struct dsr_route {
+
+};
+
 #endif /* _ROUTER_DSR_H */

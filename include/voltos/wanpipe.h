@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_wanpipe {
-
+	__voltos_sa_family_t swanpipe_family;
 };
 
 #endif /* _VOLTOS_WANPIPE_H */

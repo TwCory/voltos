@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_phonet {
-
+	__voltos_sa_family_t sphonet_family;
 };
 
 #endif /* _VOLTOS_PHONET_H */

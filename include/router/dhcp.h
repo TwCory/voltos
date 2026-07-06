@@ -3,4 +3,12 @@
 
 #include <voltos/in.h>
 
+struct dhcp_main {
+
+};
+
+struct dhcp_interface {
+
+};
+
 #endif /* _ROUTER_DHCP_H */

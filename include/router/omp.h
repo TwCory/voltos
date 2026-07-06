@@ -5,4 +5,16 @@
 #include <voltos/in6.h>
 #include <voltos/types.h>
 
+struct omp_main {
+
+};
+
+struct omp_interface {
+
+};
+
+struct omp_route {
+
+};
+
 #endif /* _ROUTER_OMP_H */

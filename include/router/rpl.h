@@ -15,4 +15,19 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define RPL_ROUTE_CODE			"P"
+#define RPL_ROUTE_DISTANCE		100
+
+struct rpl_main {
+
+};
+
+struct rpl_interface {
+
+};
+
+struct rpl_route {
+
+};
+
 #endif /* _ROUTER_RPL_H */

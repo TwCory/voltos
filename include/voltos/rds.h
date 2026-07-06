@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_rds {
-
+	__voltos_sa_family_t srds_family;
 };
 
 #endif /* _VOLTOS_RDS_H */

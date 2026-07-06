@@ -20,4 +20,22 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define ZHLS_ROUTE_CODE			"Z"
+
+struct zhls_main {
+
+};
+
+struct zhls_interface {
+
+};
+
+struct zhls_zone {
+
+};
+
+struct zhls_route {
+
+};
+
 #endif /* _ROUTER_ZHLS_H */

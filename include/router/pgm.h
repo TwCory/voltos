@@ -10,4 +10,16 @@
 #include <router/ipv6.h>
 #include <router/mroute.h>
 
+struct pgm_main {
+
+};
+
+struct pgm_interface {
+
+};
+
+struct pgm_host {
+
+};
+
 #endif /* _ROUTER_PGM_H */

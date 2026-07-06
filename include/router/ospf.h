@@ -19,4 +19,44 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+
+#define OSPF_ROUTE_CODE			"O"
+#define OSPF_ROUTE_DISTANCE		110
+
+struct ospf_main {
+
+};
+
+struct ospf_interface {
+
+};
+
+struct ospf_area {
+
+};
+
+struct ospf_route {
+
+};
+
+struct ospf_inter_area_route {
+
+};
+
+struct ospf_ext_type1_route {
+
+};
+
+struct ospf_ext_type2_route {
+
+};
+
+struct ospf_nssa_ext_type1_route {
+
+};
+
+struct ospf_nssa_ext_type2_route {
+
+};
+
 #endif /* _ROUTER_OSPF_H */

@@ -3,4 +3,12 @@
 
 #include <router/ipv6.h>
 
+struct mld_main {
+
+};
+
+struct mld_interface {
+
+};
+
 #endif /* _ROUTER_MLD_H */

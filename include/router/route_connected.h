@@ -1,0 +1,11 @@
+#ifndef _ROUTER_ROUTE_CONNECTED_H
+#define _ROUTER_ROUTE_CONNECTED_H
+
+#define CONNECTED_ROUTE_DISTANCE	0
+#define CONNECTED_ROUTE_CODE		"C"
+
+struct connected_route {
+
+};
+
+#endif /* _ROUTER_ROUTE_CONNECTED_H */

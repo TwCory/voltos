@@ -9,4 +9,12 @@
 #include <router/ip.h>
 #include <router/ipv6.h>
 
+struct vrrp_main {
+
+};
+
+struct vrrp_interface {
+
+};
+
 #endif /* _ROUTER_VRRP_H */

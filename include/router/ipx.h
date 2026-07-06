@@ -19,6 +19,14 @@ enum ipx_protocol_type {
 	__IPX_PROTOCOL_TYPE_T_MAX__
 };
 
+struct ipx_main {
+
+};
+
+struct ipx_interface {
+
+};
+
 struct ipx_protocol {
 	const char 					*name;
 	struct protocol 				*protocol;

@@ -3,4 +3,12 @@
 
 #include <router/ip.h>
 
+struct igmp_main {
+
+};
+
+struct igmp_interface {
+
+};
+
 #endif /* _ROUTER_IGMP_H */

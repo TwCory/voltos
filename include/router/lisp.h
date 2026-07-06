@@ -6,4 +6,8 @@
 #include <voltos/mbuf.h>
 #include <voltos/types.h>
 
+struct lisp_main {
+
+};
+
 #endif /* _ROUTER_LISP_H */

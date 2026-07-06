@@ -1,7 +1,7 @@
 #ifndef _VOLTOS_ASIC_H
 #define _VOLTOS_ASIC_H
 
-struct asic {
+struct asic_device {
 
 };
 

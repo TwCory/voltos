@@ -3,4 +3,8 @@
 
 #include <voltos/mbuf.h>
 
+struct mbuf_chain {
+
+};
+
 #endif /* _VOLTOS_MBUF_CHAIN_H */

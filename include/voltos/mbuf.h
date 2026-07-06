@@ -15,4 +15,8 @@
 #include <voltos/time.h>
 #include <voltos/voltos.h>
 
+struct mbuf {
+
+};
+
 #endif /* _VOLTOS_MBUF_H */

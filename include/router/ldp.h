@@ -8,4 +8,12 @@
 #include <router/if.h>
 #include <router/mpls.h>
 
+struct ldp_main {
+
+};
+
+struct ldp_interface {
+
+};
+
 #endif /* _ROUTER_LDP_H */

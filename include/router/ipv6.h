@@ -31,6 +31,14 @@ enum ipv6_protocol_type {
 	__IPV6_PROTOCOL_TYPE_T_MAX__
 };
 
+struct ipv6_main {
+
+};
+
+struct ipv6_interface {
+
+};
+
 struct ipv6_protocol {
 	const char 				*name;
 	struct protocol 			*protocol;

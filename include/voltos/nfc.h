@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_nfc {
-
+	__voltos_sa_family_t snfc_family;
 };
 
 #endif /* _VOLTOS_NFC_H */

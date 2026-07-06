@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_apollo {
-
+	__voltos_sa_family_t sapollo_family;
 };
 
 #endif /* _VOLTOS_APOLLO_H */

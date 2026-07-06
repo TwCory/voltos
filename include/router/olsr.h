@@ -21,4 +21,16 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+struct olsr_main {
+
+};
+
+struct olsr_interface {
+
+};
+
+struct olsr_route {
+
+};
+
 #endif /* _ROUTER_OLSR_H */

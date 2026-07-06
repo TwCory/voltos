@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_can {
-
+	__voltos_sa_family_t scan_family;
 };
 
 #endif /* _VOLTOS_CAN_H */

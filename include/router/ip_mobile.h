@@ -3,4 +3,16 @@
 
 #include <router/ip.h>
 
+struct mip_main {
+
+};
+
+struct mip_interface {
+
+};
+
+struct mip_route {
+
+};
+
 #endif /* _ROUTER_IP_MOBILE_H */

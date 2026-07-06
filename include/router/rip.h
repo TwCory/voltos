@@ -15,4 +15,23 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define RIP_ROUTE_DISTANCE		120
+#define RIP_ROUTE_CODE			"R"
+
+struct rip_main {
+
+};
+
+struct rip_interface {
+
+};
+
+struct rip_route {
+
+};
+
+struct rip_offset_list {
+
+};
+
 #endif /* _ROUTER_RIP_H */

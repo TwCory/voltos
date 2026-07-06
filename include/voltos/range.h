@@ -1,8 +1,8 @@
 #ifndef _VOLTOS_RANGE_H
 #define _VOLTOS_RANGE_H
 
-struct range {
+typedef struct range_s {
 
-};
+} range_t;
 
 #endif /* _VOLTOS_RANGE_H */

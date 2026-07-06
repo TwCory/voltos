@@ -5,4 +5,16 @@
 #include <voltos/mbuf.h>
 #include <voltos/types.h>
 
+struct aodv_main {
+
+};
+
+struct aodv_interface {
+
+};
+
+struct aodv_route {
+
+};
+
 #endif /* _ROUTER_AODV_H */

@@ -8,4 +8,16 @@
 #include <router/ip.h>
 #include <router/ipv6.h>
 
+struct hsrp_main {
+
+};
+
+struct hsrp_interface {
+
+};
+
+struct hsrp_group {
+
+};
+
 #endif /* _ROUTER_HSRP_H */

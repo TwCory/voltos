@@ -20,4 +20,16 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+struct hsls_main {
+
+};
+
+struct hsls_interface {
+
+};
+
+struct hsls_route {
+
+};
+
 #endif /* _ROUTER_HSLS_H */

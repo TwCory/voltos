@@ -8,4 +8,12 @@
 #include <router/ip.h>
 #include <router/mroute.h>
 
+struct pim_main {
+
+};
+
+struct pim_interface {
+
+};
+
 #endif /* _ROUTER_PIM_H */

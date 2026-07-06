@@ -9,4 +9,8 @@ struct vrf {
 
 };
 
+struct vrf_interface {
+
+};
+
 #endif /* _ROUTER_VRF_H */

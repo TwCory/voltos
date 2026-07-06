@@ -4,8 +4,12 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
-struct sockaddr_osi {
+struct osi_addr {
 
+};
+
+struct sockaddr_osi {
+	__voltos_sa_family_t sosi_family;
 };
 
 #endif /* _VOLTOS_OSI_H */

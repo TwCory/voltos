@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_netrom {
-
+	__voltos_sa_family_t snetrom_family;
 };
 
 #endif /* _VOLTOS_NETROM_H */

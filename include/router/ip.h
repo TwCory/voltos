@@ -30,6 +30,14 @@ enum ip_protocol_type {
 	__IP_PROTOCOL_TYPE_T_MAX__
 };
 
+struct ip_main {
+
+};
+
+struct ip_interface {
+
+};
+
 struct ip_protocol {
 	const char 				*name;
 	struct protocol 			*protocol;

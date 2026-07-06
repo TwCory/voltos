@@ -12,4 +12,16 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+struct mip6_main {
+
+};
+
+struct mip6_interface {
+
+};
+
+struct mip6_route {
+
+};
+
 #endif /* _ROUTER_IPV6_MOBILE_H */

@@ -26,4 +26,34 @@
 #include <router/spf_backoff.h>
 #include <router/vrf.h>
 
+#define ISIS_DISTANCE		115
+
+struct isis_main {
+
+};
+
+struct isis_interface {
+
+};
+
+struct isis_route {
+
+};
+
+struct isis_summary_route {
+
+};
+
+struct isis_level1_route {
+
+};
+
+struct isis_level2_route {
+
+};
+
+struct isis_inter_area_route {
+
+};
+
 #endif /* _ROUTER_ISIS_H */

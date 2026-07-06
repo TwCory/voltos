@@ -1,7 +1,7 @@
 #ifndef _VOLTOS_SOCKPTR_H
 #define _VOLTOS_SOCKPTR_H
 
-typedef struct {
+typedef struct sockptr_s {
 
 } sockptr_t;
 

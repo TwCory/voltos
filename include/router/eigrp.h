@@ -21,4 +21,27 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define EIGRP_ROUTE_CODE				"D"
+#define EIGRP_EXTERNAL_ROUTE_CODE			"EX"
+
+#define EIGRP_ROUTE_DISTANCE				90
+#define EIGRP_EXTERNAL_ROUTE_DISTANCE			170
+#define EIGRP_SUMMARY_ROUTE_DISTANCE			5
+
+struct eigrp_main {
+
+};
+
+struct eigrp_interface {
+
+};
+
+struct eigrp_route {
+
+};
+
+struct eigrp_external_route {
+
+};
+
 #endif /* _ROUTER_EIGRP_H */

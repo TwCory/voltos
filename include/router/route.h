@@ -1,7 +1,7 @@
 #ifndef _ROUTER_ROUTE_H
 #define _ROUTER_ROUTE_H
 
-struct route {
+struct route_entry {
 
 };
 

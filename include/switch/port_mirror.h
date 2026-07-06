@@ -1,0 +1,4 @@
+#ifndef _SWITCH_PORT_MIRROR_H
+#define _SWITCH_PORT_MIRROR_H
+
+#endif /* _SWITCH_PORT_MIRROR_H */

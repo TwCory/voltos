@@ -8,4 +8,12 @@
 #include <router/ip.h>
 #include <router/mroute.h>
 
+struct dvmrp_main {
+
+};
+
+struct dvmrp_interface {
+
+};
+
 #endif /* _ROUTER_DVMRP_H */

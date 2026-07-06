@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_xdp {
-
+	__voltos_sa_family_t sxdp_family;
 };
 
 #endif /* _VOLTOS_IF_XDP_H */

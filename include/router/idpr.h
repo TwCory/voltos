@@ -6,4 +6,12 @@
 #include <voltos/mbuf.h>
 #include <voltos/types.h>
 
+struct idpr_main {
+
+};
+
+struct idpr_interface {
+
+};
+
 #endif /* _ROUTER_IDPR_H */

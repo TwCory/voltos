@@ -5,6 +5,10 @@
 #include <voltos/types.h>
 
 struct sockaddr_mctp {
+	__voltos_sa_family_t smctp_family;
+};
+
+struct mctp_hdr {
 
 };
 

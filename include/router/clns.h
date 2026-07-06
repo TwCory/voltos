@@ -15,6 +15,14 @@ enum clns_protocol_type {
 	__CLNS_PROTOCOL_TYPE_T_MAX__
 };
 
+struct clns_main {
+
+};
+
+struct clns_interface {
+
+};
+
 struct clns_protocol {
 	const char 				*name;
 	struct protocol 			*protocol;

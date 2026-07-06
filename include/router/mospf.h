@@ -9,4 +9,12 @@
 #include <router/ip.h>
 #include <router/mroute.h>
 
+struct mospf_main {
+
+};
+
+struct mospf_interface {
+
+};
+
 #endif /* _ROUTER_MOSPF_H */

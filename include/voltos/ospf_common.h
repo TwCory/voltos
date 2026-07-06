@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_OSPF_COMMON_H
+#define _VOLTOS_OSPF_COMMON_H
+
+#define OSPF_PROTOCOL		89
+
+#endif /* _VOLTOS_OSPF_COMMON_H */

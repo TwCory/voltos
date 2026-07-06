@@ -9,7 +9,7 @@ struct mpls_shim_hdr {
 };
 
 struct sockaddr_mpls {
-
+	__voltos_sa_family_t smpls_family;
 };
 
 #endif /* _VOLTOS_MPLS_H */

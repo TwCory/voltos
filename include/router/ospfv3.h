@@ -22,4 +22,23 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define OSPFV3_ROUTE_CODE		"O"
+#define OSPFV3_ROUTE_DISTANCE		110
+
+struct ospfv3_main {
+
+};
+
+struct ospfv3_interface {
+
+};
+
+struct ospfv3_area {
+
+};
+
+struct ospfv3_route {
+
+};
+
 #endif /* _ROUTER_OSPFV3_H */

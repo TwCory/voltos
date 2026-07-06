@@ -6,4 +6,12 @@
 #include <voltos/mbuf.h>
 #include <voltos/types.h>
 
+struct rsvp_main {
+
+};
+
+struct rsvp_interface {
+
+};
+
 #endif /* _ROUTER_RSVP_H */

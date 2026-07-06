@@ -5,7 +5,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_atmpvc {
-
+	__voltos_sa_family_t satmpvc_family;
 };
 
 #endif /* _VOLTOS_ATMPVC_H */

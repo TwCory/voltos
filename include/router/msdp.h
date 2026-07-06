@@ -10,4 +10,12 @@
 #include <router/ipv6.h>
 #include <router/mroute.h>
 
+struct msdp_main {
+
+};
+
+struct msdp_interface {
+
+};
+
 #endif /* _ROUTER_MSDP_H */
