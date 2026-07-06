@@ -1,4 +1,6 @@
 #ifndef _VOLTOS_YANG_TYPES_H
 #define _VOLTOS_YANG_TYPES_H
 
+
+
 #endif /* _VOLTOS_YANG_TYPES_H */
