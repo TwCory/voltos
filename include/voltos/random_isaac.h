@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RANDOM_ISAAC_H
+#define _VOLTOS_RANDOM_ISAAC_H
+
+#endif /* _VOLTOS_RANDOM_ISAAC_H */

@@ -17,6 +17,8 @@
 #include <router/mpls.h>
 #include <router/route.h>
 
+#define OPENFABRIC_ROUTE_CODE			"f"
+
 #define OPENFABRIC_ROUTE_DISTANCE		115
 
 struct openfabric_main {

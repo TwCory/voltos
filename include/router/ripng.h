@@ -14,8 +14,8 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
-#define RIPNG_ROUTE_DISTANCE		120
 #define RIPNG_ROUTE_CODE		"R"
+#define RIPNG_ROUTE_DISTANCE		120
 
 struct ripng_main {
 

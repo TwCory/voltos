@@ -3,6 +3,8 @@
 
 #include <router/ip.h>
 
+#define MIP_ROUTE_CODE		"M"
+
 struct mip_main {
 
 };

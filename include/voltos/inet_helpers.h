@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_INET_HELPERS_H
+#define _VOLTOS_INET_HELPERS_H
+
+#endif /* _VOLTOS_INET_HELPERS_H */

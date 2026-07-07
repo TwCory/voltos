@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_IEEE8021X_H
+#define _VOLTOS_IEEE8021X_H
+
+#define DOT1X_ETHERTYPE		0x888E
+
+#endif /* _VOLTOS_IEEE8021X_H */

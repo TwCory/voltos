@@ -18,6 +18,8 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define DSR_ROUTE_CODE		"d"
+
 struct dsr_main {
 
 };

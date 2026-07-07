@@ -3,7 +3,7 @@
 
 #include <voltos/device.h>
 
-struct gpu {
+struct gpu_device {
 
 };
 

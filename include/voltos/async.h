@@ -6,4 +6,12 @@
 #include <voltos/numa.h>
 #include <voltos/types.h>
 
+#ifndef __async
+#define __async
+#endif /* __async */
+
+struct async_namespace {
+
+};
+
 #endif /* _VOLTOS_ASYNC_H */

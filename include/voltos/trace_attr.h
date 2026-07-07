@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_TRACE_ATTR_H
+#define _VOLTOS_TRACE_ATTR_H
+
+#endif /* _VOLTOS_TRACE_ATTR_H */

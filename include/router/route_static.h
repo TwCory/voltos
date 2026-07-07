@@ -1,8 +1,11 @@
 #ifndef _ROUTER_ROUTE_STATIC_H
 #define _ROUTER_ROUTE_STATIC_H
 
-#define STATIC_ROUTE_DISTANCE		1
-#define STATIC_ROUTE_CODE		"S"
+#define STATIC_ROUTE_CODE				"S"
+#define PER_USER_STATIC_ROUTE_CODE			"U"
+#define PERIODIC_DOWNLOAD_STATIC_ROUTE_CODE		"P"
+
+#define STATIC_ROUTE_DISTANCE				1
 
 struct static_route {
 

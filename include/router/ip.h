@@ -1,6 +1,7 @@
 #ifndef _ROUTER_IP_H
 #define _ROUTER_IP_H
 
+#include <voltos/inet.h>
 #include <voltos/types.h>
 #include <router/protocol.h>
 

@@ -15,8 +15,8 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
-#define RIP_ROUTE_DISTANCE		120
 #define RIP_ROUTE_CODE			"R"
+#define RIP_ROUTE_DISTANCE		120
 
 struct rip_main {
 

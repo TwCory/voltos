@@ -18,8 +18,10 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
-#define BABEL_ROUTE_DISTANCE			100
 #define BABEL_ROUTE_CODE			"A"
+#define BABEL_ROUTE_HELP			"A - Babel\n"
+
+#define BABEL_ROUTE_DISTANCE			100
 
 struct babel_main {
 

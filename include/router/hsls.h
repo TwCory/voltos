@@ -20,6 +20,8 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define HSLS_ROUTE_CODE		"h"
+
 struct hsls_main {
 
 };

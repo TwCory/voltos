@@ -21,6 +21,8 @@
 #include <router/route.h>
 #include <router/vrf.h>
 
+#define OLSR_ROUTE_CODE		"o"
+
 struct olsr_main {
 
 };

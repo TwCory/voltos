@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SEQ_FILE_NET_H
+#define _VOLTOS_SEQ_FILE_NET_H
+
+#endif /* _VOLTOS_SEQ_FILE_NET_H */
