@@ -16,10 +16,14 @@ enum clns_protocol_type {
 };
 
 struct clns_main {
-
+	bool 					routing;
 };
 
 struct clns_interface {
+	bool 					enable;
+};
+
+struct clns_host {
 
 };
 

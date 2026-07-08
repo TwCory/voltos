@@ -5,4 +5,8 @@
 #include <voltos/compiler.h>
 #include <voltos/types.h>
 
+#ifndef __init
+#define __init
+#endif /* __init */
+
 #endif /* _VOLTOS_INIT_H */

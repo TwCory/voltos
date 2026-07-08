@@ -32,7 +32,12 @@ enum ip_protocol_type {
 };
 
 struct ip_main {
-
+	bool host_routing;
+	bool hostname_strict;
+	bool multicast_routing;
+	bool routing;
+	bool source_route;
+	bool subnet_zero;
 };
 
 struct ip_interface {
