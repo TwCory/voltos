@@ -1,6 +1,5 @@
 module Coralt-VoltOS-ripng {
-
-    grouping ipv6-router-rip-grouping;
-
-    grouping interface-ipv6-rip-grouping;
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-ripng;
 }

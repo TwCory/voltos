@@ -1,0 +1,27 @@
+#ifndef _NBAPI_VOLTOS_ARP_H
+#define _NBAPI_VOLTOS_ARP_H
+
+enum arp_mode {
+	ARP_MODE_T_NULL			= 0,
+	ARP_MODE_T_DYNAMIC		= 1,
+	ARP_MODE_T_INCOMPLETE		= 2,
+	ARP_MODE_T_INTERFACE		= 3,
+	ARP_MODE_T_STATIC		= 4,
+	ARP_MODE_T_ALIAS		= 5,
+	ARP_MODE_T_APP_SIMPLE		= 6,
+	ARP_MODE_T_APP_ALIAS		= 7,
+	ARP_MODE_T_APP_TIMER		= 8,
+	__ARP_MODE_T_MAX__
+};
+
+enum arp_type {
+	ARP_TYPE_T_ARPA			= 1,
+	ARP_TYPE_T_SAP			= 2,
+	ARP_TYPE_T_SMDS			= 3,
+	ARP_TYPE_T_SNAP			= 4,
+	ARP_TYPE_T_SRP_A		= 5,
+	ARP_TYPE_T_SRP_B		= 6,
+	__ARP_TYPE_T_MAX__
+};
+
+#endif /* _NBAPI_VOLTOS_ARP_H */

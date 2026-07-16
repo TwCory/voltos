@@ -1,0 +1,5 @@
+module Coralt-VoltOS-aaa-deviation {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-aaa-deviation;
+}

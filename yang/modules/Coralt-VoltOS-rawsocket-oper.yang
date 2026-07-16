@@ -1,0 +1,27 @@
+module Coralt-VoltOS-rawsocket-oper {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-rawsocket-oper;
+
+    typedef raw-socket-mode {
+        type enumeration {
+            enum server {
+                value 1;
+            }
+            enum client {
+                value 2;
+            }
+        }
+    }
+
+    typedef raw-socket-state {
+        type enumeration {
+            enum down {
+                value 0;
+            }
+            enum up {
+                value 1;
+            }
+        }
+    }
+}

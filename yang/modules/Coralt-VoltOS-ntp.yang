@@ -1,5 +1,5 @@
 module Coralt-VoltOS-ntp {
-
-    grouping config-ntp-grouping;
-    grouping interface-ntp-grouping;
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-ntp;
 }

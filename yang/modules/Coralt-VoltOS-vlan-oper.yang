@@ -1,0 +1,41 @@
+module Coralt-VoltOS-vlan-oper {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-vlan-oper;
+
+    typedef vlan-state-type {
+        type enumeration {
+            enum active {
+                value 1;
+            }
+            enum suspended {
+                value 2;
+            }
+        }
+    }
+
+    typedef vlan-media-type {
+        type enumeration {
+            enum unknown {
+                value 0;
+            }
+            enum ethernet {
+                value 1;
+            }
+            enum fddi {
+                value 2;
+            }
+            enum fddi-net {
+                value 3;
+            }
+            enum token-ring {
+                value 4;
+            }
+            enum tr-net {
+                value 5;
+            }
+
+        }
+    }
+
+}

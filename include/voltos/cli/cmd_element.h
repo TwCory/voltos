@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CLI_CMD_ELEMENT_H
+#define _VOLTOS_CLI_CMD_ELEMENT_H
+
+#endif /* _VOLTOS_CLI_CMD_ELEMENT_H */

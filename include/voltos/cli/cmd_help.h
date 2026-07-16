@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CLI_CMD_HELP_H
+#define _VOLTOS_CLI_CMD_HELP_H
+
+#endif /* _VOLTOS_CLI_CMD_HELP_H */

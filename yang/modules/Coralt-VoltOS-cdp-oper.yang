@@ -1,0 +1,39 @@
+module Coralt-VoltOS-cdp-oper {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-cdp-oper;
+
+    typedef cdp-duplex-mode {
+        type enumeration {
+            enum unknown {
+                value 0;
+            }
+            enum half-duplex {
+                value 1;
+            }
+            enum full-duplex {
+                value 2;
+            }
+            enum half-duplex-mismatch {
+                value 3;
+            }
+            enum full-duplex-mismatch {
+                value 4;
+            }
+        }
+    }
+
+    typedef cdp-advertise-version {
+        type enumeration {
+            enum none {
+                value 0;
+            }
+            enum cdp-v1 {
+                value 1;
+            }
+            enum cdp-v2 {
+                value 2;
+            }
+        }
+    }
+}

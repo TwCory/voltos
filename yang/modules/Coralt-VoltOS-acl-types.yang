@@ -1,8 +1,12 @@
 module Coralt-VoltOS-acl-types {
-    
-    typedef acl-number-type {
-        type uint16 {
-            range "1..2699";
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-acl-types;
+
+    typedef acl-type {
+        type enumeration {
+            enum ipv4-extended;
+            enum ipv4-standard;
         }
     }
 }

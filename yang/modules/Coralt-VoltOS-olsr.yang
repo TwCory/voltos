@@ -1,6 +1,5 @@
 module Coralt-VoltOS-olsr {
-
-    grouping router-olsr-grouping {
-        container address-family;
-    }
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-olsr;
 }

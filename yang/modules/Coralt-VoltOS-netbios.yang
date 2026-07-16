@@ -1,7 +1,5 @@
 module Coralt-VoltOS-netbios {
-
-    grouping config-netbios-grouping;
-
-    grouping interface-netbios-grouping;
-
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-netbios;
 }

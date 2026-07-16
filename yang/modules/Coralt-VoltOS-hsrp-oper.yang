@@ -1,0 +1,34 @@
+module Coralt-VoltOS-hsrp-oper {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-hsrp-oper;
+
+    typedef hsrp-state-type {
+        type enumeration {
+            enum invalid {
+                value 0;
+            }
+            enum disabled {
+                value 1;
+            }
+            enum init {
+                value 2;
+            }
+            enum learn {
+                value 3;
+            }
+            enum listen {
+                value 4;
+            }
+            enum speak {
+                value 5;
+            }
+            enum standby {
+                value 6;
+            }
+            enum active {
+                value 7;
+            }
+        }
+    }
+}

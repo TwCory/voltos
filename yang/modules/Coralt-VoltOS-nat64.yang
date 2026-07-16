@@ -1,19 +1,5 @@
 module Coralt-VoltOS-nat64 {
-
-    grouping config-nat64-grouping {
-        leaf logging;
-        leaf map-t;
-        leaf prefix;
-        leaf route;
-        leaf service;
-        leaf settings;
-        leaf translation;
-        leaf v4;
-        leaf v4v6;
-        leaf v6v4;
-    }
-
-    grouping interface-nat64-grouping {
-        leaf enable;
-    }
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-nat64;
 }

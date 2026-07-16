@@ -1,0 +1,5 @@
+module Coralt-VoltOS-cable-modem {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-cable-modem;
+}

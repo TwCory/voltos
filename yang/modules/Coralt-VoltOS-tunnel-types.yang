@@ -3,7 +3,7 @@ module Coralt-VoltOS-tunnel-types {
 
     typedef tunnel-mode-type {
         type enumeration {
-            enum 6o4;
+            enum 6over4;
             enum 6rd;
             enum 6to4;
             enum ayiya;

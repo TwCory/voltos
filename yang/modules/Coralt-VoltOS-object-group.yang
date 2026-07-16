@@ -1,4 +1,5 @@
 module Coralt-VoltOS-object-group {
-
-    grouping config-object-group-grouping;
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-object-group;
 }

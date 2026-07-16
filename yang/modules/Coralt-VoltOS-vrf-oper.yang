@@ -1,0 +1,22 @@
+module Coralt-VoltOS-vrf-oper {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-vrf-oper;
+
+    typedef vrf-address-family {
+        type enumeration {
+            enum ipv4-unicast {
+                value 1;
+            }
+            enum ipv6-unicast {
+                value 2;
+            }
+            enum ipv4-multicast {
+                value 3;
+            }
+            enum ipv6-multicast {
+                value 4;
+            }
+        }
+    }
+}

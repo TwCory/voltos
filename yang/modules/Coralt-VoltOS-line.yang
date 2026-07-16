@@ -1,10 +1,5 @@
 module Coralt-VoltOS-line {
-
-    grouping config-line-grouping {
-        leaf async;
-        leaf aux;
-        leaf console;
-        leaf tty;
-        leaf vty;
-    }
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-line;
 }

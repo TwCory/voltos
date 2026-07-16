@@ -1,7 +1,5 @@
 module Coralt-VoltOS-lldp {
-
-    grouping config-lldp-grouping {
-        leaf run;
-    }
-    grouping interface-lldp-grouping;
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-lldp;
 }

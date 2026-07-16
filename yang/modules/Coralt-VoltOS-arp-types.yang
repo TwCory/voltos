@@ -1,3 +1,60 @@
 module Coralt-VoltOS-arp-types {
-    
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-arp-types;
+
+    typedef arp-entry-type {
+        type enumeration {
+            enum ARPA {
+                value 1;
+            }
+            enum SAP {
+                value 2;
+            }
+            enum SMDS {
+                value 3;
+            }
+            enum SNAP {
+                value 4;
+            }
+            enum SRP-A {
+                value 5;
+            }
+            enum SRP-B {
+                value 6;
+            }
+        }
+    }
+
+    typedef arp-mode-type {
+        type enumeration {
+            enum null {
+                value 0;
+            }
+            enum dynamic {
+                value 1;
+            }
+            enum incomplete {
+                value 2;
+            }
+            enum interface {
+                value 3;
+            }
+            enum static {
+                value 4;
+            }
+            enum alias {
+                value 5;
+            }
+            enum app-simple {
+                value 6;
+            }
+            enum app-alias {
+                value 7;
+            }
+            enum app-timer {
+                value 8;
+            }
+        }
+    }
 }

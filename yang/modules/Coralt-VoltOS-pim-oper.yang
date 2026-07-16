@@ -1,0 +1,33 @@
+module Coralt-VoltOS-pim-oper {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-pim-oper;
+
+    typedef pim-address-family {
+        type enumeration {
+            enum ipv4-multicast {
+                value 1;
+            }
+            enum ipv6-multicast {
+                value 2;
+            }
+        }
+    }
+
+    typedef pim-mode-type {
+        type enumeration {
+            enum dense {
+                value 1;
+            }
+            enum sparse {
+                value 2;
+            }
+            enum sparse-dense {
+                value 3;
+            }
+            enum passive {
+                value 4;
+            }
+        }
+    }
+}

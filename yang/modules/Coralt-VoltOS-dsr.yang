@@ -1,7 +1,5 @@
 module Coralt-VoltOS-dsr {
-
-    grouping router-dsr-grouping {
-        
-    }
-
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-dsr;
 }

@@ -1,3 +1,5 @@
 module Coralt-VoltOS-dhcpv6 {
-
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-dhcpv6;
 }

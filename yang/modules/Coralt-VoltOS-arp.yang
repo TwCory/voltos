@@ -1,10 +1,58 @@
 module Coralt-VoltOS-arp {
-    
-    grouping config-arp-grouping;
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-arp;
 
-    grouping interface-arp-grouping {
-        leaf arpa;
-        leaf frame-relay;
-        leaf snap;
+    import ietf-inet-type {
+        prefix inet;
+    }
+
+    import Coralt-VoltOS-arp-types {
+        prefix voltos-arp-types;
+    }
+
+    grouping arp-entry-grouping {
+        list arp-entry {
+            description
+                "Configure an ARP Entry";
+            key "ip-address";
+            leaf ip-address {
+                description
+                    "IP Address for ARP Entry";
+                type inet:ipv4-address;
+            }
+            leaf hardware-address {
+                description
+                    "48-Bit Hardware Address for ARP Entry";
+                type string;
+            }
+            leaf entry-type {
+                description
+                    "ARP Entry Type";
+                type voltos-arp-types:arp-entry-type;
+            }
+            leaf alias {
+                description
+                    "Respond to ARP Requests for the IP Address";
+                type empty;
+            }
+        }
+    }
+
+    grouping config-arp-grouping {
+        description
+            "Set a Static ARP Cache Entry";
+        uses arp-entry-grouping;
+        list vrf {
+            description
+                "Set a Static ARP Cache Entry for a VPN Routing/Forwarding Instance";
+            key "vrf-name";
+            leaf vrf-name {
+                description
+                    "VPN Routing/Forwarding Instance Name";
+                type string;
+            }
+            uses arp-entry-grouping;
+        }
     }
 }

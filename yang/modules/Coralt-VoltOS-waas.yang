@@ -1,0 +1,5 @@
+module Coralt-VoltOS-waas {
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-waas;
+}

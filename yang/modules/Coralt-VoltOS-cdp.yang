@@ -1,8 +1,5 @@
 module Coralt-VoltOS-cdp {
-
-    grouping config-cdp-grouping {
-        leaf advertise-v2;
-        leaf run;
-    }
-    grouping interface-cdp-grouping;
+    yang-version 1.1;
+    namespace "";
+    prefix voltos-cdp;
 }
