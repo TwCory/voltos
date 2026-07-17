@@ -24,4 +24,8 @@ enum arp_type {
 	__ARP_TYPE_T_MAX__
 };
 
+struct arp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_ARP_H */
