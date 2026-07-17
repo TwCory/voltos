@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_IF_LTE450_H
+#define _NBAPI_VOLTOS_IF_LTE450_H
+
+#endif /* _NBAPI_VOLTOS_IF_LTE450_H */

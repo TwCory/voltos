@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_L3VPN_H
+#define _NBAPI_VOLTOS_L3VPN_H
+
+#endif /* _NBAPI_VOLTOS_L3VPN_H */

@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_IF_HSSI_H
+#define _NBAPI_VOLTOS_IF_HSSI_H
+
+#endif /* _NBAPI_VOLTOS_IF_HSSI_H */

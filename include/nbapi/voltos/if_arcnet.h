@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_IF_ARCNET_H
+#define _NBAPI_VOLTOS_IF_ARCNET_H
+
+#endif /* _NBAPI_VOLTOS_IF_ARCNET_H */
