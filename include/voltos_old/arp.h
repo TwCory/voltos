@@ -1,12 +1,7 @@
 // Address Resolution Protocol
 
-#ifndef _VOLTOS_ARP_H
-#define _VOLTOS_ARP_H
+#ifndef _VOLTOS_X_H
+#define _VOLTOS_X_H
 
-#define ARP_ETHERTYPE		0x0806
 
-struct arp_hdr {
-
-};
-
-#endif /* _VOLTOS_ARP_H */
+#endif /* _VOLTOS_X_H */
