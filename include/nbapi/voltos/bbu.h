@@ -1,0 +1,12 @@
+#ifndef _NBAPI_VOLTOS_BBU_H
+#define _NBAPI_VOLTOS_BBU_H
+
+enum bbu_type {
+	BBU_TYPE_T_UNSPEC			= 0,
+	BBU_TYPE_T_LEAD_ACID			= 1,
+	BBU_TYPE_T_LITHIUM_ION			= 2,
+	BBU_TYPE_T_LITHIUM_POLYMER		= 3,
+	__BBU_TYPE_T_MAX__
+};
+
+#endif /* _NBAPI_VOLTOS_BBU_H */

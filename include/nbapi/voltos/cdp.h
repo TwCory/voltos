@@ -1,0 +1,12 @@
+#ifndef _NBAPI_VOLTOS_CDP_H
+#define _NBAPI_VOLTOS_CDP_H
+
+enum cdp_duplex {
+	CDP_DUPLEX_T_HALF		= 1,
+	CDP_DUPLEX_T_FULL		= 2,
+	CDP_DUPLEX_T_HALF_MISMATCH	= 3,
+	CDP_DUPLEX_T_FULL_MISMATCH	= 4,
+	__CDP_DUPLEX_T_MAX__
+};
+
+#endif /* _NBAPI_VOLTOS_CDP_H */

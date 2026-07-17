@@ -1,0 +1,11 @@
+#ifndef _NBAPI_VOLTOS_DNS_H
+#define _NBAPI_VOLTOS_DNS_H
+
+enum dns_source_type {
+	DNS_SOURCE_TYPE_T_NONE			= 0,
+	DNS_SOURCE_TYPE_T_STATIC		= 1,
+	DNS_SOURCE_TYPE_T_DHCP			= 2,
+	__DNS_SOURCE_TYPE_T_MAX__
+};
+
+#endif /* _NBAPI_VOLTOS_DNS_H */
