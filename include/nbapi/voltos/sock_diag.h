@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_SOCK_DIAG_H
+#define _NBAPI_VOLTOS_SOCK_DIAG_H
+
+#endif /* _NBAPI_VOLTOS_SOCK_DIAG_H */

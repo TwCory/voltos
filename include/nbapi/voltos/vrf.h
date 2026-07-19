@@ -3,6 +3,9 @@
 
 #include <voltos/types.h>
 
+#define VRF_NAME_SIZE				64
+#define VRF_LIST_NAME_SIZE			64
+
 typedef __u32 					__voltos_vrf_id_t;
 
 enum vrf_afi {

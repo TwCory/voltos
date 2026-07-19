@@ -25,4 +25,8 @@ struct vxlan_vni {
 	__byte 						bytes[VXLAN_VNI_BYTE_SIZE];
 };
 
+struct vxlan_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_VXLAN_H */

@@ -1,0 +1,4 @@
+#ifndef _OPENVPN_AUTH_TOKEN_H
+#define _OPENVPN_AUTH_TOKEN_H
+
+#endif /* _OPENVPN_AUTH_TOKEN_H */

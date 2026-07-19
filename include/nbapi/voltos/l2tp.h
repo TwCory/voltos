@@ -19,4 +19,8 @@ enum l2tp_tunnel_state {
 	__L2TP_TUNNEL_STATE_T_MAX__
 };
 
+struct l2tp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_L2TP_H */

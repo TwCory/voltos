@@ -4,6 +4,7 @@
 #include <voltos/types.h>
 
 typedef __u32 					__voltos_if_index_t;
+typedef __u16 					__voltos_if_flags_t;
 
 enum if_state {
 	IF_STATE_T_UNKNOWN			= 0,

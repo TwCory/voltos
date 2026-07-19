@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /* Address Resolution Protocol */
-#ifndef _NBAPI_VOLTOS_ARP_H
-#define _NBAPI_VOLTOS_ARP_H
+#ifndef _NBAPI_VOLTOS_IF_ARP_H
+#define _NBAPI_VOLTOS_IF_ARP_H
 
 #include <voltos/types.h>
 
@@ -32,7 +32,15 @@ enum arp_type {
 };
 
 struct arp_hdr {
-
+	__net16 			htype;
+	__net16 			ptype;
+	__u8 				hlen;
+	__u8 				plen;
+	__net16 			op;
+	unsigned char 			*sha;
+	unsigned char 			*spa;
+	unsigned char 			*tha;
+	unsigned char 			*tpa;
 };
 
-#endif /* _NBAPI_VOLTOS_ARP_H */
+#endif /* _NBAPI_VOLTOS_IF_ARP_H */

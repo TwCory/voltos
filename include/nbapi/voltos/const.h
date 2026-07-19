@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_CONST_H
+#define _NBAPI_VOLTOS_CONST_H
+
+#endif /* _NBAPI_VOLTOS_CONST_H */

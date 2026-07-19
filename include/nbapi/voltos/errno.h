@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_ERRNO_H
+#define _NBAPI_VOLTOS_ERRNO_H
+
+#endif /* _NBAPI_VOLTOS_ERRNO_H */

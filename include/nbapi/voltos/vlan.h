@@ -3,6 +3,9 @@
 
 #include <voltos/types.h>
 
+#define VLAN_NAME_SIZE				32
+#define VLAN_GROUP_NAME_SIZE			32
+
 #define VLAN_ID_MIN				1
 #define VLAN_ID_MAX				4095
 

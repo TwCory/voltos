@@ -3,4 +3,8 @@
 
 #include <voltos/types.h>
 
+struct pptp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_PPTP_H */

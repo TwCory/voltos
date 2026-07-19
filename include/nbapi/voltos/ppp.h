@@ -13,4 +13,8 @@ enum ppp_auth_type {
 	__PPP_AUTH_TYPE_T_MAX__
 };
 
+struct ppp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_PPP_H */

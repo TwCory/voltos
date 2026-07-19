@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef _VOLTOS_STDDEF_H
+#define _VOLTOS_STDDEF_H
+
+#include <nbapi/voltos/stddef.h>
+
+#undef  NULL
+#define NULL							((void *)0)
+
+enum {
+	false 							= 0,
+	true 							= 1
+};
+
+#undef  offsetof
+#define offsetof(TYPE, MEMBER)					__builtin_offsetof(TYPE, MEMBER)
+
+#define sizeof_field(TYPE, MEMBER)				sizeof((((TYPE *)0)->MEMBER))
+
+#define offsetof_end(TYPE, MEMBER)				\
+	(offsetof(TYPE, MEMBER) + sizeof_field(TYPE, MEMBER))
+
+#define a_union(NAME, MEMBERS...)				\
+	__a_union(/* no tag */, NAME, /* no attrs */, MEMBERS)
+
+#define a_union_attr(NAME, ATTRS, MEMBERS...)			\
+	__a_union(/* no tag */, NAME, ATTRS, MEMBERS)
+
+#define a_union_tagged(TAG, NAME, MEMBERS...)			\
+	__a_union(TAG, NAME, /* no attrs */, MEMBERS)
+
+#define DECLARE_FLEX_ARRAY(TYPE, NAME)				\
+	__DECLARE_FLEX_ARRAY(TYPE, NAME)
+
+#endif /* _VOLTOS_STDDEF_H */
