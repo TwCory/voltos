@@ -54,4 +54,6 @@ typedef float 			f16;
 typedef float 			f32;
 typedef double 			f64;
 
+typedef signed char 		string_t;
+
 #endif /* _VOLTOS_TYPES_H */
