@@ -1,5 +1,12 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/* Address Resolution Protocol */
 #ifndef _NBAPI_VOLTOS_ARP_H
 #define _NBAPI_VOLTOS_ARP_H
+
+#include <voltos/types.h>
+
+#define ARP_ETHERTYPE			0x0806
 
 enum arp_mode {
 	ARP_MODE_T_NULL			= 0,

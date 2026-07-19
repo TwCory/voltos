@@ -1,6 +1,14 @@
 #ifndef _NBAPI_VOLTOS_HSRP_H
 #define _NBAPI_VOLTOS_HSRP_H
 
+#include <voltos/types.h>
+
+#define HSRP_IPV4_PORT			1985
+#define HSRP_IPV6_PORT			2029
+
+#define HSRP_V1				1
+#define HSRP_V2				2
+
 enum hsrp_state {
 	HSRP_STATE_T_INVALID		= 0,
 	HSRP_STATE_T_DISABLED		= 1,
@@ -11,6 +19,13 @@ enum hsrp_state {
 	HSRP_STATE_T_STANDBY		= 6,
 	HSRP_STATE_T_ACTIVE		= 7,
 	__HSRP_STATE_T_MAX__
+};
+
+enum hsrp_addr_type {
+	HSRP_ADDR_TYPE_T_UNSPEC		= 0,
+	HSRP_ADDR_TYPE_T_IPV4		= 1,
+	HSRP_ADDR_TYPE_T_IPV6		= 2,
+	__HSRP_ADDR_TYPE_T_MAX__
 };
 
 #endif /* _NBAPI_VOLTOS_HSRP_H */

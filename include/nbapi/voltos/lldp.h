@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_LLDP_H
 #define _NBAPI_VOLTOS_LLDP_H
 
+#include <voltos/types.h>
+
 enum lldp_mgmt_type {
 	LLDP_MGMT_TYPE_T_NONE		= 0,
 	LLDP_MGMT_TYPE_T_APPLETALK	= 1,

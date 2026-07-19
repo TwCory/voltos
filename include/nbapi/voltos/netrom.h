@@ -1,8 +1,11 @@
 #ifndef _NBAPI_VOLTOS_NETROM_H
 #define _NBAPI_VOLTOS_NETROM_H
 
-struct sockaddr_netrom {
+#include <voltos/socket.h>
+#include <voltos/types.h>
 
+struct sockaddr_netrom {
+	__voltos_sa_family_t snetrom_family;
 };
 
 #endif /* _NBAPI_VOLTOS_NETROM_H */

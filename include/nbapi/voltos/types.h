@@ -76,4 +76,11 @@ typedef __u32 __attribute__ ((bitwise)) 	__host32;
 typedef __u64 __attribute__ ((bitwise)) 	__host64;
 typedef __u128 __attribute__ ((bitwise)) 	__host128;
 
+typedef __u16 __attribute__ ((bitwise)) 	__csum16;
+typedef __u32 __attribute__ ((bitwise)) 	__csum32;
+
+typedef __u_char 				__byte;
+typedef __u_char 				__octet;
+typedef __u_short 				__hextet;
+
 #endif /* _NBAPI_VOLTOS_TYPES_H */

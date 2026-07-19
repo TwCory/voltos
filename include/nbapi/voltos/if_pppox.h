@@ -1,8 +1,11 @@
 #ifndef _NBAPI_VOLTOS_IF_PPPOX_H
 #define _NBAPI_VOLTOS_IF_PPPOX_H
 
-struct sockaddr_pppox {
+#include <voltos/socket.h>
+#include <voltos/types.h>
 
+struct sockaddr_pppox {
+	__voltos_sa_family_t spppox_family;
 };
 
 #endif /* _NBAPI_VOLTOS_IF_PPPOX_H */

@@ -1,4 +1,8 @@
 #ifndef _NBAPI_VOLTOS_WIREGUARD_H
 #define _NBAPI_VOLTOS_WIREGUARD_H
 
+#include <voltos/types.h>
+
+#define WIREGUARD_PORT		51820
+
 #endif /* _NBAPI_VOLTOS_WIREGUARD_H */

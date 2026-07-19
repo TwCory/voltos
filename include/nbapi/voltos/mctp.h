@@ -1,8 +1,11 @@
 #ifndef _NBAPI_VOLTOS_MCTP_H
 #define _NBAPI_VOLTOS_MCTP_H
 
-struct sockaddr_mctp {
+#include <voltos/socket.h>
+#include <voltos/types.h>
 
+struct sockaddr_mctp {
+	__voltos_sa_family_t smctp_family;
 };
 
 #endif /* _NBAPI_VOLTOS_MCTP_H */

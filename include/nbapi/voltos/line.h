@@ -1,6 +1,10 @@
 #ifndef _NBAPI_VOLTOS_LINE_H
 #define _NBAPI_VOLTOS_LINE_H
 
+#include <voltos/types.h>
+
+typedef __u16 				__voltos_line_id_t;
+
 enum line_type {
 	LINE_TYPE_T_UNSPEC		= 0,
 	LINE_TYPE_T_AUX			= 1,

@@ -1,6 +1,10 @@
 #ifndef _NBAPI_VOLTOS_IF_H
 #define _NBAPI_VOLTOS_IF_H
 
+#include <voltos/types.h>
+
+typedef __u32 					__voltos_if_index_t;
+
 enum if_state {
 	IF_STATE_T_UNKNOWN			= 0,
 	IF_STATE_T_UP				= 1,

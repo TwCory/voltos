@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_L2TP_H
 #define _NBAPI_VOLTOS_L2TP_H
 
+#include <voltos/types.h>
+
 enum l2tp_tunnel_state {
 	L2TP_TUNNEL_STATE_T_INIT			= 0,
 	L2TP_TUNNEL_STATE_T_IDLE			= 1,

@@ -1,7 +1,13 @@
 #ifndef _NBAPI_VOLTOS_BGP_H
 #define _NBAPI_VOLTOS_BGP_H
 
+#include <voltos/types.h>
+
+#define BGP_VERSION				4
+#define BGP_PORT				179
+
 enum bgp_afi {
+	BGP_AFI_T_UNSPEC			= 0,
 	BGP_AFI_T_IPV4_FLOWSPEC			= 1,
 	BGP_AFI_T_IPV4_MDT			= 2,
 	BGP_AFI_T_IPV4_MULTICAST		= 3,

@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_PPP_MULTILINK_H
 #define _NBAPI_VOLTOS_PPP_MULTILINK_H
 
+#include <voltos/types.h>
+
 enum multilink_bundle_mode {
 	MULTILINK_BUNDLE_MODE_T_NONE			= 0,
 	MULTILINK_BUNDLE_MODE_T_DISTRIBUTED		= 1,

@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_IPV6_ND_H
+#define _NBAPI_VOLTOS_IPV6_ND_H
+
+#endif /* _NBAPI_VOLTOS_IPV6_ND_H */

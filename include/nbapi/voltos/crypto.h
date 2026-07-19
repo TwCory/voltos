@@ -1,6 +1,14 @@
 #ifndef _NBAPI_VOLTOS_CRYPTO_H
 #define _NBAPI_VOLTOS_CRYPTO_H
 
+#include <voltos/types.h>
+
+enum crypto_direction {
+	CRYPTO_DIRECTION_T_INGRESS	= 1,
+	CRYPTO_DIRECTION_T_EGRESS	= 2,
+	__CRYPTO_DIRECTION_T_MAX__
+};
+
 enum crypto_protocol {
 	CRYPTO_PROTOCOL_T_NONE		= 0,
 	CRYPTO_PROTOCOL_T_AH		= 1,

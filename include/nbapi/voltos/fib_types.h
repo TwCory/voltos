@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_FIB_TYPES_H
 #define _NBAPI_VOLTOS_FIB_TYPES_H
 
+#include <voltos/types.h>
+
 enum fib_path_type {
 	FIB_PATH_TYPE_T_UNKNOWN			= 0,
 	FIB_PATH_TYPE_T_RECEIVE			= 1,

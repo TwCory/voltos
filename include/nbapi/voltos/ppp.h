@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_PPP_H
 #define _NBAPI_VOLTOS_PPP_H
 
+#include <voltos/types.h>
+
 enum ppp_auth_type {
 	PPP_AUTH_TYPE_T_NONE		= 0,
 	PPP_AUTH_TYPE_T_CHAP		= 1,

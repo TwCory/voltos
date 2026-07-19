@@ -1,8 +1,11 @@
 #ifndef _NBAPI_VOLTOS_IRDA_H
 #define _NBAPI_VOLTOS_IRDA_H
 
-struct sockaddr_irda {
+#include <voltos/socket.h>
+#include <voltos/types.h>
 
+struct sockaddr_irda {
+	__voltos_sa_family_t sirda_family;
 };
 
 #endif /* _NBAPI_VOLTOS_IRDA_H */

@@ -1,8 +1,12 @@
 #ifndef _NBAPI_VOLTOS_EIGRP_H
 #define _NBAPI_VOLTOS_EIGRP_H
 
+#include <voltos/types.h>
+
+#define EIGRP_PROTOCOL					88
+
 enum eigrp_afi {
-	EIGRP_AFI_T_ILLEGAL				= 0,
+	EIGRP_AFI_T_UNSPEC				= 0,
 	EIGRP_AFI_T_IPV4_UNICAST			= 1,
 	EIGRP_AFI_T_IPV6_UNICAST			= 2,
 	EIGRP_AFI_T_SF_IPV4_UNICAST			= 3,

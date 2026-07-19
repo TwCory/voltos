@@ -1,6 +1,10 @@
 #ifndef _NBAPI_VOLTOS_IF_TUNNEL_H
 #define _NBAPI_VOLTOS_IF_TUNNEL_H
 
+#include <voltos/types.h>
+
+typedef __u32 __voltos_tunnel_key_t;
+
 enum tunnel_mode {
 	TUNNEL_MODE_T_AYIYA,
 	TUNNEL_MODE_T_GRE,

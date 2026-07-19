@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_ISIS_H
 #define _NBAPI_VOLTOS_ISIS_H
 
+#include <voltos/types.h>
+
 enum isis_adjacency_level {
 	ISIS_ADJACENCY_LEVEL_T_L1		= 1,
 	ISIS_ADJACENCY_LEVEL_T_L2		= 2,
