@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CONTAINER_H
+#define _VOLTOS_CONTAINER_H
+
+#endif /* _VOLTOS_CONTAINER_H */

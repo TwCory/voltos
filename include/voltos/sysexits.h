@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SYSEXITS_H
+#define _VOLTOS_SYSEXITS_H
+
+#endif /* _VOLTOS_SYSEXITS_H */

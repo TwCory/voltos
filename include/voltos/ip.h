@@ -34,4 +34,12 @@ struct ip_interface_conf {
 	bool 			unnumbered;
 };
 
+struct ip_host_conf {
+
+};
+
+struct ip_route_conf {
+
+};
+
 #endif /* _VOLTOS_IP_H */

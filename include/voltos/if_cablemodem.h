@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_IF_CABLEMODEM_H
+#define _VOLTOS_IF_CABLEMODEM_H
+
+#include <nbapi/voltos/if_cablemodem.h>
+
+#endif /* _VOLTOS_IF_CABLEMODEM_H */

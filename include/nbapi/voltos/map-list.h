@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_MAP_LIST_H
+#define _NBAPI_VOLTOS_MAP_LIST_H
+
+#endif /* _NBAPI_VOLTOS_MAP_LIST_H */

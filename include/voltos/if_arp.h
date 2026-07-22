@@ -1,0 +1,6 @@
+#ifndef _VOLTOS_IF_ARP_H
+#define _VOLTOS_IF_ARP_H
+
+#include <nbapi/voltos/if_arp.h>
+
+#endif /* _VOLTOS_IF_ARP_H */

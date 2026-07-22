@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_IP_MUX_H
+#define _NBAPI_VOLTOS_IP_MUX_H
+
+#endif /* _NBAPI_VOLTOS_IP_MUX_H */

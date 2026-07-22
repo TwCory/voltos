@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_KERBEROS_H
+#define _VOLTOS_KERBEROS_H
+
+#endif /* _VOLTOS_KERBEROS_H */

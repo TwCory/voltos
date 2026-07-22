@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_UCONTEXT_H
+#define _VOLTOS_UCONTEXT_H
+
+#endif /* _VOLTOS_UCONTEXT_H */

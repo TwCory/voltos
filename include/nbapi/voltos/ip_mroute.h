@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_IP_MROUTE_H
+#define _NBAPI_VOLTOS_IP_MROUTE_H
+
+#endif /* _NBAPI_VOLTOS_IP_MROUTE_H */

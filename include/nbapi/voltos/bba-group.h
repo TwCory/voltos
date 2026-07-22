@@ -1,0 +1,7 @@
+#ifndef _NBAPI_VOLTOS_BBA_GROUP_H
+#define _NBAPI_VOLTOS_BBA_GROUP_H
+
+#define BBA_GROUP_NAME_SIZE		32
+#define BBA_GROUP_NAME_GLOBAL		"global"
+
+#endif /* _NBAPI_VOLTOS_BBA_GROUP_H */

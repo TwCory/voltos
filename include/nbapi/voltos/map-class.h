@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_MAP_CLASS_H
+#define _NBAPI_VOLTOS_MAP_CLASS_H
+
+#endif /* _NBAPI_VOLTOS_MAP_CLASS_H */

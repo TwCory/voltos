@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_INTERRUPT_H
+#define _VOLTOS_INTERRUPT_H
+
+#endif /* _VOLTOS_INTERRUPT_H */
