@@ -1,4 +1,6 @@
-#ifndef _VOLTOS_ERR_H
-#define _VOLTOS_ERR_H
+#ifndef _VOLTOS_ERRNO_H
+#define _VOLTOS_ERRNO_H
 
-#endif /* _VOLTOS_ERR_H */
+#include <nbapi/voltos/errno.h>
+
+#endif /* _VOLTOS_ERRNO_H */
