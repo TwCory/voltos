@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_LIST_NULLS_H
+#define _VOLTOS_LIST_NULLS_H
+
+#endif /* _VOLTOS_LIST_NULLS_H */

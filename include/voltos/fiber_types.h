@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_FIBER_TYPES_H
+#define _VOLTOS_FIBER_TYPES_H
+
+#endif /* _VOLTOS_FIBER_TYPES_H */

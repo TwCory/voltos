@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_INIT_TASKS_H
+#define _VOLTOS_INIT_TASKS_H
+
+#endif /* _VOLTOS_INIT_TASKS_H */

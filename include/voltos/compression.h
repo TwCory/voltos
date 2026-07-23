@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_COMPRESSION_H
+#define _VOLTOS_COMPRESSION_H
+
+#endif /* _VOLTOS_COMPRESSION_H */

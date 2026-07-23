@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_NET_TIMESTAMP_H
+#define _VOLTOS_NET_TIMESTAMP_H
+
+#endif /* _VOLTOS_NET_TIMESTAMP_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_MEMOFFSET_H
+#define _VOLTOS_MEMOFFSET_H
+
+#endif /* _VOLTOS_MEMOFFSET_H */

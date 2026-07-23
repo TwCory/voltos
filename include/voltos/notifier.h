@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_NOTIFIER_H
+#define _VOLTOS_NOTIFIER_H
+
+#endif /* _VOLTOS_NOTIFIER_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CTLIST_TYPES_H
+#define _VOLTOS_CTLIST_TYPES_H
+
+#endif /* _VOLTOS_CTLIST_TYPES_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_HW_SPINLOCK_H
+#define _VOLTOS_HW_SPINLOCK_H
+
+#endif /* _VOLTOS_HW_SPINLOCK_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_NODEMASK_H
+#define _VOLTOS_NODEMASK_H
+
+#endif /* _VOLTOS_NODEMASK_H */

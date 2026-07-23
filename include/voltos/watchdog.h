@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_WATCHDOG_H
+#define _VOLTOS_WATCHDOG_H
+
+#endif /* _VOLTOS_WATCHDOG_H */

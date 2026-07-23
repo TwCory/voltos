@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_MUTEX_TYPES_H
+#define _VOLTOS_MUTEX_TYPES_H
+
+#endif /* _VOLTOS_MUTEX_TYPES_H */

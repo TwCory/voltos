@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_HYPERVISOR_H
+#define _VOLTOS_HYPERVISOR_H
+
+#endif /* _VOLTOS_HYPERVISOR_H */

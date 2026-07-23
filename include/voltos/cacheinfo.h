@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CACHEINFO_H
+#define _VOLTOS_CACHEINFO_H
+
+#endif /* _VOLTOS_CACHEINFO_H */

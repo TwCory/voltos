@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_COMPLETION_H
+#define _VOLTOS_COMPLETION_H
+
+#endif /* _VOLTOS_COMPLETION_H */

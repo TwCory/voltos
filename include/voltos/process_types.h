@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_PROCESS_TYPES_H
+#define _VOLTOS_PROCESS_TYPES_H
+
+#endif /* _VOLTOS_PROCESS_TYPES_H */

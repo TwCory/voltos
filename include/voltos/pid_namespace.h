@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_PID_NAMESPACE_H
+#define _VOLTOS_PID_NAMESPACE_H
+
+#endif /* _VOLTOS_PID_NAMESPACE_H */
