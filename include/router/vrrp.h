@@ -1,15 +1,9 @@
 #ifndef _ROUTER_VRRP_H
 #define _ROUTER_VRRP_H
 
+#include <voltos/types.h>
+#include <voltos/vrrp.h>
+#include <router/distance.h>
 #include <router/protocol.h>
-#include <nbapi/voltos/vrrp.h>
-
-struct vrrp_protocol {
-	struct protocol *protocol;
-};
-
-struct vrrp_interface {
-
-};
 
 #endif /* _ROUTER_VRRP_H */

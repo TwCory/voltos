@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/vrf.h>
 
+struct vrf_conf {
+
+};
+
 #endif /* _VOLTOS_VRF_H */

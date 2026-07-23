@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DEBUG_OBJECTS_H
+#define _VOLTOS_DEBUG_OBJECTS_H
+
+#endif /* _VOLTOS_DEBUG_OBJECTS_H */

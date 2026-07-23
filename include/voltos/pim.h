@@ -3,11 +3,19 @@
 
 #include <nbapi/voltos/pim.h>
 
-struct pim_global_conf {
+struct ip_pim_global_conf {
 
 };
 
-struct pim_interface_conf {
+struct ipv6_pim_global_conf {
+
+};
+
+struct ip_pim_interface_conf {
+
+};
+
+struct ipv6_pim_interface_conf {
 
 };
 

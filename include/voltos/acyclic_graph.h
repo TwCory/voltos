@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ACYCLIC_GRAPH_H
+#define _VOLTOS_ACYCLIC_GRAPH_H
+
+#endif /* _VOLTOS_ACYCLIC_GRAPH_H */

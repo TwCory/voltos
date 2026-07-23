@@ -7,6 +7,14 @@ struct bfd_global_conf {
 
 };
 
+struct bfd_profile_conf {
+
+};
+
+struct bfd_template_conf {
+
+};
+
 struct bfd_interface_conf {
 
 };

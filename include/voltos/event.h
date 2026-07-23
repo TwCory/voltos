@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/event.h>
 
+struct event {
+
+};
+
 #endif /* _VOLTOS_EVENT_H */

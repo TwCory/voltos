@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_THREAD_LOCAL_H
+#define _VOLTOS_THREAD_LOCAL_H
+
+#endif /* _VOLTOS_THREAD_LOCAL_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_BUILD_SALT_H
+#define _VOLTOS_BUILD_SALT_H
+
+#endif /* _VOLTOS_BUILD_SALT_H */

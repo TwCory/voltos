@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RATELIMIT_H
+#define _VOLTOS_RATELIMIT_H
+
+#endif /* _VOLTOS_RATELIMIT_H */

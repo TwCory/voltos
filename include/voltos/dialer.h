@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/dialer.h>
 
+struct dialer_global_conf {
+
+};
+
 #endif /* _VOLTOS_DIALER_H */

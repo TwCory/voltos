@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/decnet_route.h>
 
+struct decnet_route {
+
+};
+
 #endif /* _VOLTOS_DECNET_ROUTE_H */

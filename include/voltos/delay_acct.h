@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DELAY_ACCT_H
+#define _VOLTOS_DELAY_ACCT_H
+
+#endif /* _VOLTOS_DELAY_ACCT_H */

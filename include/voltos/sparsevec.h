@@ -1,0 +1,8 @@
+#ifndef _VOLTOS_SPARSEVEC_H
+#define _VOLTOS_SPARSEVEC_H
+
+typedef struct {
+
+} sparsevec_t;
+
+#endif /* _VOLTOS_SPARSEVEC_H */

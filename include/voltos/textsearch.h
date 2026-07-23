@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_TEXTSEARCH_H
+#define _VOLTOS_TEXTSEARCH_H
+
+#endif /* _VOLTOS_TEXTSEARCH_H */

@@ -1,4 +1,8 @@
 #ifndef _VOLTOS_SAP_PRIORITY_LIST_H
 #define _VOLTOS_SAP_PRIORITY_LIST_H
 
+struct sap_priority_list {
+
+};
+
 #endif /* _VOLTOS_SAP_PRIORITY_LIST_H */

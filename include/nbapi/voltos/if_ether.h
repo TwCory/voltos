@@ -15,6 +15,11 @@ enum eth_duplex_mode {
 	__ETH_DUPLEX_MODE_T_MAX__
 };
 
+enum eth_media_type {
+	ETH_MEDIA_TYPE_T_UNSPEC		= 0,
+	__ETH_MEDIA_TYPE_T_MAX__
+};
+
 struct eth_hdr {
 	unsigned char 			dst_addr[ETH_ADDR_SIZE];
 	unsigned char 			src_addr[ETH_ADDR_SIZE];

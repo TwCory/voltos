@@ -7,4 +7,8 @@ struct iphc_profile_conf {
 
 };
 
+struct iphc_profile {
+
+};
+
 #endif /* _VOLTOS_IPHC_PROFILE_H */

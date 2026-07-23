@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/bbu.h>
 
+struct bbu {
+
+};
+
 #endif /* _VOLTOS_BBU_H */

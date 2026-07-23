@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_TRANSPORT_MAP_H
+#define _VOLTOS_TRANSPORT_MAP_H
+
+#endif /* _VOLTOS_TRANSPORT_MAP_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_LOCK_CHECK_H
+#define _VOLTOS_LOCK_CHECK_H
+
+#endif /* _VOLTOS_LOCK_CHECK_H */

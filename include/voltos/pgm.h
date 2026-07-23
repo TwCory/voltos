@@ -3,11 +3,19 @@
 
 #include <nbapi/voltos/pgm.h>
 
-struct pgm_global_conf {
+struct ip_pgm_global_conf {
 
 };
 
-struct pgm_interface_conf {
+struct ipv6_pgm_global_conf {
+
+};
+
+struct ip_pgm_interface_conf {
+
+};
+
+struct ipv6_pgm_interface_conf {
 
 };
 

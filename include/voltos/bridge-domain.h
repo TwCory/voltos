@@ -3,4 +3,12 @@
 
 #include <nbapi/voltos/bridge-domain.h>
 
+struct bridge_domain_global_conf {
+
+};
+
+struct bridge_domain_conf {
+
+};
+
 #endif /* _VOLTOS_BRIDGE_DOMAIN_H */

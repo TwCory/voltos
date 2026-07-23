@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_RWLOCK_API_SMP_H
+#define _VOLTOS_RWLOCK_API_SMP_H
+
+#endif /* _VOLTOS_RWLOCK_API_SMP_H */

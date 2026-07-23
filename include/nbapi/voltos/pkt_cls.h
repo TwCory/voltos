@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_PKT_CLS_H
+#define _NBAPI_VOLTOS_PKT_CLS_H
+
+#endif /* _NBAPI_VOLTOS_PKT_CLS_H */

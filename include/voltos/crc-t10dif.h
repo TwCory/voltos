@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_CRC_T10DIF_H
+#define _VOLTOS_CRC_T10DIF_H
+
+#endif /* _VOLTOS_CRC_T10DIF_H */

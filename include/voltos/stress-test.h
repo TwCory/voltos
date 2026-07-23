@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_STRESS_TEST_H
+#define _VOLTOS_STRESS_TEST_H
+
+#endif /* _VOLTOS_STRESS_TEST_H */

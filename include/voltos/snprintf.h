@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SNPRINTF_H
+#define _VOLTOS_SNPRINTF_H
+
+#endif /* _VOLTOS_SNPRINTF_H */

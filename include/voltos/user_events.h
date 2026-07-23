@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_USER_EVENTS_H
+#define _VOLTOS_USER_EVENTS_H
+
+#endif /* _VOLTOS_USER_EVENTS_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_INIT_SYSCALLS_H
+#define _VOLTOS_INIT_SYSCALLS_H
+
+#endif /* _VOLTOS_INIT_SYSCALLS_H */

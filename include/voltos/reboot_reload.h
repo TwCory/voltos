@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_REBOOT_RELOAD_H
+#define _VOLTOS_REBOOT_RELOAD_H
+
+#endif /* _VOLTOS_REBOOT_RELOAD_H */

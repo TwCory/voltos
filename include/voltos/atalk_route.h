@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/atalk_route.h>
 
+struct atalk_route {
+
+};
+
 #endif /* _VOLTOS_ATALK_ROUTE_H */

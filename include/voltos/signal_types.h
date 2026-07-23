@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_SIGNAL_TYPES_H
+#define _VOLTOS_SIGNAL_TYPES_H
+
+#endif /* _VOLTOS_SIGNAL_TYPES_H */

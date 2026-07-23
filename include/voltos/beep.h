@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/beep.h>
 
+struct beep_global_conf {
+
+};
+
 #endif /* _VOLTOS_BEEP_H */
