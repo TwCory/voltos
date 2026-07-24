@@ -6,4 +6,8 @@
 #include <router/distance.h>
 #include <router/protocol.h>
 
+struct vrrp_protocol {
+
+};
+
 #endif /* _ROUTER_VRRP_H */

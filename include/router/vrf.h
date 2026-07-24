@@ -4,4 +4,8 @@
 #include <voltos/types.h>
 #include <voltos/vrf.h>
 
+struct vrf {
+
+};
+
 #endif /* _ROUTER_VRF_H */

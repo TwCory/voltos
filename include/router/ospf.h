@@ -4,6 +4,7 @@
 #include <voltos/ospf.h>
 #include <voltos/types.h>
 #include <router/distance.h>
+#include <router/prefix.h>
 #include <router/protocol.h>
 
 struct ospf_protocol {
@@ -27,7 +28,7 @@ struct ospf_network {
 };
 
 struct ospf_route {
-
+	__u16 cost;
 };
 
 #endif /* _ROUTER_OSPF_H */
