@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ACL_APPLETALK_H
+#define _VOLTOS_ACL_APPLETALK_H
+
+#endif /* _VOLTOS_ACL_APPLETALK_H */

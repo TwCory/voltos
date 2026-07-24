@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ACL_MAC_ADDRESS_H
+#define _VOLTOS_ACL_MAC_ADDRESS_H
+
+#endif /* _VOLTOS_ACL_MAC_ADDRESS_H */

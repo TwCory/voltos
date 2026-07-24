@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ATOMIC_TYPES_H
+#define _VOLTOS_ATOMIC_TYPES_H
+
+#endif /* _VOLTOS_ATOMIC_TYPES_H */
