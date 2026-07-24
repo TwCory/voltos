@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-/* X.25 over TCP (XoT) */
+/*
+ *  include/nbapi/voltos/xot.h
+ *
+ *	X.25 over TCP (XoT)
+ */
+
 #ifndef _NBAPI_VOLTOS_XOT_H
 #define _NBAPI_VOLTOS_XOT_H
 

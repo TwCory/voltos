@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *  include/nbapi/voltos/isdn.h
+ *
+ *	Integrated Services Digital Network (ISDN)
+ */
+
 #ifndef _NBAPI_VOLTOS_ISDN_H
 #define _NBAPI_VOLTOS_ISDN_H
 

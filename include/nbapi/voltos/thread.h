@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_THREAD_H
+#define _NBAPI_VOLTOS_THREAD_H
+
+#endif /* _NBAPI_VOLTOS_THREAD_H */

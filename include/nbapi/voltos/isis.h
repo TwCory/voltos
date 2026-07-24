@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *  include/nbapi/voltos/isis.h
+ *
+ *	Intermediate System to Intermediate System (IS-IS)
+ */
+
 #ifndef _NBAPI_VOLTOS_ISIS_H
 #define _NBAPI_VOLTOS_ISIS_H
 

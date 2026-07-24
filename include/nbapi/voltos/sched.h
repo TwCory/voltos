@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_SCHED_H
+#define _NBAPI_VOLTOS_SCHED_H
+
+#endif /* _NBAPI_VOLTOS_SCHED_H */

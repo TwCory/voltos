@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *  include/nbapi/voltos/ip.h
+ *
+ *	Internet Protocol (IP)
+ */
+
 #ifndef _NBAPI_VOLTOS_IP_H
 #define _NBAPI_VOLTOS_IP_H
 

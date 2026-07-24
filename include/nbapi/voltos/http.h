@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *  include/nbapi/voltos/http.h
+ *
+ *  Hypertext Transfer Protocol (HTTP)
+ */
+
 #ifndef _NBAPI_VOLTOS_HTTP_H
 #define _NBAPI_VOLTOS_HTTP_H
 

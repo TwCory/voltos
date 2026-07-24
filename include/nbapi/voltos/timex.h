@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_TIMEX_H
+#define _NBAPI_VOLTOS_TIMEX_H
+
+#endif /* _NBAPI_VOLTOS_TIMEX_H */

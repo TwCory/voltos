@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-/* Zone-Based Heirarchical Link-State */
+/*
+ *  include/nbapi/voltos/zhls.h
+ *
+ *	Zone-Based Hierarchical Link State (ZHLS)
+ */
+
 #ifndef _NBAPI_VOLTOS_ZHLS_H
 #define _NBAPI_VOLTOS_ZHLS_H
 

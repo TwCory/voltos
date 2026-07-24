@@ -1,0 +1,4 @@
+#ifndef _NBAPI_VOLTOS_ATM_ACR_H
+#define _NBAPI_VOLTOS_ATM_ACR_H
+
+#endif /* _NBAPI_VOLTOS_ATM_ACR_H */

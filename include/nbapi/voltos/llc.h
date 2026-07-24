@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *  include/nbapi/voltos/llc.h
+ *
+ *	Logical Link Control (LLC)
+ */
+
 #ifndef _NBAPI_VOLTOS_LLC_H
 #define _NBAPI_VOLTOS_LLC_H
 

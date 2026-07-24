@@ -7,4 +7,7 @@ struct sockaddr_ctx {
 
 };
 
+#define AF_UNSPEC       0
+#define AF_INET             1
+
 #endif /* _VOLTOS_SOCKET_H */
