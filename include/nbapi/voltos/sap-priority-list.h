@@ -1,6 +1,8 @@
 #ifndef _NBAPI_VOLTOS_SAP_PRIORITY_LIST_H
 #define _NBAPI_VOLTOS_SAP_PRIORITY_LIST_H
 
+#include <voltos/types.h>
+
 #define SAP_PRIORITY_LIST_NAME_SIZE		32
 
 #endif /* _NBAPI_VOLTOS_SAP_PRIORITY_LIST_H */

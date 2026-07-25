@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/dlr.h
+ *  	include/nbapi/voltos/dlr.h
  *
  *	Device-Level Ring (DLR)
  */

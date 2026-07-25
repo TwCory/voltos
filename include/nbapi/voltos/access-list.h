@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/access-list.h
+ *  	include/nbapi/voltos/access-list.h
  *
- *	Access Control List (ACL)
+ *	Access Control List (ACL) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ACCESS_LIST_H
@@ -17,8 +17,8 @@
 /* Legacy ACL Number */
 typedef __u16 						__voltos_acl_number_t;
 
-typedef __u32 						__voltos_acl_index_t;
-typedef __u32 						__voltos_acl_seqno_t;
+typedef __u32 						__acl_key_t;
+typedef __u32 						__acl_seqno_t;
 
 enum access_list_type {
 	ACCESS_LIST_TYPE_T_UNSPEC			= 0,

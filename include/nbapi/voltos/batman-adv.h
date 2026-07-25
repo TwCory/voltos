@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/batman-adv.h
+ *	include/nbapi/voltos/batman-adv.h
  *
- *  Better Approach to Mobile Ad-Hoc Networks (B.A.T.M.A.N.)
+ *	Better Approach to Mobile Ad-Hoc Networks (B.A.T.M.A.N.)
  */
 
 #ifndef _NBAPI_VOLTOS_BATMAN_ADV_H

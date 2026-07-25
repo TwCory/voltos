@@ -9,6 +9,12 @@
 #define VLAN_ID_MIN				1
 #define VLAN_ID_MAX				4095
 
+#define VLAN_ID_DEFAULT				1
+#define VLAN_ID_FDDI_DEFAULT			1002
+#define VLAN_ID_TOKEN_RING_DEFAULT		1003
+#define VLAN_ID_FDDINET_DEFAULT			1004
+#define VLAN_ID_TRNET_DEFAULT			1005
+
 typedef __u16 					__voltos_vlan_id_t;
 
 enum vlan_state {

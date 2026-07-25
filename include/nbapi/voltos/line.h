@@ -3,7 +3,7 @@
 
 #include <voltos/types.h>
 
-typedef __u16 				__voltos_line_id_t;
+typedef __u16 				__voltos_line_index_t;
 
 enum line_type {
 	LINE_TYPE_T_UNSPEC		= 0,

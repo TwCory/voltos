@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ipip.h
+ *	include/nbapi/voltos/ipip.h
  *
- *  IP-in-IP Tunneling Protocol
+ *	IP-in-IP Tunneling Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_IPIP_H
