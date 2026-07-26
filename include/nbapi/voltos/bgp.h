@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/bgp.h
+ *	include/nbapi/voltos/bgp.h
  *
  *	Border Gateway Protocol (BGP)
  */

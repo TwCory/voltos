@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/affinity_map.h
+ *	include/nbapi/voltos/affinity_map.h
  *
- *  Segment Routing (SR) Affinity Map
+ *	Segment Routing (SR) Affinity Map
  */
 
 #ifndef _NBAPI_VOLTOS_AFFINITY_MAP_H

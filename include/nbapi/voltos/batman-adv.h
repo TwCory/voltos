@@ -4,6 +4,7 @@
  *	include/nbapi/voltos/batman-adv.h
  *
  *	Better Approach to Mobile Ad-Hoc Networks (B.A.T.M.A.N.)
+ *	Wireless, Ad-Hoc, Mesh Network Routing Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_BATMAN_ADV_H

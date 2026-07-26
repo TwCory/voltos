@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/xot.h
+ *	include/nbapi/voltos/xot.h
  *
  *	X.25 over TCP (XoT)
  */
@@ -11,12 +11,12 @@
 
 #include <voltos/types.h>
 
-#define XOT_VERSION		0
-#define XOT_PORT		1998
+#define XOT_VERSION			0
+#define XOT_PORT			1998
 
 struct xot_hdr {
-	__net16 		version;
-	__net16 		length;
+	__net16 			version;
+	__net16 			length;
 };
 
 #endif /* _NBAPI_VOLTOS_XOT_H */

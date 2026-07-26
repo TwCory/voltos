@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/bbu.h
+ *  	include/nbapi/voltos/bbu.h
  *
- *	Battery Backup Unit (BBU)
+ *	Battery Backup Unit (BBU) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_BBU_H

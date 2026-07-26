@@ -9,6 +9,12 @@
 #define VLAN_ID_MIN				1
 #define VLAN_ID_MAX				4095
 
+#define VLAN_NAME_DEFAULT			"default"
+#define VLAN_NAME_FDDI_DEFAULT			"fddi-default"
+#define VLAN_NAME_TOKEN_RING_DEFAULT		"token-ring-default"
+#define VLAN_NAME_FDDINET_DEFAULT		"fddinet-default"
+#define VLAN_NAME_TRNET_DEFAULT			"trnet-default"
+
 #define VLAN_ID_DEFAULT				1
 #define VLAN_ID_FDDI_DEFAULT			1002
 #define VLAN_ID_TOKEN_RING_DEFAULT		1003

@@ -3,10 +3,6 @@
 
 #include <nbapi/voltos/iphc-profile.h>
 
-struct iphc_profile_conf {
-
-};
-
 struct iphc_profile {
 
 };

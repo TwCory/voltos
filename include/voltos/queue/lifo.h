@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_QUEUE_LIFO_H
+#define _VOLTOS_QUEUE_LIFO_H
+
+#endif /* _VOLTOS_QUEUE_LIFO_H */

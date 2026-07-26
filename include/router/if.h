@@ -3,8 +3,8 @@
 
 #include <voltos/if.h>
 
-struct interface {
-	__voltos_if_index_t 	if_index;
+struct rt_interface {
+
 };
 
 #endif /* _ROUTER_IF_H */

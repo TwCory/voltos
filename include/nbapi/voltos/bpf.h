@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/bpf.h
  *
- *	Berkeley Packet Filter (BPF)
+ *	Berkeley Packet Filter (BPF) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_BPF_H

@@ -1,3 +1,12 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/decnet.h
+ *
+ *	DECnet Socket and Network Protocol
+ *	Family Definitions
+ */
+
 #ifndef _NBAPI_VOLTOS_DECNET_H
 #define _NBAPI_VOLTOS_DECNET_H
 

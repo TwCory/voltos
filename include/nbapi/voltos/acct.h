@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/acct.h
+ *	include/nbapi/voltos/acct.h
  *
- *  Accounting Definitions
+ *	Accounting Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ACCT_H

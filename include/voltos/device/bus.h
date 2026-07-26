@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_DEVICE_BUS_H
+#define _VOLTOS_DEVICE_BUS_H
+
+#endif /* _VOLTOS_DEVICE_BUS_H */

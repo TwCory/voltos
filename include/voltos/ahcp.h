@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/ahcp.h>
 
+struct ahcp_pool {
+
+};
+
 #endif /* _VOLTOS_AHCP_H */

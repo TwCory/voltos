@@ -1,3 +1,12 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/bridge-domain.h
+ *
+ *	Router Bridge Domain and
+ *	Service Instance Definitions
+ */
+
 #ifndef _NBAPI_VOLTOS_BRIDGE_DOMAIN_H
 #define _NBAPI_VOLTOS_BRIDGE_DOMAIN_H
 

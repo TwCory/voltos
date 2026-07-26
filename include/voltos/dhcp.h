@@ -3,7 +3,7 @@
 
 #include <nbapi/voltos/dhcp.h>
 
-struct dhcp_pool_conf {
+struct dhcp_pool {
 
 };
 

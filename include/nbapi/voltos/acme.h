@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/acme.h
+ *	include/nbapi/voltos/acme.h
  *
- *  Automated Certificate Management Environment (ACME)
+ *	Automated Certificate Management Environment (ACME)
  */
 
 #ifndef _NBAPI_VOLTOS_ACME_H

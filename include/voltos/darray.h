@@ -1,4 +1,12 @@
-#ifndef _VOLTOS_DARRAY_H
-#define _VOLTOS_DARRAY_H
+// SPDX-License-Identifier: BSD-3-Clause
 
-#endif /* _VOLTOS_DARRAY_H */
+/*
+ *	include/voltos/darray.h
+ *
+ * 	Dynamic Array Data Structure
+ */
+
+#ifndef _VOLTOS_Z_H
+#define _VOLTOS_Z_H
+
+#endif /* _VOLTOS_Z_H */

@@ -3,7 +3,7 @@
 
 #include <voltos/types.h>
 
-struct protocol {
+struct rt_protocol {
 	__u32 index;
 };
 

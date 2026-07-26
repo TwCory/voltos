@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/dsr.h
+ *	include/nbapi/voltos/dsr.h
  *
  *	Dynamic Source Routing (DSR)
  */

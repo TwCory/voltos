@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_MUX_DRIVER_H
+#define _VOLTOS_MUX_DRIVER_H
+
+#endif /* _VOLTOS_MUX_DRIVER_H */

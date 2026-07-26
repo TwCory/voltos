@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/bier.h
+ *	include/nbapi/voltos/bier.h
  *
- *  Bit-Index Explicit Replication (BIER)
+ *	Bit-Index Explicit Replication (BIER)
  */
 
 #ifndef _NBAPI_VOLTOS_BIER_H

@@ -1,6 +1,8 @@
 #ifndef _VOLTOS_BUFFER_HEAD_H
 #define _VOLTOS_BUFFER_HEAD_H
 
+#include <voltos/types.h>
+
 struct buffer_head {
 
 };

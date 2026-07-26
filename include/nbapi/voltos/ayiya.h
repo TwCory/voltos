@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ayiya.h
+ *	include/nbapi/voltos/ayiya.h
  *
- *  Anything-In-Anything (AYIYA)
+ *	Anything-In-Anything (AYIYA)
+ *	Tunneling Protocol Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_AYIYA_H

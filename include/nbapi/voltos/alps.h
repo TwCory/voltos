@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/alps.h
  *
- *	Airline Product Set (ALPS)
+ *	Airline Product Set (ALPS) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ALPS_H

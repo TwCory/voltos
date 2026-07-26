@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/mpls.h
+ *	include/nbapi/voltos/mpls.h
  *
  *	Multi-Protocol Label Switching (MPLS)
  */

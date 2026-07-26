@@ -1,3 +1,13 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/carp.h
+ *
+ *	Common Address Redundancy
+ *	Protocol (CARP) First-Hop
+ *	Redundancy Protocol Definitions
+ */
+
 #ifndef _NBAPI_VOLTOS_CARP_H
 #define _NBAPI_VOLTOS_CARP_H
 

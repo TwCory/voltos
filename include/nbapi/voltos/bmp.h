@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/bmp.h
  *
- *	BGP Monitoring Protocol (BMP)
+ *	BGP Monitoring Protocol (BMP) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_BMP_H

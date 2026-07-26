@@ -7,6 +7,26 @@ struct sockaddr_ctx {
 
 };
 
+struct linger {
+
+};
+
+struct msghdr {
+
+};
+
+struct user_msghdr {
+
+};
+
+struct mmsghdr {
+
+};
+
+struct cmsghdr {
+
+};
+
 #define AF_UNSPEC       0
 #define AF_INET             1
 

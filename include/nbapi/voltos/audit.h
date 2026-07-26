@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/audit.h
+ *	include/nbapi/voltos/audit.h
  *
- *  Auditing
+ *	Auditing Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_AUDIT_H

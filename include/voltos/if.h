@@ -4,8 +4,9 @@
 #include <voltos/types.h>
 #include <nbapi/voltos/if.h>
 
-struct interface_conf {
-	bool 			shutdown;
+struct interface {
+	__voltos_if_index_t 			if_index;
+	__voltos_if_flags_t 			if_flags;
 };
 
 #endif /* _VOLTOS_IF_H */

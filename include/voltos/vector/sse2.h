@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_VECTOR_SSE2_H
+#define _VOLTOS_VECTOR_SSE2_H
+
+#endif /* _VOLTOS_VECTOR_SSE2_H */

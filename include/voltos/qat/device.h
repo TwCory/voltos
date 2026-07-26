@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_QAT_DEVICE_H
+#define _VOLTOS_QAT_DEVICE_H
+
+#endif /* _VOLTOS_QAT_DEVICE_H */

@@ -1,0 +1,4 @@
+#ifndef _VOLTOS_ANNOTATE_H
+#define _VOLTOS_ANNOTATE_H
+
+#endif /* _VOLTOS_ANNOTATE_H */

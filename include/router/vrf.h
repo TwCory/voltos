@@ -4,7 +4,7 @@
 #include <voltos/types.h>
 #include <voltos/vrf.h>
 
-struct vrf {
+struct rt_vrf {
 
 };
 

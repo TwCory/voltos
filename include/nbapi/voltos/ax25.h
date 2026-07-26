@@ -1,3 +1,12 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/ax25.h
+ *
+ *	Amateur Radio X.25 (AX.25) Socket
+ *	Family Definitions
+ */
+
 #ifndef _NBAPI_VOLTOS_AX25_H
 #define _NBAPI_VOLTOS_AX25_H
 

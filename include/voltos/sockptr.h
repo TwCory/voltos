@@ -1,8 +1,14 @@
 #ifndef _VOLTOS_SOCKPTR_H
 #define _VOLTOS_SOCKPTR_H
 
-typedef struct sockptr_s {
+#include <voltos/types.h>
 
+typedef struct {
+	union {
+		void 		*voltos_ptr;
+		void 		*user_ptr;
+	};
+	bool 			is_voltos;
 } sockptr_t;
 
 #endif /* _VOLTOS_SOCKPTR_H */

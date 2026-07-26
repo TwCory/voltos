@@ -1,9 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/bgp_rpki.h
+ *	include/nbapi/voltos/bgp_rpki.h
  *
- *  BGP - Resourse Public Key Infrastructure (RPKI)
+ * 	Border Gateway Protocol (BGP) Resource
+ *	Public Key Infrastructure (RPKI)
+ *	Security Extension Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_BGP_RPKI_H

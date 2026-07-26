@@ -63,11 +63,16 @@ struct in_addr {
 	__net32 		s_addr;
 };
 
+#define SIN_ZERO_SIZE		16
 struct sockaddr_in {
 	__voltos_sa_family_t 	sin_family;
 	__net16 		sin_port;
 	struct in_addr 		sin_addr;
+	unsigned char 		__pad[SIN_ZERO_SIZE - sizeof(short int) -
+					sizeof(unsigned short int) - 
+					sizeof(struct in_addr)];
 };
+#define sin_zero		__pad
 
 struct in_ifaddr {
 

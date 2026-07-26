@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/beep.h
+ *	include/nbapi/voltos/beep.h
  *
- *  Blocks Extensible Exchange Protocol (BEEP) Framework
+ *	Blocks Extensible Exchange Protocol (BEEP) Framework
+ *	Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_BEEP_H

@@ -3,7 +3,11 @@
 
 #include <voltos/route.h>
 
-struct route {
+struct rt_route {
+
+};
+
+struct rt_route_table {
 
 };
 
