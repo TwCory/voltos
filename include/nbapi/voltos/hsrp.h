@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/hsrp.h
+ *	include/nbapi/voltos/hsrp.h
  *
  *	Hot Standby Router Protocol (HSRP)
  */

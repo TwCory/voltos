@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/idb.h
+ *	include/nbapi/voltos/idb.h
  *
- *  Interface Descriptor Block (IDB)
+ *	Interface Descriptor Block (IDB)
  */
 
 #ifndef _NBAPI_VOLTOS_IDB_H

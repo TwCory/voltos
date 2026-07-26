@@ -4,6 +4,10 @@
 #include <voltos/if.h>
 
 struct rt_interface {
+	struct interface 		*if_ptr;
+};
+
+struct rt_interface_table {
 
 };
 

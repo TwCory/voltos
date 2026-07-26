@@ -5,7 +5,7 @@
 #include <voltos/vrf.h>
 
 struct rt_vrf {
-
+	struct vrf *vrf_ptr;
 };
 
 #endif /* _ROUTER_VRF_H */

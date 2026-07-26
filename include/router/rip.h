@@ -31,4 +31,6 @@ struct rip_route {
 	struct rt_route 		*route;
 };
 
+extern void rip_init(void);
+
 #endif /* _ROUTER_RIP_H */

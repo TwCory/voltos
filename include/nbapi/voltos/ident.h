@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ident.h
+ *	include/nbapi/voltos/ident.h
  *
- *  IdentD
+ *	IdentD
  */
 
 #ifndef _NBAPI_VOLTOS_IDENT_H

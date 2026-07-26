@@ -1,7 +1,7 @@
 #ifndef _ROUTER_PREFIX_H
 #define _ROUTER_PREFIX_H
 
-struct prefix {
+struct rt_prefix {
 
 };
 

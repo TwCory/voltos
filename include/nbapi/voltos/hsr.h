@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/hsr.h
+ *	include/nbapi/voltos/hsr.h
  *
  *	High Availability Seamless Redundancy (HSR)
  */

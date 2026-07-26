@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/lisp.h
+ *	include/nbapi/voltos/lisp.h
  *
- *  Locator/ID Separation Protocol (LISP)
+ *	Locator/ID Separation Protocol (LISP)
  */
 
 #ifndef _NBAPI_VOLTOS_LISP_H

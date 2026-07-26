@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/llc.h
+ *	include/nbapi/voltos/llc.h
  *
- *	Logical Link Control (LLC)
+ *	Logical Link Control (LLC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_LLC_H

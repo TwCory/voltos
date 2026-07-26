@@ -17,4 +17,10 @@
 
 typedef __u32 					__bba_group_key_t;
 
+enum bba_group_type {
+	BBA_GROUP_TYPE_T_UNSPEC			= 0,
+	BBA_GROUP_TYPE_T_PPPOE			= 1,
+	__BBA_GROUP_TYPE_T_MAX__
+};
+
 #endif /* _NBAPI_VOLTOS_BBA_GROUP_H */

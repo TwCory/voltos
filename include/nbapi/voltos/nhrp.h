@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/nhrp.h
+ *	include/nbapi/voltos/nhrp.h
  *
- *  Next-Hop Resolution Protocol (NHRP)
+ *	Next-Hop Resolution Protocol (NHRP)
  */
 
 #ifndef _NBAPI_VOLTOS_NHRP_H

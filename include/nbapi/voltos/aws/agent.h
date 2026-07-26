@@ -1,0 +1,33 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/aws/agent.h
+ *
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_AWS_AGENT_H
+#define _NBAPI_VOLTOS_AWS_AGENT_H
+
+enum aws_agent_state {
+	AWS_AGENT_STATE_T_UNSPEC		= 0,
+	AWS_AGENT_STATE_T_STOPPED		= 1,
+	AWS_AGENT_STATE_T_ACTIVE		= 2,
+	AWS_AGENT_STATE_T_INACTIVE		= 3,
+	__AWS_AGENT_STATE_T_MAX__
+};
+
+enum aws_agent_trace {
+	AWS_AGENT_TRACE_T_UNSPEC		= 0,
+	AWS_AGENT_TRACE_T_NOTICE		= 1,
+	AWS_AGENT_TRACE_T_DEBUG			= 2,
+	AWS_AGENT_TRACE_T_EMERGENCY		= 3,
+	AWS_AGENT_TRACE_T_ERROR			= 4,
+	AWS_AGENT_TRACE_T_INFORMATION		= 5,
+	AWS_AGENT_TRACE_T_NOISE			= 6,
+	AWS_AGENT_TRACE_T_VERBOSE		= 7,
+	AWS_AGENT_TRACE_T_WARNING		= 8,
+	__AWS_AGENT_TRACE_T_MAX__
+};
+
+#endif /* _NBAPI_VOLTOS_AWS_AGENT_H */

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/zerotier.h
+ *	include/nbapi/voltos/zerotier.h
  *
- *  ZeroTier(R) Overlay Network
+ *	ZeroTier(R) Overlay Network
  */
 
 

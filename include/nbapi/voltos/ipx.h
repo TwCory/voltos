@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ipx.h
+ *	include/nbapi/voltos/ipx.h
  *
  *	Internetwork Packet eXchange (IPX)
  */

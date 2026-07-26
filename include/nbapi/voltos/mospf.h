@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/mospf.h
+ *	include/nbapi/voltos/mospf.h
  *
- *  Multicast Open Shortest Path First (mOSPF)
+ *	Multicast Open Shortest Path First (mOSPF)
  */
 
 #ifndef _NBAPI_VOLTOS_MOSPF_H

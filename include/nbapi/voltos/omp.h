@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/omp.h
+ *	include/nbapi/voltos/omp.h
  *
  *	Overlay Management Protocol (OMP)
  */

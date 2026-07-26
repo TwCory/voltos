@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ilnp.h
+ *	include/nbapi/voltos/ilnp.h
  *
- *  Identifier-Locator Network Protocol (ILNP)
+ *	Identifier-Locator Network Protocol (ILNP)
  */
 
 #ifndef _NBAPI_VOLTOS_ILNP_H

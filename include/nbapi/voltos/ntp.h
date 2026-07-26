@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ntp.h
+ *	include/nbapi/voltos/ntp.h
  *
- *  Network Time Protocol (NTP)
+ *	Network Time Protocol (NTP)
  */
 
 #ifndef _NBAPI_VOLTOS_NTP_H

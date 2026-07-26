@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/xtp.h
+ *
+ *	eXpress Transport Protocol (XTP)
+ */
+
 #ifndef _NBAPI_VOLTOS_XTP_H
 #define _NBAPI_VOLTOS_XTP_H
 

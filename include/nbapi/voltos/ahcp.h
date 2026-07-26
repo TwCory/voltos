@@ -11,4 +11,6 @@
 
 #include <voltos/types.h>
 
+#define AHCP_POOL_NAME_SIZE		32
+
 #endif /* _NBAPI_VOLTOS_AHCP_H */

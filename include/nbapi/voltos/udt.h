@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/udt.h
+ *
+ *	UDP-Based Bulk Data Transfer (UDT)
+ */
+
 #ifndef _NBAPI_VOLTOS_UDT_H
 #define _NBAPI_VOLTOS_UDT_H
 

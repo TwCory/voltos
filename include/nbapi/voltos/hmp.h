@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/hmp.h
+ *	include/nbapi/voltos/hmp.h
  *
- *  Host Monitoring Protocol (HMP)
+ *	Host Monitoring Protocol (HMP)
  */
 
 #ifndef _NBAPI_VOLTOS_HMP_H

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ldap.h
+ *	include/nbapi/voltos/ldap.h
  *
- *  Lightweight Directory Access Protocol (LDAP)
+ *	Lightweight Directory Access Protocol (LDAP)
  */
 
 #ifndef _NBAPI_VOLTOS_LDAP_H

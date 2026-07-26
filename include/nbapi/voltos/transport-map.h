@@ -3,6 +3,8 @@
 
 #include <voltos/types.h>
 
-typedef __u32 __transport_map_key_t;
+#define TRANSPORT_MAP_NAME_SIZE		32
+
+typedef __u32 				__transport_map_key_t;
 
 #endif /* _NBAPI_VOLTOS_TRANSPORT_MAP_H */

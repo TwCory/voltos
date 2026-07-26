@@ -3,6 +3,6 @@
 
 #include <voltos/types.h>
 
-typedef __u8 rt_distance_t;
+typedef __u8 			__rt_distance_t;
 
 #endif /* _ROUTER_DISTANCE_H */

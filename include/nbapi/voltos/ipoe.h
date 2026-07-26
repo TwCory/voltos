@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ipoe.h
+ *	include/nbapi/voltos/ipoe.h
  *
- *  IP over Ethernet (IPoE)
+ *	IP over Ethernet (IPoE)
  */
 
 #ifndef _NBAPI_VOLTOS_IPOE_H

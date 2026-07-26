@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/hdlc.h
+ *	include/nbapi/voltos/hdlc.h
  *
- *  High-Level Data Link Control (HDLC) and Cisco HDLC (cHDLC)
+ *	High-Level Data Link Control (HDLC) and Cisco HDLC (cHDLC)
  */
 
 #ifndef _NBAPI_VOLTOS_HDLC_H

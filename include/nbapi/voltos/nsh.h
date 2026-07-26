@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/nsh.h
+ *	include/nbapi/voltos/nsh.h
  *
- *  Network Service Header (NSH)
+ *	Network Service Header (NSH)
  */
 
 #ifndef _NBAPI_VOLTOS_NSH_H

@@ -7,6 +7,7 @@ typedef __u16 				__voltos_sa_family_t;
 
 struct __voltos_sa_storage {
 	__voltos_sa_family_t 		ss_family;
+	void 				*ss_data;
 };
 
 #endif /* _NBAPI_VOLTOS_SOCKET_H */

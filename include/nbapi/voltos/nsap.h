@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/nsap.h
+ *	include/nbapi/voltos/nsap.h
  *
  *	Network Service Access Point (NSAP)
  */

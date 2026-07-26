@@ -12,6 +12,17 @@
 
 #include <voltos/types.h>
 
-typedef __u16 __voltos_brd_id_t;
+#define BRIDGE_DOMAIN_ID_MIN			1
+#define BRIDGE_DOMAIN_ID_MAX			16000
+
+typedef __u16 					__voltos_brd_id_t;
+
+enum bridge_domain_state {
+	BRIDGE_DOMAIN_STATE_T_UNSPEC		= 0,
+	BRIDGE_DOMAIN_STATE_T_UP		= 1,
+	BRIDGE_DOMAIN_STATE_T_DOWN		= 2,
+	BRIDGE_DOMAIN_STATE_T_ADMIN_DOWN	= 3,
+	__BRIDGE_DOMAIN_STATE_T_MAX__
+};
 
 #endif /* _NBAPI_VOLTOS_BRIDGE_DOMAIN_H */

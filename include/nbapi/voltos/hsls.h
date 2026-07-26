@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/hsls.h
+ *	include/nbapi/voltos/hsls.h
  *
  *	Hazy-Sighted Link State (HSLS)
  */

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/lldp.h
+ *	include/nbapi/voltos/lldp.h
  *
  *	Link-Layer Discovery Protocol (LLDP)
  */

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/ipfix.h
+ *	include/nbapi/voltos/ipfix.h
  *
- *  IP Flow Information Export (IPFIX)
+ *	IP Flow Information Export (IPFIX)
  */
 
 #ifndef _NBAPI_VOLTOS_IPFIX_H

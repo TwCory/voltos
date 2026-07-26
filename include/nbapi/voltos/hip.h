@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/hip.h
+ *	include/nbapi/voltos/hip.h
  *
- *  Host Identity Protocol (HIP)
+ *	Host Identity Protocol (HIP)
  */
 
 #ifndef _NBAPI_VOLTOS_HIP_H

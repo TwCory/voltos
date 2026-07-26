@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/icmp.h
+ *	include/nbapi/voltos/icmp.h
  *
- *  Internet Control Message Protocol (ICMP)
+ *	Internet Control Message Protocol (ICMP)
  */
 
 

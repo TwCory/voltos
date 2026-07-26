@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/olsr.h
+ *	include/nbapi/voltos/olsr.h
  *
  *	Optimized Link State Routing (OLSR)
  */

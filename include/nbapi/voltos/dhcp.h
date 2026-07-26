@@ -21,6 +21,8 @@
 #define DHCP_SNAME_SIZE			64
 #define DHCP_FILE_SIZE			128
 
+#define DHCP_POOL_NAME_SIZE		32
+
 struct dhcp_msg {
 	__u8 				op;
 	__u8 				htype;

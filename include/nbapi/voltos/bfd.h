@@ -13,6 +13,7 @@
 #include <voltos/types.h>
 
 #define BFD_PROFILE_NAME_SIZE				32
+#define BFD_TEMPLATE_NAME_SIZE				32
 
 enum bfd_state {
 	BFD_STATE_T_INVALID 				= 0,

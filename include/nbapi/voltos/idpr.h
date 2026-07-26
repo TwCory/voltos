@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *  include/nbapi/voltos/idpr.h
+ *	include/nbapi/voltos/idpr.h
  *
- *  Inter-Domain Policy Routing (IDPR)
+ *	Inter-Domain Policy Routing (IDPR)
  */
 
 #ifndef _NBAPI_VOLTOS_IDPR_H

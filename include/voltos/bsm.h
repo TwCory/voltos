@@ -1,8 +1,14 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/bsm.h
+ *
+ * 	Backhaul Session Manager (BSM)
+ */
+
 #ifndef _VOLTOS_BSM_H
 #define _VOLTOS_BSM_H
 
-struct bsm_conf {
-
-};
+#include <nbapi/voltos/bsm.h>
 
 #endif /* _VOLTOS_BSM_H */

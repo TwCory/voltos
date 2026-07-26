@@ -3,7 +3,7 @@
 
 #include <nbapi/voltos/vrf.h>
 
-struct vrf_conf {
+struct vrf {
 
 };
 
