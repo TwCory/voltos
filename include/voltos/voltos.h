@@ -1,5 +1,7 @@
-#ifndef _VOLTOS_VOLTOS_H
-#define _VOLTOS_VOLTOS_H
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef __VOLTOS_CORE_H
+#define __VOLTOS_CORE_H
 
 #include <voltos/align.h>
 #include <voltos/array_size.h>
@@ -33,4 +35,4 @@ enum voltos_state {
 };
 
 
-#endif /* _VOLTOS_VOLTOS_H */
+#endif /* __VOLTOS_CORE_H */

@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef _VOLTOS_WEAKREF_TYPES_H
+#define _VOLTOS_WEAKREF_TYPES_H
+
+typedef struct weakref_s {
+
+} weakref_t;
+
+#endif /* _VOLTOS_WEAKREF_TYPES_H */
