@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_ELF_H
 #define _NBAPI_VOLTOS_ELF_H
 
+#include <asm/elf.h>
+
 #endif /* _NBAPI_VOLTOS_ELF_H */

@@ -3,6 +3,8 @@
 #ifndef _NBAPI_VOLTOS_BITS_H
 #define _NBAPI_VOLTOS_BITS_H
 
+#include <asm/bitsperlong.h>
+
 #define BIT_STATE_OFF   		0
 #define BIT_STATE_ON    		1
 

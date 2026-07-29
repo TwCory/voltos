@@ -18,6 +18,7 @@ struct apollo_addr {
 
 struct sockaddr_apollo {
 	__voltos_sa_family_t 		sapollo_family;
+	struct apollo_addr 		sapollo_addr;
 };
 
 #endif /* _NBAPI_VOLTOS_APOLLO_H */

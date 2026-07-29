@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_POLL_H
 #define _NBAPI_VOLTOS_POLL_H
 
+#include <asm/poll.h>
+
 #endif /* _NBAPI_VOLTOS_POLL_H */

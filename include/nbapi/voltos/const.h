@@ -27,4 +27,6 @@
 
 #define __VOLTOS_DIVIDE_ROUND_UP(n, d)  	(((n) + (d) - 1) / (d))
 
+#define __VOLTOS_DIVIDE_ROUND_CLOSEST(x, divisor)
+
 #endif /* _NBAPI_VOLTOS_CONST_H */

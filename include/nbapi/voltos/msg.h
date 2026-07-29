@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_MSG_H
 #define _NBAPI_VOLTOS_MSG_H
 
+#include <asm/msgbuf.h>
+
 #endif /* _NBAPI_VOLTOS_MSG_H */

@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_TERMIOS_H
 #define _NBAPI_VOLTOS_TERMIOS_H
 
+#include <asm/termios.h>
+
 #endif /* _NBAPI_VOLTOS_TERMIOS_H */

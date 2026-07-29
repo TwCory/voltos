@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_AUXVEC_H
 #define _NBAPI_VOLTOS_AUXVEC_H
 
+#include <asm/auxvec.h>
+
 #endif /* _NBAPI_VOLTOS_AUXVEC_H */

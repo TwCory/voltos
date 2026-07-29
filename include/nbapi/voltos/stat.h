@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_STAT_H
 #define _NBAPI_VOLTOS_STAT_H
 
+#include <asm/stat.h>
+
 #endif /* _NBAPI_VOLTOS_STAT_H */

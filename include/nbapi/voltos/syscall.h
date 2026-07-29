@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_SYSCALL_H
 #define _NBAPI_VOLTOS_SYSCALL_H
 
+#include <asm/vsyscall.h>
+
 #endif /* _NBAPI_VOLTOS_SYSCALL_H */

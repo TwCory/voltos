@@ -4,12 +4,16 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
-struct x25_addr {
+#define X25_ADDR_SIZE			15
 
+struct x25_addr {
+	unsigned char 			s_addr[X25_ADDR_SIZE];
+	unsigned char 			s_null;
 };
 
 struct sockaddr_x25 {
-	__voltos_sa_family_t sx25_family;
+	__voltos_sa_family_t 		sx25_family;
+	struct x25_addr 		sx25_addr;
 };
 
 #endif /* _NBAPI_VOLTOS_X25_H */

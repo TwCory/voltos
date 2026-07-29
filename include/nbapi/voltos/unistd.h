@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_UNISTD_H
 #define _NBAPI_VOLTOS_UNISTD_H
 
+#include <asm/unistd.h>
+
 #endif /* _NBAPI_VOLTOS_UNISTD_H */

@@ -15,6 +15,9 @@
 #define ADMIN_GROUP_NAME_SIZE               	32
 #define EXT_ADMIN_GROUP_NAME_SIZE       	32
 
+#define ADMIN_GROUP_PRINT_SIZE_MAX		2048
+#define EXT_ADMIN_GROUP_POSITION_MAX		1024
+
 typedef __u32 					__admin_group_key_t;
 typedef __u32 					__ext_admin_group_key_t;
 

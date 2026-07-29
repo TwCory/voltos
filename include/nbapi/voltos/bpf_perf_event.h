@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_BPF_PERF_EVENT_H
 #define _NBAPI_VOLTOS_BPF_PERF_EVENT_H
 
+#include <asm/bpf_perf_event.h>
+
 #endif /* _NBAPI_VOLTOS_BPF_PERF_EVENT_H */
