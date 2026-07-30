@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/apollo.h
+ *
+ */
+
 #ifndef _VOLTOS_APOLLO_H
 #define _VOLTOS_APOLLO_H
 

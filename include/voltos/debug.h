@@ -9,4 +9,8 @@
 #ifndef _VOLTOS_DEBUG_H
 #define _VOLTOS_DEBUG_H
 
+struct debug_entry {
+
+};
+
 #endif /* _VOLTOS_DEBUG_H */

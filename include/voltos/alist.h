@@ -17,4 +17,8 @@ struct alist_node {
 
 };
 
+#define ALIST_HEAD_INIT(name)
+
+#define ALIST_HEAD(name)
+
 #endif /* _VOLTOS_ALIST_H */

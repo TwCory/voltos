@@ -8,4 +8,8 @@
 #include <voltos/stddef.h>
 #include <voltos/types.h>
 
+#define LIST_HEAD_INIT(name)
+
+#define LIST_HEAD(name)
+
 #endif /* _VOLTOS_LIST_H */

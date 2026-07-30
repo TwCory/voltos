@@ -3,8 +3,11 @@
 
 #include <nbapi/voltos/vlan.h>
 
-struct vlan_conf {
+typedef __voltos_vlan_id_t 		vlan_id_t;
 
+struct vlan {
+	const char 			vlan_name[VLAN_NAME_SIZE];
+	vlan_id_t 			vlan_id;
 };
 
 #endif /* _VOLTOS_VLAN_H */

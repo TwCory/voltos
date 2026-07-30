@@ -2,8 +2,10 @@
 #define _VOLTOS_COMPILER_ATTRIBUTES_H
 
 #define __alias(symbol)
-#define __aligned(x)
+
+#define __aligned(x)			__attribute__ ((__aligned__(x)))
 #define __aligned_largest
+
 #define __alloc_size__(x, ...)
 #define __always_inline
 #define __static_always_inline

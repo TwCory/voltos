@@ -3,4 +3,6 @@
 
 #include <voltos/types.h>
 
+typedef unsigned long __bitmap_t;
+
 #endif /* _VOLTOS_BITMAP_H */

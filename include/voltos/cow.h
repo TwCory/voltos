@@ -9,8 +9,13 @@
 #ifndef _VOLTOS_COW_H
 #define _VOLTOS_COW_H
 
-struct cow_head {
+#include <voltos/callback.h>
 
+struct cow_head {
+	struct callback_head 	*cow_callback;
 };
+
+typedef void (*cow_callback_t)(struct cow_head *head);
+typedef void (*call_cow_fn_t)(struct cow_head *head, cow_callback_t fn);
 
 #endif /* _VOLTOS_COW_H */

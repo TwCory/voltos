@@ -3,7 +3,7 @@
 /*
  *	include/voltos/acct.h
  *
- * 	General Accounting
+ * 	General Accounting Definitions
  */
 
 #ifndef _VOLTOS_ACCT_H

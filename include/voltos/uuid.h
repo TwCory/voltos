@@ -11,4 +11,9 @@
 
 #include <voltos/uuid_types.h>
 
+#define UUID_STRING_SIZE		36
+
+extern const guid_t 			guid_null;
+extern const uuid_t 			uuid_null;
+
 #endif /* _VOLTOS_UUID_H */

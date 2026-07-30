@@ -9,4 +9,8 @@ struct ts_root {
 
 };
 
+#define TS_ROOT
+#define TS_ROOT_CACHED
+#define TS_ROOT_LINKED
+
 #endif /* _VOLTOS_TSTREE_TYPES_H */

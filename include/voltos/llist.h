@@ -9,4 +9,8 @@ struct llist_node {
 
 };
 
+#define LLIST_HEAD_INIT(name)
+
+#define LLIST_HEAD(name)
+
 #endif /* _VOLTOS_LLIST_H */

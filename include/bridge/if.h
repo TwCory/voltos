@@ -1,8 +1,10 @@
 #ifndef _BRIDGE_IF_H
 #define _BRIDGE_IF_H
 
-struct br_interface {
+#include <voltos/if.h>
 
+struct br_interface {
+	struct interface *if_ptr;
 };
 
 #endif /* _BRIDGE_IF_H */

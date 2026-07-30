@@ -9,4 +9,8 @@ struct wb_root {
 
 };
 
+#define WB_ROOT
+#define WB_ROOT_CACHED
+#define WB_ROOT_LINKED
+
 #endif /* _VOLTOS_WBTREE_TYPES_H */

@@ -5,4 +5,8 @@ struct file {
 
 };
 
+struct file_descriptor {
+
+};
+
 #endif /* _VOLTOS_FILE_H */

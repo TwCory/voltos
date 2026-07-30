@@ -8,4 +8,8 @@ struct host_list {
 	__host_list_key_t		index;
 };
 
+struct host_list_entry {
+
+};
+
 #endif /* _VOLTOS_HOST_LIST_H */

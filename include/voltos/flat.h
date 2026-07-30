@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_FLAT_H
 #define _VOLTOS_FLAT_H
 
+struct flat_hdr {
+
+};
+
 #endif /* _VOLTOS_FLAT_H */

@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_XREF_H
 #define _VOLTOS_XREF_H
 
-struct xref {
+#include <voltos/refcount.h>
 
+struct xref {
+	refcount_t refcount;
 };
 
 #endif /* _VOLTOS_XREF_H */

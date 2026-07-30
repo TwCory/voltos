@@ -9,4 +9,8 @@ struct zip_root {
 
 };
 
+#define ZIP_ROOT
+#define ZIP_ROOT_CACHED
+#define ZIP_ROOT_LINKED
+
 #endif /* _VOLTOS_ZIPTREE_TYPES_H */

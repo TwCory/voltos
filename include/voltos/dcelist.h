@@ -9,4 +9,8 @@ struct dcelist_node {
 
 };
 
+#define DCELIST_HEAD_INIT(name)
+
+#define DCELIST_HEAD(name)
+
 #endif /* _VOLTOS_DCELIST_H */

@@ -9,4 +9,10 @@
 #ifndef _VOLTOS_WEAKREF_H
 #define _VOLTOS_WEAKREF_H
 
+#include <voltos/weakref_types.h>
+
+#ifndef __weakref
+#define __weakref
+#endif
+
 #endif /* _VOLTOS_WEAKREF_H */

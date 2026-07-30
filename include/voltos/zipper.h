@@ -5,4 +5,8 @@
 
 #include <voltos/zipper_types.h>
 
+#define ZIPPER_HEAD_INIT(name)
+
+#define ZIPPER_HEAD(name)
+
 #endif /* _VOLTOS_ZIPPER_H */

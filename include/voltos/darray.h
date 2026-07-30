@@ -6,7 +6,7 @@
  * 	Dynamic Array Data Structure
  */
 
-#ifndef _VOLTOS_Z_H
-#define _VOLTOS_Z_H
+#ifndef _VOLTOS_DARRAY_H
+#define _VOLTOS_DARRAY_H
 
-#endif /* _VOLTOS_Z_H */
+#endif /* _VOLTOS_DARRAY_H */

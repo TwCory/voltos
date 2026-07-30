@@ -17,4 +17,8 @@ struct xorlist_head {
 
 };
 
+#define XORLIST_HEAD_INIT(name)
+
+#define XORLIST_HEAD(name)
+
 #endif /* _VOLTOS_XORLIST_H */
