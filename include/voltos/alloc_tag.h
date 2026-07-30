@@ -25,4 +25,8 @@ struct alloc_tag_counters {
 	u64 calls;
 };
 
+struct alloc_tag {
+
+};
+
 #endif /* _VOLTOS_ALLOC_TAG_H */

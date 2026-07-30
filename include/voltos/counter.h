@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/counter.h>
 
+struct counter_device {
+
+};
+
 #endif /* _VOLTOS_COUNTER_H */

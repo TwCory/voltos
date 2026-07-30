@@ -9,4 +9,12 @@ struct list_node {
 
 };
 
+struct hlist_head {
+
+};
+
+struct hlist_node {
+
+};
+
 #endif /* _VOLTOS_LIST_TYPES_H */

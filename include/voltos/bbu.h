@@ -7,4 +7,8 @@ struct bbu {
 
 };
 
+struct bbu_device {
+
+};
+
 #endif /* _VOLTOS_BBU_H */
