@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ICC_H
 #define _VOLTOS_ICC_H
 
+#include <nbapi/voltos/icc.h>
+
 #endif /* _VOLTOS_ICC_H */

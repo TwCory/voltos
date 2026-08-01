@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/bitset.h
+ *
+ */
+
 #ifndef _VOLTOS_BITSET_H
 #define _VOLTOS_BITSET_H
 

@@ -1,5 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
+/*
+ *	include/voltos/uhash.h
+ *
+ */
+
 #ifndef _VOLTOS_UHASH_H
 #define _VOLTOS_UHASH_H
 

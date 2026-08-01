@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/object-group.h
+ *
+ */
+
 #ifndef _VOLTOS_OBJECT_GROUP_H
 #define _VOLTOS_OBJECT_GROUP_H
 

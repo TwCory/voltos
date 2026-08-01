@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_PSEUDO_FS_H
 #define _VOLTOS_PSEUDO_FS_H
 
+struct pseudo_fs_ctx {
+
+};
+
 #endif /* _VOLTOS_PSEUDO_FS_H */

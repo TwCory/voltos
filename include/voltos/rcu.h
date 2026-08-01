@@ -1,7 +1,18 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/rcu.h
+ *
+ */
+
 #ifndef _VOLTOS_RCU_H
 #define _VOLTOS_RCU_H
 
 #include <voltos/callback.h>
+
+#ifndef __rcu
+#define __rcu
+#endif /* __rcu */
 
 struct rcu_head {
 	struct callback_head *rcu_callback;

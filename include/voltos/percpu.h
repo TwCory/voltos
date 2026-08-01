@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/percpu.h
+ *
+ */
+
 #ifndef _VOLTOS_PERCPU_H
 #define _VOLTOS_PERCPU_H
 

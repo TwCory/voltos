@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/irda.h
+ *
+ */
+
 #ifndef _VOLTOS_IRDA_H
 #define _VOLTOS_IRDA_H
 

@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/xns.h
+ *
+ */
+
 #ifndef _VOLTOS_XNS_H
 #define _VOLTOS_XNS_H
 

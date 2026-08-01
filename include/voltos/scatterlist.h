@@ -13,4 +13,24 @@ struct scatterlist {
 
 };
 
+struct sg_table {
+
+};
+
+struct sg_append_table {
+
+};
+
+struct sg_page_iter {
+
+};
+
+struct sg_dma_page_iter {
+
+};
+
+struct sg_mapping_iter {
+
+};
+
 #endif /* _VOLTOS_SCATTERLIST_H */

@@ -1,6 +1,10 @@
 #ifndef _VOLTOS_RTMUTEX_TYPES_H
 #define _VOLTOS_RTMUTEX_TYPES_H
 
+struct rtmutex_base {
+
+};
+
 typedef struct rtmutex_s {
 
 } rtmutex_t;

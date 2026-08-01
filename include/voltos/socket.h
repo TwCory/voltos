@@ -27,6 +27,10 @@ struct cmsghdr {
 
 };
 
+struct ucred {
+
+};
+
 #define AF_UNSPEC       0
 #define AF_INET             1
 

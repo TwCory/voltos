@@ -9,4 +9,8 @@
 #ifndef _VOLTOS_SPARSE_MATRIX_H
 #define _VOLTOS_SPARSE_MATRIX_H
 
+struct sparse_matrix_head {
+
+};
+
 #endif /* _VOLTOS_SPARSE_MATRIX_H */

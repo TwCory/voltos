@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/bsearch.h
+ *
+ */
+
 #ifndef _VOLTOS_BSEARCH_H
 #define _VOLTOS_BSEARCH_H
 
