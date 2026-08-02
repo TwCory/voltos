@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/if_l2vpn.h
+ *
+ */
+
 #ifndef _VOLTOS_IF_L2VPN_H
 #define _VOLTOS_IF_L2VPN_H
 

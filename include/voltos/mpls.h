@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/mpls.h
+ *
+ */
+
 #ifndef _VOLTOS_MPLS_H
 #define _VOLTOS_MPLS_H
 

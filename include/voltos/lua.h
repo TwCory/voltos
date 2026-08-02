@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/lua.h
+ *
+ */
+
 #ifndef _VOLTOS_LUA_H
 #define _VOLTOS_LUA_H
 

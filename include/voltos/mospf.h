@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/mospf.h
+ *
+ */
+
 #ifndef _VOLTOS_MOSPF_H
 #define _VOLTOS_MOSPF_H
 

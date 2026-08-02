@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MODEM_H
 #define _VOLTOS_MODEM_H
 
+#include <nbapi/voltos/modem.h>
+
 #endif /* _VOLTOS_MODEM_H */

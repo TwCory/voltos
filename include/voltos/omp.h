@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_OMP_H
 #define _VOLTOS_OMP_H
 
+#include <nbapi/voltos/omp.h>
+
 #endif /* _VOLTOS_OMP_H */

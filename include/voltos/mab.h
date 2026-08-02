@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MAB_H
 #define _VOLTOS_MAB_H
 
+#include <nbapi/voltos/mab.h>
+
 #endif /* _VOLTOS_MAB_H */
