@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_UPNP_H
 #define _VOLTOS_UPNP_H
 
+struct upnp_global_conf {
+
+};
+
 #endif /* _VOLTOS_UPNP_H */

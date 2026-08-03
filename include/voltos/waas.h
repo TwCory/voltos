@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/waas.h>
 
+struct waas_global_conf {
+
+};
+
+struct waas_interface_conf {
+
+};
+
 #endif /* _VOLTOS_WAAS_H */

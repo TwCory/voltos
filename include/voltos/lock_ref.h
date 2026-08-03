@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_LOCK_REF_H
 #define _VOLTOS_LOCK_REF_H
 
+#include <voltos/spinlock.h>
+
 typedef struct lock_ref_s {
 
 } lock_ref_t;

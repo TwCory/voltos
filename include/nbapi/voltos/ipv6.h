@@ -11,10 +11,30 @@
 
 #include <voltos/types.h>
 
-#define IPV6_ETHERTYPE		0x86DD
-#define IPV6_VERSION		6
+#define IPV6_ETHERTYPE					0x86DD
+#define IPV6_VERSION					6
 
-struct ip6_hdr {
+#define IPV6_HOP_LIMIT_DEFAULT				64
+
+#define IPV6_MTU_SIZE_MIN				1280
+#define IPV6_MTU_SIZE_MAX				9976
+
+#define IPV6_TCP_MSS_SIZE_MIN				40
+#define IPV6_TCP_MSS_SIZE_MAX				1454
+
+#define IPV6_GENERAL_PREFIX_NAME_SIZE			32
+
+enum ipv6_address_method {
+	IPV6_ADDRESS_METHOD_T_UNSPEC			= 0,
+	IPV6_ADDRESS_METHOD_T_DHCP			= 1,
+	IPV6_ADDRESS_METHOD_T_LINK_LOCAL		= 2,
+	IPV6_ADDRESS_METHOD_T_PREFIX			= 3,
+	IPV6_ADDRESS_METHOD_T_PREFIX_LIST		= 4,
+	IPV6_ADDRESS_METHOD_T_SLAAC			= 5,
+	__IPV6_ADDRESS_METHOD_T_MAX__
+};
+
+struct ipv6_hdr {
 
 };
 

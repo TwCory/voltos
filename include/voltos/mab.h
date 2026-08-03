@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/mab.h>
 
+struct mab_global_conf {
+
+};
+
 #endif /* _VOLTOS_MAB_H */

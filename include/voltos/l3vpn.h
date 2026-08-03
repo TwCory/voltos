@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/l3vpn.h>
 
+struct l3vpn_global_conf {
+
+};
+
 #endif /* _VOLTOS_L3VPN_H */

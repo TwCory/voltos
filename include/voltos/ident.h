@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/ident.h>
 
+struct ident_global_conf {
+
+};
+
 #endif /* _VOLTOS_IDENT_H */

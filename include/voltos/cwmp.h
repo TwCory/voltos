@@ -3,4 +3,8 @@
 
 #include <nbapi/voltos/cwmp.h>
 
+struct cwmp_global_conf {
+
+};
+
 #endif /* _VOLTOS_CWMP_H */

@@ -10,6 +10,10 @@
 
 #include <nbapi/voltos/bfd.h>
 
+struct bfd_global_conf {
+
+};
+
 struct bfd_profile {
 
 };

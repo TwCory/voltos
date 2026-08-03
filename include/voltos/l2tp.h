@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/l2tp.h>
 
+struct l2tp_global_conf {
+
+};
+
 #endif /* _VOLTOS_L2TP_H */

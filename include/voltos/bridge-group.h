@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/bridge-group.h>
 
+struct br_group_global_conf {
+
+};
+
 #endif /* _VOLTOS_BRIDGE_GROUP_H */

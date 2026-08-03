@@ -10,5 +10,8 @@
 
 #include <nbapi/voltos/alps.h>
 
+struct alps_global_conf {
+
+};
 
 #endif /* _VOLTOS_ALPS_H */

@@ -12,6 +12,10 @@
 
 typedef __voltos_vrf_id_t 		vrf_id_t;
 
+struct vrf_conf {
+
+};
+
 struct vrf {
 	const char 			vrf_name[VRF_NAME_SIZE];
 	vrf_id_t 			vrf_id;

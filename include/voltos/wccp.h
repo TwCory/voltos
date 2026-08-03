@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/wccp.h>
 
+struct wccp_global_conf {
+
+};
+
+struct wccp_interface_conf {
+
+};
+
 #endif /* _VOLTOS_WCCP_H */

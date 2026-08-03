@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/bier.h>
 
+struct bier_global_conf {
+
+};
+
+struct bier_interface_conf {
+
+};
+
 #endif /* _VOLTOS_BIER_H */

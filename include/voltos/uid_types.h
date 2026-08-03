@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_UID_TYPES_H
 #define _VOLTOS_UID_TYPES_H
 
+#include <voltos/types.h>
+
+typedef struct {
+	uid_t value;
+} voltos_uid_t;
+
 #endif /* _VOLTOS_UID_TYPES_H */

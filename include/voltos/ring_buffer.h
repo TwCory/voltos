@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *	include/voltos/
+ *	include/voltos/ring_buffer.h
  *
  */
 

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SSL_PROXY_H
 #define _VOLTOS_SSL_PROXY_H
 
+#include <nbapi/voltos/ssl_proxy.h>
+
 #endif /* _VOLTOS_SSL_PROXY_H */

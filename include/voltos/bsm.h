@@ -11,4 +11,8 @@
 
 #include <nbapi/voltos/bsm.h>
 
+struct bsm_global_conf {
+
+};
+
 #endif /* _VOLTOS_BSM_H */

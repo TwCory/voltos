@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/rhashtable-type.h
+ *
+ */
+
 #ifndef _VOLTOS_RHASHTABLE_TYPE_H
 #define _VOLTOS_RHASHTABLE_TYPE_H
 

@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_X28_H
 #define _VOLTOS_X28_H
 
+struct x28_global_conf {
+
+};
+
+struct x28_interface_conf {
+
+};
+
 #endif /* _VOLTOS_X28_H */

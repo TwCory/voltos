@@ -11,7 +11,7 @@
 #include <nbapi/voltos/locaddr-priority-list.h>
 
 struct locaddr_priority_list {
-
+	const char name[LOCADDR_PRIORITY_LIST_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_LOCADDR_PRIORITY_LIST_H */

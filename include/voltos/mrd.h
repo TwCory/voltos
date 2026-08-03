@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/mrd.h>
 
+struct mrd_global_conf {
+
+};
+
+struct mrd_interface_conf {
+
+};
+
 #endif /* _VOLTOS_MRD_H */

@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/fabric.h>
 
+struct fabric_global_conf {
+
+};
+
 #endif /* _VOLTOS_FABRIC_H */

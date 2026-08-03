@@ -25,4 +25,8 @@ struct splay_root_linked {
 
 };
 
+#define SPLAY_ROOT
+#define SPLAY_ROOT_CACHED
+#define SPLAY_ROOT_LINKED
+
 #endif /* _VOLTOS_SPLAY_TREE_H */

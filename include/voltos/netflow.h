@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/netflow.h>
 
+struct netflow_global_conf {
+
+};
+
 #endif /* _VOLTOS_NETFLOW_H */

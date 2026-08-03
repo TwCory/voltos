@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/mld.h>
 
+struct mld_global_conf {
+
+};
+
+struct mld_interface_conf {
+
+};
+
 #endif /* _VOLTOS_MLD_H */

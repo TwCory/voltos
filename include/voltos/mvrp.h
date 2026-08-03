@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/mvrp.h>
 
+struct mvrp_global_conf {
+
+};
+
+struct mvrp_interface_conf {
+
+};
+
 #endif /* _VOLTOS_MVRP_H */

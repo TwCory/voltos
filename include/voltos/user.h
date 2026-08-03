@@ -12,6 +12,10 @@
 #define __user
 #endif /* __user */
 
+struct user_global_conf {
+
+};
+
 struct user {
 
 };

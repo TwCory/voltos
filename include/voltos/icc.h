@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/icc.h>
 
+struct icc_global_conf {
+
+};
+
 #endif /* _VOLTOS_ICC_H */

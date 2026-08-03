@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/gvrp.h>
 
+struct gvrp_global_conf {
+
+};
+
+struct gvrp_interface_conf {
+
+};
+
 #endif /* _VOLTOS_GVRP_H */

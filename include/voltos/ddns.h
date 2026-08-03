@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/ddns.h>
 
+struct ddns_global_conf {
+
+};
+
 #endif /* _VOLTOS_DDNS_H */

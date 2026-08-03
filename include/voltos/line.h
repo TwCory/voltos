@@ -10,7 +10,7 @@
 
 #include <nbapi/voltos/line.h>
 
-struct line {
+struct line_global_conf {
 
 };
 

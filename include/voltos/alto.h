@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/alto.h>
 
+struct alto_global_conf {
+
+};
+
+struct alto_interface_conf {
+
+};
+
 #endif /* _VOLTOS_ALTO_H */

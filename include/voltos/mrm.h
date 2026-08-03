@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/mrm.h>
 
+struct mrm_global_conf {
+
+};
+
+struct mrm_interface_conf {
+
+};
+
 #endif /* _VOLTOS_MRM_H */

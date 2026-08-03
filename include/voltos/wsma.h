@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/wsma.h>
 
+struct wsma_global_conf {
+
+};
+
+struct wsma_interface_conf {
+
+};
+
 #endif /* _VOLTOS_WSMA_H */

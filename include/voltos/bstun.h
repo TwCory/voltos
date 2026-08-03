@@ -11,4 +11,12 @@
 
 #include <nbapi/voltos/bstun.h>
 
+struct bstun_global_conf {
+
+};
+
+struct bstun_interface_conf {
+
+};
+
 #endif /* _VOLTOS_BSTUN_H */

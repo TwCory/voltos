@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/vpdn.h>
 
+struct vpdn_global_conf {
+
+};
+
 #endif /* _VOLTOS_VPDN_H */

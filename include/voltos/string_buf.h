@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_STRING_BUF_H
-#define _VOLTOS_STRING_BUF_H
-
-#endif /* _VOLTOS_STRING_BUF_H */

@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/ixi.h>
 
+struct ixi_global_conf {
+
+};
+
 #endif /* _VOLTOS_IXI_H */

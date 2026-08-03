@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/iscsi.h>
 
+struct iscsi_global_conf {
+
+};
+
+struct iscsi_interface_conf {
+
+};
+
 #endif /* _VOLTOS_ISCSI_H */

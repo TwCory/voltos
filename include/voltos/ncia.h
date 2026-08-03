@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/ncia.h>
 
+struct ncia_global_conf {
+
+};
+
+struct ncia_interface_conf {
+
+};
+
 #endif /* _VOLTOS_NCIA_H */

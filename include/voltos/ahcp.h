@@ -10,7 +10,11 @@
 
 #include <nbapi/voltos/ahcp.h>
 
-struct ahcp_pool {
+struct ahcp_global_conf {
+
+};
+
+struct ahcp_interface_conf {
 
 };
 

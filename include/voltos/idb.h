@@ -3,6 +3,7 @@
 /*
  *	include/voltos/idb.h
  *
+ * 	Interface Descriptor Block (IDB)
  */
 
 #ifndef _VOLTOS_IDB_H
