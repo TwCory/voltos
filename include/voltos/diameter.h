@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/diameter.h>
 
+struct diameter_peer {
+
+};
+
 #endif /* _VOLTOS_DIAMETER_H */

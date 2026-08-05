@@ -10,11 +10,11 @@
 
 #include <nbapi/voltos/iscsi.h>
 
-struct iscsi_global_conf {
+struct iscsi_target {
 
 };
 
-struct iscsi_interface_conf {
+struct iscsi_statistics {
 
 };
 

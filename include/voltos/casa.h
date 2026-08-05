@@ -10,4 +10,16 @@
 
 #include <nbapi/voltos/casa.h>
 
+struct casa_affinity {
+
+};
+
+struct casa_statistics {
+
+};
+
+struct casa_wildcard {
+
+};
+
 #endif /* _VOLTOS_CASA_H */

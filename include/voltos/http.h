@@ -10,7 +10,15 @@
 
 #include <nbapi/voltos/http.h>
 
-struct http_global_conf {
+struct http_client {
+
+};
+
+struct http_server {
+
+};
+
+struct http_secure_server {
 
 };
 

@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/clock_provider.h
+ *
+ */
+
 #ifndef _VOLTOS_CLOCK_PROVIDER_H
 #define _VOLTOS_CLOCK_PROVIDER_H
 

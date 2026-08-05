@@ -10,7 +10,31 @@
 
 #include <nbapi/voltos/bgp.h>
 
-struct bgp_router_conf {
+struct bgp_community {
+
+};
+
+struct bgp_community_list {
+
+};
+
+struct bgp_extcommunity_list {
+
+};
+
+struct bgp_filter_list {
+
+};
+
+struct bgp_peer_group {
+
+};
+
+struct bgp_regex {
+
+};
+
+struct bgp_update_group {
 
 };
 

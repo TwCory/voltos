@@ -10,19 +10,7 @@
 
 #include <nbapi/voltos/decnet.h>
 
-struct decnet_global_conf {
-
-};
-
-struct decnet_interface_conf {
-
-};
-
-struct decnet_host_conf {
-
-};
-
-struct decnet_route_conf {
+struct decnet_acct {
 
 };
 

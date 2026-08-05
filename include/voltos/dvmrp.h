@@ -10,11 +10,7 @@
 
 #include <nbapi/voltos/dvmrp.h>
 
-struct dvmrp_global_conf {
-
-};
-
-struct dvmrp_interface_conf {
+struct dvmrp_route {
 
 };
 

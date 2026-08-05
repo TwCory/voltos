@@ -14,6 +14,10 @@
 
 struct ip_global_conf {
 	ipv4_addr_t				default_gateway;
+	bool 					host_routing;
+	bool 					multicast_routing;
+	bool 					routing;
+	bool 					source_route;
 };
 
 struct ip_interface_conf {

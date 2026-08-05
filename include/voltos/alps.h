@@ -10,7 +10,15 @@
 
 #include <nbapi/voltos/alps.h>
 
-struct alps_global_conf {
+struct alps_local_peer {
+
+};
+
+struct alps_primary_peer {
+
+};
+
+struct alps_remote_peer {
 
 };
 

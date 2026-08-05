@@ -8,11 +8,7 @@
 #ifndef _VOLTOS_EAP_H
 #define _VOLTOS_EAP_H
 
-struct eap_global_conf {
-
-};
-
-struct eou_global_conf {
+struct eap_registration {
 
 };
 

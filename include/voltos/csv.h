@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/csv.h
+ *
+ */
+
 #ifndef _VOLTOS_CSV_H
 #define _VOLTOS_CSV_H
 

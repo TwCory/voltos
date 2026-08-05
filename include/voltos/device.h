@@ -3,6 +3,7 @@
 /*
  *	include/voltos/device.h
  *
+ * 	Global Device Driver Interface
  */
 
 #ifndef _VOLTOS_DEVICE_H

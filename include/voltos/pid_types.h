@@ -11,7 +11,7 @@
 #include <voltos/types.h>
 
 typedef struct {
-	pid_t value;
+	pid_t 		value;
 } voltos_pid_t;
 
 #endif /* _VOLTOS_PID_TYPES_H */

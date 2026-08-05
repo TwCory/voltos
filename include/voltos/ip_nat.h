@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/ip_nat.h>
 
+struct ip_nat_pool {
+
+};
+
+struct ip_nat_statistics {
+
+};
+
 #endif /* _VOLTOS_IP_NAT_H */

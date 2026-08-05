@@ -10,7 +10,11 @@
 
 #include <nbapi/voltos/ddns.h>
 
-struct ddns_global_conf {
+struct ddns_update {
+
+};
+
+struct ddns_update_method {
 
 };
 

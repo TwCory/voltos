@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_PERCPU_DEFS_H
 #define _VOLTOS_PERCPU_DEFS_H
 
+#ifndef __percpu
+#define __percpu
+#endif /* __percpu */
+
 #endif /* _VOLTOS_PERCPU_DEFS_H */

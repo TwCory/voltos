@@ -10,7 +10,11 @@
 
 #include <nbapi/voltos/dhcp.h>
 
-struct dhcp_global_conf {
+struct dhcp_conflict {
+
+};
+
+struct dhcp_pool {
 
 };
 

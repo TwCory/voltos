@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_STACK_DEVICE_H
 #define _VOLTOS_STACK_DEVICE_H
 
-struct stack_device {
+#include <voltos/device.h>
 
+struct stack_device {
+	struct device *device;
 };
 
 #endif /* _VOLTOS_STACK_DEVICE_H */

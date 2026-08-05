@@ -8,13 +8,18 @@
 #ifndef _VOLTOS_DLSW_H
 #define _VOLTOS_DLSW_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/dlsw.h>
 
-struct dlsw_global_conf {
+struct dlsw_circuit {
 
 };
 
-struct dlsw_interface_conf {
+struct dlsw_local_circuit {
+
+};
+
+struct dlsw_peer {
 
 };
 

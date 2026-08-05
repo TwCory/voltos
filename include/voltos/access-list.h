@@ -21,4 +21,12 @@ struct access_list {
 	};
 };
 
+struct access_list_compiled {
+
+};
+
+struct access_list_ratelimit {
+
+};
+
 #endif /* _VOLTOS_ACCESS_LIST_H */

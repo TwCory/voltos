@@ -11,7 +11,7 @@
 #include <nbapi/voltos/l2tp-class.h>
 
 struct l2tp_class {
-
+	const char name[L2TP_CLASS_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_L2TP_CLASS_H */

@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_PORT_DEVICE_H
 #define _VOLTOS_PORT_DEVICE_H
 
-struct port_device {
+#include <voltos/device.h>
 
+struct port_device {
+	struct device *device;
 };
 
 #endif /* _VOLTOS_PORT_DEVICE_H */

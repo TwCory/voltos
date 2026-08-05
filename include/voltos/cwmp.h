@@ -3,7 +3,15 @@
 
 #include <nbapi/voltos/cwmp.h>
 
-struct cwmp_global_conf {
+struct cwmp_agent {
+
+};
+
+struct cwmp_method {
+
+};
+
+struct cwmp_param {
 
 };
 

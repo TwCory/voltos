@@ -17,6 +17,7 @@ struct blist_node {
 };
 
 #define BLIST_HEAD_INIT(name)
+
 #define BLIST_HEAD(name)
 
 #endif /* _VOLTOS_BLIST_H */

@@ -10,7 +10,7 @@
 
 #include <nbapi/voltos/dhcpv6.h>
 
-struct dhcpv6_global_conf {
+struct dhcpv6_pool {
 
 };
 

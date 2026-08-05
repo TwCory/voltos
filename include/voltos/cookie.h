@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/cookie.h
+ *
+ */
+
 #ifndef _VOLTOS_COOKIE_H
 #define _VOLTOS_COOKIE_H
 

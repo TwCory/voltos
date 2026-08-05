@@ -9,6 +9,8 @@
 #ifndef _VOLTOS_ALIST_H
 #define _VOLTOS_ALIST_H
 
+struct alist_node;
+
 struct alist_head {
 
 };
