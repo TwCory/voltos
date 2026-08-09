@@ -10,5 +10,6 @@
 #define _NBAPI_VOLTOS_ELF_H
 
 #include <asm/elf.h>
+#include <voltos/types.h>
 
 #endif /* _NBAPI_VOLTOS_ELF_H */

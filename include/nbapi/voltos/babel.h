@@ -11,8 +11,9 @@
 
 #include <voltos/types.h>
 
-#define BABEL_VERSION					1
+#define BABEL_VERSION					2
 #define BABEL_PORT					6696
+#define BABEL_MAGIC					42
 
 enum {
 	BABEL_TLV_T_PAD1				= 0,
@@ -103,7 +104,9 @@ enum babel_afi {
 };
 
 struct babel_hdr {
-
+	__u8						magic;
+	__u8						version;
+	__net16						body_length;
 };
 
 #endif /* _NBAPI_VOLTOS_BABEL_H */

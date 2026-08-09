@@ -10,5 +10,6 @@
 #define _NBAPI_VOLTOS_IOCTL_H
 
 #include <asm/ioctl.h>
+#include <asm/ioctls.h>
 
 #endif /* _NBAPI_VOLTOS_IOCTL_H */

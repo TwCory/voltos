@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/host_list.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_HOST_LIST_H
 #define _NBAPI_VOLTOS_HOST_LIST_H
 

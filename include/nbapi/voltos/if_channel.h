@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/if_channel.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_IF_CHANNEL_H
 #define _NBAPI_VOLTOS_IF_CHANNEL_H
 

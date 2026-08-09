@@ -11,4 +11,6 @@
 #ifndef _NBAPI_VOLTOS_BGP_RPKI_H
 #define _NBAPI_VOLTOS_BGP_RPKI_H
 
+#define BGP_RPKI_PORT			323
+
 #endif /* _NBAPI_VOLTOS_BGP_RPKI_H */

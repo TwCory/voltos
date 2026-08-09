@@ -1,19 +1,27 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/types.h
+ *
+ * 	General Data Type Definitions
+ */
+
 #ifndef _NBAPI_VOLTOS_TYPES_H
 #define _NBAPI_VOLTOS_TYPES_H
 
 #include <nbapi/voltos/posix_types.h>
 
-typedef __s_char 				__s8;
-typedef __u_char 				__u8;
+typedef signed char 				__s8;
+typedef unsigned char 				__u8;
 
-typedef __s_short 				__s16;
-typedef __u_short 				__u16;
+typedef signed short 				__s16;
+typedef unsigned short 				__u16;
 
-typedef __s_int 				__s32;
-typedef __u_int 				__u32;
+typedef signed int 				__s32;
+typedef unsigned int 				__u32;
 
-typedef __s_llong 				__s64;
-typedef __u_llong 				__u64;
+typedef signed long long 			__s64;
+typedef unsigned long long 			__u64;
 
 #ifdef __SIZEOF_INT128__
 typedef signed __int128 			__s128;
@@ -51,8 +59,8 @@ typedef __u128 __attribute__ ((bitwise)) 	__host128;
 typedef __u16 __attribute__ ((bitwise)) 	__csum16;
 typedef __u32 __attribute__ ((bitwise)) 	__csum32;
 
-typedef __u_char 				__byte;
-typedef __u_char 				__octet;
-typedef __u_short 				__hextet;
+typedef unsigned char 				__byte;
+typedef unsigned char 				__octet;
+typedef unsigned short 				__hextet;
 
 #endif /* _NBAPI_VOLTOS_TYPES_H */

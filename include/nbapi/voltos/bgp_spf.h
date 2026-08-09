@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/bgp_spf.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_BGP_SPF_H
 #define _NBAPI_VOLTOS_BGP_SPF_H
 

@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/tcp.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_TCP_H
 #define _NBAPI_VOLTOS_TCP_H
 

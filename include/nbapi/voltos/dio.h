@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
-/* Digital Input/Output */
+/*
+ *      include/nbapi/voltos/dio.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_DIO_H
 #define _NBAPI_VOLTOS_DIO_H
 

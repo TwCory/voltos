@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/ssh.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_SSH_H
 #define _NBAPI_VOLTOS_SSH_H
 

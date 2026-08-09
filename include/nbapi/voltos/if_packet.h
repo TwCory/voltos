@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/if_packet.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_IF_PACKET_H
 #define _NBAPI_VOLTOS_IF_PACKET_H
 

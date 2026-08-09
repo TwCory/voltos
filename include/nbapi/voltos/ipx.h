@@ -15,13 +15,21 @@
 #define IPX_NODE_SIZE			6
 #define IPX_MTU				576
 
+struct ipx_network {
+	__net32				s_net;
+};
+
+struct ipx_node {
+	__u8				s_node[IPX_NODE_SIZE];
+};
+
 struct sockaddr_ipx {
-	__voltos_sa_family_t 		sipx_family;
-	__net16 			sipx_port;
-	__net32 			sipx_network;
-	unsigned char 			sipx_node[IPX_NODE_SIZE];
-	__u8 				sipx_type;
-	unsigned char 			sipx_zero;
+	__voltos_sa_family_t		sipx_family;
+	__net16				sipx_port;
+	struct ipx_network		sipx_network;
+	struct ipx_node			sipx_node;
+	__u8				sipx_type;
+	unsigned char			sipx_zero;
 };
 #define sipx_special			sipx_port
 #define sipx_action			sipx_zero

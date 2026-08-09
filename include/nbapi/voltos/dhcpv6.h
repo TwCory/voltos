@@ -1,3 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/dhcpv6.h
+ *
+ *	Dynamic Host Configuration Protocol for IPv6 (DHCPv6)
+ */
+
 #ifndef _NBAPI_VOLTOS_DHCPV6_H
 #define _NBAPI_VOLTOS_DHCPV6_H
 
@@ -8,7 +16,7 @@
 
 #define DHCPV6_POOL_NAME_SIZE		32
 
-struct dhcp6_msg {
+struct dhcpv6_msg {
 
 };
 

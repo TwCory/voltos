@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mbuf_chain.h
  *
+ * 	Message Buffer Chains
  */
 
 #ifndef _VOLTOS_MBUF_CHAIN_H

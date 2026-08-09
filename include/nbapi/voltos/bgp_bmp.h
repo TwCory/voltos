@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/bgp_bmp.h
+ *
+ *	BGP Monitoring Protocol (BMP) Definitions
+ */
+
+#ifndef _NBAPI_VOLTOS_BGP_BMP_H
+#define _NBAPI_VOLTOS_BGP_BMP_H
+
+#endif /* _NBAPI_VOLTOS_BGP_BMP_H */

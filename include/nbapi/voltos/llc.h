@@ -13,7 +13,14 @@
 #include <voltos/types.h>
 
 struct sockaddr_llc {
-	__voltos_sa_family_t sllc_family;
+	__voltos_sa_family_t		sllc_family;
+	__voltos_sa_family_t		sllc_arphrd;
+	unsigned char			sllc_test;
+	unsigned char			sllc_xid;
+	unsigned char			sllc_ua;
+	unsigned char			sllc_sap;
+	unsigned char			sllc_mac;
+	unsigned char			__pad;
 };
 
 #endif /* _NBAPI_VOLTOS_LLC_H */

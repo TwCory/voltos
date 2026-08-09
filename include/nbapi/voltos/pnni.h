@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/pnni.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_PNNI_H
 #define _NBAPI_VOLTOS_PNNI_H
 

@@ -13,7 +13,11 @@
 #include <voltos/types.h>
 
 struct sockaddr_econet {
-	__voltos_sa_family_t seconet_family;
+	__voltos_sa_family_t		seconet_family;
+	__u8				seconet_port;
+	__u8				seconet_station;
+	__u8				seconet_net;
+	unsigned long			seconet_cookie;
 };
 
 #endif /* _NBAPI_VOLTOS_ECONET_H */

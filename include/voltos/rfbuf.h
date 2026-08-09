@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *	include/voltos/rfbuf.h
+ *      include/voltos/rfbuf.h
  *
- * 	Remote Frame Buffers
+ *	Remote Frame Buffer
  */
 
 #ifndef _VOLTOS_RFBUF_H
 #define _VOLTOS_RFBUF_H
 
-struct rfbuf {
+struct rf_buf {
 
 };
 

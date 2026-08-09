@@ -9,6 +9,11 @@
 #ifndef _NBAPI_VOLTOS_LAT_H
 #define _NBAPI_VOLTOS_LAT_H
 
-#include <voltos/types.h>
+#include <voltos/socket.h>
+
+struct sockaddr_lat {
+	__voltos_sa_family_t		slat_family;
+};
+
 
 #endif /* _NBAPI_VOLTOS_LAT_H */

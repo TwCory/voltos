@@ -1,8 +1,14 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/x25.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_X25_H
 #define _NBAPI_VOLTOS_X25_H
 
 #include <voltos/socket.h>
-#include <voltos/types.h>
 
 #define X25_ADDR_SIZE			15
 

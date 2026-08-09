@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_USER_GROUPS_H
 #define _VOLTOS_USER_GROUPS_H
 
+#include <nbapi/voltos/user_groups.h>
+
 struct user_group {
 
 };

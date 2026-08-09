@@ -11,4 +11,6 @@
 
 #include <voltos/types.h>
 
+#define IPFIX_PORT		4739
+
 #endif /* _NBAPI_VOLTOS_IPFIX_H */

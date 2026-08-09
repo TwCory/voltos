@@ -1,7 +1,17 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/ip_sla.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_IP_SLA_H
 #define _NBAPI_VOLTOS_IP_SLA_H
 
 #include <voltos/types.h>
+
+#define IP_SLA_PORT					1167
+#define IP_SLA_CONTROL_PORT				1967
 
 enum sla_type {
 	SLA_TYPE_T_NONE					= 0,

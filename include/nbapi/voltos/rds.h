@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/rds.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_RDS_H
 #define _NBAPI_VOLTOS_RDS_H
 

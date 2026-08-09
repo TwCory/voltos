@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/wanpipe.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_WANPIPE_H
 #define _NBAPI_VOLTOS_WANPIPE_H
 

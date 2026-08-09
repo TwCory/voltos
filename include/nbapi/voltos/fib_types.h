@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/fib_types.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_FIB_TYPES_H
 #define _NBAPI_VOLTOS_FIB_TYPES_H
 

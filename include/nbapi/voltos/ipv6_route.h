@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/ipv6_route.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_IPV6_ROUTE_H
 #define _NBAPI_VOLTOS_IPV6_ROUTE_H
 

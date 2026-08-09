@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/sna.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_SNA_H
 #define _NBAPI_VOLTOS_SNA_H
 

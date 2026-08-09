@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mbuf_msg.h
  *
+ * 	Message Buffer Message Details
  */
 
 #ifndef _VOLTOS_MBUF_MSG_H

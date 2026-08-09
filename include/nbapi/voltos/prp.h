@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/prp.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_PRP_H
 #define _NBAPI_VOLTOS_PRP_H
 

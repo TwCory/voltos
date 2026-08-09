@@ -14,28 +14,30 @@
 #define BGP_VERSION				4
 #define BGP_PORT				179
 
-enum bgp_afi {
-	BGP_AFI_T_UNSPEC			= 0,
-	BGP_AFI_T_IPV4_FLOWSPEC			= 1,
-	BGP_AFI_T_IPV4_MDT			= 2,
-	BGP_AFI_T_IPV4_MULTICAST		= 3,
-	BGP_AFI_T_IPV4_MVPN			= 4,
-	BGP_AFI_T_IPV4_UNICAST			= 5,
-	BGP_AFI_T_IPV6_FLOWSPEC			= 6,
-	BGP_AFI_T_IPV6_MULTICAST		= 7,
-	BGP_AFI_T_IPV6_MVPN			= 8,
-	BGP_AFI_T_IPV6_UNICAST			= 9,
-	BGP_AFI_T_L2VPN_EVPN			= 10,
-	BGP_AFI_T_L2VPN_VPLS			= 11,
-	BGP_AFI_T_NSAP_UNICAST			= 12,
-	BGP_AFI_T_RTFILTER_UNICAST		= 13,
-	BGP_AFI_T_VPNV4_FLOWSPEC		= 14,
-	BGP_AFI_T_VPNV4_MULTICAST		= 15,
-	BGP_AFI_T_VPNV4_UNICAST			= 16,
-	BGP_AFI_T_VPNV6_FLOWSPEC		= 17,
-	BGP_AFI_T_VPNV6_MULTICAST		= 18,
-	BGP_AFI_T_VPNV6_UNICAST			= 19,
-	__BGP_AFI_T_MAX__
+struct bgp_hdr {
+	__u8					marker[16];
+	__net16					length;
+	__u8					type;
+};
+
+struct bgp_open_msg {
+
+};
+
+struct bgp_update_msg {
+
+};
+
+struct bgp_notification_msg {
+
+};
+
+struct bgp_keepalive_msg {
+
+};
+
+struct bgp_route_refresh_msg {
+
 };
 
 #endif /* _NBAPI_VOLTOS_BGP_H */

@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/vlan.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_VLAN_H
 #define _NBAPI_VOLTOS_VLAN_H
 

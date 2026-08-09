@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/ppp.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_PPP_H
 #define _NBAPI_VOLTOS_PPP_H
 

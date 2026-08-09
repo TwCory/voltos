@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/mpls_ldp.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_MPLS_LDP_H
 #define _NBAPI_VOLTOS_MPLS_LDP_H
 

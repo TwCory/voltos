@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/socket.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_SOCKET_H
 #define _NBAPI_VOLTOS_SOCKET_H
 
@@ -5,7 +12,7 @@
 
 typedef __u16 				__voltos_sa_family_t;
 
-struct __voltos_sa_storage {
+struct __voltos_sockaddr_storage {
 	__voltos_sa_family_t 		ss_family;
 	void 				*ss_data;
 };

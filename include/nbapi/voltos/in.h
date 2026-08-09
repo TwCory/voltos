@@ -354,38 +354,38 @@ struct ip_msfilter {
 
 struct group_req {
 	__u32 							gr_interface;
-	struct __voltos_sa_storage				gr_group;
+	struct __voltos_sockaddr_storage			gr_group;
 };
 
 struct group_source_req {
 	__u32							gsr_interface;
-	struct __voltos_sa_storage				gsr_group;
-	struct __voltos_sa_storage				gsr_source;
+	struct __voltos_sockaddr_storage			gsr_group;
+	struct __voltos_sockaddr_storage			gsr_source;
 };
 
 struct group_filter {
 	union {
 		struct {
 			__u32					gf_interface_aux;
-			struct __voltos_sa_storage		gf_group_aux;
+			struct __voltos_sockaddr_storage	gf_group_aux;
 			__u32					gf_fmode_aux;
 			__u32					gf_numsrc_aux;
-			struct __voltos_sa_storage		gf_slist[1];
+			struct __voltos_sockaddr_storage	gf_slist[1];
 		};
 		struct {
 			__u32					gf_interface;
-			struct __voltos_sa_storage		gf_group;
+			struct __voltos_sockaddr_storage	gf_group;
 			__u32					gf_fmode;
 			__u32					gf_numsrc;
-			struct __voltos_sa_storage		gf_slist_flex[];
+			struct __voltos_sockaddr_storage	gf_slist_flex[];
 		};
 	};
 };
 
 #define GROUP_FILTER_SIZE(numsrc) 				\
 	(sizeof(struct group_filter)				\
-	 - sizeof(struct __voltos_sa_storage) 			\
-	+ (numsrc) * sizeof(struct __voltos_sa_storage))
+	 - sizeof(struct __voltos_sockaddr_storage) 		\
+	+ (numsrc) * sizeof(struct __voltos_sockaddr_storage))
 
 
 /* Internet Packet Information Structure. */

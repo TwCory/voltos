@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *      include/nbapi/voltos/ip_mux.h
+ *
+ */
+
 #ifndef _NBAPI_VOLTOS_IP_MUX_H
 #define _NBAPI_VOLTOS_IP_MUX_H
 
