@@ -11,7 +11,7 @@
 #include <voltos/compiler.h>
 
 #ifndef ARRAY_SIZE
-#define ARRAY_SIZE
+#define ARRAY_SIZE(x)
 #endif /* ARRAY_SIZE */
 
 #endif /* _VOLTOS_ARRAY_SIZE_H */

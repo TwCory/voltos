@@ -26,7 +26,8 @@ struct alloc_tag_counters {
 };
 
 struct alloc_tag {
-
-};
+	struct codetag code_tag;
+	struct alloc_tag_counters counters;
+} __aligned(8);
 
 #endif /* _VOLTOS_ALLOC_TAG_H */

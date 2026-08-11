@@ -9,7 +9,8 @@
 #define _VOLTOS_ATTRIBUTE_H
 
 struct attribute {
-
+    int index;
+    void *data;
 };
 
 #endif /* _VOLTOS_ATTRIBUTE_H */

@@ -10,4 +10,6 @@
 
 #include <voltos/types.h>
 
+#define BASE32_CHARS(x)
+
 #endif /* _VOLTOS_BASE32_H */

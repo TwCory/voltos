@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_LIMITS_H
 #define _VOLTOS_LIMITS_H
 
+#include <nbapi/voltos/limits.h>
+
 #endif /* _VOLTOS_LIMITS_H */

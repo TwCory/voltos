@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ALARM_INTERFACE_H
 #define _VOLTOS_ALARM_INTERFACE_H
 
+#include <nbapi/voltos/alarm_interface.h>
+
 #endif /* _VOLTOS_ALARM_INTERFACE_H */
