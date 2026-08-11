@@ -28,6 +28,7 @@ enum {
 #define IP_PROTOCOL_GGP						IP_PROTOCOL_T_GGP
 	IP_PROTOCOL_T_IPV4					= 4,
 #define IP_PROTOCOL_IPV4					IP_PROTOCOL_T_IPV4
+	/* Internet Stream Protocol (ST) */
 	IP_PROTOCOL_T_ST					= 5,
 #define IP_PROTOCOL_ST						IP_PROTOCOL_T_ST
 	/* Transmission Control Protocol (TCP) */
@@ -35,8 +36,10 @@ enum {
 #define IP_PROTOCOL_TCP						IP_PROTOCOL_T_TCP
 	IP_PROTOCOL_T_CBT					= 7,
 #define IP_PROTOCOL_CBT						IP_PROTOCOL_T_CBT
+	/* External Gateway Protocol (EGP) */
 	IP_PROTOCOL_T_EGP					= 8,
 #define IP_PROTOCOL_EGP						IP_PROTOCOL_T_EGP
+	/* Internal Gateway Protocol (IGP) */
 	IP_PROTOCOL_T_IGP					= 9,
 #define IP_PROTOCOL_IGP						IP_PROTOCOL_T_IGP
 	IP_PROTOCOL_T_RCC_MON					= 10,
@@ -68,16 +71,22 @@ enum {
 #define IP_PROTOCOL_PRM						IP_PROTOCOL_T_PRM
 	IP_PROTOCOL_T_IDP					= 22,
 #define IP_PROTOCOL_IDP						IP_PROTOCOL_T_IDP
+	/* Trunk-1 */
 	IP_PROTOCOL_T_TRUNK1					= 23,
 #define IP_PROTOCOL_TRUNK1					IP_PROTOCOL_T_TRUNK1
+	/* Trunk-2 */
 	IP_PROTOCOL_T_TRUNK2					= 24,
 #define IP_PROTOCOL_TRUNK2					IP_PROTOCOL_T_TRUNK2
+	/* Leaf-1 */
 	IP_PROTOCOL_T_LEAF1					= 25,
 #define IP_PROTOCOL_LEAF1					IP_PROTOCOL_T_LEAF1
+	/* Leaf-2 */
 	IP_PROTOCOL_T_LEAF2					= 26,
 #define IP_PROTOCOL_LEAF2					IP_PROTOCOL_T_LEAF2
+	/* Reliable Data Protocol (RDP) */
 	IP_PROTOCOL_T_RDP					= 27,
 #define IP_PROTOCOL_RDP						IP_PROTOCOL_T_RDP
+	/* Internet Reliable Transaction Protocol (IRTP) */
 	IP_PROTOCOL_T_IRTP					= 28,
 #define IP_PROTOCOL_IRTP					IP_PROTOCOL_T_IRTP
 	IP_PROTOCOL_T_TP4					= 29,
@@ -93,6 +102,7 @@ enum {
 #define IP_PROTOCOL_DCCP					IP_PROTOCOL_T_DCCP
 	IP_PROTOCOL_T_3PC					= 34,
 #define IP_PROTOCOL_3PC						IP_PROTOCOL_T_3PC
+	/* Inter-Domain Policy Routing (IDPR) */
 	IP_PROTOCOL_T_IDPR					= 35,
 #define IP_PROTOCOL_IDPR					IP_PROTOCOL_T_IDPR
 	IP_PROTOCOL_T_XTP					= 36,
@@ -108,6 +118,7 @@ enum {
 #define IP_PROTOCOL_IL						IP_PROTOCOL_T_IL
 	IP_PROTOCOL_T_IPV6					= 41,
 #define IP_PROTOCOL_IPV6					IP_PROTOCOL_T_IPV6
+	/* Source Demand Routing Protocol (SDRP) */
 	IP_PROTOCOL_T_SDRP					= 42,
 #define IP_PROTOCOL_SDRP					IP_PROTOCOL_T_SDRP
 	/* Resource Reservation Protocol (RSVP) */
@@ -298,6 +309,9 @@ enum {
 };
 
 #define IP_PROTOCOL_MAX						(__IP_PROTOCOL_T_MAX__ - 1)
+
+typedef __net32 in_addr_t;
+typedef __net16 in_port_t;
 
 /* Internet Address Structure. */
 struct in_addr {
