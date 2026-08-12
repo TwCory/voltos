@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/atmpvc.h
  *
+ * 	ATM Permenant Virtual Circuit (PVC) Sockets
  */
 
 #ifndef _NBAPI_VOLTOS_ATMPVC_H

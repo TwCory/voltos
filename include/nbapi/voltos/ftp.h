@@ -16,195 +16,195 @@
  * FTP Command Types
  */
 enum {
-    FTP_CMD_TYPE_T_UNSPEC = 0,
-#define FTP_CMD_TYPE_UNSPEC     FTP_CMD_TYPE_T_UNSPEC
-    FTP_CMD_TYPE_T_ACCESS_CONTROL = 1,
-#define FTP_CMD_TYPE_ACCESS_CONTROL     FTP_CMD_TYPE_T_ACCESS_CONTROL
-    FTP_CMD_TYPE_T_PARAMETER = 2,
-#define FTP_CMD_TYPE_PARAMETER      FTP_CMD_TYPE_T_PARAMETER
-    FTP_CMD_TYPE_T_SERVICE_EXEC = 3,
-#define FTP_CMD_TYPE_SERVICE_EXEC   FTP_CMD_TYPE_T_SERVICE_EXEC
+    FTP_CMD_TYPE_T_UNSPEC 				= 0,
+#define FTP_CMD_TYPE_UNSPEC     			FTP_CMD_TYPE_T_UNSPEC
+    FTP_CMD_TYPE_T_ACCESS_CONTROL 			= 1,
+#define FTP_CMD_TYPE_ACCESS_CONTROL     		FTP_CMD_TYPE_T_ACCESS_CONTROL
+    FTP_CMD_TYPE_T_PARAMETER 				= 2,
+#define FTP_CMD_TYPE_PARAMETER      			FTP_CMD_TYPE_T_PARAMETER
+    FTP_CMD_TYPE_T_SERVICE_EXEC 			= 3,
+#define FTP_CMD_TYPE_SERVICE_EXEC   			FTP_CMD_TYPE_T_SERVICE_EXEC
     __FTP_CMD_TYPE_T_MAX__
 };
 
-#define FTP_CMD_TYPE_MAX    (__FTP_CMD_TYPE_T_MAX__ - 1)
+#define FTP_CMD_TYPE_MAX    				(__FTP_CMD_TYPE_T_MAX__ - 1)
 
 /*
  * FTP Feature Codes
  */
 enum {
-    FTP_FEAT_CODE_T_UNSPEC = 0,
-#define FTP_FEAT_CODE_UNSPEC    FTP_FEAT_CODE_T_UNSPEC
-    FTP_FEAT_CODE_T_BASE = 1,
-#define FTP_FEAT_CODE_BASE      FTP_FEAT_CODE_T_BASE
-    FTP_FEAT_CODE_T_SECU = 2,
-#define FTP_FEAT_CODE_SECU      FTP_FEAT_CODE_T_SECU
-    FTP_FEAT_CODE_T_AUTH = 3,
-#define FTP_FEAT_CODE_AUTH      FTP_FEAT_CODE_T_AUTH
-    FTP_FEAT_CODE_T_NAT6 = 4,
-#define FTP_FEAT_CODE_NAT6      FTP_FEAT_CODE_T_NAT6
-    FTP_FEAT_CODE_T_FEAT = 5,
-#define FTP_FEAT_CODE_FEAT      FTP_FEAT_CODE_T_FEAT
-    FTP_FEAT_CODE_T_HOST = 6,
-#define FTP_FEAT_CODE_HOST      FTP_FEAT_CODE_T_HOST
-    FTP_FEAT_CODE_T_UTF8 = 7,
-#define FTP_FEAT_CODE_UTF8      FTP_FEAT_CODE_T_UTF8
-    FTP_FEAT_CODE_T_HIST = 8,
-#define FTP_FEAT_CODE_HIST      FTP_FEAT_CODE_T_HIST
-    FTP_FEAT_CODE_T_MDTM = 9,
-#define FTP_FEAT_CODE_MDTM      FTP_FEAT_CODE_T_MDTM
-    FTP_FEAT_CODE_T_MLST = 10,
-#define FTP_FEAT_CODE_MLST      FTP_FEAT_CODE_T_MLST
-    FTP_FEAT_CODE_T_PBSZ = 11,
-#define FTP_FEAT_CODE_PBSZ      FTP_FEAT_CODE_T_PBSZ
-    FTP_FEAT_CODE_T_PROT = 12,
-#define FTP_FEAT_CODE_PROT      FTP_FEAT_CODE_T_PROT
-    FTP_FEAT_CODE_T_REST = 13,
-#define FTP_FEAT_CODE_REST      FTP_FEAT_CODE_T_REST
-    FTP_FEAT_CODE_T_SIZE = 14,
-#define FTP_FEAT_CODE_SIZE      FTP_FEAT_CODE_T_SIZE
-    FTP_FEAT_CODE_T_TVFS = 15,
-#define FTP_FEAT_CODE_TVFS      FTP_FEAT_CODE_T_TVFS
+    FTP_FEAT_CODE_T_UNSPEC 				= 0,
+#define FTP_FEAT_CODE_UNSPEC    			FTP_FEAT_CODE_T_UNSPEC
+    FTP_FEAT_CODE_T_BASE 				= 1,
+#define FTP_FEAT_CODE_BASE      			FTP_FEAT_CODE_T_BASE
+    FTP_FEAT_CODE_T_SECU 				= 2,
+#define FTP_FEAT_CODE_SECU      			FTP_FEAT_CODE_T_SECU
+    FTP_FEAT_CODE_T_AUTH 				= 3,
+#define FTP_FEAT_CODE_AUTH      			FTP_FEAT_CODE_T_AUTH
+    FTP_FEAT_CODE_T_NAT6 				= 4,
+#define FTP_FEAT_CODE_NAT6      			FTP_FEAT_CODE_T_NAT6
+    FTP_FEAT_CODE_T_FEAT 				= 5,
+#define FTP_FEAT_CODE_FEAT      			FTP_FEAT_CODE_T_FEAT
+    FTP_FEAT_CODE_T_HOST 				= 6,
+#define FTP_FEAT_CODE_HOST      			FTP_FEAT_CODE_T_HOST
+    FTP_FEAT_CODE_T_UTF8 				= 7,
+#define FTP_FEAT_CODE_UTF8      			FTP_FEAT_CODE_T_UTF8
+    FTP_FEAT_CODE_T_HIST 				= 8,
+#define FTP_FEAT_CODE_HIST      			FTP_FEAT_CODE_T_HIST
+    FTP_FEAT_CODE_T_MDTM 				= 9,
+#define FTP_FEAT_CODE_MDTM      			FTP_FEAT_CODE_T_MDTM
+    FTP_FEAT_CODE_T_MLST 				= 10,
+#define FTP_FEAT_CODE_MLST      			FTP_FEAT_CODE_T_MLST
+    FTP_FEAT_CODE_T_PBSZ 				= 11,
+#define FTP_FEAT_CODE_PBSZ      			FTP_FEAT_CODE_T_PBSZ
+    FTP_FEAT_CODE_T_PROT 				= 12,
+#define FTP_FEAT_CODE_PROT      			FTP_FEAT_CODE_T_PROT
+    FTP_FEAT_CODE_T_REST 				= 13,
+#define FTP_FEAT_CODE_REST      			FTP_FEAT_CODE_T_REST
+    FTP_FEAT_CODE_T_SIZE 				= 14,
+#define FTP_FEAT_CODE_SIZE      			FTP_FEAT_CODE_T_SIZE
+    FTP_FEAT_CODE_T_TVFS 				= 15,
+#define FTP_FEAT_CODE_TVFS      			FTP_FEAT_CODE_T_TVFS
     __FTP_FEAT_CODE_T_MAX__
 };
 
-#define FTP_FEAT_CODE_MAX   (__FTP_FEAT_CODE_T_MAX__ - 1)
+#define FTP_FEAT_CODE_MAX   				(__FTP_FEAT_CODE_T_MAX__ - 1)
 
 /*
  * FTP Commands
  */
 enum {
-    FTP_CMD_T_UNSPEC = 0,
-#define FTP_CMD_UNSPEC      FTP_CMD_T_UNSPEC
-    FTP_CMD_T_ABOR = 1,
-#define FTP_CMD_ABOR        FTP_CMD_T_ABOR
-    FTP_CMD_T_ACCT = 2,
-#define FTP_CMD_ACCT        FTP_CMD_T_ACCT
+    FTP_CMD_T_UNSPEC 					= 0,
+#define FTP_CMD_UNSPEC      				FTP_CMD_T_UNSPEC
+    FTP_CMD_T_ABOR 					= 1,
+#define FTP_CMD_ABOR        				FTP_CMD_T_ABOR
+    FTP_CMD_T_ACCT 					= 2,
+#define FTP_CMD_ACCT        				FTP_CMD_T_ACCT
     FTP_CMD_T_ADAT = 3,
-#define FTP_CMD_ADAT        FTP_CMD_T_ADAT
+#define FTP_CMD_ADAT        				FTP_CMD_T_ADAT
     FTP_CMD_T_ALGS = 4,
-#define FTP_CMD_ALGS        FTP_CMD_T_ALGS
+#define FTP_CMD_ALGS        				FTP_CMD_T_ALGS
     FTP_CMD_T_ALLO = 5,
-#define FTP_CMD_ALLO        FTP_CMD_T_ALLO
+#define FTP_CMD_ALLO        				FTP_CMD_T_ALLO
     FTP_CMD_T_APPE = 6,
-#define FTP_CMD_APPE        FTP_CMD_T_APPE
+#define FTP_CMD_APPE        				FTP_CMD_T_APPE
     FTP_CMD_T_AUTH = 7,
-#define FTP_CMD_AUTH        FTP_CMD_T_AUTH
+#define FTP_CMD_AUTH        				FTP_CMD_T_AUTH
     FTP_CMD_T_AUTH_PLUS = 8,
-#define FTP_CMD_AUTH_PLUS       FTP_CMD_T_AUTH_PLUS
+#define FTP_CMD_AUTH_PLUS       			FTP_CMD_T_AUTH_PLUS
     FTP_CMD_T_CCC = 9,
-#define FTP_CMD_CCC         FTP_CMD_T_CCC
+#define FTP_CMD_CCC         				FTP_CMD_T_CCC
     FTP_CMD_T_CDUP = 10,
-#define FTP_CMD_CDUP        FTP_CMD_T_CDUP
+#define FTP_CMD_CDUP        				FTP_CMD_T_CDUP
     FTP_CMD_T_CONF = 11,
-#define FTP_CMD_CONF        FTP_CMD_T_CONF
+#define FTP_CMD_CONF        				FTP_CMD_T_CONF
     FTP_CMD_T_CWD = 12,
-#define FTP_CMD_CWD         FTP_CMD_T_CWD
+#define FTP_CMD_CWD         				FTP_CMD_T_CWD
     FTP_CMD_T_DELE = 13,
-#define FTP_CMD_DELE        FTP_CMD_T_DELE
+#define FTP_CMD_DELE        				FTP_CMD_T_DELE
     FTP_CMD_T_ENC = 14,
-#define FTP_CMD_ENC         FTP_CMD_T_ENC
+#define FTP_CMD_ENC         				FTP_CMD_T_ENC
     FTP_CMD_T_EPRT = 15,
-#define FTP_CMD_EPRT            FTP_CMD_T_EPRT
+#define FTP_CMD_EPRT            			FTP_CMD_T_EPRT
     FTP_CMD_T_EPSV = 16,
-#define FTP_CMD_EPSV            FTP_CMD_T_EPSV
+#define FTP_CMD_EPSV            			FTP_CMD_T_EPSV
     FTP_CMD_T_FEAT = 17,
-#define FTP_CMD_FEAT            FTP_CMD_T_FEAT
+#define FTP_CMD_FEAT            			FTP_CMD_T_FEAT
     FTP_CMD_T_HELP = 18,
-#define FTP_CMD_HELP            FTP_CMD_T_HELP
+#define FTP_CMD_HELP            			FTP_CMD_T_HELP
     FTP_CMD_T_HOST = 19,
-#define FTP_CMD_HOST            FTP_CMD_T_HOST
+#define FTP_CMD_HOST            			FTP_CMD_T_HOST
     FTP_CMD_T_LANG = 20,
-#define FTP_CMD_LANG            FTP_CMD_T_LANG
+#define FTP_CMD_LANG            			FTP_CMD_T_LANG
     FTP_CMD_T_LIST = 21,
-#define FTP_CMD_LIST            FTP_CMD_T_LIST
+#define FTP_CMD_LIST            			FTP_CMD_T_LIST
     FTP_CMD_T_LPRT = 22,
-#define FTP_CMD_LPRT            FTP_CMD_T_LPRT
+#define FTP_CMD_LPRT            			FTP_CMD_T_LPRT
     FTP_CMD_T_LPSV = 23,
-#define FTP_CMD_LPSV            FTP_CMD_T_LPSV
+#define FTP_CMD_LPSV            			FTP_CMD_T_LPSV
     FTP_CMD_T_MDTM = 24,
-#define FTP_CMD_MDTM            FTP_CMD_T_MDTM
+#define FTP_CMD_MDTM            			FTP_CMD_T_MDTM
     FTP_CMD_T_MIC = 25,
-#define FTP_CMD_MIC             FTP_CMD_T_MIC
+#define FTP_CMD_MIC             			FTP_CMD_T_MIC
     FTP_CMD_T_MKD = 26,
-#define FTP_CMD_MKD         FTP_CMD_T_MKD
+#define FTP_CMD_MKD         				FTP_CMD_T_MKD
     FTP_CMD_T_MLSD = 27,
-#define FTP_CMD_MLSD        FTP_CMD_T_MLSD
+#define FTP_CMD_MLSD        				FTP_CMD_T_MLSD
     FTP_CMD_T_MLST = 28,
-#define FTP_CMD_MLST        FTP_CMD_T_MLST
+#define FTP_CMD_MLST        				FTP_CMD_T_MLST
     FTP_CMD_T_MODE = 29,
-#define FTP_CMD_MODE        FTP_CMD_T_MODE
+#define FTP_CMD_MODE        				FTP_CMD_T_MODE
     FTP_CMD_T_NLST = 30,
-#define FTP_CMD_NLST        FTP_CMD_T_NLST
+#define FTP_CMD_NLST        				FTP_CMD_T_NLST
     FTP_CMD_T_NOOP = 31,
-#define FTP_CMD_NOOP        FTP_CMD_T_NOOP
+#define FTP_CMD_NOOP        				FTP_CMD_T_NOOP
     FTP_CMD_T_OPTS = 32,
-#define FTP_CMD_OPTS        FTP_CMD_T_OPTS
+#define FTP_CMD_OPTS        				FTP_CMD_T_OPTS
     FTP_CMD_T_PASS = 33,
-#define FTP_CMD_PASS        FTP_CMD_T_PASS
+#define FTP_CMD_PASS        				FTP_CMD_T_PASS
     FTP_CMD_T_PASV = 34,
-#define FTP_CMD_PASV        FTP_CMD_T_PASV
+#define FTP_CMD_PASV        				FTP_CMD_T_PASV
     FTP_CMD_T_PBSZ = 35,
-#define FTP_CMD_PBSZ        FTP_CMD_T_PBSZ
+#define FTP_CMD_PBSZ        				FTP_CMD_T_PBSZ
     FTP_CMD_T_PBSZ_PLUS = 36,
-#define FTP_CMD_PBSZ_PLUS       FTP_CMD_T_PBSZ_PLUS
+#define FTP_CMD_PBSZ_PLUS       			FTP_CMD_T_PBSZ_PLUS
     FTP_CMD_T_PORT = 37,
-#define FTP_CMD_PORT        FTP_CMD_T_PORT
+#define FTP_CMD_PORT        				FTP_CMD_T_PORT
     FTP_CMD_T_PROT = 38,
-#define FTP_CMD_PROT        FTP_CMD_T_PROT
+#define FTP_CMD_PROT        				FTP_CMD_T_PROT
     FTP_CMD_T_PROT_PLUS = 39,
-#define FTP_CMD_PROT_PLUS       FTP_CMD_T_PROT_PLUS
+#define FTP_CMD_PROT_PLUS       			FTP_CMD_T_PROT_PLUS
     FTP_CMD_T_PWD = 40,
-#define FTP_CMD_PWD     FTP_CMD_T_PWD
+#define FTP_CMD_PWD     				FTP_CMD_T_PWD
     FTP_CMD_T_QUIT = 41,
-#define FTP_CMD_QUIT        FTP_CMD_T_QUIT
+#define FTP_CMD_QUIT        				FTP_CMD_T_QUIT
     FTP_CMD_T_REIN = 42,
-#define FTP_CMD_REIN        FTP_CMD_T_REIN
+#define FTP_CMD_REIN        				FTP_CMD_T_REIN
     FTP_CMD_T_REST = 43,
-#define FTP_CMD_REST        FTP_CMD_T_REST
+#define FTP_CMD_REST        				FTP_CMD_T_REST
     FTP_CMD_T_REST_PLUS = 44,
-#define FTP_CMD_REST_PLUS       FTP_CMD_T_REST_PLUS
+#define FTP_CMD_REST_PLUS       			FTP_CMD_T_REST_PLUS
     FTP_CMD_T_RETR = 45,
-#define FTP_CMD_RETR        FTP_CMD_T_RETR
+#define FTP_CMD_RETR        				FTP_CMD_T_RETR
     FTP_CMD_T_RMD = 46,
-#define FTP_CMD_RMD     FTP_CMD_T_RMD
+#define FTP_CMD_RMD     				FTP_CMD_T_RMD
     FTP_CMD_T_RNFR = 47,
-#define FTP_CMD_RNFR        FTP_CMD_T_RNFR
+#define FTP_CMD_RNFR        				FTP_CMD_T_RNFR
     FTP_CMD_T_RNTO = 48,
-#define FTP_CMD_RNTO        FTP_CMD_T_RNTO
+#define FTP_CMD_RNTO        				FTP_CMD_T_RNTO
     FTP_CMD_T_SITE = 49,
-#define FTP_CMD_SITE        FTP_CMD_T_SITE
+#define FTP_CMD_SITE        				FTP_CMD_T_SITE
     FTP_CMD_T_SIZE = 50,
-#define FTP_CMD_SIZE        FTP_CMD_T_SIZE
+#define FTP_CMD_SIZE        				FTP_CMD_T_SIZE
     FTP_CMD_T_SMNT = 51,
-#define FTP_CMD_SMNT        FTP_CMD_T_SMNT
+#define FTP_CMD_SMNT        				FTP_CMD_T_SMNT
     FTP_CMD_T_STAT = 52,
-#define FTP_CMD_STAT        FTP_CMD_T_STAT
+#define FTP_CMD_STAT        				FTP_CMD_T_STAT
     FTP_CMD_T_STOR = 53,
-#define FTP_CMD_STOR        FTP_CMD_T_STOR
+#define FTP_CMD_STOR        				FTP_CMD_T_STOR
     FTP_CMD_T_STOU = 54,
-#define FTP_CMD_STOU        FTP_CMD_T_STOU
+#define FTP_CMD_STOU        				FTP_CMD_T_STOU
     FTP_CMD_T_STRU = 55,
-#define FTP_CMD_STRU        FTP_CMD_T_STRU
+#define FTP_CMD_STRU        				FTP_CMD_T_STRU
     FTP_CMD_T_SYST = 56,
-#define FTP_CMD_SYST        FTP_CMD_T_SYST
+#define FTP_CMD_SYST        				FTP_CMD_T_SYST
     FTP_CMD_T_TYPE = 57,
-#define FTP_CMD_TYPE        FTP_CMD_T_TYPE
+#define FTP_CMD_TYPE        				FTP_CMD_T_TYPE
     FTP_CMD_T_USER = 58,
-#define FTP_CMD_USER        FTP_CMD_T_USER
+#define FTP_CMD_USER        				FTP_CMD_T_USER
     FTP_CMD_T_XCUP = 59,
-#define FTP_CMD_XCUP        FTP_CMD_T_XCUP
+#define FTP_CMD_XCUP        				FTP_CMD_T_XCUP
     FTP_CMD_T_XCWD = 60,
-#define FTP_CMD_XCWD        FTP_CMD_T_XCWD
+#define FTP_CMD_XCWD        				FTP_CMD_T_XCWD
     FTP_CMD_T_XMKD = 61,
-#define FTP_CMD_XMKD        FTP_CMD_T_XMKD
+#define FTP_CMD_XMKD        				FTP_CMD_T_XMKD
     FTP_CMD_T_XPWD = 62,
-#define FTP_CMD_XPWD        FTP_CMD_T_XPWD
+#define FTP_CMD_XPWD        				FTP_CMD_T_XPWD
     FTP_CMD_T_XRMD = 63,
-#define FTP_CMD_XRMD        FTP_CMD_T_XRMD
+#define FTP_CMD_XRMD        				FTP_CMD_T_XRMD
     __FTP_CMD_T_MAX__
 };
 
-#define FTP_CMD_MAX     (__FTP_CMD_T_MAX__ - 1)
+#define FTP_CMD_MAX     				(__FTP_CMD_T_MAX__ - 1)
 
 #endif /* _NBAPI_VOLTOS_FTP_H */

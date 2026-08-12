@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/atmsvc.h
  *
+ * 	ATM Switched Virtual Circuit (SVC) Sockets
  */
 
 #ifndef _NBAPI_VOLTOS_ATMSVC_H
