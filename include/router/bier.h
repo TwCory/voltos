@@ -3,6 +3,7 @@
 /*
  *	include/router/bier.h
  *
+ * 	Bit Index Explicit Replication (BIER)
  */
 
 #ifndef _ROUTER_BIER_H

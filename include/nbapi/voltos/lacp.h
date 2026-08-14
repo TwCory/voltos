@@ -1,0 +1,31 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/lacp.h
+ *
+ * 	Link Aggregation Control Protocol (LACP)
+ */
+
+#ifndef _NBAPI_VOLTOS_LACP_H
+#define _NBAPI_VOLTOS_LACP_H
+
+enum etherchannel_layer {
+	ETHERCHANNEL_LAYER_T_UNSPEC		= 0,
+	ETHERCHANNEL_LAYER_T_L2			= 2,
+	ETHERCHANNEL_LAYER_T_L3			= 3,
+	__ETHERCHANNEL_LAYER_T_MAX__
+};
+
+enum lacp_port_state {
+	LACP_PORT_STATE_T_UNSPEC		= 0,
+	LACP_PORT_STATE_T_BUNDLE		= 1,
+	LACP_PORT_STATE_T_SUSPENDED		= 2,
+	LACP_PORT_STATE_T_HOT_STANDBY		= 3,
+	LACP_PORT_STATE_T_INCAPABLE		= 4,
+	LACP_PORT_STATE_T_INDEPENDENT		= 5,
+	LACP_PORT_STATE_T_DOWN			= 6,
+	LACP_PORT_STATE_T_UNKNOWN		= 7,
+	__LACP_PORT_STATE_T_MAX__
+};
+
+#endif /* _NBAPI_VOLTOS_LACP_H */

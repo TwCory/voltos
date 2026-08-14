@@ -1,28 +1,27 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/zhls.h
+ *
+ * 	Zone-Based Hierarchical Link State (ZHLS)
+ */
+
 #ifndef _ROUTER_ZHLS_H
 #define _ROUTER_ZHLS_H
 
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <voltos/zhls.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct zhls_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct zhls_interface {
-	struct zhls_protocol 		*zhls;
-	struct rt_interface 		*interface;
+	bool 			passive;
 };
 
 struct zhls_route {
-	struct zhls_protocol 		*zhls;
-	struct rt_route 		*route;
+	ip_prefix_t 		prefix;
 };
-
-extern void zhls_init(void);
 
 #endif /* _ROUTER_ZHLS_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_BUILDID_H
 #define _VOLTOS_BUILDID_H
 
+#define BUILD_ID_SIZE_MAX		20
+
 #endif /* _VOLTOS_BUILDID_H */

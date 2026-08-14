@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/can.h
  *
+ * 	Controller Area Network (CAN) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_CAN_H

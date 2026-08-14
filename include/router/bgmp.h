@@ -3,6 +3,7 @@
 /*
  *	include/router/bgmp.h
  *
+ * 	Border Gateway Multicast Protocol (BGMP)
  */
 
 #ifndef _ROUTER_BGMP_H

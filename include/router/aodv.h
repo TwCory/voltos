@@ -1,28 +1,27 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/aodv.h
+ *
+ * 	Ad-Hoc On-Demand Distance Vector (AODV)
+ */
+
 #ifndef _ROUTER_AODV_H
 #define _ROUTER_AODV_H
 
-#include <voltos/aodv.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct aodv_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct aodv_interface {
-	struct aodv_protocol 		*aodv;
-	struct rt_interface 		*interface;
+	bool 			passive;
 };
 
 struct aodv_route {
-	struct aodv_protocol 		*aodv;
-	struct rt_route 		*route;
+	ipv4_prefix_t 		prefix;
 };
-
-extern void aodv_init(void);
 
 #endif /* _ROUTER_AODV_H */

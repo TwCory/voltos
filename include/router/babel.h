@@ -1,34 +1,39 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/babel.h
+ *
+ * 	Babel Routing Protocol
+ */
+
 #ifndef _ROUTER_BABEL_H
 #define _ROUTER_BABEL_H
 
-#include <voltos/babel.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/neighbour.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct babel_protocol {
-	struct rt_protocol 		*protocol;
+	bool 				enabled;
 };
 
 struct babel_interface {
-	struct babel_protocol 		*babel;
-	struct rt_interface 		*interface;
+	bool 				passive;
 };
 
 struct babel_neighbour {
-	struct babel_protocol 		*babel;
-	struct rt_neighbour 		*neighbour;
+	ip_addr_t 			address;
+};
+
+struct babel_source {
+	ip_prefix_t 			prefix;
 };
 
 struct babel_route {
-	struct babel_protocol 		*babel;
-	struct rt_route 		*route;
+	ip_prefix_t 			prefix;
 };
 
-extern void babel_init(void);
+struct babel_xroute {
+	ip_prefix_t 			prefix;
+};
 
 #endif /* _ROUTER_BABEL_H */

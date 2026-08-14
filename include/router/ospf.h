@@ -1,42 +1,48 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/ospf.h
+ *
+ * 	Open Shortest Path First (OSPF)
+ */
+
 #ifndef _ROUTER_OSPF_H
 #define _ROUTER_OSPF_H
 
+#include <voltos/inet.h>
 #include <voltos/ospf.h>
+#include <voltos/ospf_common.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/neighbour.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct ospf_protocol {
-	struct rt_protocol 		*protocol;
+	ospf_pid_t 			instance;
+	bool 				enabled;
 };
 
 struct ospf_interface {
-	struct ospf_protocol 		*ospf;
-	struct rt_interface 		*interface;
-};
-
-struct ospf_neighbour {
-	struct ospf_protocol 		*ospf;
-	struct rt_neighbour 		*neighbour;
+	bool 				passive;
 };
 
 struct ospf_area {
-	struct ospf_protocol 		*ospf;
+	ospf_area_id_t 			id;
+	ospf_area_type_t 		type;
+};
+
+struct ospf_neighbour {
+	ipv4_addr_t 			address;
 };
 
 struct ospf_network {
-	struct ospf_protocol 		*ospf;
+	ospf_network_type_t 		type;
 };
 
 struct ospf_route {
-	struct ospf_protocol 		*ospf;
-	struct rt_route 		*route;
+	ipv4_prefix_t 			prefix;
+	ospf_cost_t 			cost;
 };
 
-extern void ospf_init(void);
+struct ospf_virtual_link {
+
+};
 
 #endif /* _ROUTER_OSPF_H */

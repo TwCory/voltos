@@ -1,34 +1,28 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/bgp.h
+ *
+ * 	Border Gateway Protocol (BGP)
+ */
+
 #ifndef _ROUTER_BGP_H
 #define _ROUTER_BGP_H
 
-#include <voltos/bgp.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/neighbour.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct bgp_protocol {
-	struct rt_protocol 		*protocol;
+	asn32_t 			asn;
+	bool 				enabled;
 };
 
 struct bgp_interface {
-	struct bgp_protocol 		*bgp;
-	struct rt_interface 		*interface;
-};
-
-struct bgp_neighbour {
-	struct bgp_protocol 		*bgp;
-	struct rt_neighbour 		*neighbour;
+	bool 				passive;
 };
 
 struct bgp_route {
-	struct bgp_protocol 		*bgp;
-	struct rt_route 		*route;
+	ip_prefix_t 			prefix;
 };
-
-extern void bgp_init(void);
 
 #endif /* _ROUTER_BGP_H */

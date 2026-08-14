@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/csdb.h
  *
+ * 	Common Session Database (CSDB)
  */
 
 #ifndef _NBAPI_VOLTOS_CSDB_H

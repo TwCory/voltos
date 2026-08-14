@@ -3,6 +3,7 @@
 /*
  *	include/router/mrd.h
  *
+ * 	Multicast Router Discovery (MRD)
  */
 
 #ifndef _ROUTER_MRD_H

@@ -1,36 +1,35 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/rip.h
+ *
+ * 	Routing Information Protocol (RIP)
+ */
+
 #ifndef _ROUTER_RIP_H
 #define _ROUTER_RIP_H
 
-#include <voltos/in.h>
-#include <voltos/rip.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/if.h>
-#include <router/neighbour.h>
-#include <router/route.h>
-#include <router/protocol.h>
 
 struct rip_protocol {
-	struct rt_protocol 		*protocol;
-	struct rt_route_table 		*route_table;
-	struct rt_neighbour_table 	*neighbour_table;
+	bool 				enabled;
 };
 
 struct rip_interface {
-	struct rip_protocol 		*rip;
-	struct rt_interface 		*interface;
+	bool 				passive;
 };
 
 struct rip_neighbour {
-	struct rip_protocol 		*rip;
-	struct rip_interface 		*interface;
-	struct rt_neighbour 		*neighbour;
+	ipv4_addr_t 			address;
 };
 
 struct rip_route {
-	struct rip_protocol 		*rip;
-	struct rt_route 		*route;
+	ipv4_prefix_t 			prefix;
 };
 
-extern void rip_init(void);
+struct rip_offset_list {
+
+};
 
 #endif /* _ROUTER_RIP_H */

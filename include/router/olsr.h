@@ -1,28 +1,43 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/olsr.h
+ *
+ * 	Optimized Link State Routing (OLSR)
+ */
+
 #ifndef _ROUTER_OLSR_H
 #define _ROUTER_OLSR_H
 
-#include <voltos/olsr.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct olsr_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct olsr_interface {
-	struct olsr_protocol 		*olsr;
-	struct rt_interface 		*interface;
+	bool 			passive;
+};
+
+struct olsr_neighbour {
+
 };
 
 struct olsr_route {
-	struct olsr_protocol 		*olsr;
-	struct rt_route 		*route;
+	ip_prefix_t 		prefix;
 };
 
-extern void olsr_init(void);
+struct olsr_mpr {
+
+};
+
+struct olsr_link {
+
+};
+
+struct olsr_neighbourhood {
+
+};
 
 #endif /* _ROUTER_OLSR_H */

@@ -1,34 +1,35 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/ripng.h
+ *
+ * 	Routing Information Protocol Next Generation (RIPng)
+ */
+
 #ifndef _ROUTER_RIPNG_H
 #define _ROUTER_RIPNG_H
 
-#include <voltos/ripng.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/neighbour.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct ripng_protocol {
-	struct rt_protocol 		*protocol;
+	bool 				enabled;
 };
 
 struct ripng_interface {
-	struct ripng_protocol 		*ripng;
-	struct rt_interface 		*interface;
+	bool 				passive;
 };
 
 struct ripng_neighbour {
-	struct ripng_protocol 		*ripng;
-	struct rt_neighbour 		*neighbour;
+	ipv6_addr_t 			address;
 };
 
 struct ripng_route {
-	struct ripng_protocol 		*ripng;
-	struct rt_route 		*route;
+	ipv6_prefix_t 			prefix;
 };
 
-extern void ripng_init(void);
+struct ripng_offset_list {
+
+};
 
 #endif /* _ROUTER_RIPNG_H */

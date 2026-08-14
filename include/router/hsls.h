@@ -1,28 +1,27 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/hsls.h
+ *
+ * 	Hazy-Sighted Link State (HSLS)
+ */
+
 #ifndef _ROUTER_HSLS_H
 #define _ROUTER_HSLS_H
 
-#include <voltos/hsls.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct hsls_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct hsls_interface {
-	struct hsls_protocol 		*hsls;
-	struct rt_interface 		*interface;
+	bool 			passive;
 };
 
 struct hsls_route {
-	struct hsls_protocol 		*hsls;
-	struct rt_route 		*route;
+	ip_prefix_t 		prefix;
 };
-
-extern void hsls_init(void);
 
 #endif /* _ROUTER_HSLS_H */

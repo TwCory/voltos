@@ -12,9 +12,9 @@
 #include <voltos/types.h>
 
 enum zhls_afi {
-	ZHLS_AFI_T_UNSPEC		= 0,
-	ZHLS_AFI_T_IPV4_UNICAST		= 1,
-	ZHLS_AFI_T_IPV6_UNICAST		= 2,
+	ZHLS_AFI_T_UNSPEC			= 0,
+	ZHLS_AFI_T_IPV4_UNICAST			= 1,
+	ZHLS_AFI_T_IPV6_UNICAST			= 2,
 	__ZHLS_AFI_T_MAX__
 };
 

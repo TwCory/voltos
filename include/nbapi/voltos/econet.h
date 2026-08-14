@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/econet.h
  *
- *	EcoNet Socket Address Family
+ *	Acorn Econet Socket Address Family
  */
 
 #ifndef _NBAPI_VOLTOS_ECONET_H

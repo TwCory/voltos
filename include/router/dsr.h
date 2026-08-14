@@ -1,28 +1,27 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/dsr.h
+ *
+ * 	Dynamic Source Routing (DSR)
+ */
+
 #ifndef _ROUTER_DSR_H
 #define _ROUTER_DSR_H
 
-#include <voltos/dsr.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct dsr_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct dsr_interface {
-	struct dsr_protocol 		*dsr;
-	struct rt_interface 		*interface;
+	bool 			passive;
 };
 
 struct dsr_route {
-	struct dsr_protocol 		*dsr;
-	struct rt_route 		*route;
+	ip_prefix_t 		prefix;
 };
-
-extern void dsr_init(void);
 
 #endif /* _ROUTER_DSR_H */

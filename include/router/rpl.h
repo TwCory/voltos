@@ -1,28 +1,27 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/rpl.h
+ *
+ * 	IPv6 Routing Protocol for Low-Power Lossy Networks (RPL)
+ */
+
 #ifndef _ROUTER_RPL_H
 #define _ROUTER_RPL_H
 
-#include <voltos/rpl.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/distance.h>
-#include <router/if.h>
-#include <router/prefix.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct rpl_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct rpl_interface {
-	struct rpl_protocol 		*rpl;
-	struct rt_interface 		*interface;
+	bool 			passive;
 };
 
 struct rpl_route {
-	struct rpl_protocol 		*rpl;
-	struct rt_route 		*route;
+	ipv6_prefix_t 		prefix;
 };
-
-extern void rpl_init(void);
 
 #endif /* _ROUTER_RPL_H */

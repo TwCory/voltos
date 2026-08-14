@@ -1,26 +1,26 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/router/idpr.h
+ *
+ */
+
 #ifndef _ROUTER_IDPR_H
 #define _ROUTER_IDPR_H
 
-#include <voltos/idpr.h>
+#include <voltos/inet.h>
 #include <voltos/types.h>
-#include <router/if.h>
-#include <router/protocol.h>
-#include <router/route.h>
 
 struct idpr_protocol {
-	struct rt_protocol 		*protocol;
+	bool 			enabled;
 };
 
 struct idpr_interface {
-	struct idpr_protocol 		*idpr;
-	struct rt_interface 		*interface;
+	bool 			passive;
 };
 
 struct idpr_route {
-	struct idpr_protocol 		*idpr;
-	struct rt_route 		*route;
+	ip_prefix_t 		prefix;
 };
-
-extern void idpr_init(void);
 
 #endif /* _ROUTER_IDPR_H */

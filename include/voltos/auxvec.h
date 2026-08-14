@@ -10,4 +10,6 @@
 
 #include <nbapi/voltos/auxvec.h>
 
+#define AT_VECTOR_BASE_SIZE		24
+
 #endif /* _VOLTOS_AUXVEC_H */
