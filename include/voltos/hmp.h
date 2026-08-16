@@ -3,19 +3,12 @@
 /*
  *	include/voltos/hmp.h
  *
+ * 	Host Monitoring Protocol (HMP)
  */
 
 #ifndef _VOLTOS_HMP_H
 #define _VOLTOS_HMP_H
 
 #include <nbapi/voltos/hmp.h>
-
-struct hmp_global_conf {
-
-};
-
-struct hmp_interface_conf {
-
-};
 
 #endif /* _VOLTOS_HMP_H */

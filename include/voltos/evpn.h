@@ -3,6 +3,7 @@
 /*
  *	include/voltos/evpn.h
  *
+ * 	Ethernet VPN (E-VPN)
  */
 
 #ifndef _VOLTOS_EVPN_H

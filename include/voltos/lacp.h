@@ -3,6 +3,7 @@
 /*
  *	include/voltos/lacp.h
  *
+ * 	Link Aggregation Control Protocol (LACP)
  */
 
 #ifndef _VOLTOS_LACP_H

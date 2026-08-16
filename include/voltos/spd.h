@@ -3,6 +3,7 @@
 /*
  *	include/voltos/spd.h
  *
+ * 	Selective Packet Discard (SPD)
  */
 
 #ifndef _VOLTOS_SPD_H

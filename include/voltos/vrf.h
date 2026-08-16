@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vrf.h
  *
+ * 	Virtual Routing and Forwarding (VRF)
  */
 
 #ifndef _VOLTOS_VRF_H
@@ -11,10 +12,6 @@
 #include <nbapi/voltos/vrf.h>
 
 typedef __voltos_vrf_id_t 		vrf_id_t;
-
-struct vrf_conf {
-
-};
 
 struct vrf {
 	const char 			vrf_name[VRF_NAME_SIZE];

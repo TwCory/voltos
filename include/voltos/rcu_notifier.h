@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *	include/voltos/notifier.h
+ *	include/voltos/rcu_notifier.h
  *
  */
 

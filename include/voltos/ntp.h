@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ntp.h
  *
+ *	Network Time Protocol (NTP)
  */
 
 #ifndef _VOLTOS_NTP_H

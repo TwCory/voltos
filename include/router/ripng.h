@@ -9,27 +9,41 @@
 #ifndef _ROUTER_RIPNG_H
 #define _ROUTER_RIPNG_H
 
+#include <voltos/if.h>
 #include <voltos/inet.h>
+#include <voltos/ripng.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
-
-struct ripng_protocol {
-	bool 				enabled;
-};
+#include <voltos/vrf.h>
+#include <net/neighbour.h>
+#include <net/neighbour_table.h>
+#include <net/protocol.h>
 
 struct ripng_interface {
-	bool 				passive;
+	struct interface 		*interface;
 };
 
 struct ripng_neighbour {
-	ipv6_addr_t 			address;
-};
-
-struct ripng_route {
-	ipv6_prefix_t 			prefix;
+	struct neighbour 		*neighbour;
 };
 
 struct ripng_offset_list {
 
+};
+
+struct ripng_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
+};
+
+struct ripng_route {
+	struct route 			*route;
+
+	ipv6_prefix_t 			prefix;
+};
+
+struct ripng_router {
+	bool shutdown;
 };
 
 #endif /* _ROUTER_RIPNG_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bihash.h
  *
+ * 	Binary Hash Functions
  */
 
 #ifndef _VOLTOS_BIHASH_H

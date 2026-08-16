@@ -8,4 +8,15 @@
 #ifndef _ROUTER_IRDP_H
 #define _ROUTER_IRDP_H
 
+#include <voltos/if.h>
+#include <net/protocol.h>
+
+struct irdp_interface {
+	struct interface 		*interface;
+};
+
+struct irdp_protocol {
+	struct protocol 		*protocol;
+};
+
 #endif /* _ROUTER_IRDP_H */

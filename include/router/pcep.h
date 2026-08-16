@@ -8,4 +8,15 @@
 #ifndef _ROUTER_PCEP_H
 #define _ROUTER_PCEP_H
 
+#include <voltos/if.h>
+#include <net/protocol.h>
+
+struct pcep_interface {
+	struct interface 		*interface;
+};
+
+struct pcep_protocol {
+	struct protocol 		*protocol;
+};
+
 #endif /* _ROUTER_PCEP_H */

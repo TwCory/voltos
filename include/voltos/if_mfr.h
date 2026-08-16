@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_mfr.h
  *
+ * 	Multilink Frame Relay (MFR) Interface
  */
 
 #ifndef _VOLTOS_IF_MFR_H

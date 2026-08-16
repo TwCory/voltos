@@ -9,19 +9,31 @@
 #ifndef _ROUTER_AODV_H
 #define _ROUTER_AODV_H
 
+#include <voltos/aodv.h>
+#include <voltos/if.h>
 #include <voltos/inet.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
-
-struct aodv_protocol {
-	bool 			enabled;
-};
+#include <voltos/vrf.h>
+#include <net/protocol.h>
 
 struct aodv_interface {
-	bool 			passive;
+	struct interface 		*interface;
+};
+
+struct aodv_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 struct aodv_route {
-	ipv4_prefix_t 		prefix;
+	struct route 			*route;
+
+	ipv4_prefix_t 			prefix;
+};
+
+struct aodv_router {
+	bool 				shutdown;
 };
 
 #endif /* _ROUTER_AODV_H */

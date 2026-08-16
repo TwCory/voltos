@@ -92,7 +92,7 @@
 #define IP_ROUTE_CODE_HELP_STATIC				"S - Static\n"
 #define IP_ROUTE_CODE_HELP_ZHLS					"Z - ZHLS\n"
 
-enum {
+enum ip_route_protocol {
 	IP_ROUTE_PROTOCOL_T_UNSPEC				= 0,
 	IP_ROUTE_PROTOCOL_T_AODV				= 1,
 	IP_ROUTE_PROTOCOL_T_APPLICATION				= 2,

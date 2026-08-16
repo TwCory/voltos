@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bitset.h
  *
+ * 	Bit Set Data Structure
  */
 
 #ifndef _VOLTOS_BITSET_H

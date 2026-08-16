@@ -9,18 +9,25 @@
 #ifndef _ROUTER_PNNI_H
 #define _ROUTER_PNNI_H
 
+#include <voltos/if.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
-
-struct pnni_protocol {
-	bool enabled;
-};
+#include <net/protocol.h>
 
 struct pnni_interface {
-	bool passive;
+	struct interface 		*interface;
+};
+
+struct pnni_protocol {
+	struct protocol 		*protocol;
 };
 
 struct pnni_route {
+	struct route 			*route;
+};
 
+struct pnni_router {
+	bool 				shutdown;
 };
 
 #endif /* _ROUTER_PNNI_H */

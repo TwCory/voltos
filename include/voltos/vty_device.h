@@ -12,8 +12,8 @@
 #include <voltos/vty.h>
 
 struct vty_device {
-	struct device 	*device;
-	struct vty 	*vty;
+	struct device 			*device;
+	struct vty 			*vty;
 };
 
 #endif /* _VOLTOS_VTY_DEVICE_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bitrev.h
  *
+ * 	Bit Reversal Helpers
  */
 
 #ifndef _VOLTOS_BITREV_H

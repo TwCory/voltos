@@ -3,19 +3,12 @@
 /*
  *	include/voltos/dccp.h
  *
+ * 	Datagram Congestion Control Protocol (DCCP)
  */
 
 #ifndef _VOLTOS_DCCP_H
 #define _VOLTOS_DCCP_H
 
 #include <nbapi/voltos/dccp.h>
-
-struct dccp_global_conf {
-
-};
-
-struct dccp_interface_conf {
-
-};
 
 #endif /* _VOLTOS_DCCP_H */

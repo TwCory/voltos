@@ -3,6 +3,7 @@
 /*
  *	include/voltos/omp.h
  *
+ * 	Overlay Management Protocol (OMP)
  */
 
 #ifndef _VOLTOS_OMP_H

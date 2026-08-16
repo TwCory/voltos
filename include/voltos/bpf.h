@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bpf.h
  *
+ * 	Berkeley Packet Filter (BPF)
  */
 
 #ifndef _VOLTOS_BPF_H

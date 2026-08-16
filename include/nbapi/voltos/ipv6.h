@@ -37,6 +37,14 @@ enum ipv6_address_method {
 	__IPV6_ADDRESS_METHOD_T_MAX__
 };
 
+enum ipv6_split_horizon_type {
+	IPV6_SPLIT_HORIZON_TYPE_T_UNSPEC		= 0,
+	IPV6_SPLIT_HORIZON_TYPE_T_DISABLE		= 1,
+	IPV6_SPLIT_HORIZON_TYPE_T_ENABLE		= 2,
+	IPV6_SPLIT_HORIZON_TYPE_T_ENABLE_POISON_REVERSE	= 3,
+	__IPV6_SPLIT_HORIZON_TYPE_T_MAX__
+};
+
 struct ipv6_hdr {
 	__net32							version:4,
 								traffic_class:8,

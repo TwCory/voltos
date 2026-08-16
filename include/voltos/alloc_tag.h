@@ -21,13 +21,13 @@
 #include <voltos/types.h>
 
 struct alloc_tag_counters {
-	u64 bytes;
-	u64 calls;
+	u64 				bytes;
+	u64 				calls;
 };
 
 struct alloc_tag {
-	struct codetag code_tag;
-	struct alloc_tag_counters counters;
+	struct codetag 			code_tag;
+	struct alloc_tag_counters 	counters;
 } __aligned(8);
 
 #endif /* _VOLTOS_ALLOC_TAG_H */

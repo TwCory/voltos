@@ -3,6 +3,7 @@
 /*
  *	include/voltos/avb.h
  *
+ * 	Audio/Video Bridging (AVB)
  */
 
 #ifndef _VOLTOS_AVB_H

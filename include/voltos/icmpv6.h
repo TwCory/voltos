@@ -3,6 +3,7 @@
 /*
  *	include/voltos/icmpv6.h
  *
+ * 	Internet Control Message Protocol for IPv6 (ICMPv6)
  */
 
 #ifndef _VOLTOS_ICMPV6_H

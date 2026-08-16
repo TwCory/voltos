@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hip.h
  *
+ * 	Host Identity Protocol (HIP)
  */
 
 #ifndef _VOLTOS_HIP_H

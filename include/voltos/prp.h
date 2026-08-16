@@ -3,6 +3,7 @@
 /*
  *	include/voltos/prp.h
  *
+ * 	Port Redundancy Protocol (PRP)
  */
 
 #ifndef _VOLTOS_PRP_H

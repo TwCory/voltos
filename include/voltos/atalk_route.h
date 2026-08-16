@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/atalk_route.h>
 
-struct atalk_route {
-
-};
-
-struct atalk_adjacent_route {
-
-};
-
 #endif /* _VOLTOS_ATALK_ROUTE_H */

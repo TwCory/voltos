@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/rwlock_api_smp.h
+ *
+ */
+
 #ifndef _VOLTOS_RWLOCK_API_SMP_H
 #define _VOLTOS_RWLOCK_API_SMP_H
 

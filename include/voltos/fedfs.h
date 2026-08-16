@@ -3,6 +3,7 @@
 /*
  *	include/voltos/fedfs.h
  *
+ * 	Federated File System (FedFS)
  */
 
 #ifndef _VOLTOS_FEDFS_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/avc.h
  *
+ * 	Application Visibility Control (AVC)
  */
 
 #ifndef _VOLTOS_AVC_H

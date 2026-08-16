@@ -3,6 +3,7 @@
 /*
  *	include/voltos/gtp.h
  *
+ * 	GPRS Tunneling Protocol (GTP)
  */
 
 #ifndef _VOLTOS_GTP_H

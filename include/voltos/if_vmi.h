@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_vmi.h
  *
+ * 	Virtual Multipoint Interface (VMI)
  */
 
 #ifndef _VOLTOS_IF_VMI_H

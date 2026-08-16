@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dapr.h
  *
- * 	Dynamic Application Policy-Based Routing (DAPR)
+ * 	Dynamic Application Policy Routing (DAPR)
  */
 
 #ifndef _VOLTOS_DAPR_H

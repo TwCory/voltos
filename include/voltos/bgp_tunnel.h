@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bgp_tunnel.h
  *
+ * 	BGP Tunnel Encapsulation
  */
 
 #ifndef _VOLTOS_BGP_TUNNEL_H

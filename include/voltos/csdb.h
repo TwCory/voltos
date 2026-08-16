@@ -3,6 +3,7 @@
 /*
  *      include/voltos/csdb.h
  *
+ * 	Common Session Database (CSDB)
  */
 
 #ifndef _VOLTOS_CSDB_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pptp.h
  *
+ * 	Point-to-Point Tunneling Protocol (PPTP)
  */
 
 #ifndef _VOLTOS_PPTP_H

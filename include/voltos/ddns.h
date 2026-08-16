@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ddns.h
  *
+ * 	Dynamic DNS (DDNS) Update Client
  */
 
 #ifndef _VOLTOS_DDNS_H

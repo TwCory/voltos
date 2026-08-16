@@ -3,6 +3,7 @@
 /*
  *	include/voltos/wmi.h
  *
+ * 	Windows Management Instrumentation (WMI)
  */
 
 #ifndef _VOLTOS_WMI_H

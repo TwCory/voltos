@@ -3,15 +3,12 @@
 /*
  *	include/voltos/mab.h
  *
+ * 	MAC Authentication Bypass (MAB)
  */
 
 #ifndef _VOLTOS_MAB_H
 #define _VOLTOS_MAB_H
 
 #include <nbapi/voltos/mab.h>
-
-struct mab_global_conf {
-
-};
 
 #endif /* _VOLTOS_MAB_H */

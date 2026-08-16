@@ -3,19 +3,12 @@
 /*
  *	include/voltos/mmrp.h
  *
+ * 	Multiple Multicast Registration Protocol (MMRP)
  */
 
 #ifndef _VOLTOS_MMRP_H
 #define _VOLTOS_MMRP_H
 
 #include <nbapi/voltos/mmrp.h>
-
-struct mmrp_global_conf {
-
-};
-
-struct mmrp_interface_conf {
-
-};
 
 #endif /* _VOLTOS_MMRP_H */

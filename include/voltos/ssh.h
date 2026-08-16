@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ssh.h
  *
+ * 	Secure Shell (SSH)
  */
 
 #ifndef _VOLTOS_SSH_H

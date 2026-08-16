@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bsearch.h
  *
+ * 	Binary Searching
  */
 
 #ifndef _VOLTOS_BSEARCH_H

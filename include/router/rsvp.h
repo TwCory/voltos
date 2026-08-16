@@ -9,4 +9,15 @@
 #ifndef _ROUTER_RSVP_H
 #define _ROUTER_RSVP_H
 
+#include <voltos/if.h>
+#include <net/protocol.h>
+
+struct rsvp_interface {
+	struct interface 		*interface;
+};
+
+struct rsvp_protocol {
+	struct protocol 		*protocol;
+};
+
 #endif /* _ROUTER_RSVP_H */

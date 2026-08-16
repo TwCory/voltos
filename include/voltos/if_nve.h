@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_nve.h
  *
+ * 	Network Virtualization Endpoint (NVE) Interface
  */
 
 #ifndef _VOLTOS_IF_NVE_H

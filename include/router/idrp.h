@@ -8,19 +8,31 @@
 #ifndef _ROUTER_IDRP_H
 #define _ROUTER_IDRP_H
 
+#include <voltos/idrp.h>
+#include <voltos/if.h>
 #include <voltos/inet.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
-
-struct idrp_protocol {
-	bool 			enabled;
-};
+#include <voltos/vrf.h>
+#include <net/protocol.h>
 
 struct idrp_interface {
-	bool 			passive;
+	struct interface 		*interface;
+};
+
+struct idrp_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 struct idrp_route {
-	ip_prefix_t 		prefix;
+	struct route 			*route;
+
+	ip_prefix_t 			prefix;
+};
+
+struct idrp_router {
+	bool 				shutdown;
 };
 
 #endif /* _ROUTER_IDRP_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/llmnr.h
  *
+ * 	Link-Local Multicast Name Resolution (LLMNR)
  */
 
 #ifndef _VOLTOS_LLMNR_H

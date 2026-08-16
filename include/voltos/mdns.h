@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mdns.h
  *
+ * 	Multicast DNS (mDNS)
  */
 
 #ifndef _VOLTOS_MDNS_H

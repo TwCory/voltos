@@ -3,6 +3,7 @@
 /*
  *	include/voltos/plip.h
  *
+ * 	Parallel Line Internet Protocol (PLIP)
  */
 
 #ifndef _VOLTOS_PLIP_H

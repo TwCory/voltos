@@ -8,4 +8,6 @@
 #ifndef _ROUTER_BGP_RPKI_H
 #define _ROUTER_BGP_RPKI_H
 
+#include <voltos/bgp_rpki.h>
+
 #endif /* _ROUTER_BGP_RPKI_H */

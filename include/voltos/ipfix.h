@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ipfix.h
  *
+ * 	IP Flow Information Export (IPFIX)
  */
 
 #ifndef _VOLTOS_IPFIX_H

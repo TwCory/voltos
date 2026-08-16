@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ldap.h
  *
+ * 	Lightweight Directory Access Protocol (LDAP)
  */
 
 #ifndef _VOLTOS_LDAP_H

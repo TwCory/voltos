@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hdlc.h
  *
+ * 	High-Level Data Link Control (HDLC)
  */
 
 #ifndef _VOLTOS_HDLC_H

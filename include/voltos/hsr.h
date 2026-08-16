@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hsr.h
  *
+ * 	High Availability Seamless Redundancy (HSR)
  */
 
 #ifndef _VOLTOS_HSR_H

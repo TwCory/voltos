@@ -9,36 +9,50 @@
 #ifndef _ROUTER_OSPF_H
 #define _ROUTER_OSPF_H
 
+#include <voltos/if.h>
 #include <voltos/inet.h>
 #include <voltos/ospf.h>
 #include <voltos/ospf_common.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
+#include <voltos/vrf.h>
+#include <net/neighbour.h>
+#include <net/neighbour_table.h>
+#include <net/protocol.h>
 
-struct ospf_protocol {
-	ospf_pid_t 			instance;
-	bool 				enabled;
+struct ospf_area {
+
 };
 
 struct ospf_interface {
-	bool 				passive;
+	struct interface 		*interface;
 };
 
-struct ospf_area {
-	ospf_area_id_t 			id;
-	ospf_area_type_t 		type;
+struct ospf_ism {
+
 };
 
 struct ospf_neighbour {
-	ipv4_addr_t 			address;
+	struct neighbour 		*neighbour;
 };
 
-struct ospf_network {
-	ospf_network_type_t 		type;
+struct ospf_nsm {
+
+};
+
+struct ospf_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 struct ospf_route {
+	struct route 			*route;
+
 	ipv4_prefix_t 			prefix;
-	ospf_cost_t 			cost;
+};
+
+struct ospf_router {
+	bool 				shutdown;
 };
 
 struct ospf_virtual_link {

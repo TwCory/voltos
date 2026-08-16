@@ -3,19 +3,12 @@
 /*
  *	include/voltos/bier.h
  *
+ * 	Bit Index Explicit Replication (BIER)
  */
 
 #ifndef _VOLTOS_BIER_H
 #define _VOLTOS_BIER_H
 
 #include <nbapi/voltos/bier.h>
-
-struct bier_global_conf {
-
-};
-
-struct bier_interface_conf {
-
-};
 
 #endif /* _VOLTOS_BIER_H */

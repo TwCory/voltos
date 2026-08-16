@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bitvec.h
  *
+ * 	Bit Vector Data Structure
  */
 
 #ifndef _VOLTOS_BITVEC_H

@@ -12,8 +12,10 @@
 #include <voltos/stddef.h>
 #include <voltos/types.h>
 
-#define IP_ETHERTYPE		0x0800
-#define IP_VERSION		4
+#define IP_ETHERTYPE					0x0800
+#define IP_VERSION					4
+
+#define IP_DEFAULT_NETWORK_MAX				32
 
 enum ip_address_method {
 	IP_ADDRESS_METHOD_T_UNSPEC			= 0,
@@ -29,6 +31,14 @@ enum ip_address_pool {
 	IP_ADDRESS_POOL_T_DHCP_PROXY_CLIENT		= 2,
 	IP_ADDRESS_POOL_T_LOCAL				= 3,
 	__IP_ADDRESS_POOL_T_MAX__
+};
+
+enum ip_split_horizon_type {
+	IP_SPLIT_HORIZON_TYPE_T_UNSPEC			= 0,
+	IP_SPLIT_HORIZON_TYPE_T_DISABLE			= 1,
+	IP_SPLIT_HORIZON_TYPE_T_ENABLE			= 2,
+	IP_SPLIT_HORIZON_TYPE_T_ENABLE_POISON_REVERSE	= 3,
+	__IP_SPLIT_HORIZON_TYPE_T_MAX__
 };
 
 struct ip_hdr {

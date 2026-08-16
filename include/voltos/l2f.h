@@ -3,6 +3,7 @@
 /*
  *	include/voltos/l2f.h
  *
+ * 	Layer 2 Forwarding (L2F)
  */
 
 #ifndef _VOLTOS_L2F_H

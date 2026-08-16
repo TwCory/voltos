@@ -9,5 +9,22 @@
 #ifndef _ROUTER_HSRP_H
 #define _ROUTER_HSRP_H
 
+#include <voltos/hsrp.h>
+#include <voltos/if.h>
+#include <voltos/inet.h>
+#include <voltos/types.h>
+#include <net/protocol.h>
+
+struct hsrp_group {
+
+};
+
+struct hsrp_interface {
+	struct interface 		*interface;
+};
+
+struct hsrp_protocol {
+	struct protocol 		*protocol;
+};
 
 #endif /* _ROUTER_HSRP_H */

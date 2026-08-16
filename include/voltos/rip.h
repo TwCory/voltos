@@ -11,6 +11,13 @@
 #include <voltos/types.h>
 #include <nbapi/voltos/rip.h>
 
+typedef enum {
+	RIP_VERSION_T_UNSPEC		= 0,
+	RIP_VERSION_T_V1		= RIP_V1,
+	RIP_VERSION_T_V2		= RIP_V2,
+	__RIP_VERSION_T_MAX__
+} rip_version_t;
+
 struct rip_router_conf {
 	bool 				auto_summary;
 	__u32 				default_metric;

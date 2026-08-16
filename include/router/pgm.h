@@ -9,14 +9,18 @@
 #ifndef _ROUTER_PGM_H
 #define _ROUTER_PGM_H
 
-struct pgm_protocol {
-
-};
+#include <voltos/if.h>
+#include <voltos/inet.h>
+#include <voltos/pgm.h>
+#include <voltos/types.h>
+#include <net/protocol.h>
 
 struct pgm_interface {
-
+	struct interface 		*interface;
 };
 
-extern void pgm_init(void);
+struct pgm_protocol {
+	struct protocol 		*protocol;
+};
 
 #endif /* _ROUTER_PGM_H */

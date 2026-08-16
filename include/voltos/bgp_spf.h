@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bgp_spf.h
  *
+ * 	BGP Shortest Path First (BGP-SPF)
  */
 
 #ifndef _VOLTOS_BGP_SPF_H

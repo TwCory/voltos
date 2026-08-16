@@ -8,25 +8,11 @@
 #ifndef _VOLTOS_IP_H
 #define _VOLTOS_IP_H
 
-#include <voltos/inet.h>
 #include <voltos/types.h>
 #include <nbapi/voltos/ip.h>
 
-struct ip_global_conf {
-	ipv4_addr_t				default_gateway;
-	bool 					host_routing;
-	bool 					multicast_routing;
-	bool 					routing;
-	bool 					source_route;
-};
-
-struct ip_interface_conf {
-	ipv4_addr_t				broadcast_address;
-	ipv4_addr_t				helper_address;
-};
-
-struct ip_host_conf {
-	ipv4_addr_t				address;
-};
+typedef enum ip_address_pool 		ip_address_pool_t;
+typedef enum ip_address_method 		ip_address_method_t;
+typedef enum ip_split_horizon_type 	ip_split_horizon_type_t;
 
 #endif /* _VOLTOS_IP_H */

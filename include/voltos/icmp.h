@@ -3,6 +3,7 @@
 /*
  *	include/voltos/icmp.h
  *
+ * 	Internet Control Message Protocol (ICMP)
  */
 
 #ifndef _VOLTOS_ICMP_H

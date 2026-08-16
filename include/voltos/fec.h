@@ -3,6 +3,7 @@
 /*
  *	include/voltos/fec.h
  *
+ * 	Forward Error Correction (FEC)
  */
 
 #ifndef _VOLTOS_FEC_H

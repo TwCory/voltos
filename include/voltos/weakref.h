@@ -13,6 +13,6 @@
 
 #ifndef __weakref
 #define __weakref
-#endif
+#endif /* __weakref */
 
 #endif /* _VOLTOS_WEAKREF_H */

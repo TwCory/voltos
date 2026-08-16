@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mka.h
  *
+ * 	MACsec Key Agreement (MKA)
  */
 
 #ifndef _VOLTOS_MKA_H

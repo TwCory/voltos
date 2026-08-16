@@ -9,31 +9,45 @@
 #ifndef _ROUTER_BABEL_H
 #define _ROUTER_BABEL_H
 
+#include <voltos/babel.h>
+#include <voltos/if.h>
 #include <voltos/inet.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
-
-struct babel_protocol {
-	bool 				enabled;
-};
+#include <voltos/vrf.h>
+#include <net/neighbour.h>
+#include <net/neighbour_table.h>
+#include <net/protocol.h>
 
 struct babel_interface {
-	bool 				passive;
+	struct interface 		*interface;
 };
 
 struct babel_neighbour {
-	ip_addr_t 			address;
+	struct neighbour 		*neighbour;
 };
 
-struct babel_source {
-	ip_prefix_t 			prefix;
+struct babel_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 struct babel_route {
+	struct route 			*route;
+
 	ip_prefix_t 			prefix;
 };
 
+struct babel_router {
+	bool 				shutdown;
+};
+
+struct babel_source {
+
+};
+
 struct babel_xroute {
-	ip_prefix_t 			prefix;
+
 };
 
 #endif /* _ROUTER_BABEL_H */

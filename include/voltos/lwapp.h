@@ -3,6 +3,7 @@
 /*
  *	include/voltos/lwapp.h
  *
+ * 	Lightweight Access Point Provisioning Protocol (LWAPP)
  */
 
 #ifndef _VOLTOS_LWAPP_H

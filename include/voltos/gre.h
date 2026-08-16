@@ -3,6 +3,7 @@
 /*
  *	include/voltos/gre.h
  *
+ * 	Generic Routing Encapsulation (GRE)
  */
 
 #ifndef _VOLTOS_GRE_H

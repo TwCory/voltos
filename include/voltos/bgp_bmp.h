@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bgp_bmp.h
  *
+ * 	BGP Monitoring Protocol (BMP)
  */
 
 #ifndef _VOLTOS_BGP_BMP_H

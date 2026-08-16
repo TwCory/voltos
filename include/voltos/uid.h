@@ -3,6 +3,7 @@
 /*
  *	include/voltos/uid.h
  *
+ * 	User Identifiers
  */
 
 #ifndef _VOLTOS_UID_H

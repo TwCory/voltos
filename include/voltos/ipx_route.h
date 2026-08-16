@@ -10,8 +10,5 @@
 
 #include <nbapi/voltos/ipx_route.h>
 
-struct ipx_route {
-
-};
 
 #endif /* _VOLTOS_IPX_ROUTE_H */

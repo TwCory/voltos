@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vines.h
  *
+ * 	Banyan VINES Socket Family
  */
 
 #ifndef _VOLTOS_VINES_H

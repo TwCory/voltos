@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dio.h
  *
+ * 	Digital I/O
  */
 
 #ifndef _VOLTOS_DIO_H

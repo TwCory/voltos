@@ -9,35 +9,38 @@
 #ifndef _ROUTER_OSPFV3_H
 #define _ROUTER_OSPFV3_H
 
+#include <voltos/if.h>
 #include <voltos/inet.h>
 #include <voltos/ospf_common.h>
+#include <voltos/ospfv3.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
+#include <voltos/vrf.h>
+#include <net/neighbour.h>
+#include <net/neighbour_table.h>
+#include <net/protocol.h>
 
-struct ospfv3_protocol {
-	ospf_pid_t 			instance;
-	bool 				enabled;
+struct ospfv3_area {
+
 };
 
 struct ospfv3_interface {
-	bool 				passive;
+	struct interface 		*interface;
 };
 
-struct ospfv3_area {
-	ospf_area_id_t 			id;
-	ospf_area_type_t 		type;
-};
-
-struct ospfv3_neighbour {
-	ip_addr_t 			address;
-};
-
-struct ospfv3_network {
-	ospf_network_type_t 		type;
+struct ospfv3_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 struct ospfv3_route {
+	struct route 			*route;
+
 	ip_prefix_t 			prefix;
-	ospf_cost_t 			cost;
+};
+
+struct ospfv3_router {
+	bool 				shutdown;
 };
 
 struct ospfv3_virtual_link {

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/capwap.h
  *
+ * 	Control and Provisioning of Wireless Access Points (CAPWAP)
  */
 
 #ifndef _VOLTOS_CAPWAP_H

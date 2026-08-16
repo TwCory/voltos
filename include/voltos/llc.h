@@ -3,6 +3,7 @@
 /*
  *	include/voltos/llc.h
  *
+ * 	Logical Link Control (LLC)
  */
 
 #ifndef _VOLTOS_LLC_H

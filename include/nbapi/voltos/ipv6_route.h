@@ -85,7 +85,7 @@
 #define IPV6_ROUTE_CODE_HELP_STATIC			"S - Static\n"
 #define IPV6_ROUTE_CODE_HELP_ZHLS			"Z - ZHLS\n"
 
-enum {
+enum ipv6_route_protocol {
 	IPV6_ROUTE_PROTOCOL_T_UNSPEC			= 0,
 	IPV6_ROUTE_PROTOCOL_T_AODV			= 1,
 	IPV6_ROUTE_PROTOCOL_T_BABEL			= 2,

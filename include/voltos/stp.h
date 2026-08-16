@@ -3,6 +3,7 @@
 /*
  *	include/voltos/stp.h
  *
+ * 	Spanning Tree Protocol (STP)
  */
 
 #ifndef _VOLTOS_STP_H
@@ -10,12 +11,5 @@
 
 #include <nbapi/voltos/stp.h>
 
-struct stp_global_conf {
-
-};
-
-struct stp_interface_conf {
-
-};
 
 #endif /* _VOLTOS_STP_H */

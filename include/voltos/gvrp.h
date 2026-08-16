@@ -3,19 +3,12 @@
 /*
  *	include/voltos/gvrp.h
  *
+ * 	Generic VLAN Registration Protocol (GVRP)
  */
 
 #ifndef _VOLTOS_GVRP_H
 #define _VOLTOS_GVRP_H
 
 #include <nbapi/voltos/gvrp.h>
-
-struct gvrp_global_conf {
-
-};
-
-struct gvrp_interface_conf {
-
-};
 
 #endif /* _VOLTOS_GVRP_H */

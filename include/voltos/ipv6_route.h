@@ -10,8 +10,6 @@
 
 #include <nbapi/voltos/ipv6_route.h>
 
-struct ipv6_route {
-
-};
+typedef enum ipv6_route_protocol ipv6_route_protocol_t;
 
 #endif /* _VOLTOS_IPV6_ROUTE_H */

@@ -3,15 +3,12 @@
 /*
  *	include/voltos/ppp.h
  *
+ * 	Point-to-Point Protocol (PPP)
  */
 
 #ifndef _VOLTOS_PPP_H
 #define _VOLTOS_PPP_H
 
 #include <nbapi/voltos/ppp.h>
-
-struct ppp_global_conf {
-
-};
 
 #endif /* _VOLTOS_PPP_H */

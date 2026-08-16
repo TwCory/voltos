@@ -3,6 +3,7 @@
 /*
  *	include/voltos/macsec.h
  *
+ * 	IEEE 802.1AE MAC Security Extensions (MACsec)
  */
 
 #ifndef _VOLTOS_MACSEC_H

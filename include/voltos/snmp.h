@@ -1,12 +1,13 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/snmp.h
+ *
+ */
+
 #ifndef _VOLTOS_SNMP_H
 #define _VOLTOS_SNMP_H
 
-struct snmp_global_conf {
-
-};
-
-struct snmp_server_conf {
-
-};
+#include <nbapi/voltos/snmp.h>
 
 #endif /* _VOLTOS_SNMP_H */

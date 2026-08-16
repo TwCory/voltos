@@ -8,21 +8,32 @@
 #ifndef _ROUTER_OPENFABRIC_H
 #define _ROUTER_OPENFABRIC_H
 
+#include <voltos/if.h>
 #include <voltos/inet.h>
 #include <voltos/nsap.h>
+#include <voltos/openfabric.h>
+#include <voltos/route.h>
 #include <voltos/types.h>
-
-struct openfabric_protocol {
-	nsap_addr_t 		instance;
-	bool 			enabled;
-};
+#include <voltos/vrf.h>
+#include <net/protocol.h>
 
 struct openfabric_interface {
-	bool 			passive;
+	struct interface 		*interface;
+};
+
+struct openfabric_protocol {
+	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 struct openfabric_route {
-	ip_prefix_t 		prefix;
+	struct route 			*route;
+
+	ip_prefix_t 			prefix;
+};
+
+struct openfabric_router {
+	bool 				shutdown;
 };
 
 #endif /* _ROUTER_OPENFABRIC_H */
