@@ -15,7 +15,10 @@
 #include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct bfd_protocol;
+
 struct bfd_interface {
+	struct bfd_protocol 		*bfd;
 	struct interface 		*interface;
 };
 

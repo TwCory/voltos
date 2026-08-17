@@ -12,4 +12,8 @@ struct route {
 
 };
 
+struct route_table {
+
+};
+
 #endif /* _VOLTOS_ROUTE_H */

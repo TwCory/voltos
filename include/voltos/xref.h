@@ -15,4 +15,6 @@ struct xref {
 	refcount_t refcount;
 };
 
+#define XREF_INIT(n)
+
 #endif /* _VOLTOS_XREF_H */

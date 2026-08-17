@@ -25,5 +25,7 @@ typedef union {
 	ipv6_addr_t			ipv6;
 } ip_addr_t;
 
+#define IPV4_ADDR_INIT(A, B, C, D)
+#define IPV6_ADDR_INIT(H1, H2, H3, H4, H5, H6, H7, H8)
 
 #endif /* _VOLTOS_INET_ADDR_H */

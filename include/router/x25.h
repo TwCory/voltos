@@ -13,7 +13,10 @@
 #include <voltos/x25.h>
 #include <net/protocol.h>
 
+struct x25_protocol;
+
 struct x25_interface {
+	struct x25_protocol 		*x25;
 	struct interface 		*interface;
 };
 

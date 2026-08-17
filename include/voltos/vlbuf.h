@@ -9,6 +9,10 @@
 #ifndef _VOLTOS_VLBUF_H
 #define _VOLTOS_VLBUF_H
 
+struct vl_buf_head {
+
+};
+
 struct vl_buf {
 
 };

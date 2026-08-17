@@ -14,11 +14,13 @@
 #include <voltos/route.h>
 #include <voltos/types.h>
 #include <voltos/vrf.h>
+#include <router/ip.h>
 
 struct ip_route {
+	struct ip_protocol 		*ip;
 	struct route 			*route;
 	struct vrf 			*vrf;
-	struct interface 		*interface;
+	struct ip_interface 		*interface;
 
 	ipv4_prefix_t 			prefix;
 	u8 				distance;

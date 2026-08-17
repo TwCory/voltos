@@ -3,7 +3,7 @@
 /*
  *	include/voltos/log2.h
  *
- *  Base-2 Logarithm Helpers
+ *	Base-2 Logarithm Helpers
  */
 
 #ifndef _VOLTOS_LOG2_H

@@ -12,7 +12,10 @@
 #include <voltos/route.h>
 #include <net/protocol.h>
 
+struct nlsp_protocol;
+
 struct nlsp_interface {
+	struct nlsp_protocol 		*nlsp;
 	struct interface 		*interface;
 };
 

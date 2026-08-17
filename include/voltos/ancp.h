@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ancp.h
  *
+ * 	Access Node Control Protocol (ANCP)
  */
 
 #ifndef _VOLTOS_ANCP_H

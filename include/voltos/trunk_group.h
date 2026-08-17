@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_TRUNK_GROUP_H
 #define _VOLTOS_TRUNK_GROUP_H
 
-struct trunk_group_conf {
+struct trunk_group {
 
 };
 

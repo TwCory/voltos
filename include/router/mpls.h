@@ -12,7 +12,10 @@
 #include <voltos/mpls.h>
 #include <net/protocol.h>
 
+struct mpls_protocol;
+
 struct mpls_interface {
+	struct mpls_protocol 		*mpls;
 	struct interface 		*interface;
 };
 

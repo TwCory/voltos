@@ -12,7 +12,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct rsvp_protocol;
+
 struct rsvp_interface {
+	struct rsvp_protocol 		*rsvp;
 	struct interface 		*interface;
 };
 

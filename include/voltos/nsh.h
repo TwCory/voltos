@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nsh.h
  *
+ * 	Network Service Header (NSH)
  */
 
 #ifndef _VOLTOS_NSH_H

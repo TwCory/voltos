@@ -8,8 +8,11 @@
 #ifndef _ROUTER_MPLS_LABEL_H
 #define _ROUTER_MPLS_LABEL_H
 
-struct mpls_label {
+#include <router/mpls.h>
 
+struct mpls_label {
+	struct mpls_protocol 		*mpls;
+	struct mpls_interface 		*interface;
 };
 
 #endif /* _ROUTER_MPLS_LABEL_H */

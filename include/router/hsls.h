@@ -17,22 +17,33 @@
 #include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct hsls_protocol;
+
 struct hsls_interface {
+	struct hsls_protocol 		*hsls;
 	struct interface 		*interface;
 };
 
 struct hsls_protocol {
 	struct protocol 		*protocol;
 	struct vrf 			*vrf;
+
+	struct route_table 		*route_table;
+
+	bool 				enabled;
+	u8 				distance;
 };
 
 struct hsls_route {
+	struct hsls_protocol 		*hsls;
 	struct route 			*route;
 
 	ip_prefix_t 			prefix;
 };
 
 struct hsls_router {
+	struct hsls_protocol 		*hsls;
+
 	bool 				shutdown;
 };
 

@@ -12,7 +12,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct igmp_protocol;
+
 struct igmp_interface {
+	struct igmp_protocol 		*igmp;
 	struct interface 		*interface;
 };
 

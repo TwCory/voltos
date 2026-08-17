@@ -19,26 +19,37 @@
 #include <net/neighbour_table.h>
 #include <net/protocol.h>
 
+struct eigrp_protocol;
+
 struct eigrp_interface {
+	struct eigrp_protocol 		*eigrp;
 	struct interface 		*interface;
 };
 
 struct eigrp_neighbour {
+	struct eigrp_protocol 		*eigrp;
 	struct neighbour 		*neighbour;
 };
 
 struct eigrp_protocol {
 	struct protocol 		*protocol;
 	struct vrf 			*vrf;
+
+	bool 				enabled;
+	u8 				distance;
+	u8 				distance_external;
 };
 
 struct eigrp_route {
+	struct eigrp_protocol 		*eigrp;
 	struct route 			*route;
 
 	ip_prefix_t 			prefix;
 };
 
 struct eigrp_router {
+	struct eigrp_protocol 		*eigrp;
+
 	bool 				shutdown;
 };
 

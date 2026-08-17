@@ -15,12 +15,15 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct dhcpv6_protocol;
+
 struct dhcpv6_interface {
+	struct dhcpv6_protocol 		*dhcpv6;
 	struct interface 		*interface;
 };
 
 struct dhcpv6_pool {
-
+	struct dhcpv6_protocol 		*dhcpv6;
 };
 
 struct dhcpv6_protocol {

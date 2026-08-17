@@ -15,7 +15,10 @@
 #include <voltos/vrrp.h>
 #include <net/protocol.h>
 
+struct vrrp_protocol;
+
 struct vrrp_interface {
+	struct vrrp_protocol 		*vrrp;
 	struct interface 		*interface;
 };
 

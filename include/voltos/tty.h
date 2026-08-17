@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TTY_H
 #define _VOLTOS_TTY_H
 
+struct tty {
+
+};
+
 #endif /* _VOLTOS_TTY_H */

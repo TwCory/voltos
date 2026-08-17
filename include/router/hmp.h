@@ -14,7 +14,10 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct hmp_protocol;
+
 struct hmp_interface {
+	struct hmp_protocol 		*hmp;
 	struct interface 		*interface;
 };
 

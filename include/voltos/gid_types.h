@@ -12,6 +12,6 @@
 
 typedef struct {
 	gid_t value;
-} voltos_gid_t;
+} v_gid_t;
 
 #endif /* _VOLTOS_GID_TYPES_H */

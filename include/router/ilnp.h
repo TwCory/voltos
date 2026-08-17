@@ -15,7 +15,10 @@
 #include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct ilnp_protocol;
+
 struct ilnp_interface {
+	struct ilnp_protocol 		*ilnp;
 	struct interface 		*interface;
 };
 

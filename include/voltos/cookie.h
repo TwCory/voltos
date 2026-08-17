@@ -16,4 +16,6 @@ struct pcpu_generic_cookie {
 
 };
 
+#define DEFINE_COOKIE(name)
+
 #endif /* _VOLTOS_COOKIE_H */

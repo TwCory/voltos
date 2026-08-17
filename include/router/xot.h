@@ -13,7 +13,10 @@
 #include <voltos/xot.h>
 #include <net/protocol.h>
 
+struct xot_protocol;
+
 struct xot_interface {
+	struct xot_protocol 		*xot;
 	struct interface 		*interface;
 };
 

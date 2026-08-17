@@ -11,20 +11,6 @@
 #include <voltos/types.h>
 #include <nbapi/voltos/atalk.h>
 
-struct atalk_domain {
-
-};
-
-struct atalk_macip_client {
-
-};
-
-struct atalk_macip_server {
-
-};
-
-struct atalk_zone {
-
-};
+typedef struct at_addr atalk_addr_t;
 
 #endif /* _VOLTOS_ATALK_H */

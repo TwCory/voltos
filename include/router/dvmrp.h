@@ -15,7 +15,10 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct dvmrp_protocol;
+
 struct dvmrp_interface {
+	struct dvmrp_protocol 		*dvmrp;
 	struct interface 		*interface;
 };
 

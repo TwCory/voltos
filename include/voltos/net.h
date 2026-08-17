@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/net.h>
 
+struct net {
+
+};
+
 #endif /* _VOLTOS_NET_H */

@@ -13,7 +13,10 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct decnet_protocol;
+
 struct decnet_interface {
+	struct decnet_protocol 		*decnet;
 	struct interface 		*interface;
 };
 

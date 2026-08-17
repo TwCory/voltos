@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/net_encapsulation.h>
 
+struct net_encapsulation {
+
+};
+
 #endif /* _VOLTOS_NET_ENCAPSULATION_H */

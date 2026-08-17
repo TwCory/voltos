@@ -14,19 +14,29 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct iso_igrp_protocol;
+
 struct iso_igrp_interface {
+	struct iso_igrp_protocol 	*iso_igrp;
 	struct interface 		*interface;
 };
 
 struct iso_igrp_protocol {
 	struct protocol 		*protocol;
+
+	struct route_table 		*route_table;
+
+	bool 				enabled;
 };
 
 struct iso_igrp_route {
+	struct iso_igrp_protocol 	*iso_igrp;
 	struct route 			*route;
 };
 
 struct iso_igrp_router {
+	struct iso_igrp_protocol 	*iso_igrp;
+	
 	bool 				shutdown;
 };
 

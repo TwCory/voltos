@@ -15,12 +15,15 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct dhcp_protocol;
+
 struct dhcp_interface {
+	struct dhcp_protocol 		*dhcp;
 	struct interface 		*interface;
 };
 
 struct dhcp_pool {
-
+	struct dhcp_protocol 		*dhcp;
 };
 
 struct dhcp_protocol {

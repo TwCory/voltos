@@ -14,19 +14,30 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct pnni_protocol;
+
 struct pnni_interface {
+	struct pnni_protocol 		*pnni;
 	struct interface 		*interface;
 };
 
 struct pnni_protocol {
 	struct protocol 		*protocol;
+
+	struct route_table 		*route_table;
+
+	bool 				enabled;
+	u8 				distance;
 };
 
 struct pnni_route {
+	struct pnni_protocol 		*pnni;
 	struct route 			*route;
 };
 
 struct pnni_router {
+	struct pnni_protocol 		*pnni;
+
 	bool 				shutdown;
 };
 

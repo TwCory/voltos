@@ -12,7 +12,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct atalk_protocol;
+
 struct atalk_interface {
+	struct atalk_protocol 		*atalk;
 	struct interface 		*interface;
 };
 

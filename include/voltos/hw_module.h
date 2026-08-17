@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_HW_MODULE_H
 #define _VOLTOS_HW_MODULE_H
 
-struct hw_module_global_conf {
+struct hw_module {
 
 };
 

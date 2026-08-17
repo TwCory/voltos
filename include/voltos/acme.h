@@ -11,8 +11,4 @@
 
 #include <nbapi/voltos/acme.h>
 
-struct acme_global_conf {
-
-};
-
 #endif /* _VOLTOS_ACME_H */

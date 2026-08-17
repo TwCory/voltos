@@ -11,12 +11,4 @@
 
 #include <nbapi/voltos/dapr.h>
 
-struct dapr_global_conf {
-
-};
-
-struct dapr_interface_conf {
-
-};
-
 #endif /* _VOLTOS_DAPR_H */

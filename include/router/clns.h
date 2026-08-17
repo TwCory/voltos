@@ -13,7 +13,10 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct clns_protocol;
+
 struct clns_interface {
+	struct clns_protocol 		*clns;
 	struct interface 		*interface;
 
 	bool 				checksum;

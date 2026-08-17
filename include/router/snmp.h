@@ -10,7 +10,10 @@
 
 #include <voltos/if.h>
 
+struct snmp_protocol;
+
 struct snmp_interface {
+	struct snmp_protocol 		*snmp;
 	struct interface 		*interface;
 };
 

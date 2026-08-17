@@ -3,19 +3,12 @@
 /*
  *	include/voltos/acap.h
  *
+ * 	Application Access Protocol (ACAP)
  */
 
 #ifndef _VOLTOS_ACAP_H
 #define _VOLTOS_ACAP_H
 
 #include <nbapi/voltos/acap.h>
-
-struct acap_global_conf {
-
-};
-
-struct acap_interface_conf {
-
-};
 
 #endif /* _VOLTOS_ACAP_H */

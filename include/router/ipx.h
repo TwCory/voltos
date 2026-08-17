@@ -13,7 +13,10 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
+struct ipx_protocol;
+
 struct ipx_interface {
+	struct ipx_protocol 		*ipx;
 	struct interface 		*interface;
 };
 

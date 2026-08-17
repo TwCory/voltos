@@ -3,6 +3,7 @@
 /*
  *	include/voltos/lua.h
  *
+ * 	Lua Scripting Language
  */
 
 #ifndef _VOLTOS_LUA_H

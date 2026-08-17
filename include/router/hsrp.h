@@ -15,11 +15,14 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
-struct hsrp_group {
+struct hsrp_protocol;
 
+struct hsrp_group {
+	struct hsrp_protocol 		*hsrp;
 };
 
 struct hsrp_interface {
+	struct hsrp_protocol 		*hsrp;
 	struct interface 		*interface;
 };
 

@@ -11,7 +11,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct pcep_protocol;
+
 struct pcep_interface {
+	struct pcep_protocol 		*pcep;
 	struct interface 		*interface;
 };
 

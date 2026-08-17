@@ -10,4 +10,6 @@
 
 #include <voltos/refcount_types.h>
 
+#define REFCOUNT_INIT(n)
+
 #endif /* _VOLTOS_REFCOUNT_H */

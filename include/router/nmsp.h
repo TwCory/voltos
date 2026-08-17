@@ -12,7 +12,10 @@
 #include <voltos/route.h>
 #include <net/protocol.h>
 
+struct nmsp_protocol;
+
 struct nmsp_interface {
+	struct nmsp_protocol 		*nmsp;
 	struct interface 		*interface;
 };
 

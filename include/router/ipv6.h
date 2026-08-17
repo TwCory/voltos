@@ -15,7 +15,10 @@
 #include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct ipv6_protocol;
+
 struct ipv6_interface {
+	struct ipv6_protocol 		*ipv6;
 	struct interface 		*interface;
 };
 

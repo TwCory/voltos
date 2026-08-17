@@ -11,7 +11,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct tarp_protocol;
+
 struct tarp_interface {
+	struct tarp_protocol 		*tarp;
 	struct interface 		*interface;
 };
 

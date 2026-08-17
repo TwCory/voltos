@@ -19,31 +19,44 @@
 #include <net/neighbour_table.h>
 #include <net/protocol.h>
 
+struct rip_protocol;
+
 struct rip_interface {
+	struct rip_protocol 		*rip;
 	struct interface 		*interface;
 };
 
 struct rip_neighbour {
+	struct rip_protocol 		*rip;
 	struct neighbour 		*neighbour;
 };
 
 struct rip_offset_list {
-
+	struct rip_protocol 		*rip;
 };
 
 struct rip_protocol {
 	struct protocol 		*protocol;
 	struct vrf 			*vrf;
+
+	struct route_table 		*route_table;
+	struct neighbour_table 		*neighbour_table;
+
+	bool 				enabled;
+	u8 				distance;
 };
 
 struct rip_route {
+	struct rip_protocol 		*rip;
 	struct route 			*route;
 
 	ipv4_prefix_t 			prefix;
 };
 
 struct rip_router {
-	bool shutdown;
+	struct rip_protocol 		*rip;
+
+	bool 				shutdown;
 };
 
 #endif /* _ROUTER_RIP_H */

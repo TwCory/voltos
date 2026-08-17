@@ -3,7 +3,7 @@
 /*
  *	include/voltos/ayiya.h
  *
- * 	Anything-In-Anything (AYIYA)
+ * 	Anything-in-Anything (AYIYA)
  */
 
 #ifndef _VOLTOS_AYIYA_H

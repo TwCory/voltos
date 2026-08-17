@@ -12,10 +12,10 @@
 
 #define GENEVE_PORT			6081
 
-#define GENEVE_VNI_BYTE_SIZE		3
+#define GENEVE_VNI_SIZE			3
 
 struct geneve_vni {
-	__byte 				bytes[GENEVE_VNI_BYTE_SIZE];
+
 };
 
 struct geneve_hdr {

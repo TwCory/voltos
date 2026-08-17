@@ -13,14 +13,21 @@
 #include <voltos/inet.h>
 #include <voltos/pim.h>
 #include <voltos/types.h>
+#include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct pim_protocol;
+
 struct pim_interface {
+	struct pim_protocol 		*pim;
 	struct interface 		*interface;
 };
 
 struct pim_protocol {
 	struct protocol 		*protocol;
+	struct vrf 			*vrf;
+
+	bool 				enabled;
 };
 
 #endif /* _ROUTER_PIM_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/6lowpan.h
  *
+ * 	IPv6 Over Low-Power Wireless PAN (6LoWPAN)
  */
 
 #ifndef _VOLTOS_6LOWPAN_H

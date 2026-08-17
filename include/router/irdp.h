@@ -11,7 +11,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct irdp_protocol;
+
 struct irdp_interface {
+	struct irdp_protocol 		*irdp;
 	struct interface 		*interface;
 };
 

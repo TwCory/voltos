@@ -13,11 +13,13 @@
 #include <voltos/ipv6_route.h>
 #include <voltos/route.h>
 #include <voltos/vrf.h>
+#include <router/ipv6.h>
 
 struct ipv6_route {
+	struct ipv6_protocol 		*ipv6;
 	struct route 			*route;
 	struct vrf 			*vrf;
-	struct interface 		*interface;
+	struct ipv6_interface 		*interface;
 
 	ipv6_prefix_t 			prefix;
 	u8 				distance;

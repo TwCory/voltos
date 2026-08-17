@@ -11,7 +11,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct shim6_protocol;
+
 struct shim6_interface {
+	struct shim6_protocol 		*shim6;
 	struct interface 		*interface;
 };
 

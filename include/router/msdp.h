@@ -11,7 +11,10 @@
 #include <voltos/if.h>
 #include <net/protocol.h>
 
+struct msdp_protocol;
+
 struct msdp_interface {
+	struct msdp_protocol 		*msdp;
 	struct interface 		*interface;
 };
 

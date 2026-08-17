@@ -15,11 +15,14 @@
 #include <voltos/types.h>
 #include <net/protocol.h>
 
-struct carp_group {
+struct carp_protocol;
 
+struct carp_group {
+	struct carp_protocol 		*carp;
 };
 
 struct carp_interface {
+	struct carp_protocol 		*carp;
 	struct interface 		*interface;
 };
 

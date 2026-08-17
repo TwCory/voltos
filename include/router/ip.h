@@ -15,7 +15,10 @@
 #include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct ip_protocol;
+
 struct ip_interface {
+	struct ip_protocol 		*ip;
 	struct interface 		*interface;
 
 };

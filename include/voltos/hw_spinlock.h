@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_HW_SPINLOCK_H
 #define _VOLTOS_HW_SPINLOCK_H
 
+struct hw_spinlock {
+
+};
+
 #endif /* _VOLTOS_HW_SPINLOCK_H */

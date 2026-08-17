@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ptr_ring.h
  *
+ * 	Pointer Ring Data Structure
  */
 
 #ifndef _VOLTOS_PTR_RING_H

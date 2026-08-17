@@ -33,4 +33,7 @@ typedef struct {
 	__u8				prefix_length;
 } ip_prefix_t;
 
+#define IPV4_PREFIX_INIT(A, B, C, D, MASK)
+#define IPV6_PREFIX_INIT(H1, H2, H3, H4, H5, H6, H7, H8, MASK)
+
 #endif /* _VOLTOS_INET_PREFIX_H */

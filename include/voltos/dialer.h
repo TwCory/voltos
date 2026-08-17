@@ -10,16 +10,4 @@
 
 #include <nbapi/voltos/dialer.h>
 
-struct dialer_global_conf {
-
-};
-
-struct dialer_list_global_conf {
-
-};
-
-struct dialer {
-
-};
-
 #endif /* _VOLTOS_DIALER_H */

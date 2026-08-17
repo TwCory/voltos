@@ -9,14 +9,20 @@
 #define _ROUTER_MPLS_LDP_H
 
 #include <voltos/if.h>
+#include <voltos/types.h>
+#include <voltos/vrf.h>
 #include <net/protocol.h>
 
+struct ldp_protocol;
+
 struct ldp_interface {
+	struct ldp_protocol 		*ldp;
 	struct interface 		*interface;
 };
 
 struct ldp_protocol {
 	struct protocol 		*protocol;
+	struct vrf 			*vrf;
 };
 
 #endif /* _ROUTER_MPLS_LDP_H */

@@ -11,16 +11,4 @@
 
 #include <nbapi/voltos/alps.h>
 
-struct alps_local_peer {
-
-};
-
-struct alps_primary_peer {
-
-};
-
-struct alps_remote_peer {
-
-};
-
 #endif /* _VOLTOS_ALPS_H */

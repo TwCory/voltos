@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/dlsw.h
  *
- *	Data-Link Switching (DLSW)
+ *	Data Link Switching (DLSW)
  */
 
 #ifndef _NBAPI_VOLTOS_DLSW_H
