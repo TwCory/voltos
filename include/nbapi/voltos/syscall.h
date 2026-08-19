@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/syscall.h
  *
- *
+ *	System Call Interface
  */
 
 #ifndef _NBAPI_VOLTOS_SYSCALL_H

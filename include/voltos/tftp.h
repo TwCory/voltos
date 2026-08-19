@@ -8,8 +8,6 @@
 #ifndef _VOLTOS_TFTP_H
 #define _VOLTOS_TFTP_H
 
-struct tftp_server_global_conf {
-
-};
+#include <nbapi/voltos/tftp.h>
 
 #endif /* _VOLTOS_TFTP_H */

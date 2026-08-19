@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/qspec.h
  *
+ * 	QoS NSIS Signal Layering Protocol (QSPEC)
  */
 
 #ifndef _NBAPI_VOLTOS_QSPEC_H

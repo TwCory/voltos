@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ioctl.h
  *
- *
+ *	Input/Output Control Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_IOCTL_H

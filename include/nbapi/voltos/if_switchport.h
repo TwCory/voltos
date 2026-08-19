@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/if_switchport.h
  *
+ * 	Ethernet Switchport Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_SWITCHPORT_H

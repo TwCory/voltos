@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/a.out.h
  *
+ * 	Assembler Output Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_A_OUT_H

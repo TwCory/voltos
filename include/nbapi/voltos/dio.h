@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/dio.h
  *
+ * 	Digital I/O Framework
  */
 
 #ifndef _NBAPI_VOLTOS_DIO_H

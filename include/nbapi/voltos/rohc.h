@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/rohc.h
  *
+ * 	Robust Header Compression (ROHC)
  */
 
 #ifndef _NBAPI_VOLTOS_ROHC_H

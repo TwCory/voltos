@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_SPX_H
 #define _VOLTOS_SPX_H
 
+#include <nbapi/voltos/spx.h>
+
 #endif /* _VOLTOS_SPX_H */

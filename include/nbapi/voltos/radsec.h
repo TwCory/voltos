@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/radsec.h
  *
+ * 	RADIUS Security Extensions (RadSec)
  */
 
 #ifndef _NBAPI_VOLTOS_RADSEC_H

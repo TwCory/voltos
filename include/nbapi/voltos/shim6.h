@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/shim6.h
  *
+ * 	Site Multihoming by IPv6 Intermediation (Shim6) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_SHIM6_H

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/idb_common.h
  *
- *
+ *	Interface Descriptor Block (IDB) Common Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_IDB_COMMON_H

@@ -14,4 +14,8 @@ struct attribute {
 	void 		*data;
 };
 
+struct attribute_group {
+
+};
+
 #endif /* _VOLTOS_ATTRIBUTE_H */

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/ssh.h
  *
+ * 	Secure Shell (SSH) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_SSH_H

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/netblt.h
  *
- *
+ *	Network Bulk Data Transfer (NetBLT)
  */
 
 #ifndef _NBAPI_VOLTOS_NETBLT_H

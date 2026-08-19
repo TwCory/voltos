@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/epm.h
  *
- *
+ *	Easy Performance Monitor (EzPM)
  */
 
 #ifndef _NBAPI_VOLTOS_EPM_H

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/rsvp-te.h
  *
- *
+ *	Traffic Engineering for RSVP (RSVP-TE)
  */
 
 #ifndef _NBAPI_VOLTOS_RSVP_TE_H

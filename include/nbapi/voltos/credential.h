@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/credential.h
  *
- *
+ *	General Credential Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_CREDENTIAL_H

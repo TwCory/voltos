@@ -8,8 +8,16 @@
 #ifndef _VOLTOS_SPINLOCK_TYPES_H
 #define _VOLTOS_SPINLOCK_TYPES_H
 
-typedef struct spinlock_s {
+#include <voltos/spinlock_types_raw.h>
+#include <voltos/types.h>
 
+typedef struct spinlock {
+	union {
+		struct raw_spinlock 		raw_lock;
+		struct {
+			u8 __padding;
+		};
+	};
 } spinlock_t;
 
 #endif /* _VOLTOS_SPINLOCK_TYPES_H */

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/syslog.h
  *
- *
+ *	System Logging Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_SYSLOG_H

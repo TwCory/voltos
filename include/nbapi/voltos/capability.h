@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/capability.h
  *
- *
+ *	Generic Capability Header
  */
 
 #ifndef _NBAPI_VOLTOS_CAPABILITY_H

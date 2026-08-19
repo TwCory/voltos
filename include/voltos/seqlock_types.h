@@ -8,8 +8,14 @@
 #ifndef _VOLTOS_SEQLOCK_TYPES_H
 #define _VOLTOS_SEQLOCK_TYPES_H
 
-typedef struct seqlock_s {
+#include <voltos/spinlock_types.h>
 
+typedef struct seqcount {
+	unsigned long 				sequence;
+} seqcount_t;
+
+typedef struct seqlock {
+	spinlock_t 				lock;
 } seqlock_t;
 
 #endif /* _VOLTOS_SEQLOCK_TYPES_H */

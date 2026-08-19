@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/un.h
  *
+ * 	UNIX Domain Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_UN_H

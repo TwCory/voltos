@@ -3,6 +3,7 @@
 /*
  *	include/voltos/avl_tree_types.h
  *
+ * 	AVL-Tree Data Structure
  */
 
 #ifndef _VOLTOS_AVL_TREE_TYPES_H
@@ -13,6 +14,14 @@ struct avl_node {
 };
 
 struct avl_root {
+
+};
+
+struct avl_root_cached {
+
+};
+
+struct avl_root_linked {
 
 };
 

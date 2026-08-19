@@ -8,12 +8,6 @@
 #ifndef _VOLTOS_TRILL_H
 #define _VOLTOS_TRILL_H
 
-struct trill_global_conf {
-
-};
-
-struct trill_interface_conf {
-
-};
+#include <nbapi/voltos/trill.h>
 
 #endif /* _VOLTOS_TRILL_H */

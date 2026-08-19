@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_TRANSPORT_MAP_H
 #define _VOLTOS_TRANSPORT_MAP_H
 
+#include <nbapi/voltos/transport-map.h>
+
 struct transport_map {
 
 };

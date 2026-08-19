@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/sysinfo.h
  *
- *
+ *	System Information Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_SYSINFO_H

@@ -16,6 +16,14 @@ struct ts_root {
 
 };
 
+struct ts_root_cached {
+
+};
+
+struct ts_root_linked {
+
+};
+
 #define TS_ROOT
 #define TS_ROOT_CACHED
 #define TS_ROOT_LINKED

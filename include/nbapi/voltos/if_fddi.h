@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/if_fddi.h
  *
+ * 	Fiber Distributed Data Interface (FDDI)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_FDDI_H

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/mpls.h
  *
- *	Multi-Protocol Label Switching (MPLS)
+ *	Multi-Protocol Label Switching (MPLS) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_MPLS_H

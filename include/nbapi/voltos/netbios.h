@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/netbios.h
  *
+ * 	Network Basic I/O (NetBIOS) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_NETBIOS_H

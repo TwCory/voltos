@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/vsock.h
  *
+ * 	Virtual Machine Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_VSOCK_H

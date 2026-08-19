@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/wsma.h
  *
+ * 	Web Services Management Agent (WSMA)
  */
 
 #ifndef _NBAPI_VOLTOS_WSMA_H

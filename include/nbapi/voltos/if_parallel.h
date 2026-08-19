@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_parallel.h
  *
- *
+ *	Parallel Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_PARALLEL_H

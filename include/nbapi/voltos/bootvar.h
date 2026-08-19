@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/bootvar.h
  *
+ * 	Boot Variable Parameters
  */
 
 #ifndef _NBAPI_VOLTOS_BOOTVAR_H

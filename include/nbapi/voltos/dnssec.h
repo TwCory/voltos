@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/dnssec.h
  *
+ * 	Domain Name System Security Extensions (DNSSEC)
  */
 
 #ifndef _NBAPI_VOLTOS_DNSSEC_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/crypto.h
  *
+ * 	General Cryptography Engine Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_CRYPTO_H

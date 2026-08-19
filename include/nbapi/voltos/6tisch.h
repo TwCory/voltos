@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/6tisch.h
  *
+ * 	IPv6 Time-Slotted Channel Hopping (6TiSCH) Standard
  */
 
 #ifndef _NBAPI_VOLTOS_6TISCH_H

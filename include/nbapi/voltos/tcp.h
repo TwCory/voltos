@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/tcp.h
  *
+ * 	Transmission Control Protocol (TCP)
  */
 
 #ifndef _NBAPI_VOLTOS_TCP_H

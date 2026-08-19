@@ -8,7 +8,9 @@
 #ifndef _VOLTOS_STAT_H
 #define _VOLTOS_STAT_H
 
-struct voltos_stat {
+#include <nbapi/voltos/stat.h>
+
+struct v_stat {
 
 };
 

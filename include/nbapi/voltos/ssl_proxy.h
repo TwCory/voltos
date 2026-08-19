@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ssl_proxy.h
  *
- *
+ *	SSL/TLS-Based HTTP Proxy Service
  */
 
 #ifndef _NBAPI_VOLTOS_SSL_PROXY_H

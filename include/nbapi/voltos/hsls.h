@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/hsls.h
  *
- *	Hazy-Sighted Link State (HSLS)
+ *	Hazy-Sighted Link State (HSLS) Routing
  */
 
 #ifndef _NBAPI_VOLTOS_HSLS_H

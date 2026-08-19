@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_THREAD_H
 #define _VOLTOS_THREAD_H
 
+#include <nbapi/voltos/thread.h>
+
 #endif /* _VOLTOS_THREAD_H */

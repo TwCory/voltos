@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/bpf_common.h
  *
- *
+ *	BPF Common Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_BPF_COMMON_H

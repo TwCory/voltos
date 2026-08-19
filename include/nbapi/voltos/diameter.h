@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/diameter.h
  *
+ * 	Diameter AAA Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_DIAMETER_H

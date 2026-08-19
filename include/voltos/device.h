@@ -13,7 +13,23 @@ struct device_type {
 
 };
 
+struct device_attribute {
+
+};
+
+struct device_attribute_ext {
+
+};
+
+struct device_link_ctx {
+
+};
+
 struct device {
+
+};
+
+struct device_link {
 
 };
 

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/bpf_perf_event.h
  *
- *
+ *	BPF Performance Events
  */
 
 #ifndef _NBAPI_VOLTOS_BPF_PERF_EVENT_H

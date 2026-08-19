@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/atm.h
  *
- *
+ *	Asynchronous Transfer Mode (ATM) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ATM_H

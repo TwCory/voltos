@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/string.h
  *
- *
+ *	Strings Header
  */
 
 #ifndef _NBAPI_VOLTOS_STRING_H

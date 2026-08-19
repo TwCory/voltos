@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/bgpsec.h
  *
- *	BGP Security Extensions
+ *	BGP Security Extensions (BGPsec)
  */
 
 #ifndef _NBAPI_VOLTOS_BGPSEC_H

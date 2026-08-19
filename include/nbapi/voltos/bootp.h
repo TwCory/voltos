@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/bootp.h
  *
+ * 	Bootstrap Protocol (BOOTP) Legacy Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_BOOTP_H

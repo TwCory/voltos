@@ -8,4 +8,10 @@
 #ifndef _NET_RXRPC_H
 #define _NET_RXRPC_H
 
+#include <net/sock.h>
+
+struct rxrpc_sock {
+	struct sock sk;
+};
+
 #endif /* _NET_RXRPC_H */

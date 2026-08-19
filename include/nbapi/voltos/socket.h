@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/socket.h
  *
+ * 	Socket Interface Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_SOCKET_H

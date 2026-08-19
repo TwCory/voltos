@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/rift.h
  *
+ * 	Routing in Fat Trees (RIFT)
  */
 
 #ifndef _NBAPI_VOLTOS_RIFT_H

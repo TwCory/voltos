@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TIMEB_H
 #define _VOLTOS_TIMEB_H
 
+#include <nbapi/voltos/timeb.h>
+
 #endif /* _VOLTOS_TIMEB_H */

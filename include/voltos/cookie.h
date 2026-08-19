@@ -16,6 +16,8 @@ struct pcpu_generic_cookie {
 
 };
 
+#define COOKIE_LOCAL_BATCH_SIZE		4096
+
 #define DEFINE_COOKIE(name)
 
 #endif /* _VOLTOS_COOKIE_H */

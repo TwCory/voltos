@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/if_l2vpn.h
  *
+ * 	Layer 2 VPN Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_L2VPN_H

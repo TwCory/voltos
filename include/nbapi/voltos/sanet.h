@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/sanet.h
  *
+ * 	Session-Aware Networking (SANET)
  */
 
 #ifndef _NBAPI_VOLTOS_SANET_H

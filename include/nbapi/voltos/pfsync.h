@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pfsync.h
  *
+ * 	PFSync Protocol for CARP
  */
 
 #ifndef _NBAPI_VOLTOS_PFSYNC_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/bits.h
  *
+ * 	Definitions Related to Bits and Bit Masks
  */
 
 #ifndef _NBAPI_VOLTOS_BITS_H

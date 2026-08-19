@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/sna.h
  *
+ * 	IBM System Network Architecture (SNA) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_SNA_H

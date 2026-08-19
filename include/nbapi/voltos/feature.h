@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/feature.h
  *
+ * 	Feature Manager Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_FEATURE_H

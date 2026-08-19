@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SOAP_H
 #define _VOLTOS_SOAP_H
 
+#include <nbapi/voltos/soap.h>
+
 #endif /* _VOLTOS_SOAP_H */

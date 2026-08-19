@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/cfm.h
  *
+ * 	Connectivity Fault Monitoring (CFM)
  */
 
 #ifndef _NBAPI_VOLTOS_CFM_H

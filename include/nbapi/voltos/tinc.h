@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/tinc.h
  *
+ * 	Tinc Tunneling Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_TINC_H

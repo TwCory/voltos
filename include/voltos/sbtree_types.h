@@ -16,4 +16,12 @@ struct sb_root {
 
 };
 
+struct sb_root_cached {
+
+};
+
+struct sb_root_linked {
+
+};
+
 #endif /* _VOLTOS_SBTREE_TYPES_H */

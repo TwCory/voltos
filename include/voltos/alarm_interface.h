@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/alarm_interface.h>
 
+struct alarm_interface {
+
+};
+
 #endif /* _VOLTOS_ALARM_INTERFACE_H */

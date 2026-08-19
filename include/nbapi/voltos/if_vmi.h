@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_vmi.h
  *
- *
+ *	Virtual Multipoint Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_VMI_H

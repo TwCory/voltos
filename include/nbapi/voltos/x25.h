@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/x25.h
  *
+ * 	X.25 Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_X25_H

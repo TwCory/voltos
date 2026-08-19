@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_TRUNK_GROUP_H
 #define _VOLTOS_TRUNK_GROUP_H
 
+#include <nbapi/voltos/trunk_group.h>
+
 struct trunk_group {
 
 };

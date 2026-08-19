@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/auxvec.h
  *
- *
+ *	Auxiliary Vector Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_AUXVEC_H

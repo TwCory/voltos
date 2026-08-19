@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/stp.h
  *
+ * 	Spanning Tree Protocol (STP)
  */
 
 #ifndef _NBAPI_VOLTOS_STP_H

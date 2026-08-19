@@ -12,4 +12,8 @@ struct bio_vec {
 
 };
 
+struct bvec_iter {
+
+};
+
 #endif /* _VOLTOS_BVEC_H */

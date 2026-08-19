@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/version.h
  *
+ * 	VoltOS Version Public Header
  */
 
 #ifndef _NBAPI_VOLTOS_VERSION_H

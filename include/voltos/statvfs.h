@@ -8,7 +8,9 @@
 #ifndef _VOLTOS_STATVFS_H
 #define _VOLTOS_STATVFS_H
 
-struct voltos_statvfs {
+#include <nbapi/voltos/statvfs.h>
+
+struct v_statvfs {
 
 };
 

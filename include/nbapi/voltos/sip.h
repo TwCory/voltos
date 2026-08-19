@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/sip.h
  *
+ * 	Session Initiation Protocol (SIP)
  */
 
 #ifndef _NBAPI_VOLTOS_SIP_H

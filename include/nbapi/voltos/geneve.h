@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/geneve.h
  *
+ * 	Generic Network Virtualization Encapsulation (GENEVE)
  */
 
 #ifndef _NBAPI_VOLTOS_GENEVE_H
@@ -15,7 +16,7 @@
 #define GENEVE_VNI_SIZE			3
 
 struct geneve_vni {
-
+	__u8 				s_vni[GENEVE_VNI_SIZE];
 };
 
 struct geneve_hdr {

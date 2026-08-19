@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pppoe.h
  *
+ * 	Point-to-Point Protocol over Ethernet (PPPoE)
  */
 
 #ifndef _NBAPI_VOLTOS_PPPOE_H

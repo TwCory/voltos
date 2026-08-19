@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/sstp.h
  *
+ * 	Secure Socket Tunneling Protocol (SSTP)
  */
 
 #ifndef _NBAPI_VOLTOS_SSTP_H

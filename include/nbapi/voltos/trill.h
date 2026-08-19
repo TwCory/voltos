@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/trill.h
  *
- *	Transparent Interconnection of Lots of Links (TRILL)
+ *	Transparent Interconnection of Lots of Links (TRILL) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_TRILL_H

@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/finger.h
  *
- *	Finger Protocol
+ *	Finger Network Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_FINGER_H

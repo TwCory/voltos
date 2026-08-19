@@ -8,8 +8,8 @@
 #ifndef _VOLTOS_RWSEMAPHORE_H
 #define _VOLTOS_RWSEMAPHORE_H
 
-struct rw_semaphore {
+typedef struct rw_semaphore {
 
-};
+} rw_semaphore_t;
 
 #endif /* _VOLTOS_RWSEMAPHORE_H */

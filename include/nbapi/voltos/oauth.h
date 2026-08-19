@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/oauth.h
  *
+ * 	OAuth Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_OAUTH_H

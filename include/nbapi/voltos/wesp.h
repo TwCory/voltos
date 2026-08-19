@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/wesp.h
  *
+ * 	Wrapped Encapsulating Security Payload (WESP)
  */
 
 #ifndef _NBAPI_VOLTOS_WESP_H

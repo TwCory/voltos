@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/decnet_route.h
  *
+ * 	DECnet Router Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_DECNET_ROUTE_H

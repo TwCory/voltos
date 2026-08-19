@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/trunk_group.h
  *
- *
+ *	Trunk-Group Structure Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_TRUNK_GROUP_H

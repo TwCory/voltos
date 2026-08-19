@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/clns_route.h
  *
+ * 	CLNS Router Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_CLNS_ROUTE_H

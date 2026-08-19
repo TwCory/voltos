@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_TTY_H
 #define _VOLTOS_TTY_H
 
+#include <nbapi/voltos/tty.h>
+
 struct tty {
 
 };

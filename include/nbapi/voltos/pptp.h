@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pptp.h
  *
+ * 	Point-to-Point Tunneling Protocol (PPTP)
  */
 
 #ifndef _NBAPI_VOLTOS_PPTP_H

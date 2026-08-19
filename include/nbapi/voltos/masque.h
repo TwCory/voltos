@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/masque.h
  *
+ * 	Multiplexed Application Substrate over QUIC Encryption (MASQUE)
  */
 
 #ifndef _NBAPI_VOLTOS_MASQUE_H

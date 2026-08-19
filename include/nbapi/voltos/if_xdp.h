@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/if_xdp.h
  *
+ * 	eXpress Data Path (XDP) Socket Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_XDP_H

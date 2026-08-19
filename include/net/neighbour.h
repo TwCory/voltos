@@ -12,4 +12,16 @@ struct neighbour {
 
 };
 
+struct neighbour_ops {
+
+};
+
+struct neighbour_params {
+
+};
+
+struct neighbour_stats {
+
+};
+
 #endif /* _NET_NEIGHBOUR_H */

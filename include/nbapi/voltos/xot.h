@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/xot.h
  *
- *	X.25 over TCP (XoT)
+ *	X.25 over TCP (XOT) Protocol/Service
  */
 
 #ifndef _NBAPI_VOLTOS_XOT_H

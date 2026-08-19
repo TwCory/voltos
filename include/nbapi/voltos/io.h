@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/io.h
  *
- *
+ *	Input/Output Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_IO_H

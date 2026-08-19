@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/x25_huntgroup.h
  *
+ * 	X.25 Hunt Group
  */
 
 #ifndef _NBAPI_VOLTOS_X25_HUNTGROUP_H

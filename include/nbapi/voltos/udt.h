@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/udt.h
  *
- *	UDP-Based Bulk Data Transfer (UDT)
+ *	UDP-Based Bulk Data Transfer (UDT) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_UDT_H

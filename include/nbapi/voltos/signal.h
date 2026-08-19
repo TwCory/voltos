@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/signal.h
  *
- *
+ *	UNIX Signal Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_SIGNAL_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/class-map.h
  *
+ * 	Class-Map Structure Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_CLASS_MAP_H

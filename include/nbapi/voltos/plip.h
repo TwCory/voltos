@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/plip.h
  *
+ * 	Parallel Line Internet Protocol (PLIP)
  */
 
 #ifndef _NBAPI_VOLTOS_PLIP_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/openvpn.h
  *
+ * 	OpenVPN(R) Tunnels
  */
 
 #ifndef _NBAPI_VOLTOS_OPENVPN_H

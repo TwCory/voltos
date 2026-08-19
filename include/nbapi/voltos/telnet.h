@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/telnet.h
  *
+ * 	Telnet Remote User Access Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_TELNET_H

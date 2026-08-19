@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/teep.h
  *
+ * 	Trusted Execution Environment Provisioning (TEEP)
  */
 
 #ifndef _NBAPI_VOLTOS_TEEP_H

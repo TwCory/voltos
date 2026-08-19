@@ -9,12 +9,6 @@
 #ifndef _VOLTOS_SPB_H
 #define _VOLTOS_SPB_H
 
-struct spb_global_conf {
-
-};
-
-struct spb_interface_conf {
-
-};
+#include <nbapi/voltos/spb.h>
 
 #endif /* _VOLTOS_SPB_H */

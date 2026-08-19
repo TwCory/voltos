@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/mctp.h
  *
+ * 	Management Component Transport Protocol (MCTP) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_MCTP_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/ptp.h
  *
+ * 	Precision Time Protocol (PTP)
  */
 
 #ifndef _NBAPI_VOLTOS_PTP_H

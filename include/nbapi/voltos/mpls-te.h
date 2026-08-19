@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/mpls-te.h
  *
- *
+ *	Traffic Engineering for MPLS (MPLS-TE)
  */
 
 #ifndef _NBAPI_VOLTOS_MPLS_TE_H

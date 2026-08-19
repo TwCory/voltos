@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TELNET_H
 #define _VOLTOS_TELNET_H
 
+#include <nbapi/voltos/telnet.h>
+
 #endif /* _VOLTOS_TELNET_H */

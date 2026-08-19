@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pppoa.h
  *
+ * 	Point-to-Point Protocol over ATM (PPPoA)
  */
 
 #ifndef _NBAPI_VOLTOS_PPPOA_H

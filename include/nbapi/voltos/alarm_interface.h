@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/alarm_interface.h
  *
+ * 	Alarm Interface Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ALARM_INTERFACE_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/jwtoken.h
  *
+ * 	JSON Web Token (JWToken)
  */
 
 #ifndef _NBAPI_VOLTOS_JWTOKEN_H

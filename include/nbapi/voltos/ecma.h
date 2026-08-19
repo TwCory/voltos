@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/ecma.h
  *
+ * 	European Computer Manufacturers Association (ECMA) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_ECMA_H

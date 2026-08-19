@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/translate.h
  *
- *
+ *	Translate Entry Data Structure Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_TRANSLATE_H

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_vlan.h
  *
- *
+ *	VLAN Interface Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_IF_VLAN_H

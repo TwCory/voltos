@@ -8,8 +8,6 @@
 #ifndef _VOLTOS_TAILSCALE_H
 #define _VOLTOS_TAILSCALE_H
 
-struct tailscale_global_conf {
-
-};
+#include <nbapi/voltos/tailscale.h>
 
 #endif /* _VOLTOS_TAILSCALE_H */

@@ -12,4 +12,8 @@ struct debug_object {
 
 };
 
+struct debug_object_desc {
+
+};
+
 #endif /* _VOLTOS_DEBUG_OBJECTS_H */

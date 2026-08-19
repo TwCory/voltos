@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_ieee80211.h
  *
- *
+ *	IEEE 802.11 (Wi-Fi) Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_IEEE80211_H

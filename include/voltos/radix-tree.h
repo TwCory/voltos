@@ -17,4 +17,8 @@ struct radix_tree_iter {
 
 };
 
+struct radix_tree_root {
+
+};
+
 #endif /* _VOLTOS_RADIX_TREE_H */

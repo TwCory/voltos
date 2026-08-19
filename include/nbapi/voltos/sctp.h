@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/sctp.h
  *
+ * 	Stream Control Transmission Protocol (SCTP)
  */
 
 #ifndef _NBAPI_VOLTOS_SCTP_H

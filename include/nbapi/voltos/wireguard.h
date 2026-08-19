@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/wireguard.h
  *
+ * 	WireGuard(R) Tunneling Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_WIREGUARD_H

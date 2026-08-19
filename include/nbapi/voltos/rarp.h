@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/rarp.h
  *
+ * 	Reverse Address Resolution Protocol (RARP)
  */
 
 #ifndef _NBAPI_VOLTOS_RARP_H

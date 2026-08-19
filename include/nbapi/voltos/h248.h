@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/h248.h
  *
- *
+ *	H.248
  */
 
 #ifndef _NBAPI_VOLTOS_H248_H

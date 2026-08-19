@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_serial.h
  *
- *
+ *	Synchronous Serial Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_SERIAL_H

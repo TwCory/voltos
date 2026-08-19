@@ -11,6 +11,10 @@
 
 #include <nbapi/voltos/credential.h>
 
+struct group_ctx {
+
+};
+
 struct credential {
 
 };

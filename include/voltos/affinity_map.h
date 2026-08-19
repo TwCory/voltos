@@ -12,7 +12,7 @@
 
 struct affinity_map {
 	const char 			name[AFFINITY_MAP_NAME_SIZE];
-	__affinity_map_key_t 		index;
+
 };
 
 #endif /* _VOLTOS_AFFINITY_MAP_H */

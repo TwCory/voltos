@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TIMES_H
 #define _VOLTOS_TIMES_H
 
+#include <nbapi/voltos/times.h>
+
 #endif /* _VOLTOS_TIMES_H */

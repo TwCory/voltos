@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ident.h
  *
- *	IdentD
+ *	Ident Network Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_IDENT_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/if_tr.h
  *
+ * 	Token Ring Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_TR_H

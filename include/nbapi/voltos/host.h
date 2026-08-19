@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/host.h
  *
+ * 	Network Host Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_HOST_H

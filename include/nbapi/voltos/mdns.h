@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/mdns.h
  *
- *	Multicast DNS (mDNS)
+ *	Multicast DNS (mDNS) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_MDNS_H

@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/clns_filter.h>
 
+struct clns_filter_expr {
+
+};
+
+struct clns_filter_set {
+
+};
+
 #endif /* _VOLTOS_CLNS_FILTER_H */

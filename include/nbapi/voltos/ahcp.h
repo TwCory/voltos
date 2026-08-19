@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ahcp.h
  *
- *	Ad-Hoc Configuration Protocol (AHCP)
+ *	Ad Hoc Configuration Protocol (AHCP)
  */
 
 #ifndef _NBAPI_VOLTOS_AHCP_H

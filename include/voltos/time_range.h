@@ -8,8 +8,6 @@
 #ifndef _VOLTOS_TIME_RANGE_H
 #define _VOLTOS_TIME_RANGE_H
 
-struct time_range_global_conf {
-
-};
+#include <nbapi/voltos/time_range.h>
 
 #endif /* _VOLTOS_TIME_RANGE_H */

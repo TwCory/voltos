@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/evpn.h
  *
- *	Ethernet VPN (E-VPN)
+ *	Ethernet VPN (E-VPN) Framework
  */
 
 #ifndef _NBAPI_VOLTOS_EVPN_H

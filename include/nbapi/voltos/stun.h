@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/stun.h
  *
- *
+ *	Session Traversal Utilities for NAT (STUN)
  */
 
 #ifndef _NBAPI_VOLTOS_STUN_H

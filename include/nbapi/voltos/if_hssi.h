@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_hssi.h
  *
- *
+ *	High-Speed Serial Interface (HSSI)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_HSSI_H

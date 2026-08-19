@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/snmp-server.h
  *
+ * 	Simple Network Management Protocol (SNMP) Engine/Server Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_SNMP_SERVER_H

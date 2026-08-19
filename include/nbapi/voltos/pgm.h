@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pgm.h
  *
+ * 	Pragmatic Multicast (PGM) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_PGM_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/matip.h
  *
+ * 	Mapping of Airline Traffic over IP (MATIP)
  */
 
 #ifndef _NBAPI_VOLTOS_MATIP_H

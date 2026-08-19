@@ -8,13 +8,12 @@
 #ifndef _NET_STREAM_H
 #define _NET_STREAM_H
 
-#include <voltos/mbuf.h>
-
 struct stream {
-	struct stream 			*next;
-	struct stream 			*prev;
 
-	struct m_buf 			*mb;
+};
+
+struct stream_queue {
+
 };
 
 #endif /* _NET_STREAM_H */

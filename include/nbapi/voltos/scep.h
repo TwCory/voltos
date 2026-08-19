@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/scep.h
  *
+ * 	Simple Certificate Enrollment Protocol (SCEP)
  */
 
 #ifndef _NBAPI_VOLTOS_SCEP_H

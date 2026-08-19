@@ -8,6 +8,10 @@
 #ifndef _NET_AF_UNIX_H
 #define _NET_AF_UNIX_H
 
+#include <net/sock.h>
 
+struct unix_sock {
+	struct sock sk;
+};
 
 #endif /* _NET_AF_UNIX_H */

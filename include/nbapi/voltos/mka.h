@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/mka.h
  *
+ * 	MACsec Key Agreement (MKA) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_MKA_H

@@ -13,12 +13,4 @@
 #include <voltos/types.h>
 #include <nbapi/voltos/clns.h>
 
-struct clns_filter_expr {
-
-};
-
-struct clns_filter_set {
-
-};
-
 #endif /* _VOLTOS_CLNS_H */

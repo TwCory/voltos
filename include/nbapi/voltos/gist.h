@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/gist.h
  *
+ * 	General Internet Signalling Transport (GIST)
  */
 
 #ifndef _NBAPI_VOLTOS_GIST_H

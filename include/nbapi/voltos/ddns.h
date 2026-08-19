@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ddns.h
  *
- *	Dynamic DNS Update Client
+ *	Dynamic DNS (DDNS) Update Client
  */
 
 #ifndef _NBAPI_VOLTOS_DDNS_H

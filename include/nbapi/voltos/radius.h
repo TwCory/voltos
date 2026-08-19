@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/radius.h
  *
+ * 	Remote Authentication Dial-In User Service (RADIUS)
  */
 
 #ifndef _NBAPI_VOLTOS_RADIUS_H

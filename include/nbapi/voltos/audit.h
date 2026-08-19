@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/audit.h
  *
- *	Auditing Definitions
+ *	General Auditing Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_AUDIT_H

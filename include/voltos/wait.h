@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_WAIT_H
 #define _VOLTOS_WAIT_H
 
+#include <nbapi/voltos/wait.h>
+
 #endif /* _VOLTOS_WAIT_H */

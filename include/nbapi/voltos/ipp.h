@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/ipp.h
  *
+ * 	Internet Printing Protocol (IPP)
  */
 
 #ifndef _NBAPI_VOLTOS_IPP_H

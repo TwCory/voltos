@@ -10,4 +10,6 @@
 
 #include <nbapi/voltos/atalk_route.h>
 
+typedef enum atalk_route_protocol atalk_route_protocol_t;
+
 #endif /* _VOLTOS_ATALK_ROUTE_H */

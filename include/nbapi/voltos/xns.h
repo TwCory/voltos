@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/xns.h
  *
+ * 	Xerox Network Systems (XNS) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_XNS_H

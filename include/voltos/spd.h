@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_SPD_H
 #define _VOLTOS_SPD_H
 
+#include <nbapi/voltos/spd.h>
+
 #endif /* _VOLTOS_SPD_H */

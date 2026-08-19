@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/rlogin.h
  *
+ * 	Remote Login Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_RLOGIN_H

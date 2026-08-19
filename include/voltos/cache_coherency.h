@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_CACHE_COHERENCY_H
 #define _VOLTOS_CACHE_COHERENCY_H
 
+struct cache_coherency_ops {
+
+};
+
+struct cache_coherency_instance_ops {
+
+};
+
 #endif /* _VOLTOS_CACHE_COHERENCY_H */

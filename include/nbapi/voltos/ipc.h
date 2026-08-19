@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ipc.h
  *
- *
+ *	Inter-Process Communication (IPC) Subsystem Frontend
  */
 
 #ifndef _NBAPI_VOLTOS_IPC_H

@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/sccp.h
  *
+ * 	Skinny Client Control Protocol (SCCP)
  */
 
 #ifndef _NBAPI_VOLTOS_SCCP_H

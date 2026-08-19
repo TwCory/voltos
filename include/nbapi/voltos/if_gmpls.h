@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_gmpls.h
  *
- *
+ *	Generalized Multi-Protocol Label Switching (GMPLS) Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_GMPLS_H

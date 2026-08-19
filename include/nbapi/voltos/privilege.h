@@ -47,6 +47,4 @@ enum {
 
 #define PRIVILEGE_LEVEL_MAX		(__PRIVILEGE_LEVEL_T_MAX__ - 1)
 
-typedef unsigned char 			__voltos_privilege_level_t;
-
 #endif /* _NBAPI_VOLTOS_PRIVILEGE_H */

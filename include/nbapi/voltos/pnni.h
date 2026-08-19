@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pnni.h
  *
+ * 	Private Network-to-Network Interface (PNNI)
  */
 
 #ifndef _NBAPI_VOLTOS_PNNI_H

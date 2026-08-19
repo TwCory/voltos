@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/transport-map.h
  *
+ * 	Transport-Map Structure Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_TRANSPORT_MAP_H

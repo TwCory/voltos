@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/erspan.h
  *
+ * 	Encapsulated Remote Switched Port Analyzer (ERSPAN)
  */
 
 #ifndef _NBAPI_VOLTOS_ERSPAN_H

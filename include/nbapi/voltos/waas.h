@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/waas.h
  *
+ * 	Wide Area Application Services (WAAS)
  */
 
 #ifndef _NBAPI_VOLTOS_WAAS_H

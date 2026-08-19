@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/hdlc.h
  *
- *	High-Level Data Link Control (HDLC) and Cisco HDLC (cHDLC)
+ *	High-Level Data Link Control (HDLC) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_HDLC_H

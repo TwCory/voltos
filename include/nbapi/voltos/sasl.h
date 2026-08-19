@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/sasl.h
  *
- *
+ *	Simple Authentication and Security Layer (SASL)
  */
 
 #ifndef _NBAPI_VOLTOS_SASL_H
