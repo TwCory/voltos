@@ -11,7 +11,7 @@
 #include <nbapi/voltos/keymap.h>
 
 struct keymap {
-
+	const char 			name[KEYMAP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_KEYMAP_H */

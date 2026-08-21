@@ -11,7 +11,7 @@
 #include <voltos/device.h>
 
 struct port_device {
-	struct device *device;
+	struct device device;
 };
 
 #endif /* _VOLTOS_PORT_DEVICE_H */

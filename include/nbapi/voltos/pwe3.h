@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/pwe3.h
  *
+ * 	Pseudowire Name Spaces (PWE3)
  */
 
 #ifndef _NBAPI_VOLTOS_PWE3_H

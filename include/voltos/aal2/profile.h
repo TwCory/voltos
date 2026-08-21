@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_AAL2_PROFILE_H
 #define _VOLTOS_AAL2_PROFILE_H
 
-struct aal2_profile {
+#include <nbapi/voltos/aal2.h>
 
+struct aal2_profile {
+	const char 			name[AAL2_PROFILE_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_AAL2_PROFILE_H */

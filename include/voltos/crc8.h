@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_CRC8_H
 #define _VOLTOS_CRC8_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_CRC8_H */

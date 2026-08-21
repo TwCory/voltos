@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/time_range.h>
 
+struct time_range {
+
+};
+
 #endif /* _VOLTOS_TIME_RANGE_H */

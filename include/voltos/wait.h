@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/wait.h>
 
+struct wait_queue_entry {
+
+};
+
+struct wait_queue_head {
+
+};
+
 #endif /* _VOLTOS_WAIT_H */

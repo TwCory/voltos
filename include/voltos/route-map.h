@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_ROUTE_MAP_H
 #define _VOLTOS_ROUTE_MAP_H
 
-struct route_map {
+#include <nbapi/voltos/route-map.h>
 
+struct route_map {
+	const char 			name[ROUTE_MAP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_ROUTE_MAP_H */

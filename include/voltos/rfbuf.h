@@ -9,6 +9,10 @@
 #ifndef _VOLTOS_RFBUF_H
 #define _VOLTOS_RFBUF_H
 
+struct rf_buf_head {
+
+};
+
 struct rf_buf {
 
 };

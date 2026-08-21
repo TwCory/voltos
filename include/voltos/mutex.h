@@ -10,4 +10,8 @@
 
 #include <voltos/mutex_types.h>
 
+#ifndef DEFINE_MUTEX
+#define DEFINE_MUTEX(mutex_name)
+#endif /* DEFINE_MUTEX */
+
 #endif /* _VOLTOS_MUTEX_H */

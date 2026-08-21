@@ -11,4 +11,8 @@
 
 #include <voltos/types.h>
 
+struct sockaddr_netbios {
+
+};
+
 #endif /* _NBAPI_VOLTOS_NETBIOS_H */

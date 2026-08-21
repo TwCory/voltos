@@ -3,6 +3,7 @@
 /*
  *      include/nbapi/voltos/reload.h
  *
+ * 	Resource Location and Discovery (RELOAD)
  */
 
 #ifndef _NBAPI_VOLTOS_RELOAD_H

@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_SOCKOPT_H
 #define _VOLTOS_SOCKOPT_H
 
-typedef struct sockopt_s {
+typedef struct sockopt {
 	unsigned int so_length;
 } sockopt_t;
 

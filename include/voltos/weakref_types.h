@@ -9,7 +9,7 @@
 #ifndef _VOLTOS_WEAKREF_TYPES_H
 #define _VOLTOS_WEAKREF_TYPES_H
 
-typedef struct weakref_s {
+typedef struct weakref {
 
 } weakref_t;
 

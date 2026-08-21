@@ -11,7 +11,7 @@
 #include <nbapi/voltos/keychain.h>
 
 struct key_chain {
-
+	const char 			name[KEY_CHAIN_NAME_SIZE];
 };
 
 struct key_chain_key {

@@ -10,4 +10,8 @@
 
 #include <voltos/seqlock_types.h>
 
+#ifndef DEFINE_SEQLOCK
+#define DEFINE_SEQLOCK(seqlock_name)
+#endif /* DEFINE_SEQLOCK */
+
 #endif /* _VOLTOS_SEQLOCK_H */

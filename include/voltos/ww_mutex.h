@@ -10,4 +10,8 @@
 
 #include <voltos/ww_mutex_types.h>
 
+#ifndef DEFINE_WW_MUTEX
+#define DEFINE_WW_MUTEX(ww_mutex_name)
+#endif /* DEFINE_WW_MUTEX */
+
 #endif /* _VOLTOS_WW_MUTEX_H */

@@ -15,10 +15,4 @@
 #define __async
 #endif /* __async */
 
-typedef __u64 				__voltos_async_nsid_t;
-
-struct async_namespace {
-	__voltos_async_nsid_t 		index;
-};
-
 #endif /* _VOLTOS_ASYNC_H */

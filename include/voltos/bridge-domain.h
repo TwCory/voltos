@@ -10,11 +10,7 @@
 
 #include <nbapi/voltos/bridge-domain.h>
 
-struct br_domain_global_conf {
-
-};
-
-struct br_domain_conf {
+struct br_domain {
 
 };
 

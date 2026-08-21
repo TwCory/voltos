@@ -11,7 +11,7 @@
 
 #include <voltos/types.h>
 
-#define WIREGUARD_PORT		51820
-#define WIREGUARD_KEY_SIZE	32
+#define WIREGUARD_PORT			51820
+#define WIREGUARD_KEY_SIZE		32
 
 #endif /* _NBAPI_VOLTOS_WIREGUARD_H */

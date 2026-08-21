@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_CACHE_H
 #define _VOLTOS_CACHE_H
 
+#include <nbapi/voltos/voltos.h>
+
 #ifndef L1_CACHE_ALIGN
 #define L1_CACHE_ALIGN(x)
 #endif

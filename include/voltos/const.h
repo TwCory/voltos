@@ -10,4 +10,7 @@
 
 #include <nbapi/voltos/const.h>
 
+#define UL(x)		(_UL(x))
+#define ULL(x)		(_ULL(x))
+
 #endif /* _VOLTOS_CONST_H */

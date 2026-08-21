@@ -9,6 +9,6 @@
 #ifndef _NBAPI_VOLTOS_SMB_H
 #define _NBAPI_VOLTOS_SMB_H
 
-#define SMB_PORT	445
+#define SMB_PORT			445
 
 #endif /* _NBAPI_VOLTOS_SMB_H */

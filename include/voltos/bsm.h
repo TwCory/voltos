@@ -11,8 +11,6 @@
 
 #include <nbapi/voltos/bsm.h>
 
-
-
 struct bsm_group {
 
 };

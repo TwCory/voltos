@@ -10,4 +10,8 @@
 
 #include <voltos/dclock_types.h>
 
+#ifndef DEFINE_DC_LOCK
+#define DEFINE_DC_LOCK(dc_lock_name)
+#endif /* DEFINE_DC_LOCK */
+
 #endif /* _VOLTOS_DCLOCK_H */

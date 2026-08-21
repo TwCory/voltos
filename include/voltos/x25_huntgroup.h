@@ -11,7 +11,7 @@
 #include <nbapi/voltos/x25_huntgroup.h>
 
 struct x25_hunt_group {
-	const char name[X25_HUNT_GROUP_NAME_SIZE];
+	const char 			name[X25_HUNT_GROUP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_X25_HUNTGROUP_H */

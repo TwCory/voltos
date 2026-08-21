@@ -14,18 +14,6 @@
 
 struct access_list {
 	const char 			acl_name[ACL_NAME_SIZE];
-	__acl_key_t			acl_index;
-	bool 				acl_numbered_type;
-	union {
-		__voltos_acl_number_t 	acl_number;
-	};
-};
-
-struct access_list_compiled {
-
-};
-
-struct access_list_ratelimit {
 
 };
 

@@ -12,7 +12,4 @@
 
 #define HOST_LIST_NAME_SIZE		32
 
-typedef __u32 				__host_list_key_t;
-typedef __u32 				__host_entry_key_t;
-
 #endif /* _NBAPI_VOLTOS_HOST_LIST_H */

@@ -11,7 +11,7 @@
 #include <nbapi/voltos/object-group.h>
 
 struct object_group {
-
+	const char 			name[OBJECT_GROUP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_OBJECT_GROUP_H */

@@ -8,4 +8,7 @@
 #ifndef _VOLTOS_IOVEC_ITER_H
 #define _VOLTOS_IOVEC_ITER_H
 
+#include <voltos/types.h>
+#include <voltos/uio.h>
+
 #endif /* _VOLTOS_IOVEC_ITER_H */

@@ -11,9 +11,15 @@
 #include <voltos/types.h>
 
 typedef struct {
-	s64 				start;
-	s64 				stop;
-	s64 				step;
+	u64 					r_start;
+	u64 					r_stop;
+	unsigned int 				r_step;
 } range_t;
+
+#ifndef DEFINE_RANGE
+#define DEFINE_RANGE(start, stop, step)
+#endif /* DEFINE_RANGE */
+
+
 
 #endif /* _VOLTOS_RANGE_H */

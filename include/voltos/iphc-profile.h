@@ -12,7 +12,7 @@
 
 struct iphc_profile {
 	const char 			name[IPHC_PROFILE_NAME_SIZE];
-	enum iphc_profile_type 		type;
+
 };
 
 #endif /* _VOLTOS_IPHC_PROFILE_H */

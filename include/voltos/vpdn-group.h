@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/vpdn-group.h>
 
+struct vpdn_group {
+
+};
+
 #endif /* _VOLTOS_VPDN_GROUP_H */

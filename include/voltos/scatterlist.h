@@ -9,8 +9,15 @@
 #ifndef _VOLTOS_SCATTERLIST_H
 #define _VOLTOS_SCATTERLIST_H
 
-struct scatterlist {
+#include <voltos/types.h>
 
+struct scatterlist {
+	unsigned long 			page_link;
+	unsigned int 			offset;
+	unsigned int 			length;
+	dma_addr_t 			dma_address;
+	unsigned int 			dma_length;
+	unsigned int 			dma_flags;
 };
 
 struct sg_table {

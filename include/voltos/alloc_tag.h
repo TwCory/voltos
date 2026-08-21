@@ -30,4 +30,8 @@ struct alloc_tag {
 	struct alloc_tag_counters 	counters;
 } __aligned(8);
 
+#ifndef DEFINE_ALLOC_TAG
+#define DEFINE_ALLOC_TAG(alloc_tag_name)
+#endif /* DEFINE_ALLOC_TAG */
+
 #endif /* _VOLTOS_ALLOC_TAG_H */

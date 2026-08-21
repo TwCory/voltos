@@ -11,7 +11,7 @@
 #include <nbapi/voltos/pfr-map.h>
 
 struct pfr_map {
-
+	const char 			name[PFR_MAP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_PFR_MAP_H */

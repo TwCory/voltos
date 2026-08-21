@@ -10,4 +10,6 @@
 
 #include <nbapi/voltos/if_ether.h>
 
+#define MAC_ADDRESS_STRING_SIZE		(3 * ETH_ADDR_SIZE - 1)
+
 #endif /* _VOLTOS_IF_ETHER_H */

@@ -8,8 +8,12 @@
 #ifndef _VOLTOS_MUTEX_TYPES_H
 #define _VOLTOS_MUTEX_TYPES_H
 
-typedef struct mutex_s {
+#include <voltos/atomic.h>
+#include <voltos/spinlock.h>
 
+typedef struct mutex {
+	atomic_long_t 			owner;
+	raw_spinlock_t 			wait_lock;
 } mutex_t;
 
 #endif /* _VOLTOS_MUTEX_TYPES_H */

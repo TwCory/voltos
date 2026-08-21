@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_CRC_ITU_T_H
 #define _VOLTOS_CRC_ITU_T_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_CRC_ITU_T_H */

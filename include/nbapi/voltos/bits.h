@@ -30,7 +30,8 @@ typedef enum {
 	on				= BIT_STATE_ON
 } __bit;
 
-#define BIT(x)				(1 << (x))
+#define BIT(nr)				(UL(1) << (nr))
+#define BIT_ULL(nr)			(ULL(1) << (nr))
 
 #define __GEN_BITMASK(h, l)		(((~_UL(0)) << (l)) & (~_UL(0) >> (__BITS_PER_LONG - 1 - (h))))
 

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sizes.h
  *
+ * 	Data Size Constants
  */
 
 #ifndef _VOLTOS_SIZES_H
@@ -10,66 +11,65 @@
 
 #include <voltos/const.h>
 
-#define SZ_1
-#define SZ_2
-#define SZ_4
-#define SZ_8
-#define SZ_16
-#define SZ_32
-#define SZ_64
-#define SZ_128
-#define SZ_256
-#define SZ_512
+#define SIZE_1					0x00000001
+#define SIZE_2					0x00000002
+#define SIZE_4					0x00000004
+#define SIZE_8					0x00000008
+#define SIZE_16					0x00000010
+#define SIZE_32					0x00000020
+#define SIZE_64					0x00000040
+#define SIZE_128				0x00000080
+#define SIZE_256				0x00000100
+#define SIZE_512				0x00000200
 
-#define SZ_1K
-#define SZ_2K
-#define SZ_4K
-#define SZ_8K
-#define SZ_16K
-#define SZ_32K
-#define SZ_64K
-#define SZ_128K
-#define SZ_192K
-#define SZ_256K
-#define SZ_384K
-#define SZ_512K
+#define SIZE_1K					0x00000400
+#define SIZE_2K					0x00000800
+#define SIZE_4K					0x00001000
+#define SIZE_8K					0x00002000
+#define SIZE_16K				0x00004000
+#define SIZE_32K				0x00008000
+#define SIZE_64K				0x00010000
+#define SIZE_128K				0x00020000
+#define SIZE_192K				0x00030000
+#define SIZE_256K				0x00040000
+#define SIZE_384K				0x00060000
+#define SIZE_512K				0x00080000
 
-#define SZ_1M
-#define SZ_2M
-#define SZ_3M
-#define SZ_4M
-#define SZ_6M
-#define SZ_8M
-#define SZ_12M
-#define SZ_16M
-#define SZ_18M
-#define SZ_24M
-#define SZ_32M
-#define SZ_64M
-#define SZ_128M
-#define SZ_256M
-#define SZ_512M
+#define SIZE_1M					0x00100000
+#define SIZE_2M					0x00200000
+#define SIZE_3M					0x00300000
+#define SIZE_4M					0x00400000
+#define SIZE_6M					0x00600000
+#define SIZE_8M					0x00800000
+#define SIZE_12M				0x00C00000
+#define SIZE_16M				0x01000000
+#define SIZE_18M				0x01200000
+#define SIZE_24M				0x01800000
+#define SIZE_32M				0x02000000
+#define SIZE_64M				0x04000000
+#define SIZE_128M				0x08000000
+#define SIZE_256M				0x10000000
+#define SIZE_512M				0x20000000
 
-#define SZ_1G
-#define SZ_2G
-#define SZ_4G
-#define SZ_8G
-#define SZ_16G
-#define SZ_32G
-#define SZ_64G
-#define SZ_128G
-#define SZ_256G
-#define SZ_512G
+#define SIZE_1G					0x40000000
+#define SIZE_2G					0x80000000
 
-#define SZ_1T
-#define SZ_2T
-#define SZ_4T
-#define SZ_8T
-#define SZ_16T
-#define SZ_32T
-#define SZ_64T
-#define SZ_128T
-#define SZ_256T
-#define SZ_512T
+#define SIZE_4G					_AC(0x100000000, ULL)
+#define SIZE_8G					_AC(0x200000000, ULL)
+#define SIZE_16G				_AC(0x400000000, ULL)
+#define SIZE_32G				_AC(0x800000000, ULL)
+#define SIZE_64G				_AC(0x1000000000, ULL)
+#define SIZE_128G				_AC(0x2000000000, ULL)
+#define SIZE_256G				_AC(0x4000000000, ULL)
+#define SIZE_512G				_AC(0x8000000000, ULL)
+
+#define SIZE_1T					_AC(0x10000000000, ULL)
+#define SIZE_2T					_AC(0x20000000000, ULL)
+#define SIZE_4T					_AC(0x40000000000, ULL)
+#define SIZE_8T					_AC(0x80000000000, ULL)
+#define SIZE_16T				_AC(0x100000000000, ULL)
+#define SIZE_32T				_AC(0x200000000000, ULL)
+#define SIZE_64T				_AC(0x400000000000, ULL)
+#define SIZE_128T				_AC(0x800000000000, ULL)
 
 #endif /* _VOLTOS_SIZES_H */

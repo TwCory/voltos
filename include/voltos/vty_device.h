@@ -12,7 +12,7 @@
 #include <voltos/vty.h>
 
 struct vty_device {
-	struct device 			*device;
+	struct device 			device;
 	struct vty 			*vty;
 };
 

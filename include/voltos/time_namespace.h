@@ -10,10 +10,12 @@
 
 #include <voltos/types.h>
 
-typedef __u64 				__voltos_time_nsid_t;
+struct timens_offsets {
+
+};
 
 struct time_namespace {
-	__voltos_time_nsid_t 		index;
+
 };
 
 #endif /* _VOLTOS_TIME_NAMESPACE_H */
