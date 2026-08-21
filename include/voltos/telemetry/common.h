@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/telemetry/common.h
+ *
+ */
+
 #ifndef _VOLTOS_TELEMETRY_COMMON_H
 #define _VOLTOS_TELEMETRY_COMMON_H
 

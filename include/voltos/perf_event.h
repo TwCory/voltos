@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PERF_EVENT_H
 #define _VOLTOS_PERF_EVENT_H
 
+#include <nbapi/voltos/perf_event.h>
+
 #endif /* _VOLTOS_PERF_EVENT_H */

@@ -15,7 +15,7 @@ typedef struct {
 		void 		*voltos_ptr;
 		void 		*user_ptr;
 	};
-	bool 			is_system;
+	bool 			is_system:1;
 } sockptr_t;
 
 #endif /* _VOLTOS_SOCKPTR_H */
