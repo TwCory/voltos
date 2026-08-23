@@ -33,4 +33,6 @@ struct codetag_iter {
 
 };
 
+#define CODE_TAG_INIT
+
 #endif /* _VOLTOS_CODETAG_H */

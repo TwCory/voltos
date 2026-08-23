@@ -8,6 +8,6 @@
 #ifndef _NET_UDP_TUNNEL_H
 #define _NET_UDP_TUNNEL_H
 
-
+#include <voltos/if_tunnel.h>
 
 #endif /* _NET_UDP_TUNNEL_H */

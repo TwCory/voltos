@@ -9,4 +9,6 @@
 #ifndef _NET_ESP_H
 #define _NET_ESP_H
 
+#include <voltos/ipsec.h>
+
 #endif /* _NET_ESP_H */

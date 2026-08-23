@@ -11,6 +11,9 @@
 
 #include <voltos/types.h>
 
+#define HDLC_MTU_MAX			1500
+#define HDLC_MRU_MAX			1600
+
 struct hdlc_hdr {
 
 };

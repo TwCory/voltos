@@ -8,18 +8,15 @@
 #ifndef _ROUTER_MSDP_H
 #define _ROUTER_MSDP_H
 
-#include <voltos/if.h>
-#include <net/protocol.h>
-
 struct msdp_protocol;
 
 struct msdp_interface {
 	struct msdp_protocol 		*msdp;
-	struct interface 		*interface;
+
 };
 
 struct msdp_protocol {
-	struct protocol 		*protocol;
+
 };
 
 #endif /* _ROUTER_MSDP_H */

@@ -8,6 +8,6 @@
 #ifndef _NET_NETBLT_H
 #define _NET_NETBLT_H
 
-
+#include <voltos/netblt.h>
 
 #endif /* _NET_NETBLT_H */

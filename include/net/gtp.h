@@ -8,4 +8,7 @@
 #ifndef _NET_GTP_H
 #define _NET_GTP_H
 
+#include <voltos/gtp.h>
+#include <voltos/if_tunnel.h>
+
 #endif /* _NET_GTP_H */

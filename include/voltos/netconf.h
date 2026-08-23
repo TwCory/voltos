@@ -10,8 +10,4 @@
 
 #include <nbapi/voltos/netconf.h>
 
-struct netconf_global_conf {
-
-};
-
 #endif /* _VOLTOS_NETCONF_H */

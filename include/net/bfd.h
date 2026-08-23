@@ -3,9 +3,13 @@
 /*
  *	include/net/bfd.h
  *
+ * 	Bidirectional Forwarding Detection (BFD)
  */
 
 #ifndef _NET_BFD_H
 #define _NET_BFD_H
+
+#include <voltos/bfd.h>
+#include <router/bfd.h>
 
 #endif /* _NET_BFD_H */

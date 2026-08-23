@@ -8,6 +8,7 @@
 #ifndef _NET_WESP_H
 #define _NET_WESP_H
 
-
+#include <voltos/if_tunnel.h>
+#include <voltos/wesp.h>
 
 #endif /* _NET_WESP_H */

@@ -8,6 +8,6 @@
 #ifndef _NET_WAAS_H
 #define _NET_WAAS_H
 
-
+#include <voltos/waas.h>
 
 #endif /* _NET_WAAS_H */

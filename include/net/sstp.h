@@ -9,6 +9,7 @@
 #ifndef _NET_SSTP_H
 #define _NET_SSTP_H
 
+#include <voltos/if_tunnel.h>
 #include <voltos/sstp.h>
 
 #endif /* _NET_SSTP_H */

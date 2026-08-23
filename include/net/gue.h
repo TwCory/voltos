@@ -8,4 +8,6 @@
 #ifndef _NET_GUE_H
 #define _NET_GUE_H
 
+#include <voltos/if_tunnel.h>
+
 #endif /* _NET_GUE_H */

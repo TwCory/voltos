@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NEXTHOP_H
 #define _VOLTOS_NEXTHOP_H
 
+#include <nbapi/voltos/nexthop.h>
+
 #endif /* _VOLTOS_NEXTHOP_H */

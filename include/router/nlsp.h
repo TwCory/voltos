@@ -8,19 +8,15 @@
 #ifndef _ROUTER_NLSP_H
 #define _ROUTER_NLSP_H
 
-#include <voltos/if.h>
-#include <voltos/route.h>
-#include <net/protocol.h>
-
 struct nlsp_protocol;
 
 struct nlsp_interface {
 	struct nlsp_protocol 		*nlsp;
-	struct interface 		*interface;
+
 };
 
 struct nlsp_protocol {
-	struct protocol 		*protocol;
+
 };
 
 #endif /* _ROUTER_NLSP_H */

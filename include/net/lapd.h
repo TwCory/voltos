@@ -8,6 +8,6 @@
 #ifndef _NET_LAPD_H
 #define _NET_LAPD_H
 
-
+#include <voltos/lapd.h>
 
 #endif /* _NET_LAPD_H */

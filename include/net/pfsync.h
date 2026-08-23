@@ -8,6 +8,6 @@
 #ifndef _NET_PFSYNC_H
 #define _NET_PFSYNC_H
 
-
+#include <voltos/pfsync.h>
 
 #endif /* _NET_PFSYNC_H */

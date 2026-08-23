@@ -8,6 +8,6 @@
 #ifndef _NET_X29_H
 #define _NET_X29_H
 
-
+#include <voltos/x29.h>
 
 #endif /* _NET_X29_H */

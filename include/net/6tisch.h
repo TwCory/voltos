@@ -8,6 +8,6 @@
 #ifndef _NET_6TISCH_H
 #define _NET_6TISCH_H
 
-
+#include <voltos/6tisch.h>
 
 #endif /* _NET_6TISCH_H */

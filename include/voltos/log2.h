@@ -12,4 +12,14 @@
 #include <voltos/bitops.h>
 #include <voltos/types.h>
 
+#define ilog2(n)
+
+#define round_up_power_of_two(n)
+
+#define round_down_power_of_two(n)
+
+#define order_base2(n)
+
+#define bits_per(n)
+
 #endif /* _VOLTOS_LOG2_H */

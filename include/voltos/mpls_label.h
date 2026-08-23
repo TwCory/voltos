@@ -10,5 +10,4 @@
 
 #include <nbapi/voltos/mpls_label.h>
 
-
 #endif /* _VOLTOS_MPLS_LABEL_H */

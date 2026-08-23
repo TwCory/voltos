@@ -8,4 +8,7 @@
 #ifndef _NET_MLD_H
 #define _NET_MLD_H
 
+#include <voltos/mld.h>
+#include <router/mld.h>
+
 #endif /* _NET_MLD_H */

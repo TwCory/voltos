@@ -11,6 +11,6 @@
 #include <voltos/math.h>
 #include <voltos/types.h>
 
-#define ASCII85_BUF_SIZE     6
+#define ASCII85_BUF_SIZE     		6
 
 #endif /* _VOLTOS_ASCII85_H */

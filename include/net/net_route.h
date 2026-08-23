@@ -8,6 +8,8 @@
 #ifndef _NET_ROUTE_H
 #define _NET_ROUTE_H
 
+#include <voltos/net_route.h>
+
 struct route {
 
 };

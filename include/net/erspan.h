@@ -8,4 +8,7 @@
 #ifndef _NET_ERSPAN_H
 #define _NET_ERSPAN_H
 
+#include <voltos/erspan.h>
+#include <voltos/if_tunnel.h>
+
 #endif /* _NET_ERSPAN_H */

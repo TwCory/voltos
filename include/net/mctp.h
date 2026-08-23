@@ -8,4 +8,6 @@
 #ifndef _NET_MCTP_H
 #define _NET_MCTP_H
 
+#include <voltos/mctp.h>
+
 #endif /* _NET_MCTP_H */

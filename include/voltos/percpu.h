@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_PERCPU_H
 #define _VOLTOS_PERCPU_H
 
+#include <voltos/percpu-defs.h>
+
 struct percpu_group_ctx {
 
 };

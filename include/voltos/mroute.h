@@ -10,8 +10,4 @@
 
 #include <nbapi/voltos/mroute.h>
 
-struct mroute {
-
-};
-
 #endif /* _VOLTOS_MROUTE_H */

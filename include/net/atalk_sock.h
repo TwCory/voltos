@@ -8,6 +8,7 @@
 #ifndef _NET_ATALK_SOCK_H
 #define _NET_ATALK_SOCK_H
 
+#include <voltos/atalk.h>
 #include <net/sock.h>
 
 struct atalk_sock {

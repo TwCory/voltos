@@ -8,4 +8,6 @@
 #ifndef _NET_LACP_H
 #define _NET_LACP_H
 
+#include <voltos/lacp.h>
+
 #endif /* _NET_LACP_H */

@@ -8,6 +8,6 @@
 #ifndef _NET_LAPB_H
 #define _NET_LAPB_H
 
-
+#include <voltos/lapb.h>
 
 #endif /* _NET_LAPB_H */

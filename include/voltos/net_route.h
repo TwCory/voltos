@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NET_ROUTE_H
 #define _VOLTOS_NET_ROUTE_H
 
+#include <nbapi/voltos/net_route.h>
+
 #endif /* _VOLTOS_NET_ROUTE_H */

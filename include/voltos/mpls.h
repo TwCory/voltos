@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/mpls.h>
 
-struct mpls_global_conf {
-
-};
-
-struct mpls_interface_conf {
-
-};
-
 #endif /* _VOLTOS_MPLS_H */

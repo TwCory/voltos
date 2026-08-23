@@ -11,7 +11,7 @@
 #include <voltos/pflock_types.h>
 
 #ifndef DEFINE_PFLOCK
-#define DEFINE_PFLOCK(pflock_name)
+#define DEFINE_PFLOCK(name)
 #endif /* DEFINE_PFLOCK */
 
 #endif /* _VOLTOS_PFLOCK_H */

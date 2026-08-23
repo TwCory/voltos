@@ -9,21 +9,15 @@
 #ifndef _ROUTER_DVMRP_H
 #define _ROUTER_DVMRP_H
 
-#include <voltos/dvmrp.h>
-#include <voltos/if.h>
-#include <voltos/inet.h>
-#include <voltos/types.h>
-#include <net/protocol.h>
-
 struct dvmrp_protocol;
 
 struct dvmrp_interface {
 	struct dvmrp_protocol 		*dvmrp;
-	struct interface 		*interface;
+
 };
 
 struct dvmrp_protocol {
-	struct protocol 		*protocol;
+
 };
 
 #endif /* _ROUTER_DVMRP_H */

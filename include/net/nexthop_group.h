@@ -8,6 +8,9 @@
 #ifndef _NET_NEXTHOP_GROUP_H
 #define _NET_NEXTHOP_GROUP_H
 
+#include <voltos/nexthop.h>
+#include <voltos/types.h>
+
 struct next_hop_group {
 
 };

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/shim6.h
  *
+ * 	Site Multihoming by IPv6 Intermediation (Shim6) Protocol
  */
 
 #ifndef _VOLTOS_SHIM6_H

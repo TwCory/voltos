@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_IF_BDI_H
 #define _VOLTOS_IF_BDI_H
 
+#include <voltos/idb.h>
+
+struct bdi_idb {
+	struct idb *idb;
+};
+
 #endif /* _VOLTOS_IF_BDI_H */

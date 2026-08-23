@@ -3,19 +3,12 @@
 /*
  *	include/voltos/mrd.h
  *
+ * 	Multicast Router Discovery (MRD)
  */
 
 #ifndef _VOLTOS_MRD_H
 #define _VOLTOS_MRD_H
 
 #include <nbapi/voltos/mrd.h>
-
-struct mrd_global_conf {
-
-};
-
-struct mrd_interface_conf {
-
-};
 
 #endif /* _VOLTOS_MRD_H */

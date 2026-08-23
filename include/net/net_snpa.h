@@ -8,6 +8,8 @@
 #ifndef _NET_SNPA_H
 #define _NET_SNPA_H
 
+#include <voltos/net_snpa.h>
+
 struct net_snpa {
 
 };

@@ -8,6 +8,6 @@
 #ifndef _NET_LLC_H
 #define _NET_LLC_H
 
-
+#include <voltos/llc.h>
 
 #endif /* _NET_LLC_H */

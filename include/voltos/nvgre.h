@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NVGRE_H
 #define _VOLTOS_NVGRE_H
 
+#include <nbapi/voltos/nvgre.h>
+
 #endif /* _VOLTOS_NVGRE_H */

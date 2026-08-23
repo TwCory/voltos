@@ -9,4 +9,6 @@
 #ifndef _NET_HDLC_H
 #define _NET_HDLC_H
 
+#include <voltos/hdlc.h>
+
 #endif /* _NET_HDLC_H */

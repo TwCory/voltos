@@ -8,6 +8,6 @@
 #ifndef _NET_CLNS_TUNNEL_H
 #define _NET_CLNS_TUNNEL_H
 
-
+#include <voltos/if_tunnel.h>
 
 #endif /* _NET_CLNS_TUNNEL_H */

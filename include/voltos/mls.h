@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MLS_H
 #define _VOLTOS_MLS_H
 
+#include <nbapi/voltos/mls.h>
+
 #endif /* _VOLTOS_MLS_H */

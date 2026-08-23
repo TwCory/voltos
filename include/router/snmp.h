@@ -8,13 +8,11 @@
 #ifndef _ROUTER_SNMP_H
 #define _ROUTER_SNMP_H
 
-#include <voltos/if.h>
-
 struct snmp_protocol;
 
 struct snmp_interface {
 	struct snmp_protocol 		*snmp;
-	struct interface 		*interface;
+
 };
 
 struct snmp_protocol {

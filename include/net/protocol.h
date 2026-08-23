@@ -9,6 +9,8 @@
 #ifndef _NET_PROTOCOL_H
 #define _NET_PROTOCOL_H
 
+#include <voltos/types.h>
+
 struct protocol {
 
 };

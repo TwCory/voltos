@@ -10,4 +10,8 @@
 
 #include <voltos/ratelimit_types.h>
 
+#ifndef DEFINE_RATELIMIT_STATE
+#define DEFINE_RATELIMIT_STATE(name)
+#endif /* DEFINE_RATELIMIT_STATE */
+
 #endif /* _VOLTOS_RATELIMIT_H */

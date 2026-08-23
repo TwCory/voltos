@@ -63,4 +63,11 @@ typedef unsigned char 				__byte;
 typedef unsigned char 				__octet;
 typedef unsigned short 				__hextet;
 
+#define __aligned_s64				__s64		__attribute__ ((aligned(8)))
+#define __aligned_u64				__u64		__attribute__ ((aligned(8)))
+#define __aligned_be64				__be64		__attribute__ ((aligned(8)))
+#define __aligned_le64				__le64		__attribute__ ((aligned(8)))
+#define __aligned_net64				__net64		__attribute__ ((aligned(8)))
+#define __aligned_host64			__host64	__attribute__ ((aligned(8)))
+
 #endif /* _NBAPI_VOLTOS_TYPES_H */

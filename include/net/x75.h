@@ -8,6 +8,6 @@
 #ifndef _NET_X75_H
 #define _NET_X75_H
 
-
+#include <voltos/x75.h>
 
 #endif /* _NET_X75_H */

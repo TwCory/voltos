@@ -8,4 +8,7 @@
 #ifndef _NET_WIREGUARD_H
 #define _NET_WIREGUARD_H
 
+#include <voltos/if_tunnel.h>
+#include <voltos/wireguard.h>
+
 #endif /* _NET_WIREGUARD_H */

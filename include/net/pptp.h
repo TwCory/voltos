@@ -8,4 +8,7 @@
 #ifndef _NET_PPTP_H
 #define _NET_PPTP_H
 
+#include <voltos/if_tunnel.h>
+#include <voltos/pptp.h>
+
 #endif /* _NET_PPTP_H */

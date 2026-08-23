@@ -9,4 +9,7 @@
 #ifndef _NET_GRE_H
 #define _NET_GRE_H
 
+#include <voltos/gre.h>
+#include <voltos/if_tunnel.h>
+
 #endif /* _NET_GRE_H */

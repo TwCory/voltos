@@ -8,4 +8,6 @@
 #ifndef _NET_NSH_H
 #define _NET_NSH_H
 
+#include <voltos/nsh.h>
+
 #endif /* _NET_NSH_H */

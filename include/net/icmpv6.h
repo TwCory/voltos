@@ -8,4 +8,6 @@
 #ifndef _NET_ICMPV6_H
 #define _NET_ICMPV6_H
 
+#include <voltos/icmpv6.h>
+
 #endif /* _NET_ICMPV6_H */

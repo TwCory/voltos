@@ -8,6 +8,6 @@
 #ifndef _NET_LAT_H
 #define _NET_LAT_H
 
-
+#include <voltos/lat.h>
 
 #endif /* _NET_LAT_H */

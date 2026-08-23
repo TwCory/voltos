@@ -8,6 +8,7 @@
 #ifndef _NET_DECNET_SOCK_H
 #define _NET_DECNET_SOCK_H
 
+#include <voltos/decnet.h>
 #include <net/sock.h>
 
 struct decnet_sock {

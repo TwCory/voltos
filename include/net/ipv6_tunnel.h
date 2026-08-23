@@ -8,6 +8,6 @@
 #ifndef _NET_IPV6_TUNNEL_H
 #define _NET_IPV6_TUNNEL_H
 
-
+#include <voltos/if_tunnel.h>
 
 #endif /* _NET_IPV6_TUNNEL_H */

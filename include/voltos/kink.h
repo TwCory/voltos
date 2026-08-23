@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_KINK_H
 #define _VOLTOS_KINK_H
 
+#include <nbapi/voltos/kink.h>
+
 #endif /* _VOLTOS_KINK_H */

@@ -8,15 +8,15 @@
 #ifndef _ROUTER_DECNET_ROUTE_H
 #define _ROUTER_DECNET_ROUTE_H
 
-#include <voltos/decnet.h>
-#include <voltos/decnet_route.h>
-#include <voltos/route.h>
 #include <router/decnet.h>
 
-struct decnet_route {
+struct decnet_route_node {
 	struct decnet_protocol 		*decnet;
-	struct route 			*route;
 	struct decnet_interface 	*interface;
+};
+
+struct decnet_route_table {
+
 };
 
 #endif /* _ROUTER_DECNET_ROUTE_H */

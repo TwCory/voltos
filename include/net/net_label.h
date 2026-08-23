@@ -8,6 +8,8 @@
 #ifndef _NET_LABEL_H
 #define _NET_LABEL_H
 
+#include <voltos/net_label.h>
+
 struct label {
 
 };

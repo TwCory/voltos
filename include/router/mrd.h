@@ -9,10 +9,8 @@
 #ifndef _ROUTER_MRD_H
 #define _ROUTER_MRD_H
 
-#include <voltos/if.h>
-
 struct mrd_interface {
-	struct interface 		*interface;
+
 };
 
 #endif /* _ROUTER_MRD_H */

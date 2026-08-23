@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/netbios.h>
 
-struct netbios_global_conf {
-
-};
-
-struct netbios_interface_conf {
-
-};
-
 #endif /* _VOLTOS_NETBIOS_H */

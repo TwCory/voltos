@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MAILBOX_H
 #define _VOLTOS_MAILBOX_H
 
+#include <nbapi/voltos/mailbox.h>
+
 #endif /* _VOLTOS_MAILBOX_H */

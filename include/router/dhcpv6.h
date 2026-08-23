@@ -9,17 +9,11 @@
 #ifndef _ROUTER_DHCPV6_H
 #define _ROUTER_DHCPV6_H
 
-#include <voltos/dhcpv6.h>
-#include <voltos/if.h>
-#include <voltos/inet.h>
-#include <voltos/types.h>
-#include <net/protocol.h>
-
 struct dhcpv6_protocol;
 
 struct dhcpv6_interface {
 	struct dhcpv6_protocol 		*dhcpv6;
-	struct interface 		*interface;
+
 };
 
 struct dhcpv6_pool {
@@ -27,7 +21,7 @@ struct dhcpv6_pool {
 };
 
 struct dhcpv6_protocol {
-	struct protocol 		*protocol;
+
 };
 
 #endif /* _ROUTER_DHCPV6_H */

@@ -8,4 +8,6 @@
 #ifndef _NET_UDP_LITE_H
 #define _NET_UDP_LITE_H
 
+#include <voltos/udp.h>
+
 #endif /* _NET_UDP_LITE_H */

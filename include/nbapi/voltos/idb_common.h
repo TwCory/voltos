@@ -9,4 +9,173 @@
 #ifndef _NBAPI_VOLTOS_IDB_COMMON_H
 #define _NBAPI_VOLTOS_IDB_COMMON_H
 
+enum {
+	__IF_T__AppGigabitEthernet		= 1,
+#define __IF_P__AppGigabitEthernet		"AppGigabitEthernet"
+	__IF_T__AppleTalk			= 2,
+#define __IF_P__AppleTalk			"AppleTalk"
+	__IF_T__AppNav_Compress			= 3,
+#define __IF_P__AppNav_Compress			"AppNav-Compress"
+	__IF_T__AppNav_UnCompress		= 4,
+#define __IF_P__AppNav_UnCompress		"AppNav-UnCompress"
+	__IF_T__ARCnet				= 5,
+#define __IF_P__ARCnet				"ARCnet"
+	__IF_T__Async				= 6,
+#define __IF_P__Async				"Async"
+	__IF_T__ATM				= 7,
+#define __IF_P__ATM				"ATM"
+	__IF_T__ATM_ACR				= 8,
+#define __IF_P__ATM_ACR				"ATM-ACR"
+	__IF_T__Auto_Template			= 9,
+#define __IF_P__Auto_Template			"Auto-Template"
+	__IF_T__BATMAN_Advanced			= 10,
+#define __IF_P__BATMAN_Advanced			"BATMAN-Advanced"
+	__IF_T__BDI				= 11,
+#define __IF_P__BDI				"BDI"
+	__IF_T__Bluetooth			= 12,
+#define __IF_P__Bluetooth			"Bluetooth"
+	__IF_T__Bundle				= 13,
+#define __IF_P__Bundle				"Bundle"
+	__IF_T__BVI				= 14,
+#define __IF_P__BVI				"BVI"
+	__IF_T__Cable_Modem			= 15,
+#define __IF_P__Cable_Modem			"Cable-Modem"
+	__IF_T__CAN				= 16,
+#define __IF_P__CAN				"CAN"
+	__IF_T__CDMA_1x				= 17,
+#define __IF_P__CDMA_1x				"CDMA-1x"
+	__IF_T__Cellular			= 18,
+#define __IF_P__Cellular			"Cellular"
+	__IF_T__CTunnel				= 19,
+#define __IF_P__CTunnel				"CTunnel"
+	__IF_T__Dialer				= 20,
+#define __IF_P__Dialer				"Dialer"
+	__IF_T__DSA				= 21,
+#define __IF_P__DSA				"DSA"
+	__IF_T__EightHundredGigE		= 22,
+#define __IF_P__EightHundredGigE		"EightHundredGigE"
+	__IF_T__Embedded_Service_Engine		= 23,
+#define __IF_P__Embedded_Service_Engine		"Embedded-Service-Engine"
+	__IF_T__Ethernet			= 24,
+#define __IF_P__Ethernet			"Ethernet"
+	__IF_T__FastEthernet			= 25,
+#define __IF_P__FastEthernet			"FastEthernet"
+	__IF_T__FDDI				= 26,
+#define __IF_P__FDDI				"FDDI"
+	__IF_T__FibreChannel			= 27,
+#define __IF_P__FibreChannel			"FibreChannel"
+	__IF_T__FiftyGigabitEthernet		= 28,
+#define __IF_P__FiftyGigabitEthernet		"FiftyGigabitEthernet"
+	__IF_T__FiveGigabitEthernet		= 29,
+#define __IF_P__FiveGigabitEthernet		"FiveGigabitEthernet"
+	__IF_T__FortyGigabitEthernet		= 30,
+#define __IF_P__FortyGigabitEthernet		"FortyGigabitEthernet"
+	__IF_T__FourHundredGigE			= 31,
+#define __IF_P__FourHundredGigE			"FourHundredGigE"
+	__IF_T__GigabitEthernet			= 32,
+#define __IF_P__GigabitEthernet			"GigabitEthernet"
+	__IF_T__GMPLS				= 33,
+#define __IF_P__GMPLS				"GMPLS"
+	__IF_T__Group_Async			= 34,
+#define __IF_P__Group_Async			"Group-Async"
+	__IF_T__HIPPI				= 35,
+#define __IF_P__HIPPI				"HIPPI"
+	__IF_T__HSSI				= 36,
+#define __IF_P__HSSI				"HSSI"
+	__IF_T__HundredGigE			= 37,
+#define __IF_P__HundredGigE			"HundredGigE"
+	__IF_T__InfiniBand			= 38,
+#define __IF_P__InfiniBand			"InfiniBand"
+	__IF_T__ISDN_BRI			= 39,
+#define __IF_P__ISDN_BRI			"ISDN-BRI"
+	__IF_T__ISDN_PRI			= 40,
+#define __IF_P__ISDN_PRI			"ISDN-PRI"
+	__IF_T__LISP				= 41,
+#define __IF_P__LISP				"LISP"
+	__IF_T__LongReachEthernet		= 42,
+#define __IF_P__LongReachEthernet		"LongReachEthernet"
+	__IF_T__Loopback			= 43,
+#define __IF_P__Loopback			"Loopback"
+	__IF_T__LSP_VIF				= 44,
+#define __IF_P__LSP_VIF				"LSP-VIF"
+	__IF_T__MFR				= 45,
+#define __IF_P__MFR				"MFR"
+	__IF_T__Multilink			= 46,
+#define __IF_P__Multilink			"Multilink"
+	__IF_T__Nebula				= 47,
+#define __IF_P__Nebula				"Nebula"
+	__IF_T__Netlink_Monitor			= 48,
+#define __IF_P__Netlink_Monitor			"Netlink-Monitor"
+	__IF_T__NFC				= 49,
+#define __IF_P__NFC				"NFC"
+	__IF_T__Null				= 50,
+#define __IF_P__Null				"Null"
+	__IF_T__NVE				= 51,
+#define __IF_P__NVE				"NVE"
+	__IF_T__OmniPath			= 52,
+#define __IF_P__OmniPath			"OmniPath"
+	__IF_T__OpenVPN				= 53,
+#define __IF_P__OpenVPN				"OpenVPN"
+	__IF_T__Overlay				= 54,
+#define __IF_P__Overlay				"Overlay"
+	__IF_T__Parallel			= 55,
+#define __IF_P__Parallel			"Parallel"
+	__IF_T__Port_Channel			= 56,
+#define __IF_P__Port_Channel			"Port-Channel"
+	__IF_T__PRP_Channel			= 57,
+#define __IF_P__PRP_Channel			"PRP-Channel"
+	__IF_T__Pseudowire			= 58,
+#define __IF_P__Pseudowire			"Pseudowire"
+	__IF_T__Serial				= 59,
+#define __IF_P__Serial				"Serial"
+	__IF_T__SM				= 60,
+#define __IF_P__SM				"SM"
+	__IF_T__SoftEther			= 61,
+#define __IF_P__SoftEther			"SoftEther"
+	__IF_T__STunnel				= 62,
+#define __IF_P__STunnel				"STunnel"
+	__IF_T__Tailscale			= 63,
+#define __IF_P__Tailscale			"Tailscale"
+	__IF_T__TenGigabitEthernet		= 64,
+#define __IF_P__TenGigabitEthernet		"TenGigabitEthernet"
+	__IF_T__TerabitEthernet			= 65,
+#define __IF_P__TerabitEthernet			"TerabitEthernet"
+	__IF_T__Tunnel				= 66,
+#define __IF_P__Tunnel				"Tunnel"
+	__IF_T__TwentyFiveGigE			= 67,
+#define __IF_P__TwentyFiveGigE			"TwentyFiveGigE"
+	__IF_T__TwoGigabitEthernet		= 68,
+#define __IF_P__TwoGigabitEthernet		"TwoGigabitEthernet"
+	__IF_T__TwoHundredGigE			= 69,
+#define __IF_P__TwoHundredGigE			"TwoHundredGigE"
+	__IF_T__VasiLeft			= 70,
+#define __IF_P__VasiLeft			"VasiLeft"
+	__IF_T__VasiRight			= 71,
+#define __IF_P__VasiRight			"VasiRight"
+	__IF_T__VIF				= 72,
+#define __IF_P__VIF				"VIF"
+	__IF_T__Virtual_Access			= 73,
+#define __IF_P__Virtual_Access			"Virtual-Access"
+	__IF_T__Virtual_CAN			= 74,
+#define __IF_P__Virtual_CAN			"Virtual-CAN"
+	__IF_T__Virtual_Ethernet		= 75,
+#define __IF_P__Virtual_Ethernet		"Virtual-Ethernet"
+	__IF_T__Virtual_PPP			= 76,
+#define __IF_P__Virtual_PPP			"Virtual-PPP"
+	__IF_T__Virtual_Template		= 77,
+#define __IF_P__Virtual_Template		"Virtual-Template"
+	__IF_T__Virtual_TokenRing		= 78,
+#define __IF_P__Virtual_TokenRing		"Virtual-TokenRing"
+	__IF_T__VirtualPortGroup		= 79,
+#define __IF_P__VirtualPortGroup		"VirtualPortGroup"
+	__IF_T__VLAN				= 80,
+#define __IF_P__VLAN				"VLAN"
+	__IF_T__VMI				= 81,
+#define __IF_P__VMI				"VMI"
+	__IF_T__Wi_Fi				= 82,
+#define __IF_P__Wi_Fi				"Wi-Fi"
+	__IF_T__ZeroTier			= 83,
+#define __IF_P__ZeroTier			"ZeroTier"
+};
+
 #endif /* _NBAPI_VOLTOS_IDB_COMMON_H */

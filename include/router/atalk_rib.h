@@ -8,6 +8,12 @@
 #ifndef _ROUTER_ATALK_RIB_H
 #define _ROUTER_ATALK_RIB_H
 
+struct atalk_rib_node {
 
+};
+
+struct atalk_rib_table {
+
+};
 
 #endif /* _ROUTER_ATALK_RIB_H */

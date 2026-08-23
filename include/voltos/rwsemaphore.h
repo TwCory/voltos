@@ -13,7 +13,7 @@ typedef struct rw_semaphore {
 } rw_semaphore_t;
 
 #ifndef DEFINE_RW_SEMAPHORE
-#define DEFINE_RW_SEMAPHORE(rw_semaphore_name)
+#define DEFINE_RW_SEMAPHORE(name)
 #endif /* DEFINE_RW_SEMAPHORE */
 
 #endif /* _VOLTOS_RWSEMAPHORE_H */

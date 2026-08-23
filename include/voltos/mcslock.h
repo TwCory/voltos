@@ -11,7 +11,7 @@
 #include <voltos/mcslock_types.h>
 
 #ifndef DEFINE_MCSLOCK
-#define DEFINE_MCSLOCK(mcslock_name)
+#define DEFINE_MCSLOCK(name)
 #endif /* DEFINE_MCSLOCK */
 
 #endif /* _VOLTOS_MCSLOCK_H */

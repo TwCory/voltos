@@ -8,6 +8,7 @@
 #ifndef _NET_MPLS_SOCK_H
 #define _NET_MPLS_SOCK_H
 
+#include <voltos/mpls.h>
 #include <net/sock.h>
 
 struct mpls_sock {

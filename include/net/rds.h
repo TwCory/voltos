@@ -8,6 +8,6 @@
 #ifndef _NET_RDS_H
 #define _NET_RDS_H
 
-
+#include <voltos/rds.h>
 
 #endif /* _NET_RDS_H */

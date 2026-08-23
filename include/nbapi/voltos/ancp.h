@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_ANCP_H
 #define _NBAPI_VOLTOS_ANCP_H
 
+struct ancp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_ANCP_H */

@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_PFSYNC_H
 #define _VOLTOS_PFSYNC_H
 
+#include <nbapi/voltos/pfsync.h>
+
 #endif /* _VOLTOS_PFSYNC_H */

@@ -10,9 +10,13 @@
 
 #include <router/mpls.h>
 
-struct mpls_label {
+struct mpls_label_node {
 	struct mpls_protocol 		*mpls;
 	struct mpls_interface 		*interface;
+};
+
+struct mpls_label_table {
+
 };
 
 #endif /* _ROUTER_MPLS_LABEL_H */

@@ -8,4 +8,6 @@
 #ifndef _NET_DECNET_H
 #define _NET_DECNET_H
 
+#include <router/decnet.h>
+
 #endif /* _NET_DECNET_H */

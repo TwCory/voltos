@@ -8,6 +8,14 @@
 #ifndef _NET_MPLS_FIB_H
 #define _NET_MPLS_FIB_H
 
+#include <router/mpls_lrib.h>
 
+struct mpls_fib_node {
+
+};
+
+struct mpls_fib_table {
+
+};
 
 #endif /* _NET_MPLS_FIB_H */

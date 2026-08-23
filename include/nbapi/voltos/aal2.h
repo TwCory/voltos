@@ -11,6 +11,6 @@
 
 #include <voltos/types.h>
 
-#define AAL2_PROFILE_NAME_SIZE		32
+#define AAL2_PROFILE_NAME_SIZE			32
 
 #endif /* _NBAPI_VOLTOS_AAL2_H */

@@ -22,4 +22,12 @@ typedef __u8 			ip_port_t;
 typedef __u8 			ip_protocol_t;
 typedef __u8 			ip_ttl_t;
 
+typedef enum {
+	IP_VERSION_T_UNSPEC 	= 0,
+	IP_VERSION_T_IPV4 	= 4,
+	IP_VERSION_T_ST 	= 5,
+	IP_VERSION_T_IPV6 	= 6,
+	__IP_VERSION_T_MAX__
+} ip_version_t;
+
 #endif /* _VOLTOS_INET_TYPES_H */

@@ -111,10 +111,17 @@ typedef __u64 						dma_addr_t;
 typedef __u32 						dma_addr_t;
 #endif /* VCC_DMA_ADDR_64BIT */
 
-typedef void (*r_swap_fn_t)(void *a, void *b, int size, const void *priv);
-typedef void (*swap_fn_t)(void *a, void *b, int size);
+#define aligned_s64					__aligned_s64
+#define aligned_u64					__aligned_u64
+#define aligned_be64					__aligned_be64
+#define aligned_le64					__aligned_le64
+#define aligned_net64					__aligned_net64
+#define aligned_host64					__aligned_host64
 
-typedef int (*r_cmp_fn_t)(const void *a, const void *b, const void *priv);
-typedef int (*cmp_fn_t)(const void *a, const void *b);
+typedef void 						(*r_swap_fn_t)	(void *a, void *b, int size, const void *priv);
+typedef void 						(*swap_fn_t)	(void *a, void *b, int size);
+
+typedef int 						(*r_cmp_fn_t)	(const void *a, const void *b, const void *priv);
+typedef int 						(*cmp_fn_t)	(const void *a, const void *b);
 
 #endif /* _VOLTOS_TYPES_H */

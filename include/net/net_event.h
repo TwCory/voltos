@@ -8,6 +8,8 @@
 #ifndef _NET_EVENT_H
 #define _NET_EVENT_H
 
+#include <voltos/event.h>
+
 struct net_event {
 
 };

@@ -3,10 +3,10 @@
 /*
  *	include/voltos/sdrp.h
  *
+ * 	Source Demand Routing Protocol (SDRP)
  */
 
 #ifndef _VOLTOS_SDRP_H
 #define _VOLTOS_SDRP_H
-
 
 #endif /* _VOLTOS_SDRP_H */

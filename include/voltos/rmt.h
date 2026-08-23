@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_RMT_H
 #define _VOLTOS_RMT_H
 
+#include <nbapi/voltos/rmt.h>
+
 #endif /* _VOLTOS_RMT_H */

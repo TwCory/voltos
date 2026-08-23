@@ -8,4 +8,7 @@
 #ifndef _NET_NVO3_H
 #define _NET_NVO3_H
 
+#include <voltos/if_nve.h>
+#include <voltos/nvo3.h>
+
 #endif /* _NET_NVO3_H */

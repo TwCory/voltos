@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sframe.h
  *
+ * 	Secure Frame (SFrame)
  */
 
 #ifndef _VOLTOS_SFRAME_H

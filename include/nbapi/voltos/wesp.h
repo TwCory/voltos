@@ -18,4 +18,8 @@ enum {
 	WESP_F_PADDING_PRESENT		= (1 << 3),
 };
 
+struct wesp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_WESP_H */

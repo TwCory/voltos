@@ -9,4 +9,7 @@
 #ifndef _NET_AMT_H
 #define _NET_AMT_H
 
+#include <voltos/amt.h>
+#include <voltos/if_tunnel.h>
+
 #endif /* _NET_AMT_H */

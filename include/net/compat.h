@@ -8,4 +8,6 @@
 #ifndef _NET_COMPAT_H
 #define _NET_COMPAT_H
 
+#include <voltos/compat.h>
+
 #endif /* _NET_COMPAT_H */

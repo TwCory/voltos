@@ -8,6 +8,12 @@
 #ifndef _ROUTER_IP_MRIB_H
 #define _ROUTER_IP_MRIB_H
 
+struct ip_mrib_node {
 
+};
+
+struct ip_mrib_table {
+
+};
 
 #endif /* _ROUTER_IP_MRIB_H */

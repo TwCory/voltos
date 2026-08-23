@@ -8,8 +8,6 @@
 #ifndef _NET_ENCAPSULATION_H
 #define _NET_ENCAPSULATION_H
 
-struct net_encapsulation {
-
-};
+#include <voltos/net_encapsulation.h>
 
 #endif /* _NET_ENCAPSULATION_H */

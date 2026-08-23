@@ -9,4 +9,6 @@
 #ifndef _NET_AH_H
 #define _NET_AH_H
 
+#include <voltos/ipsec.h>
+
 #endif /* _NET_AH_H */

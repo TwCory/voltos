@@ -8,6 +8,6 @@
 #ifndef _NET_NETCONF_H
 #define _NET_NETCONF_H
 
-
+#include <voltos/netconf.h>
 
 #endif /* _NET_NETCONF_H */

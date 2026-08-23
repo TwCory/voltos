@@ -8,6 +8,12 @@
 #ifndef _ROUTER_IPV6_RIB_H
 #define _ROUTER_IPV6_RIB_H
 
+struct ipv6_rib_node {
 
+};
+
+struct ipv6_rib_table {
+
+};
 
 #endif /* _ROUTER_IPV6_RIB_H */

@@ -9,12 +9,6 @@
 #ifndef _ROUTER_CARP_H
 #define _ROUTER_CARP_H
 
-#include <voltos/carp.h>
-#include <voltos/if.h>
-#include <voltos/inet.h>
-#include <voltos/types.h>
-#include <net/protocol.h>
-
 struct carp_protocol;
 
 struct carp_group {
@@ -23,11 +17,11 @@ struct carp_group {
 
 struct carp_interface {
 	struct carp_protocol 		*carp;
-	struct interface 		*interface;
+
 };
 
 struct carp_protocol {
-	struct protocol 		*protocol;
+
 };
 
 #endif /* _ROUTER_CARP_H */

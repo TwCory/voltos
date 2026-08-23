@@ -11,7 +11,7 @@
 #include <voltos/abqlock_types.h>
 
 #ifndef DEFINE_ABQLOCK
-#define DEFINE_ABQLOCK(abqlock_name)
+#define DEFINE_ABQLOCK(name)
 #endif /* DEFINE_ABQLOCK */
 
 #endif /* _VOLTOS_ABQLOCK_H */

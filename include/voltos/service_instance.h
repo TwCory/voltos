@@ -5,7 +5,7 @@
  *
  */
 
-#ifndef _VOLTOS_Z_H
-#define _VOLTOS_Z_H
+#ifndef _VOLTOS_SERVICE_INSTANCE_H
+#define _VOLTOS_SERVICE_INSTANCE_H
 
-#endif /* _VOLTOS_Z_H */
+#endif /* _VOLTOS_SERVICE_INSTANCE_H */

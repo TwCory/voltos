@@ -8,4 +8,6 @@
 #ifndef _NET_HSR_H
 #define _NET_HSR_H
 
+#include <voltos/hsr.h>
+
 #endif /* _NET_HSR_H */

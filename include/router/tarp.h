@@ -8,18 +8,15 @@
 #ifndef _ROUTER_TARP_H
 #define _ROUTER_TARP_H
 
-#include <voltos/if.h>
-#include <net/protocol.h>
-
 struct tarp_protocol;
 
 struct tarp_interface {
 	struct tarp_protocol 		*tarp;
-	struct interface 		*interface;
+
 };
 
 struct tarp_protocol {
-	struct protocol 		*protocol;
+
 };
 
 #endif /* _ROUTER_TARP_H */

@@ -8,4 +8,6 @@
 #ifndef _NET_IPX_H
 #define _NET_IPX_H
 
+#include <router/ipx.h>
+
 #endif /* _NET_IPX_H */

@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_NTSEC_H
 #define _VOLTOS_NTSEC_H
 
+#include <nbapi/voltos/ntsec.h>
+
 #endif /* _VOLTOS_NTSEC_H */

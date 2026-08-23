@@ -11,12 +11,5 @@
 
 #include <nbapi/voltos/ntp.h>
 
-struct ntp_global_conf {
-
-};
-
-struct ntp_interface_conf {
-
-};
 
 #endif /* _VOLTOS_NTP_H */

@@ -8,6 +8,10 @@
 #ifndef _VOLTOS_TIME32_H
 #define _VOLTOS_TIME32_H
 
+#include <voltos/types.h>
+
+typedef s32 					time32_t;
+
 struct timespec32 {
 
 };

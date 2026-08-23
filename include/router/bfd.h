@@ -8,23 +8,15 @@
 #ifndef _ROUTER_BFD_H
 #define _ROUTER_BFD_H
 
-#include <voltos/bfd.h>
-#include <voltos/if.h>
-#include <voltos/inet.h>
-#include <voltos/types.h>
-#include <voltos/vrf.h>
-#include <net/protocol.h>
-
 struct bfd_protocol;
 
 struct bfd_interface {
 	struct bfd_protocol 		*bfd;
-	struct interface 		*interface;
+
 };
 
 struct bfd_protocol {
-	struct protocol 		*protocol;
-	struct vrf 			*vrf;
+
 };
 
 #endif /* _ROUTER_BFD_H */

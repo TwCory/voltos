@@ -23,6 +23,8 @@ struct idb {
 	idb_features_t 				features;
 
 	struct interface 			*interface;
+
+	
 };
 
 #endif /* _VOLTOS_IDB_H */

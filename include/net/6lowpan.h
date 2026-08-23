@@ -8,6 +8,6 @@
 #ifndef _NET_6LOWPAN_H
 #define _NET_6LOWPAN_H
 
-
+#include <voltos/6lowpan.h>
 
 #endif /* _NET_6LOWPAN_H */
