@@ -74,4 +74,8 @@ typedef unsigned int 			__voltos_mqd_t;
 /* File Descriptor */
 typedef int 				__voltos_fd_t;
 
+typedef __voltos_size32_t __voltos_size_t;
+
+typedef __voltos_ssize32_t __voltos_ssize_t;
+
 #endif /* _NBAPI_VOLTOS_POSIX_TYPES_H */

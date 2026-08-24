@@ -8,9 +8,9 @@
 #ifndef _NBAPI_VOLTOS_STDDEF_H
 #define _NBAPI_VOLTOS_STDDEF_H
 
-#ifdef __VOLTOS_CORE__
+#ifdef __VOLTOS_SYSTEM__
 #include <voltos/compiler_types.h>
-#endif /* __VOLTOS_CORE__ */
+#endif /* __VOLTOS_SYSTEM__ */
 
 #ifndef __always_inline
 #define __always_inline							inline
@@ -67,10 +67,10 @@
 #define __count_with_ptr(m)
 #endif 
 
-#ifdef __VOLTOS_CORE__
+#ifdef __VOLTOS_SYSTEM__
 #define __voltos_nonstring						__nonstring
 #else
 #define __voltos_nonstring
-#endif /* __VOLTOS_CORE__ */
+#endif /* __VOLTOS_SYSTEM__ */
 
 #endif /* _NBAPI_VOLTOS_STDDEF_H */

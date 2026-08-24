@@ -9,19 +9,8 @@
 #ifndef _NBAPI_VOLTOS_TYPES_H
 #define _NBAPI_VOLTOS_TYPES_H
 
+#include <asm/types.h>
 #include <nbapi/voltos/posix_types.h>
-
-typedef signed char 				__s8;
-typedef unsigned char 				__u8;
-
-typedef signed short 				__s16;
-typedef unsigned short 				__u16;
-
-typedef signed int 				__s32;
-typedef unsigned int 				__u32;
-
-typedef signed long long 			__s64;
-typedef unsigned long long 			__u64;
 
 #ifdef __SIZEOF_INT128__
 typedef signed __int128 			__s128;
