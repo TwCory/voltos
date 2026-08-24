@@ -3,7 +3,7 @@
 /*
  *	lib/checksum.c
  *
- *
+ *	Copyright (C) 2023, 2024 Cory Voltz
  */
 
 #include <net/checksum.h>

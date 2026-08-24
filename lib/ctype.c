@@ -3,7 +3,7 @@
 /*
  *	lib/ctype.c
  *
- *
+ *	Copyright (C) 2021, 2023 Cory Voltz
  */
 
 #include <voltos/ctype.h>
