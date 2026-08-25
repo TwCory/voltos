@@ -3,6 +3,7 @@
 /*
  *	include/voltos/args.h
  *
+ * 	Argument Counter/Concatenation Macros
  */
 
 #ifndef _VOLTOS_ARGS_H

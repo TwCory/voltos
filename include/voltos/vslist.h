@@ -8,6 +8,18 @@
 #ifndef _VOLTOS_VSLIST_H
 #define _VOLTOS_VSLIST_H
 
+struct vslist_node;
 
+struct vslist {
+
+};
+
+struct vslist_node {
+
+};
+
+struct vslist_iter {
+
+};
 
 #endif /* _VOLTOS_VSLIST_H */

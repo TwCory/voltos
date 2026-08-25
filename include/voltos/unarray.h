@@ -3,7 +3,7 @@
 /*
  *	include/voltos/unarray.h
  *
- * 	Uninitialized Array
+ * 	Uninitialized Arrays
  */
 
 #ifndef _VOLTOS_UNARRAY_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/can.h
  *
+ * 	Controller Area Network (CAN) Socket Family
  */
 
 #ifndef _VOLTOS_CAN_H

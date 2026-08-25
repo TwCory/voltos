@@ -3,7 +3,7 @@
 /*
  *	include/voltos/cofp.h
  *
- * 	Coralt Optimized Forwarding Plane (COFP)
+ * 	Coralt Optimized Forwarding Plane (COFP) Engine API
  */
 
 #ifndef _VOLTOS_COFP_H

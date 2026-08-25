@@ -3,7 +3,7 @@
 /*
  *	include/voltos/aodv.h
  *
- * 	Ad Hoc On-Demand Distance Vector (AODV)
+ * 	Ad Hoc On-Demand Distance Vector (AODV) Protocol
  */
 
 #ifndef _VOLTOS_AODV_H

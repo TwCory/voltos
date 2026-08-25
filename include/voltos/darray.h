@@ -3,7 +3,7 @@
 /*
  *	include/voltos/darray.h
  *
- * 	Dynamic Array Data Structure
+ * 	Dynamic Array
  */
 
 #ifndef _VOLTOS_DARRAY_H

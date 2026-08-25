@@ -3,7 +3,7 @@
 /*
  *	include/voltos/async.h
  *
- * 	Asynchronous Functions and Utilities
+ * 	Asynchronous Function Calls for Performance
  */
 
 #ifndef _VOLTOS_ASYNC_H

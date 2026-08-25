@@ -20,7 +20,7 @@ struct bbu {
 };
 
 struct bbu_device {
-	struct device 			*device;
+	struct device 			device;
 	struct bbu 			*bbu;
 };
 

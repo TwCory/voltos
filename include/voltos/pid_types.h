@@ -12,6 +12,6 @@
 
 typedef struct {
 	pid_t 		value;
-} v_pid_t;
+} vspid_t;
 
 #endif /* _VOLTOS_PID_TYPES_H */

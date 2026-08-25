@@ -3,6 +3,7 @@
 /*
  *	include/voltos/const.h
  *
+ * 	Macros for Handling Constants
  */
 
 #ifndef _VOLTOS_CONST_H

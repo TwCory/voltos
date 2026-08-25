@@ -10,7 +10,7 @@
 #define _NBAPI_VOLTOS_TYPES_H
 
 #include <asm/types.h>
-#include <nbapi/voltos/posix_types.h>
+#include <voltos/posix_types.h>
 
 #ifdef __SIZEOF_INT128__
 typedef signed __int128 			__s128;

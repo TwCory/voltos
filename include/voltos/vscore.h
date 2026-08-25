@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VSCORE_H
 #define _VOLTOS_VSCORE_H
 
+struct vscore_list {
 
+};
 
 #endif /* _VOLTOS_VSCORE_H */

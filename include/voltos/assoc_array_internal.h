@@ -3,6 +3,7 @@
 /*
  *	include/voltos/assoc_array_internal.h
  *
+ * 	Generic Associative Arrays
  */
 
 #ifndef _VOLTOS_ASSOC_ARRAY_INTERNAL_H

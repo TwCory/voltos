@@ -10,7 +10,7 @@
 
 #include <nbapi/voltos/uio.h>
 
-struct v_vec {
+struct vsvec {
 
 };
 

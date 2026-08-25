@@ -3,7 +3,7 @@
 /*
  *	include/voltos/credential.h
  *
- * 	Credential Management Definitions
+ * 	Credential Management
  */
 
 #ifndef _VOLTOS_CREDENTIAL_H

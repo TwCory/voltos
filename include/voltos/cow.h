@@ -11,6 +11,10 @@
 
 #include <voltos/callback.h>
 
+#ifndef __cow
+#define __cow
+#endif /* __cow */
+
 struct cow_head {
 	struct callback_head 	*cow_callback;
 };

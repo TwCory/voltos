@@ -3,6 +3,7 @@
 /*
  *	include/voltos/class-map.h
  *
+ * 	Class Maps for Network QoS and Traffic Control
  */
 
 #ifndef _VOLTOS_CLASS_MAP_H

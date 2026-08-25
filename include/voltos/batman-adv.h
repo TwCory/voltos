@@ -3,7 +3,7 @@
 /*
  *	include/voltos/batman-adv.h
  *
- * 	Better Approach to Mobile Ad Hoc Networks (B.A.T.M.A.N.)
+ * 	Better Approach to Mobile Ad Hoc Networks (B.A.T.M.A.N.) Routing Protocol
  */
 
 #ifndef _VOLTOS_BATMAN_ADV_H

@@ -11,7 +11,7 @@
 #include <voltos/device.h>
 
 struct slot_device {
-	struct device *device;
+	struct device device;
 };
 
 #endif /* _VOLTOS_SLOT_DEVICE_H */

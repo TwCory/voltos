@@ -3,7 +3,7 @@
 /*
  *	include/voltos/vrf.h
  *
- * 	Virtual Routing and Forwarding (VRF)
+ * 	Virtual Routing and Forwarding (VRF) Instances
  */
 
 #ifndef _VOLTOS_VRF_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bluetooth_idb.h
  *
+ * 	Bluetooth Interface Descriptor Block
  */
 
 #ifndef _VOLTOS_BLUETOOTH_IDB_H

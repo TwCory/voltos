@@ -3,6 +3,7 @@
 /*
  *	include/voltos/cwmp.h
  *
+ * 	CPE WAN Management Protocol (CWMP)
  */
 
 #ifndef _VOLTOS_CWMP_H

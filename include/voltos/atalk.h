@@ -3,6 +3,7 @@
 /*
  *	include/voltos/atalk.h
  *
+ * 	AppleTalk Socket Family
  */
 
 #ifndef _VOLTOS_ATALK_H

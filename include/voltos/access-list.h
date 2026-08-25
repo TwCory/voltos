@@ -3,7 +3,7 @@
 /*
  *	include/voltos/access-list.h
  *
- * 	Access Control List (ACL) Structures
+ * 	Access Control Lists (ACL)
  */
 
 #ifndef _VOLTOS_ACCESS_LIST_H

@@ -5,4 +5,12 @@
 
 #include <linux/byteorder/little_endian.h>
 
+#ifndef __LITTLE_ENDIAN__
+#define __LITTLE_ENDIAN__		__LITTLE_ENDIAN
+#endif /* __LITTLE_ENDIAN__ */
+
+#ifndef __LITTLE_ENDIAN_BITFIELD__
+#define __LITTLE_ENDIAN_BITFIELD__	__LITTLE_ENDIAN_BITFIELD
+#endif /* __LITTLE_ENDIAN_BITFIELD__ */
+
 #endif /* _NBAPI_VOLTOS_BYTEORDER_LITTLE_ENDIAN_H */

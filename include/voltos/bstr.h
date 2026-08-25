@@ -3,7 +3,7 @@
 /*
  *	include/voltos/bstr.h
  *
- * 	Byte-Based String Type
+ * 	Byte-Based Strings
  */
 
 #ifndef _VOLTOS_BSTR_H

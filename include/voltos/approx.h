@@ -3,6 +3,7 @@
 /*
  *	include/voltos/approx.h
  *
+ * 	Approximation Helpers/Functions
  */
 
 #ifndef _VOLTOS_APPROX_H

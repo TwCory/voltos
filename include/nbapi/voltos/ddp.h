@@ -9,4 +9,7 @@
 #ifndef _NBAPI_VOLTOS_DDP_H
 #define _NBAPI_VOLTOS_DDP_H
 
+#define DDP_SIZE_MAX			587
+#define DDP_HOP_MAX			15		// 4 bits of hop counter.
+
 #endif /* _NBAPI_VOLTOS_DDP_H */

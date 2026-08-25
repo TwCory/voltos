@@ -3,6 +3,7 @@
 /*
  *	include/voltos/xns.h
  *
+ * 	Xerox Network Systems (XNS) Socket Family
  */
 
 #ifndef _VOLTOS_XNS_H

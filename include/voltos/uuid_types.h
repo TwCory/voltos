@@ -3,7 +3,7 @@
 /*
  *	include/voltos/uuid_types.h
  *
- * 	Universally Unique Identifier (UUID)
+ * 	Universally Unique Identifiers (UUID)
  */
 
 #ifndef _VOLTOS_UUID_TYPES_H

@@ -13,6 +13,6 @@
 
 typedef struct {
 	uid_t value;
-} v_uid_t;
+} vsuid_t;
 
 #endif /* _VOLTOS_UID_TYPES_H */

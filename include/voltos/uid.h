@@ -11,6 +11,6 @@
 
 #include <voltos/uid_types.h>
 
-#define V_UID_INIT(value)	(v_uid_t){ value }
+#define VSUID_INIT(value)	(vsuid_t){ value }
 
 #endif /* _VOLTOS_UID_H */

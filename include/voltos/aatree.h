@@ -3,7 +3,7 @@
 /*
  *	include/voltos/aatree.h
  *
- * 	AA-Tree Data Structure
+ * 	AA Trees
  */
 
 #ifndef _VOLTOS_AATREE_H

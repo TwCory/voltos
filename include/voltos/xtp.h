@@ -3,6 +3,7 @@
 /*
  *	include/voltos/xtp.h
  *
+ * 	eXpress Transport Protocol (XTP)
  */
 
 #ifndef _VOLTOS_XTP_H

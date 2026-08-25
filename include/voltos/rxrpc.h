@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rxrpc.h
  *
+ * 	RxRPC Socket Family
  */
 
 #ifndef _VOLTOS_RXRPC_H

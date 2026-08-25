@@ -3,6 +3,7 @@
 /*
  *	include/voltos/blist.h
  *
+ * 	Bit-Based Linked Lists
  */
 
 #ifndef _VOLTOS_BLIST_H

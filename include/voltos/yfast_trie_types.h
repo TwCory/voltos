@@ -3,6 +3,7 @@
 /*
  *	include/voltos/yfast_trie_types.h
  *
+ * 	Y-Fast Tries
  */
 
 #ifndef _VOLTOS_YFAST_TRIE_TYPES_H

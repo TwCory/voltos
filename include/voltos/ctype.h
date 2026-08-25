@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ctype.h
  *
+ * 	VoltOS-Specific Implementation of LIBC <ctype.h>
  */
 
 #ifndef _VOLTOS_CTYPE_H

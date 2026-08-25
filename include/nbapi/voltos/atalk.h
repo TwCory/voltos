@@ -25,9 +25,6 @@
 #define AT_ADDR_ANYPORT			(__u8)0
 #define AT_ADDR_BROADCAST		(__u8)255
 
-#define DDP_SIZE_MAX			587
-#define DDP_HOP_MAX			15		// 4 bits of hop counter.
-
 struct at_addr {
 	__net16 			s_net;
 	__u8 				s_node;

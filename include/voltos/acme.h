@@ -3,7 +3,7 @@
 /*
  *	include/voltos/acme.h
  *
- * 	Automated Certificate Management Environment (ACME)
+ * 	Automated Certificate Management Environment (ACME) Protocol
  */
 
 #ifndef _VOLTOS_ACME_H

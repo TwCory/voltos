@@ -3,7 +3,7 @@
 /*
  *	include/voltos/adler.h
  *
- * 	Adler-32 Checksum
+ * 	Adler-32 Checksum Functions
  */
 
 #ifndef _VOLTOS_ADLER_H

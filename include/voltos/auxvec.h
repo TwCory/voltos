@@ -3,6 +3,7 @@
 /*
  *	include/voltos/auxvec.h
  *
+ * 	Auxilliary Vector Table
  */
 
 #ifndef _VOLTOS_AUXVEC_H

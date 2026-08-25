@@ -3,6 +3,7 @@
 /*
  *	include/voltos/audit.h
  *
+ * 	General Auditing Definitions
  */
 
 #ifndef _VOLTOS_AUDIT_H

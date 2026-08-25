@@ -3,6 +3,7 @@
 /*
  *	include/voltos/average.h
  *
+ * 	Exponentially Weighted Moving Average (EWMA)
  */
 
 #ifndef _VOLTOS_AVERAGE_H

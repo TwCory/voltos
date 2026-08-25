@@ -4,7 +4,7 @@
  *	include/voltos/bpfptr.h
  *
  * 	Berkeley Packet Filter (BPF) Pointer for
- * 	Core (VoltOS) and/or User Memory
+ * 	System (VoltOS) and/or User Memory
  */
 
 #ifndef _VOLTOS_BPFPTR_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/xfast_trie.h
  *
- * 	X-Fast Trie Data Structure
+ * 	X-Fast Tries
  */
 
 #ifndef _VOLTOS_XFAST_TRIE_H

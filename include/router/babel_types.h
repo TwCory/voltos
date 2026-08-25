@@ -13,9 +13,7 @@
 
 typedef ip_addr_t 			babel_addr_t;
 typedef ip_prefix_t 			babel_prefix_t;
-
 typedef u16 				babel_cost_t;
-typedef u16 				babel_interval_t;
 
 #define BABEL_ROUTER_ID_SIZE		8
 

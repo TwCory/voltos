@@ -3,7 +3,7 @@
 /*
  *	include/voltos/ayiya.h
  *
- * 	Anything-in-Anything (AYIYA)
+ * 	Anything-in-Anything (AYIYA) Tunneling Protocol
  */
 
 #ifndef _VOLTOS_AYIYA_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/un.h
  *
- * 	UNIX Domain Sockets
+ * 	UNIX Domain Socket Family
  */
 
 #ifndef _VOLTOS_UN_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/xot.h
  *
- * 	X.25 over TCP (XOT)
+ * 	X.25 over TCP (XOT) Protocol
  */
 
 #ifndef _VOLTOS_XOT_H

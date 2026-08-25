@@ -3,6 +3,7 @@
 /*
  *	include/voltos/base32.h
  *
+ * 	Base32 Encoding/Decoding Support
  */
 
 #ifndef _VOLTOS_BASE32_H

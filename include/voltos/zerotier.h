@@ -3,6 +3,7 @@
 /*
  *	include/voltos/zerotier.h
  *
+ * 	ZeroTier(R) Network Overlay Feature
  */
 
 #ifndef _VOLTOS_ZEROTIER_H

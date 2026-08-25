@@ -3,6 +3,7 @@
 /*
  *	include/voltos/wbtree_types.h
  *
+ * 	Weight-Balanced Tree
  */
 
 #ifndef _VOLTOS_WBTREE_TYPES_H

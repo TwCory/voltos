@@ -3,6 +3,7 @@
 /*
  *	include/voltos/base64.h
  *
+ * 	Base64 Encoding/Decoding Support
  */
 
 #ifndef _VOLTOS_BASE64_H

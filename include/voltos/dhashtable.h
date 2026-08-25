@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dhashtable.h
  *
- * 	Distributed Hash Table Data Structure
+ * 	Distributed Hash Table
  */
 
 #ifndef _VOLTOS_DHASHTABLE_H

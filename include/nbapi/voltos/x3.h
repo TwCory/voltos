@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/x3.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_X3_H
+#define _NBAPI_VOLTOS_X3_H
+
+
+
+#endif /* _NBAPI_VOLTOS_X3_H */

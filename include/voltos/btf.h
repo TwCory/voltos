@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_BTF_H
 #define _VOLTOS_BTF_H
 
+#include <nbapi/voltos/btf.h>
+
 #endif /* _VOLTOS_BTF_H */

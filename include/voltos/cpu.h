@@ -11,7 +11,9 @@
 #include <voltos/device.h>
 
 struct cpu {
-	struct device *device;
+	int 					node_index;
+	int 					hotplug_support;
+	struct device 				device;
 };
 
 #endif /* _VOLTOS_CPU_H */

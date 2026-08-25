@@ -3,7 +3,7 @@
 /*
  *	include/voltos/xorlist.h
  *
- * 	XOR-Based Linked List Data Structure
+ * 	XOR-Based Linked Lists
  */
 
 #ifndef _VOLTOS_XORLIST_H

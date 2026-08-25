@@ -3,7 +3,7 @@
 /*
  *	include/voltos/apex.h
  *
- * 	Applicable Exchange Core (APEX)
+ * 	Applicable Exchange Core (APEX) Protocol
  */
 
 #ifndef _VOLTOS_APEX_H
