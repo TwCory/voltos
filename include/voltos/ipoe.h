@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ipoe.h
  *
+ * 	Internet Protocol over Ethernet (IPoE)
  */
 
 #ifndef _VOLTOS_IPOE_H

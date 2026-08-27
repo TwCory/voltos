@@ -9,8 +9,8 @@
 #ifndef _NBAPI_VOLTOS_GRE_H
 #define _NBAPI_VOLTOS_GRE_H
 
-#include <voltos/types.h>
+struct gre_hdr {
 
-#define GRE_PROTOCOL		47
+};
 
 #endif /* _NBAPI_VOLTOS_GRE_H */

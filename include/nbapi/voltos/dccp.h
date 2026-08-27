@@ -11,11 +11,7 @@
 
 #include <voltos/types.h>
 
-struct dccp_x1_hdr {
-
-};
-
-struct dccp_x2_hdr {
+struct dccp_hdr {
 
 };
 

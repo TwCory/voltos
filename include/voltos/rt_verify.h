@@ -3,7 +3,7 @@
 /*
  *	include/voltos/rt_verify.h
  *
- * 	Run-Time Verify Helpers
+ * 	Run-Time Verification
  */
 
 #ifndef _VOLTOS_RT_VERIFY_H

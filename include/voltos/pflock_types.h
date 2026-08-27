@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pflock_types.h
  *
+ * 	Phase-Fair Locks
  */
 
 #ifndef _VOLTOS_PFLOCK_TYPES_H

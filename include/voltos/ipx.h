@@ -3,7 +3,7 @@
 /*
  *	include/voltos/ipx.h
  *
- * 	Internetwork Packet eXchange (IPX)
+ * 	Internetwork Packet eXchange (IPX) Socket Family
  */
 
 #ifndef _VOLTOS_IPX_H

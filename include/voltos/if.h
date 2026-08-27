@@ -3,7 +3,7 @@
 /*
  *	include/voltos/if.h
  *
- * 	Network Interface
+ * 	Network Interfaces
  */
 
 #ifndef _VOLTOS_IF_H

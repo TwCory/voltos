@@ -3,7 +3,7 @@
 /*
  *	include/voltos/llc.h
  *
- * 	Logical Link Control (LLC)
+ * 	Logical Link Control (LLC) Socket Family
  */
 
 #ifndef _VOLTOS_LLC_H

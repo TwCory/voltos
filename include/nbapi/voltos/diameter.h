@@ -13,4 +13,8 @@
 
 #define DIAMETER_BASE_PORT		3868
 
+struct diameter_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_DIAMETER_H */

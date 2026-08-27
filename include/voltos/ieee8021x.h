@@ -3,19 +3,12 @@
 /*
  *	include/voltos/ieee8021x.h
  *
+ * 	IEEE 802.1X Port-Based Network Access Control
  */
 
 #ifndef _VOLTOS_IEEE8021X_H
 #define _VOLTOS_IEEE8021X_H
 
 #include <nbapi/voltos/ieee8021x.h>
-
-struct dot1x_global_conf {
-
-};
-
-struct dot1x_interface_conf {
-
-};
 
 #endif /* _VOLTOS_IEEE8021X_H */

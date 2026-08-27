@@ -31,6 +31,7 @@ struct at_addr {
 };
 
 #define SAT_ZERO_SIZE			8
+
 struct sockaddr_at {
 	__voltos_sa_family_t 		sat_family;
 	__u8 				sat_port;

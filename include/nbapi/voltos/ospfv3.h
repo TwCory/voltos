@@ -9,12 +9,28 @@
 #ifndef _NBAPI_VOLTOS_OSPFV3_H
 #define _NBAPI_VOLTOS_OSPFV3_H
 
-#include <voltos/types.h>
+struct ospfv3_msg_hdr {
 
-enum ospfv3_afi {
-	OSPFV3_AFI_T_IPV4_UNICAST	= 1,
-	OSPFV3_AFI_T_IPV6_UNICAST	= 2,
-	__OSPFV3_AFI_T_MAX__
+};
+
+struct ospfv3_lls_hdr {
+
+};
+
+struct ospfv3_hello_msg {
+
+};
+
+struct ospfv3_dbdesc_msg {
+
+};
+
+struct ospfv3_lsreq_msg {
+
+};
+
+struct ospfv3_lsupd_msg {
+
 };
 
 #endif /* _NBAPI_VOLTOS_OSPFV3_H */

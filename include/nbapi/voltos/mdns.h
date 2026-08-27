@@ -13,4 +13,8 @@
 
 #define MDNS_PORT		5353
 
+struct mdns_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_MDNS_H */

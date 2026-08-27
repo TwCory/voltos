@@ -3,6 +3,7 @@
 /*
  *	include/voltos/limits.h
  *
+ * 	General Limit Definitions
  */
 
 #ifndef _VOLTOS_LIMITS_H

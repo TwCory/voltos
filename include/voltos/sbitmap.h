@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sbitmap.h
  *
+ * 	Scalable Bitmaps
  */
 
 #ifndef _VOLTOS_SBITMAP_H

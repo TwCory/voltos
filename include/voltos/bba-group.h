@@ -3,7 +3,7 @@
 /*
  *	include/voltos/bba-group.h
  *
- * 	Broadband Access Aggregation (BBA) Group
+ * 	Broadband Access Aggregation (BBA) Groups
  */
 
 #ifndef _VOLTOS_BBA_GROUP_H

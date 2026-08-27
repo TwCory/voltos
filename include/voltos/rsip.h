@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rsip.h
  *
+ * 	Realm-Specific IP (RSIP)
  */
 
 #ifndef _VOLTOS_RSIP_H

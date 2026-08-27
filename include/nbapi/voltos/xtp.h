@@ -14,4 +14,8 @@
 #define XTP_ETHERTYPE				0x817D
 #define XTP_PROTOCOL				36
 
+struct xtp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_XTP_H */

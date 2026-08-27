@@ -3,6 +3,7 @@
 /*
  *	include/voltos/iphc-profile.h
  *
+ * 	IP Header Compression (IPHC) Profiles
  */
 
 #ifndef _VOLTOS_IPHC_PROFILE_H

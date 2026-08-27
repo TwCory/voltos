@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sanet.h
  *
+ * 	Session-Aware Networking (SANET)
  */
 
 #ifndef _VOLTOS_SANET_H

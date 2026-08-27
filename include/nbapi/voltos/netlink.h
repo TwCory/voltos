@@ -11,6 +11,10 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct nl_msg_hdr {
+
+};
+
 struct sockaddr_nl {
 	__voltos_sa_family_t		snl_family;
 	__u16				snl_pad;

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/semaphore.h
  *
+ * 	Semaphores
  */
 
 #ifndef _VOLTOS_SEMAPHORE_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/smb.h
  *
+ * 	Server Message Block (SMB)
  */
 
 #ifndef _VOLTOS_SMB_H

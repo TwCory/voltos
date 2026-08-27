@@ -3,7 +3,7 @@
 /*
  *	include/voltos/fbarray.h
  *
- * 	File-Backed Array
+ * 	File-Backed Arrays
  */
 
 #ifndef _VOLTOS_FBARRAY_H

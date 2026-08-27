@@ -3,7 +3,7 @@
 /*
  *      include/voltos/sarray.h
  *
- * 	Suffix Array
+ * 	Suffix Arrays
  */
 
 #ifndef _VOLTOS_SARRAY_H

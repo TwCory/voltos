@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dlsw.h
  *
- * 	Data Link Switching (DLSW)
+ * 	Data Link Switching (DLSW) Protocol
  */
 
 #ifndef _VOLTOS_DLSW_H

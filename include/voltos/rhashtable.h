@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rhashtable.h
  *
+ * 	RCU-Protected Hash Tables
  */
 
 #ifndef _VOLTOS_RHASHTABLE_H

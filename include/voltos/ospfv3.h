@@ -3,7 +3,7 @@
 /*
  *	include/voltos/ospfv3.h
  *
- * 	Open Shortest Path First, Version 3 (OSPFv3)
+ * 	Open Shortest Path First, Version 3 (OSPFv3) Routing Protocol
  */
 
 #ifndef _VOLTOS_OSPFV3_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/splay-tree.h
  *
- * 	Splay Tree Data Structure
+ * 	Splay Trees
  */
 
 #ifndef _VOLTOS_SPLAY_TREE_H

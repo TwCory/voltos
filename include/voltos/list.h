@@ -3,6 +3,7 @@
 /*
  *	include/voltos/list.h
  *
+ * 	Generic Linked Lists
  */
 
 #ifndef _VOLTOS_LIST_H

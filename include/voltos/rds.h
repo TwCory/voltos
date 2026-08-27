@@ -3,7 +3,7 @@
 /*
  *	include/voltos/rds.h
  *
- * 	Reliable Datagram Sockets (RDS)
+ * 	Reliable Datagram Sockets (RDS) Socket Family
  */
 
 #ifndef _VOLTOS_RDS_H

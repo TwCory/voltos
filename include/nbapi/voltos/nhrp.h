@@ -51,4 +51,16 @@ enum {
 
 #define NHRP_EXTENSION_MAX					(__NHRP_EXTENSION_T_MAX__ - 1)
 
+struct nhrp_pkt_hdr {
+
+};
+
+struct nhrp_cie_hdr {
+
+};
+
+struct nhrp_ext_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_NHRP_H */

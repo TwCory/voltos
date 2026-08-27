@@ -3,6 +3,7 @@
 /*
  *	include/voltos/list_atomic.h
  *
+ * 	Atomic Linked Lists
  */
 
 #ifndef _VOLTOS_LIST_ATOMIC_H

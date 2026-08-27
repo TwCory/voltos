@@ -3,6 +3,7 @@
 /*
  *	include/voltos/interval_tree.h
  *
+ * 	Interval Trees
  */
 
 #ifndef _VOLTOS_INTERVAL_TREE_H

@@ -12,4 +12,8 @@
 #define BOOTP_SERVER_PORT		67
 #define BOOTP_CLIENT_PORT		68
 
+struct bootp_msg {
+
+};
+
 #endif /* _NBAPI_VOLTOS_BOOTP_H */

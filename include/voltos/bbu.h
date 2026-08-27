@@ -3,7 +3,7 @@
 /*
  *	include/voltos/bbu.h
  *
- * 	Battery Backup Unit (BBU)
+ * 	Battery Backup Units (BBU)
  */
 
 #ifndef _VOLTOS_BBU_H

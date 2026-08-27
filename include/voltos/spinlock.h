@@ -11,7 +11,7 @@
 #include <voltos/spinlock_types.h>
 
 #ifndef DEFINE_SPINLOCK
-#define DEFINE_SPINLOCK(spinlock_name)
+#define DEFINE_SPINLOCK(name)
 #endif /* DEFINE_SPINLOCK */
 
 #endif /* _VOLTOS_SPINLOCK_H */

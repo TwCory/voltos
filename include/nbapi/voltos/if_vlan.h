@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_IF_VLAN_H
 #define _NBAPI_VOLTOS_IF_VLAN_H
 
+struct vlan_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IF_VLAN_H */

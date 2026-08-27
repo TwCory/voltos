@@ -3,7 +3,7 @@
 /*
  *	include/voltos/llist.h
  *
- * 	Lock-Free Linked List
+ * 	Lock-Free Linked Lists
  */
 
 #ifndef _VOLTOS_LLIST_H

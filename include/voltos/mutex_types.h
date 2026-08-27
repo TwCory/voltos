@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mutex.h
  *
+ * 	Mutual Exclusions
  */
 
 #ifndef _VOLTOS_MUTEX_TYPES_H
@@ -12,7 +13,7 @@
 #include <voltos/spinlock.h>
 
 typedef struct mutex {
-	atomic_long_t 			owner;
+
 	raw_spinlock_t 			wait_lock;
 } mutex_t;
 

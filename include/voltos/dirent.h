@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dirent.h
  *
+ * 	VoltOS-Specific Dirent Implementation
  */
 
 #ifndef _VOLTOS_DIRENT_H

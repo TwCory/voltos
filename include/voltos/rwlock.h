@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rwlock.h
  *
+ * 	Reader-Writer Locks
  */
 
 #ifndef _VOLTOS_RWLOCK_H

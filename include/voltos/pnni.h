@@ -3,7 +3,7 @@
 /*
  *	include/voltos/pnni.h
  *
- * 	Private Network-to-Network Interface (PNNI)
+ * 	Private Network-to-Network Interface (PNNI) Routing Protocol
  */
 
 #ifndef _VOLTOS_PNNI_H

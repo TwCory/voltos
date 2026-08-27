@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sbtree.h
  *
+ * 	Self-Balancing Binary Search Trees
  */
 
 #ifndef _VOLTOS_SBTREE_H

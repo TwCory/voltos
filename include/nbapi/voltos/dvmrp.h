@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_DVMRP_H
 #define _NBAPI_VOLTOS_DVMRP_H
 
-#include <voltos/types.h>
+struct igmp_dvmrp_hdr {
+
+};
 
 #endif /* _NBAPI_VOLTOS_DVMRP_H */

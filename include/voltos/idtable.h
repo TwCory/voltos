@@ -3,6 +3,7 @@
 /*
  *	include/voltos/idtable.h
  *
+ * 	Generic ID Storage Tables
  */
 
 #ifndef _VOLTOS_IDTABLE_H

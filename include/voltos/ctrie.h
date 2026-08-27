@@ -3,7 +3,7 @@
 /*
  *	include/voltos/ctrie.h
  *
- * 	CTrie Data Structure
+ * 	CTries
  */
 
 #ifndef _VOLTOS_CTRIE_H

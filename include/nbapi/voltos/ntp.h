@@ -13,4 +13,8 @@
 
 #define NTP_PORT	123
 
+struct ntp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_NTP_H */

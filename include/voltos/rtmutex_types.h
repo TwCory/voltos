@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rtmutex_types.h
  *
+ * 	Real-Time Mutual Exclusions
  */
 
 #ifndef _VOLTOS_RTMUTEX_TYPES_H

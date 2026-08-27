@@ -11,7 +11,7 @@
 
 #include <voltos/types.h>
 
-typedef __u16 						__dio_port_id_t;
+typedef __u16 						dio_port_id_t;
 
 enum dio_port_severity {
 	DIO_PORT_SEVERITY_T_NONE			= 0,

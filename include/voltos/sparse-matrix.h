@@ -3,7 +3,7 @@
 /*
  *	include/voltos/sparse-matrix.h
  *
- * 	Sparse Matrix Data Structure
+ * 	Sparse Matrix
  */
 
 #ifndef _VOLTOS_SPARSE_MATRIX_H

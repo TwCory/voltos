@@ -9,8 +9,20 @@
 #ifndef _NBAPI_VOLTOS_IGMP_H
 #define _NBAPI_VOLTOS_IGMP_H
 
-#include <voltos/types.h>
+struct igmp_hdr {
 
-#define IGMP_PROTOCOL		2
+};
+
+struct igmpv3_group_record_msg {
+
+};
+
+struct igmpv3_report_msg {
+
+};
+
+struct igmpv3_query_msg {
+
+};
 
 #endif /* _NBAPI_VOLTOS_IGMP_H */

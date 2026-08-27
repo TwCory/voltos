@@ -3,7 +3,7 @@
 /*
  *	include/voltos/scatterlist.h
  *
- * 	Scatter-Gather List Data Structure
+ * 	Scatter-Gather Lists
  */
 
 #ifndef _VOLTOS_SCATTERLIST_H

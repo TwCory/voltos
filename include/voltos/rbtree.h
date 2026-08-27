@@ -3,7 +3,7 @@
 /*
  *	include/voltos/rbtree.h
  *
- * 	Red-Black Tree Data Structure
+ * 	Red-Black Trees
  */
 
 #ifndef _VOLTOS_RBTREE_H

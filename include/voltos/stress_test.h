@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *	include/voltos/stress-test.h
+ *	include/voltos/stress_test.h
  *
  */
 

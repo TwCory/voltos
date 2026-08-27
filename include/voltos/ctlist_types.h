@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ctlist_types.h
  *
+ * 	Conc-Tree Linked Lists
  */
 
 #ifndef _VOLTOS_CTLIST_TYPES_H

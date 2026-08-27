@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dlr.h
  *
- * 	Device-Level Ring (DLR)
+ * 	Device-Level Ring (DLR) Feature
  */
 
 #ifndef _VOLTOS_DLR_H

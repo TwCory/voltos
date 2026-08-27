@@ -3,25 +3,14 @@
 /*
  *	include/voltos/complex.h
  *
- * 	Complex Types
+ * 	Complex Data Types
  */
 
 #ifndef _VOLTOS_COMPLEX_H
 #define _VOLTOS_COMPLEX_H
 
-#ifndef __complex__
-#define __complex__			_Complex
-#endif /* __complex__ */
-
-typedef __complex__ float		cf16;
-typedef __complex__ float		cf32;
-typedef __complex__ double		cf64;
-
-typedef struct {
-	union {
-		__complex__ float	s128_cf32[4];
-		__complex__ double	s128_cf64[2];
-	};
-} __attribute__ ((packed)) cf128;
+#include <voltos/complex/helpers.h>
+#include <voltos/complex/math.h>
+#include <voltos/complex/types.h>
 
 #endif /* _VOLTOS_COMPLEX_H */

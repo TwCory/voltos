@@ -10,6 +10,6 @@
 
 #include <voltos/gid_types.h>
 
-#define V_GID_INIT(value)	(v_gid_t){ value }
+#define VSGID_INIT(value)	(vsgid_t){ value }
 
 #endif /* _VOLTOS_GID_H */

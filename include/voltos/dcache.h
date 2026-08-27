@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dcache.h
  *
- * 	Dirent Cache
+ * 	Dirent Cache Structures
  */
 
 #ifndef _VOLTOS_DCACHE_H

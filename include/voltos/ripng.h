@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ripng.h
  *
+ * 	Routing Information Protocol Next Generation (RIPng)
  */
 
 #ifndef _VOLTOS_RIPNG_H
@@ -10,12 +11,5 @@
 
 #include <nbapi/voltos/ripng.h>
 
-struct ripng_ipv6_router_conf {
-
-};
-
-struct ripng_interface_conf {
-
-};
 
 #endif /* _VOLTOS_RIPNG_H */

@@ -11,16 +11,4 @@
 
 #include <nbapi/voltos/bsm.h>
 
-struct bsm_group {
-
-};
-
-struct bsm_session {
-
-};
-
-struct bsm_set {
-
-};
-
 #endif /* _VOLTOS_BSM_H */

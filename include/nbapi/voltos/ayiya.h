@@ -10,4 +10,8 @@
 #ifndef _NBAPI_VOLTOS_AYIYA_H
 #define _NBAPI_VOLTOS_AYIYA_H
 
+struct ayiya_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_AYIYA_H */

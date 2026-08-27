@@ -11,6 +11,10 @@
 
 #include <voltos/types.h>
 
+struct pptp_addr {
+
+};
+
 struct pptp_hdr {
 
 };

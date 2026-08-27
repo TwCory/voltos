@@ -3,7 +3,7 @@
 /*
  *      include/voltos/hashtree.h
  *
- * 	Hash Tree
+ * 	Hash Trees
  */
 
 #ifndef _VOLTOS_HASHTREE_H

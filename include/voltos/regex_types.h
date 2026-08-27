@@ -3,6 +3,7 @@
 /*
  *	include/voltos/regex_types.h
  *
+ * 	Regular Expressions (RegEx)
  */
 
 #ifndef _VOLTOS_REGEX_TYPES_H

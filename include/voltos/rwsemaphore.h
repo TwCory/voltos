@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rwsemaphore.h
  *
+ * 	Reader-Writer Semaphores
  */
 
 #ifndef _VOLTOS_RWSEMAPHORE_H

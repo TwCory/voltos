@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_IF_IEEE80211_H
 #define _NBAPI_VOLTOS_IF_IEEE80211_H
 
+struct ieee80211_hdr {
+
+} __attribute__ ((packed));
+
 #endif /* _NBAPI_VOLTOS_IF_IEEE80211_H */

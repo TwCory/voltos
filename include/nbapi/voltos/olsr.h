@@ -27,11 +27,12 @@ enum {
 
 #define OLSR_MSG_TYPE_MAX		(__OLSR_MSG_TYPE_T_MAX__ - 1)
 
-enum olsr_afi {
-	OLSR_AFI_T_UNSPEC		= 0,
-	OLSR_AFI_T_IPV4_UNICAST		= 1,
-	OLSR_AFI_T_IPV6_UNICAST		= 2,
-	__OLSR_AFI_T_MAX__
+struct olsr_pkt_hdr {
+
+};
+
+struct olsr_msg_hdr {
+
 };
 
 #endif /* _NBAPI_VOLTOS_OLSR_H */

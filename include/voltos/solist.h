@@ -3,7 +3,7 @@
 /*
  *	include/voltos/solist.h
  *
- * 	Self-Ordering Linked List Data Structure
+ * 	Self-Ordering Linked Lists
  */
 
 #ifndef _VOLTOS_SOLIST_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/skiplist.h
  *
- * 	Skip List Data Structure
+ * 	Skip Lists
  */
 
 #ifndef _VOLTOS_SKIPLIST_H

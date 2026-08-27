@@ -3,7 +3,7 @@
 /*
  *	include/voltos/pnp.h
  *
- * 	Plug and Play (PnP) Support
+ * 	General Plug and Play (PnP) Support
  */
 
 #ifndef _VOLTOS_PNP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/graph_types.h
  *
+ * 	Directed Graphs
  */
 
 #ifndef _VOLTOS_GRAPH_TYPES_H

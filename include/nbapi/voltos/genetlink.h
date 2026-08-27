@@ -11,4 +11,8 @@
 
 #include <voltos/types.h>
 
+struct genl_msg_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_GENETLINK_H */

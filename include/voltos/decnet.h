@@ -3,6 +3,7 @@
 /*
  *	include/voltos/decnet.h
  *
+ * 	DECnet Socket Family
  */
 
 #ifndef _VOLTOS_DECNET_H

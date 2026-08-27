@@ -3,7 +3,7 @@
 /*
  *	include/voltos/pgm.h
  *
- * 	Pragmatic Multicast (PGM)
+ * 	Pragmatic Multicast (PGM) Protocol
  */
 
 #ifndef _VOLTOS_PGM_H

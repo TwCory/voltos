@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nsap.h
  *
+ * 	Network Service Access Points (NSAP)
  */
 
 #ifndef _VOLTOS_NSAP_H

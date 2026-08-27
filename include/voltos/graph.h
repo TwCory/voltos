@@ -3,7 +3,7 @@
 /*
  *	include/voltos/graph.h
  *
- * 	Directed Graph
+ * 	Directed Graphs
  */
 
 #ifndef _VOLTOS_GRAPH_H

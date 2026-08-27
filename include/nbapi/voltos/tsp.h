@@ -9,6 +9,11 @@
 #ifndef _NBAPI_VOLTOS_TSP_H
 #define _NBAPI_VOLTOS_TSP_H
 
+#include <voltos/types.h>
+
+#define TSP_PORT			3653
+#define TSP_SIGNAL_ID			0xF
+
 enum {
 	TSP_TUNNEL_TYPE_T_UNSPEC	= 0,
 #define TSP_TUNNEL_TYPE_UNSPEC		TSP_TUNNEL_TYPE_T_UNSPEC
@@ -24,5 +29,11 @@ enum {
 };
 
 #define TSP_TUNNEL_TYPE_MAX		(__TSP_TUNNEL_TYPE_T_MAX__ - 1)
+
+struct tsp_hdr {
+	__net32					signal_id:4,
+						seq_no:28;
+	__net32				timestamp;
+};
 
 #endif /* _NBAPI_VOLTOS_TSP_H */

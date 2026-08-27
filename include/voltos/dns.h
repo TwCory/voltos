@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dns.h
  *
- * 	Domain Name System (DNS)
+ * 	Domain Name System (DNS) Protocol
  */
 
 #ifndef _VOLTOS_DNS_H

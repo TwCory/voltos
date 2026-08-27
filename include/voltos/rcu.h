@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rcu.h
  *
+ * 	Read-Copy-Update (RCU) Synchronization Methods
  */
 
 #ifndef _VOLTOS_RCU_H

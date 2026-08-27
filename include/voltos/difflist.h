@@ -3,7 +3,7 @@
 /*
  *      include/voltos/difflist.h
  *
- * 	Difference List
+ * 	Difference Lists
  */
 
 #ifndef _VOLTOS_DIFFLIST_H

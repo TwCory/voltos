@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pool_types.h
  *
+ * 	Generic Object Pools
  */
 
 #ifndef _VOLTOS_POOL_TYPES_H

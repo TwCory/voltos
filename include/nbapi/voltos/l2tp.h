@@ -31,4 +31,8 @@ struct l2tp_hdr {
 
 };
 
+struct l2tpv3_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_L2TP_H */

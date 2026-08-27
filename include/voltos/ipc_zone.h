@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_IPC_ZONE_H
 #define _VOLTOS_IPC_ZONE_H
 
+#include <nbapi/voltos/ipc_zone.h>
+
 struct ipc_zone {
 
 };

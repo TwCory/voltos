@@ -3,7 +3,7 @@
 /*
  *      include/voltos/csarray.h
  *
- * 	Compressed Suffix Array
+ * 	Compressed Suffix Arrays
  */
 
 #ifndef _VOLTOS_CSARRAY_H

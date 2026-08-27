@@ -12,7 +12,7 @@
 
 typedef struct {
 	union {
-		void 		*voltos_ptr;
+		void 		*system_ptr;
 		void 		*user_ptr;
 	};
 	bool 			is_system:1;

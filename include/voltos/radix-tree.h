@@ -3,7 +3,7 @@
 /*
  *	include/voltos/radix-tree.h
  *
- * 	Radix Tree Data Structure
+ * 	Radix Trees
  */
 
 #ifndef _VOLTOS_RADIX_TREE_H

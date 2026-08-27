@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dsr.h
  *
- * 	Dynamic Source Routing (DSR)
+ * 	Dynamic Source Routing (DSR) Protocol
  */
 
 #ifndef _VOLTOS_DSR_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/lat.h
  *
- * 	DEC Local Area Transport (LAT)
+ * 	DEC Local Area Transport (LAT) Socket Family
  */
 
 #ifndef _VOLTOS_LAT_H
