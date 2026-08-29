@@ -3,7 +3,7 @@
 /*
  *	include/voltos/xtree_types.h
  *
- * 	XTrees
+ * 	X-Trees
  */
 
 #ifndef _VOLTOS_XTREE_TYPES_H

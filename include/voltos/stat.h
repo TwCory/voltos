@@ -10,7 +10,7 @@
 
 #include <nbapi/voltos/stat.h>
 
-struct v_stat {
+struct vsstat {
 
 };
 

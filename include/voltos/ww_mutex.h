@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ww_mutex.h
  *
+ * 	Weight-Wound Mutual Exclusions
  */
 
 #ifndef _VOLTOS_WW_MUTEX_H

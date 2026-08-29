@@ -3,6 +3,7 @@
 /*
  *	include/voltos/trill.h
  *
+ * 	Transparent Interconnection of Lots of Links (TRILL) Protocol
  */
 
 #ifndef _VOLTOS_TRILL_H

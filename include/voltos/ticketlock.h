@@ -3,7 +3,7 @@
 /*
  *	include/voltos/ticketlock.h
  *
- * 	Ticket Spinlock
+ * 	Ticket Spin Locks
  */
 
 #ifndef _VOLTOS_TICKETLOCK_H

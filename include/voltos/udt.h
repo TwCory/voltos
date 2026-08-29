@@ -3,7 +3,7 @@
 /*
  *	include/voltos/udt.h
  *
- * 	UDP-Based Bulk Data Transfer (UDT)
+ * 	UDP-Based Data Transfer (UDT) Protocol
  */
 
 #ifndef _VOLTOS_UDT_H

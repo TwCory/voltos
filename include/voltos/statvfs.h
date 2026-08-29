@@ -10,7 +10,7 @@
 
 #include <nbapi/voltos/statvfs.h>
 
-struct v_statvfs {
+struct vsstatvfs {
 
 };
 

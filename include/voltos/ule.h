@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ule.h
  *
+ * 	Unidirectional Lightweight Encapsulation (ULE)
  */
 
 #ifndef _VOLTOS_ULE_H

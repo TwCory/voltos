@@ -3,6 +3,7 @@
 /*
  *	include/voltos/zeromq.h
  *
+ * 	ZeroMQ Library API Header
  */
 
 #ifndef _VOLTOS_ZEROMQ_H

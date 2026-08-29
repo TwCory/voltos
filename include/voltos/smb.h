@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_SMB_H
 #define _VOLTOS_SMB_H
 
+#include <nbapi/voltos/smb.h>
+
 #endif /* _VOLTOS_SMB_H */

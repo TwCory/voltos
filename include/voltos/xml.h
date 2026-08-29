@@ -3,7 +3,7 @@
 /*
  *	include/voltos/xml.h
  *
- * 	eXtensible Markup Language (XML)
+ * 	eXtensible Markup Language (XML) Parsing Library
  */
 
 #ifndef _VOLTOS_XML_H

@@ -8,12 +8,6 @@
 #ifndef _VOLTOS_X3_H
 #define _VOLTOS_X3_H
 
-struct x3_global_conf {
-
-};
-
-struct x3_interface_conf {
-
-};
+#include <nbapi/voltos/x3.h>
 
 #endif /* _VOLTOS_X3_H */

@@ -17,6 +17,14 @@ struct zip_root {
 
 };
 
+struct zip_root_cached {
+
+};
+
+struct zip_root_linked {
+
+};
+
 #define ZIP_ROOT
 #define ZIP_ROOT_CACHED
 #define ZIP_ROOT_LINKED
