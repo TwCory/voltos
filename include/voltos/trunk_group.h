@@ -11,7 +11,7 @@
 #include <nbapi/voltos/trunk_group.h>
 
 struct trunk_group {
-
+	const char name[TRUNK_GROUP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_TRUNK_GROUP_H */

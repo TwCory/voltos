@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_bluetooth.h
  *
+ * 	Bluetooth Interfaces and Socket Family
  */
 
 #ifndef _VOLTOS_IF_BLUETOOTH_H

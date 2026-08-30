@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_OUTREF_TYPES_H
 #define _VOLTOS_OUTREF_TYPES_H
 
-typedef struct outref_s {
+typedef struct outref {
 
 } outref_t;
 

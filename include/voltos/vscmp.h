@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_VSCMP_H
 #define _VOLTOS_VSCMP_H
 
-
+#include <nbapi/voltos/vscmp.h>
 
 #endif /* _VOLTOS_VSCMP_H */

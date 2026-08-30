@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_bdi.h
  *
+ * 	Bridge Domain Member Interfaces
  */
 
 #ifndef _VOLTOS_IF_BDI_H

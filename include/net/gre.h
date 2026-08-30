@@ -12,4 +12,8 @@
 #include <voltos/gre.h>
 #include <voltos/if_tunnel.h>
 
+struct gre_tunnel {
+
+};
+
 #endif /* _NET_GRE_H */

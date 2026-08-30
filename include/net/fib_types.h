@@ -8,6 +8,6 @@
 #ifndef _NET_FIB_TYPES_H
 #define _NET_FIB_TYPES_H
 
-
+#include <voltos/fib_types.h>
 
 #endif /* _NET_FIB_TYPES_H */

@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/vrf_list.h>
 
+struct vrf_list {
+
+};
+
 #endif /* _VOLTOS_VRF_LIST_H */

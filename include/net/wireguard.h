@@ -11,4 +11,8 @@
 #include <voltos/if_tunnel.h>
 #include <voltos/wireguard.h>
 
+struct wireguard_tunnel {
+
+};
+
 #endif /* _NET_WIREGUARD_H */

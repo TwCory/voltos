@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_bvi.h
  *
+ * 	Bridge-Group Virtual Interfaces
  */
 
 #ifndef _VOLTOS_IF_BVI_H

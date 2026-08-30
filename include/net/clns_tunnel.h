@@ -10,4 +10,8 @@
 
 #include <voltos/if_tunnel.h>
 
+struct clns_tunnel {
+
+};
+
 #endif /* _NET_CLNS_TUNNEL_H */

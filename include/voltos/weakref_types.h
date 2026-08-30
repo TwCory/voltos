@@ -9,8 +9,12 @@
 #ifndef _VOLTOS_WEAKREF_TYPES_H
 #define _VOLTOS_WEAKREF_TYPES_H
 
-typedef struct weakref {
+#include <voltos/refcount.h>
+#include <voltos/types.h>
 
+typedef struct weakref {
+	refcount_t 			refcount;
+	bool 				unreachable;
 } weakref_t;
 
 #endif /* _VOLTOS_WEAKREF_TYPES_H */

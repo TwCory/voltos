@@ -11,16 +11,4 @@
 
 #include <nbapi/voltos/dns.h>
 
-struct dns_resolver {
-
-};
-
-struct dns_name_list {
-
-};
-
-struct dns_statistics {
-
-};
-
 #endif /* _VOLTOS_DNS_H */

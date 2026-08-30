@@ -11,4 +11,8 @@
 #include <voltos/erspan.h>
 #include <voltos/if_tunnel.h>
 
+struct erspan_tunnel {
+
+};
+
 #endif /* _NET_ERSPAN_H */

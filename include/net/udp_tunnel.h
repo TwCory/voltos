@@ -10,4 +10,8 @@
 
 #include <voltos/if_tunnel.h>
 
+struct udp_tunnel {
+
+};
+
 #endif /* _NET_UDP_TUNNEL_H */

@@ -9,10 +9,10 @@
 #define _VOLTOS_ALARM_TIMER_H
 
 #include <voltos/time.h>
-#include <voltos/timer_queue.h>
+#include <voltos/timerqueue.h>
 
 struct alarm_timer {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_ALARM_TIMER_H */

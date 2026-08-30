@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_HYPERVISOR_H
 #define _VOLTOS_HYPERVISOR_H
 
+#include <nbapi/voltos/hypervisor.h>
+
 #endif /* _VOLTOS_HYPERVISOR_H */

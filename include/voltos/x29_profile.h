@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/x29_profile.h>
 
+struct x29_profile {
+
+};
+
 #endif /* _VOLTOS_X29_PROFILE_H */

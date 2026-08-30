@@ -9,8 +9,11 @@
 #ifndef _VOLTOS_SEMAPHORE_H
 #define _VOLTOS_SEMAPHORE_H
 
-typedef struct semaphore {
+#include <voltos/spinlock.h>
 
+typedef struct semaphore {
+	raw_spinlock_t 			lock;
+	unsigned int 			count;
 } semaphore_t;
 
 #ifndef DEFINE_SEMAPHORE

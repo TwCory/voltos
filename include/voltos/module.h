@@ -11,7 +11,7 @@
 #include <nbapi/voltos/module.h>
 
 struct module {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_MODULE_H */

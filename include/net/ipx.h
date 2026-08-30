@@ -8,6 +8,7 @@
 #ifndef _NET_IPX_H
 #define _NET_IPX_H
 
+#include <voltos/ipx.h>
 #include <router/ipx.h>
 
 #endif /* _NET_IPX_H */

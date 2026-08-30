@@ -13,4 +13,6 @@
 #include <voltos/debug.h>
 #include <voltos/log2.h>
 
+#define DECLARE_EWMA(name, _precision, _weight_rcp)
+
 #endif /* _VOLTOS_AVERAGE_H */

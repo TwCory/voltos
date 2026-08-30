@@ -11,5 +11,4 @@
 
 #include <nbapi/voltos/ripng.h>
 
-
 #endif /* _VOLTOS_RIPNG_H */

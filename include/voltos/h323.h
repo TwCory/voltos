@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/h323.h>
 
-struct h323_gateway {
-
-};
-
-struct h323_gateway_prefix {
-
-};
-
 #endif /* _VOLTOS_H323_H */

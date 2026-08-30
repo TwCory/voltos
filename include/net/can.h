@@ -8,6 +8,6 @@
 #ifndef _NET_CAN_H
 #define _NET_CAN_H
 
-
+#include <voltos/can.h>
 
 #endif /* _NET_CAN_H */

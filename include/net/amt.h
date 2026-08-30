@@ -12,4 +12,8 @@
 #include <voltos/amt.h>
 #include <voltos/if_tunnel.h>
 
+struct amt_tunnel {
+
+};
+
 #endif /* _NET_AMT_H */

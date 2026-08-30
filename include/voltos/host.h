@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/host.h>
 
+struct host {
+	const char name;
+};
+
 #endif /* _VOLTOS_HOST_H */

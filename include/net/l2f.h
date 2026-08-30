@@ -12,4 +12,8 @@
 #include <voltos/if_tunnel.h>
 #include <voltos/l2f.h>
 
+struct l2f_tunnel {
+
+};
+
 #endif /* _NET_L2F_H */

@@ -12,4 +12,8 @@
 #include <voltos/if_nve.h>
 #include <voltos/if_tunnel.h>
 
+struct geneve_tunnel {
+
+};
+
 #endif /* _NET_GENEVE_H */

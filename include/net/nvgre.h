@@ -12,4 +12,8 @@
 #include <voltos/if_tunnel.h>
 #include <voltos/nvgre.h>
 
+struct nvgre_tunnel {
+
+};
+
 #endif /* _NET_NVGRE_H */

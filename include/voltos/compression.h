@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_COMPRESSION_H
 #define _VOLTOS_COMPRESSION_H
 
+#include <nbapi/voltos/compress.h>
+
 struct compress {
 
 };

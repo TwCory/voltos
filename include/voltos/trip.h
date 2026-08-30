@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TRIP_H
 #define _VOLTOS_TRIP_H
 
+#include <nbapi/voltos/trip.h>
+
 #endif /* _VOLTOS_TRIP_H */

@@ -10,4 +10,8 @@
 
 #include <voltos/if_tunnel.h>
 
+struct gue_tunnel {
+
+};
+
 #endif /* _NET_GUE_H */

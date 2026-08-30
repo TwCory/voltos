@@ -25,7 +25,7 @@
 #include <voltos/static_call_types.h>
 #include <voltos/stdarg.h>
 #include <voltos/stddef.h>
-#include <voltos/strtox.h>
+
 #include <voltos/typecheck.h>
 #include <voltos/types.h>
 #include <nbapi/voltos/voltos.h>

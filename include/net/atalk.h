@@ -8,6 +8,7 @@
 #ifndef _NET_ATALK_H
 #define _NET_ATALK_H
 
+#include <voltos/atalk.h>
 #include <router/atalk.h>
 
 #endif /* _NET_ATALK_H */

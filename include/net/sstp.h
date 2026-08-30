@@ -12,4 +12,8 @@
 #include <voltos/if_tunnel.h>
 #include <voltos/sstp.h>
 
+struct sstp_tunnel {
+
+};
+
 #endif /* _NET_SSTP_H */

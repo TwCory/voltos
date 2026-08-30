@@ -10,4 +10,8 @@
 
 #include <voltos/if_tunnel.h>
 
+struct ip_tunnel {
+
+};
+
 #endif /* _NET_IP_TUNNEL_H */

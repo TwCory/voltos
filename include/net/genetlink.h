@@ -8,6 +8,6 @@
 #ifndef _NET_GENETLINK_H
 #define _NET_GENETLINK_H
 
-
+#include <voltos/genetlink.h>
 
 #endif /* _NET_GENETLINK_H */

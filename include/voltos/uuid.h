@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_UUID_H
 #define _VOLTOS_UUID_H
 
+#include <voltos/string.h>
 #include <voltos/uuid_types.h>
 #include <nbapi/voltos/uuid.h>
 

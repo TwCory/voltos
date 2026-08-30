@@ -13,4 +13,7 @@
 #include <voltos/nsap_prefix.h>
 #include <voltos/nsap_types.h>
 
+#define NSAP_SYSTEM_ID_STRING_SIZE	(21)
+#define NSAP_ADDRESS_STRING_SIZE	(51)
+
 #endif /* _VOLTOS_NSAP_H */

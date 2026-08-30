@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_FS_H
 #define _VOLTOS_FS_H
 
+#include <nbapi/voltos/fs.h>
+
 struct inode_attr {
 
 };

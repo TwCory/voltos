@@ -12,4 +12,8 @@
 #include <voltos/ayiya.h>
 #include <voltos/if_tunnel.h>
 
+struct ayiya_tunnel {
+
+};
+
 #endif /* _NET_AYIYA_H */

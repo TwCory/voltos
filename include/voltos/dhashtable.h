@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_DHASHTABLE_H
 #define _VOLTOS_DHASHTABLE_H
 
+#include <voltos/dhashtable-type.h>
+
 #endif /* _VOLTOS_DHASHTABLE_H */

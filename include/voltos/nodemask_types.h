@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_NODEMASK_TYPES_H
 #define _VOLTOS_NODEMASK_TYPES_H
 
-typedef struct nodemask_s {
+typedef struct nodemask {
 
 } nodemask_t;
 

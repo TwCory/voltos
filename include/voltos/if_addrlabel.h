@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_addrlabel.h
  *
+ * 	Interface Address Labels
  */
 
 #ifndef _VOLTOS_IF_ADDRLABEL_H

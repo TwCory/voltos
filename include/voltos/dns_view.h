@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/dns_view.h>
 
-struct dns_view {
-
-};
-
-struct dns_view_list {
-
-};
-
 #endif /* _VOLTOS_DNS_VIEW_H */

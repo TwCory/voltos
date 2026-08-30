@@ -9,6 +9,8 @@
 #ifndef _VOLTOS_RHASHTABLE_H
 #define _VOLTOS_RHASHTABLE_H
 
+#include <voltos/rhashtable-type.h>
+
 struct bucket_table {
 
 };

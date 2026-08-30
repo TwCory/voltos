@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MOUNT_H
 #define _VOLTOS_MOUNT_H
 
+#include <nbapi/voltos/mount.h>
+
 #endif /* _VOLTOS_MOUNT_H */

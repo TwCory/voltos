@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/gnunet.h>
 
-struct gnunet_global_conf {
-
-};
-
-struct gnunet_interface_conf {
-
-};
-
 #endif /* _VOLTOS_GNUNET_H */

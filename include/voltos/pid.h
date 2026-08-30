@@ -9,6 +9,7 @@
 #define _VOLTOS_PID_H
 
 #include <voltos/pid_types.h>
+#include <nbapi/voltos/pid.h>
 
 #define VSPID_INIT(value)	(vspid_t){ value }
 

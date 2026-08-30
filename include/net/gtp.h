@@ -11,4 +11,8 @@
 #include <voltos/gtp.h>
 #include <voltos/if_tunnel.h>
 
+struct gtp_tunnel {
+
+};
+
 #endif /* _NET_GTP_H */

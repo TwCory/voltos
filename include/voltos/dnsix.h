@@ -10,12 +10,4 @@
 
 #include <nbapi/voltos/dnsix.h>
 
-struct dnsix_dmdp_global_conf {
-
-};
-
-struct dnsix_nat_global_conf {
-
-};
-
 #endif /* _VOLTOS_DNSIX_H */

@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/dialer.h>
 
+struct dialer {
+	const char name;
+};
+
 #endif /* _VOLTOS_DIALER_H */

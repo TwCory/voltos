@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ILA_H
 #define _VOLTOS_ILA_H
 
+#include <nbapi/voltos/ila.h>
+
 #endif /* _VOLTOS_ILA_H */

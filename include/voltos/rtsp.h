@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_RTSP_H
 #define _VOLTOS_RTSP_H
 
+#include <nbapi/voltos/rtsp.h>
+
 #endif /* _VOLTOS_RTSP_H */

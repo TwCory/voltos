@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IAX_H
 #define _VOLTOS_IAX_H
 
+#include <nbapi/voltos/iax.h>
+
 #endif /* _VOLTOS_IAX_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_addr.h
  *
+ * 	Interface Addresses
  */
 
 #ifndef _VOLTOS_IF_ADDR_H

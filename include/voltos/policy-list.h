@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/policy-list.h>
 
+struct policy_list {
+	const char name;
+};
+
 #endif /* _VOLTOS_POLICY_LIST_H */

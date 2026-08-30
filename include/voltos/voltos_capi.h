@@ -8,4 +8,6 @@
 #ifndef __VOLTOS_CAPI_H
 #define __VOLTOS_CAPI_H
 
+#include <nbapi/voltos/voltos_capi.h>
+
 #endif /* __VOLTOS_CAPI_H */

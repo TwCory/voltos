@@ -11,4 +11,8 @@
 #include <voltos/if_tunnel.h>
 #include <voltos/pptp.h>
 
+struct pptp_tunnel {
+
+};
+
 #endif /* _NET_PPTP_H */

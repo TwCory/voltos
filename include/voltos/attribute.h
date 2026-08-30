@@ -12,9 +12,7 @@
 #include <nbapi/voltos/attribute.h>
 
 struct attribute {
-	const char 	*name;
-	unsigned int 	index;
-	void 		*data;
+
 };
 
 struct attribute_group {

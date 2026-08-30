@@ -11,7 +11,7 @@
 #include <voltos/types.h>
 
 struct ipc_namespace {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_IPC_NAMESPACE_H */

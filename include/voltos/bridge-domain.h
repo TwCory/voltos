@@ -11,7 +11,7 @@
 #include <nbapi/voltos/bridge-domain.h>
 
 struct br_domain {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_BRIDGE_DOMAIN_H */

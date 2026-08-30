@@ -12,7 +12,7 @@
 #include <nbapi/voltos/net_namespace.h>
 
 struct net_namespace {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_NET_NAMESPACE_H */

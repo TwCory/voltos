@@ -10,4 +10,8 @@
 
 #include <voltos/if_tunnel.h>
 
+struct ipv6_tunnel {
+
+};
+
 #endif /* _NET_IPV6_TUNNEL_H */

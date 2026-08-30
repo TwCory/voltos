@@ -8,6 +8,6 @@
 #ifndef _NET_ROSE_H
 #define _NET_ROSE_H
 
-
+#include <voltos/rose.h>
 
 #endif /* _NET_ROSE_H */

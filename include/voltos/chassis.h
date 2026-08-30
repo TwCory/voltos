@@ -9,7 +9,7 @@
 #define _VOLTOS_CHASSIS_H
 
 struct chassis {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_CHASSIS_H */

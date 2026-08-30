@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IDENTITY_H
 #define _VOLTOS_IDENTITY_H
 
+#include <nbapi/voltos/identity.h>
+
 #endif /* _VOLTOS_IDENTITY_H */

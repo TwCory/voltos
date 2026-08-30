@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_arcnet.h
  *
+ * 	Attached Resource Computer Network (ARCnet) Interfaces
  */
 
 #ifndef _VOLTOS_IF_ARCNET_H

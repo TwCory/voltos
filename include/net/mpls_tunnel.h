@@ -10,4 +10,8 @@
 
 #include <voltos/if_tunnel.h>
 
+struct mpls_tunnel {
+
+};
+
 #endif /* _NET_MPLS_TUNNEL_H */

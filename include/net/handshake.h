@@ -8,4 +8,6 @@
 #ifndef _NET_HANDSHAKE_H
 #define _NET_HANDSHAKE_H
 
+#include <voltos/handshake.h>
+
 #endif /* _NET_HANDSHAKE_H */

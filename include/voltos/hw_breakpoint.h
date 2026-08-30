@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_HW_BREAKPOINT_H
 #define _VOLTOS_HW_BREAKPOINT_H
 
+#include <nbapi/voltos/hw_breakpoint.h>
+
 #endif /* _VOLTOS_HW_BREAKPOINT_H */

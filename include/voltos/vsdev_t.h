@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VSDEV_T_H
 #define _VOLTOS_VSDEV_T_H
 
+#include <nbapi/voltos/vsdev_t.h>
+
 #define MINOR_BITS				20
 #define MINOR_MASK				((1U << MINOR_BITS) - 1)
 

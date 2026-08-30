@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_LMP_H
 #define _VOLTOS_LMP_H
 
+#include <nbapi/voltos/lmp.h>
+
 #endif /* _VOLTOS_LMP_H */

@@ -11,4 +11,8 @@
 #include <voltos/if_tunnel.h>
 #include <voltos/wesp.h>
 
+struct wesp_tunnel {
+
+};
+
 #endif /* _NET_WESP_H */

@@ -12,4 +12,8 @@
 #include <voltos/bfd.h>
 #include <router/bfd.h>
 
+struct bfd_session {
+
+};
+
 #endif /* _NET_BFD_H */

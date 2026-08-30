@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DLEP_H
 #define _VOLTOS_DLEP_H
 
+#include <nbapi/voltos/dlep.h>
+
 #endif /* _VOLTOS_DLEP_H */

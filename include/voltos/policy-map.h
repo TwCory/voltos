@@ -11,7 +11,7 @@
 #include <nbapi/voltos/policy-map.h>
 
 struct policy_map {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_POLICY_MAP_H */

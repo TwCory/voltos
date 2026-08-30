@@ -10,4 +10,8 @@
 
 #include <voltos/nsh.h>
 
+struct nsh_tunnel {
+
+};
+
 #endif /* _NET_NSH_H */

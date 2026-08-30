@@ -11,11 +11,8 @@
 
 #include <voltos/atomic.h>
 
-typedef struct refcount_s {
-	union {
-		atomic32_t 		refs32;
-		atomic64_t 		refs64;
-	};
+typedef struct refcount {
+	atomic_t refs;
 } refcount_t;
 
 #endif /* _VOLTOS_REFCOUNT_TYPES_H */

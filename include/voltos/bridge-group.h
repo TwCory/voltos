@@ -11,7 +11,7 @@
 #include <nbapi/voltos/bridge-group.h>
 
 struct br_group {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_BRIDGE_GROUP_H */

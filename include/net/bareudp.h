@@ -8,6 +8,11 @@
 #ifndef _NET_BAREUDP_H
 #define _NET_BAREUDP_H
 
+#include <voltos/bareudp.h>
 #include <voltos/if_tunnel.h>
+
+struct bareudp_tunnel {
+
+};
 
 #endif /* _NET_BAREUDP_H */

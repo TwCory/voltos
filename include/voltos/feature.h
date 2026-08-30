@@ -11,7 +11,7 @@
 #include <nbapi/voltos/feature.h>
 
 struct feature {
-
+	const char name;
 };
 
 #endif /* _VOLTOS_FEATURE_H */

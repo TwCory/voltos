@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPX_SERVER_H
 #define _VOLTOS_IPX_SERVER_H
 
+#include <nbapi/voltos/ipx_server.h>
+
 #endif /* _VOLTOS_IPX_SERVER_H */
