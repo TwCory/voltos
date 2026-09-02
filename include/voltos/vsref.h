@@ -11,7 +11,7 @@
 #include <voltos/refcount.h>
 
 struct vsref {
-	refcount_t ref_count;
+	refcount_t refcount;
 };
 
 #define VSREF_INIT(n)

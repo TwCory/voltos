@@ -12,6 +12,7 @@
 #include <nbapi/voltos/vlan_group.h>
 
 struct vlan_group {
+	const char name;
 	refcount_t refcount;
 };
 

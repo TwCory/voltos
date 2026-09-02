@@ -12,6 +12,7 @@
 #include <nbapi/voltos/virtual-template.h>
 
 struct virtual_template {
+	const char name;
 	refcount_t refcount;
 };
 

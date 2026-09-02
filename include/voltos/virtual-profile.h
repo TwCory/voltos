@@ -12,6 +12,7 @@
 #include <nbapi/voltos/virtual-profile.h>
 
 struct virtual_profile {
+	const char name;
 	refcount_t refcount;
 };
 

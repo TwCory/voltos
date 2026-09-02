@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VSLIST_H
 #define _VOLTOS_VSLIST_H
 
+#include <voltos/list.h>
+
 struct vslist_node;
 
 struct vslist {

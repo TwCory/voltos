@@ -12,6 +12,7 @@
 #include <nbapi/voltos/vpdn-group.h>
 
 struct vpdn_group {
+	const char name;
 	refcount_t refcount;
 };
 

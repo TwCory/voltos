@@ -12,6 +12,7 @@
 #include <nbapi/voltos/vpdn-template.h>
 
 struct vpdn_template {
+	const char name;
 	refcount_t refcount;
 };
 

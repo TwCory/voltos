@@ -12,6 +12,7 @@
 #include <nbapi/voltos/vrf_list.h>
 
 struct vrf_list {
+	const char name;
 	refcount_t refcount;
 };
 
