@@ -8,7 +8,7 @@
 #ifndef _ROUTER_IPV4_PORT_MAP_H
 #define _ROUTER_IPV4_PORT_MAP_H
 
-struct ip_port_map {
+struct ipv4_port_map {
 
 };
 

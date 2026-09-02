@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_L2TP_H
 #define _VOLTOS_L2TP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/l2tp.h>
 
 #endif /* _VOLTOS_L2TP_H */

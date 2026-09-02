@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SONET_H
 #define _VOLTOS_SONET_H
 
+#include <voltos/device.h>
+
 #endif /* _VOLTOS_SONET_H */

@@ -8,7 +8,9 @@
 #ifndef _VOLTOS_LINECARD_H
 #define _VOLTOS_LINECARD_H
 
-struct line_card {
+#include <voltos/device.h>
+
+struct linecard {
 
 };
 

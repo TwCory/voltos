@@ -12,7 +12,6 @@
 #include <voltos/types.h>
 
 #define GENEVE_PORT			6081
-
 #define GENEVE_VNI_SIZE			3
 
 struct geneve_vni {

@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_PFLOCK_TYPES_H
 #define _VOLTOS_PFLOCK_TYPES_H
 
-typedef struct pflock {
+#include <voltos/spinlock.h>
 
+typedef struct pflock {
+	raw_spinlock_t lock;
 } pflock_t;
 
 #endif /* _VOLTOS_PFLOCK_TYPES_H */

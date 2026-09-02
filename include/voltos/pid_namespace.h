@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_PID_NAMESPACE_H
 #define _VOLTOS_PID_NAMESPACE_H
 
-struct pid_namespace {
+#include <voltos/refcount.h>
 
+struct pid_namespace {
+	refcount_t refcount;
 };
 
 #endif /* _VOLTOS_PID_NAMESPACE_H */

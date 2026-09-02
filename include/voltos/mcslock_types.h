@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_MCSLOCK_TYPES_H
 #define _VOLTOS_MCSLOCK_TYPES_H
 
-typedef struct mcslock_s {
+#include <voltos/spinlock.h>
 
+typedef struct mcslock {
+	raw_spinlock_t lock;
 } mcslock_t;
 
 #endif /* _VOLTOS_MCSLOCK_TYPES_H */

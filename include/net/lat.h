@@ -9,5 +9,6 @@
 #define _NET_LAT_H
 
 #include <voltos/lat.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_LAT_H */

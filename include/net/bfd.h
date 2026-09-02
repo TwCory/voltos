@@ -10,6 +10,7 @@
 #define _NET_BFD_H
 
 #include <voltos/bfd.h>
+#include <voltos/mbuf.h>
 #include <router/bfd.h>
 
 struct bfd_session {

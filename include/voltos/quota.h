@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/quota.h>
 
+struct vsqid {
+
+};
+
+struct quota_format_ops {
+
+};
+
 #endif /* _VOLTOS_QUOTA_H */

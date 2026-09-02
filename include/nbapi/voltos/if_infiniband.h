@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_infiniband.h
  *
- * 	InfiniBand Interface and Socket Family
+ * 	InfiniBand Interfaces and Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_IF_INFINIBAND_H

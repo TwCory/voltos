@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_LIBGCC_H
 #define _VOLTOS_LIBGCC_H
 
-
+#include <voltos/byteorder.h>
 
 #endif /* _VOLTOS_LIBGCC_H */

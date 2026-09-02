@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_TCP_H
 #define _VOLTOS_TCP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/tcp.h>
 
 #endif /* _VOLTOS_TCP_H */

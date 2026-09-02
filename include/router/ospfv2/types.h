@@ -11,10 +11,7 @@
 #include <voltos/inet.h>
 #include <voltos/types.h>
 
-typedef ipv4_addr_t 		ospf_addr_t;
-typedef ipv4_addr_t 		ospf_area_id_t;
-typedef u16 			ospf_cost_t;
-typedef u16 			ospf_pid_t;
-typedef ipv4_addr_t		ospf_router_id_t;
+typedef ipv4_addr_t 					ospfv2_address_t;
+typedef ipv4_prefix_t 					ospfv2_prefix_t;
 
 #endif /* _ROUTER_OSPFV2_TYPES_H */

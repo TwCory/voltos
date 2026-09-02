@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/hsr.h
  *
- *	High Availability Seamless Redundancy (HSR)
+ *	High-Availability Seamless Redundancy (HSR)
  */
 
 #ifndef _NBAPI_VOLTOS_HSR_H

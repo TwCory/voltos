@@ -11,5 +11,6 @@
 
 #include <voltos/if_tunnel.h>
 #include <voltos/ipsec.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_ESP_H */

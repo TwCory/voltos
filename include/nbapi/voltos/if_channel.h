@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_channel.h
  *
- * 	EtherChannel Interface
+ * 	EtherChannel Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_CHANNEL_H

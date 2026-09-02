@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_UIO_H
 #define _VOLTOS_UIO_H
 
+#include <voltos/mm_types.h>
+#include <voltos/voltos.h>
 #include <nbapi/voltos/uio.h>
 
 struct vsvec {

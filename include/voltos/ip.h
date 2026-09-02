@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_IP_H
 #define _VOLTOS_IP_H
 
+#include <voltos/mbuf.h>
 #include <voltos/types.h>
 #include <nbapi/voltos/ip.h>
 

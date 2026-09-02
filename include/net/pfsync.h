@@ -8,6 +8,7 @@
 #ifndef _NET_PFSYNC_H
 #define _NET_PFSYNC_H
 
+#include <voltos/mbuf.h>
 #include <voltos/pfsync.h>
 
 #endif /* _NET_PFSYNC_H */

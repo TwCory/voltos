@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_RWLOCK_TYPES_H
 #define _VOLTOS_RWLOCK_TYPES_H
 
-typedef struct rwlock_s {
+#include <voltos/spinlock.h>
 
+typedef struct rwlock {
+	raw_spinlock_t lock;
 } rwlock_t;
 
 #endif /* _VOLTOS_RWLOCK_TYPES_H */

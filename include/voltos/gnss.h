@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_GNSS_H
 #define _VOLTOS_GNSS_H
 
+#include <voltos/device.h>
 #include <nbapi/voltos/gnss.h>
 
 struct gnss_ops {

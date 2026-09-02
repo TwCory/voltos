@@ -8,6 +8,7 @@
 #ifndef _NET_QSPEC_H
 #define _NET_QSPEC_H
 
+#include <voltos/mbuf.h>
 #include <voltos/qspec.h>
 
 #endif /* _NET_QSPEC_H */

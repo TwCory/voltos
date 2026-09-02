@@ -8,10 +8,12 @@
 #ifndef _VOLTOS_POLICY_LIST_H
 #define _VOLTOS_POLICY_LIST_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/policy-list.h>
 
 struct policy_list {
 	const char name;
+	refcount_t refcount;
 };
 
 #endif /* _VOLTOS_POLICY_LIST_H */

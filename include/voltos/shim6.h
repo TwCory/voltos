@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_SHIM6_H
 #define _VOLTOS_SHIM6_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/shim6.h>
 
 #endif /* _VOLTOS_SHIM6_H */

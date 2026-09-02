@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_PNNI_H
 #define _VOLTOS_PNNI_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/pnni.h>
 
 #endif /* _VOLTOS_PNNI_H */

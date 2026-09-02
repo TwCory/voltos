@@ -8,10 +8,12 @@
 #ifndef _VOLTOS_KEYMAP_H
 #define _VOLTOS_KEYMAP_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/keymap.h>
 
 struct keymap {
 	const char 			name[KEYMAP_NAME_SIZE];
+	refcount_t 			refcount;
 };
 
 #endif /* _VOLTOS_KEYMAP_H */

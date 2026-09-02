@@ -8,6 +8,8 @@
 #ifndef _NET_SOCK_H
 #define _NET_SOCK_H
 
+#include <voltos/mbuf.h>
+
 struct sock_common {
 
 };

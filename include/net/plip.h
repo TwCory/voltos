@@ -8,6 +8,7 @@
 #ifndef _NET_PLIP_H
 #define _NET_PLIP_H
 
+#include <voltos/mbuf.h>
 #include <voltos/plip.h>
 
 #endif /* _NET_PLIP_H */

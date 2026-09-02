@@ -8,6 +8,7 @@
 #ifndef _NET_PRP_H
 #define _NET_PRP_H
 
+#include <voltos/mbuf.h>
 #include <voltos/prp.h>
 
 #endif /* _NET_PRP_H */

@@ -9,6 +9,7 @@
 #define _VOLTOS_TTY_DEVICE_H
 
 #include <voltos/device.h>
+#include <voltos/tty.h>
 
 struct tty_device {
 

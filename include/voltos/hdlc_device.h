@@ -8,6 +8,11 @@
 #ifndef _VOLTOS_HDLC_DEVICE_H
 #define _VOLTOS_HDLC_DEVICE_H
 
+#include <voltos/device.h>
 #include <nbapi/voltos/hdlc_device.h>
+
+struct hdlc_device {
+
+};
 
 #endif /* _VOLTOS_HDLC_DEVICE_H */

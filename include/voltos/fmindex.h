@@ -9,4 +9,8 @@
 #ifndef _VOLTOS_FMINDEX_H
 #define _VOLTOS_FMINDEX_H
 
+typedef struct {
+
+} fm_index_t;
+
 #endif /* _VOLTOS_FMINDEX_H */

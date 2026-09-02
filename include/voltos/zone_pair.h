@@ -9,10 +9,11 @@
 #ifndef _VOLTOS_ZONE_PAIR_H
 #define _VOLTOS_ZONE_PAIR_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/zone_pair.h>
 
 struct zone_pair {
-
+	refcount_t refcount;
 };
 
 #endif /* _VOLTOS_ZONE_PAIR_H */

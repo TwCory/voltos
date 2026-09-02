@@ -9,5 +9,6 @@
 #define _NET_DCCP_H
 
 #include <voltos/dccp.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_DCCP_H */

@@ -10,4 +10,24 @@
 
 #include <nbapi/voltos/btf.h>
 
+struct btf_vsfunc_id_set {
+
+};
+
+struct btf_metadata {
+
+};
+
+struct btf_metadatas {
+
+};
+
+struct btf_field_desc {
+
+};
+
+struct btf_field_iter {
+
+};
+
 #endif /* _VOLTOS_BTF_H */

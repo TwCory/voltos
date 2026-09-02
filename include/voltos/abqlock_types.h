@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_ABQLOCK_TYPES_H
 #define _VOLTOS_ABQLOCK_TYPES_H
 
-typedef struct abqlock {
+#include <voltos/spinlock.h>
 
+typedef struct abqlock {
+	raw_spinlock_t lock;
 } abqlock_t;
 
 #endif /* _VOLTOS_ABQLOCK_TYPES_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_BPF_CRYPTO_H
 #define _VOLTOS_BPF_CRYPTO_H
 
+struct bpf_crypto_type {
+
+};
+
 #endif /* _VOLTOS_BPF_CRYPTO_H */

@@ -9,5 +9,6 @@
 #define _NET_GENETLINK_H
 
 #include <voltos/genetlink.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_GENETLINK_H */

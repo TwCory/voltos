@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_HDLC_H
 #define _VOLTOS_HDLC_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/hdlc.h>
 
 struct hdlc_protocol {

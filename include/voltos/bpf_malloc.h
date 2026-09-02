@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_BPF_MALLOC_H
 #define _VOLTOS_BPF_MALLOC_H
 
+struct bpf_malloc {
+
+};
+
 #endif /* _VOLTOS_BPF_MALLOC_H */

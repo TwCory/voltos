@@ -9,5 +9,6 @@
 #define _NET_HSR_H
 
 #include <voltos/hsr.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_HSR_H */

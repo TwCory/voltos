@@ -9,6 +9,7 @@
 #define _NET_DECNET_H
 
 #include <voltos/decnet.h>
+#include <voltos/mbuf.h>
 #include <router/decnet.h>
 
 #endif /* _NET_DECNET_H */

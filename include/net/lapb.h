@@ -9,5 +9,6 @@
 #define _NET_LAPB_H
 
 #include <voltos/lapb.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_LAPB_H */

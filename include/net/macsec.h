@@ -9,5 +9,6 @@
 #define _NET_MACSEC_H
 
 #include <voltos/macsec.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_MACSEC_H */

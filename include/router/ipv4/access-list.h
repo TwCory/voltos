@@ -8,7 +8,11 @@
 #ifndef _ROUTER_IPV4_ACCESS_LIST_H
 #define _ROUTER_IPV4_ACCESS_LIST_H
 
-struct ip_access_list {
+struct ipv4_standard_named_acl {
+
+};
+
+struct ipv4_extended_named_acl {
 
 };
 

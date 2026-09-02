@@ -11,4 +11,16 @@
 
 #include <nbapi/voltos/dio.h>
 
+struct dio_vec {
+
+};
+
+struct dio_port {
+
+};
+
+struct dio_device {
+
+};
+
 #endif /* _VOLTOS_DIO_H */

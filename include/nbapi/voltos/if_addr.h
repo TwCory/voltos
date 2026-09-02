@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_addr.h
  *
- * 	Interface Address
+ * 	Interface Addresses
  */
 
 #ifndef _NBAPI_VOLTOS_IF_ADDR_H

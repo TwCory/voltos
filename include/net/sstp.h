@@ -10,6 +10,7 @@
 #define _NET_SSTP_H
 
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 #include <voltos/sstp.h>
 
 struct sstp_tunnel {

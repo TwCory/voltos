@@ -11,6 +11,7 @@
 
 #include <voltos/if_tunnel.h>
 #include <voltos/l2f.h>
+#include <voltos/mbuf.h>
 
 struct l2f_tunnel {
 

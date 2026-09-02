@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_ether.h
  *
- * 	Ethernet Interface
+ * 	Ethernet Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_ETHER_H

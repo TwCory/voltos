@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_NMSP_H
 #define _VOLTOS_NMSP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/nmsp.h>
 
 

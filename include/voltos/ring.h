@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_RING_H
 #define _VOLTOS_RING_H
 
+#include <voltos/device.h>
+
 #endif /* _VOLTOS_RING_H */

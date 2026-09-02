@@ -11,6 +11,7 @@
 #include <voltos/geneve.h>
 #include <voltos/if_nve.h>
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 
 struct geneve_tunnel {
 

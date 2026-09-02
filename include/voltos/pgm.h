@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_PGM_H
 #define _VOLTOS_PGM_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/pgm.h>
 
 #endif /* _VOLTOS_PGM_H */

@@ -9,6 +9,7 @@
 #define _NET_WIREGUARD_H
 
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 #include <voltos/wireguard.h>
 
 struct wireguard_tunnel {

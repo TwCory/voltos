@@ -8,6 +8,7 @@
 #ifndef _NET_NSH_H
 #define _NET_NSH_H
 
+#include <voltos/mbuf.h>
 #include <voltos/nsh.h>
 
 struct nsh_tunnel {

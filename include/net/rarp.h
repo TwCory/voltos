@@ -8,6 +8,7 @@
 #ifndef _NET_RARP_H
 #define _NET_RARP_H
 
+#include <voltos/mbuf.h>
 #include <voltos/rarp.h>
 #include <router/rarp.h>
 

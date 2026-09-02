@@ -8,6 +8,8 @@
 #ifndef _ROUTER_IPV6_HOST_H
 #define _ROUTER_IPV6_HOST_H
 
+#include <voltos/inet.h>
+
 struct ipv6_host {
 
 };

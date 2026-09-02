@@ -8,8 +8,18 @@
 #ifndef _ROUTER_IPV4_ROUTE_H
 #define _ROUTER_IPV4_ROUTE_H
 
-struct ip_route {
+#include <voltos/inet.h>
 
+struct ipv4_connected_route {
+	ipv4_addr_t 			address;
+};
+
+struct ipv4_local_route {
+	ipv4_prefix_t 			prefix;
+};
+
+struct ipv4_static_route {
+	ipv4_prefix_t 			prefix;
 };
 
 #endif /* _ROUTER_IPV4_ROUTE_H */

@@ -8,6 +8,7 @@
 #ifndef _NET_TLS_H
 #define _NET_TLS_H
 
+#include <voltos/mbuf.h>
 #include <voltos/tls.h>
 
 #endif /* _NET_TLS_H */

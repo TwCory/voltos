@@ -9,6 +9,6 @@
 #ifndef _NBAPI_VOLTOS_FINGER_H
 #define _NBAPI_VOLTOS_FINGER_H
 
-#define FINGER_PORT	79
+#define FINGER_PORT			79
 
 #endif /* _NBAPI_VOLTOS_FINGER_H */

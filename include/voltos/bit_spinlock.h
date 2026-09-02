@@ -9,6 +9,11 @@
 #ifndef _VOLTOS_BIT_SPINLOCK_H
 #define _VOLTOS_BIT_SPINLOCK_H
 
+#include <voltos/atomic.h>
+#include <voltos/debug.h>
+#include <voltos/preempt.h>
+#include <voltos/voltos.h>
+
 struct bit_spinlock {
 
 };

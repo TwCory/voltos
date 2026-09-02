@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ASN1_BER_BYTECODE_H
 #define _VOLTOS_ASN1_BER_BYTECODE_H
 
+#include <voltos/asn1.h>
+
 #endif /* _VOLTOS_ASN1_BER_BYTECODE_H */

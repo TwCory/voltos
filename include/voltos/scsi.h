@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SCSI_H
 #define _VOLTOS_SCSI_H
 
+#include <voltos/device.h>
+
 #endif /* _VOLTOS_SCSI_H */

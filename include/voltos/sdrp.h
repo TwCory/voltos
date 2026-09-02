@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_SDRP_H
 #define _VOLTOS_SDRP_H
 
+#include <voltos/mbuf.h>
+
 #endif /* _VOLTOS_SDRP_H */

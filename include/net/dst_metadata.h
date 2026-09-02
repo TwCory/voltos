@@ -8,6 +8,8 @@
 #ifndef _NET_DST_METADATA_H
 #define _NET_DST_METADATA_H
 
+#include <voltos/mbuf.h>
+
 struct dst_metadata {
 
 };

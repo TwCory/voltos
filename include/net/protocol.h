@@ -9,6 +9,7 @@
 #ifndef _NET_PROTOCOL_H
 #define _NET_PROTOCOL_H
 
+#include <voltos/mbuf.h>
 #include <voltos/types.h>
 
 struct protocol {

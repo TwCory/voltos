@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_SLIP_H
 #define _VOLTOS_SLIP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/slip.h>
 
 #endif /* _VOLTOS_SLIP_H */

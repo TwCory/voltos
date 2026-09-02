@@ -9,6 +9,7 @@
 #define _NET_PPTP_H
 
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 #include <voltos/pptp.h>
 
 struct pptp_tunnel {

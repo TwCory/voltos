@@ -12,7 +12,7 @@
 #include <voltos/atomic.h>
 
 typedef struct refcount {
-	atomic_t refs;
+	atomic_t counter;
 } refcount_t;
 
 #endif /* _VOLTOS_REFCOUNT_TYPES_H */

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/icc.h
  *
- *
+ *	Interface Controller Card (ICC)
  */
 
 #ifndef _NBAPI_VOLTOS_ICC_H

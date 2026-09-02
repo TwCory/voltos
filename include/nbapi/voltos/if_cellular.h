@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_cellular.h
  *
- *	Cellular Interface
+ *	Cellular Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_CELLULAR_H

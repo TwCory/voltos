@@ -8,6 +8,7 @@
 #ifndef _NET_RXRPC_H
 #define _NET_RXRPC_H
 
+#include <voltos/mbuf.h>
 #include <voltos/rxrpc.h>
 #include <net/sock.h>
 

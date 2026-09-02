@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_tunnel.h
  *
- * 	Tunnel Interface
+ * 	Tunnel Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_TUNNEL_H

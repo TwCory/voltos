@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_BITOPS_H
 #define _VOLTOS_BITOPS_H
 
+#include <voltos/bits.h>
+#include <voltos/typecheck.h>
+#include <voltos/types.h>
 #include <nbapi/voltos/voltos.h>
 
 #define BITS_TO_U32(nr)

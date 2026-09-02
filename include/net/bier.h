@@ -10,6 +10,7 @@
 #define _NET_BIER_H
 
 #include <voltos/bier.h>
+#include <voltos/mbuf.h>
 #include <router/bier.h>
 
 #endif /* _NET_BIER_H */

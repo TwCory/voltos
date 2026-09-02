@@ -9,5 +9,6 @@
 #define _NET_ICMP_H
 
 #include <voltos/icmp.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_ICMP_H */

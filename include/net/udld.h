@@ -8,6 +8,7 @@
 #ifndef _NET_UDLD_H
 #define _NET_UDLD_H
 
+#include <voltos/mbuf.h>
 #include <voltos/udld.h>
 
 #endif /* _NET_UDLD_H */

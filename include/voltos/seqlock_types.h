@@ -8,7 +8,9 @@
 #ifndef _VOLTOS_SEQLOCK_TYPES_H
 #define _VOLTOS_SEQLOCK_TYPES_H
 
-#include <voltos/spinlock_types.h>
+#include <voltos/lockdep.h>
+#include <voltos/mutex.h>
+#include <voltos/spinlock.h>
 
 typedef struct seqcount {
 	unsigned long 				sequence;

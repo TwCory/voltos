@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_fc.h
  *
- * 	Fibre Channel Interface
+ * 	Fibre Channel Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_FC_H

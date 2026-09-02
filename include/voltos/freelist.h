@@ -9,7 +9,15 @@
 #ifndef _VOLTOS_FREELIST_H
 #define _VOLTOS_FREELIST_H
 
+#include <voltos/memblock.h>
+
+struct fl_block;
+
 struct freelist {
+	
+};
+
+struct fl_block {
 
 };
 

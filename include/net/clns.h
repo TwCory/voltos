@@ -10,6 +10,7 @@
 #define _NET_CLNS_H
 
 #include <voltos/clns.h>
+#include <voltos/mbuf.h>
 #include <router/clns.h>
 
 #endif /* _NET_CLNS_H */

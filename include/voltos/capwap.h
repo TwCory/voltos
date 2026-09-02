@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_CAPWAP_H
 #define _VOLTOS_CAPWAP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/capwap.h>
 
 #endif /* _VOLTOS_CAPWAP_H */

@@ -8,7 +8,7 @@
 #ifndef _ROUTER_IPV4_PREFIX_LIST_H
 #define _ROUTER_IPV4_PREFIX_LIST_H
 
-struct ip_prefix_list {
+struct ipv4_prefix_list {
 
 };
 

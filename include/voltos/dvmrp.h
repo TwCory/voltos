@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_DVMRP_H
 #define _VOLTOS_DVMRP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/dvmrp.h>
 
 #endif /* _VOLTOS_DVMRP_H */

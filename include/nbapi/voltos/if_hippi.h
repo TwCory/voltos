@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_hippi.h
  *
- *	High-Performance Parallel Interface (HIPPI)
+ *	High-Performance Parallel Interfaces (HIPPI)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_HIPPI_H

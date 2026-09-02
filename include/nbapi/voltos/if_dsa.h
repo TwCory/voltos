@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_dsa.h
  *
- * 	Distributed Switch Architecture (DSA)
+ * 	Distributed Switch Architecture (DSA) Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_DSA_H

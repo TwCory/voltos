@@ -11,6 +11,7 @@
 
 #include <voltos/gre.h>
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 
 struct gre_tunnel {
 

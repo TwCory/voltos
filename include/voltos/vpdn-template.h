@@ -8,10 +8,11 @@
 #ifndef _VOLTOS_VPDN_TEMPLATE_H
 #define _VOLTOS_VPDN_TEMPLATE_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/vpdn-template.h>
 
 struct vpdn_template {
-
+	refcount_t refcount;
 };
 
 #endif /* _VOLTOS_VPDN_TEMPLATE_H */

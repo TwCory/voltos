@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_TICKETLOCK_TYPES_H
 #define _VOLTOS_TICKETLOCK_TYPES_H
 
-typedef struct ticketlock_s {
+#include <voltos/spinlock.h>
 
+typedef struct ticketlock {
+	raw_spinlock_t lock;
 } ticketlock_t;
 
 #endif /* _VOLTOS_TICKETLOCK_TYPES_H */

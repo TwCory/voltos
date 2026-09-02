@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_SYSLOG_H
 #define _VOLTOS_SYSLOG_H
 
+#include <voltos/wait.h>
 #include <nbapi/voltos/syslog.h>
 
 #endif /* _VOLTOS_SYSLOG_H */

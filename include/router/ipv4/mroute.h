@@ -8,7 +8,7 @@
 #ifndef _ROUTER_IPV4_MROUTE_H
 #define _ROUTER_IPV4_MROUTE_H
 
-struct ip_mroute {
+struct ipv4_mroute {
 
 };
 

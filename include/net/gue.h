@@ -9,6 +9,7 @@
 #define _NET_GUE_H
 
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 
 struct gue_tunnel {
 

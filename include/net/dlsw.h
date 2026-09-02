@@ -9,5 +9,6 @@
 #define _NET_DLSW_H
 
 #include <voltos/dlsw.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_DLSW_H */

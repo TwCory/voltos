@@ -8,6 +8,7 @@
 #ifndef _NET_SPX_H
 #define _NET_SPX_H
 
+#include <voltos/mbuf.h>
 #include <voltos/spx.h>
 
 #endif /* _NET_SPX_H */

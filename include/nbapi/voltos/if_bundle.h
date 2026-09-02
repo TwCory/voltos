@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_bundle.h
  *
- *	Bundle Interface
+ *	Bundle Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_BUNDLE_H

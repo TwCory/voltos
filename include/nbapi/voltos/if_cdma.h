@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_cdma.h
  *
- *	Code-Division Multiple Access (CDMA) Interface
+ *	Code-Division Multiple Access (CDMA) Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_CDMA_H

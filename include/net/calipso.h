@@ -8,5 +8,6 @@
 #ifndef _NET_CALIPSO_H
 #define _NET_CALIPSO_H
 
+#include <voltos/mbuf.h>
 
 #endif /* _NET_CALIPSO_H */

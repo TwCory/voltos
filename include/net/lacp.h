@@ -9,5 +9,6 @@
 #define _NET_LACP_H
 
 #include <voltos/lacp.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_LACP_H */

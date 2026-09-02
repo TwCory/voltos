@@ -8,6 +8,7 @@
 #ifndef _NET_X28_H
 #define _NET_X28_H
 
+#include <voltos/mbuf.h>
 #include <voltos/x28.h>
 
 #endif /* _NET_X28_H */

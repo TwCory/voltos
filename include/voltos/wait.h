@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_WAIT_H
 #define _VOLTOS_WAIT_H
 
+#include <voltos/list.h>
+#include <voltos/spinlock.h>
+#include <voltos/stddef.h>
 #include <nbapi/voltos/wait.h>
 
 struct wait_queue_entry {

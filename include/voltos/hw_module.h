@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_HW_MODULE_H
 #define _VOLTOS_HW_MODULE_H
 
+#include <voltos/device.h>
+
 struct hw_module {
 
 };

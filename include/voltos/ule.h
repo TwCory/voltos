@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_ULE_H
 #define _VOLTOS_ULE_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/ule.h>
 
 #endif /* _VOLTOS_ULE_H */

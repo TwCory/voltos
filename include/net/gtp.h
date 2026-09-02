@@ -10,6 +10,7 @@
 
 #include <voltos/gtp.h>
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 
 struct gtp_tunnel {
 

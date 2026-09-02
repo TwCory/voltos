@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/eventpoll.h>
 
+struct epoll_key {
+
+};
+
 #endif /* _VOLTOS_EVENTPOLL_H */

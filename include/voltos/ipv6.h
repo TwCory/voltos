@@ -9,6 +9,7 @@
 #define _VOLTOS_IPV6_H
 
 #include <voltos/in6.h>
+#include <voltos/mbuf.h>
 #include <voltos/types.h>
 #include <nbapi/voltos/ipv6.h>
 

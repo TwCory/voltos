@@ -9,5 +9,6 @@
 #define _NET_ICMPV6_H
 
 #include <voltos/icmpv6.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_ICMPV6_H */

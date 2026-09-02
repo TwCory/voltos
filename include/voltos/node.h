@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_NODE_H
 #define _VOLTOS_NODE_H
 
+#include <voltos/device.h>
+
 struct node_cache_attrs {
 
 };

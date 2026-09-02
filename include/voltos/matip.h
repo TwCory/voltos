@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_MATIP_H
 #define _VOLTOS_MATIP_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/matip.h>
 
 #endif /* _VOLTOS_MATIP_H */

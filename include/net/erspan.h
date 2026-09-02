@@ -10,6 +10,7 @@
 
 #include <voltos/erspan.h>
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 
 struct erspan_tunnel {
 

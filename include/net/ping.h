@@ -8,6 +8,6 @@
 #ifndef _NET_PING_H
 #define _NET_PING_H
 
-
+#include <voltos/mbuf.h>
 
 #endif /* _NET_PING_H */

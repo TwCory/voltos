@@ -9,11 +9,21 @@
 #ifndef _VOLTOS_DEVICE_H
 #define _VOLTOS_DEVICE_H
 
+#include <voltos/atomic.h>
+#include <voltos/cleanup.h>
+#include <voltos/compiler.h>
 #include <voltos/device/args.h>
 #include <voltos/device/bus.h>
 #include <voltos/device/class.h>
 #include <voltos/device/driver.h>
 #include <voltos/device/resource.h>
+#include <voltos/gid.h>
+#include <voltos/list.h>
+#include <voltos/lockdep.h>
+#include <voltos/mutex.h>
+#include <voltos/uid.h>
+#include <voltos/vslist.h>
+#include <voltos/vsobject.h>
 
 struct device_type {
 

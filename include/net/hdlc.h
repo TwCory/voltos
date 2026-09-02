@@ -10,5 +10,6 @@
 #define _NET_HDLC_H
 
 #include <voltos/hdlc.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_HDLC_H */

@@ -8,6 +8,7 @@
 #ifndef _NET_MOP_H
 #define _NET_MOP_H
 
+#include <voltos/mbuf.h>
 #include <voltos/mop.h>
 
 #endif /* _NET_MOP_H */

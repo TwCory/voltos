@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_RWSEMAPHORE_H
 #define _VOLTOS_RWSEMAPHORE_H
 
-typedef struct rw_semaphore {
+#include <voltos/spinlock.h>
 
+typedef struct rw_semaphore {
+	raw_spinlock_t lock;
 } rw_semaphore_t;
 
 #ifndef DEFINE_RW_SEMAPHORE

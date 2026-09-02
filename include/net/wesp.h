@@ -9,6 +9,7 @@
 #define _NET_WESP_H
 
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 #include <voltos/wesp.h>
 
 struct wesp_tunnel {

@@ -8,128 +8,104 @@
 #ifndef _NBAPI_VOLTOS_IF_H
 #define _NBAPI_VOLTOS_IF_H
 
-#include <voltos/types.h>
+#define IF_NAME_SIZE					16
+#define IF_ALIAS_SIZE					256
+#define IF_ALT_NAME_SIZE				128
 
-typedef __u32 						__voltos_if_index_t;
-typedef __u16 						__voltos_if_flags_t;
+#define IF_HW_ADDR_SIZE					20
 
-enum if_state {
-	IF_STATE_T_UNKNOWN				= 0,
+typedef signed int					__voltos_if_index_t;
+typedef unsigned short __attribute__ ((bitwise))	__voltos_if_flags_t;
+
+enum {
+	IF_FLAG_F_UP					= (1 << 0),
+#define IF_FLAG_UP					IF_FLAG_F_UP
+	IF_FLAG_F_BROADCAST				= (1 << 1),
+#define IF_FLAG_BROADCAST				IF_FLAG_F_BROADCAST
+	IF_FLAG_F_DEBUG					= (1 << 2),
+#define IF_FLAG_DEBUG					IF_FLAG_F_DEBUG
+	IF_FLAG_F_LOOPBACK				= (1 << 3),
+#define IF_FLAG_LOOPBACK				IF_FLAG_F_LOOPBACK
+	IF_FLAG_F_POINT_TO_POINT			= (1 << 4),
+#define IF_FLAG_POINT_TO_POINT				IF_FLAG_F_POINT_TO_POINT
+	IF_FLAG_F_NO_TRAILERS				= (1 << 5),
+#define IF_FLAG_NO_TRAILERS				IF_FLAG_F_NO_TRAILERS
+	IF_FLAG_F_RUNNING				= (1 << 6),
+#define IF_FLAG_RUNNING					IF_FLAG_F_RUNNING
+	IF_FLAG_F_NO_ARP				= (1 << 7),
+#define IF_FLAG_NO_ARP					IF_FLAG_F_NO_ARP
+	IF_FLAG_F_PROMISC				= (1 << 8),
+#define IF_FLAG_PROMISC					IF_FLAG_F_PROMISC
+	IF_FLAG_F_ALL_MULTI				= (1 << 9),
+#define IF_FLAG_ALL_MULTI				IF_FLAG_F_ALL_MULTI
+	IF_FLAG_F_MASTER				= (1 << 10),
+#define IF_FLAG_MASTER					IF_FLAG_F_MASTER
+	IF_FLAG_F_SLAVE					= (1 << 11),
+#define IF_FLAG_SLAVE					IF_FLAG_F_SLAVE
+	IF_FLAG_F_MULTICAST				= (1 << 12),
+#define IF_FLAG_MULTICAST				IF_FLAG_F_MULTICAST
+	IF_FLAG_F_PORT_SEL				= (1 << 13),
+#define IF_FLAG_PORT_SEL				IF_FLAG_F_PORT_SEL
+	IF_FLAG_F_AUTO_MEDIA				= (1 << 14),
+#define IF_FLAG_AUTO_MEDIA				IF_FLAG_F_AUTO_MEDIA
+	IF_FLAG_F_DYNAMIC				= (1 << 15),
+#define IF_FLAG_DYNAMIC					IF_FLAG_F_DYNAMIC
+	IF_FLAG_F_LOWER_UP				= (1 << 16),
+#define IF_FLAG_LOWER_UP				IF_FLAG_F_LOWER_UP
+	IF_FLAG_F_DORMANT				= (1 << 17),
+#define IF_FLAG_DORMANT					IF_FLAG_F_DORMANT
+	IF_FLAG_F_ECHO					= (1 << 18)
+#define IF_FLAG_ECHO					IF_FLAG_F_ECHO
+};
+
+enum {
+	IF_STATE_T_UNSPEC				= 0,
+#define IF_STATE_UNSPEC					IF_STATE_T_UNSPEC
 	IF_STATE_T_UP					= 1,
+#define IF_STATE_UP					IF_STATE_T_UP
 	IF_STATE_T_DOWN					= 2,
+#define IF_STATE_DOWN					IF_STATE_T_DOWN
 	IF_STATE_T_TEST					= 3,
+#define IF_STATE_TEST					IF_STATE_T_TEST
 	__IF_STATE_T_MAX__
 };
 
-enum oper_state {
-	OPER_STATE_T_INVALID				= 0,
-	OPER_STATE_T_READY				= 1,
-	OPER_STATE_T_NO_PASS				= 2,
-	OPER_STATE_T_TEST				= 3,
-	OPER_STATE_T_UNKNOWN				= 4,
-	OPER_STATE_T_DORMANT				= 5,
-	OPER_STATE_T_NOT_PRESENT			= 6,
-	OPER_STATE_T_LOWER_LAYER_DOWN			= 7,
-	__OPER_STATE_T_MAX__
+#define IF_STATE_MAX					(__IF_STATE_T_MAX__ - 1)
+
+enum {
+	IF_OPER_STATE_T_INVALID				= 0,
+#define IF_OPER_STATE_INVALID				IF_OPER_STATE_T_INVALID
+	IF_OPER_STATE_T_READY				= 1,
+#define IF_OPER_STATE_READY				IF_OPER_STATE_T_READY
+	IF_OPER_STATE_T_NO_PASS				= 2,
+#define IF_OPER_STATE_NO_PASS				IF_OPER_STATE_T_NO_PASS
+	IF_OPER_STATE_T_TEST				= 3,
+#define IF_OPER_STATE_TEST				IF_OPER_STATE_T_TEST
+	IF_OPER_STATE_T_UNKNOWN				= 4,
+#define IF_OPER_STATE_UNKNOWN				IF_OPER_STATE_T_UNKNOWN
+	IF_OPER_STATE_T_DORMANT				= 5,
+#define IF_OPER_STATE_DORMANT				IF_OPER_STATE_T_DORMANT
+	IF_OPER_STATE_T_NOT_PRESENT			= 6,
+#define IF_OPER_STATE_NOT_PRESENT			IF_OPER_STATE_T_NOT_PRESENT
+	IF_OPER_STATE_T_LOWER_LAYER_DOWN		= 7,
+#define IF_OPER_STATE_LOWER_LAYER_DOWN			IF_OPER_STATE_T_LOWER_LAYER_DOWN
+	__IF_OPER_STATE_T_MAX__
 };
 
-enum if_type {
-	IF_TYPE_T_OTHER					= 1,
-	IF_TYPE_T_REGULAR1822				= 2,
-	IF_TYPE_T_HDH1822				= 3,
-	IF_TYPE_T_DDNX25				= 4,
-	IF_TYPE_T_RFC877X25				= 5,
-	IF_TYPE_T_ETHERNET_CSMA_CD			= 6,
-	IF_TYPE_T_ISO88023_CSMA_CD			= 7,
-	__IF_TYPE_T_MAX__
+#define IF_OPER_STATE_MAX				(__IF_OPER_STATE_T_MAX__ - 1)
+
+enum {
+	IF_LINK_MODE_T_UNSPEC				= 0,
+#define IF_LINK_MODE_UNSPEC				IF_LINK_MODE_T_UNSPEC
+	IF_LINK_MODE_T_DEFAULT				= 1,
+#define IF_LINK_MODE_DEFAULT				IF_LINK_MODE_T_DEFAULT
+	IF_LINK_MODE_T_DORMANT				= 2,
+#define IF_LINK_MODE_DORMANT				IF_LINK_MODE_T_DORMANT
+	IF_LINK_MODE_T_TESTING				= 3,
+#define IF_LINK_MODE_TESTING				IF_LINK_MODE_T_TESTING
+	__IF_LINK_MODE_T_MAX__
 };
 
-enum if_class {
-	IF_CLASS_T_UNSPEC				= 0,
-	IF_CLASS_T_AppGigabitEthernet			= 1,
-	IF_CLASS_T_AppleTalk				= 2,
-	IF_CLASS_T_AppNav_Compress			= 3,
-	IF_CLASS_T_AppNav_UnCompress			= 4,
-	IF_CLASS_T_ARCnet				= 5,
-	IF_CLASS_T_Async				= 6,
-	IF_CLASS_T_ATM					= 7,
-	IF_CLASS_T_ATM_ACR				= 8,
-	IF_CLASS_T_Auto_Template			= 9,
-	IF_CLASS_T_BATMAN_Advanced			= 10,
-	IF_CLASS_T_BDI					= 11,
-	IF_CLASS_T_Bluetooth				= 12,
-	IF_CLASS_T_Bundle				= 13,
-	IF_CLASS_T_BVI					= 14,
-	IF_CLASS_T_Cable_Modem				= 15,
-	IF_CLASS_T_CAN					= 16,
-	IF_CLASS_T_CDMA_1x				= 17,
-	IF_CLASS_T_Cellular				= 18,
-	IF_CLASS_T_CTunnel				= 19,
-	IF_CLASS_T_Dialer				= 20,
-	IF_CLASS_T_DSA					= 21,
-	IF_CLASS_T_EightHundredGigE			= 22,
-	IF_CLASS_T_Embedded_Service_Engine		= 23,
-	IF_CLASS_T_Ethernet				= 24,
-	IF_CLASS_T_FastEthernet				= 25,
-	IF_CLASS_T_FDDI					= 26,
-	IF_CLASS_T_FibreChannel				= 27,
-	IF_CLASS_T_FiftyGigabitEthernet			= 28,
-	IF_CLASS_T_FiveGigabitEthernet			= 29,
-	IF_CLASS_T_FortyGigabitEthernet			= 30,
-	IF_CLASS_T_FourHundredGigE			= 31,
-	IF_CLASS_T_GigabitEthernet			= 32,
-	IF_CLASS_T_GMPLS				= 33,
-	IF_CLASS_T_Group_Async				= 34,
-	IF_CLASS_T_HIPPI				= 35,
-	IF_CLASS_T_HSSI					= 36,
-	IF_CLASS_T_HundredGigE				= 37,
-	IF_CLASS_T_InfiniBand				= 38,
-	IF_CLASS_T_ISDN_BRI				= 39,
-	IF_CLASS_T_ISDN_PRI				= 40,
-	IF_CLASS_T_LISP					= 41,
-	IF_CLASS_T_LongReachEthernet			= 42,
-	IF_CLASS_T_Loopback				= 43,
-	IF_CLASS_T_LSP_VIF				= 44,
-	IF_CLASS_T_MFR					= 45,
-	IF_CLASS_T_Multilink				= 46,
-	IF_CLASS_T_Nebula				= 47,
-	IF_CLASS_T_Netlink_Monitor			= 48,
-	IF_CLASS_T_NFC					= 49,
-	IF_CLASS_T_Null					= 50,
-	IF_CLASS_T_NVE					= 51,
-	IF_CLASS_T_OmniPath				= 52,
-	IF_CLASS_T_OpenVPN				= 53,
-	IF_CLASS_T_Overlay				= 54,
-	IF_CLASS_T_Parallel				= 55,
-	IF_CLASS_T_Port_Channel				= 56,
-	IF_CLASS_T_PRP_Channel				= 57,
-	IF_CLASS_T_Pseudowire				= 58,
-	IF_CLASS_T_Serial				= 59,
-	IF_CLASS_T_SM					= 60,
-	IF_CLASS_T_SoftEther				= 61,
-	IF_CLASS_T_STunnel				= 62,
-	IF_CLASS_T_Tailscale				= 63,
-	IF_CLASS_T_TenGigabitEthernet			= 64,
-	IF_CLASS_T_TerabitEthernet			= 65,
-	IF_CLASS_T_Tunnel				= 66,
-	IF_CLASS_T_TwentyFiveGigE			= 67,
-	IF_CLASS_T_TwoGigabitEthernet			= 68,
-	IF_CLASS_T_TwoHundredGigE			= 69,
-	IF_CLASS_T_VasiLeft				= 70,
-	IF_CLASS_T_VasiRight				= 71,
-	IF_CLASS_T_VIF					= 72,
-	IF_CLASS_T_Virtual_Access			= 73,
-	IF_CLASS_T_Virtual_CAN				= 74,
-	IF_CLASS_T_Virtual_Ethernet			= 75,
-	IF_CLASS_T_Virtual_PPP				= 76,
-	IF_CLASS_T_Virtual_Template			= 77,
-	IF_CLASS_T_Virtual_TokenRing			= 78,
-	IF_CLASS_T_VirtualPortGroup			= 79,
-	IF_CLASS_T_VLAN					= 80,
-	IF_CLASS_T_VMI					= 81,
-	IF_CLASS_T_Wi_Fi				= 82,
-	IF_CLASS_T_ZeroTier				= 83,
-	__IF_CLASS_T_MAX__
-};
+#define IF_LINK_MODE_MAX				(__IF_LINK_MODE_T_MAX__ - 1)
 
 #endif /* _NBAPI_VOLTOS_IF_H */

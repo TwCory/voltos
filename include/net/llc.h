@@ -9,5 +9,6 @@
 #define _NET_LLC_H
 
 #include <voltos/llc.h>
+#include <voltos/mbuf.h>
 
 #endif /* _NET_LLC_H */

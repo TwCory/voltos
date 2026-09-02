@@ -8,7 +8,7 @@
 #ifndef _ROUTER_IPV4_NAT_H
 #define _ROUTER_IPV4_NAT_H
 
-struct ip_nat_pool {
+struct nat44_pool {
 
 };
 

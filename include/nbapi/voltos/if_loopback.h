@@ -3,7 +3,7 @@
 /*
  *      include/nbapi/voltos/if_loopback.h
  *
- * 	Loopback Interface
+ * 	Loopback Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_LOOPBACK_H

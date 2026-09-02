@@ -8,6 +8,7 @@
 #ifndef _NET_STP_H
 #define _NET_STP_H
 
+#include <voltos/mbuf.h>
 #include <voltos/stp.h>
 
 #endif /* _NET_STP_H */

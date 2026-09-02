@@ -8,6 +8,6 @@
 #ifndef _NET_TRACEROUTE_H
 #define _NET_TRACEROUTE_H
 
-
+#include <voltos/mbuf.h>
 
 #endif /* _NET_TRACEROUTE_H */

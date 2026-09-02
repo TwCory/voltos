@@ -9,6 +9,7 @@
 #define _NET_IP_H
 
 #include <voltos/ip.h>
+#include <voltos/mbuf.h>
 #include <router/ip.h>
 
 #endif /* _NET_IP_H */

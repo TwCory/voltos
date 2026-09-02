@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_PPPOE_H
 #define _VOLTOS_PPPOE_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/pppoe.h>
 
 #endif /* _VOLTOS_PPPOE_H */

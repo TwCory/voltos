@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_SPB_H
 #define _VOLTOS_SPB_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/spb.h>
 
 #endif /* _VOLTOS_SPB_H */

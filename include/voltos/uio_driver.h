@@ -8,6 +8,10 @@
 #ifndef _VOLTOS_UIO_DRIVER_H
 #define _VOLTOS_UIO_DRIVER_H
 
+#include <voltos/device.h>
+#include <voltos/fs.h>
+#include <voltos/interrupt.h>
+
 struct uio_region {
 
 };

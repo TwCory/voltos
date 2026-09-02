@@ -9,6 +9,7 @@
 #define _NET_MPLS_TUNNEL_H
 
 #include <voltos/if_tunnel.h>
+#include <voltos/mbuf.h>
 
 struct mpls_tunnel {
 

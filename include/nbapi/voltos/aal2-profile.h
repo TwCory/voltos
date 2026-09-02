@@ -3,12 +3,29 @@
 /*
  *	include/nbapi/voltos/aal2-profile.h
  *
- *	ATM Adaption Layer 2 (AAL2) Profile
+ *	ATM Adaption Layer 2 (AAL2) Profiles
  */
 
 #ifndef _NBAPI_VOLTOS_AAL2_PROFILE_H
 #define _NBAPI_VOLTOS_AAL2_PROFILE_H
 
 #define AAL2_PROFILE_NAME_SIZE			32
+
+#define AAL2_PACKET_LENGTH_MIN			5
+#define AAL2_PACKET_LENGTH_MAX			64
+
+#define AAL2_UUI_CODEPOINT_MIN			0
+#define AAL2_UUI_CODEPOINT_MAX			15
+
+enum aal2_codec_type {
+	AAL2_CODEC_TYPE_T_UNSPEC		= 0,
+	AAL2_CODEC_TYPE_T_G711ALAW		= 1,
+	AAL2_CODEC_TYPE_T_G711ULAW		= 2,
+	AAL2_CODEC_TYPE_T_G726R32		= 3,
+	AAL2_CODEC_TYPE_T_G729BR8		= 4,
+	AAL2_CODEC_TYPE_T_G720R8		= 5,
+	AAL2_CODEC_TYPE_T_LLCC			= 6,
+	__AAL2_CODEC_TYPE_T_MAX__
+};
 
 #endif /* _NBAPI_VOLTOS_AAL2_PROFILE_H */

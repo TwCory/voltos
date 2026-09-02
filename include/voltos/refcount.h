@@ -9,7 +9,12 @@
 #ifndef _VOLTOS_REFCOUNT_H
 #define _VOLTOS_REFCOUNT_H
 
+#include <voltos/atomic.h>
+#include <voltos/compiler.h>
+#include <voltos/debug.h>
+#include <voltos/limits.h>
 #include <voltos/refcount_types.h>
+#include <voltos/spinlock.h>
 
 #define REFCOUNT_INIT(n)
 #define REFCOUNT_MAX

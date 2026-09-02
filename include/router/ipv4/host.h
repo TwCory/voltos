@@ -8,7 +8,9 @@
 #ifndef _ROUTER_IPV4_HOST_H
 #define _ROUTER_IPV4_HOST_H
 
-struct ip_host {
+#include <voltos/inet.h>
+
+struct ipv4_host {
 
 };
 

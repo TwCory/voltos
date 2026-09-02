@@ -8,6 +8,8 @@
 #ifndef _NET_DST_CACHE_H
 #define _NET_DST_CACHE_H
 
+#include <voltos/jiffies.h>
+
 struct dst_cache {
 
 };

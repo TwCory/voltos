@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_BFD_H
 #define _VOLTOS_BFD_H
 
+#include <voltos/mbuf.h>
 #include <nbapi/voltos/bfd.h>
 
 struct bfd_profile {

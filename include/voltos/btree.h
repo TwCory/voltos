@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_BTREE_H
 #define _VOLTOS_BTREE_H
 
+#include <voltos/mempool.h>
+#include <voltos/voltos.h>
+
 struct btree_head {
 
 };
