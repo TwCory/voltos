@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_CPUHOTPLUG_H
 #define _VOLTOS_CPUHOTPLUG_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_CPUHOTPLUG_H */

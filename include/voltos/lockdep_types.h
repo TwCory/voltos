@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_LOCKDEP_TYPES_H
 #define _VOLTOS_LOCKDEP_TYPES_H
 
+#include <voltos/types.h>
+
 typedef struct lockdep_map {
 
 } lockdep_map_t;

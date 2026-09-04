@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_FILE_LOCK_H
 #define _VOLTOS_FILE_LOCK_H
 
+#include <voltos/fs.h>
+#include <voltos/types.h>
+
 struct file_lock;
 struct file_lease;
 

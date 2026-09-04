@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_JOURNAL_H
 #define _VOLTOS_JOURNAL_H
 
+#include <voltos/spinlock.h>
+
 typedef unsigned int 			j_xid_t;
 
 typedef struct j_transaction {

@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_PERCPU_COUNTER_H
 #define _VOLTOS_PERCPU_COUNTER_H
 
+#include <voltos/types.h>
+
 struct percpu_counter {
 
 };

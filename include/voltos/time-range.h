@@ -12,7 +12,7 @@
 #include <nbapi/voltos/time-range.h>
 
 struct time_range {
-	const char name;
+	const char name[TIME_RANGE_NAME_SIZE];
 	refcount_t refcount;
 };
 

@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_COOKIE_H
 #define _VOLTOS_COOKIE_H
 
+#include <voltos/atomic.h>
+#include <voltos/percpu.h>
+
 struct generic_cookie {
 
 };

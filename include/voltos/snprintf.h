@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SNPRINTF_H
 #define _VOLTOS_SNPRINTF_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_SNPRINTF_H */

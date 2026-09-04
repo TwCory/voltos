@@ -20,4 +20,8 @@ typedef struct seqlock {
 	spinlock_t 				lock;
 } seqlock_t;
 
+#define __SEQ_LOCK_INITIALIZER(name)
+
+#define __SEQ_LOCK_UNLOCKED(name)
+
 #endif /* _VOLTOS_SEQLOCK_TYPES_H */

@@ -12,6 +12,7 @@
 #include <nbapi/voltos/user-group.h>
 
 struct user_group {
+	const char name;
 	refcount_t refcount;
 };
 

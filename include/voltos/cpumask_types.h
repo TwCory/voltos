@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_CPUMASK_TYPES_H
 #define _VOLTOS_CPUMASK_TYPES_H
 
+#include <voltos/bitmap.h>
+#include <voltos/thread.h>
+
 typedef struct {
 
 } cpumask_t;

@@ -12,7 +12,8 @@
 #include <voltos/tty.h>
 
 struct tty_device {
-
+	struct device 			device;
+	struct tty 			*tty;
 };
 
 #endif /* _VOLTOS_TTY_DEVICE_H */

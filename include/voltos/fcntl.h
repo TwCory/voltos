@@ -9,6 +9,7 @@
 #define _VOLTOS_FCNTL_H
 
 #include <voltos/open.h>
+#include <voltos/stat.h>
 #include <nbapi/voltos/fcntl.h>
 
 #endif /* _VOLTOS_FCNTL_H */

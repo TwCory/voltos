@@ -10,12 +10,12 @@
 
 #include <voltos/bitmap.h>
 
-#define NODE_SHIFT  0
-#define NODE_NUMBER_MAX     (1 << NODE_SHIFT)
-#define NUMA_NODE_FALSE (-1)
+#define NODE_SHIFT 	 		0
+#define NODE_NUMBER_MAX     		(1 << NODE_SHIFT)
+#define NUMA_NODE_FALSE 		(-1)
 
 typedef struct nodemask {
-    DECLARE_BITMAP(bits, NODE_NUMBER_MAX);
+	DECLARE_BITMAP(bits, NODE_NUMBER_MAX);
 } nodemask_t;
 
 #endif /* _VOLTOS_NODEMASK_TYPES_H */

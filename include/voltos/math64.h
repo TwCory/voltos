@@ -8,4 +8,7 @@
 #ifndef _VOLTOS_MATH64_H
 #define _VOLTOS_MATH64_H
 
+#include <voltos/math.h>
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_MATH64_H */

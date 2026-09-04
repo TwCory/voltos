@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_LINEAR_RANGE_H
 #define _VOLTOS_LINEAR_RANGE_H
 
+#include <voltos/types.h>
+
 struct linear_range {
 	unsigned int 			min;
 	unsigned int 			min_sel;

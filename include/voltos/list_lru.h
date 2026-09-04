@@ -8,6 +8,11 @@
 #ifndef _VOLTOS_LIST_LRU_H
 #define _VOLTOS_LIST_LRU_H
 
+#include <voltos/list.h>
+#include <voltos/nodemask.h>
+#include <voltos/shrinker.h>
+#include <voltos/xarray.h>
+
 struct list_lru_one {
 
 };

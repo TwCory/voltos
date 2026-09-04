@@ -10,5 +10,6 @@
 #define _NBAPI_VOLTOS_FCNTL_H
 
 #include <asm/fcntl.h>
+#include <voltos/open.h>
 
 #endif /* _NBAPI_VOLTOS_FCNTL_H */

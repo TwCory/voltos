@@ -9,6 +9,7 @@
 #ifndef _VOLTOS_CREDENTIAL_H
 #define _VOLTOS_CREDENTIAL_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/credential.h>
 
 struct group_ctx {

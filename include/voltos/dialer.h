@@ -16,4 +16,8 @@ struct dialer {
 	refcount_t refcount;
 };
 
+struct dialer_interface {
+
+};
+
 #endif /* _VOLTOS_DIALER_H */

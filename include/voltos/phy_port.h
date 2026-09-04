@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PHY_PORT_H
 #define _VOLTOS_PHY_PORT_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_PHY_PORT_H */

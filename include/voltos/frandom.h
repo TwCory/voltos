@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_FRANDOM_H
 #define _VOLTOS_FRANDOM_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_FRANDOM_H */

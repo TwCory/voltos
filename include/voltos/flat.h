@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_FLAT_H
 #define _VOLTOS_FLAT_H
 
+#include <voltos/types.h>
+
 struct flat_hdr {
 
 };

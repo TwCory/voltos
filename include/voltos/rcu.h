@@ -10,6 +10,7 @@
 #define _VOLTOS_RCU_H
 
 #include <voltos/callback.h>
+#include <voltos/types.h>
 
 #ifndef __rcu
 #define __rcu

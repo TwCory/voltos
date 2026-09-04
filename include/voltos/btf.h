@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_BTF_H
 #define _VOLTOS_BTF_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/btf.h>
 
 struct btf_vsfunc_id_set {

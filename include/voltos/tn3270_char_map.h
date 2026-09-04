@@ -9,6 +9,7 @@
 #define _VOLTOS_TN3270_CHAR_MAP_H
 
 #include <voltos/refcount.h>
+#include <voltos/tn3270.h>
 #include <nbapi/voltos/tn3270_char_map.h>
 
 struct tn3270_char_map {

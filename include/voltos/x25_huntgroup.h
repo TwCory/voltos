@@ -13,8 +13,7 @@
 
 struct x25_hunt_group {
 	const char 			name[X25_HUNT_GROUP_NAME_SIZE];
-
-	refcount_t refcount;
+	refcount_t 			refcount;
 };
 
 #endif /* _VOLTOS_X25_HUNTGROUP_H */

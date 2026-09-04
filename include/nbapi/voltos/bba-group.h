@@ -13,9 +13,6 @@
 #include <voltos/types.h>
 
 #define BBA_GROUP_NAME_SIZE			32
-#define BBA_GROUP_NAME_GLOBAL			"global"
-
-typedef __u32 					__bba_group_key_t;
 
 enum bba_group_type {
 	BBA_GROUP_TYPE_T_UNSPEC			= 0,

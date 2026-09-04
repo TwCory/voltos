@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_STATFS_H
 #define _VOLTOS_STATFS_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/statfs.h>
 
 struct vsstatfs {

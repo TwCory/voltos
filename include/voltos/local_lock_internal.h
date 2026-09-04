@@ -8,6 +8,11 @@
 #ifndef _VOLTOS_LOCAL_LOCK_INTERNAL_H
 #define _VOLTOS_LOCAL_LOCK_INTERNAL_H
 
+#include <voltos/debug_locks.h>
+#include <voltos/irqflags.h>
+#include <voltos/lockdep.h>
+#include <voltos/percpu.h>
+
 typedef struct local_lock {
 
 } local_lock_t;

@@ -10,4 +10,8 @@
 
 #include <voltos/device.h>
 
+struct tod_clock {
+
+};
+
 #endif /* _VOLTOS_TOD_CLOCK_H */

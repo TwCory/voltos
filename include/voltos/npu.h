@@ -11,7 +11,7 @@
 #include <voltos/device.h>
 
 struct npu {
-
+	struct device device;
 };
 
 #endif /* _VOLTOS_NPU_H */

@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_SIGNAL_TYPES_H
 #define _VOLTOS_SIGNAL_TYPES_H
 
+#include <voltos/types.h>
+
 typedef struct __voltos_signal_ctx {
 
 } __voltos_signal_ctx_t;

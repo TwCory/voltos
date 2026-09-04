@@ -8,7 +8,11 @@
 #ifndef _VOLTOS_BUFFER_HEAD_H
 #define _VOLTOS_BUFFER_HEAD_H
 
+#include <voltos/atomic.h>
+#include <voltos/fs.h>
+#include <voltos/linkage.h>
 #include <voltos/types.h>
+#include <voltos/wait.h>
 
 struct buffer_head {
 

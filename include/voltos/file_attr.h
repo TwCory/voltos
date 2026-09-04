@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_FILE_ATTR_H
 #define _VOLTOS_FILE_ATTR_H
 
+#include <voltos/types.h>
+
 struct file_attr {
 
 };

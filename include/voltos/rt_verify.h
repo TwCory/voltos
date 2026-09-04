@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_RT_VERIFY_H
 #define _VOLTOS_RT_VERIFY_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_RT_VERIFY_H */

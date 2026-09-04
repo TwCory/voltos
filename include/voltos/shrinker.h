@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SHRINKER_H
 #define _VOLTOS_SHRINKER_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_SHRINKER_H */

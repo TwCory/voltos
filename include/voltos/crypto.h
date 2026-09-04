@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_CRYPTO_H
 #define _VOLTOS_CRYPTO_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/crypto.h>
 
 #endif /* _VOLTOS_CRYPTO_H */

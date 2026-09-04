@@ -11,6 +11,7 @@
 #include <voltos/refcount.h>
 
 struct pid_namespace {
+	const char name;
 	refcount_t refcount;
 };
 

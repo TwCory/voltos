@@ -12,6 +12,7 @@
 #include <nbapi/voltos/port-map.h>
 
 struct port_map {
+	const char name;
 	refcount_t refcount;
 };
 

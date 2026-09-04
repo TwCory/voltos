@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SYSFS_H
 #define _VOLTOS_SYSFS_H
 
+#include <voltos/attribute.h>
+
 #endif /* _VOLTOS_SYSFS_H */

@@ -12,6 +12,7 @@
 #include <nbapi/voltos/prefix-list.h>
 
 struct prefix_list {
+	const char name[PREFIX_LIST_NAME_SIZE];
 	refcount_t refcount;
 };
 

@@ -15,4 +15,8 @@ typedef struct pflock {
 	raw_spinlock_t lock;
 } pflock_t;
 
+#define __PF_LOCK_INITIALIZER(name)
+
+#define __PF_LOCK_UNLOCKED(name)
+
 #endif /* _VOLTOS_PFLOCK_TYPES_H */

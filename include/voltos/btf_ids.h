@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_BTF_IDS_H
 #define _VOLTOS_BTF_IDS_H
 
+#include <voltos/types.h>
+
 struct btf_id_set {
 
 };

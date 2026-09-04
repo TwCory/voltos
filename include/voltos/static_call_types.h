@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_STATIC_CALL_TYPES_H
 #define _VOLTOS_STATIC_CALL_TYPES_H
 
+#include <voltos/types.h>
+
 struct static_call_site {
 
 };

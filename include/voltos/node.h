@@ -10,6 +10,10 @@
 
 #include <voltos/device.h>
 
+struct access_coordinate {
+
+};
+
 struct node_cache_attrs {
 
 };

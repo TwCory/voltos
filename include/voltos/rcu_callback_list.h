@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_RCU_CALLBACK_LIST_H
 #define _VOLTOS_RCU_CALLBACK_LIST_H
 
+#include <voltos/callback.h>
+#include <voltos/types.h>
+
 struct rcu_callback_list {
 
 };

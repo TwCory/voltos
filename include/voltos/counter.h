@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_COUNTER_H
 #define _VOLTOS_COUNTER_H
 
+#include <voltos/device.h>
 #include <nbapi/voltos/counter.h>
 
 struct counter_component {

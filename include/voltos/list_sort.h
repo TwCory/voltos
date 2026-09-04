@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_LIST_SORT_H
 #define _VOLTOS_LIST_SORT_H
 
+#include <voltos/types.h>
+
 #endif /* _VOLTOS_LIST_SORT_H */

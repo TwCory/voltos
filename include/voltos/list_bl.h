@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_LIST_BL_H
 #define _VOLTOS_LIST_BL_H
 
+#include <voltos/bit_spinlock.h>
+#include <voltos/list.h>
+
 struct hlist_bl_head {
 
 };

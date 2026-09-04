@@ -14,4 +14,8 @@ typedef struct dc_lock {
 	raw_spinlock_t lock;
 } dc_lock_t;
 
+#define __DC_LOCK_INITIALIZER(name)
+
+#define __DC_LOCK_UNLOCKED(name)
+
 #endif /* _VOLTOS_DCLOCK_TYPES_H */

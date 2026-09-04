@@ -9,6 +9,7 @@
 #define _VOLTOS_PLIST_TYPES_H
 
 #include <voltos/list.h>
+#include <voltos/types.h>
 
 struct plist_head {
 	struct list_head 	node_list;

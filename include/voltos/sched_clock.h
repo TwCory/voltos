@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_SCHED_CLOCK_H
 #define _VOLTOS_SCHED_CLOCK_H
 
+#include <voltos/types.h>
+
 struct clock_read_info {
 
 };

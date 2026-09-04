@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_SIGNAL_HOOKS_H
 #define _VOLTOS_SIGNAL_HOOKS_H
 
-struct signal_ops {
+struct signal_hooks {
 
 };
 

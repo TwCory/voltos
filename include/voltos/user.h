@@ -15,7 +15,7 @@
 #endif /* __user */
 
 struct user {
-
+	const char name[USER_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_USER_H */

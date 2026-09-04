@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_MEMBLOCK_H
 #define _VOLTOS_MEMBLOCK_H
 
+#include <voltos/init.h>
+#include <voltos/mm.h>
+
 struct memblock_region {
 
 };

@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_LIST_NULLS_H
 #define _VOLTOS_LIST_NULLS_H
 
+#include <voltos/const.h>
+#include <voltos/poison.h>
+
 struct hlist_nulls_head {
 
 };

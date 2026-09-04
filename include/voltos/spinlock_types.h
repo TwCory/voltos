@@ -20,4 +20,8 @@ typedef struct spinlock {
 	};
 } spinlock_t;
 
+#define __SPIN_LOCK_INITIALIZER(name)
+
+#define __SPIN_LOCK_UNLOCKED(name)
+
 #endif /* _VOLTOS_SPINLOCK_TYPES_H */

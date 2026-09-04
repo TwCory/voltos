@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_CONSOLE_H
 #define _VOLTOS_CONSOLE_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/console.h>
 
 struct console {

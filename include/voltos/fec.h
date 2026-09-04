@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_FEC_H
 #define _VOLTOS_FEC_H
 
+#include <voltos/phy.h>
+
 #endif /* _VOLTOS_FEC_H */

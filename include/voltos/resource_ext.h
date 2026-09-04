@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_RESOURCE_EXT_H
 #define _VOLTOS_RESOURCE_EXT_H
 
+#include <voltos/types.h>
+
 struct resource_window {
 
 };

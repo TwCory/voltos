@@ -15,4 +15,8 @@ typedef struct abqlock {
 	raw_spinlock_t lock;
 } abqlock_t;
 
+#define __ABQ_LOCK_INITIALIZER(name)
+
+#define __ABQ_LOCK_UNLOCKED(name)
+
 #endif /* _VOLTOS_ABQLOCK_TYPES_H */

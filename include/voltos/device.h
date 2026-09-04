@@ -21,6 +21,7 @@
 #include <voltos/list.h>
 #include <voltos/lockdep.h>
 #include <voltos/mutex.h>
+#include <voltos/types.h>
 #include <voltos/uid.h>
 #include <voltos/vslist.h>
 #include <voltos/vsobject.h>

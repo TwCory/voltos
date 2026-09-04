@@ -8,6 +8,10 @@
 #ifndef _VOLTOS_GENALLOC_H
 #define _VOLTOS_GENALLOC_H
 
+#include <voltos/atomic.h>
+#include <voltos/spinlock.h>
+#include <voltos/types.h>
+
 struct gen_pool {
 
 };

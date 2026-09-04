@@ -10,6 +10,7 @@
 #define _VOLTOS_LLIST_H
 
 #include <voltos/atomic.h>
+#include <voltos/container_of.h>
 #include <voltos/stddef.h>
 #include <voltos/types.h>
 

@@ -12,6 +12,7 @@
 #include <nbapi/voltos/vendor-tag.h>
 
 struct vendor_tag {
+	const char name;
 	refcount_t refcount;
 };
 

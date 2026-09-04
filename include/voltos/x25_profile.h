@@ -12,6 +12,7 @@
 #include <nbapi/voltos/x25_profile.h>
 
 struct x25_profile {
+	const char name;
 	refcount_t refcount;
 };
 

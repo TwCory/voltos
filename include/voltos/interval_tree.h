@@ -9,6 +9,8 @@
 #ifndef _VOLTOS_INTERVAL_TREE_H
 #define _VOLTOS_INTERVAL_TREE_H
 
+#include <voltos/rbtree.h>
+
 struct interval_tree_node {
 
 };

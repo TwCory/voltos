@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_PREFETCH_H
 #define _VOLTOS_PREFETCH_H
 
+#include <voltos/types.h>
 #include <nbapi/voltos/prefetch.h>
 
 #endif /* _VOLTOS_PREFETCH_H */

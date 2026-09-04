@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_ATM_DEVICE_H
 #define _VOLTOS_ATM_DEVICE_H
 
+#include <voltos/atm.h>
 #include <voltos/device.h>
 
 struct atm_device {

@@ -12,6 +12,7 @@
 #include <nbapi/voltos/x29_profile.h>
 
 struct x29_profile {
+	const char name;
 	refcount_t refcount;
 };
 

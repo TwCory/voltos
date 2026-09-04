@@ -10,6 +10,7 @@
 #define _VOLTOS_COW_H
 
 #include <voltos/callback.h>
+#include <voltos/types.h>
 
 #ifndef __cow
 #define __cow

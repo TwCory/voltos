@@ -12,6 +12,7 @@
 #include <nbapi/voltos/wsma_profile.h>
 
 struct wsma_profile {
+	const char name;
 	refcount_t refcount;
 };
 

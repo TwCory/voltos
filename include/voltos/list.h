@@ -12,6 +12,7 @@
 #include <voltos/const.h>
 #include <voltos/container_of.h>
 #include <voltos/list_types.h>
+#include <voltos/membarrier.h>
 #include <voltos/poison.h>
 #include <voltos/stddef.h>
 #include <voltos/types.h>

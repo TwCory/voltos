@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_MEMFD_H
 #define _VOLTOS_MEMFD_H
 
+#include <voltos/file.h>
 #include <nbapi/voltos/memfd.h>
 
 #endif /* _VOLTOS_MEMFD_H */

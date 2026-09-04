@@ -8,4 +8,11 @@
 #ifndef _VOLTOS_NFC_DEVICE_H
 #define _VOLTOS_NFC_DEVICE_H
 
+#include <voltos/device.h>
+#include <voltos/nfc.h>
+
+struct nfc_device {
+	struct device device;
+};
+
 #endif /* _VOLTOS_NFC_DEVICE_H */

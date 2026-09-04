@@ -11,7 +11,7 @@
 #include <voltos/device.h>
 
 struct net_clock {
-
+	struct device device;
 };
 
 #endif /* _VOLTOS_NET_CLOCK_H */
