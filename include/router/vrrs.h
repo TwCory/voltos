@@ -10,4 +10,6 @@
 
 #include <voltos/vrrs.h>
 
+extern void vrrs_init(void);
+
 #endif /* _ROUTER_VRRS_H */

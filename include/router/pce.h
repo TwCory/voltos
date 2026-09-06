@@ -8,4 +8,6 @@
 #ifndef _ROUTER_PCE_H
 #define _ROUTER_PCE_H
 
+extern void pce_init(void);
+
 #endif /* _ROUTER_PCE_H */

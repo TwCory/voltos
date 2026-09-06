@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_hssi.h
  *
+ *	High-Speed Serial Interfaces (HSSI)
  */
 
 #ifndef _VOLTOS_IF_HSSI_H

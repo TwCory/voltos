@@ -8,15 +8,6 @@
 #ifndef _ROUTER_WCCP_H
 #define _ROUTER_WCCP_H
 
-struct wccp_protocol;
-
-struct wccp_interface {
-	struct wccp_protocol 		*wccp;
-
-};
-
-struct wccp_protocol {
-
-};
+extern void wccp_init(void);
 
 #endif /* _ROUTER_WCCP_H */

@@ -9,25 +9,10 @@
 #ifndef _ROUTER_DSR_H
 #define _ROUTER_DSR_H
 
-struct dsr_protocol;
-
-struct dsr_interface {
-	struct dsr_protocol 		*dsr;
-
-};
-
 struct dsr_protocol {
 
 };
 
-struct dsr_route {
-	struct dsr_protocol 		*dsr;
-
-};
-
-struct dsr_router {
-	struct dsr_protocol 		*dsr;
-
-};
+extern void dsr_init(void);
 
 #endif /* _ROUTER_DSR_H */

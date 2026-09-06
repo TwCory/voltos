@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nvgre.h
  *
+ *	Network Virtualization Using GRE (NVGRE)
  */
 
 #ifndef _VOLTOS_NVGRE_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_lte450.h
  *
+ *	LTE 450 Interfaces
  */
 
 #ifndef _VOLTOS_IF_LTE450_H

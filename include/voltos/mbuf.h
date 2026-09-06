@@ -49,19 +49,19 @@ struct m_buf {
 	unsigned char 					*data;
 };
 
-static inline unsigned char *mb_transport_header(const struct m_buf *mb)
+static inline unsigned char *mbuf_transport_header(const struct m_buf *mbuf)
 {
-    return mb->head + mb->transport_header;
+    return mbuf->head + mbuf->transport_header;
 }
 
-static inline unsigned char *mb_network_header(const struct m_buf *mb)
+static inline unsigned char *mbuf_network_header(const struct m_buf *mbuf)
 {
-    return mb->head + mb->network_header;
+    return mbuf->head + mbuf->network_header;
 }
 
-static inline unsigned char *mb_link_header(const struct m_buf *mb)
+static inline unsigned char *mbuf_link_header(const struct m_buf *mbuf)
 {
-    return mb->head + mb->link_header;
+    return mbuf->head + mbuf->link_header;
 }
 
 #endif /* _VOLTOS_MBUF_H */

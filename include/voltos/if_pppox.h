@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_pppox.h
  *
+ *	Point-to-Point Protocol over X (PPPoX) Socket Family
  */
 
 #ifndef _VOLTOS_IF_PPPOX_H

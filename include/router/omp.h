@@ -9,20 +9,6 @@
 #ifndef _ROUTER_OMP_H
 #define _ROUTER_OMP_H
 
-struct omp_protocol;
-
-struct omp_interface {
-	struct omp_protocol 		*omp;
-
-};
-
-struct omp_protocol {
-
-};
-
-struct omp_route {
-	struct omp_protocol 		*omp;
-
-};
+extern void omp_init(void);
 
 #endif /* _ROUTER_OMP_H */

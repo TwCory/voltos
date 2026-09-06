@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nntp.h
  *
+ *	Network News Transfer Protocol (NNTP)
  */
 
 #ifndef _VOLTOS_NNTP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mcslock_types.h
  *
+ *	MCS-Based Spin Locks
  */
 
 #ifndef _VOLTOS_MCSLOCK_TYPES_H

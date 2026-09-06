@@ -3,6 +3,7 @@
 /*
  *	include/voltos/iso.h
  *
+ *	AF_ISO Socket Family
  */
 
 #ifndef _VOLTOS_ISO_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/netbios.h
  *
+ *	AF_NETBIOS Socket Family
  */
 
 #ifndef _VOLTOS_NETBIOS_H

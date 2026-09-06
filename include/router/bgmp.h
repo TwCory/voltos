@@ -9,15 +9,10 @@
 #ifndef _ROUTER_BGMP_H
 #define _ROUTER_BGMP_H
 
-struct bgmp_protocol;
-
-struct bgmp_interface {
-	struct bgmp_protocol 		*bgmp;
-
-};
-
 struct bgmp_protocol {
 
 };
+
+extern void bgmp_init(void);
 
 #endif /* _ROUTER_BGMP_H */

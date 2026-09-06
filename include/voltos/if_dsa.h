@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_dsa.h
  *
+ *	Distributed Switch Architecture (DSA) Interfaces
  */
 
 #ifndef _VOLTOS_IF_DSA_H

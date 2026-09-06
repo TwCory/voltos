@@ -10,6 +10,8 @@
 
 #include <nbapi/voltos/bits.h>
 
+typedef __bit 					bit_t;
+
 #define BIT_MASK(nr)				(UL(1) << ((nr) % BITS_PER_LONG))
 #define BIT_WORD(nr)				((nr) / BITS_PER_LONG)
 #define BIT_ULL_MASK(nr)			(ULL(1) << ((nr) % BITS_PER_LONG_LONG))

@@ -8,15 +8,6 @@
 #ifndef _ROUTER_IRDP_H
 #define _ROUTER_IRDP_H
 
-struct irdp_protocol;
-
-struct irdp_interface {
-	struct irdp_protocol 		*irdp;
-
-};
-
-struct irdp_protocol {
-
-};
+extern void irdp_init(void);
 
 #endif /* _ROUTER_IRDP_H */

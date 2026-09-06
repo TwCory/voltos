@@ -3,7 +3,7 @@
 /*
  *	include/voltos/mctp.h
  *
- * 	Management Component Transport Protocol (MCTP)
+ * 	Management Component Transport Protocol (MCTP) Socket Family
  */
 
 #ifndef _VOLTOS_MCTP_H

@@ -8,6 +8,10 @@
 #ifndef _ROUTER_OSPFV2_ROUTE_H
 #define _ROUTER_OSPFV2_ROUTE_H
 
+#include <router/ospf.h>
 
+struct ospf_route {
+	struct ospf_protocol *ospf;
+};
 
 #endif /* _ROUTER_OSPFV2_ROUTE_H */

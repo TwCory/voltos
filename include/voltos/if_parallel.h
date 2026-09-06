@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_parallel.h
  *
+ *	Parallel Interfaces
  */
 
 #ifndef _VOLTOS_IF_PARALLEL_H

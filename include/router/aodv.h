@@ -9,25 +9,15 @@
 #ifndef _ROUTER_AODV_H
 #define _ROUTER_AODV_H
 
-struct aodv_protocol;
-
-struct aodv_interface {
-	struct aodv_protocol 		*aodv;
-
-};
-
 struct aodv_protocol {
 
 };
 
-struct aodv_route {
-	struct aodv_protocol 		*aodv;
+extern void aodv_init(void);
 
-};
-
-struct aodv_router {
-	struct aodv_protocol 		*aodv;
-
-};
+extern int aodv_rreq_send();
+extern int aodv_rrep_send();
+extern int aodv_rerr_send();
+extern int aodv_rrep_ack_send();
 
 #endif /* _ROUTER_AODV_H */

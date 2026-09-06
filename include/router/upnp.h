@@ -12,4 +12,6 @@
 #include <voltos/types.h>
 #include <voltos/upnp.h>
 
+extern void upnp_init(void);
+
 #endif /* _ROUTER_UPNP_H */

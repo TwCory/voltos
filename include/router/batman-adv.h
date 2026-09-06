@@ -8,25 +8,12 @@
 #ifndef _ROUTER_BATMAN_ADV_H
 #define _ROUTER_BATMAN_ADV_H
 
-struct batadv_protocol;
-
-struct batadv_interface {
-	struct batadv_protocol 		*batadv;
-
-};
-
 struct batadv_protocol {
 
 };
 
-struct batadv_route {
-	struct batadv_protocol 		*batadv;
+extern void batadv_init(void);
 
-};
-
-struct batadv_router {
-	struct batadv_protocol 		*batadv;
-
-};
+extern int batadv_send();
 
 #endif /* _ROUTER_BATMAN_ADV_H */

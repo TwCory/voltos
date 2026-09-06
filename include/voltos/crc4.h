@@ -10,4 +10,6 @@
 
 #include <voltos/types.h>
 
+extern u8 crc4(u8 c, u64 x, int bits);
+
 #endif /* _VOLTOS_CRC4_H */

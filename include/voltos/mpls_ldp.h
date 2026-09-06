@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mpls_ldp.h
  *
+ *	Label Distribution Protocol (LDP) for MPLS
  */
 
 #ifndef _VOLTOS_MPLS_LDP_H

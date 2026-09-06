@@ -3,6 +3,7 @@
 /*
  *	include/voltos/iucv.h
  *
+ *	AF_IUCV Socket Family
  */
 
 #ifndef _VOLTOS_IUCV_H

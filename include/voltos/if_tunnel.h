@@ -3,7 +3,7 @@
 /*
  *	include/voltos/if_tunnel.h
  *
- * 	Tunnel Interface
+ * 	Tunnel Interfaces
  */
 
 #ifndef _VOLTOS_IF_TUNNEL_H
@@ -12,8 +12,8 @@
 #include <voltos/idb.h>
 #include <nbapi/voltos/if_tunnel.h>
 
-struct tunnel_idb {
-	struct idb *idb;
+struct tunnel_if {
+	struct idb *ifp;
 };
 
 #endif /* _VOLTOS_IF_TUNNEL_H */

@@ -11,8 +11,8 @@
 #include <voltos/inet.h>
 #include <voltos/types.h>
 
-typedef ipv4_addr_t 					ripv2_address_t;
-typedef ipv4_prefix_t 					ripv2_prefix_t;
+typedef ipv4_addr_t 					rip_address_t;
+typedef ipv4_prefix_t 					rip_prefix_t;
 
 
 #endif /* _ROUTER_RIPV2_TYPES_H */

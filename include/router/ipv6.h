@@ -8,15 +8,6 @@
 #ifndef _ROUTER_IPV6_H
 #define _ROUTER_IPV6_H
 
-struct ipv6_protocol;
-
-struct ipv6_interface {
-	struct ipv6_protocol 		*ipv6;
-
-};
-
-struct ipv6_protocol {
-
-};
+extern void ip6_init(void);
 
 #endif /* _ROUTER_IPV6_H */

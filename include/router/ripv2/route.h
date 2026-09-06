@@ -8,10 +8,10 @@
 #ifndef _ROUTER_RIPV2_ROUTE_H
 #define _ROUTER_RIPV2_ROUTE_H
 
-#include <voltos/inet.h>
+#include <router/rip.h>
 
-struct ripv2_route {
-
+struct rip_route {
+	struct rip_protocol *rip;
 };
 
 #endif /* _ROUTER_RIPV2_ROUTE_H */

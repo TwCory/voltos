@@ -8,25 +8,6 @@
 #ifndef _ROUTER_IDPR_H
 #define _ROUTER_IDPR_H
 
-struct idpr_protocol;
-
-struct idpr_interface {
-	struct idpr_protocol 		*idpr;
-
-};
-
-struct idpr_protocol {
-
-};
-
-struct idpr_route {
-	struct idpr_protocol 		*idpr;
-
-};
-
-struct idpr_router {
-	struct idpr_protocol 		*idpr;
-
-};
+extern void idpr_init(void);
 
 #endif /* _ROUTER_IDPR_H */

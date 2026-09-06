@@ -8,15 +8,6 @@
 #ifndef _ROUTER_MPLS_H
 #define _ROUTER_MPLS_H
 
-struct mpls_protocol;
-
-struct mpls_interface {
-	struct mpls_protocol 		*mpls;
-
-};
-
-struct mpls_protocol {
-
-};
+extern void mpls_init(void);
 
 #endif /* _ROUTER_MPLS_H */

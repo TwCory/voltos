@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_serial.h
  *
+ *	Synchronous Serial Interfaces
  */
 
 #ifndef _VOLTOS_IF_SERIAL_H

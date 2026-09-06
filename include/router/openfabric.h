@@ -8,25 +8,6 @@
 #ifndef _ROUTER_OPENFABRIC_H
 #define _ROUTER_OPENFABRIC_H
 
-struct openfabric_protocol;
-
-struct openfabric_interface {
-	struct openfabric_protocol 	*openfabric;
-
-};
-
-struct openfabric_protocol {
-
-};
-
-struct openfabric_route {
-	struct openfabric_protocol 	*openfabric;
-
-};
-
-struct openfabric_router {
-	struct openfabric_protocol 	*openfabric;
-
-};
+extern void openfabric_init(void);
 
 #endif /* _ROUTER_OPENFABRIC_H */

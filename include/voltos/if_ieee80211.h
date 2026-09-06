@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_ieee80211.h
  *
+ *	IEEE 802.11 (Wi-Fi) Interfaces
  */
 
 #ifndef _VOLTOS_IF_IEEE80211_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/phf.h
  *
- * 	Perfect Hash Function (PHF)
+ * 	Perfect Hash Functions (PHF)
  */
 
 #ifndef _VOLTOS_PHF_H

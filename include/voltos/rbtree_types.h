@@ -21,4 +21,8 @@ struct rb_root_cached {
 
 };
 
+struct rb_root_linked {
+
+};
+
 #endif /* _VOLTOS_RBTREE_TYPES_H */

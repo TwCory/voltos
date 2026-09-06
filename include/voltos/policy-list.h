@@ -12,7 +12,7 @@
 #include <nbapi/voltos/policy-list.h>
 
 struct policy_list {
-	const char name;
+	const char name[POLICY_LIST_NAME_SIZE];
 	refcount_t refcount;
 };
 

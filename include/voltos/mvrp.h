@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mvrp.h
  *
+ *	Multiple VLAN Registration Protocol (MVRP)
  */
 
 #ifndef _VOLTOS_MVRP_H

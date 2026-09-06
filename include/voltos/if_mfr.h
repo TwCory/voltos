@@ -3,7 +3,7 @@
 /*
  *	include/voltos/if_mfr.h
  *
- * 	Multilink Frame Relay (MFR) Interface
+ * 	Multilink Frame Relay (MFR) Interfaces
  */
 
 #ifndef _VOLTOS_IF_MFR_H
@@ -12,8 +12,8 @@
 #include <voltos/idb.h>
 #include <nbapi/voltos/if_mfr.h>
 
-struct mfr_idb {
-	struct idb *idb;
+struct mfr_if {
+	struct idb *ifp;
 };
 
 #endif /* _VOLTOS_IF_MFR_H */

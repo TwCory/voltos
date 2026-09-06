@@ -9,15 +9,15 @@
 #ifndef _ROUTER_DVMRP_H
 #define _ROUTER_DVMRP_H
 
-struct dvmrp_protocol;
-
-struct dvmrp_interface {
-	struct dvmrp_protocol 		*dvmrp;
-
-};
-
 struct dvmrp_protocol {
 
 };
+
+extern void dvmrp_init(void);
+
+int dvmrp_group_join();
+int dvmrp_group_leave();
+
+extern int dvmrp_send();
 
 #endif /* _ROUTER_DVMRP_H */

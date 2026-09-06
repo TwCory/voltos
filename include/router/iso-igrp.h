@@ -8,25 +8,10 @@
 #ifndef _ROUTER_ISO_IGRP_H
 #define _ROUTER_ISO_IGRP_H
 
-struct iso_igrp_protocol;
-
-struct iso_igrp_interface {
-	struct iso_igrp_protocol 	*iso_igrp;
-
-};
-
 struct iso_igrp_protocol {
 
 };
 
-struct iso_igrp_route {
-	struct iso_igrp_protocol 	*iso_igrp;
-
-};
-
-struct iso_igrp_router {
-	struct iso_igrp_protocol 	*iso_igrp;
-
-};
+extern void iso_igrp_init(void);
 
 #endif /* _ROUTER_ISO_IGRP_H */

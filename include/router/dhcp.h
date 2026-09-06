@@ -9,19 +9,6 @@
 #ifndef _ROUTER_DHCP_H
 #define _ROUTER_DHCP_H
 
-struct dhcp_protocol;
-
-struct dhcp_interface {
-	struct dhcp_protocol 		*dhcp;
-
-};
-
-struct dhcp_pool {
-	struct dhcp_protocol 		*dhcp;
-};
-
-struct dhcp_protocol {
-
-};
+extern void dhcp_init(void);
 
 #endif /* _ROUTER_DHCP_H */

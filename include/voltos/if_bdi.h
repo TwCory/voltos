@@ -10,9 +10,10 @@
 #define _VOLTOS_IF_BDI_H
 
 #include <voltos/idb.h>
+#include <nbapi/voltos/if_bridge.h>
 
-struct bdi_idb {
-	struct idb *idb;
+struct bdi_if {
+	struct idb *ifp;
 };
 
 #endif /* _VOLTOS_IF_BDI_H */

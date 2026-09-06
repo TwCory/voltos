@@ -8,15 +8,6 @@
 #ifndef _ROUTER_HMP_H
 #define _ROUTER_HMP_H
 
-struct hmp_protocol;
-
-struct hmp_interface {
-	struct hmp_protocol 		*hmp;
-
-};
-
-struct hmp_protocol {
-
-};
+extern void hmp_init(void);
 
 #endif /* _ROUTER_HMP_H */

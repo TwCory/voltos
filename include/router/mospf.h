@@ -8,15 +8,6 @@
 #ifndef _ROUTER_MOSPF_H
 #define _ROUTER_MOSPF_H
 
-struct mospf_protocol;
-
-struct mospf_interface {
-	struct mospf_protocol 		*mospf;
-
-};
-
-struct mospf_protocol {
-
-};
+extern void mospf_init(void);
 
 #endif /* _ROUTER_MOSPF_H */

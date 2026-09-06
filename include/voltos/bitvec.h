@@ -13,7 +13,7 @@
 #include <voltos/types.h>
 
 typedef struct {
-	__bit		*bv_data;
+	bit_t		*bv_data;
 	size_t		bv_size;
 	size_t		bv_capacity;
 } bitvec_t;

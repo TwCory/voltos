@@ -9,20 +9,14 @@
 #ifndef _ROUTER_NHRP_H
 #define _ROUTER_NHRP_H
 
-struct nhrp_protocol;
+extern void nhrp_init(void);
 
-struct nhrp_interface {
-	struct nhrp_protocol 		*nhrp;
-
-};
-
-struct nhrp_protocol {
-
-};
-
-struct nhrp_route {
-	struct nhrp_protocol 		*nhrp;
-
-};
+extern int nhrp_resolution_request_send();
+extern int nhrp_resolution_reply_send();
+extern int nhrp_registration_request_send();
+extern int nhrp_registration_reply_send();
+extern int nhrp_purge_request_send();
+extern int nhrp_purge_reply_send();
+extern int nhrp_error_indicator_send();
 
 #endif /* _ROUTER_NHRP_H */

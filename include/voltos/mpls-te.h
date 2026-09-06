@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mpls-te.h
  *
+ *	Traffic Engineering (TE) Support for MPLS
  */
 
 #ifndef _VOLTOS_MPLS_TE_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_packet.h
  *
+ *	AF_PACKET Socket Family
  */
 
 #ifndef _VOLTOS_IF_PACKET_H

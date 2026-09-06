@@ -8,15 +8,6 @@
 #ifndef _ROUTER_IP_H
 #define _ROUTER_IP_H
 
-struct ip_protocol;
-
-struct ip_interface {
-	struct ip_protocol 		*ip;
-
-};
-
-struct ip_protocol {
-
-};
+extern void ip_init(void);
 
 #endif /* _ROUTER_IP_H */

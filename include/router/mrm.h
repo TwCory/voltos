@@ -8,6 +8,6 @@
 #ifndef _ROUTER_MRM_H
 #define _ROUTER_MRM_H
 
-
+extern void mrm_init(void);
 
 #endif /* _ROUTER_MRM_H */

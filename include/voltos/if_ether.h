@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_ether.h
  *
+ *	Ethernet Interfaces
  */
 
 #ifndef _VOLTOS_IF_ETHER_H

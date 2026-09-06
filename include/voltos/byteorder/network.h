@@ -8,10 +8,8 @@
 #ifndef _VOLTOS_BYTEORDER_NETWORK_H
 #define _VOLTOS_BYTEORDER_NETWORK_H
 
-#include <voltos/byteorder/big_endian.h>
-
-#ifndef __VOLTOS_NETWORK_BYTE_ORDER__
-#define __VOLTOS_NETWORK_BYTE_ORDER__
-#endif /* __VOLTOS_NETWORK_BYTE_ORDER__ */
+#ifndef __NETWORK_BYTE_ORDER__
+#define __NETWORK_BYTE_ORDER__
+#endif /* __NETWORK_BYTE_ORDER__ */
 
 #endif /* _VOLTOS_BYTEORDER_NETWORK_H */

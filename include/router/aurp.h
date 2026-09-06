@@ -8,15 +8,10 @@
 #ifndef _ROUTER_AURP_H
 #define _ROUTER_AURP_H
 
-struct aurp_protocol;
-
-struct aurp_interface {
-	struct aurp_protocol 		*aurp;
-
-};
-
 struct aurp_protocol {
 
 };
+
+extern void aurp_init(void);
 
 #endif /* _ROUTER_AURP_H */

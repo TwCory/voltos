@@ -8,15 +8,6 @@
 #ifndef _ROUTER_X25_H
 #define _ROUTER_X25_H
 
-struct x25_protocol;
-
-struct x25_interface {
-	struct x25_protocol 		*x25;
-
-};
-
-struct x25_protocol {
-
-};
+extern void x25_init(void);
 
 #endif /* _ROUTER_X25_H */

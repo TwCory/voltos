@@ -9,19 +9,9 @@
 #ifndef _ROUTER_CARP_H
 #define _ROUTER_CARP_H
 
-struct carp_protocol;
+extern void carp_init(void);
 
-struct carp_group {
-	struct carp_protocol 		*carp;
-};
-
-struct carp_interface {
-	struct carp_protocol 		*carp;
-
-};
-
-struct carp_protocol {
-
-};
+int carp_group_join();
+int carp_group_leave();
 
 #endif /* _ROUTER_CARP_H */

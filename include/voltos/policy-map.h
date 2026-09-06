@@ -12,7 +12,7 @@
 #include <nbapi/voltos/policy-map.h>
 
 struct policy_map {
-	const char name;
+	const char name[POLICY_MAP_NAME_SIZE];
 	refcount_t refcount;
 };
 

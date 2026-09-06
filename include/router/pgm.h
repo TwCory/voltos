@@ -9,15 +9,6 @@
 #ifndef _ROUTER_PGM_H
 #define _ROUTER_PGM_H
 
-struct pgm_protocol;
-
-struct pgm_interface {
-	struct pgm_protocol 		*pgm;
-
-};
-
-struct pgm_protocol {
-
-};
+extern void pgm_init(void);
 
 #endif /* _ROUTER_PGM_H */

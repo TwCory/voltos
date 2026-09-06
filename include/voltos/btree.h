@@ -12,7 +12,9 @@
 #include <voltos/voltos.h>
 
 struct btree_head {
-
+	unsigned long 			*node;
+	mempool_t 			*mempool;
+	int 				height;
 };
 
 struct btree_geometry;

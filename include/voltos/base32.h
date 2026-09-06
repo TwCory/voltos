@@ -11,6 +11,9 @@
 
 #include <voltos/types.h>
 
-#define BASE32_CHARS(x)
+#define BASE32_CHARS(n_bytes)
+
+int base32_encode(const u8 *src, int len, char *dst, bool padding);
+int base32_decode(const char *src, int len, u8 *dst, bool padding);
 
 #endif /* _VOLTOS_BASE32_H */

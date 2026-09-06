@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_IDB_FEATURES_H
 #define _VOLTOS_IDB_FEATURES_H
 
-typedef unsigned long long idb_features_t;
+#include <voltos/types.h>
+
+typedef u64 idb_features_t;
 
 #endif /* _VOLTOS_IDB_FEATURES_H */

@@ -9,25 +9,11 @@
 #ifndef _ROUTER_OLSR_H
 #define _ROUTER_OLSR_H
 
-struct olsr_protocol;
+extern void olsr_init(void);
 
-struct olsr_interface {
-	struct olsr_protocol 		*olsr;
-
-};
-
-struct olsr_protocol {
-
-};
-
-struct olsr_route {
-	struct olsr_protocol 		*olsr;
-
-};
-
-struct olsr_router {
-	struct olsr_protocol 		*olsr;
-
-};
+extern int olsr_hello_send();
+extern int olsr_tc_send();
+extern int olsr_mid_send();
+extern int olsr_hna_send();
 
 #endif /* _ROUTER_OLSR_H */

@@ -10,8 +10,6 @@
 #ifndef _NBAPI_VOLTOS_BBA_GROUP_H
 #define _NBAPI_VOLTOS_BBA_GROUP_H
 
-#include <voltos/types.h>
-
 #define BBA_GROUP_NAME_SIZE			32
 
 enum bba_group_type {

@@ -12,8 +12,8 @@
 #include <voltos/idb.h>
 #include <nbapi/voltos/if_bundle.h>
 
-struct bundle_idb {
-	struct idb *idb;
+struct bundle_if {
+	struct idb *ifp;
 };
 
 #endif /* _VOLTOS_IF_BUNDLE_H */

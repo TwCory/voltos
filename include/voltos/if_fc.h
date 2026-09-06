@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_fc.h
  *
+ *	Fibre Channel Interfaces
  */
 
 #ifndef _VOLTOS_IF_FC_H

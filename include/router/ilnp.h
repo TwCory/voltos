@@ -8,15 +8,6 @@
 #ifndef _ROUTER_ILNP_H
 #define _ROUTER_ILNP_H
 
-struct ilnp_protocol;
-
-struct ilnp_interface {
-	struct ilnp_protocol 		*ilnp;
-
-};
-
-struct ilnp_protocol {
-
-};
+extern void ilnp_init(void);
 
 #endif /* _ROUTER_ILNP_H */

@@ -8,15 +8,6 @@
 #ifndef _ROUTER_ARP_H
 #define _ROUTER_ARP_H
 
-struct arp_protocol;
-
-struct arp_interface {
-	struct arp_protocol 		*arp;
-
-};
-
-struct arp_protocol {
-
-};
+extern void arp_init(void);
 
 #endif /* _ROUTER_ARP_H */

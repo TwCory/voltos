@@ -9,8 +9,6 @@
 #ifndef _ROUTER_BIER_H
 #define _ROUTER_BIER_H
 
-struct bier_interface {
-
-};
+extern void bier_init(void);
 
 #endif /* _ROUTER_BIER_H */

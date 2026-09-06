@@ -3,6 +3,7 @@
 /*
  *	include/voltos/isdn.h
  *
+ *	AF_ISDN Socket Family
  */
 
 #ifndef _VOLTOS_ISDN_H

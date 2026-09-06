@@ -8,15 +8,6 @@
 #ifndef _ROUTER_MSDP_H
 #define _ROUTER_MSDP_H
 
-struct msdp_protocol;
-
-struct msdp_interface {
-	struct msdp_protocol 		*msdp;
-
-};
-
-struct msdp_protocol {
-
-};
+extern void msdp_init(void);
 
 #endif /* _ROUTER_MSDP_H */

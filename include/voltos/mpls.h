@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mpls.h
  *
+ *	AF_MPLS Socket Family
  */
 
 #ifndef _VOLTOS_MPLS_H

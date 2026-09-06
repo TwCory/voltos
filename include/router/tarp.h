@@ -8,15 +8,6 @@
 #ifndef _ROUTER_TARP_H
 #define _ROUTER_TARP_H
 
-struct tarp_protocol;
-
-struct tarp_interface {
-	struct tarp_protocol 		*tarp;
-
-};
-
-struct tarp_protocol {
-
-};
+extern void tarp_init(void);
 
 #endif /* _ROUTER_TARP_H */

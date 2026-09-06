@@ -9,15 +9,9 @@
 #ifndef _ROUTER_VRRP_H
 #define _ROUTER_VRRP_H
 
-struct vrrp_protocol;
+extern void vrrp_init(void);
 
-struct vrrp_interface {
-	struct vrrp_protocol 		*vrrp;
-
-};
-
-struct vrrp_protocol {
-
-};
+int vrrp_group_join();
+int vrrp_group_leave();
 
 #endif /* _ROUTER_VRRP_H */

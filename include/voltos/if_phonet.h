@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_phonet.h
  *
+ *	Phonet Socket Family
  */
 
 #ifndef _VOLTOS_IF_PHONET_H

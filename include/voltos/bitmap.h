@@ -12,7 +12,7 @@
 #include <voltos/bitops.h>
 #include <voltos/types.h>
 
-typedef unsigned long bitmap_t;
+typedef unsigned long 				bitmap_t;
 
 #ifndef DECLARE_BITMAP
 #define DECLARE_BITMAP(name, bits)		\

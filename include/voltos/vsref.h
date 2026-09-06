@@ -9,6 +9,7 @@
 #define _VOLTOS_VSREF_H
 
 #include <voltos/refcount.h>
+#include <voltos/spinlock.h>
 
 struct vsref {
 	refcount_t refcount;

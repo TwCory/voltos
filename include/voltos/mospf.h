@@ -3,7 +3,7 @@
 /*
  *	include/voltos/mospf.h
  *
- * 	Multicast Open Shortest Path First (MOSPF)
+ * 	Multicast Open Shortest Path First (MOSPF) Protocol
  */
 
 #ifndef _VOLTOS_MOSPF_H

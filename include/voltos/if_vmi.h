@@ -3,7 +3,7 @@
 /*
  *	include/voltos/if_vmi.h
  *
- * 	Virtual Multipoint Interface (VMI)
+ * 	Virtual Multipoint Interfaces (VMI)
  */
 
 #ifndef _VOLTOS_IF_VMI_H
@@ -12,8 +12,8 @@
 #include <voltos/idb.h>
 #include <nbapi/voltos/if_vmi.h>
 
-struct vmi_idb {
-	struct idb *idb;
+struct vmi_if {
+	struct idb *ifp;
 };
 
 #endif /* _VOLTOS_IF_VMI_H */

@@ -8,8 +8,6 @@
 #ifndef _ROUTER_BOOTP_H
 #define _ROUTER_BOOTP_H
 
-struct async_bootp_client {
-
-};
+extern void bootp_init(void);
 
 #endif /* _ROUTER_BOOTP_H */

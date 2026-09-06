@@ -9,46 +9,16 @@
 #ifndef _ROUTER_OSPF_H
 #define _ROUTER_OSPF_H
 
-struct ospf_protocol;
-
-struct ospf_area {
-	struct ospf_protocol 		*ospf;
-};
-
-struct ospf_interface {
-	struct ospf_protocol 		*ospf;
-
-};
-
-struct ospf_ism {
-	struct ospf_protocol 		*ospf;
-};
-
-struct ospf_neighbour {
-	struct ospf_protocol 		*ospf;
-
-};
-
-struct ospf_nsm {
-	struct ospf_protocol 		*ospf;
-};
-
 struct ospf_protocol {
 
 };
 
-struct ospf_route {
-	struct ospf_protocol 		*ospf;
+extern void ospf_init(void);
 
-};
+int ospf_allrouters_group_join();
+int ospf_allrouters_group_leave();
 
-struct ospf_router {
-	struct ospf_protocol 		*ospf;
-
-};
-
-struct ospf_virtual_link {
-	struct ospf_protocol 		*ospf;
-};
+int ospf_drouters_group_join();
+int ospf_drouters_group_leave();
 
 #endif /* _ROUTER_OSPF_H */

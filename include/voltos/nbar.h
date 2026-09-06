@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nbar.h
  *
+ *	Network-Based Application Recognition (NBAR)
  */
 
 #ifndef _VOLTOS_NBAR_H

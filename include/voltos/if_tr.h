@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_tr.h
  *
+ *	Token Ring (TR) Interfaces
  */
 
 #ifndef _VOLTOS_IF_TR_H

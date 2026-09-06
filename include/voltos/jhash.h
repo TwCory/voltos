@@ -3,7 +3,7 @@
 /*
  *	include/voltos/jhash.h
  *
- * 	Jenkin's Hash Function
+ * 	Jenkin's Hash Functions
  */
 
 #ifndef _VOLTOS_JHASH_H

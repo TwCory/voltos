@@ -9,25 +9,10 @@
 #ifndef _ROUTER_ZHLS_H
 #define _ROUTER_ZHLS_H
 
-struct zhls_protocol;
-
-struct zhls_interface {
-	struct zhls_protocol 		*zhls;
-
-};
-
 struct zhls_protocol {
 
 };
 
-struct zhls_route {
-	struct zhls_protocol 		*zhls;
-
-};
-
-struct zhls_router {
-	struct zhls_protocol 		*zhls;
-
-};
+extern void zhls_init(void);
 
 #endif /* _ROUTER_ZHLS_H */

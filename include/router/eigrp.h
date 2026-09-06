@@ -9,30 +9,13 @@
 #ifndef _ROUTER_EIGRP_H
 #define _ROUTER_EIGRP_H
 
-struct eigrp_protocol;
-
-struct eigrp_interface {
-	struct eigrp_protocol 		*eigrp;
-
-};
-
-struct eigrp_neighbour {
-	struct eigrp_protocol 		*eigrp;
-
-};
-
 struct eigrp_protocol {
 
 };
 
-struct eigrp_route {
-	struct eigrp_protocol 		*eigrp;
+extern void eigrp_init(void);
 
-};
-
-struct eigrp_router {
-	struct eigrp_protocol 		*eigrp;
-
-};
+int eigrp_group_join();
+int eigrp_group_leave();
 
 #endif /* _ROUTER_EIGRP_H */

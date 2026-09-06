@@ -8,8 +8,10 @@
 #ifndef _ROUTER_RIPV2_INTERFACE_H
 #define _ROUTER_RIPV2_INTERFACE_H
 
-struct ripv2_interface {
+#include <router/rip.h>
 
+struct rip_interface {
+	struct rip_protocol *rip;
 };
 
 #endif /* _ROUTER_RIPV2_INTERFACE_H */

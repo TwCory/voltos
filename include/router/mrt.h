@@ -8,6 +8,6 @@
 #ifndef _ROUTER_MRT_H
 #define _ROUTER_MRT_H
 
-
+extern void mrt_init(void);
 
 #endif /* _ROUTER_MRT_H */

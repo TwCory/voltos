@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_infiniband.h
  *
+ *	InfiniBand Interfaces
  */
 
 #ifndef _VOLTOS_IF_INFINIBAND_H

@@ -12,4 +12,8 @@
 #include <voltos/export.h>
 #include <voltos/stringify.h>
 
+#ifndef ASM_NL
+#define ASM_NL		;
+#endif /* ASM_NL */
+
 #endif /* _VOLTOS_LINKAGE_H */

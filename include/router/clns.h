@@ -8,15 +8,6 @@
 #ifndef _ROUTER_CLNS_H
 #define _ROUTER_CLNS_H
 
-struct clns_protocol;
-
-struct clns_interface {
-	struct clns_protocol 		*clns;
-
-};
-
-struct clns_protocol {
-
-};
+extern void clns_init(void);
 
 #endif /* _ROUTER_CLNS_H */

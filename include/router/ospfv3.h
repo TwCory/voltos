@@ -9,33 +9,16 @@
 #ifndef _ROUTER_OSPFV3_H
 #define _ROUTER_OSPFV3_H
 
-struct ospfv3_protocol;
-
-struct ospfv3_area {
-	struct ospfv3_protocol 		*ospfv3;
-};
-
-struct ospfv3_interface {
-	struct ospfv3_protocol 		*ospfv3;
-
-};
-
 struct ospfv3_protocol {
 
 };
 
-struct ospfv3_route {
-	struct ospfv3_protocol 		*ospfv3;
+extern void ospfv3_init(void);
 
-};
+int ospfv3_allrouters_group_join();
+int ospfv3_allrouters_group_leave();
 
-struct ospfv3_router {
-	struct ospfv3_protocol 		*ospfv3;
-
-};
-
-struct ospfv3_virtual_link {
-	struct ospfv3_protocol 		*ospfv3;
-};
+int ospfv3_drouters_group_join();
+int ospfv3_drouters_group_leave();
 
 #endif /* _ROUTER_OSPFV3_H */

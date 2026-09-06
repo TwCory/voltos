@@ -9,19 +9,9 @@
 #ifndef _ROUTER_HSRP_H
 #define _ROUTER_HSRP_H
 
-struct hsrp_protocol;
+extern void hsrp_init(void);
 
-struct hsrp_group {
-	struct hsrp_protocol 		*hsrp;
-};
-
-struct hsrp_interface {
-	struct hsrp_protocol 		*hsrp;
-
-};
-
-struct hsrp_protocol {
-
-};
+int hsrp_group_join();
+int hsrp_group_leave();
 
 #endif /* _ROUTER_HSRP_H */

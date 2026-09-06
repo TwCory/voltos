@@ -8,4 +8,6 @@
 #ifndef _ROUTER_RIFT_H
 #define _ROUTER_RIFT_H
 
+extern void rift_init(void);
+
 #endif /* _ROUTER_RIFT_H */

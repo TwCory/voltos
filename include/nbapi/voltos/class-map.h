@@ -13,8 +13,6 @@
 
 #define CLASS_MAP_NAME_SIZE			32
 
-typedef __u32 					__class_map_key_t;
-
 enum class_map_type {
 	CLASS_MAP_TYPE_T_UNSPEC			= 0,
 	CLASS_MAP_TYPE_T_CONTROL		= 1,

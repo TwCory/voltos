@@ -8,16 +8,6 @@
 #ifndef _ROUTER_IPX_H
 #define _ROUTER_IPX_H
 
-struct ipx_protocol;
-
-struct ipx_interface {
-	struct ipx_protocol 		*ipx;
-
-};
-
-struct ipx_protocol {
-
-};
-
+extern void ipx_init(void);
 
 #endif /* _ROUTER_IPX_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_switchport.h
  *
+ *	Ethernet Switchport Interfaces
  */
 
 #ifndef _VOLTOS_IF_SWITCHPORT_H

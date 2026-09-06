@@ -10,5 +10,7 @@
 #define _VOLTOS_BYTEORDER_H
 
 #include <asm/byteorder.h>
+#include <voltos/byteorder/host.h>
+#include <voltos/byteorder/network.h>
 
 #endif /* _VOLTOS_BYTEORDER_H */

@@ -8,15 +8,6 @@
 #ifndef _ROUTER_HIP_H
 #define _ROUTER_HIP_H
 
-struct hip_protocol;
-
-struct hip_interface {
-	struct hip_protocol 		*hip;
-
-};
-
-struct hip_protocol {
-
-};
+extern void hip_init(void);
 
 #endif /* _ROUTER_HIP_H */

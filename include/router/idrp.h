@@ -8,25 +8,6 @@
 #ifndef _ROUTER_IDRP_H
 #define _ROUTER_IDRP_H
 
-struct idrp_protocol;
-
-struct idrp_interface {
-	struct idrp_protocol 		*idrp;
-
-};
-
-struct idrp_protocol {
-
-};
-
-struct idrp_route {
-	struct idrp_protocol 		*idrp;
-
-};
-
-struct idrp_router {
-	struct idrp_protocol 		*idrp;
-
-};
+extern void idrp_init(void);
 
 #endif /* _ROUTER_IDRP_H */

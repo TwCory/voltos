@@ -3,6 +3,7 @@
 /*
  *	include/voltos/netconf.h
  *
+ *	Network Configuration Protocol (NETCONF)
  */
 
 #ifndef _VOLTOS_NETCONF_H

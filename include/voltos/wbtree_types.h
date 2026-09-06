@@ -17,6 +17,14 @@ struct wb_root {
 
 };
 
+struct wb_root_cached {
+
+};
+
+struct wb_root_linked {
+
+};
+
 #define WB_ROOT
 #define WB_ROOT_CACHED
 #define WB_ROOT_LINKED

@@ -9,8 +9,6 @@
 #ifndef _ROUTER_MRD_H
 #define _ROUTER_MRD_H
 
-struct mrd_interface {
-
-};
+extern void mrd_init(void);
 
 #endif /* _ROUTER_MRD_H */

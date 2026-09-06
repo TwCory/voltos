@@ -9,25 +9,10 @@
 #ifndef _ROUTER_LISP_H
 #define _ROUTER_LISP_H
 
-struct lisp_protocol;
-
-struct lisp_interface {
-	struct lisp_protocol 		*lisp;
-
-};
-
 struct lisp_protocol {
 
 };
 
-struct lisp_route {
-	struct lisp_protocol 		*lisp;
-
-};
-
-struct lisp_router {
-	struct lisp_protocol 		*lisp;
-
-};
+extern void lisp_init(void);
 
 #endif /* _ROUTER_LISP_H */

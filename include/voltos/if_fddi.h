@@ -3,6 +3,7 @@
 /*
  *	include/voltos/if_fddi.h
  *
+ *	Fiber Distributed Data Interfaces (FDDI)
  */
 
 #ifndef _VOLTOS_IF_FDDI_H

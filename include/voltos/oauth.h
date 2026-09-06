@@ -3,7 +3,7 @@
 /*
  *	include/voltos/oauth.h
  *
- * 	OAuth
+ * 	OAuth Framework
  */
 
 #ifndef _VOLTOS_OAUTH_H

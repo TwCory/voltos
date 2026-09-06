@@ -8,6 +8,6 @@
 #ifndef _ROUTER_STUN_H
 #define _ROUTER_STUN_H
 
-
+extern void stun_init(void);
 
 #endif /* _ROUTER_STUN_H */

@@ -8,15 +8,6 @@
 #ifndef _ROUTER_BFD_H
 #define _ROUTER_BFD_H
 
-struct bfd_protocol;
-
-struct bfd_interface {
-	struct bfd_protocol 		*bfd;
-
-};
-
-struct bfd_protocol {
-
-};
+extern void bfd_init(void);
 
 #endif /* _ROUTER_BFD_H */

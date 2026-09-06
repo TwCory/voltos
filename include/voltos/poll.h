@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/poll.h>
 
+typedef struct poll_table {
+
+} poll_table_t;
+
 #endif /* _VOLTOS_POLL_H */
