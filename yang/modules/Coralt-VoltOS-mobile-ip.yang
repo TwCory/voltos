@@ -2,4 +2,16 @@ module Coralt-VoltOS-mobile-ip {
     yang-version 1.1;
     namespace "";
     prefix voltos-mobile-ip;
+
+    grouping config-ip-mobile-grouping {
+
+    }
+
+    grouping config-ipv6-mobile-grouping {
+        
+    }
+
+    grouping router-mobile-grouping {
+
+    }
 }

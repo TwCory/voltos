@@ -13,8 +13,8 @@
 #include <nbapi/voltos/tn3270_char_map.h>
 
 struct tn3270_char_map {
-	const char name;
-	refcount_t refcount;
+	const char 				name[TN3270_CHAR_MAP_NAME_SIZE];
+	refcount_t 				refcount;
 };
 
 #endif /* _VOLTOS_TN3270_CHAR_MAP_H */

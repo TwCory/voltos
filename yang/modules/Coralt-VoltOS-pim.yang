@@ -2,4 +2,12 @@ module Coralt-VoltOS-pim {
     yang-version 1.1;
     namespace "";
     prefix voltos-pim;
+
+    grouping config-ip-pim-grouping {
+
+    }
+
+    grouping config-ipv6-pim-grouping {
+        
+    }
 }

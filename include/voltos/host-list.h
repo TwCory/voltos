@@ -12,8 +12,8 @@
 #include <nbapi/voltos/host-list.h>
 
 struct host_list {
-	const char 			name[HOST_LIST_NAME_SIZE];
-	refcount_t 			refcount;
+	const char 				name[HOST_LIST_NAME_SIZE];
+	refcount_t 				refcount;
 };
 
 #endif /* _VOLTOS_HOST_LIST_H */

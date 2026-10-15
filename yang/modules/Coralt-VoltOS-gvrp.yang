@@ -2,4 +2,10 @@ module Coralt-VoltOS-gvrp {
     yang-version 1.1;
     namespace "";
     prefix voltos-gvrp;
+
+    grouping config-gvrp-grouping {
+        container gvrp {
+            
+        }
+    }
 }

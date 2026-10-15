@@ -12,8 +12,8 @@
 #include <nbapi/voltos/flow-sampler-map.h>
 
 struct flow_sampler_map {
-	const char 		name[FLOW_SAMPLER_MAP_NAME_SIZE];
-	refcount_t 		refcount;
+	const char 				name[FLOW_SAMPLER_MAP_NAME_SIZE];
+	refcount_t 				refcount;
 };
 
 #endif /* _VOLTOS_FLOW_SAMPLER_MAP_H */

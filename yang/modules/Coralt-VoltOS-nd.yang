@@ -2,4 +2,12 @@ module Coralt-VoltOS-nd {
     yang-version 1.1;
     namespace "";
     prefix voltos-nd;
+
+    grouping config-ipv6-nd-grouping {
+
+    }
+
+    grouping config-ipv6-neighbour-grouping {
+        
+    }
 }

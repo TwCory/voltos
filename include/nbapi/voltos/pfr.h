@@ -13,7 +13,7 @@ enum pfr_role_type {
 	PFR_ROLE_TYPE_T_UNSPEC		= 0,
 	PFR_ROLE_TYPE_T_MASTER		= 1,
 	PFR_ROLE_TYPE_T_BORDER		= 2,
-	__PFR_ROLE_TYPE_T_MAX__
+	PFR_ROLE_TYPE_T_MAX
 };
 
 #endif /* _NBAPI_VOLTOS_PFR_H */

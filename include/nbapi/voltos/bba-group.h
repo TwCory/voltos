@@ -15,7 +15,7 @@
 enum bba_group_type {
 	BBA_GROUP_TYPE_T_UNSPEC			= 0,
 	BBA_GROUP_TYPE_T_PPPOE			= 1,
-	__BBA_GROUP_TYPE_T_MAX__
+	BBA_GROUP_TYPE_T_MAX
 };
 
 #endif /* _NBAPI_VOLTOS_BBA_GROUP_H */

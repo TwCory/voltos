@@ -12,8 +12,8 @@
 #include <nbapi/voltos/host.h>
 
 struct host {
-	const char 			name;
-	refcount_t 			refcount;
+	const char 				name;
+	refcount_t 				refcount;
 };
 
 #endif /* _VOLTOS_HOST_H */

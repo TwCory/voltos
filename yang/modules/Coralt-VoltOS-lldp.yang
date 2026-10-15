@@ -2,4 +2,16 @@ module Coralt-VoltOS-lldp {
     yang-version 1.1;
     namespace "";
     prefix voltos-lldp;
+
+    grouping config-lldp-grouping {
+        container lldp {
+
+        }
+    }
+
+    grouping interface-lldp-grouping {
+        container lldp {
+            
+        }
+    }
 }

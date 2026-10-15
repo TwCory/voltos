@@ -25,4 +25,8 @@ struct sb_root_linked {
 
 };
 
+#define SB_ROOT
+#define SB_ROOT_CACHED
+#define SB_ROOT_LINKED
+
 #endif /* _VOLTOS_SBTREE_TYPES_H */

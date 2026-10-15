@@ -14,7 +14,7 @@ enum port_map_type {
 	PORT_MAP_TYPE_T_UNSPEC			= 0,
 	PORT_MAP_TYPE_T_IPV4			= 1,
 	PORT_MAP_TYPE_T_IPV6			= 2,
-	__PORT_MAP_TYPE_T_MAX__
+	PORT_MAP_TYPE_T_MAX
 };
 
 #endif /* _NBAPI_VOLTOS_PORT_MAP_H */

@@ -2,4 +2,8 @@ module Coralt-VoltOS-zhls {
     yang-version 1.1;
     namespace "";
     prefix voltos-zhls;
+
+    grouping router-zhls-grouping {
+        
+    }
 }

@@ -2,4 +2,12 @@ module Coralt-VoltOS-vrf {
     yang-version 1.1;
     namespace "";
     prefix voltos-vrf;
+
+    grouping config-vrf-grouping {
+
+    }
+
+    grouping config-ip-vrf-grouping {
+        
+    }
 }

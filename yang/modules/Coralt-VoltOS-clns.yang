@@ -1,39 +1,10 @@
 module Coralt-VoltOS-clns {
 
     grouping config-clns-grouping {
-        leaf cache-invalidate-delay;
-        leaf configuration-time;
-        leaf filter-expr;
-        leaf filter-set;
-        leaf holding-time;
-        leaf host;
-        leaf net;
-        leaf packet-lifetime;
-        leaf packet-rate;
-        leaf route;
-        leaf routing;
-        leaf security;
-        leaf template-alias;
-        leaf want-erpdu;
+
     }
 
     grouping interface-clns-grouping {
-        leaf adjacency-filter;
-        leaf checksum;
-        leaf cluster-alias;
-        leaf congestion-threshold;
-        leaf dec-compatible;
-        leaf enable;
-        leaf erpdu-interval;
-        leaf esct-time;
-        leaf es-neighbour;
-        leaf is-neighbour;
-        leaf mtu;
-        leaf rdpdu-interval;
-        leaf route-cache;
-        leaf router;
-        leaf send-erpdu;
-        leaf send-rdpdu;
-        leaf split-horizon;
+
     }
 }

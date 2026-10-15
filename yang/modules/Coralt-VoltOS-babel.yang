@@ -2,4 +2,8 @@ module Coralt-VoltOS-babel {
     yang-version 1.1;
     namespace "";
     prefix voltos-babel;
+
+    grouping router-babel-grouping {
+        
+    }
 }

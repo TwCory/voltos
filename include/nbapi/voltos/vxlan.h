@@ -10,8 +10,10 @@
 
 #include <voltos/types.h>
 
-struct vxlan_vni {
+#define VXLAN_VNI_SIZE			3
 
+struct vxlan_vni {
+	__u8 				s_vni[VXLAN_VNI_SIZE];
 };
 
 struct vxlan_hdr {

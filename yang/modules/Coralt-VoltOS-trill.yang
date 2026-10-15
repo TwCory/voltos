@@ -2,4 +2,12 @@ module Coralt-VoltOS-trill {
     yang-version 1.1;
     namespace "";
     prefix voltos-trill;
+
+    grouping config-trill-grouping {
+
+    }
+
+    grouping interface-trill-grouping {
+        
+    }
 }

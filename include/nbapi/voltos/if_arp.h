@@ -167,7 +167,7 @@ enum arp_mode {
 	ARP_MODE_T_APP_SIMPLE			= 6,
 	ARP_MODE_T_APP_ALIAS			= 7,
 	ARP_MODE_T_APP_TIMER			= 8,
-	__ARP_MODE_T_MAX__
+	ARP_MODE_T_MAX
 };
 
 enum arp_type {
@@ -177,7 +177,7 @@ enum arp_type {
 	ARP_TYPE_T_SNAP				= 4,
 	ARP_TYPE_T_SRP_A			= 5,
 	ARP_TYPE_T_SRP_B			= 6,
-	__ARP_TYPE_T_MAX__
+	ARP_TYPE_T_MAX
 };
 
 struct arp_hdr {

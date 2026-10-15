@@ -2,4 +2,19 @@ module Coralt-VoltOS-pnni {
     yang-version 1.1;
     namespace "";
     prefix voltos-pnni;
+
+    organization
+        "Coralt Networking Foundation";
+    description
+        "Coralt VoltOS:
+         Private Network-to-Network Interface (PNNI) YANG Model";
+
+    revision 2024-02-11 {
+        description
+            "Initial Revision";
+    }
+
+    grouping router-pnni-grouping {
+        
+    }
 }

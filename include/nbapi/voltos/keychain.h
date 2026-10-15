@@ -16,7 +16,7 @@ enum key_chain_type {
 	KEY_CHAIN_TYPE_T_GENERIC 		= 1,
 	KEY_CHAIN_TYPE_T_MACSEC 		= 2,
 	KEY_CHAIN_TYPE_T_TCP 			= 3,
-	__KEY_CHAIN_TYPE_T_MAX__
+	KEY_CHAIN_TYPE_T_MAX
 };
 
 #endif /* _NBAPI_VOLTOS_KEYCHAIN_H */

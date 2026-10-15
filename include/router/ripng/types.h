@@ -11,7 +11,7 @@
 #include <voltos/inet.h>
 #include <voltos/types.h>
 
-typedef ipv6_addr_t 					ripng_address_t;
-typedef ipv6_prefix_t 					ripng_prefix_t;
+typedef ipv6_addr_t 					rip6_address_t;
+typedef ipv6_prefix_t 					rip6_prefix_t;
 
 #endif /* _ROUTER_RIPNG_TYPES_H */

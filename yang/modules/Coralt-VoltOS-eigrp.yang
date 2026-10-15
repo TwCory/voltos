@@ -1,5 +1,10 @@
 module Coralt-VoltOS-eigrp {
 
-    grouping ipv6-router-eigrp-grouping;
-    grouping router-eigrp-grouping;
+    grouping router-eigrp-grouping {
+
+    }
+
+    grouping ipv6-router-eigrp-grouping {
+        
+    }
 }

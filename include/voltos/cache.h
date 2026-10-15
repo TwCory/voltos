@@ -10,6 +10,9 @@
 
 #include <nbapi/voltos/voltos.h>
 
+#define L1_CACHE_SHIFT			5
+#define L1_CACHE_BYTES			(1 << L1_CACHE_SHIFT)
+
 #ifndef L1_CACHE_ALIGN
 #define L1_CACHE_ALIGN(x)
 #endif

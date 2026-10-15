@@ -9,14 +9,12 @@
 #ifndef _NBAPI_VOLTOS_HSR_H
 #define _NBAPI_VOLTOS_HSR_H
 
-#include <voltos/types.h>
-
 enum hsr_protocol_state {
 	HSR_PROTOCOL_STATE_T_UNKNOWN		= 0,
 	HSR_PROTOCOL_STATE_T_ERROR		= 1,
 	HSR_PROTOCOL_STATE_T_ENABLED		= 2,
 	HSR_PROTOCOL_STATE_T_DISABLED		= 3,
-	__HSR_PROTOCOL_STATE_T_MAX__
+	HSR_PROTOCOL_STATE_T_MAX
 };
 
 enum hsr_ring_state {
@@ -26,7 +24,7 @@ enum hsr_ring_state {
 	HSR_RING_STATE_T_UP			= 3,
 	HSR_RING_STATE_T_ADMIN_DOWN		= 4,
 	HSR_RING_STATE_T_SUSPENDED		= 5,
-	__HSR_RING_STATE_T_MAX__
+	HSR_RING_STATE_T_MAX
 };
 
 enum hsr_ring_mode {
@@ -38,7 +36,7 @@ enum hsr_ring_mode {
 	HSR_RING_MODE_T_M			= 5,
 	HSR_RING_MODE_T_U			= 6,
 	HSR_RING_MODE_T_X			= 7,
-	__HSR_RING_MODE_T_MAX__
+	HSR_RING_MODE_T_MAX
 };
 
 enum hsr_network_layer {
@@ -46,7 +44,7 @@ enum hsr_network_layer {
 	HSR_NETWORK_LAYER_T_ERROR		= 1,
 	HSR_NETWORK_LAYER_T_LAYER2		= 2,
 	HSR_NETWORK_LAYER_T_LAYER3		= 3,
-	__HSR_NETWORK_LAYER_T_MAX__
+	HSR_NETWORK_LAYER_T_MAX
 };
 
 enum hsr_redbox_mode {
@@ -55,7 +53,7 @@ enum hsr_redbox_mode {
 	HSR_REDBOX_MODE_T_HSR_PRP_LAN_A		= 2,
 	HSR_REDBOX_MODE_T_HSR_PRP_LAN_B		= 3,
 	HSR_REDBOX_MODE_T_HSR_HSR		= 4,
-	__HSR_REDBOX_MODE_T_MAX__
+	HSR_REDBOX_MODE_T_MAX
 };
 
 enum hsr_node_type {
@@ -64,7 +62,7 @@ enum hsr_node_type {
 	HSR_NODE_TYPE_T_SAN_A			= 2,
 	HSR_NODE_TYPE_T_SAN_B			= 3,
 	HSR_NODE_TYPE_T_DANH			= 4,
-	__HSR_NODE_TYPE_T_MAX__
+	HSR_NODE_TYPE_T_MAX
 };
 
 #endif /* _NBAPI_VOLTOS_HSR_H */

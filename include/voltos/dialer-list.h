@@ -12,8 +12,8 @@
 #include <nbapi/voltos/dialer-list.h>
 
 struct dialer_list {
-	const char name;
-	refcount_t refcount;
+	const char 				name[DIALER_LIST_NAME_SIZE];
+	refcount_t 				refcount;
 };
 
 #endif /* _VOLTOS_DIALER_LIST_H */

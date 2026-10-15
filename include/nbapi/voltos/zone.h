@@ -14,7 +14,7 @@
 enum zone_type {
 	ZONE_TYPE_T_UNSPEC			= 0,
 	ZONE_TYPE_T_SECURITY			= 1,
-	__ZONE_TYPE_T_MAX__
+	ZONE_TYPE_T_MAX
 };
 
 #endif /* _NBAPI_VOLTOS_ZONE_H */

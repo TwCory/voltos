@@ -1,10 +1,6 @@
 module Coralt-VoltOS-ipc {
 
     grouping config-ipc-grouping {
-        leaf buffers;
-        leaf header-cache;
-        leaf holdq;
-        leaf master;
-        leaf zone;
+
     }
 }

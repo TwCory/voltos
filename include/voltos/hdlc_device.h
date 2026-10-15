@@ -12,7 +12,7 @@
 #include <nbapi/voltos/hdlc_device.h>
 
 struct hdlc_device {
-
+	struct device device;
 };
 
 #endif /* _VOLTOS_HDLC_DEVICE_H */
