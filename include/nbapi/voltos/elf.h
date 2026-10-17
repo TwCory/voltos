@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/elf.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_ELF_H
+#define _NBAPI_VOLTOS_ELF_H
+
+#include <elf.h>
+#include <voltos/types.h>
+
+#endif /* _NBAPI_VOLTOS_ELF_H */

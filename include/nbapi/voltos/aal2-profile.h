@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/aal2-profile.h
+ *
+ * 	ATM Adaptation Layer 2 (AAL2) Profile
+ */
+
+#ifndef _NBAPI_VOLTOS_AAL2_PROFILE_H
+#define _NBAPI_VOLTOS_AAL2_PROFILE_H
+
+#endif /* _NBAPI_VOLTOS_AAL2_PROFILE_H */

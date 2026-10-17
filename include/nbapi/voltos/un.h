@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/un.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_UN_H
+#define _NBAPI_VOLTOS_UN_H
+
+#include <voltos/socket.h>
+#include <voltos/types.h>
+
+struct sockaddr_un {
+	__voltos_sa_family_t 		sun_family;
+};
+
+#endif /* _NBAPI_VOLTOS_UN_H */

@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/sna.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_SNA_H
+#define _NBAPI_VOLTOS_SNA_H
+
+#include <voltos/socket.h>
+#include <voltos/types.h>
+
+struct sna_addr {
+
+};
+
+struct sockaddr_sna {
+	__voltos_sa_family_t 		ssna_family;
+	struct sna_addr 		ssna_addr;
+};
+
+#endif /* _NBAPI_VOLTOS_SNA_H */

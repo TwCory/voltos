@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/vines.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_VINES_H
+#define _NBAPI_VOLTOS_VINES_H
+
+#include <voltos/socket.h>
+#include <voltos/types.h>
+
+struct vines_addr {
+
+};
+
+struct sockaddr_vines {
+	__voltos_sa_family_t 		svines_family;
+	struct vines_addr 		svines_addr;
+};
+
+#endif /* _NBAPI_VOLTOS_VINES_H */
