@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/acap.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_ACAP_H
+#define _NBAPI_VOLTOS_ACAP_H
+
+#endif /* _NBAPI_VOLTOS_ACAP_H */

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/port-map.h
  *
- * 	Port Mapping Protocol (PMP)
+ * 	Port Mapping Protocol (PMP) Port Map
  */
 
 #ifndef _NBAPI_VOLTOS_PORT_MAP_H

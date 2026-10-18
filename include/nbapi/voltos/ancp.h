@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/nbapi/voltos/ancp.h
+ *
+ */
+
+#ifndef _NBAPI_VOLTOS_ANCP_H
+#define _NBAPI_VOLTOS_ANCP_H
+
+#endif /* _NBAPI_VOLTOS_ANCP_H */

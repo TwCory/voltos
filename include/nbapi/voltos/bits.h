@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/bits.h
  *
+ * 	Generic Bitmask Manipulation Macros
  */
 
 #ifndef _NBAPI_VOLTOS_BITS_H

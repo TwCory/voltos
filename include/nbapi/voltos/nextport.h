@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/nextport.h
  *
+ * 	NextPort Digital Signal Processor (DSP) Resources
  */
 
 #ifndef _NBAPI_VOLTOS_NEXTPORT_H

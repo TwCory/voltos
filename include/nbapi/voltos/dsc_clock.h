@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/dsc_clock.h
  *
+ * 	Dial Shelf Controller (DSC) Clock
  */
 
 #ifndef _NBAPI_VOLTOS_DSC_CLOCK_H

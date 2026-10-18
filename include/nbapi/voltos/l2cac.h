@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/l2cac.h
  *
+ * 	Layer 2 Call Admission Control (L2CAC)
  */
 
 #ifndef _NBAPI_VOLTOS_L2CAC_H
