@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/linecard.h
  *
+ * 	Line Card Device
  */
 
 #ifndef _NBAPI_VOLTOS_LINECARD_H

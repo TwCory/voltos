@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/clock.h
  *
+ * 	Clock Device
  */
 
 #ifndef _NBAPI_VOLTOS_CLOCK_H

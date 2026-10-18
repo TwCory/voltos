@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/isdn.h
  *
+ * 	Integrated Services Digital Network (ISDN) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_ISDN_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/bridge_matm.h
  *
+ * 	Bridge MAC Address Translation Manager (MATM)
  */
 
 #ifndef _NBAPI_VOLTOS_BRIDGE_MATM_H

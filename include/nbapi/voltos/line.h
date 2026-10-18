@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/line.h
  *
+ * 	Terminal/CLI Lines
  */
 
 #ifndef _NBAPI_VOLTOS_LINE_H

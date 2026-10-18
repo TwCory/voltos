@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/decnet.h
  *
+ * 	DECnet Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_DECNET_H

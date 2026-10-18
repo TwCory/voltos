@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cofp.h
  *
+ * 	Coralt Optimized Forwarding Plane (COFP)
  */
 
 #ifndef _NBAPI_VOLTOS_COFP_H

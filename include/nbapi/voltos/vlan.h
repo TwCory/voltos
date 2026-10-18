@@ -3,10 +3,13 @@
 /*
  *	include/nbapi/voltos/vlan.h
  *
+ * 	Virtual Local Area Network (VLAN)
  */
 
 #ifndef _NBAPI_VOLTOS_VLAN_H
 #define _NBAPI_VOLTOS_VLAN_H
+
+#define VLAN_NAME_SIZE			32
 
 typedef unsigned short 			__voltos_vlan_id_t;
 

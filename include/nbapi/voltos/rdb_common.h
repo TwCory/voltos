@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rdb_common.h
  *
+ * 	Routing Descriptor Block (RDB)
  */
 
 #ifndef _NBAPI_VOLTOS_RDB_COMMON_H

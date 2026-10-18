@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipx.h
  *
+ * 	Internetwork Packet Exchange (IPX) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_IPX_H

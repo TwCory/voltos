@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/license.h
  *
+ * 	License Management
  */
 
 #ifndef _NBAPI_VOLTOS_LICENSE_H

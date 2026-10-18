@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/fras.h
  *
+ * 	IBM Frame Relay Access Support (FRAS)
  */
 
 #ifndef _NBAPI_VOLTOS_FRAS_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/fpm.h
  *
+ * 	Flexible Packet Matching (FPM)
  */
 
 #ifndef _NBAPI_VOLTOS_FPM_H

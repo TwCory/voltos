@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/atmpvc.h
  *
+ * 	Asynchronous Transfer Mode (ATM) Permenant Virtual Circuit (PVC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_ATMPVC_H

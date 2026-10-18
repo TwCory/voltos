@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cmts.h
  *
+ * 	Cable Modem Termination System (CMTS)
  */
 
 #ifndef _NBAPI_VOLTOS_CMTS_H

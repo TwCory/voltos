@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/statfs.h
+ *
+ */
+
+#ifndef _VOLTOS_STATFS_H
+#define _VOLTOS_STATFS_H
+
+#include <sys/statfs.h>
+#include <nbapi/voltos/statfs.h>
+
+struct vs_statfs {
+
+};
+
+#endif /* _VOLTOS_STATFS_H */

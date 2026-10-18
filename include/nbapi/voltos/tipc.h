@@ -12,7 +12,7 @@
 #include <voltos/types.h>
 
 struct sockaddr_tipc {
-	__voltos_sa_family_t 		stipc_family;
+	__voltos_sa_family_t 			stipc_family;
 };
 
 #endif /* _NBAPI_VOLTOS_TIPC_H */

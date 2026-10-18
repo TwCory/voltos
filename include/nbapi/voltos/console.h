@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/console.h
  *
- * 	Console
+ * 	Console Device
  */
 
 #ifndef _NBAPI_VOLTOS_CONSOLE_H

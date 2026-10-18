@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/funi.h
  *
+ * 	Frame-Based User Network Interface (FUNI)
  */
 
 #ifndef _NBAPI_VOLTOS_FUNI_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/atmsvc.h
  *
+ * 	Asynchronous Transfer Mode (ATM) Switched Virtual Circuit (SVC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_ATMSVC_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/hw_module.h
  *
+ * 	Hardware Module
  */
 
 #ifndef _NBAPI_VOLTOS_HW_MODULE_H

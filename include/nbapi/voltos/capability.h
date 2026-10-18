@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/capability.h
  *
+ * 	VoltOS Capability Management
  */
 
 #ifndef _NBAPI_VOLTOS_CAPABILITY_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/connect.h
  *
+ * 	Interface Cross-Connect
  */
 
 #ifndef _NBAPI_VOLTOS_CONNECT_H

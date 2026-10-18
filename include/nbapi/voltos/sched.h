@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/sched.h
  *
+ * 	Scheduler Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_SCHED_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/atalk.h
  *
+ * 	AppleTalk Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_ATALK_H

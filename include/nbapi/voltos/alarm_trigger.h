@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/alarm_trigger.h
  *
+ * 	Alarm Trigger
  */
 
 #ifndef _NBAPI_VOLTOS_ALARM_TRIGGER_H

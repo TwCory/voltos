@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/dmvpn.h
  *
+ * 	Dynamic Multipoint VPN (DMVPN)
  */
 
 #ifndef _NBAPI_VOLTOS_DMVPN_H

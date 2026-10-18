@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/attribute.h
  *
- * 	Attribute
+ * 	Generic Attribute
  */
 
 #ifndef _NBAPI_VOLTOS_ATTRIBUTE_H

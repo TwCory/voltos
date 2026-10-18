@@ -8,4 +8,6 @@
 #ifndef _NBAPI_VOLTOS_VC_GROUP_H
 #define _NBAPI_VOLTOS_VC_GROUP_H
 
+#define VC_GROUP_NAME_SIZE	32
+
 #endif /* _NBAPI_VOLTOS_VC_GROUP_H */

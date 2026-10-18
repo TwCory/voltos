@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/fs.h
  *
+ * 	File System (FS)
  */
 
 #ifndef _NBAPI_VOLTOS_FS_H

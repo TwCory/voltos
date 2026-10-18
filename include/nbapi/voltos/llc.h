@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/llc.h
  *
+ * 	Logical Link Control (LLC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_LLC_H

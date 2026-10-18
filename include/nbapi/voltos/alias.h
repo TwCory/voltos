@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/alias.h
  *
+ * 	Generic Alias
  */
 
 #ifndef _NBAPI_VOLTOS_ALIAS_H

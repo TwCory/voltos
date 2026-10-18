@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/qipc.h
  *
+ * 	Qualcomm(R) IPC Router Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_QIPC_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/bstun.h
  *
+ * 	Block Serial Tunnel (BSTUN)
  */
 
 #ifndef _NBAPI_VOLTOS_BSTUN_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/net_snpa.h
  *
+ * 	Service Network Provider Address (SNPA)
  */
 
 #ifndef _NBAPI_VOLTOS_NET_SNPA_H

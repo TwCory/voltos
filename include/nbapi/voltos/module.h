@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/module.h
  *
+ * 	Loadable Module Support
  */
 
 #ifndef _NBAPI_VOLTOS_MODULE_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/in6.h
  *
+ * 	Internet Version 6 Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_IN6_H

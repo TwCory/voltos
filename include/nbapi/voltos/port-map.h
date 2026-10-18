@@ -3,10 +3,12 @@
 /*
  *	include/nbapi/voltos/port-map.h
  *
- * 	Port Map
+ * 	Port Mapping Protocol (PMP)
  */
 
 #ifndef _NBAPI_VOLTOS_PORT_MAP_H
 #define _NBAPI_VOLTOS_PORT_MAP_H
+
+#define PORT_MAP_NAME_SIZE	32
 
 #endif /* _NBAPI_VOLTOS_PORT_MAP_H */
