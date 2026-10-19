@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_mfr.h
  *
+ * 	Multilink Frame Relay (MFR)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_MFR_H

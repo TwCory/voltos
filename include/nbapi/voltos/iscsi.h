@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/iscsi.h
  *
- * 	In-Service Software Upgrade (ISSU)
+ * 	Internet Small Computer System Interface (iSCSI)
  */
 
 #ifndef _NBAPI_VOLTOS_ISCSI_H

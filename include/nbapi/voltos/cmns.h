@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cmns.h
  *
+ * 	Connection-Mode Network Service (CMNS)
  */
 
 #ifndef _NBAPI_VOLTOS_CMNS_H

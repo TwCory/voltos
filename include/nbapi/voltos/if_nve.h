@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_nve.h
  *
+ * 	Network Virtualization Endpoint (NVE)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_NVE_H

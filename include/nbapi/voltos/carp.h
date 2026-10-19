@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/carp.h
  *
+ * 	Common Address Redundancy Protocol (CARP)
  */
 
 #ifndef _NBAPI_VOLTOS_CARP_H

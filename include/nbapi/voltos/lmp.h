@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/lmp.h
  *
+ * 	Link Management Protocol (LMP)
  */
 
 #ifndef _NBAPI_VOLTOS_LMP_H

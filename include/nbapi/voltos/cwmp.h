@@ -3,6 +3,8 @@
 /*
  *	include/nbapi/voltos/cwmp.h
  *
+ * 	TR-069
+ * 	Customer Premises Equipment (CPE) WAN Management Protocol (CWMP)
  */
 
 #ifndef _NBAPI_VOLTOS_CWMP_H

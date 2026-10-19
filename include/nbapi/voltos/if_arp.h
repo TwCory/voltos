@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_arp.h
  *
+ * 	Address Resolution Protocol (ARP)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_ARP_H

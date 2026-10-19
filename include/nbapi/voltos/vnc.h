@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/vnc.h
  *
+ * 	Virtual Network Computing (VNC)
  */
 
 #ifndef _NBAPI_VOLTOS_VNC_H

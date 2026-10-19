@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ftp.h
  *
+ * 	File Transfer Protocol (FTP)
  */
 
 #ifndef _NBAPI_VOLTOS_FTP_H

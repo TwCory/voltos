@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/issu.h
  *
+ * 	In-Service Software Upgrade (ISSU)
  */
 
 #ifndef _NBAPI_VOLTOS_ISSU_H

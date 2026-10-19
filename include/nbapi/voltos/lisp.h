@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/lisp.h
  *
+ * 	Locator/ID Separation Protocol (LISP)
  */
 
 #ifndef _NBAPI_VOLTOS_LISP_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipfix.h
  *
+ * 	Internet Protocol Flow Information Export (IPFIX)
  */
 
 #ifndef _NBAPI_VOLTOS_IPFIX_H

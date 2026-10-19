@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/bier.h
  *
+ * 	Bit Index Explicit Replication (BIER)
  */
 
 #ifndef _NBAPI_VOLTOS_BIER_H

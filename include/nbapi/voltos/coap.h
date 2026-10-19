@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/coap.h
  *
+ * 	Constrained Application Protocol (CoAP)
  */
 
 #ifndef _NBAPI_VOLTOS_COAP_H

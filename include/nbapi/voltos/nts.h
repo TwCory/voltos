@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/nts.h
  *
+ * 	Network Time Security (NTS)
  */
 
 #ifndef _NBAPI_VOLTOS_NTS_H

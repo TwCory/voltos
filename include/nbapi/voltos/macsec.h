@@ -3,6 +3,8 @@
 /*
  *	include/nbapi/voltos/macsec.h
  *
+ * 	IEEE 802.1AE
+ * 	Medium Access Control Security (MACsec)
  */
 
 #ifndef _NBAPI_VOLTOS_MACSEC_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/l2nat.h
  *
+ * 	Layer 2 Network Address Translation (L2NAT)
  */
 
 #ifndef _NBAPI_VOLTOS_L2NAT_H

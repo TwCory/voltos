@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/crypto_user_frontend.h
  *
- * 	Crypto Module User-Level Frontend
+ * 	Crypto Module User/Northbound API Frontend
  */
 
 #ifndef _NBAPI_VOLTOS_CRYPTO_USER_FRONTEND_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/sntp.h
  *
+ * 	Simple Network Time Protocol (SNTP)
  */
 
 #ifndef _NBAPI_VOLTOS_SNTP_H

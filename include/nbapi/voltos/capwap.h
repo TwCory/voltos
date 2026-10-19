@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/capwap.h
  *
+ * 	Control And Provisioning of Wireless Access Points (CAPWAP)
  */
 
 #ifndef _NBAPI_VOLTOS_CAPWAP_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ddp.h
  *
+ * 	Datagram Delivery Protocol (DDP)
  */
 
 #ifndef _NBAPI_VOLTOS_DDP_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/tipc.h
  *
+ * 	Linux TIPC Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_TIPC_H

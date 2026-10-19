@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cdp.h
  *
+ * 	Cisco Discovery Protocol (CDP)
  */
 
 #ifndef _NBAPI_VOLTOS_CDP_H

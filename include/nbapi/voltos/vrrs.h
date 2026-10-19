@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/vrrs.h
  *
+ * 	Virtual Router Redundancy Services (VRRS)
  */
 
 #ifndef _NBAPI_VOLTOS_VRRS_H

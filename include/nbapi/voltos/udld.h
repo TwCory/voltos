@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/udld.h
  *
- * 	Uni-Directional Link Detection (UDLD)
+ * 	Unidirectional Link Detection (UDLD)
  */
 
 #ifndef _NBAPI_VOLTOS_UDLD_H
