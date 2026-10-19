@@ -9,5 +9,6 @@
 #ifndef _NBAPI_VOLTOS_DNS_H
 #define _NBAPI_VOLTOS_DNS_H
 
+#define DNS_PORT
 
 #endif /* _NBAPI_VOLTOS_DNS_H */

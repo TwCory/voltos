@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_BGP_H
 #define _NBAPI_VOLTOS_BGP_H
 
+#define BGP_PORT
+
 #endif /* _NBAPI_VOLTOS_BGP_H */

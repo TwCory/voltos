@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_BABEL_H
 #define _NBAPI_VOLTOS_BABEL_H
 
+#define BABEL_PORT
+
 #endif /* _NBAPI_VOLTOS_BABEL_H */

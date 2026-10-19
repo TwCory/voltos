@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_MDNS_H
 #define _NBAPI_VOLTOS_MDNS_H
 
+#define MDNS_PORT
+
 #endif /* _NBAPI_VOLTOS_MDNS_H */

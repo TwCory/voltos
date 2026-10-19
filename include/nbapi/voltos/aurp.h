@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_AURP_H
 #define _NBAPI_VOLTOS_AURP_H
 
+#define AURP_PORT
+
 #endif /* _NBAPI_VOLTOS_AURP_H */
