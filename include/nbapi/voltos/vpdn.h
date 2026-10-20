@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/vpdn.h
  *
+ * 	Virtual Private Dial-Up Network (VPDN)
  */
 
 #ifndef _NBAPI_VOLTOS_VPDN_H

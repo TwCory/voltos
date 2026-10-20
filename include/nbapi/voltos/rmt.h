@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rmt.h
  *
+ * 	Reliable Multicast Transport (RMT)
  */
 
 #ifndef _NBAPI_VOLTOS_RMT_H

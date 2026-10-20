@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/pfsync.h
  *
+ * 	Packet Filter Sync (PfSync) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_PFSYNC_H

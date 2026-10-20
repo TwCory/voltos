@@ -3,6 +3,8 @@
 /*
  *	include/nbapi/voltos/tacacs.h
  *
+ * 	Terminal Access Controller Access Control System (TACACS)
+ * 	Terminal Access Controller Access Control System Plus (TACACS+)
  */
 
 #ifndef _NBAPI_VOLTOS_TACACS_H

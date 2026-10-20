@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipfs.h
  *
+ * 	Inter-Planetary File System (IPFS)
  */
 
 #ifndef _NBAPI_VOLTOS_IPFS_H

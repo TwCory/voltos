@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/event.h
  *
+ * 	Event Handler Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_EVENT_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ppp_channel.h
  *
+ * 	Point-to-Point Protocol (PPP)
  */
 
 #ifndef _NBAPI_VOLTOS_PPP_CHANNEL_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ppp-ioctl.h
  *
+ * 	Point-to-Point Protocol (PPP)
  */
 
 #ifndef _NBAPI_VOLTOS_PPP_IOCTL_H

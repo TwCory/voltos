@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/gse.h
  *
+ * 	Generic Stream Encapsulation (GSE)
  */
 
 #ifndef _NBAPI_VOLTOS_GSE_H

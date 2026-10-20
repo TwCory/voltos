@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/pfkey.h
  *
- * 	PF_KEY Socket Family
+ * 	AF_KEY/PF_KEY Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_PFKEY_H

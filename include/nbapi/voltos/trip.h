@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/trip.h
  *
+ * 	Telephony Routing over IP (TRIP)
  */
 
 #ifndef _NBAPI_VOLTOS_TRIP_H

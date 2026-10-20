@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/dirent.h
+ *
+ */
+
+#ifndef _VOLTOS_DIRENT_H
+#define _VOLTOS_DIRENT_H
+
+#include <dirent.h>
+
+#endif /* _VOLTOS_DIRENT_H */

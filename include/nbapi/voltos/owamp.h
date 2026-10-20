@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/owamp.h
  *
+ * 	One-Way Active Measurement Protocol (OWAMP)
  */
 
 #ifndef _NBAPI_VOLTOS_OWAMP_H

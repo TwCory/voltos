@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/pnp.h
  *
- * 	Plug 'n' Play (PnP)
+ * 	Plug and Play (PnP)
  */
 
 #ifndef _NBAPI_VOLTOS_PNP_H

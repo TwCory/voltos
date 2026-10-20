@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/lapd.h
  *
+ * 	Link Access Procedure, D-Channel (LAPD)
  */
 
 #ifndef _NBAPI_VOLTOS_LAPD_H

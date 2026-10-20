@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/radsec.h
  *
+ * 	Remote Authentication Dial-In User Service (RADIUS) Security Extensions (RadSec)
  */
 
 #ifndef _NBAPI_VOLTOS_RADSEC_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/device-sensor.h
  *
+ * 	Device Sensor Feature
  */
 
 #ifndef _NBAPI_VOLTOS_DEVICE_SENSOR_H

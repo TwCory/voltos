@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ztp.h
  *
+ * 	Zero-Touch Provisioning (ZTP)
  */
 
 #ifndef _NBAPI_VOLTOS_ZTP_H

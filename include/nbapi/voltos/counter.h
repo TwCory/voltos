@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/counter.h
  *
+ * 	Counter Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_COUNTER_H

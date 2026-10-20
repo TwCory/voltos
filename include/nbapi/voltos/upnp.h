@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/upnp.h
  *
- * 	Universal Plug 'n' Play (UPnP)
+ * 	Universal Plug and Play (UPnP)
  */
 
 #ifndef _NBAPI_VOLTOS_UPNP_H

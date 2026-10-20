@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/bridge-group.h
  *
- * 	Bridge Group
+ * 	Bridge Group Module
  * 	Concurrent Routing and Bridging (CRB)
  * 	Integrated Routing and Bridging (IRB)
  */

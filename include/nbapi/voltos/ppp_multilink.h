@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ppp_multilink.h
  *
+ * 	Point-to-Point Protocol (PPP)
  */
 
 #ifndef _NBAPI_VOLTOS_PPP_MULTILINK_H

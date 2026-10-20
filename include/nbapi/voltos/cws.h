@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/cws.h
  *
- * 	Cloud Web Security (CWS)
+ * 	Cloud Web Security (CWS) Module
  */
 
 #ifndef _NBAPI_VOLTOS_CWS_H

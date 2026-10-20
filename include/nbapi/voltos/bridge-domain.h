@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/bridge-domain.h
  *
- * 	Bridge Domain
+ * 	Bridge Domain Module
  */
 
 #ifndef _NBAPI_VOLTOS_BRIDGE_DOMAIN_H

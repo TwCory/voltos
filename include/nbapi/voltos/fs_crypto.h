@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/fs_crypto.h
  *
+ * 	File System (FS) Crypto
  */
 
 #ifndef _NBAPI_VOLTOS_FS_CRYPTO_H

@@ -3,6 +3,8 @@
 /*
  *	include/nbapi/voltos/zerotier.h
  *
+ * 	ZeroTier One
+ * 	ZeroTier Quantum
  */
 
 #ifndef _NBAPI_VOLTOS_ZEROTIER_H

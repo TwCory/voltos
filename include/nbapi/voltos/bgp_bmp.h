@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/bgp_bmp.h
  *
+ * 	Border Gateway Protocol (BGP)
  * 	BGP Monitoring Protocol (BMP)
  */
 

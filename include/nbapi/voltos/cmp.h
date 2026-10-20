@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cmp.h
  *
+ * 	Certificate Management Protocol (CMP)
  */
 
 #ifndef _NBAPI_VOLTOS_CMP_H

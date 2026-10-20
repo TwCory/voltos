@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/vnc.h
  *
- * 	Virtual Network Computing (VNC)
+ * 	Virtual Network Computing (VNC) Remote Access Service
  */
 
 #ifndef _NBAPI_VOLTOS_VNC_H

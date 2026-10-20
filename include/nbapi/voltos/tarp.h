@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/tarp.h
  *
+ * 	TID Address Resolution Protocol (TARP)
  */
 
 #ifndef _NBAPI_VOLTOS_TARP_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/fib_events.h
  *
+ * 	Forwarding Information Base (FIB) Events
  */
 
 #ifndef _NBAPI_VOLTOS_FIB_EVENTS_H

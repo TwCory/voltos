@@ -3,6 +3,8 @@
 /*
  *	include/nbapi/voltos/bgp_flowspec.h
  *
+ * 	Border Gateway Protocol (BGP)
+ * 	Flow Spec
  */
 
 #ifndef _NBAPI_VOLTOS_BGP_FLOWSPEC_H

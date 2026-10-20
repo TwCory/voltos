@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/oauth.h
  *
- * 	Open Authentication
+ * 	Open Authentication Framework
  */
 
 #ifndef _NBAPI_VOLTOS_OAUTH_H

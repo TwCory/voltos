@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/acap.h
  *
+ * 	Application Access Protocol (ACAP)
  */
 
 #ifndef _NBAPI_VOLTOS_ACAP_H

@@ -3,7 +3,8 @@
 /*
  *	include/nbapi/voltos/bgp_rpki.h
  *
- * 	BGP Resource Public Key Infrastructure (RPKI)
+ * 	Border Gateway Protocol (BGP) 
+ * 	Resource Public Key Infrastructure (RPKI)
  */
 
 #ifndef _NBAPI_VOLTOS_BGP_RPKI_H

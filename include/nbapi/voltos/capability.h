@@ -15,9 +15,9 @@
 #define _VOLTOS_CAPABILITY_U32S			1
 
 struct __user_capability_ctx {
-	uint32_t effective;
-	uint32_t permitted;
-	uint32_t inheritable;
+	uint32_t 				effective;
+	uint32_t 				permitted;
+	uint32_t 				inheritable;
 };
 
 typedef struct __user_capability_ctx		*user_capability_ctx_t;

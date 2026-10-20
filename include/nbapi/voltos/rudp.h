@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rudp.h
  *
+ * 	Reliable User Datagram Protocol (RUDP)
  */
 
 #ifndef _NBAPI_VOLTOS_RUDP_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/fx25.h
  *
+ * 	Forward Error Correction (FEC) for AX.25 (FX.25)
  */
 
 #ifndef _NBAPI_VOLTOS_FX25_H

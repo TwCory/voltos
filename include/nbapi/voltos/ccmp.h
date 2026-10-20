@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ccmp.h
  *
+ * 	Centralized Conference Management Protocol (CCMP)
  */
 
 #ifndef _NBAPI_VOLTOS_CCMP_H
