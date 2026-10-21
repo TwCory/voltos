@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/sap-priority-list.h
+ *
+ */
+
+#ifndef _VOLTOS_SAP_PRIORITY_LIST_H
+#define _VOLTOS_SAP_PRIORITY_LIST_H
+
+#endif /* _VOLTOS_SAP_PRIORITY_LIST_H */

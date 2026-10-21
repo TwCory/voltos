@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/if_loopback.h
+ *
+ */
+
+#ifndef _VOLTOS_IF_LOOPBACK_H
+#define _VOLTOS_IF_LOOPBACK_H
+
+#endif /* _VOLTOS_IF_LOOPBACK_H */
