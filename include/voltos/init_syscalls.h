@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/init_syscalls.h
+ *
+ */
+
+#ifndef _VOLTOS_INIT_SYSCALLS_H
+#define _VOLTOS_INIT_SYSCALLS_H
+
+#endif /* _VOLTOS_INIT_SYSCALLS_H */

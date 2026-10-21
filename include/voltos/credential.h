@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/voltos/credential.h
+ *
+ */
+
+#ifndef _VOLTOS_CREDENTIAL_H
+#define _VOLTOS_CREDENTIAL_H
+
+#endif /* _VOLTOS_CREDENTIAL_H */
