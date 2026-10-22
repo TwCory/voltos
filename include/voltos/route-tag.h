@@ -8,8 +8,12 @@
 #ifndef _VOLTOS_ROUTE_TAG_H
 #define _VOLTOS_ROUTE_TAG_H
 
-struct route_tag_list {
+#include <voltos/refcount.h>
+#include <nbapi/voltos/route-tag.h>
 
+struct route_tag_list {
+	const char 			name[ROUTE_TAG_LIST_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_ROUTE_TAG_H */

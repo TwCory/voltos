@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_UDP_H
 #define _NBAPI_VOLTOS_UDP_H
 
+struct udp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_UDP_H */

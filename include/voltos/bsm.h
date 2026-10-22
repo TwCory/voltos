@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_BSM_H
 #define _VOLTOS_BSM_H
 
+#include <nbapi/voltos/bsm.h>
+
 #endif /* _VOLTOS_BSM_H */

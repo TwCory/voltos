@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_POLICY_MAP_H
 #define _VOLTOS_POLICY_MAP_H
 
+#include <voltos/refcount.h>
+
 struct policy_map {
 
 };

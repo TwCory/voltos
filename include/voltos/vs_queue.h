@@ -8,4 +8,8 @@
 #ifndef __VS_QUEUE_H__
 #define __VS_QUEUE_H__
 
+struct vs_queue {
+
+};
+
 #endif /* __VS_QUEUE_H__ */

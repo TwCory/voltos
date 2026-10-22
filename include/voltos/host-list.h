@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_HOST_LIST_H
 #define _VOLTOS_HOST_LIST_H
 
+#include <voltos/refcount.h>
+#include <nbapi/voltos/host-list.h>
+
 struct host_list {
 
 };

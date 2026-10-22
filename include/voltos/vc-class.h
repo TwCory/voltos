@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_VC_CLASS_H
 #define _VOLTOS_VC_CLASS_H
 
+#include <voltos/refcount.h>
+
+struct vc_class {
+
+};
+
 #endif /* _VOLTOS_VC_CLASS_H */

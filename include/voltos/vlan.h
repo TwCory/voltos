@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VLAN_H
 #define _VOLTOS_VLAN_H
 
+#include <voltos/refcount.h>
+
 struct vlan {
 
 };

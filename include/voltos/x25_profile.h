@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_X25_PROFILE_H
 #define _VOLTOS_X25_PROFILE_H
 
+#include <voltos/refcount.h>
+
 struct x25_profile {
 
 };

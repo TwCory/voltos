@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_COPS_H
 #define _VOLTOS_COPS_H
 
+#include <nbapi/voltos/cops.h>
+
 #endif /* _VOLTOS_COPS_H */

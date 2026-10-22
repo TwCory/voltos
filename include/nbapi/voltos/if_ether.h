@@ -8,4 +8,8 @@
 #ifndef _NBAPI_VOLTOS_IF_ETHER_H
 #define _NBAPI_VOLTOS_IF_ETHER_H
 
+struct eth_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IF_ETHER_H */

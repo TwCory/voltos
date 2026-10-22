@@ -8,5 +8,8 @@
 #ifndef _NBAPI_VOLTOS_GENEVE_H
 #define _NBAPI_VOLTOS_GENEVE_H
 
+struct geneve_hdr {
+
+};
 
 #endif /* _NBAPI_VOLTOS_GENEVE_H */

@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_ATALK_ZONE_H
 #define _VOLTOS_ATALK_ZONE_H
 
+#include <nbapi/voltos/atalk_zone.h>
+
 struct atalk_zone {
 
 };

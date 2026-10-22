@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DCEP_H
 #define _VOLTOS_DCEP_H
 
+#include <nbapi/voltos/dcep.h>
+
 #endif /* _VOLTOS_DCEP_H */

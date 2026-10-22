@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VRF_LIST_H
 #define _VOLTOS_VRF_LIST_H
 
+#include <voltos/refcount.h>
+
 struct vrf_list {
 
 };

@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_MODEM_POOL_H
 #define _VOLTOS_MODEM_POOL_H
 
+#include <voltos/refcount.h>
+
 struct modem_pool {
 
 };

@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_SPX_H
 #define _NBAPI_VOLTOS_SPX_H
 
+struct spx_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_SPX_H */

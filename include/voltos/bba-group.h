@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_BBA_GROUP_H
 #define _VOLTOS_BBA_GROUP_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/bba-group.h>
 
 struct bba_group {

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ALIGN_H
 #define _VOLTOS_ALIGN_H
 
+#include <stdalign.h>
+
 #endif /* _VOLTOS_ALIGN_H */

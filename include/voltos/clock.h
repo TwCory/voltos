@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_CLOCK_H
 #define _VOLTOS_CLOCK_H
 
+#include <nbapi/voltos/clock.h>
+
 struct clock {
 
 };

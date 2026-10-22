@@ -11,4 +11,8 @@
 
 #define DNS_PORT
 
+struct dns_common_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_DNS_H */

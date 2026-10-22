@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_ALERT_GROUP_H
 #define _VOLTOS_ALERT_GROUP_H
 
+#include <voltos/refcount.h>
+#include <nbapi/voltos/alert_group.h>
+
 struct alert_group {
 
 };

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_CARP_H
 #define _VOLTOS_CARP_H
 
+#include <nbapi/voltos/carp.h>
+
 #endif /* _VOLTOS_CARP_H */

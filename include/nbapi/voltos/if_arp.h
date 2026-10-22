@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_IF_ARP_H
 #define _NBAPI_VOLTOS_IF_ARP_H
 
+struct arp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IF_ARP_H */

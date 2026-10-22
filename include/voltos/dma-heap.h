@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DMA_HEAP_H
 #define _VOLTOS_DMA_HEAP_H
 
+#include <nbapi/voltos/dma-heap.h>
+
 #endif /* _VOLTOS_DMA_HEAP_H */

@@ -9,6 +9,10 @@
 #ifndef _NBAPI_VOLTOS_NTP_H
 #define _NBAPI_VOLTOS_NTP_H
 
-#define NTP_PORT
+#define NTP_PORT	123
+
+struct ntp_hdr {
+
+};
 
 #endif /* _NBAPI_VOLTOS_NTP_H */

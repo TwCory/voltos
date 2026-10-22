@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_GDOI_H
 #define _VOLTOS_GDOI_H
 
+#include <nbapi/voltos/gdoi.h>
+
 #endif /* _VOLTOS_GDOI_H */

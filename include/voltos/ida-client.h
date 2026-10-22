@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IDA_CLIENT_H
 #define _VOLTOS_IDA_CLIENT_H
 
+#include <voltos/refcount.h>
+
 #endif /* _VOLTOS_IDA_CLIENT_H */

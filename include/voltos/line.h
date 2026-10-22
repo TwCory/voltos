@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_LINE_H
 #define _VOLTOS_LINE_H
 
+#include <voltos/refcount.h>
+
 struct line {
 
 };

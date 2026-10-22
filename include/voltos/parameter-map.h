@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_PARAMETER_MAP_H
 #define _VOLTOS_PARAMETER_MAP_H
 
+#include <voltos/refcount.h>
+
 struct parameter_map {
 
 };

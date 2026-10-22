@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_IPHC_PROFILE_H
 #define _VOLTOS_IPHC_PROFILE_H
 
+#include <voltos/refcount.h>
+
 struct iphc_profile {
 
 };

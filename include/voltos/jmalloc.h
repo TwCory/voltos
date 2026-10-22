@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_JMALLOC_H
 #define _VOLTOS_JMALLOC_H
 
+struct jmalloc_info {
+
+};
+
 #endif /* _VOLTOS_JMALLOC_H */

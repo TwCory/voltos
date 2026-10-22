@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_L2VPN_H
 #define _VOLTOS_L2VPN_H
 
+#include <voltos/refcount.h>
+
+struct pseudowire_class {
+
+};
+
 #endif /* _VOLTOS_L2VPN_H */

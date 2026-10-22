@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DVMRP_H
 #define _VOLTOS_DVMRP_H
 
+#include <nbapi/voltos/dvmrp.h>
+
 #endif /* _VOLTOS_DVMRP_H */

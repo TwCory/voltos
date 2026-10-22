@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DOVE_H
 #define _VOLTOS_DOVE_H
 
+#include <nbapi/voltos/dove.h>
+
 #endif /* _VOLTOS_DOVE_H */

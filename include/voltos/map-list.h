@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_MAP_LIST_H
 #define _VOLTOS_MAP_LIST_H
 
+#include <voltos/refcount.h>
+
 struct map_list {
 
 };

@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_TCP_H
 #define _NBAPI_VOLTOS_TCP_H
 
+struct tcp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_TCP_H */

@@ -9,5 +9,12 @@
 #ifndef _NBAPI_VOLTOS_L2TP_H
 #define _NBAPI_VOLTOS_L2TP_H
 
+struct l2tp_v2_hdr {
+
+};
+
+struct l2tp_v3_hdr {
+
+};
 
 #endif /* _NBAPI_VOLTOS_L2TP_H */

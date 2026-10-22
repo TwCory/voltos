@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_TRUNK_GROUP_H
 #define _VOLTOS_TRUNK_GROUP_H
 
+#include <voltos/refcount.h>
+
+struct trunk_group {
+
+};
+
 #endif /* _VOLTOS_TRUNK_GROUP_H */

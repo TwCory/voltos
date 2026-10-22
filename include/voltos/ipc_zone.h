@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_IPC_ZONE_H
 #define _VOLTOS_IPC_ZONE_H
 
+#include <voltos/refcount.h>
+
 struct ipc_zone {
 
 };

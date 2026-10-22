@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_RESOURCE_POOL_H
 #define _VOLTOS_RESOURCE_POOL_H
 
+#include <voltos/refcount.h>
+
 struct resource_pool {
 
 };

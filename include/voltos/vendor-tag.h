@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_VENDOR_TAG_H
 #define _VOLTOS_VENDOR_TAG_H
 
+#include <voltos/refcount.h>
+
+struct vendor_tag {
+
+};
+
 #endif /* _VOLTOS_VENDOR_TAG_H */

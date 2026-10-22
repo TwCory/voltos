@@ -10,4 +10,8 @@
 
 #include <voltos/bitmap-str.h>
 
+#ifndef DECLARE_BITMAP
+#define DECLARE_BITMAP(name, bits)
+#endif /* DECLARE_BITMAP */
+
 #endif /* _VOLTOS_BITMAP_H */

@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_BFD_TEMPLATE_H
 #define _VOLTOS_BFD_TEMPLATE_H
 
+#include <voltos/refcount.h>
+#include <nbapi/voltos/bfd-template.h>
+
 struct bfd_template {
 
 };

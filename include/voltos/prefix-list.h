@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_PREFIX_LIST_H
 #define _VOLTOS_PREFIX_LIST_H
 
+#include <voltos/refcount.h>
+
 struct prefix_list {
 
 };

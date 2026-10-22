@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_IF_H
 #define _VOLTOS_IF_H
 
+#include <net/if.h>
+#include <nbapi/voltos/if.h>
+
 struct interface {
 
 };

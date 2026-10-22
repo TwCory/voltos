@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DSSC_H
 #define _VOLTOS_DSSC_H
 
+#include <nbapi/voltos/dssc.h>
+
 #endif /* _VOLTOS_DSSC_H */

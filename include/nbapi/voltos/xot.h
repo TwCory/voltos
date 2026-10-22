@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_XOT_H
 #define _NBAPI_VOLTOS_XOT_H
 
+struct xot_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_XOT_H */

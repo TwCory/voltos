@@ -8,4 +8,10 @@
 #ifndef _VOLTOS_VPDN_GROUP_H
 #define _VOLTOS_VPDN_GROUP_H
 
+#include <voltos/refcount.h>
+
+struct vpdn_group {
+
+};
+
 #endif /* _VOLTOS_VPDN_GROUP_H */

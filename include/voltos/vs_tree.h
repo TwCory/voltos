@@ -8,4 +8,8 @@
 #ifndef __VS_TREE_H__
 #define __VS_TREE_H__
 
+struct vs_tree {
+
+};
+
 #endif /* __VS_TREE_H__ */

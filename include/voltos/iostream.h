@@ -9,7 +9,8 @@
 #define _VOLTOS_IOSTREAM_H
 
 struct io_stream {
-
+	struct io_stream 		*ios_next;
+	unsigned char 			*ios_data;
 };
 
 #endif /* _VOLTOS_IOSTREAM_H */

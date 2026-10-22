@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_BATMAN_ADV_H
 #define _VOLTOS_BATMAN_ADV_H
 
+#include <nbapi/voltos/batman-adv.h>
+
 #endif /* _VOLTOS_BATMAN_ADV_H */

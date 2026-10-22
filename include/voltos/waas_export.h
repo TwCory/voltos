@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_WAAS_EXPORT_H
 #define _VOLTOS_WAAS_EXPORT_H
 
+#include <voltos/refcount.h>
+
 struct waas_export {
 
 };

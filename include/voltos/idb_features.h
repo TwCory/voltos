@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IDB_FEATURES_H
 #define _VOLTOS_IDB_FEATURES_H
 
+typedef unsigned int idb_features_t;
+
 #endif /* _VOLTOS_IDB_FEATURES_H */

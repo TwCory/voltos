@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_BFD_H
 #define _VOLTOS_BFD_H
 
+#include <nbapi/voltos/bfd.h>
+
 #endif /* _VOLTOS_BFD_H */

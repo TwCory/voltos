@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_VXLAN_H
 #define _NBAPI_VOLTOS_VXLAN_H
 
+struct vxlan_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_VXLAN_H */

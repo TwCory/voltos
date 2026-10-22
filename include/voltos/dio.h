@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_DIO_H
 #define _VOLTOS_DIO_H
 
+#include <nbapi/voltos/dio.h>
+
 struct dio_vec {
 
 };

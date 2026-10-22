@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_FLOW_H
 #define _VOLTOS_FLOW_H
 
+#include <nbapi/voltos/flow.h>
+
 #endif /* _VOLTOS_FLOW_H */

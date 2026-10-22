@@ -8,6 +8,7 @@
 #ifndef _VOLTOS_ADMIN_GROUP_H
 #define _VOLTOS_ADMIN_GROUP_H
 
+#include <voltos/refcount.h>
 #include <nbapi/voltos/admin_group.h>
 
 struct admin_group {

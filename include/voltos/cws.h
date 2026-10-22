@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_XYZ_H
 #define _VOLTOS_XYZ_H
 
+#include <nbapi/voltos/cws.h>
+
 #endif /* _VOLTOS_XYZ_H */

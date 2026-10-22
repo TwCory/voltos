@@ -12,6 +12,10 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+struct dn_naddr {
+
+};
+
 struct sockaddr_dn {
 	__voltos_sa_family_t 		sdn_family;
 };

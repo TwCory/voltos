@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_WRR_QUEUE_H
 #define _VOLTOS_WRR_QUEUE_H
 
+#include <voltos/refcount.h>
+
 struct wrr_queue {
 
 };

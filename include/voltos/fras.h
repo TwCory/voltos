@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_FRAS_H
 #define _VOLTOS_FRAS_H
 
+#include <nbapi/voltos/fras.h>
+
 #endif /* _VOLTOS_FRAS_H */

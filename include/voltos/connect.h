@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_CONNECT_H
 #define _VOLTOS_CONNECT_H
 
+#include <nbapi/voltos/connect.h>
+
 #endif /* _VOLTOS_CONNECT_H */

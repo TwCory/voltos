@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_AVC_H
 #define _VOLTOS_AVC_H
 
+#include <nbapi/voltos/avc.h>
+
 #endif /* _VOLTOS_AVC_H */

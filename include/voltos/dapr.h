@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DAPR_H
 #define _VOLTOS_DAPR_H
 
+#include <nbapi/voltos/dapr.h>
+
 #endif /* _VOLTOS_DAPR_H */

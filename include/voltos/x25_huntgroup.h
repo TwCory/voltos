@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_X25_HUNTGROUP_H
 #define _VOLTOS_X25_HUNTGROUP_H
 
+#include <voltos/refcount.h>
+
 struct x25_hunt_group {
 
 };

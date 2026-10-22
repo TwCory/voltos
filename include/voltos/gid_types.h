@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_GID_TYPES_H
 #define _VOLTOS_GID_TYPES_H
 
+typedef struct {
+
+} vs_gid_t;
+
 #endif /* _VOLTOS_GID_TYPES_H */

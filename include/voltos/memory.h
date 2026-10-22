@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MEMORY_H
 #define _VOLTOS_MEMORY_H
 
+#include <memory.h>
+
 #endif /* _VOLTOS_MEMORY_H */

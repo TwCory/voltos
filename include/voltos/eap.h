@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_EAP_H
 #define _VOLTOS_EAP_H
 
+#include <nbapi/voltos/eap.h>
+
 #endif /* _VOLTOS_EAP_H */

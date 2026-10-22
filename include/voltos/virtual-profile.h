@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VIRTUAL_PROFILE_H
 #define _VOLTOS_VIRTUAL_PROFILE_H
 
+#include <voltos/refcount.h>
+
 struct virtual_profile {
 
 };

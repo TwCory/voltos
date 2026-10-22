@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DDNS_H
 #define _VOLTOS_DDNS_H
 
+#include <nbapi/voltos/ddns.h>
+
 #endif /* _VOLTOS_DDNS_H */

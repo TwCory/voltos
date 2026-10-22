@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_DSPU_H
 #define _VOLTOS_DSPU_H
 
+#include <nbapi/voltos/dspu.h>
+
 #endif /* _VOLTOS_DSPU_H */

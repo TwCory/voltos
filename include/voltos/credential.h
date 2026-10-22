@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_CREDENTIAL_H
 #define _VOLTOS_CREDENTIAL_H
 
+#include <nbapi/voltos/credential.h>
+
 struct credential {
 
 };

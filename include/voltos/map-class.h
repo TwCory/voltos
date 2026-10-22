@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_MAP_CLASS_H
 #define _VOLTOS_MAP_CLASS_H
 
+#include <voltos/refcount.h>
+
 struct map_class {
 
 };

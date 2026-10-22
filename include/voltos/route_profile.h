@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_ROUTE_PROFILE_H
 #define _VOLTOS_ROUTE_PROFILE_H
 
+#include <voltos/refcount.h>
+
 struct route_profile {
 
 };

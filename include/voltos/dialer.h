@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_DIALER_H
 #define _VOLTOS_DIALER_H
 
+#include <voltos/refcount.h>
+#include <nbapi/voltos/dialer.h>
+
 struct dialer {
 
 };

@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_TSP_H
 #define _NBAPI_VOLTOS_TSP_H
 
+struct tsp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_TSP_H */

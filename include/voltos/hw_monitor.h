@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_HW_MONITOR_H
 #define _VOLTOS_HW_MONITOR_H
 
+#include <nbapi/voltos/hw_monitor.h>
+
 #endif /* _VOLTOS_HW_MONITOR_H */

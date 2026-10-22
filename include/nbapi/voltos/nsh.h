@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_NSH_H
 #define _NBAPI_VOLTOS_NSH_H
 
+struct ns_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_NSH_H */

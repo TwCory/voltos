@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_ACCT_TEMPLATE_H
 #define _VOLTOS_ACCT_TEMPLATE_H
 
+#include <voltos/refcount.h>
+
 struct acct_template {
 
 };

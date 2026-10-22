@@ -8,6 +8,9 @@
 #ifndef _VOLTOS_BRIDGE_GROUP_H
 #define _VOLTOS_BRIDGE_GROUP_H
 
+#include <voltos/refcount.h>
+#include <nbapi/voltos/bridge-group.h>
+
 struct bridge_group {
 
 };
