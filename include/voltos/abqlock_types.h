@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ABQLOCK_TYPES_H
 #define _VOLTOS_ABQLOCK_TYPES_H
 
+typedef struct abqlock {
+
+} abqlock_t;
+
 #endif /* _VOLTOS_ABQLOCK_TYPES_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_CACHEINFO_H
 #define _VOLTOS_CACHEINFO_H
 
+struct cacheinfo {
+
+};
+
 #endif /* _VOLTOS_CACHEINFO_H */

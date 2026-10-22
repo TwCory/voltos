@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TRACEPOINT_DEFS_H
 #define _VOLTOS_TRACEPOINT_DEFS_H
 
+struct tracepoint {
+
+};
+
 #endif /* _VOLTOS_TRACEPOINT_DEFS_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ATALK_ZONE_H
 #define _VOLTOS_ATALK_ZONE_H
 
+struct atalk_zone {
+
+};
+
 #endif /* _VOLTOS_ATALK_ZONE_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_IOSTREAM_H
 #define _VOLTOS_IOSTREAM_H
 
+struct io_stream {
+
+};
+
 #endif /* _VOLTOS_IOSTREAM_H */

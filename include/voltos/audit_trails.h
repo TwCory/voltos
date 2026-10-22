@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_AUDIT_TRAILS_H
 #define _VOLTOS_AUDIT_TRAILS_H
 
+struct audit_trail {
+
+};
+
 #endif /* _VOLTOS_AUDIT_TRAILS_H */

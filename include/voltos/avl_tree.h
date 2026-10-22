@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_AVL_TREE_H
 #define _VOLTOS_AVL_TREE_H
 
+#include <voltos/avl_tree_types.h>
+
 #endif /* _VOLTOS_AVL_TREE_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_WAAS_EXPORT_H
 #define _VOLTOS_WAAS_EXPORT_H
 
+struct waas_export {
+
+};
+
 #endif /* _VOLTOS_WAAS_EXPORT_H */

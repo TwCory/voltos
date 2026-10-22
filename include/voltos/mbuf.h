@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_MBUF_H
 #define _VOLTOS_MBUF_H
 
+struct m_buf {
+
+};
+
 #endif /* _VOLTOS_MBUF_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ACCT_TEMPLATE_H
 #define _VOLTOS_ACCT_TEMPLATE_H
 
+struct acct_template {
+
+};
+
 #endif /* _VOLTOS_ACCT_TEMPLATE_H */

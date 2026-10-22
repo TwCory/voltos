@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TRANSLATE_H
 #define _VOLTOS_TRANSLATE_H
 
+struct translate_entry {
+
+};
+
 #endif /* _VOLTOS_TRANSLATE_H */

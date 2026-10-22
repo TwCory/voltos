@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_BRIDGE_GROUP_H
 #define _VOLTOS_BRIDGE_GROUP_H
 
+struct bridge_group {
+
+};
+
 #endif /* _VOLTOS_BRIDGE_GROUP_H */

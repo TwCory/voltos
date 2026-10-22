@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_XTREE_TYPES_H
 #define _VOLTOS_XTREE_TYPES_H
 
+struct xtree_head {
+
+};
+
 #endif /* _VOLTOS_XTREE_TYPES_H */

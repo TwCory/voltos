@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TSTREE_TYPES_H
 #define _VOLTOS_TSTREE_TYPES_H
 
+struct tstree_head {
+
+};
+
 #endif /* _VOLTOS_TSTREE_TYPES_H */

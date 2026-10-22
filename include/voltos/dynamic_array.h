@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DYNAMIC_ARRAY_H
 #define _VOLTOS_DYNAMIC_ARRAY_H
 
+struct darray {
+
+};
+
 #endif /* _VOLTOS_DYNAMIC_ARRAY_H */

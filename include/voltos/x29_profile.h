@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_X29_PROFILE_H
 #define _VOLTOS_X29_PROFILE_H
 
+struct x29_profile {
+
+};
+
 #endif /* _VOLTOS_X29_PROFILE_H */

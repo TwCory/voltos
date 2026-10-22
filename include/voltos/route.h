@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ROUTE_H
 #define _VOLTOS_ROUTE_H
 
+struct route {
+
+};
+
 #endif /* _VOLTOS_ROUTE_H */

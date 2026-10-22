@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ALERT_GROUP_H
 #define _VOLTOS_ALERT_GROUP_H
 
+struct alert_group {
+
+};
+
 #endif /* _VOLTOS_ALERT_GROUP_H */

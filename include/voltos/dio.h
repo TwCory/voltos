@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DIO_H
 #define _VOLTOS_DIO_H
 
+struct dio_vec {
+
+};
+
 #endif /* _VOLTOS_DIO_H */

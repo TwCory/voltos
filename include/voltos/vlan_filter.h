@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_VLAN_FILTER_H
 #define _VOLTOS_VLAN_FILTER_H
 
+struct vlan_filter {
+
+};
+
 #endif /* _VOLTOS_VLAN_FILTER_H */

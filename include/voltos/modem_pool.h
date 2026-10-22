@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_MODEM_POOL_H
 #define _VOLTOS_MODEM_POOL_H
 
+struct modem_pool {
+
+};
+
 #endif /* _VOLTOS_MODEM_POOL_H */

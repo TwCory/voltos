@@ -10,4 +10,8 @@
 
 #include <dirent.h>
 
+struct voltos_dirent64 {
+
+};
+
 #endif /* _VOLTOS_DIRENT_H */

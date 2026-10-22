@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PID_H
 #define _VOLTOS_PID_H
 
+#include <voltos/pid_types.h>
+
 #endif /* _VOLTOS_PID_H */

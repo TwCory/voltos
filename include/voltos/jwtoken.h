@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_JWTOKEN_H
 #define _VOLTOS_JWTOKEN_H
 
+struct jwtoken {
+
+};
+
 #endif /* _VOLTOS_JWTOKEN_H */

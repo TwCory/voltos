@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_SYSTEMD_H
 #define _VOLTOS_SYSTEMD_H
 
+struct systemd_unit {
+
+};
+
 #endif /* _VOLTOS_SYSTEMD_H */

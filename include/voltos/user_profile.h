@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_USER_PROFILE_H
 #define _VOLTOS_USER_PROFILE_H
 
+struct user_profile {
+
+};
+
 #endif /* _VOLTOS_USER_PROFILE_H */

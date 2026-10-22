@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_STRING_BUFFER_H
 #define _VOLTOS_STRING_BUFFER_H
 
+struct string_buffer {
+
+};
+
 #endif /* _VOLTOS_STRING_BUFFER_H */

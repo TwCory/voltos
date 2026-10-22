@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_FASTBLK_H
 #define _VOLTOS_FASTBLK_H
 
+typedef struct fastblk {
+
+} fastblk_t;
+
 #endif /* _VOLTOS_FASTBLK_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_UNARRAY_H
 #define _VOLTOS_UNARRAY_H
 
+struct unarray {
+
+};
+
 #endif /* _VOLTOS_UNARRAY_H */

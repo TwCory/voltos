@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_UNION_FIND_H
 #define _VOLTOS_UNION_FIND_H
 
+struct uf_node {
+
+};
+
 #endif /* _VOLTOS_UNION_FIND_H */

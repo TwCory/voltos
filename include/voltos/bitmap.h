@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_BITMAP_H
 #define _VOLTOS_BITMAP_H
 
+#include <voltos/bitmap-str.h>
+
 #endif /* _VOLTOS_BITMAP_H */

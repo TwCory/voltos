@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_RDB_H
 #define _VOLTOS_RDB_H
 
+struct rdb {
+
+};
+
 #endif /* _VOLTOS_RDB_H */

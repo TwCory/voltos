@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_FLOW_SAMPLER_MAP_H
 #define _VOLTOS_FLOW_SAMPLER_MAP_H
 
+struct flow_sampler_map {
+
+};
+
 #endif /* _VOLTOS_FLOW_SAMPLER_MAP_H */

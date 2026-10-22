@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PROCESS_H
 #define _VOLTOS_PROCESS_H
 
+#include <voltos/process_types.h>
+
 #endif /* _VOLTOS_PROCESS_H */

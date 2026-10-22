@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_PARAMETER_MAP_H
 #define _VOLTOS_PARAMETER_MAP_H
 
+struct parameter_map {
+
+};
+
 #endif /* _VOLTOS_PARAMETER_MAP_H */

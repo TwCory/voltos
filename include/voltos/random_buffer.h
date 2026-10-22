@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_RANDOM_BUFFER_H
 #define _VOLTOS_RANDOM_BUFFER_H
 
+struct random_buffer {
+
+};
+
 #endif /* _VOLTOS_RANDOM_BUFFER_H */

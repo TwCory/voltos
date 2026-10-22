@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_FILE_LOCK_H
 #define _VOLTOS_FILE_LOCK_H
 
+struct file_lock {
+
+};
+
+struct file_lease {
+
+};
+
 #endif /* _VOLTOS_FILE_LOCK_H */

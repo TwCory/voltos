@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_HASHLIST_H
 #define _VOLTOS_HASHLIST_H
 
+struct hashlist_head {
+
+};
+
+struct hashlist_node {
+
+};
+
 #endif /* _VOLTOS_HASHLIST_H */

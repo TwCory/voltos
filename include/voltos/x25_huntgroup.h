@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_X25_HUNTGROUP_H
 #define _VOLTOS_X25_HUNTGROUP_H
 
+struct x25_hunt_group {
+
+};
+
 #endif /* _VOLTOS_X25_HUNTGROUP_H */

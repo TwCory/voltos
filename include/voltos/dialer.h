@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DIALER_H
 #define _VOLTOS_DIALER_H
 
+struct dialer {
+
+};
+
 #endif /* _VOLTOS_DIALER_H */

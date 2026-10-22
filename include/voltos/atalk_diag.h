@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ATALK_DIAG_H
 #define _VOLTOS_ATALK_DIAG_H
 
+struct atalk_diag_handler {
+
+};
+
 #endif /* _VOLTOS_ATALK_DIAG_H */

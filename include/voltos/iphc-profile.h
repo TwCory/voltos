@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_IPHC_PROFILE_H
 #define _VOLTOS_IPHC_PROFILE_H
 
+struct iphc_profile {
+
+};
+
 #endif /* _VOLTOS_IPHC_PROFILE_H */

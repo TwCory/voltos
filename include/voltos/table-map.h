@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TABLE_MAP_H
 #define _VOLTOS_TABLE_MAP_H
 
+struct table_map {
+
+};
+
 #endif /* _VOLTOS_TABLE_MAP_H */

@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_TAILQ_TYPES_H
 #define _VOLTOS_TAILQ_TYPES_H
 
+struct tailq_head {
+
+};
+
+struct tailq_node {
+
+};
+
 #endif /* _VOLTOS_TAILQ_TYPES_H */

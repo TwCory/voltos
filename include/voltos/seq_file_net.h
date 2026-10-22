@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_SEQ_FILE_NET_H
 #define _VOLTOS_SEQ_FILE_NET_H
 
+struct seq_file_net {
+
+};
+
 #endif /* _VOLTOS_SEQ_FILE_NET_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_VM_SOCK_DIAG_H
 #define _VOLTOS_VM_SOCK_DIAG_H
 
+struct vm_sock_diag_handler {
+
+};
+
 #endif /* _VOLTOS_VM_SOCK_DIAG_H */

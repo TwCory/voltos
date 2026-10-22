@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SIMPLE_RING_BUFFER_H
 #define _VOLTOS_SIMPLE_RING_BUFFER_H
 
+#include <voltos/ring_buffer_types.h>
+
 #endif /* _VOLTOS_SIMPLE_RING_BUFFER_H */

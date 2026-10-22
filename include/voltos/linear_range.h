@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_LINEAR_RANGE_H
 #define _VOLTOS_LINEAR_RANGE_H
 
+struct linear_range {
+
+};
+
 #endif /* _VOLTOS_LINEAR_RANGE_H */

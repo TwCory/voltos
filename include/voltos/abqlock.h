@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ABQLOCK_H
 #define _VOLTOS_ABQLOCK_H
 
+#include <voltos/abqlock_types.h>
+
 #endif /* _VOLTOS_ABQLOCK_H */

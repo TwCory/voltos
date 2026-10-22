@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TIMEKEEPER_INTERNAL_H
 #define _VOLTOS_TIMEKEEPER_INTERNAL_H
 
+#include <voltos/timekeeper.h>
+
 #endif /* _VOLTOS_TIMEKEEPER_INTERNAL_H */

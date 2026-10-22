@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ALARM_INTERFACE_H
 #define _VOLTOS_ALARM_INTERFACE_H
 
+struct aic_node {
+
+};
+
 #endif /* _VOLTOS_ALARM_INTERFACE_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_VLAN_GROUP_H
 #define _VOLTOS_VLAN_GROUP_H
 
+struct vlan_group {
+
+};
+
 #endif /* _VOLTOS_VLAN_GROUP_H */

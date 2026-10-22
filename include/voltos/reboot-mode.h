@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_REBOOT_MODE_H
 #define _VOLTOS_REBOOT_MODE_H
 
+struct reboot_mode_driver {
+
+};
+
 #endif /* _VOLTOS_REBOOT_MODE_H */

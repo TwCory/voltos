@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DLMALLOC_H
 #define _VOLTOS_DLMALLOC_H
 
+struct dlmalloc_info {
+
+};
+
 #endif /* _VOLTOS_DLMALLOC_H */

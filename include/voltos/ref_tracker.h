@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_REF_TRACKER_H
 #define _VOLTOS_REF_TRACKER_H
 
+struct ref_tracker_dir {
+
+};
+
 #endif /* _VOLTOS_REF_TRACKER_H */

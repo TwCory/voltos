@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ALARM_TRIGGER_H
 #define _VOLTOS_ALARM_TRIGGER_H
 
+struct alarm_trigger {
+
+};
+
 #endif /* _VOLTOS_ALARM_TRIGGER_H */

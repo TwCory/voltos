@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_NETLINK_DIAG_H
 #define _VOLTOS_NETLINK_DIAG_H
 
+struct netlink_diag_handler {
+
+};
+
 #endif /* _VOLTOS_NETLINK_DIAG_H */

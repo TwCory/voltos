@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_VLAN_H
 #define _VOLTOS_VLAN_H
 
+struct vlan {
+
+};
+
+struct private_vlan {
+
+};
+
 #endif /* _VOLTOS_VLAN_H */

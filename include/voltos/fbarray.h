@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_FBARRAY_H
 #define _VOLTOS_FBARRAY_H
 
+struct fbarray {
+
+};
+
 #endif /* _VOLTOS_FBARRAY_H */

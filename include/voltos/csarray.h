@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_CSARRAY_H
 #define _VOLTOS_CSARRAY_H
 
+struct csarray {
+
+};
+
 #endif /* _VOLTOS_CSARRAY_H */

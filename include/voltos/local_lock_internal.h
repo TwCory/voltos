@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_LOCAL_LOCK_INTERNAL_H
 #define _VOLTOS_LOCAL_LOCK_INTERNAL_H
 
+typedef struct local_lock {
+
+} local_lock_t;
+
 #endif /* _VOLTOS_LOCAL_LOCK_INTERNAL_H */

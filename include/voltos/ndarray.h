@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_NDARRAY_H
 #define _VOLTOS_NDARRAY_H
 
+struct ndarray {
+
+};
+
 #endif /* _VOLTOS_NDARRAY_H */

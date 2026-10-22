@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_GRAPH_H
 #define _VOLTOS_GRAPH_H
 
+#include <voltos/graph_types.h>
+
 #endif /* _VOLTOS_GRAPH_H */

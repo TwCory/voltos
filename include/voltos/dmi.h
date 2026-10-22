@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DMI_H
 #define _VOLTOS_DMI_H
 
+struct dmi_device {
+
+};
+
 #endif /* _VOLTOS_DMI_H */

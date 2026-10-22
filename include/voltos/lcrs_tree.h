@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_LCRS_TREE_H
 #define _VOLTOS_LCRS_TREE_H
 
+struct lcrs_tree_head {
+
+};
+
 #endif /* _VOLTOS_LCRS_TREE_H */

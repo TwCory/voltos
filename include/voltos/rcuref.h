@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_RCUREF_H
 #define _VOLTOS_RCUREF_H
 
+typedef struct {
+
+} rcuref_t;
+
 #endif /* _VOLTOS_RCUREF_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_POLICY_LIST_H
 #define _VOLTOS_POLICY_LIST_H
 
+struct policy_list {
+
+};
+
 #endif /* _VOLTOS_POLICY_LIST_H */

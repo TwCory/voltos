@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_RFBUF_H
 #define _VOLTOS_RFBUF_H
 
+struct rf_buf {
+
+};
+
 #endif /* _VOLTOS_RFBUF_H */

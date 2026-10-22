@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_MEMPOOL_H
 #define _VOLTOS_MEMPOOL_H
 
+typedef struct mempool {
+
+} mempool_t;
+
 #endif /* _VOLTOS_MEMPOOL_H */

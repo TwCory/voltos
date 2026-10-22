@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_VRF_H
 #define _VOLTOS_VRF_H
 
+struct vrf {
+
+};
+
 #endif /* _VOLTOS_VRF_H */

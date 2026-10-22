@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_PTR_METADATA_H
 #define _VOLTOS_PTR_METADATA_H
 
+struct ptr_metadata {
+
+};
+
 #endif /* _VOLTOS_PTR_METADATA_H */

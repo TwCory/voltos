@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DIFFLIST_H
 #define _VOLTOS_DIFFLIST_H
 
+struct difflist {
+
+};
+
 #endif /* _VOLTOS_DIFFLIST_H */

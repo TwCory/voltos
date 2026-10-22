@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_CREDENTIAL_H
 #define _VOLTOS_CREDENTIAL_H
 
+struct credential {
+
+};
+
 #endif /* _VOLTOS_CREDENTIAL_H */

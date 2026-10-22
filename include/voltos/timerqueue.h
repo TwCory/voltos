@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TIMERQUEUE_H
 #define _VOLTOS_TIMERQUEUE_H
 
+#include <voltos/timerqueue_types.h>
+
 #endif /* _VOLTOS_TIMERQUEUE_H */

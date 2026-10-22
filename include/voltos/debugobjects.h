@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DEBUGOBJECTS_H
 #define _VOLTOS_DEBUGOBJECTS_H
 
+struct debug_object {
+
+};
+
 #endif /* _VOLTOS_DEBUGOBJECTS_H */

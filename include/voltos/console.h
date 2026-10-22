@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_CONSOLE_H
 #define _VOLTOS_CONSOLE_H
 
+struct console {
+
+};
+
 #endif /* _VOLTOS_CONSOLE_H */

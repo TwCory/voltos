@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_EVENT_H
 #define _VOLTOS_EVENT_H
 
+struct event {
+
+};
+
 #endif /* _VOLTOS_EVENT_H */
