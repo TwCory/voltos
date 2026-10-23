@@ -12,4 +12,6 @@ struct hypergraph_head {
 
 };
 
+struct hypergraph_node;
+
 #endif /* _VOLTOS_HYPERGRAPH_TYPES_H */

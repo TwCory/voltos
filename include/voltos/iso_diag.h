@@ -10,4 +10,6 @@
 
 #include <nbapi/voltos/iso_diag.h>
 
+struct iso_diag_handler;
+
 #endif /* _VOLTOS_ISO_DIAG_H */

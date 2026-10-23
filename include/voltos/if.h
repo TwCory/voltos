@@ -9,7 +9,11 @@
 #define _VOLTOS_IF_H
 
 #include <net/if.h>
+#include <voltos/types.h>
 #include <nbapi/voltos/if.h>
+
+typedef __voltos_if_index_t if_index_t;
+typedef __voltos_if_flags_t __voltos_bitwise if_flags_t;
 
 struct interface {
 

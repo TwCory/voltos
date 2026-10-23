@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_JOURNAL_H
 #define _VOLTOS_JOURNAL_H
 
+typedef unsigned int journal_xid_t;
+
 struct journal_head {
 
 };

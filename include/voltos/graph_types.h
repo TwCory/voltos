@@ -12,4 +12,6 @@ struct graph_head {
 
 };
 
+struct graph_node;
+
 #endif /* _VOLTOS_GRAPH_TYPES_H */

@@ -10,4 +10,6 @@
 
 #include <nbapi/voltos/ip_route.h>
 
+typedef enum ip_route_protocol ip_route_protocol_t;
+
 #endif /* _VOLTOS_IP_ROUTE_H */
