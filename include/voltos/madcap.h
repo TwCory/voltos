@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MADCAP_H
 #define _VOLTOS_MADCAP_H
 
+#include <nbapi/voltos/madcap.h>
+
 #endif /* _VOLTOS_MADCAP_H */

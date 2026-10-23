@@ -9,6 +9,7 @@
 #define _VOLTOS_POLICY_MAP_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/policy-map.h>
 
 struct policy_map {
 

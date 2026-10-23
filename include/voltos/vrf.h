@@ -9,6 +9,7 @@
 #define _VOLTOS_VRF_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vrf.h>
 
 struct vrf {
 

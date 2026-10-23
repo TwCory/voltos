@@ -9,6 +9,7 @@
 #define _VOLTOS_X29_PROFILE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/x29_profile.h>
 
 struct x29_profile {
 

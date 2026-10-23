@@ -9,6 +9,7 @@
 #define _VOLTOS_MAP_LIST_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/map-list.h>
 
 struct map_list {
 

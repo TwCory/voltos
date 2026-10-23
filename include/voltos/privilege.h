@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PRIVILEGE_H
 #define _VOLTOS_PRIVILEGE_H
 
+#include <nbapi/voltos/privilege.h>
+
 #endif /* _VOLTOS_PRIVILEGE_H */

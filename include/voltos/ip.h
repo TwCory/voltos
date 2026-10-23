@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IP_H
 #define _VOLTOS_IP_H
 
+#include <nbapi/voltos/ip.h>
+
 #endif /* _VOLTOS_IP_H */

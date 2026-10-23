@@ -9,6 +9,7 @@
 #define _VOLTOS_X25_HUNTGROUP_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/x25_huntgroup.h>
 
 struct x25_hunt_group {
 

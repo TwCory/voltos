@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_JOSE_H
 #define _VOLTOS_JOSE_H
 
+#include <nbapi/voltos/jose.h>
+
 #endif /* _VOLTOS_JOSE_H */

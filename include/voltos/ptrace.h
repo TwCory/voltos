@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PTRACE_H
 #define _VOLTOS_PTRACE_H
 
+#include <nbapi/voltos/ptrace.h>
+
 #endif /* _VOLTOS_PTRACE_H */

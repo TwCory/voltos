@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MOP_H
 #define _VOLTOS_MOP_H
 
+#include <nbapi/voltos/mop.h>
+
 #endif /* _VOLTOS_MOP_H */

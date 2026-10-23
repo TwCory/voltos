@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_RIP_H
 #define _VOLTOS_RIP_H
 
+#include <nbapi/voltos/rip.h>
+
 #endif /* _VOLTOS_RIP_H */

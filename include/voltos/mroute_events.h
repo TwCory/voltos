@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MROUTE_EVENTS_H
 #define _VOLTOS_MROUTE_EVENTS_H
 
+#include <nbapi/voltos/mroute_events.h>
+
 #endif /* _VOLTOS_MROUTE_EVENTS_H */

@@ -9,6 +9,7 @@
 #define _VOLTOS_TABLE_MAP_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/table-map.h>
 
 struct table_map {
 	refcount_t ref_count;

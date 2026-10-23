@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SIP_CLF_H
 #define _VOLTOS_SIP_CLF_H
 
+#include <nbapi/voltos/sip_clf.h>
+
 #endif /* _VOLTOS_SIP_CLF_H */

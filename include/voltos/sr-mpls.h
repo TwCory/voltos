@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SR_MPLS_H
 #define _VOLTOS_SR_MPLS_H
 
+#include <nbapi/voltos/sr-mpls.h>
+
 #endif /* _VOLTOS_SR_MPLS_H */

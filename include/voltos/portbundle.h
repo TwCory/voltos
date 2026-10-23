@@ -9,6 +9,7 @@
 #define _VOLTOS_PORTBUNDLE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/portbundle.h>
 
 struct portbundle {
 

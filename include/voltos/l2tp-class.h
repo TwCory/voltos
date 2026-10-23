@@ -9,6 +9,7 @@
 #define _VOLTOS_L2TP_CLASS_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/l2tp-class.h>
 
 struct l2tp_class {
 

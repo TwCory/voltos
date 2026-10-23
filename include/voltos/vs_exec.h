@@ -8,4 +8,6 @@
 #ifndef __VS_EXEC_H__
 #define __VS_EXEC_H__
 
+#include <nbapi/voltos/vs_exec.h>
+
 #endif /* __VS_EXEC_H__ */

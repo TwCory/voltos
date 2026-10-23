@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_KEYMAP_H
 #define _VOLTOS_KEYMAP_H
 
+#include <nbapi/voltos/keymap.h>
+
 struct keymap {
 
 };

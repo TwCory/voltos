@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NWPI_H
 #define _VOLTOS_NWPI_H
 
+#include <nbapi/voltos/nwpi.h>
+
 #endif /* _VOLTOS_NWPI_H */

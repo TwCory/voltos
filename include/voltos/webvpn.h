@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_WEBVPN_H
 #define _VOLTOS_WEBVPN_H
 
+#include <nbapi/voltos/webvpn.h>
+
 #endif /* _VOLTOS_WEBVPN_H */

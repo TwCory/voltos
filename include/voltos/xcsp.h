@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_XCSP_H
 #define _VOLTOS_XCSP_H
 
+#include <nbapi/voltos/xcsp.h>
+
 #endif /* _VOLTOS_XCSP_H */

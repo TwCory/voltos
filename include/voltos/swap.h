@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SWAP_H
 #define _VOLTOS_SWAP_H
 
+#include <nbapi/voltos/swap.h>
+
 #endif /* _VOLTOS_SWAP_H */

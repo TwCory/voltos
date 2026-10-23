@@ -9,6 +9,7 @@
 #define _VOLTOS_MAP_CLASS_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/map-class.h>
 
 struct map_class {
 

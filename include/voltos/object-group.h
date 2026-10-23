@@ -9,6 +9,7 @@
 #define _VOLTOS_OBJECT_GROUP_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/object-group.h>
 
 struct object_group {
 

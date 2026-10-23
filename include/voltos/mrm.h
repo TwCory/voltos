@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MRM_H
 #define _VOLTOS_MRM_H
 
+#include <nbapi/voltos/mrm.h>
+
 #endif /* _VOLTOS_MRM_H */

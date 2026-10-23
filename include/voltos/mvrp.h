@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MVRP_H
 #define _VOLTOS_MVRP_H
 
+#include <nbapi/voltos/nvrp.h>
+
 #endif /* _VOLTOS_MVRP_H */

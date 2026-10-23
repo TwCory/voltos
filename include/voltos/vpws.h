@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_VPWS_H
 #define _VOLTOS_VPWS_H
 
+#include <nbapi/voltos/vpws.h>
+
 #endif /* _VOLTOS_VPWS_H */

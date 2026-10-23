@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IF_SERIAL_H
 #define _VOLTOS_IF_SERIAL_H
 
+#include <nbapi/voltos/if_serial.h>
+
 #endif /* _VOLTOS_IF_SERIAL_H */

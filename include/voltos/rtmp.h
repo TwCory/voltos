@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_RTMP_H
 #define _VOLTOS_RTMP_H
 
+#include <nbapi/voltos/rtmp.h>
+
 #endif /* _VOLTOS_RTMP_H */

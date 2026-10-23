@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_L2TP_H
 #define _VOLTOS_L2TP_H
 
+#include <nbapi/voltos/l2tp.h>
+
 #endif /* _VOLTOS_L2TP_H */

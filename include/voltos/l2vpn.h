@@ -9,6 +9,7 @@
 #define _VOLTOS_L2VPN_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/l2vpn.h>
 
 struct pseudowire_class {
 

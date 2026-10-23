@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_X3_H
 #define _VOLTOS_X3_H
 
+#include <nbapi/voltos/x3.h>
+
 #endif /* _VOLTOS_X3_H */

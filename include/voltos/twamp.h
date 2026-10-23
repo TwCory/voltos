@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TWAMP_H
 #define _VOLTOS_TWAMP_H
 
+#include <nbapi/voltos/twamp.h>
+
 #endif /* _VOLTOS_TWAMP_H */

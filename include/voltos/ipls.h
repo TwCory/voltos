@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPLS_H
 #define _VOLTOS_IPLS_H
 
+#include <nbapi/voltos/ipls.h>
+
 #endif /* _VOLTOS_IPLS_H */

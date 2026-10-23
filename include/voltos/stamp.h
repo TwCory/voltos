@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_STAMP_H
 #define _VOLTOS_STAMP_H
 
+#include <nbapi/voltos/stamp.h>
+
 #endif /* _VOLTOS_STAMP_H */

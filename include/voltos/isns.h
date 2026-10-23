@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ISNS_H
 #define _VOLTOS_ISNS_H
 
+#include <nbapi/voltos/isns.h>
+
 #endif /* _VOLTOS_ISNS_H */

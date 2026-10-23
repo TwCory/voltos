@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TOPOLOGY_H
 #define _VOLTOS_TOPOLOGY_H
 
+#include <nbapi/voltos/topology.h>
+
 #endif /* _VOLTOS_TOPOLOGY_H */

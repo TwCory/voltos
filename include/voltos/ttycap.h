@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TTYCAP_H
 #define _VOLTOS_TTYCAP_H
 
+#include <nbapi/voltos/ttycap.h>
+
 #endif /* _VOLTOS_TTYCAP_H */

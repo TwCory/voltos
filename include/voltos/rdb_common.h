@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_RDB_COMMON_H
 #define _VOLTOS_RDB_COMMON_H
 
+#include <nbapi/voltos/rdb_common.h>
+
 #endif /* _VOLTOS_RDB_COMMON_H */

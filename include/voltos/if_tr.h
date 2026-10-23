@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IF_TR_H
 #define _VOLTOS_IF_TR_H
 
+#include <nbapi/voltos/if_tr.h>
+
 #endif /* _VOLTOS_IF_TR_H */

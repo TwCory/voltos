@@ -9,6 +9,7 @@
 #define _VOLTOS_VPDN_TEMPLATE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vpdn-template.h>
 
 struct vpdn_template {
 

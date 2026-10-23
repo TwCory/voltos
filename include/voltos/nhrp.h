@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NHRP_H
 #define _VOLTOS_NHRP_H
 
+#include <nbapi/voltos/nhrp.h>
+
 #endif /* _VOLTOS_NHRP_H */

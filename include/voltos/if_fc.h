@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IF_FC_H
 #define _VOLTOS_IF_FC_H
 
+#include <nbapi/voltos/if_fc.h>
+
 #endif /* _VOLTOS_IF_FC_H */

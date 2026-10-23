@@ -8,4 +8,6 @@
 #ifndef __VS_CMP_H__
 #define __VS_CMP_H__
 
+#include <nbapi/voltos/vs_cmp.h>
+
 #endif /* __VS_CMP_H__ */

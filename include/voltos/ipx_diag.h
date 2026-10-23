@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPX_DIAG_H
 #define _VOLTOS_IPX_DIAG_H
 
+#include <nbapi/voltos/ipx_diag.h>
+
 #endif /* _VOLTOS_IPX_DIAG_H */

@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_ROUTE_H
 #define _VOLTOS_ROUTE_H
 
+#include <nbapi/voltos/route.h>
+
 struct route {
 
 };

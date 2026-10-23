@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_VLT_H
 #define _VOLTOS_VLT_H
 
+#include <nbapi/voltos/vlt.h>
+
 #endif /* _VOLTOS_VLT_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_LWAPP_H
 #define _VOLTOS_LWAPP_H
 
+#include <nbapi/voltos/lwapp.h>
+
 #endif /* _VOLTOS_LWAPP_H */

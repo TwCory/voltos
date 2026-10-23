@@ -9,6 +9,7 @@
 #define _VOLTOS_VLAN_FILTER_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vlan_filter.h>
 
 struct vlan_filter {
 

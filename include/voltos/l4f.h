@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_L4F_H
 #define _VOLTOS_L4F_H
 
+#include <nbapi/voltos/l4f.h>
+
 #endif /* _VOLTOS_L4F_H */

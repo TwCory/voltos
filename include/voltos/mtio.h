@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MTIO_H
 #define _VOLTOS_MTIO_H
 
+#include <nbapi/voltos/mtio.h>
+
 #endif /* _VOLTOS_MTIO_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_OSPF_H
 #define _VOLTOS_OSPF_H
 
+#include <nbapi/voltos/ospf.h>
+
 #endif /* _VOLTOS_OSPF_H */

@@ -9,6 +9,7 @@
 #define _VOLTOS_IPC_ZONE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/ipc_zone.h>
 
 struct ipc_zone {
 

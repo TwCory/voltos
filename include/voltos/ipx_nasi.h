@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPX_NASI_H
 #define _VOLTOS_IPX_NASI_H
 
+#include <nbapi/voltos/nasi.h>
+
 #endif /* _VOLTOS_IPX_NASI_H */

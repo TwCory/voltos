@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MGCP_H
 #define _VOLTOS_MGCP_H
 
+#include <nbapi/voltos/mgcp.h>
+
 #endif /* _VOLTOS_MGCP_H */

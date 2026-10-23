@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_VNC_H
 #define _VOLTOS_VNC_H
 
+#include <nbapi/voltos/vnc.h>
+
 #endif /* _VOLTOS_VNC_H */

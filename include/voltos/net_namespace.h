@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_NET_NAMESPACE_H
 #define _VOLTOS_NET_NAMESPACE_H
 
+#include <nbapi/voltos/net_namespace.h>
+
 struct net_namespace {
 
 };

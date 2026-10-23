@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_VM_SOCK_DIAG_H
 #define _VOLTOS_VM_SOCK_DIAG_H
 
+#include <nbapi/voltos/vm_sock_diag.h>
+
 struct vm_sock_diag_handler {
 
 };

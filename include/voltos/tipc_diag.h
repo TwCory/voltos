@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TIPC_DIAG_H
 #define _VOLTOS_TIPC_DIAG_H
 
+#include <nbapi/voltos/tipc_diag.h>
+
 #endif /* _VOLTOS_TIPC_DIAG_H */

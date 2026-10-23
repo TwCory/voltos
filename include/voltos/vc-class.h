@@ -9,6 +9,7 @@
 #define _VOLTOS_VC_CLASS_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vc-class.h>
 
 struct vc_class {
 

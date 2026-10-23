@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SLP_H
 #define _VOLTOS_SLP_H
 
+#include <nbapi/voltos/slp.h>
+
 #endif /* _VOLTOS_SLP_H */

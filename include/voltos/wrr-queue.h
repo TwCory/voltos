@@ -9,6 +9,7 @@
 #define _VOLTOS_WRR_QUEUE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/wrr-queue.h>
 
 struct wrr_queue {
 

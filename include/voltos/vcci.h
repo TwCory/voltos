@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_VCCI_H
 #define _VOLTOS_VCCI_H
 
+#include <nbapi/voltos/vcci.h>
+
 #endif /* _VOLTOS_VCCI_H */

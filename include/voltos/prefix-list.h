@@ -9,6 +9,7 @@
 #define _VOLTOS_PREFIX_LIST_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/prefix-list.h>
 
 struct prefix_list {
 

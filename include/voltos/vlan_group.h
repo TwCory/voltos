@@ -9,6 +9,7 @@
 #define _VOLTOS_VLAN_GROUP_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vlan_group.h>
 
 struct vlan_group {
 

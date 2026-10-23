@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_VERSION_H
 #define _VOLTOS_VERSION_H
 
+#include <nbapi/voltos/version.h>
+
 #endif /* _VOLTOS_VERSION_H */

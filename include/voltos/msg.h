@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_MSG_H
 #define _VOLTOS_MSG_H
 
+#include <nbapi/voltos/msg.h>
+
 struct msg_msg {
 
 };

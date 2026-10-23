@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NSH_H
 #define _VOLTOS_NSH_H
 
+#include <nbapi/voltos/nsh.h>
+
 #endif /* _VOLTOS_NSH_H */

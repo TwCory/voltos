@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PROFILE_H
 #define _VOLTOS_PROFILE_H
 
+#include <nbapi/voltos/profile.h>
+
 #endif /* _VOLTOS_PROFILE_H */

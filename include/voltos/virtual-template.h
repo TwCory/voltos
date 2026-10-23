@@ -9,6 +9,7 @@
 #define _VOLTOS_VIRTUAL_TEMPLATE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/virtual-template.h>
 
 struct virtual_template {
 

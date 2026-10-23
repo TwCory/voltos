@@ -9,6 +9,7 @@
 #define _VOLTOS_TRUNK_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/trunk.h>
 
 struct trunk {
 

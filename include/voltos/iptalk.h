@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPTALK_H
 #define _VOLTOS_IPTALK_H
 
+#include <nbapi/voltos/iptalk.h>
+
 #endif /* _VOLTOS_IPTALK_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_L3MGR_H
 #define _VOLTOS_L3MGR_H
 
+#include <nbapi/voltos/l3mgr.h>
+
 #endif /* _VOLTOS_L3MGR_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IP_MROUTE_H
 #define _VOLTOS_IP_MROUTE_H
 
+#include <nbapi/voltos/ip_mroute.h>
+
 #endif /* _VOLTOS_IP_MROUTE_H */

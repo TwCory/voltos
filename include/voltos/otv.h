@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_OTV_H
 #define _VOLTOS_OTV_H
 
+#include <nbapi/voltos/otv.h>
+
 #endif /* _VOLTOS_OTV_H */

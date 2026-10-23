@@ -8,4 +8,7 @@
 #ifndef _VOLTOS_MMAN_H
 #define _VOLTOS_MMAN_H
 
+#include <sys/mman.h>
+#include <nbapi/voltos/mman.h>
+
 #endif /* _VOLTOS_MMAN_H */

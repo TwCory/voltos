@@ -9,5 +9,6 @@
 #define _VOLTOS_IDA_CLIENT_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/ida-client.h>
 
 #endif /* _VOLTOS_IDA_CLIENT_H */

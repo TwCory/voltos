@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PCEP_H
 #define _VOLTOS_PCEP_H
 
+#include <nbapi/voltos/pcep.h>
+
 #endif /* _VOLTOS_PCEP_H */

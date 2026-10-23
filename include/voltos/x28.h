@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_X28_H
 #define _VOLTOS_X28_H
 
+#include <nbapi/voltos/x28.h>
+
 #endif /* _VOLTOS_X28_H */

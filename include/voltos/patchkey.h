@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PATCHKEY_H
 #define _VOLTOS_PATCHKEY_H
 
+#include <nbapi/voltos/patchkey.h>
+
 #endif /* _VOLTOS_PATCHKEY_H */

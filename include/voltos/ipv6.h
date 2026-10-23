@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPV6_H
 #define _VOLTOS_IPV6_H
 
+#include <nbapi/voltos/ipv6.h>
+
 #endif /* _VOLTOS_IPV6_H */

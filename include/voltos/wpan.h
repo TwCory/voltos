@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_WPAN_H
 #define _VOLTOS_WPAN_H
 
+#include <nbapi/voltos/wpan.h>
+
 #endif /* _VOLTOS_WPAN_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TDM_H
 #define _VOLTOS_TDM_H
 
+#include <nbapi/voltos/tdm.h>
+
 #endif /* _VOLTOS_TDM_H */

@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_USER_EVENTS_H
 #define _VOLTOS_USER_EVENTS_H
 
+#include <nbapi/voltos/user_events.h>
+
 struct user_event {
 
 };

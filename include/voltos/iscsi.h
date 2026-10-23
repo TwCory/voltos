@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_ISCSI_H
 #define _VOLTOS_ISCSI_H
 
+#include <nbapi/voltos/iscsi.h>
+
 #endif /* _VOLTOS_ISCSI_H */

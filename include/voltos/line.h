@@ -9,6 +9,7 @@
 #define _VOLTOS_LINE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/line.h>
 
 struct line {
 

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SSDP_H
 #define _VOLTOS_SSDP_H
 
+#include <nbapi/voltos/ssdp.h>
+
 #endif /* _VOLTOS_SSDP_H */

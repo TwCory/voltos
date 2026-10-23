@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_X25_H
 #define _VOLTOS_X25_H
 
+#include <nbapi/voltos/x25.h>
+
 #endif /* _VOLTOS_X25_H */

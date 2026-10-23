@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_NTP_H
 #define _VOLTOS_NTP_H
 
+#include <nbapi/voltos/ntp.h>
+
 #endif /* _VOLTOS_NTP_H */

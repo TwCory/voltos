@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_MCTP_H
 #define _VOLTOS_MCTP_H
 
+#include <nbapi/voltos/mctp.h>
+
 #endif /* _VOLTOS_MCTP_H */

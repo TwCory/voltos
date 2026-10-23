@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IRIG_H
 #define _VOLTOS_IRIG_H
 
+#include <nbapi/voltos/irig.h>
+
 #endif /* _VOLTOS_IRIG_H */

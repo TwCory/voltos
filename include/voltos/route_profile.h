@@ -9,6 +9,7 @@
 #define _VOLTOS_ROUTE_PROFILE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/route_profile.h>
 
 struct route_profile {
 

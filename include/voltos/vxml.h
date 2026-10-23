@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_VXML_H
 #define _VOLTOS_VXML_H
 
+#include <nbapi/voltos/vxml.h>
+
 #endif /* _VOLTOS_VXML_H */

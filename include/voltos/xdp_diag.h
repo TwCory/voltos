@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_XDP_DIAG_H
 #define _VOLTOS_XDP_DIAG_H
 
+#include <nbapi/voltos/xdp_diag.h>
+
 struct xdp_diag_handler {
 
 };

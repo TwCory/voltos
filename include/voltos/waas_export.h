@@ -9,6 +9,7 @@
 #define _VOLTOS_WAAS_EXPORT_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/waas_export.h>
 
 struct waas_export {
 

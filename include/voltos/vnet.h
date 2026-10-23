@@ -9,5 +9,6 @@
 #define _VOLTOS_VNET_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vnet.h>
 
 #endif /* _VOLTOS_VNET_H */

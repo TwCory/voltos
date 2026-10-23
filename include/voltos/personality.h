@@ -8,4 +8,7 @@
 #ifndef _VOLTOS_PERSONALITY_H
 #define _VOLTOS_PERSONALITY_H
 
+#include <sys/personality.h>
+#include <nbapi/voltos/personality.h>
+
 #endif /* _VOLTOS_PERSONALITY_H */

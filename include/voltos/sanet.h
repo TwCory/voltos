@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SANET_H
 #define _VOLTOS_SANET_H
 
+#include <nbapi/voltos/sanet.h>
+
 #endif /* _VOLTOS_SANET_H */

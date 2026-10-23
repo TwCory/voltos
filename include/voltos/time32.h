@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_TIME32_H
 #define _VOLTOS_TIME32_H
 
+#include <voltos/time.h>
+
 #endif /* _VOLTOS_TIME32_H */

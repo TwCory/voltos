@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_KEYCHAIN_H
 #define _VOLTOS_KEYCHAIN_H
 
+#include <nbapi/voltos/keychain.h>
+
 struct keychain {
 
 };

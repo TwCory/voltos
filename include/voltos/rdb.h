@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_RDB_H
 #define _VOLTOS_RDB_H
 
+#include <nbapi/voltos/rdb.h>
+
 struct rdb {
 
 };

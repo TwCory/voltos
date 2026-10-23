@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_USER_H
 #define _VOLTOS_USER_H
 
+#include <nbapi/voltos/user.h>
+
 #endif /* _VOLTOS_USER_H */

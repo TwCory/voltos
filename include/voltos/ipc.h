@@ -8,4 +8,7 @@
 #ifndef _VOLTOS_IPC_H
 #define _VOLTOS_IPC_H
 
+#include <sys/ipc.h>
+#include <nbapi/voltos/ipc.h>
+
 #endif /* _VOLTOS_IPC_H */

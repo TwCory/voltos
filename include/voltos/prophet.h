@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_PROPHET_H
 #define _VOLTOS_PROPHET_H
 
+#include <nbapi/voltos/prophet.h>
+
 #endif /* _VOLTOS_PROPHET_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SR_TE_H
 #define _VOLTOS_SR_TE_H
 
+#include <nbapi/voltos/sr-te.h>
+
 #endif /* _VOLTOS_SR_TE_H */

@@ -9,6 +9,7 @@
 #define _VOLTOS_VTY_ASYNC_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vty_async.h>
 
 struct vty_async {
 

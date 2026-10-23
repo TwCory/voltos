@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_UDPSTP_H
 #define _VOLTOS_UDPSTP_H
 
+#include <nbapi/voltos/udpstp.h>
+
 #endif /* _VOLTOS_UDPSTP_H */

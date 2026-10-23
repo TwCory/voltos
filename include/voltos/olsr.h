@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_OLSR_H
 #define _VOLTOS_OLSR_H
 
+#include <nbapi/voltos/olsr.h>
+
 #endif /* _VOLTOS_OLSR_H */

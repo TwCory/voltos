@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_KRON_H
 #define _VOLTOS_KRON_H
 
+#include <nbapi/voltos/kron.h>
+
 #endif /* _VOLTOS_KRON_H */

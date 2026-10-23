@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_IPX_ROUTE_H
 #define _VOLTOS_IPX_ROUTE_H
 
+#include <nbapi/voltos/ipx_route.h>
+
 #endif /* _VOLTOS_IPX_ROUTE_H */

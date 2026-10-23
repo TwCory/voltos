@@ -8,4 +8,6 @@
 #ifndef __VOLTOS_PAGE_FLAGS_H__
 #define __VOLTOS_PAGE_FLAGS_H__
 
+#include <nbapi/voltos/voltos-page-flags.h>
+
 #endif /* __VOLTOS_PAGE_FLAGS_H__ */

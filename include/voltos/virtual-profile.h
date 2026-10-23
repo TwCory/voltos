@@ -9,6 +9,7 @@
 #define _VOLTOS_VIRTUAL_PROFILE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/virtual-profile.h>
 
 struct virtual_profile {
 

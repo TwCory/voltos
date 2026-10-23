@@ -9,6 +9,7 @@
 #define _VOLTOS_VENDOR_TAG_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/vendor-tag.h>
 
 struct vendor_tag {
 

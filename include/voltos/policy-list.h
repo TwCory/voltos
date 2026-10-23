@@ -9,6 +9,7 @@
 #define _VOLTOS_POLICY_LIST_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/policy-list.h>
 
 struct policy_list {
 

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_WSSE_H
 #define _VOLTOS_WSSE_H
 
+#include <nbapi/voltos/wsse.h>
+
 #endif /* _VOLTOS_WSSE_H */

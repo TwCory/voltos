@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_L3NAT_H
 #define _VOLTOS_L3NAT_H
 
+#include <nbapi/voltos/l3nat.h>
+
 #endif /* _VOLTOS_L3NAT_H */

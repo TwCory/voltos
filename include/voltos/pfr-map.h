@@ -9,6 +9,7 @@
 #define _VOLTOS_PFR_MAP_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/pfr-map.h>
 
 struct pfr_map {
 

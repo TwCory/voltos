@@ -9,6 +9,7 @@
 #define _VOLTOS_IPHC_PROFILE_H
 
 #include <voltos/refcount.h>
+#include <nbapi/voltos/iphc-profile.h>
 
 struct iphc_profile {
 
