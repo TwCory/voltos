@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_JUMP_LABEL_H
-#define _VOLTOS_JUMP_LABEL_H
-
-#endif /* _VOLTOS_JUMP_LABEL_H */

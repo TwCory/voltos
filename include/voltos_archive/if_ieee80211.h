@@ -1,6 +1,0 @@
-#ifndef _VOLTOS_IF_IEEE80211_H
-#define _VOLTOS_IF_IEEE80211_H
-
-#define DOT11_ADDR_SIZE		6
-
-#endif /* _VOLTOS_IF_IEEE80211_H */

@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_ERROR_QUEUE_H
-#define _VOLTOS_ERROR_QUEUE_H
-
-#endif /* _VOLTOS_ERROR_QUEUE_H */

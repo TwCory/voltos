@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_ZEROTIER_H
-#define _VOLTOS_ZEROTIER_H
-
-#endif /* _VOLTOS_ZEROTIER_H */

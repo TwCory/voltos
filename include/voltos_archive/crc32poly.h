@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_CRC32POLY_H
-#define _VOLTOS_CRC32POLY_H
-
-#endif /* _VOLTOS_CRC32POLY_H */

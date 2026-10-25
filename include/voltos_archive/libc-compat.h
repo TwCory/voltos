@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_LIBC_COMPAT_H
-#define _VOLTOS_LIBC_COMPAT_H
-
-#endif /* _VOLTOS_LIBC_COMPAT_H */

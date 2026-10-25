@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_TICKETLOCK_H
-#define _VOLTOS_TICKETLOCK_H
-
-#endif /* _VOLTOS_TICKETLOCK_H */

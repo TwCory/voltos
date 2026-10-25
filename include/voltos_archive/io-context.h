@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_IO_CONTEXT_H
-#define _VOLTOS_IO_CONTEXT_H
-
-#endif /* _VOLTOS_IO_CONTEXT_H */

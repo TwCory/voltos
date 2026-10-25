@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_IF_CELLULAR_H
-#define _VOLTOS_IF_CELLULAR_H
-
-#endif /* _VOLTOS_IF_CELLULAR_H */

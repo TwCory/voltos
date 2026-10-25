@@ -1,8 +1,0 @@
-#ifndef _VOLTOS_IF_INFINIBAND_H
-#define _VOLTOS_IF_INFINIBAND_H
-
-struct sockaddr_ib {
-
-};
-
-#endif /* _VOLTOS_IF_INFINIBAND_H */

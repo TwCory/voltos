@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_HYPERGRAPH_H
-#define _VOLTOS_HYPERGRAPH_H
-
-#endif /* _VOLTOS_HYPERGRAPH_H */

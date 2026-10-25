@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_MEMWEIGHT_H
-#define _VOLTOS_MEMWEIGHT_H
-
-#endif /* _VOLTOS_MEMWEIGHT_H */

@@ -1,6 +1,0 @@
-#ifndef _VOLTOS_DECNET_H
-#define _VOLTOS_DECNET_H
-
-#define DECNET_ETHERTYPE	0x6003
-
-#endif /* _VOLTOS_DECNET_H */

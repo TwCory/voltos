@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_STRING_HASH_H
-#define _VOLTOS_STRING_HASH_H
-
-#endif /* _VOLTOS_STRING_HASH_H */

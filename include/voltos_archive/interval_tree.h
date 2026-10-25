@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_INTERVAL_TREE_H
-#define _VOLTOS_INTERVAL_TREE_H
-
-#endif /* _VOLTOS_INTERVAL_TREE_H */

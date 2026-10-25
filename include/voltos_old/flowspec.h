@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_FLOWSPEC_H
-#define _VOLTOS_FLOWSPEC_H
-
-#endif /* _VOLTOS_FLOWSPEC_H */

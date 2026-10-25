@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_RESOURCE_H
-#define _VOLTOS_RESOURCE_H
-
-#endif /* _VOLTOS_RESOURCE_H */

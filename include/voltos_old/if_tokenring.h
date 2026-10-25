@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_IF_TOKENRING_H
-#define _VOLTOS_IF_TOKENRING_H
-
-#endif /* _VOLTOS_IF_TOKENRING_H */

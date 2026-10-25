@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_KDBTREE_TYPES_H
-#define _VOLTOS_KDBTREE_TYPES_H
-
-#endif /* _VOLTOS_KDBTREE_TYPES_H */

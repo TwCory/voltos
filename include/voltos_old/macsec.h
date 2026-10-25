@@ -1,6 +1,0 @@
-#ifndef _VOLTOS_MACSEC_H
-#define _VOLTOS_MACSEC_H
-
-#define MACSEC_ETHERTYPE		0x88E5
-
-#endif /* _VOLTOS_MACSEC_H */

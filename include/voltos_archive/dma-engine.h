@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_DMA_ENGINE_H
-#define _VOLTOS_DMA_ENGINE_H
-
-#endif /* _VOLTOS_DMA_ENGINE_H */

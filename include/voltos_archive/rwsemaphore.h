@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_RWSEMAPHORE_H
-#define _VOLTOS_RWSEMAPHORE_H
-
-#endif /* _VOLTOS_RWSEMAPHORE_H */

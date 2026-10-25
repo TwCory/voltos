@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_CLI_NODE_TYPES_H
-#define _VOLTOS_CLI_NODE_TYPES_H
-
-#endif /* _VOLTOS_CLI_NODE_TYPES_H */

@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_OVERFLOW_H
-#define _VOLTOS_OVERFLOW_H
-
-#endif /* _VOLTOS_OVERFLOW_H */

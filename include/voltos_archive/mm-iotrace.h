@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_MM_IOTRACE_H
-#define _VOLTOS_MM_IOTRACE_H
-
-#endif /* _VOLTOS_MM_IOTRACE_H */

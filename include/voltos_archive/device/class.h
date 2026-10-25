@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_DEVICE_CLASS_H
-#define _VOLTOS_DEVICE_CLASS_H
-
-#endif /* _VOLTOS_DEVICE_CLASS_H */

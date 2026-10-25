@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_INET_PREFIX_H
-#define _VOLTOS_INET_PREFIX_H
-
-#endif /* _VOLTOS_INET_PREFIX_H */

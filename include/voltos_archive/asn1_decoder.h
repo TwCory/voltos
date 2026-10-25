@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_ASN1_DECODER_H
-#define _VOLTOS_ASN1_DECODER_H
-
-#endif /* _VOLTOS_ASN1_DECODER_H */

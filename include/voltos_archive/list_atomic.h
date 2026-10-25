@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_LIST_ATOMIC_H
-#define _VOLTOS_LIST_ATOMIC_H
-
-#endif /* _VOLTOS_LIST_ATOMIC_H */

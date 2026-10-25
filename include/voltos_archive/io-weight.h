@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_IO_WEIGHT_H
-#define _VOLTOS_IO_WEIGHT_H
-
-#endif /* _VOLTOS_IO_WEIGHT_H */

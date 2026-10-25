@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_CLNS_TUNNEL_H
-#define _VOLTOS_CLNS_TUNNEL_H
-
-#endif /* _VOLTOS_CLNS_TUNNEL_H */

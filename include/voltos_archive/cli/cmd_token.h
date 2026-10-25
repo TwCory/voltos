@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_CLI_CMD_TOKEN_H
-#define _VOLTOS_CLI_CMD_TOKEN_H
-
-#endif /* _VOLTOS_CLI_CMD_TOKEN_H */

@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_YANG_VERSION_H
-#define _VOLTOS_YANG_VERSION_H
-
-#endif /* _VOLTOS_YANG_VERSION_H */

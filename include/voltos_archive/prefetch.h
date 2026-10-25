@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_PREFETCH_H
-#define _VOLTOS_PREFETCH_H
-
-#endif /* _VOLTOS_PREFETCH_H */

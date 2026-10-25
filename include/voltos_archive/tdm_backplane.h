@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_TDM_BACKPLANE_H
-#define _VOLTOS_TDM_BACKPLANE_H
-
-#endif /* _VOLTOS_TDM_BACKPLANE_H */

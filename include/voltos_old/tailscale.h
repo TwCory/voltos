@@ -1,4 +1,0 @@
-#ifndef _VOLTOS_TAILSCALE_H
-#define _VOLTOS_TAILSCALE_H
-
-#endif /* _VOLTOS_TAILSCALE_H */
