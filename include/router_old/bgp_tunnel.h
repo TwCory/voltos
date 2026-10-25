@@ -1,4 +1,0 @@
-#ifndef _ROUTER_BGP_TUNNEL_H
-#define _ROUTER_BGP_TUNNEL_H
-
-#endif /* _ROUTER_BGP_TUNNEL_H */

@@ -1,4 +1,0 @@
-#ifndef _ROUTER_OPENFABRIC_H
-#define _ROUTER_OPENFABRIC_H
-
-#endif /* _ROUTER_OPENFABRIC_H */

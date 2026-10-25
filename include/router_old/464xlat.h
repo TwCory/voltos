@@ -1,4 +1,0 @@
-#ifndef _ROUTER_464XLAT_H
-#define _ROUTER_464XLAT_H
-
-#endif /* _ROUTER_464XLAT_H */

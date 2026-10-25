@@ -1,4 +1,0 @@
-#ifndef _ROUTER_BATMAN_ADV_H
-#define _ROUTER_BATMAN_ADV_H
-
-#endif /* _ROUTER_BATMAN_ADV_H */

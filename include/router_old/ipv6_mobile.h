@@ -1,4 +1,0 @@
-#ifndef _ROUTER_IPV6_MOBILE_H
-#define _ROUTER_IPV6_MOBILE_H
-
-#endif /* _ROUTER_IPV6_MOBILE_H */

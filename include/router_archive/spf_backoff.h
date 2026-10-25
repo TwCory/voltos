@@ -1,4 +1,0 @@
-#ifndef _ROUTER_SPF_BACKOFF_H
-#define _ROUTER_SPF_BACKOFF_H
-
-#endif /* _ROUTER_SPF_BACKOFF_H */
