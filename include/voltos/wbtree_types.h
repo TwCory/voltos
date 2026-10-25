@@ -16,4 +16,12 @@ struct wb_root {
 
 };
 
+struct wb_root_cached {
+
+};
+
+struct wb_root_linked {
+
+};
+
 #endif /* _VOLTOS_WBTREE_TYPES_H */

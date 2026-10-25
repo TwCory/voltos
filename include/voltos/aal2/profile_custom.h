@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_AAL2_PROFILE_CUSTOM_H
 #define _VOLTOS_AAL2_PROFILE_CUSTOM_H
 
+struct aal2_custom_profile {
+
+};
+
 #endif /* _VOLTOS_AAL2_PROFILE_CUSTOM_H */

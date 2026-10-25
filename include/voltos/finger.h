@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_FINGER_H
 #define _VOLTOS_FINGER_H
 
+#include <nbapi/voltos/finger.h>
+
 #endif /* _VOLTOS_FINGER_H */

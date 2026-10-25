@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ASN1_BER_BYTECODE_H
 #define _VOLTOS_ASN1_BER_BYTECODE_H
 
+struct asn1_decoder {
+
+};
+
 #endif /* _VOLTOS_ASN1_BER_BYTECODE_H */

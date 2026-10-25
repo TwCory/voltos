@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vlan_group.h>
 
 struct vlan_group {
-
+	const char 		name[VLAN_GROUP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_VLAN_GROUP_H */

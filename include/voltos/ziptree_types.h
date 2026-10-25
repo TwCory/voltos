@@ -16,4 +16,12 @@ struct zip_root {
 
 };
 
+struct zip_root_cached {
+
+};
+
+struct zip_root_linked {
+
+};
+
 #endif /* _VOLTOS_ZIPTREE_TYPES_H */

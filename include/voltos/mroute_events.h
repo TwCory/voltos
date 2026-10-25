@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/mroute_events.h>
 
+struct mroute_event {
+
+};
+
 #endif /* _VOLTOS_MROUTE_EVENTS_H */

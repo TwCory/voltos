@@ -12,4 +12,8 @@ struct arc_cache_node {
 
 };
 
+struct arc_cache {
+	
+};
+
 #endif /* _VOLTOS_ARC_CACHE_H */

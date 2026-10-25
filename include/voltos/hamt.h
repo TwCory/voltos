@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hamt.h
  *
+ * 	Hash Array Mapped Trie (HAMT)
  */
 
 #ifndef _VOLTOS_HAMT_H

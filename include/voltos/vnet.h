@@ -11,4 +11,8 @@
 #include <voltos/refcount.h>
 #include <nbapi/voltos/vnet.h>
 
+struct vnet_tag {
+
+};
+
 #endif /* _VOLTOS_VNET_H */

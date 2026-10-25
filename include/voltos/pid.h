@@ -10,4 +10,8 @@
 
 #include <voltos/pid_types.h>
 
+struct pid {
+
+};
+
 #endif /* _VOLTOS_PID_H */

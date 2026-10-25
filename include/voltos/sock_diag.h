@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_SOCK_DIAG_H
 #define _VOLTOS_SOCK_DIAG_H
 
-#include <nbapi/voltos/sock_diag_handler.h>
+#include <nbapi/voltos/sock_diag.h>
 
 struct sock_diag_handler {
 

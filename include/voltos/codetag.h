@@ -12,4 +12,12 @@ struct codetag {
 
 };
 
+struct codetag_type_desc {
+
+};
+
+struct codetag_iterator {
+
+};
+
 #endif /* _VOLTOS_CODETAG_H */

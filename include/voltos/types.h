@@ -63,4 +63,7 @@ typedef size_t				resource_size_t;
 typedef u64 				sector_t;
 typedef unsigned long 			pgoff_t;
 
+typedef intmax_t			imax;
+typedef uintmax_t			umax;
+
 #endif /* _VOLTOS_TYPES_H */

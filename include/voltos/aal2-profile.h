@@ -12,7 +12,8 @@
 #include <nbapi/voltos/aal2-profile.h>
 
 struct aal2_profile {
-	refcount_t ref_count;
+	const char 		name[AAL2_PROFILE_NAME_SIZE];
+	refcount_t 		ref_count;
 };
 
 #endif /* _VOLTOS_AAL2_PROFILE_H */

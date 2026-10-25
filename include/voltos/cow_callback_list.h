@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_COW_CALLBACK_LIST_H
 #define _VOLTOS_COW_CALLBACK_LIST_H
 
+struct cow_callback_list {
+
+};
+
 #endif /* _VOLTOS_COW_CALLBACK_LIST_H */

@@ -8,7 +8,4 @@
 #ifndef _ALPS_AX25_H
 #define _ALPS_AX25_H
 
-#include <voltos/alps.h>
-#include <voltos/ax25.h>
-
 #endif /* _ALPS_AX25_H */

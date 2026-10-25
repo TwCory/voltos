@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vlan.h>
 
 struct vlan {
-
+	const char 		name[VLAN_NAME_SIZE];
 };
 
 struct private_vlan {

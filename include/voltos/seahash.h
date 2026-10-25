@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_SEAHASH_H
 #define _VOLTOS_SEAHASH_H
 
+typedef struct {
+
+} seahash_key_t;
+
 #endif /* _VOLTOS_SEAHASH_H */

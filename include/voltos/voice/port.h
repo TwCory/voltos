@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_VOICE_PORT_H
 #define _VOLTOS_VOICE_PORT_H
 
+struct voice_port {
+
+};
+
 #endif /* _VOLTOS_VOICE_PORT_H */

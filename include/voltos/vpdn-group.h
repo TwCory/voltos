@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vpdn-group.h>
 
 struct vpdn_group {
-
+	const char 		name[VPDN_GROUP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_VPDN_GROUP_H */

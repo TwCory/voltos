@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_IPDR_H
 #define _VOLTOS_IPDR_H
 
-#include <nbapi/voltos/ipdr.h>
+//#include <nbapi/voltos/ipdr.h>
 
 #endif /* _VOLTOS_IPDR_H */

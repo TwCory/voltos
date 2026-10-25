@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_U64_STATS_SYNC_H
 #define _VOLTOS_U64_STATS_SYNC_H
 
+struct u64_stats_sync {
+
+};
+
 #endif /* _VOLTOS_U64_STATS_SYNC_H */

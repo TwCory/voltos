@@ -8,7 +8,4 @@
 #ifndef _ALPS_MATIP_H
 #define _ALPS_MATIP_H
 
-#include <voltos/alps.h>
-#include <voltos/matip.h>
-
 #endif /* _ALPS_MATIP_H */

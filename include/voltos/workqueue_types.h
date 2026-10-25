@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_WORKQUEUE_TYPES_H
 #define _VOLTOS_WORKQUEUE_TYPES_H
 
+struct voltos_workqueue {
+
+};
+
+struct voltos_work {
+
+};
+
 #endif /* _VOLTOS_WORKQUEUE_TYPES_H */

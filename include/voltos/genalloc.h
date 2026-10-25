@@ -8,4 +8,20 @@
 #ifndef _VOLTOS_GENALLOC_H
 #define _VOLTOS_GENALLOC_H
 
+struct gen_pool {
+
+};
+
+struct gen_pool_chunk {
+
+};
+
+struct gen_pool_data_align {
+
+};
+
+struct gen_pool_data_fixed {
+
+};
+
 #endif /* _VOLTOS_GENALLOC_H */

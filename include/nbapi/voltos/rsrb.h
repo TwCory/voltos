@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rsrb.h
  *
+ * 	Remote Source-Route Bridging (RSRB)
  */
 
 #ifndef _NBAPI_VOLTOS_RSRB_H

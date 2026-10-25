@@ -16,4 +16,7 @@ struct skiplist_node {
 
 };
 
+#define SKIPLIST_HEAD_INIT(head)
+#define SKIPLIST_HEAD(head)
+
 #endif /* _VOLTOS_SKIPLIST_H */

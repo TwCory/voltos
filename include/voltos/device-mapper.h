@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_DEVICE_MAPPER_H
 #define _VOLTOS_DEVICE_MAPPER_H
 
+struct dm_device {
+
+};
+
 #endif /* _VOLTOS_DEVICE_MAPPER_H */

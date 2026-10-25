@@ -12,4 +12,8 @@ struct sparse_matrix_head {
 
 };
 
+struct sparse_matrix_node {
+
+};
+
 #endif /* _VOLTOS_SPARSE_MATRIX_H */

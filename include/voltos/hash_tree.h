@@ -12,4 +12,8 @@ struct hash_tree_head {
 
 };
 
+struct hash_tree_node {
+
+};
+
 #endif /* _VOLTOS_HASH_TREE_H */

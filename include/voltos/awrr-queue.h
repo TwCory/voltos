@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/awrr-queue.h>
 
+struct awrr_queue {
+
+};
+
 #endif /* _VOLTOS_AWRR_QUEUE_H */

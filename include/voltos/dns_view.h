@@ -12,7 +12,7 @@
 #include <nbapi/voltos/dns_view.h>
 
 struct dns_view {
-
+	const char 		name[DNS_VIEW_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_DNS_VIEW_H */

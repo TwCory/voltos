@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_WEAKREF_TYPES_H
 #define _VOLTOS_WEAKREF_TYPES_H
 
-typedef struct {
+#include <voltos/atomic.h>
 
+typedef struct {
+	atomic_t counter;
 } weakref_t;
 
 #endif /* _VOLTOS_WEAKREF_TYPES_H */

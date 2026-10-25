@@ -8,6 +8,6 @@
 #ifndef _NBAPI_VOLTOS_OPENVPN_H
 #define _NBAPI_VOLTOS_OPENVPN_H
 
-#define OPENVPN_PORT
+#define OPENVPN_PORT		1194
 
 #endif /* _NBAPI_VOLTOS_OPENVPN_H */

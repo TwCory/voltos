@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/chassis.h>
 
+struct chassis {
+
+};
+
 #endif /* _VOLTOS_CHASSIS_H */

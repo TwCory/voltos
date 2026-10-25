@@ -12,4 +12,8 @@ typedef struct rwsemaphore {
 
 } rwsemaphore_t;
 
+#ifndef DEFINE_RWSEMAPHORE
+#define DEFINE_RWSEMAPHORE(name)
+#endif /* DEFINE_RWSEMAPHORE */
+
 #endif /* _VOLTOS_RWSEMAPHORE_H */

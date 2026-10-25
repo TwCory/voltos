@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_FILE_H
 #define _VOLTOS_FILE_H
 
-struct file {
+#include <sys/file.h>
 
+struct file {
+	int f_fd;
 };
 
 #endif /* _VOLTOS_FILE_H */

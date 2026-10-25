@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/tipc_diag.h>
 
+struct tipc_diag_handler {
+
+};
+
 #endif /* _VOLTOS_TIPC_DIAG_H */

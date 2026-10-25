@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bihash.h
  *
+ * 	Bounded-Index Extensible Hashinh
  */
 
 #ifndef _VOLTOS_BIHASH_H

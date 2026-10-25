@@ -11,4 +11,8 @@
 #include <sys/elf.h>
 #include <nbapi/voltos/elf.h>
 
+struct gnu_property {
+
+};
+
 #endif /* _VOLTOS_ELF_H */

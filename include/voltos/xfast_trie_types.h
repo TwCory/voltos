@@ -12,4 +12,8 @@ struct xfast_trie_head {
 
 };
 
+struct xfast_trie_node {
+
+};
+
 #endif /* _VOLTOS_XFAST_TRIE_TYPES_H */

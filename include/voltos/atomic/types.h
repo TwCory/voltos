@@ -16,13 +16,19 @@ typedef struct {
 	__atomic int 			counter;
 } atomic32_t;
 
+#define ATOMIC32_INIT(i)
+
 typedef struct {
 	__atomic long long 		counter;
 } atomic64_t;
+
+#define ATOMIC64_INIT(i)
 
 typedef union {
 	atomic32_t			counter32;
 	atomic64_t			counter64;
 } atomic_t;
+
+#define ATOMIC_INIT(i)
 
 #endif /* _VOLTOS_ATOMIC_TYPES_H */

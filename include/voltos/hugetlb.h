@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_HUGETLB_H
 #define _VOLTOS_HUGETLB_H
 
+struct hugepage_subpool {
+
+};
+
 #endif /* _VOLTOS_HUGETLB_H */

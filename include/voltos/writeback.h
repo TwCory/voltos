@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_WRITEBACK_H
 #define _VOLTOS_WRITEBACK_H
 
+struct wb_control {
+
+};
+
+struct wb_domain {
+
+};
+
 #endif /* _VOLTOS_WRITEBACK_H */

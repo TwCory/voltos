@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_NAMESPACE_PROXY_H
 #define _VOLTOS_NAMESPACE_PROXY_H
 
+struct ns_proxy {
+
+};
+
 #endif /* _VOLTOS_NAMESPACE_PROXY_H */

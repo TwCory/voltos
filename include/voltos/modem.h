@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/modem.h>
 
+struct modem {
+
+};
+
 #endif /* _VOLTOS_MODEM_H */

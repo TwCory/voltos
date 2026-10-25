@@ -9,7 +9,14 @@
 #define _VOLTOS_PTR_RING_H
 
 struct ptr_ring {
+	int producer;
 
+	int consumer_head;
+	int consumer_tail;
+
+	int size;
+	int batch;
+	void **queue;
 };
 
 #endif /* _VOLTOS_PTR_RING_H */

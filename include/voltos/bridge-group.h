@@ -12,7 +12,7 @@
 #include <nbapi/voltos/bridge-group.h>
 
 struct bridge_group {
-
+	refcount_t ref_count;
 };
 
 #endif /* _VOLTOS_BRIDGE_GROUP_H */

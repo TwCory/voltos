@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_MEMREGION_H
 #define _VOLTOS_MEMREGION_H
 
+struct memregion_info {
+
+};
+
 #endif /* _VOLTOS_MEMREGION_H */

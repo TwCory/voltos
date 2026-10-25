@@ -13,4 +13,11 @@
 #include <voltos/compiler-context-analysis.h>
 #include <voltos/compiler-demangle.h>
 
+#define __voltos_system
+#define __voltos_io
+#define __voltos_user
+#define __voltos_percpu
+#define __voltos_rcu
+#define __voltos_cow
+
 #endif /* _VOLTOS_COMPILER_TYPES_H */

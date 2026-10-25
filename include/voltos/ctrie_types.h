@@ -12,4 +12,8 @@ struct ctrie_head {
 
 };
 
+struct ctrie_node {
+
+};
+
 #endif /* _VOLTOS_CTRIE_TYPES_H */

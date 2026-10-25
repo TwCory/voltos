@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_NAMESPACE_TREE_H
 #define _VOLTOS_NAMESPACE_TREE_H
 
+struct ns_tree {
+
+};
+
 #endif /* _VOLTOS_NAMESPACE_TREE_H */

@@ -11,6 +11,10 @@
 #include <voltos/refcount.h>
 #include <nbapi/voltos/ida-client.h>
 
-struct ida_client;
+struct ida_client {
+	const char 			*server_url;
+	enum ida_client_state 		state;
+	refcount_t 			ref_count;
+};
 
 #endif /* _VOLTOS_IDA_CLIENT_H */

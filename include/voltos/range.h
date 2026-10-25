@@ -12,4 +12,8 @@ struct range {
 
 };
 
+#ifndef DEFINE_RANGE
+#define DEFINE_RANGE(_start, _stop)
+#endif /* DEFINE_RANGE */
+
 #endif /* _VOLTOS_RANGE_H */

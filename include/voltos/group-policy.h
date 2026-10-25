@@ -11,4 +11,8 @@
 #include <voltos/refcount.h>
 #include <nbapi/voltos/group-policy.h>
 
+struct group_policy {
+
+};
+
 #endif /* _VOLTOS_GROUP_POLICY_H */

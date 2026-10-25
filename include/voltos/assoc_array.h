@@ -12,4 +12,8 @@ struct assoc_array {
 
 };
 
+struct assoc_array_ops {
+
+};
+
 #endif /* _VOLTOS_ASSOC_ARRAY_H */

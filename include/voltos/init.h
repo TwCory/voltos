@@ -12,4 +12,10 @@
 #define __voltos_init
 #endif /* __voltos_init */
 
+#ifndef __voltos_init_data
+#define __voltos_init_data
+#endif /* __voltos_init_data */
+
+
+
 #endif /* _VOLTOS_INIT_H */

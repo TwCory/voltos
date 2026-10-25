@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/line_events.h>
 
+struct line_event {
+
+};
+
 #endif /* _VOLTOS_LINE_EVENTS_H */

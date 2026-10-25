@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dynamic_array.h
  *
+ * 	Dynamic Arrays
  */
 
 #ifndef _VOLTOS_DYNAMIC_ARRAY_H

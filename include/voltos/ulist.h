@@ -16,4 +16,7 @@ struct ulist_node {
 
 };
 
+#define ULIST_HEAD_INIT(head)
+#define ULIST_HEAD(head)
+
 #endif /* _VOLTOS_ULIST_H */

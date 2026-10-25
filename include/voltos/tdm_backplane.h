@@ -8,5 +8,8 @@
 #ifndef _VOLTOS_TDM_BACKPLANE_H
 #define _VOLTOS_TDM_BACKPLANE_H
 
+struct tdm_backplane {
+
+};
 
 #endif /* _VOLTOS_TDM_BACKPLANE_H */

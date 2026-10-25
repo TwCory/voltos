@@ -10,4 +10,12 @@
 
 #include <voltos/wait.h>
 
+struct wait_bit_key {
+
+};
+
+struct wait_bit_queue_entry {
+
+};
+
 #endif /* _VOLTOS_WAIT_BIT_H */

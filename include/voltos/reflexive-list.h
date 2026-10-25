@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/reflexive-list.h>
 
+struct reflexive_list {
+
+};
+
 #endif /* _VOLTOS_REFLEXIVE_LIST_H */

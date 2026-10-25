@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/patchkey.h>
 
+#ifndef _PATCHKEY
+#define _PATCHKEY(id)
+#endif /* _PATCHKEY */
+
 #endif /* _VOLTOS_PATCHKEY_H */

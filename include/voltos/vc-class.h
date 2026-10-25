@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vc-class.h>
 
 struct vc_class {
-
+	const char 		name[VC_CLASS_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_VC_CLASS_H */

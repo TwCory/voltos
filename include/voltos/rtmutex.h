@@ -10,4 +10,8 @@
 
 #include <voltos/rtmutex_types.h>
 
+#ifndef DEFINE_RTMUTEX
+#define DEFINE_RTMUTEX(name)
+#endif /* DEFINE_RTMUTEX */
+
 #endif /* _VOLTOS_RTMUTEX_H */

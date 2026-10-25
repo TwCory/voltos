@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vc-group.h>
 
 struct vc_group {
-
+	const char 		name[VC_GROUP_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_VC_GROUP_H */

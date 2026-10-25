@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vrf_list.h>
 
 struct vrf_list {
-
+	const char 		name[VRF_LIST_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_VRF_LIST_H */

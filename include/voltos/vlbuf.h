@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vlbuf.h
  *
+ * 	Variable-Length Buffers
  */
 
 #ifndef _VOLTOS_VLBUF_H

@@ -3,6 +3,8 @@
 /*
  *	include/nbapi/voltos/rbe.h
  *
+ * 	Asynchronous Transfer Mode (ATM)
+ * 	Routed Bridge Encapsulation (RBE)
  */
 
 #ifndef _NBAPI_VOLTOS_RBE_H

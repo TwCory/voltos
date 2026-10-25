@@ -12,7 +12,7 @@
 #include <nbapi/voltos/virtual-profile.h>
 
 struct virtual_profile {
-
+	const char 		name[VIRTUAL_PROFILE_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_VIRTUAL_PROFILE_H */

@@ -12,4 +12,8 @@
 #include <sys/socketvar.h>
 #include <nbapi/voltos/socket.h>
 
+struct sockaddr_generic {
+
+};
+
 #endif /* _VOLTOS_SOCKET_H */

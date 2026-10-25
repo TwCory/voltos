@@ -10,4 +10,8 @@
 
 #include <voltos/rhashtable-types.h>
 
+struct bucket_table {
+
+};
+
 #endif /* _VOLTOS_RHASHTABLE_H */

@@ -10,6 +10,8 @@
 
 #include <nbapi/voltos/mpls_diag.h>
 
-struct mpls_diag_handler;
+struct mpls_diag_handler {
+	
+};
 
 #endif /* _VOLTOS_MPLS_DIAG_H */

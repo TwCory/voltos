@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_FS_CACHE_H
 #define _VOLTOS_FS_CACHE_H
 
+struct fs_cache {
+
+};
+
 #endif /* _VOLTOS_FS_CACHE_H */

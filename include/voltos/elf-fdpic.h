@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/elf-fdpic.h>
 
+struct elf_fdpic_params {
+
+};
+
 #endif /* _VOLTOS_ELF_FDPIC_H */

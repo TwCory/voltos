@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bstun.h
  *
+ * 	IBM Block Serial Tunnel (BSTUN)
  */
 
 #ifndef _VOLTOS_BSTUN_H

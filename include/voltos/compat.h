@@ -12,4 +12,8 @@ struct compat_iovec {
 
 };
 
+struct compat_tms {
+
+};
+
 #endif /* _VOLTOS_COMPAT_H */

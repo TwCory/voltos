@@ -12,7 +12,7 @@
 #include <nbapi/voltos/dialer.h>
 
 struct dialer {
-
+	refcount_t ref_count;
 };
 
 #endif /* _VOLTOS_DIALER_H */

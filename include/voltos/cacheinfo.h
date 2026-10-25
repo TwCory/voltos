@@ -12,4 +12,8 @@ struct cacheinfo {
 
 };
 
+struct cpu_cacheinfo {
+
+};
+
 #endif /* _VOLTOS_CACHEINFO_H */

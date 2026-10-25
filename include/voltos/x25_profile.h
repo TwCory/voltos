@@ -12,7 +12,7 @@
 #include <nbapi/voltos/x25_profile.h>
 
 struct x25_profile {
-
+	const char 		name[X25_PROFILE_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_X25_PROFILE_H */

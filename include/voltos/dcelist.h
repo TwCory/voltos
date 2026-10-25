@@ -16,4 +16,7 @@ struct dcelist_node {
 
 };
 
+#define DCELIST_HEAD_INIT(head)
+#define DCELIST_HEAD(head)
+
 #endif /* _VOLTOS_DCELIST_H */

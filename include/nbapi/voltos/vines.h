@@ -13,7 +13,8 @@
 #include <voltos/types.h>
 
 struct vines_addr {
-
+	__net32 			s_addr;
+	__net16 			s_subnet;
 };
 
 struct sockaddr_vines {

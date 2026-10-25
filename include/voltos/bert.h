@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/bert.h>
 
+struct bert_profile {
+
+};
+
 #endif /* _VOLTOS_BERT_H */

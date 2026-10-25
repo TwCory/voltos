@@ -4,6 +4,8 @@
  *	include/voltos/compiler_attributes.h
  *
  * 	Taken directly from <linux/compiler_attributes.h>
+ * 
+ * 	Minor adjustments to fit VoltOS design.
  */
 
 #ifndef _VOLTOS_COMPILER_ATTRIBUTES_H

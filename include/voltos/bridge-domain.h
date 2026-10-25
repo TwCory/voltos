@@ -12,7 +12,7 @@
 #include <nbapi/voltos/bridge-domain.h>
 
 struct bridge_domain {
-
+	refcount_t ref_count;
 };
 
 #endif /* _VOLTOS_BRIDGE_DOMAIN_H */

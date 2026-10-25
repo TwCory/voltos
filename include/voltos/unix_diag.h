@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/unix_diag.h>
 
+struct unix_diag_handler {
+
+};
+
 #endif /* _VOLTOS_UNIX_DIAG_H */

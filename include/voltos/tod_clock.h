@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_TOD_CLOCK_H
 #define _VOLTOS_TOD_CLOCK_H
 
-#include <nbapi/voltos/tod_clock.h>
+//#include <nbapi/voltos/tod_clock.h>
 
 struct tod_clock {
 

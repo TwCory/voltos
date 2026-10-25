@@ -10,8 +10,6 @@
 
 #include <nbapi/voltos/credential.h>
 
-struct credential {
-
-};
+struct credential;
 
 #endif /* _VOLTOS_CREDENTIAL_H */

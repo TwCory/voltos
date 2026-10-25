@@ -3,6 +3,7 @@
 /*
  *	include/voltos/alist.h
  *
+ * 	Association Lists
  */
 
 #ifndef _VOLTOS_ALIST_H
@@ -15,5 +16,8 @@ struct alist_head {
 struct alist_node {
 
 };
+
+#define ALIST_HEAD_INIT(head)
+#define ALIST_HEAD(head)
 
 #endif /* _VOLTOS_ALIST_H */

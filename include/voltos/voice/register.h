@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_VOICE_REGISTER_H
 #define _VOLTOS_VOICE_REGISTER_H
 
+struct voice_register {
+
+};
+
 #endif /* _VOLTOS_VOICE_REGISTER_H */

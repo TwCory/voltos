@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ZSMALLOC_H
 #define _VOLTOS_ZSMALLOC_H
 
+struct zs_pool_stats {
+
+};
+
 #endif /* _VOLTOS_ZSMALLOC_H */

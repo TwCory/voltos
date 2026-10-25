@@ -16,4 +16,12 @@ struct avl_root {
 
 };
 
+struct avl_root_cached {
+	
+};
+
+struct avl_root_linked {
+	
+};
+
 #endif /* _VOLTOS_AVL_TREE_TYPES_H */

@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/hw_monitor.h>
 
+struct hw_monitor {
+
+};
+
 #endif /* _VOLTOS_HW_MONITOR_H */

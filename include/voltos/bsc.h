@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bsc.h
  *
+ * 	IBM BiSync (BSC)
  */
 
 #ifndef _VOLTOS_BSC_H

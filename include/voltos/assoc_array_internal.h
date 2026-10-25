@@ -10,4 +10,16 @@
 
 #include <voltos/assoc_array.h>
 
+struct assoc_array_node {
+
+};
+
+struct assoc_array_shortcut {
+
+};
+
+struct assoc_array_edit {
+
+};
+
 #endif /* _VOLTOS_ASSOC_ARRAY_INTERNAL_H */

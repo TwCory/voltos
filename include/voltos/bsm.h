@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bsm.h
  *
+ * 	Backhaul Session Manager
  */
 
 #ifndef _VOLTOS_BSM_H

@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_PREEMPT_H
 #define _VOLTOS_PREEMPT_H
 
+struct preempt_ops {
+
+};
+
+struct preempt_notifier {
+
+};
+
 #endif /* _VOLTOS_PREEMPT_H */

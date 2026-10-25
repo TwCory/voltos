@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rfbuf.h
  *
+ * 	Remote Frame Buffers
  */
 
 #ifndef _VOLTOS_RFBUF_H

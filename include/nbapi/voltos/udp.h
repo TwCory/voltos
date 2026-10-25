@@ -13,4 +13,8 @@ struct udp_hdr {
 
 };
 
+struct udplite_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_UDP_H */

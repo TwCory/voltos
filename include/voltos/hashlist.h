@@ -16,4 +16,7 @@ struct hashlist_node {
 
 };
 
+#define HASHLIST_HEAD_INIT(head)
+#define HASHLIST_HEAD(head)
+
 #endif /* _VOLTOS_HASHLIST_H */

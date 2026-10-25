@@ -10,4 +10,8 @@
 
 #include <voltos/ticketlock_types.h>
 
+#ifndef DEFINE_TICKETLOCK
+#define DEFINE_TICKETLOCK(name)
+#endif /* DEFINE_TICKETLOCK */
+
 #endif /* _VOLTOS_TICKETLOCK_H */

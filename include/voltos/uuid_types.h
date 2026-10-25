@@ -8,12 +8,15 @@
 #ifndef _VOLTOS_UUID_TYPES_H
 #define _VOLTOS_UUID_TYPES_H
 
-typedef struct {
+#define UUID_SIZE			16
+#define GUID_SIZE			16
 
+typedef struct {
+	unsigned char 			data[UUID_SIZE];
 } uuid_t;
 
 typedef struct {
-
+	unsigned char 			data[GUID_SIZE];
 } guid_t;
 
 #endif /* _VOLTOS_UUID_TYPES_H */

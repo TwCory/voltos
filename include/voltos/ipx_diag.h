@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/ipx_diag.h>
 
+struct ipx_diag_handler {
+
+};
+
 #endif /* _VOLTOS_IPX_DIAG_H */

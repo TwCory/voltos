@@ -12,4 +12,12 @@
 #include <voltos/percpu-refcount.h>
 #include <voltos/percpu-rwsemaphore.h>
 
+struct pcpu_group_ctx {
+
+};
+
+struct pcpu_alloc_ctx {
+
+};
+
 #endif /* _VOLTOS_PERCPU_H */

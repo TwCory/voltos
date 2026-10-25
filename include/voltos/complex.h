@@ -8,6 +8,8 @@
 #ifndef _VOLTOS_COMPLEX_H
 #define _VOLTOS_COMPLEX_H
 
+#include <complex.h>
+
 #include <voltos/complex/math.h>
 #include <voltos/complex/types.h>
 

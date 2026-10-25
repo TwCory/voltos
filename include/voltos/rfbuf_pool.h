@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rfbuf_pool.h
  *
+ * 	Remote Frame Buffer Pools
  */
 
 #ifndef _VOLTOS_RFBUF_POOL_H

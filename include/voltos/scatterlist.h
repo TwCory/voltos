@@ -12,4 +12,8 @@ struct scatterlist {
 
 };
 
+struct sg_table {
+
+};
+
 #endif /* _VOLTOS_SCATTERLIST_H */

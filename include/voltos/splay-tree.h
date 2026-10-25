@@ -12,4 +12,8 @@ struct splay_head {
 
 };
 
+struct splay_node {
+
+};
+
 #endif /* _VOLTOS_SPLAY_TREE_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_IDALLOC_H
 #define _VOLTOS_IDALLOC_H
 
+struct id_alloc_ctx {
+
+};
+
 #endif /* _VOLTOS_IDALLOC_H */

@@ -12,4 +12,8 @@ struct xtree_head {
 
 };
 
+struct xtree_node {
+
+};
+
 #endif /* _VOLTOS_XTREE_TYPES_H */

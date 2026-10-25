@@ -8,6 +8,8 @@
 #ifndef _NBAPI_VOLTOS_USER_H
 #define _NBAPI_VOLTOS_USER_H
 
-#define USER_NAME_SIZE		32
+#define USER_NAME_SIZE			30
+#define USER_FULL_NAME_SIZE		100
+#define USER_COMMENT_SIZE		200
 
 #endif /* _NBAPI_VOLTOS_USER_H */

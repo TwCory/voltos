@@ -10,4 +10,7 @@
 
 #include <voltos/plist_types.h>
 
+#define PLIST_HEAD_INIT(head)
+#define PLIST_HEAD(head)
+
 #endif /* _VOLTOS_PLIST_H */

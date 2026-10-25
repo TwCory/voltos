@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_COW_SYNC_H
 #define _VOLTOS_COW_SYNC_H
 
+struct cow_sync {
+
+};
+
 #endif /* _VOLTOS_COW_SYNC_H */

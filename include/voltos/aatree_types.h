@@ -16,4 +16,12 @@ struct aa_root {
 
 };
 
+struct aa_root_cached {
+
+};
+
+struct aa_root_linked {
+
+};
+
 #endif /* _VOLTOS_AATREE_TYPES_H */

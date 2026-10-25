@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_RCU_SYNC_H
 #define _VOLTOS_RCU_SYNC_H
 
+struct rcu_sync {
+
+};
+
 #endif /* _VOLTOS_RCU_SYNC_H */
