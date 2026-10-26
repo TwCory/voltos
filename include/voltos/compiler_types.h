@@ -20,4 +20,12 @@
 #define __voltos_rcu
 #define __voltos_cow
 
+struct x_trace_branch_data {
+
+};
+
+struct x_trace_likely_data {
+
+};
+
 #endif /* _VOLTOS_COMPILER_TYPES_H */

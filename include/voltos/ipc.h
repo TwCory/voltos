@@ -11,4 +11,20 @@
 #include <sys/ipc.h>
 #include <nbapi/voltos/ipc.h>
 
+struct voltos_ipc {
+
+};
+
+struct ipc_node {
+
+};
+
+struct ipc_seat {
+
+};
+
+struct ipc_slot {
+
+};
+
 #endif /* _VOLTOS_IPC_H */

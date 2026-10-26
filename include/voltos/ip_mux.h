@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/ip_mux.h>
 
+struct ip_mux_policy {
+
+};
+
+struct ip_mux_profile {
+
+};
+
 #endif /* _VOLTOS_IP_MUX_H */

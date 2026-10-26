@@ -15,4 +15,8 @@ struct host {
 
 };
 
+struct host_table {
+
+};
+
 #endif /* _VOLTOS_HOST_H */

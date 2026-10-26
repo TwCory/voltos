@@ -3,6 +3,7 @@
 /*
  *	include/voltos/frandom.h
  *
+ * 	Fast Random Number Generator
  */
 
 #ifndef _VOLTOS_FRANDOM_H

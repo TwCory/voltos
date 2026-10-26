@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_ARC_CACHE_H
 #define _VOLTOS_ARC_CACHE_H
 
-struct arc_cache_node {
+struct arc_element {
 
 };
 

@@ -12,6 +12,7 @@ typedef unsigned int 		fiber_oid_t;
 
 typedef struct fiber {
 	fiber_oid_t 		f_oid;
+	unsigned int 		f_flags;
 } fiber_t;
 
 #endif /* _VOLTOS_FIBER_TYPES_H */

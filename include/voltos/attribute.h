@@ -11,7 +11,7 @@
 #include <nbapi/voltos/attribute.h>
 
 struct attribute {
-
+	const char 			*name;
 };
 
 #endif /* _VOLTOS_ATTRIBUTE_H */

@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/net_snpa.h>
 
+struct net_snpa {
+
+};
+
 #endif /* _VOLTOS_NET_SNPA_H */

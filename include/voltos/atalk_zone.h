@@ -11,7 +11,7 @@
 #include <nbapi/voltos/atalk_zone.h>
 
 struct atalk_zone {
-
+	const char name[ATALK_ZONE_NAME_SIZE];
 };
 
 #endif /* _VOLTOS_ATALK_ZONE_H */

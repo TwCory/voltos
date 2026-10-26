@@ -10,6 +10,7 @@
 
 struct attribute_container {
 
+	unsigned long flags;
 };
 
 #endif /* _VOLTOS_ATTRIBUTE_CONTAINER_H */

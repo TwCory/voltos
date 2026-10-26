@@ -9,6 +9,9 @@
 #define _VOLTOS_BITMAP_H
 
 #include <voltos/bitmap-str.h>
+#include <voltos/types.h>
+
+typedef uword 				bitmap_t;
 
 #ifndef DECLARE_BITMAP
 #define DECLARE_BITMAP(name, bits)

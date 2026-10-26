@@ -10,4 +10,12 @@
 
 #include <linux/byteorder/big_endian.h>
 
+#ifndef __BIG_ENDIAN_BYTE_ORDER__
+#define __BIG_ENDIAN_BYTE_ORDER__
+#endif /* __BIG_ENDIAN_BYTE_ORDER__ */
+
+#ifndef __BIG_ENDIAN_BITFIELD__
+#define __BIG_ENDIAN_BITFIELD__
+#endif /* __BIG_ENDIAN_BITFIELD__ */
+
 #endif /* _NBAPI_VOLTOS_BYTEORDER_BIG_ENDIAN_H */

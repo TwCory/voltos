@@ -10,4 +10,6 @@
 
 #include <nbapi/voltos/mpls_label.h>
 
+typedef enum mpls_label_protocol mpls_label_protocol_t;
+
 #endif /* _VOLTOS_MPLS_LABEL_H */

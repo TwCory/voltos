@@ -12,7 +12,8 @@
 #include <nbapi/voltos/map-class.h>
 
 struct map_class {
-
+	const char 			name[MAP_CLASS_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_MAP_CLASS_H */

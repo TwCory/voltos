@@ -16,7 +16,8 @@ typedef __voltos_if_index_t 			if_index_t;
 typedef __voltos_if_flags_t __voltos_bitwise 	if_flags_t;
 
 struct interface {
-
+	if_index_t 				if_index;
+	if_flags_t 				if_flags;
 };
 
 #endif /* _VOLTOS_IF_H */

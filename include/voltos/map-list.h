@@ -12,7 +12,8 @@
 #include <nbapi/voltos/map-list.h>
 
 struct map_list {
-
+	const char 			name[MAP_LIST_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_MAP_LIST_H */

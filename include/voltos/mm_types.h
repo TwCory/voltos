@@ -10,4 +10,8 @@
 
 #include <voltos/mm_types_task.h>
 
+struct voltos_mm {
+
+};
+
 #endif /* _VOLTOS_MM_TYPES_H */

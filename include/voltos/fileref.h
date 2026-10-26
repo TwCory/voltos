@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_FILEREF_H
 #define _VOLTOS_FILEREF_H
 
-typedef struct {
+#include <voltos/atomic.h>
 
+typedef struct {
+	atomic_t counter;
 } fileref_t;
 
 #endif /* _VOLTOS_FILEREF_H */

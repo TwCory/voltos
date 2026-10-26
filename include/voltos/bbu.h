@@ -11,7 +11,7 @@
 #include <nbapi/voltos/bbu.h>
 
 struct bbu {
-
+	const char *name;
 };
 
 #endif /* _VOLTOS_BBU_H */

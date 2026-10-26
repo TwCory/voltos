@@ -12,7 +12,8 @@
 #include <nbapi/voltos/access-list.h>
 
 struct access_list {
-
+	const char name;
+	refcount_t ref_count;
 };
 
 #endif /* _VOLTOS_ACCESS_LIST_H */

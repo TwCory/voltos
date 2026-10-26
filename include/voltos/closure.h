@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_CLOSURE_H
 #define _VOLTOS_CLOSURE_H
 
+struct closure {
+
+};
+
 #endif /* _VOLTOS_CLOSURE_H */
