@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/service/telnet-zeroidle.h
+ *
+ */
+
+#ifndef _SERVICE_TELNET_ZEROIDLE_H
+#define _SERVICE_TELNET_ZEROIDLE_H
+
+#endif /* _SERVICE_TELNET_ZEROIDLE_H */
