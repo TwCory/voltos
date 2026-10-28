@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_thread.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_THREAD_H__

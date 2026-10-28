@@ -9,7 +9,11 @@
 #define _VOLTOS_DEBUG_H
 
 struct debug_entry {
-
+	unsigned long 				address;
+	const char 				*format;
+	const char 				*file;
+	unsigned short 				line;
+	unsigned short 				flags;
 };
 
 #endif /* _VOLTOS_DEBUG_H */

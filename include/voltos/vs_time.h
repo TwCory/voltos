@@ -3,13 +3,12 @@
 /*
  *	include/voltos/vs_time.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_TIME_H__
 #define __VS_TIME_H__
 
-typedef struct {
-
-} vs_time_t;
+#include <voltos/types.h>
 
 #endif /* __VS_TIME_H__ */

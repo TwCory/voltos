@@ -12,4 +12,12 @@ struct tagged_union {
 
 };
 
+#ifndef DEFINE_TAGGED_UNION
+#define DEFINE_TAGGED_UNION(name)
+#endif /* DEFINE_TAGGED_UNION */
+
+#ifndef DECLARE_TAGGED_UNION
+#define DECLARE_TAGGED_UNION(name)
+#endif /* DECLARE_TAGGED_UNION */
+
 #endif /* _VOLTOS_TAGGED_UNION_H */

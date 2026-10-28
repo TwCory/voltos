@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ddp.h
  *
+ * 	Datagram Delivery Protocol (DDP)
  */
 
 #ifndef _VOLTOS_DDP_H

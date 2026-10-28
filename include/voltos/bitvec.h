@@ -13,4 +13,12 @@ typedef struct {
 
 } bitvec_t;
 
+#ifndef DEFINE_BITVEC
+#define DEFINE_BITVEC(name)
+#endif /* DEFINE_BITVEC */
+
+#ifndef DECLARE_BITVEC
+#define DECLARE_BITVEC(name)
+#endif /* DECLARE_BITVEC */
+
 #endif /* _VOLTOS_BITVEC_H */

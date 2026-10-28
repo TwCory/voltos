@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hypergraph_types.h
  *
+ * 	Hypergraphs
  */
 
 #ifndef _VOLTOS_HYPERGRAPH_TYPES_H

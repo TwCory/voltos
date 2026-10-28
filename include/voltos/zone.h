@@ -12,7 +12,8 @@
 #include <nbapi/voltos/zone.h>
 
 struct zone {
-	const char 		name[ZONE_NAME_SIZE];
+	const char 				name[ZONE_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_ZONE_H */

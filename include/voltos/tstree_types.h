@@ -12,4 +12,8 @@ struct tstree_head {
 
 };
 
+struct tstree_node {
+
+};
+
 #endif /* _VOLTOS_TSTREE_TYPES_H */

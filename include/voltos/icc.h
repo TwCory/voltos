@@ -3,6 +3,7 @@
 /*
  *	include/voltos/icc.h
  *
+ * 	Interface Controller Card (ICC)
  */
 
 #ifndef _VOLTOS_ICC_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_ref.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_REF_H__

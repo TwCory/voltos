@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ipfs.h
  *
+ * 	Inter-Planetary File System (IPFS)
  */
 
 #ifndef _VOLTOS_IPFS_H

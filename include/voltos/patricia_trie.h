@@ -10,4 +10,6 @@
 
 #include <voltos/patricia_trie_types.h>
 
+#define PATRICIA_TRIE(name)
+
 #endif /* _VOLTOS_PATRICIA_TRIE_H */

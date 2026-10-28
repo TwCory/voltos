@@ -3,6 +3,7 @@
 /*
  *	include/voltos/gvrp.h
  *
+ * 	Generic VLAN Registration Protocol (GVRP)
  */
 
 #ifndef _VOLTOS_GVRP_H

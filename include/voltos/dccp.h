@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dccp.h
  *
+ * 	Datagram Congestion Control Protocol (DCCP)
  */
 
 #ifndef _VOLTOS_DCCP_H

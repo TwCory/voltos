@@ -3,6 +3,7 @@
 /*
  *	include/voltos/csv.h
  *
+ * 	Comma-Separated Value (CSV) Parser
  */
 
 #ifndef _VOLTOS_CSV_H

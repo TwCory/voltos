@@ -33,4 +33,16 @@ typedef enum {
 	BIT_T_ON			= BIT_STATE_ON
 } __bit_t;
 
+#ifndef __GEN_BITMASK
+#define __GEN_BITMASK(h, l)
+#endif /* __GEN_BITMASK */
+
+#ifndef __GEN_BITMASK_ULL
+#define __GEN_BITMASK_ULL(h, l)
+#endif /* __GEN_BITMASK_ULL */
+
+#ifndef __GEN_BITMASK_U128
+#define __GEN_BITMASK_U128(h, l)
+#endif /* __GEN_BITMASK_U128 */
+
 #endif /* _NBAPI_VOLTOS_BITS_H */

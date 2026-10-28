@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dvmrp.h
  *
+ * 	Distance Vector Multicast Routing Protocol (DVMRP)
  */
 
 #ifndef _VOLTOS_DVMRP_H

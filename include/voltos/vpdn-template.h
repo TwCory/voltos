@@ -12,7 +12,8 @@
 #include <nbapi/voltos/vpdn-template.h>
 
 struct vpdn_template {
-	const char 		name[VPDN_TEMPLATE_NAME_SIZE];
+	const char 				name[VPDN_TEMPLATE_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_VPDN_TEMPLATE_H */

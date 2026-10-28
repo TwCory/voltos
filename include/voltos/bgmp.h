@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bgmp.h
  *
+ * 	Border Gateway Multicast Protocol (BGMP)
  */
 
 #ifndef _VOLTOS_BGMP_H

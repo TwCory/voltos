@@ -53,5 +53,8 @@ typedef unsigned int				__voltos_gid32_t;
 typedef unsigned int				__voltos_pid32_t;
 typedef unsigned int				__voltos_uid32_t;
 
+typedef unsigned long long			__voltos_gid64_t;
+typedef unsigned long long			__voltos_pid64_t;
+typedef unsigned long long			__voltos_uid64_t;
 
 #endif /* _NBAPI_VOLTOS_POSIX_TYPES_H */

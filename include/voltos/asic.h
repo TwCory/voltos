@@ -3,6 +3,7 @@
 /*
  *	include/voltos/asic.h
  *
+ * 	Application-Specific Integrated Circuit (ASIC)
  */
 
 #ifndef _VOLTOS_ASIC_H

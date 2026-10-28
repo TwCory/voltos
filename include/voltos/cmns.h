@@ -3,6 +3,7 @@
 /*
  *	include/voltos/cmns.h
  *
+ * 	Connection-Mode Network Service (CMNS)
  */
 
 #ifndef _VOLTOS_CMNS_H

@@ -12,4 +12,12 @@ typedef struct {
 
 } sparse_vec_t;
 
+#ifndef DEFINE_SPARSE_VEC
+#define DEFINE_SPARSE_VEC(name)
+#endif /* DEFINE_SPARSE_VEC */
+
+#ifndef DECLARE_SPARSE_VEC
+#define DECLARE_SPARSE_VEC(name)
+#endif /* DECLARE_SPARSE_VEC */
+
 #endif /* _VOLTOS_SPARSE_VEC_H */

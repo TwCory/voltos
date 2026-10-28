@@ -3,6 +3,7 @@
 /*
  *	include/voltos/avl_tree_types.h
  *
+ * 	AVL Trees
  */
 
 #ifndef _VOLTOS_AVL_TREE_TYPES_H

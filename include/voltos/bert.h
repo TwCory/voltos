@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bert.h
  *
+ * 	Bit Error Rate Testing (BERT)
  */
 
 #ifndef _VOLTOS_BERT_H

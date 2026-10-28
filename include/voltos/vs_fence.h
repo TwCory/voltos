@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_fence.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_FENCE_H__

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/jhash.h
  *
+ * 	Jenkins Hash Functions
  */
 
 #ifndef _VOLTOS_JHASH_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ww_mutex_types.h
  *
+ * 	Wait-Wound Mutual Exclusions
  */
 
 #ifndef _VOLTOS_WW_MUTEX_TYPES_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/aal2-profile.h
  *
+ * 	ATM Adaptation Layer 2 (AAL2) Profile
  */
 
 #ifndef _VOLTOS_AAL2_PROFILE_H

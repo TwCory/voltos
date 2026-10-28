@@ -12,7 +12,8 @@
 #include <nbapi/voltos/waas_export.h>
 
 struct waas_export {
-	const char 		name[WAAS_EXPORT_NAME_SIZE];
+	const char 				name[WAAS_EXPORT_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_WAAS_EXPORT_H */

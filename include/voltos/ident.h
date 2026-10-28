@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ident.h
  *
+ * 	Ident Protocol
  */
 
 #ifndef _VOLTOS_IDENT_H

@@ -2,7 +2,8 @@
 
 /*
  *	include/voltos/avl_tree.h
- *
+ *	
+ *	AVL Trees
  */
 
 #ifndef _VOLTOS_AVL_TREE_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/weakref_types.h
  *
+ * 	Weak References
  */
 
 #ifndef _VOLTOS_WEAKREF_TYPES_H

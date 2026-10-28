@@ -3,6 +3,7 @@
 /*
  *	include/voltos/gse.h
  *
+ * 	Generic Stream Encapsulation (GSE)
  */
 
 #ifndef _VOLTOS_GSE_H

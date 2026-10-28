@@ -3,6 +3,7 @@
 /*
  *	include/voltos/clns.h
  *
+ * 	Connection-Less Network Service (CLNS)
  */
 
 #ifndef _VOLTOS_CLNS_H

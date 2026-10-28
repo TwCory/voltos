@@ -3,6 +3,7 @@
 /*
  *	include/voltos/carp.h
  *
+ * 	Common Address Redundancy Protocol (CARP)
  */
 
 #ifndef _VOLTOS_CARP_H

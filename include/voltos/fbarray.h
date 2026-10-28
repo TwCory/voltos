@@ -3,7 +3,7 @@
 /*
  *	include/voltos/fbarray.h
  *
- * 	File-Backed Shared Index Array
+ * 	File-Backed, Shared Index Array
  */
 
 #ifndef _VOLTOS_FBARRAY_H
@@ -21,5 +21,13 @@ struct fbarray {
 	void 			*data;
 	rwlock_t 		rwlock;
 };
+
+#ifndef DEFINE_FBARRAY
+#define DEFINE_FBARRAY(name)
+#endif /* DEFINE_FBARRAY */
+
+#ifndef DECLARE_FBARRAY
+#define DECLARE_FBARRAY(name)
+#endif /* DECLARE_FBARRAY */
 
 #endif /* _VOLTOS_FBARRAY_H */

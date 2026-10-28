@@ -16,4 +16,6 @@ struct lcrs_tree_node {
 
 };
 
+#define LCRS_TREE(name)
+
 #endif /* _VOLTOS_LCRS_TREE_H */

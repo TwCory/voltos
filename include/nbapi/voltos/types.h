@@ -11,6 +11,7 @@
 #include <inttypes.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <voltos/posix_types.h>
 
 #ifdef __SIZEOF_INT128__
 typedef signed 		__int128 		int128_t;

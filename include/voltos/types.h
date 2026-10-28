@@ -44,6 +44,12 @@ typedef size_t				usize;
 typedef ssize_t				iword;
 typedef size_t				uword;
 
+typedef intmax_t			imax;
+typedef uintmax_t			umax;
+
+typedef intptr_t			iptr;
+typedef uintptr_t			uptr;
+
 typedef unsigned char			nibble_t;
 typedef uint8_t				byte_t;
 typedef uint8_t				octet_t;
@@ -52,6 +58,11 @@ typedef uint16_t			hextet_t;
 typedef size_t				phy_addr_t;
 typedef size_t				dma_addr_t;
 typedef size_t				resource_size_t;
+
+typedef struct {
+	phy_addr_t 			address;
+	usize				length;
+} phy_vec_t;
 
 #define aligned_i64			__aligned_i64
 #define aligned_u64			__aligned_u64
@@ -63,7 +74,12 @@ typedef size_t				resource_size_t;
 typedef u64 				sector_t;
 typedef unsigned long 			pgoff_t;
 
-typedef intmax_t			imax;
-typedef uintmax_t			umax;
+typedef i64 				vs_time_t;
+
+typedef void 				(*r_swap_fn_t)(void *a, void *b, int size, const void *priv);
+typedef void 				(*swap_fn_t)(void *a, void *b, int size);
+
+typedef int 				(*r_cmp_fn_t)(const void *a, const void *b, const void *priv);
+typedef int 				(*cmp_fn_t)(const void *a, const void *b);
 
 #endif /* _VOLTOS_TYPES_H */

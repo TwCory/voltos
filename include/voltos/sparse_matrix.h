@@ -16,4 +16,6 @@ struct sparse_matrix_node {
 
 };
 
+#define SPARSE_MATRIX(name)
+
 #endif /* _VOLTOS_SPARSE_MATRIX_H */

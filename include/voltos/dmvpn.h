@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dmvpn.h
  *
+ * 	Dynamic Multipoint VPN (DMVPN)
  */
 
 #ifndef _VOLTOS_DMVPN_H

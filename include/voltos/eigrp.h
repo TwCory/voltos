@@ -3,6 +3,7 @@
 /*
  *	include/voltos/eigrp.h
  *
+ * 	Enhanced Interior Gateway Routing Protocol (EIGRP)
  */
 
 #ifndef _VOLTOS_EIGRP_H

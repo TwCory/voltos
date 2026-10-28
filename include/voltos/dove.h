@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dove.h
  *
+ * 	Distributed Overlay Virtual Ethernet (DOVE)
  */
 
 #ifndef _VOLTOS_DOVE_H

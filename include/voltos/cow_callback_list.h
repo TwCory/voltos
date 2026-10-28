@@ -12,4 +12,8 @@ struct cow_callback_list {
 
 };
 
+struct cow_segment_cb_list {
+
+};
+
 #endif /* _VOLTOS_COW_CALLBACK_LIST_H */

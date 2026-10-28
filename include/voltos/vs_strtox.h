@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_strtox.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_STRTOX_H__

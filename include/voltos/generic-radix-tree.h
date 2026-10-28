@@ -20,4 +20,6 @@ struct genradix_iter {
 
 };
 
+#define GENERIC_RADIX_TREE(name)
+
 #endif /* _VOLTOS_GENERIC_RADIX_TREE_H */

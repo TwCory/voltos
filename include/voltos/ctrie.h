@@ -10,4 +10,6 @@
 
 #include <voltos/ctrie_types.h>
 
+#define CTRIE(name)
+
 #endif /* _VOLTOS_CTRIE_H */

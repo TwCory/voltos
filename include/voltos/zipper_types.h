@@ -3,6 +3,7 @@
 /*
  *	include/voltos/zipper_types.h
  *
+ * 	Zipper Linked Lists
  */
 
 #ifndef _VOLTOS_ZIPPER_TYPES_H

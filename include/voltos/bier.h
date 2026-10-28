@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bier.h
  *
+ * 	Bit Index Explicit Replication (BIER)
  */
 
 #ifndef _VOLTOS_BIER_H

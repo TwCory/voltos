@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_cov.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_COV_H__

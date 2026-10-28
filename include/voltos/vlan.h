@@ -12,11 +12,12 @@
 #include <nbapi/voltos/vlan.h>
 
 struct vlan {
-	const char 		name[VLAN_NAME_SIZE];
+	const char 				name[VLAN_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 struct private_vlan {
-
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_VLAN_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/idalloc.h
  *
+ * 	General ID Allocator
  */
 
 #ifndef _VOLTOS_IDALLOC_H

@@ -12,7 +12,8 @@
 #include <nbapi/voltos/yellow.h>
 
 struct yellow_alarm {
-	const char name;
+	const char 				name[YELLOW_ALARM_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_YELLOW_H */

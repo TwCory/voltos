@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ftp.h
  *
+ * 	File Transfer Protocol (FTP)
  */
 
 #ifndef _VOLTOS_FTP_H

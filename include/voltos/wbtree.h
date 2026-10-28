@@ -3,6 +3,7 @@
 /*
  *	include/voltos/wbtree.h
  *
+ * 	Weighted Balanced Binary Search Trees
  */
 
 #ifndef _VOLTOS_WBTREE_H

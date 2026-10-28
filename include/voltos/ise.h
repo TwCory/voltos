@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_ISE_H
 #define _VOLTOS_ISE_H
 
-#include <nbapi/voltos/ise.h>
+//#include <nbapi/voltos/ise.h>
 
 #endif /* _VOLTOS_ISE_H */

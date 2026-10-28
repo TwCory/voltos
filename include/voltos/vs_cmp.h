@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_cmp.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_CMP_H__

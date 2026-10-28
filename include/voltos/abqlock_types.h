@@ -3,6 +3,7 @@
 /*
  *	include/voltos/abqlock_types.h
  *
+ * 	Array-Based Queue Locks
  */
 
 #ifndef _VOLTOS_ABQLOCK_TYPES_H

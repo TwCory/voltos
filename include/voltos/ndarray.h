@@ -12,4 +12,12 @@ struct ndarray {
 
 };
 
+#ifndef DEFINE_NDARRAY
+#define DEFINE_NDARRAY(name)
+#endif /* DEFINE_NDARRAY */
+
+#ifndef DECLARE_NDARRAY
+#define DECLARE_NDARRAY(name)
+#endif /* DECLARE_NDARRAY */
+
 #endif /* _VOLTOS_NDARRAY_H */

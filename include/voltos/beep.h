@@ -3,6 +3,7 @@
 /*
  *	include/voltos/beep.h
  *
+ * 	Blocks Extensible Exchange Protocol (BEEP)
  */
 
 #ifndef _VOLTOS_BEEP_H

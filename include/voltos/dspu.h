@@ -3,6 +3,7 @@
 /*
  *	include/voltos/dspu.h
  *
+ * 	Down-Stream Physical Unit (DSPU)
  */
 
 #ifndef _VOLTOS_DSPU_H

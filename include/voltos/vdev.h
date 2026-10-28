@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/vdev.h>
 
+struct vdev {
+
+};
+
 #endif /* _VOLTOS_VDEV_H */

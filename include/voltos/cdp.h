@@ -3,6 +3,7 @@
 /*
  *	include/voltos/cdp.h
  *
+ * 	Cisco Discovery Protocol (CDP)
  */
 
 #ifndef _VOLTOS_CDP_H

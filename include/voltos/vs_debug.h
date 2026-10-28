@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vs_debug.h
  *
+ * 	VoltOS System (VS)
  */
 
 #ifndef __VS_DEBUG_H__

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/acct_template.h
  *
+ * 	Accounting Templates
  */
 
 #ifndef _VOLTOS_ACCT_TEMPLATE_H

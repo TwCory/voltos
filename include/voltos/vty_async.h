@@ -12,7 +12,7 @@
 #include <nbapi/voltos/vty_async.h>
 
 struct vty_async {
-
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_VTY_ASYNC_H */

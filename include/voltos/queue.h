@@ -12,4 +12,12 @@ typedef struct {
 
 } queue_t;
 
+#ifndef DEFINE_QUEUE
+#define DEFINE_QUEUE(name)
+#endif /* DEFINE_QUEUE */
+
+#ifndef DECLARE_QUEUE
+#define DECLARE_QUEUE(name)
+#endif /* DECLARE_QUEUE */
+
 #endif /* _VOLTOS_QUEUE_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vendor-tag.h
  *
+ * 	Vendor Tagging
  */
 
 #ifndef _VOLTOS_VENDOR_TAG_H
@@ -12,7 +13,8 @@
 #include <nbapi/voltos/vendor-tag.h>
 
 struct vendor_tag {
-	const char 		name[VENDOR_TAG_NAME_SIZE];
+	const char 				name[VENDOR_TAG_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_VENDOR_TAG_H */

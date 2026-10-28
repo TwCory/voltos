@@ -3,6 +3,7 @@
 /*
  *	include/voltos/gsmp.h
  *
+ * 	General Switch Management Protocol (GSMP)
  */
 
 #ifndef _VOLTOS_GSMP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/epp.h
  *
+ * 	Extensible Provisioning Protocol (EPP)
  */
 
 #ifndef _VOLTOS_EPP_H

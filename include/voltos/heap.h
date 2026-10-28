@@ -3,6 +3,7 @@
 /*
  *	include/voltos/heap.h
  *
+ * 	Generic Heaps
  */
 
 #ifndef _VOLTOS_HEAP_H

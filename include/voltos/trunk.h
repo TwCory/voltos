@@ -12,7 +12,8 @@
 #include <nbapi/voltos/trunk.h>
 
 struct trunk {
-
+	const char 				name[TRUNK_NAME_SIZE];
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_TRUNK_H */

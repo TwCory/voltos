@@ -3,6 +3,7 @@
 /*
  *	include/voltos/fpm.h
  *
+ * 	Flexible Packet Matching (FPM)
  */
 
 #ifndef _VOLTOS_FPM_H

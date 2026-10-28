@@ -13,4 +13,8 @@ struct io_stream {
 	unsigned char 			*ios_data;
 };
 
+struct io_stream_fifo {
+
+};
+
 #endif /* _VOLTOS_IOSTREAM_H */

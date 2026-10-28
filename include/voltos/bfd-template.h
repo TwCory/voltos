@@ -3,6 +3,7 @@
 /*
  *	include/voltos/bfd-template.h
  *
+ * 	Bidirectional Forwarding Detection (BFD) Template
  */
 
 #ifndef _VOLTOS_BFD_TEMPLATE_H

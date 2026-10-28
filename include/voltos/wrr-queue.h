@@ -12,7 +12,7 @@
 #include <nbapi/voltos/wrr-queue.h>
 
 struct wrr_queue {
-
+	refcount_t 				ref_count;
 };
 
 #endif /* _VOLTOS_WRR_QUEUE_H */

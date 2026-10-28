@@ -3,6 +3,7 @@
 /*
  *	include/voltos/cow.h
  *
+ * 	Copy-on-Write (COW) Resource Management
  */
 
 #ifndef _VOLTOS_COW_H
