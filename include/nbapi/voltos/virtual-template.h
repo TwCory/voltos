@@ -11,4 +11,9 @@
 
 #define VIRTUAL_TEMPLATE_NAME_SIZE	32
 
+#define VIRTUAL_TEMPLATE_ID_MIN		1
+#define VIRTUAL_TEMPLATE_ID_MAX		4095
+
+typedef unsigned short 			__voltos_vtemplate_id_t;
+
 #endif /* _NBAPI_VOLTOS_VIRTUAL_TEMPLATE_H */

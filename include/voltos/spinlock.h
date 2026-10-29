@@ -3,6 +3,7 @@
 /*
  *	include/voltos/spinlock.h
  *
+ * 	Spin Locks
  */
 
 #ifndef _VOLTOS_SPINLOCK_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sparse_matrix.h
  *
+ * 	Sparse Matrix
  */
 
 #ifndef _VOLTOS_SPARSE_MATRIX_H

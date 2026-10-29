@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tarp.h
  *
+ * 	TID Address Resolution Protocol (TARP)
  */
 
 #ifndef _VOLTOS_TARP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/fastblk.h
  *
+ * 	Fast Memory Buffer Blocks
  */
 
 #ifndef _VOLTOS_FASTBLK_H

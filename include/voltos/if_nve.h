@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_nve.h>
 
+struct nve_if {
+
+};
+
 #endif /* _VOLTOS_IF_NVE_H */

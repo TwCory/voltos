@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_loopback.h>
 
+struct loopback_if {
+
+};
+
 #endif /* _VOLTOS_IF_LOOPBACK_H */

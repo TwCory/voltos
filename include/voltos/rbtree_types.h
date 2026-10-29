@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rbtree_types.h
  *
+ * 	Red-Black Trees
  */
 
 #ifndef _VOLTOS_RBTREE_TYPES_H

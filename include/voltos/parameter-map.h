@@ -12,7 +12,8 @@
 #include <nbapi/voltos/parameter-map.h>
 
 struct parameter_map {
-
+	const char 		name[PARAMETER_MAP_NAME_SIZE];
+	refcount_t 		ref_count;
 };
 
 #endif /* _VOLTOS_PARAMETER_MAP_H */

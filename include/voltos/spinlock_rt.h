@@ -3,6 +3,7 @@
 /*
  *	include/voltos/spinlock_rt.h
  *
+ * 	Real-Time Spin Locks
  */
 
 #ifndef _VOLTOS_SPINLOCK_RT_H

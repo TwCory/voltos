@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sctp.h
  *
+ * 	Stream Control Transmission Protocol (SCTP)
  */
 
 #ifndef _VOLTOS_SCTP_H

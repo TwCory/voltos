@@ -8,4 +8,8 @@
 #ifndef _VOICE_PORT_H
 #define _VOICE_PORT_H
 
+struct voice_port {
+
+};
+
 #endif /* _VOICE_PORT_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/olsr.h
  *
+ * 	Optimized Link State Routing (OLSR)
  */
 
 #ifndef _VOLTOS_OLSR_H

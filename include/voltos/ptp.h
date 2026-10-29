@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ptp.h
  *
+ * 	Precision Time Protocol (PTP)
  */
 
 #ifndef _VOLTOS_PTP_H

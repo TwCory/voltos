@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pppoe.h
  *
+ * 	Point-to-Point Protocol over Ethernet (PPPoE)
  */
 
 #ifndef _VOLTOS_PPPOE_H

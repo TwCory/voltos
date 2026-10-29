@@ -8,4 +8,8 @@
 #ifndef _BSM_SESSION_H
 #define _BSM_SESSION_H
 
+struct bsm_session {
+
+};
+
 #endif /* _BSM_SESSION_H */

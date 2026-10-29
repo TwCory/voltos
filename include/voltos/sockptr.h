@@ -12,10 +12,10 @@
 
 typedef struct {
 	union {
-		void 	*voltos_system;
-		void 	*voltos_user;
+		void 	*system;
+		void 	*user;
 	};
-	bool 		is_system;
+	bool 		is_system:1;
 } sockptr_t;
 
 #endif /* _VOLTOS_SOCKPTR_H */

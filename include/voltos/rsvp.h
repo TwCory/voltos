@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rsvp.h
  *
+ * 	Resource Reservation Protocol (RSVP)
  */
 
 #ifndef _VOLTOS_RSVP_H

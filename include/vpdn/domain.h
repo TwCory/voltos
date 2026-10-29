@@ -8,4 +8,8 @@
 #ifndef _VPDN_DOMAIN_H
 #define _VPDN_DOMAIN_H
 
+struct vpdn_domain {
+
+};
+
 #endif /* _VPDN_DOMAIN_H */

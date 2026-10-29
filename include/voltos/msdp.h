@@ -3,6 +3,7 @@
 /*
  *	include/voltos/msdp.h
  *
+ * 	Multicast Source Discovery Protocol (MSDP)
  */
 
 #ifndef _VOLTOS_MSDP_H

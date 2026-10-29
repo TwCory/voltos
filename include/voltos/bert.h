@@ -12,7 +12,7 @@
 #include <nbapi/voltos/bert.h>
 
 struct bert_profile {
-
+	const char *name;
 };
 
 #endif /* _VOLTOS_BERT_H */

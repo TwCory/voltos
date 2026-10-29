@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sip.h
  *
+ * 	Session Initiation Protocol (SIP)
  */
 
 #ifndef _VOLTOS_SIP_H

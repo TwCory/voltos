@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tod_clock.h
  *
+ * 	Time-of-Day (ToD) Clock
  */
 
 #ifndef _VOLTOS_TOD_CLOCK_H

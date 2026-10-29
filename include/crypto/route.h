@@ -8,6 +8,10 @@
 #ifndef _CRYPTO_ROUTE_H
 #define _CRYPTO_ROUTE_H
 
+struct crypto_route {
+
+};
+
 struct rri_route {
 
 };

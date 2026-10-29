@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vrrs.h
  *
+ * 	Virtual Router Redundancy Services (VRRS)
  */
 
 #ifndef _VOLTOS_VRRS_H

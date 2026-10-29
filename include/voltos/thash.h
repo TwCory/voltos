@@ -3,6 +3,7 @@
 /*
  *	include/voltos/thash.h
  *
+ * 	Toeplitz Hash Functions
  */
 
 #ifndef _VOLTOS_THASH_H

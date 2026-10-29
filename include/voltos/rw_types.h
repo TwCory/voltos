@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rw_types.h
  *
+ * 	Reader-Writer Types
  */
 
 #ifndef _VOLTOS_RW_TYPES_H

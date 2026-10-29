@@ -3,6 +3,7 @@
 /*
  *	include/voltos/yellow.h
  *
+ * 	Yellow Alarms
  */
 
 #ifndef _VOLTOS_YELLOW_H

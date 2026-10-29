@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vrrp.h
  *
+ * 	Virtual Router Redundancy Protocol (VRRP)
  */
 
 #ifndef _VOLTOS_VRRP_H

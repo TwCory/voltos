@@ -8,4 +8,8 @@
 #ifndef _ALPS_PEER_H
 #define _ALPS_PEER_H
 
+struct alps_peer {
+
+};
+
 #endif /* _ALPS_PEER_H */

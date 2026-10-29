@@ -3,6 +3,7 @@
 /*
  *	include/voltos/udld.h
  *
+ * 	Unidirectional Link Detection (UDLD)
  */
 
 #ifndef _VOLTOS_UDLD_H

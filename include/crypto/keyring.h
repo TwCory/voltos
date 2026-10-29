@@ -8,4 +8,8 @@
 #ifndef _CRYPTO_KEYRING_H
 #define _CRYPTO_KEYRING_H
 
+struct crypto_keyring {
+
+};
+
 #endif /* _CRYPTO_KEYRING_H */

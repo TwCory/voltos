@@ -3,6 +3,7 @@
 /*
  *	include/voltos/telnet.h
  *
+ * 	Telnet Protocol
  */
 
 #ifndef _VOLTOS_TELNET_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/quic.h
  *
+ * 	QUIC Transport-Layer Protocol
  */
 
 #ifndef _VOLTOS_QUIC_H

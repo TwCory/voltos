@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_ASIC_H
 #define _VOLTOS_ASIC_H
 
-struct asic {
+#include <voltos/device.h>
 
+struct asic {
+	struct device device;
 };
 
 #endif /* _VOLTOS_ASIC_H */

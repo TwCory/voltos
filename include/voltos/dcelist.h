@@ -8,12 +8,14 @@
 #ifndef _VOLTOS_DCELIST_H
 #define _VOLTOS_DCELIST_H
 
-struct dcelist_head {
+struct dcelist_node;
 
+struct dcelist_head {
+	struct dcelist_node *first;
 };
 
 struct dcelist_node {
-
+	struct dcelist_node *next;
 };
 
 #define DCELIST_HEAD_INIT(head)

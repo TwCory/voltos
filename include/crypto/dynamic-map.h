@@ -8,4 +8,8 @@
 #ifndef _CRYPTO_DYNAMIC_MAP_H
 #define _CRYPTO_DYNAMIC_MAP_H
 
+struct crypto_dynamic_map {
+
+};
+
 #endif /* _CRYPTO_DYNAMIC_MAP_H */

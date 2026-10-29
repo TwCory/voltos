@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nts.h
  *
+ * 	Network Time Security (NTS)
  */
 
 #ifndef _VOLTOS_NTS_H

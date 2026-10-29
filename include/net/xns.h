@@ -8,4 +8,8 @@
 #ifndef _NET_XNS_H
 #define _NET_XNS_H
 
+struct xns_sock {
+
+};
+
 #endif /* _NET_XNS_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/spx.h
  *
+ * 	Sequenced Packet Exchange (SPX)
  */
 
 #ifndef _VOLTOS_SPX_H

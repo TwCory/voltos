@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pim.h
  *
+ * 	Protocol-Independent Multicast (PIM)
  */
 
 #ifndef _VOLTOS_PIM_H

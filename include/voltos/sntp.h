@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sntp.h
  *
+ * 	Simple NTP (SNTP)
  */
 
 #ifndef _VOLTOS_SNTP_H

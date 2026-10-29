@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rift.h
  *
+ * 	Routing In Fat Trees (RIFT)
  */
 
 #ifndef _VOLTOS_RIFT_H

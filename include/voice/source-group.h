@@ -8,4 +8,8 @@
 #ifndef _VOICE_SOURCE_GROUP_H
 #define _VOICE_SOURCE_GROUP_H
 
+struct voice_source_group {
+
+};
+
 #endif /* _VOICE_SOURCE_GROUP_H */

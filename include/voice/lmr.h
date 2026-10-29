@@ -8,4 +8,8 @@
 #ifndef _VOICE_LMR_H
 #define _VOICE_LMR_H
 
+struct voice_lmr {
+
+};
+
 #endif /* _VOICE_LMR_H */

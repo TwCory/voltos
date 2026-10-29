@@ -3,6 +3,7 @@
 /*
  *	include/voltos/slip.h
  *
+ * 	Serial Line Internet Protocol (SLIP)
  */
 
 #ifndef _VOLTOS_SLIP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rarp.h
  *
+ * 	Reverse ARP (RARP)
  */
 
 #ifndef _VOLTOS_RARP_H

@@ -13,8 +13,8 @@
 #include <nbapi/voltos/access-list.h>
 
 struct access_list {
-	const char name;
-	refcount_t ref_count;
+	const char 			name[ACL_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_ACCESS_LIST_H */

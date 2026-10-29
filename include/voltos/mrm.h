@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mrm.h
  *
+ * 	Multicast Resource Manager (MRM)
  */
 
 #ifndef _VOLTOS_MRM_H

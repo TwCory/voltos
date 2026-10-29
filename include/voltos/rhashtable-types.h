@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rhashtable-types.h
  *
+ * 	RCU-Safe Hash Tables
  */
 
 #ifndef _VOLTOS_RHASHTABLE_TYPES_H

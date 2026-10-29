@@ -3,6 +3,7 @@
 /*
  *	include/voltos/timer_types.h
  *
+ * 	Timer Types
  */
 
 #ifndef _VOLTOS_TIMER_TYPES_H

@@ -3,6 +3,8 @@
 /*
  *	include/voltos/spb.h
  *
+ * 	IEEE 802.1aq
+ * 	Shortest Path Bridging (SPB)
  */
 
 #ifndef _VOLTOS_SPB_H

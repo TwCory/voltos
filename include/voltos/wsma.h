@@ -3,6 +3,7 @@
 /*
  *	include/voltos/wsma.h
  *
+ * 	Web Services Management Agent (WSMA)
  */
 
 #ifndef _VOLTOS_WSMA_H

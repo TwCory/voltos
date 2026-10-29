@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rsh.h
  *
+ * 	Remote Shell Service
  */
 
 #ifndef _VOLTOS_RSH_H

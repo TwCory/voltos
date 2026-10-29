@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sockopt.h
  *
+ * 	Socket Options
  */
 
 #ifndef _VOLTOS_SOCKOPT_H

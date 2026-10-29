@@ -3,6 +3,7 @@
 /*
  *	include/voltos/prandom.h
  *
+ * 	Pseudo-Random Number Generator
  */
 
 #ifndef _VOLTOS_PRANDOM_H

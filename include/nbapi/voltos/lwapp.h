@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/lwapp.h
  *
- * 	Lightweight Access Point Provisioning Protocol (LWAPP)
+ * 	Lightweight Access Point Protocol (LWAPP)
  */
 
 #ifndef _NBAPI_VOLTOS_LWAPP_H

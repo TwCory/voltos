@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mhash.h
  *
+ * 	Murmur Hash Functions
  */
 
 #ifndef _VOLTOS_MHASH_H

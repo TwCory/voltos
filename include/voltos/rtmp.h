@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rtmp.h
  *
+ * 	Routing Table Maintenance Protocol (RTMP)
  */
 
 #ifndef _VOLTOS_RTMP_H

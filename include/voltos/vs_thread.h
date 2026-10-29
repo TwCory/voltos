@@ -9,4 +9,18 @@
 #ifndef __VS_THREAD_H__
 #define __VS_THREAD_H__
 
+struct vs_thread;
+
+struct vs_thread_worker {
+
+};
+
+struct vs_thread_work {
+
+};
+
+struct vs_thread_delayed_work {
+
+};
+
 #endif /* __VS_THREAD_H__ */

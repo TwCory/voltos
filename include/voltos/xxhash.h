@@ -3,6 +3,7 @@
 /*
  *	include/voltos/xxhash.h
  *
+ * 	xxHash Functions
  */
 
 #ifndef _VOLTOS_XXHASH_H

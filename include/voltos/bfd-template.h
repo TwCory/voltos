@@ -13,8 +13,8 @@
 #include <nbapi/voltos/bfd-template.h>
 
 struct bfd_template {
-	const char 		name[BFD_TEMPLATE_NAME_SIZE];
-	refcount_t 		ref_count;
+	const char 			name[BFD_TEMPLATE_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_BFD_TEMPLATE_H */

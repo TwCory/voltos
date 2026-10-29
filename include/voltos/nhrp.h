@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nhrp.h
  *
+ * 	Next Hop Resolution Protocol (NHRP)
  */
 
 #ifndef _VOLTOS_NHRP_H

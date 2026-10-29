@@ -3,6 +3,7 @@
 /*
  *	include/voltos/timer.h
  *
+ * 	Timers
  */
 
 #ifndef _VOLTOS_TIMER_H

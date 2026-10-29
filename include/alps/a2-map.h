@@ -8,4 +8,8 @@
 #ifndef _ALPS_A2_MAP_H
 #define _ALPS_A2_MAP_H
 
+struct a2_map {
+
+};
+
 #endif /* _ALPS_A2_MAP_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pfsync.h
  *
+ * 	Packet Filter Synchronizer (PfSync) Protocol
  */
 
 #ifndef _VOLTOS_PFSYNC_H

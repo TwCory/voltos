@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vpdn-group.h
  *
+ * 	Virtual Private Dial-Up Network (VPDN) Group
  */
 
 #ifndef _VOLTOS_VPDN_GROUP_H

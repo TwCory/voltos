@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_NSAP_PREFIX_H
 #define _VOLTOS_NSAP_PREFIX_H
 
+typedef struct {
+
+} nsap_prefix_t;
+
 #endif /* _VOLTOS_NSAP_PREFIX_H */

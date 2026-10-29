@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mrd.h
  *
+ * 	Multicast Router Discovery (MRD)
  */
 
 #ifndef _VOLTOS_MRD_H

@@ -9,12 +9,14 @@
 #ifndef _VOLTOS_ULIST_H
 #define _VOLTOS_ULIST_H
 
-struct ulist_head {
+struct ulist_node;
 
+struct ulist_head {
+	struct ulist_node *first;
 };
 
 struct ulist_node {
-
+	struct ulist_node *next;
 };
 
 #define ULIST_HEAD_INIT(head)

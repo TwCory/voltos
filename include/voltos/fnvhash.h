@@ -3,6 +3,7 @@
 /*
  *	include/voltos/fnvhash.h
  *
+ * 	Fowler-Noll-Vo Hash Functions
  */
 
 #ifndef _VOLTOS_FNVHASH_H

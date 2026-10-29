@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vpws.h
  *
+ * 	Virtual Pseudowire Service (VPWS)
  */
 
 #ifndef _VOLTOS_VPWS_H

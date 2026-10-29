@@ -3,6 +3,7 @@
 /*
  *	include/voltos/const.h
  *
+ * 	Constant Handlers
  */
 
 #ifndef _VOLTOS_CONST_H

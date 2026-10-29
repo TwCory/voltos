@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_vmi.h>
 
+struct vmi {
+
+};
+
 #endif /* _VOLTOS_IF_VMI_H */

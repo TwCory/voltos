@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rlogin.h
  *
+ * 	Remote Login Service
  */
 
 #ifndef _VOLTOS_RLOGIN_H

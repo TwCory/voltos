@@ -3,6 +3,7 @@
 /*
  *	include/voltos/nfc.h
  *
+ * 	Nearfield Communication (NFC)
  */
 
 #ifndef _VOLTOS_NFC_H

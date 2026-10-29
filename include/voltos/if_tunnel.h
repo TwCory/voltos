@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_tunnel.h>
 
+struct tunnel_if {
+
+};
+
 #endif /* _VOLTOS_IF_TUNNEL_H */

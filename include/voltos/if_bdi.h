@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_IF_BDI_H
 #define _VOLTOS_IF_BDI_H
 
+struct bdi {
+
+};
+
 #endif /* _VOLTOS_IF_BDI_H */

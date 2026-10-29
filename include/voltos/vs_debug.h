@@ -9,4 +9,8 @@
 #ifndef __VS_DEBUG_H__
 #define __VS_DEBUG_H__
 
+struct die_args {
+
+};
+
 #endif /* __VS_DEBUG_H__ */

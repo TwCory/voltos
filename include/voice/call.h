@@ -8,4 +8,8 @@
 #ifndef _VOICE_CALL_H
 #define _VOICE_CALL_H
 
+struct voice_call {
+
+};
+
 #endif /* _VOICE_CALL_H */

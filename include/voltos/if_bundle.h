@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_bundle.h>
 
+struct bundle_if {
+
+};
+
 #endif /* _VOLTOS_IF_BUNDLE_H */

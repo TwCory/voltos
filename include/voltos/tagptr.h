@@ -3,10 +3,14 @@
 /*
  *	include/voltos/tagptr.h
  *
+ * 	Tagging of Pointers
  */
 
 #ifndef _VOLTOS_TAGPTR_H
 #define _VOLTOS_TAGPTR_H
 
+typedef struct {
+
+} tagptr_t;
 
 #endif /* _VOLTOS_TAGPTR_H */

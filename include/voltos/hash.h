@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hash.h
  *
+ * 	General Hash Functions
  */
 
 #ifndef _VOLTOS_HASH_H

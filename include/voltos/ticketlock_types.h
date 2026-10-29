@@ -3,13 +3,16 @@
 /*
  *	include/voltos/ticketlock_types.h
  *
+ * 	Ticket Locks
  */
 
 #ifndef _VOLTOS_TICKETLOCK_TYPES_H
 #define _VOLTOS_TICKETLOCK_TYPES_H
 
-typedef struct ticketlock {
+#include <voltos/spinlock.h>
 
+typedef struct ticketlock {
+	raw_spinlock_t lock;
 } ticketlock_t;
 
 #endif /* _VOLTOS_TICKETLOCK_TYPES_H */

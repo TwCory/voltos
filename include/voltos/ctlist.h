@@ -9,12 +9,14 @@
 #ifndef _VOLTOS_CTLIST_H
 #define _VOLTOS_CTLIST_H
 
-struct ctlist_head {
+struct ctlist_node;
 
+struct ctlist_head {
+	struct ctlist_node *first;
 };
 
 struct ctlist_node {
-
+	struct ctlist_node *next;
 };
 
 #define CTLIST_HEAD_INIT(head)

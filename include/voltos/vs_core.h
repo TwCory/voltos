@@ -9,4 +9,8 @@
 #ifndef __VS_CORE_H__
 #define __VS_CORE_H__
 
+struct vs_core_list {
+
+};
+
 #endif /* __VS_CORE_H__ */

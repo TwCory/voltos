@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vnc.h
  *
+ * 	Virtual Network Computing (VNC)
  */
 
 #ifndef _VOLTOS_VNC_H

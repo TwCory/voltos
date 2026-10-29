@@ -3,6 +3,7 @@
 /*
  *	include/voltos/cmts.h
  *
+ * 	Cable Modem Termination System (CMTS)
  */
 
 #ifndef _VOLTOS_CMTS_H

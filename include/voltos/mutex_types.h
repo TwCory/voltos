@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mutex_types.h
  *
+ * 	Mutual Exclusions
  */
 
 #ifndef _VOLTOS_MUTEX_TYPES_H

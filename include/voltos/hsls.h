@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hsls.h
  *
+ * 	Hazy-Sighted Link State (HSLS)
  */
 
 #ifndef _VOLTOS_HSLS_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/siphash.h
  *
+ * 	SipHash Functions
  */
 
 #ifndef _VOLTOS_SIPHASH_H

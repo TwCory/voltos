@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tls.h
  *
+ * 	Transport Layer Security (TLS)
  */
 
 #ifndef _VOLTOS_TLS_H

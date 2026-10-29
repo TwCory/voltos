@@ -9,12 +9,14 @@
 #ifndef _VOLTOS_ALIST_H
 #define _VOLTOS_ALIST_H
 
-struct alist_head {
+struct alist_node;
 
+struct alist_head {
+	struct alist_node *first;
 };
 
 struct alist_node {
-
+	struct alist_node *next;
 };
 
 #define ALIST_HEAD_INIT(head)

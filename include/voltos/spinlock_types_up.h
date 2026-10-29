@@ -3,6 +3,7 @@
 /*
  *	include/voltos/spinlock_types_up.h
  *
+ * 	Platform-Specific Spin Locks
  */
 
 #ifndef _VOLTOS_SPINLOCK_TYPES_UP_H

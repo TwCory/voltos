@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hsrp.h
  *
+ * 	Hot Standby Router Protocol (HSRP)
  */
 
 #ifndef _VOLTOS_HSRP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/gid_types.h
  *
+ * 	User Group IDs
  */
 
 #ifndef _VOLTOS_GID_TYPES_H

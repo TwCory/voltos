@@ -3,6 +3,7 @@
 /*
  *	include/voltos/wccp.h
  *
+ * 	Web Cache Coordination Protocol (WCCP)
  */
 
 #ifndef _VOLTOS_WCCP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pnp.h
  *
+ * 	Plug and Play (PnP)
  */
 
 #ifndef _VOLTOS_PNP_H

@@ -9,4 +9,8 @@
 #ifndef __VS_EXEC_HANDOVER_H__
 #define __VS_EXEC_HANDOVER_H__
 
+struct vs_eho_scratch {
+
+};
+
 #endif /* __VS_EXEC_HANDOVER_H__ */

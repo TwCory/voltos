@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_vlan.h>
 
+struct vlan_if {
+
+};
+
 #endif /* _VOLTOS_IF_VLAN_H */

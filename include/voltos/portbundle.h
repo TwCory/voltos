@@ -12,7 +12,8 @@
 #include <nbapi/voltos/portbundle.h>
 
 struct portbundle {
-
+	const char *name;
+	refcount_t ref_count;
 };
 
 #endif /* _VOLTOS_PORTBUNDLE_H */

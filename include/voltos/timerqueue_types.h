@@ -3,6 +3,7 @@
 /*
  *	include/voltos/timerqueue_types.h
  *
+ * 	Timer Queues
  */
 
 #ifndef _VOLTOS_TIMERQUEUE_TYPES_H

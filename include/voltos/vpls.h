@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vpls.h
  *
+ * 	Virtual Private LAN Service (VPLS)
  */
 
 #ifndef _VOLTOS_VPLS_H

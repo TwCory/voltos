@@ -3,6 +3,7 @@
 /*
  *	include/voltos/lcrs_tree.h
  *
+ * 	Left-Child Right-Sibling Binary Trees
  */
 
 #ifndef _VOLTOS_LCRS_TREE_H

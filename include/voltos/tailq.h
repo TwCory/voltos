@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tailq.h
  *
+ * 	FreeBSD/OpenBSD TailQ Implementation
  */
 
 #ifndef _VOLTOS_TAILQ_H

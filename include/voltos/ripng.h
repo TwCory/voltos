@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ripng.h
  *
+ * 	Routing Information Protocol, Next Generation (RIPng)
  */
 
 #ifndef _VOLTOS_RIPNG_H

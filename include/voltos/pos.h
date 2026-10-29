@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pos.h
  *
+ * 	Packet-over-SONET/SDH (POS)
  */
 
 #ifndef _VOLTOS_POS_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/qotd.h
  *
+ * 	Quote of the Day (QOTD)
  */
 
 #ifndef _VOLTOS_QOTD_H

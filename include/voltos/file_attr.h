@@ -3,6 +3,7 @@
 /*
  *	include/voltos/file_attr.h
  *
+ * 	File Attributes
  */
 
 #ifndef _VOLTOS_FILE_ATTR_H

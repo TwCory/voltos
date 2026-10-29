@@ -3,17 +3,20 @@
 /*
  *	include/voltos/skiplist.h
  *
+ * 	Skip Lists
  */
 
 #ifndef _VOLTOS_SKIPLIST_H
 #define _VOLTOS_SKIPLIST_H
 
-struct skiplist_head {
+struct skiplist_node;
 
+struct skiplist_head {
+	struct skiplist_node *first;
 };
 
 struct skiplist_node {
-
+	struct skiplist_node *next;
 };
 
 #define SKIPLIST_HEAD_INIT(head)

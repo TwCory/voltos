@@ -3,6 +3,7 @@
 /*
  *	include/voltos/simple_ring_buffer.h
  *
+ * 	Simple Ring Buffers
  */
 
 #ifndef _VOLTOS_SIMPLE_RING_BUFFER_H

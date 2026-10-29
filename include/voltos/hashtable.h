@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hashtable.h
  *
+ * 	Hash Tables
  */
 
 #ifndef _VOLTOS_HASHTABLE_H

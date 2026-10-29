@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ring_buffer_types.h
  *
+ * 	Ring Buffers
  */
 
 #ifndef _VOLTOS_RING_BUFFER_TYPES_H

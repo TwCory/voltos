@@ -3,6 +3,7 @@
 /*
  *	include/voltos/journal.h
  *
+ * 	Journaling File Systems
  */
 
 #ifndef _VOLTOS_JOURNAL_H

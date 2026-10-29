@@ -3,6 +3,7 @@
 /*
  *	include/voltos/complex.h
  *
+ * 	Complex Data Types
  */
 
 #ifndef _VOLTOS_COMPLEX_H

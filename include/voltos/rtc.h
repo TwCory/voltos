@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rtc.h
  *
+ * 	Real-Time Clocks
  */
 
 #ifndef _VOLTOS_RTC_H

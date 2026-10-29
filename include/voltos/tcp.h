@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tcp.h
  *
+ * 	Transmission Control Protocol (TCP)
  */
 
 #ifndef _VOLTOS_TCP_H

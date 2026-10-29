@@ -3,6 +3,7 @@
 /*
  *	include/voltos/mrp.h
  *
+ * 	Media Redundancy Protocol (MRP)
  */
 
 #ifndef _VOLTOS_MRP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/slp.h
  *
+ * 	Service Location Protocol (SLP)
  */
 
 #ifndef _VOLTOS_SLP_H

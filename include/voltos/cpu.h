@@ -8,8 +8,11 @@
 #ifndef _VOLTOS_CPU_H
 #define _VOLTOS_CPU_H
 
-struct cpu {
+#include <voltos/device.h>
 
+struct cpu {
+	struct device 			device;
+	int 				node_id;
 };
 
 #endif /* _VOLTOS_CPU_H */

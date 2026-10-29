@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pid.h
  *
+ * 	Process IDs
  */
 
 #ifndef _VOLTOS_PID_H

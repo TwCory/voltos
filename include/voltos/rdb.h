@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rdb.h
  *
+ * 	Routing Descriptor Block (RDB)
  */
 
 #ifndef _VOLTOS_RDB_H

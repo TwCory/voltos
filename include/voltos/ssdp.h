@@ -3,6 +3,7 @@
 /*
  *	include/voltos/ssdp.h
  *
+ * 	Simple Service Discovery Protocol (SSDP)
  */
 
 #ifndef _VOLTOS_SSDP_H

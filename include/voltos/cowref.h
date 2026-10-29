@@ -14,4 +14,6 @@ typedef struct {
 	atomic_t counter;
 } cowref_t;
 
+#define COWREF_INIT(i)
+
 #endif /* _VOLTOS_COWREF_H */

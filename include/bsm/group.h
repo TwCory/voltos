@@ -8,4 +8,8 @@
 #ifndef _BSM_GROUP_H
 #define _BSM_GROUP_H
 
+struct bsm_group {
+
+};
+
 #endif /* _BSM_GROUP_H */

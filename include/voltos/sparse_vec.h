@@ -3,6 +3,7 @@
 /*
  *	include/voltos/sparse_vec.h
  *
+ * 	Sparse Vectors
  */
 
 #ifndef _VOLTOS_SPARSE_VEC_H

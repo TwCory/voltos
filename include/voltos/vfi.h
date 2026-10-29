@@ -3,6 +3,7 @@
 /*
  *	include/voltos/vfi.h
  *
+ * 	Virtual Forwarding Instance (VFI)
  */
 
 #ifndef _VOLTOS_VFI_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tstree.h
  *
+ * 	Ternary Search Trees
  */
 
 #ifndef _VOLTOS_TSTREE_H

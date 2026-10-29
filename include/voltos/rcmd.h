@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rcmd.h
  *
+ * 	Remote Command Service
  */
 
 #ifndef _VOLTOS_RCMD_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/saml.h
  *
+ * 	Security Assertion Markup Language (SAML)
  */
 
 #ifndef _VOLTOS_SAML_H

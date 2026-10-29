@@ -3,6 +3,7 @@
 /*
  *	include/voltos/tsp.h
  *
+ * 	Tunnel Setup Protocol (TSP)
  */
 
 #ifndef _VOLTOS_TSP_H

@@ -9,12 +9,14 @@
 #ifndef _VOLTOS_XORLIST_H
 #define _VOLTOS_XORLIST_H
 
-struct xorlist_head {
+struct xorlist_node;
 
+struct xorlist_head {
+	struct xorlist_node *first;
 };
 
 struct xorlist_node {
-
+	struct xorlist_node *next;
 };
 
 #define XORLIST_HEAD_INIT(head)

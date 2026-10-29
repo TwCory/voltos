@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hex.h
  *
+ * 	Hexadecimal Character Handling
  */
 
 #ifndef _VOLTOS_HEX_H

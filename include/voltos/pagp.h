@@ -3,6 +3,7 @@
 /*
  *	include/voltos/pagp.h
  *
+ * 	Port Aggregation Protocol (PAgP)
  */
 
 #ifndef _VOLTOS_PAGP_H

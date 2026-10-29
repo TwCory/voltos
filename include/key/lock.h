@@ -8,4 +8,8 @@
 #ifndef _KEY_LOCK_H
 #define _KEY_LOCK_H
 
+struct key_lock {
+
+};
+
 #endif /* _KEY_LOCK_H */

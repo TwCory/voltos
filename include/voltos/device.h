@@ -3,6 +3,7 @@
 /*
  *	include/voltos/device.h
  *
+ * 	Device Driver API
  */
 
 #ifndef _VOLTOS_DEVICE_H

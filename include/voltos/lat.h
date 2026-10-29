@@ -3,6 +3,7 @@
 /*
  *	include/voltos/lat.h
  *
+ * 	Local Area Transport (LAT)
  */
 
 #ifndef _VOLTOS_LAT_H

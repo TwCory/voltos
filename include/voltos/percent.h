@@ -3,6 +3,7 @@
 /*
  *	include/voltos/percent.h
  *
+ * 	Numeric Percentages
  */
 
 #ifndef _VOLTOS_PERCENT_H

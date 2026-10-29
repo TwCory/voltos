@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_mfr.h>
 
+struct mfr_if {
+
+};
+
 #endif /* _VOLTOS_IF_MFR_H */

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/uid_types.h
  *
+ * 	User Account IDs
  */
 
 #ifndef _VOLTOS_UID_TYPES_H

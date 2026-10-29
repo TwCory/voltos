@@ -8,4 +8,8 @@
 #ifndef _NET_MCTP_H
 #define _NET_MCTP_H
 
+struct mctp_sock {
+
+};
+
 #endif /* _NET_MCTP_H */

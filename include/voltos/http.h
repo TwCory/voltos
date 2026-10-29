@@ -3,6 +3,7 @@
 /*
  *	include/voltos/http.h
  *
+ * 	Hypertext Transfer Protocol (HTTP)
  */
 
 #ifndef _VOLTOS_HTTP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/otv.h
  *
+ * 	Overlay Transport Virtualization (OTV)
  */
 
 #ifndef _VOLTOS_OTV_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/rip.h
  *
+ * 	Routing Information Protocol (RIP)
  */
 
 #ifndef _VOLTOS_RIP_H

@@ -3,6 +3,7 @@
 /*
  *	include/voltos/jwtoken.h
  *
+ * 	JSON Web Token
  */
 
 #ifndef _VOLTOS_JWTOKEN_H

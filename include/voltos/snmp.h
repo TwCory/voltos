@@ -3,6 +3,7 @@
 /*
  *	include/voltos/snmp.h
  *
+ * 	Simple Network Management Protocol (SNMP)
  */
 
 #ifndef _VOLTOS_SNMP_H

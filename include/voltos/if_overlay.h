@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/if_overlay.h>
 
+struct overlay_if {
+
+};
+
 #endif /* _VOLTOS_IF_OVERLAY_H */

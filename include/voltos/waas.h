@@ -3,6 +3,7 @@
 /*
  *	include/voltos/waas.h
  *
+ * 	Wide Area Application Services (WAAS)
  */
 
 #ifndef _VOLTOS_WAAS_H

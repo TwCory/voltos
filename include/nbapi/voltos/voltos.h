@@ -8,4 +8,7 @@
 #ifndef __NBAPI_VOLTOS_H__
 #define __NBAPI_VOLTOS_H__
 
+#include <voltos/const.h>
+#include <voltos/sysinfo.h>
+
 #endif /* __NBAPI_VOLTOS_H__ */

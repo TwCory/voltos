@@ -3,6 +3,7 @@
 /*
  *	include/voltos/kerberos.h
  *
+ * 	Kerberos Authentication Protocol
  */
 
 #ifndef _VOLTOS_KERBEROS_H

@@ -12,7 +12,7 @@
 #include <nbapi/voltos/object-group.h>
 
 struct object_group {
-
+	refcount_t ref_count;
 };
 
 #endif /* _VOLTOS_OBJECT_GROUP_H */

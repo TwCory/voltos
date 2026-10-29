@@ -3,6 +3,7 @@
 /*
  *	include/voltos/hmp.h
  *
+ * 	Host Monitoring Protocol (HMP)
  */
 
 #ifndef _VOLTOS_HMP_H

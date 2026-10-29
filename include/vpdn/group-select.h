@@ -8,4 +8,8 @@
 #ifndef _VPDN_GROUP_SELECT_H
 #define _VPDN_GROUP_SELECT_H
 
+struct vpdn_group_select {
+
+};
+
 #endif /* _VPDN_GROUP_SELECT_H */

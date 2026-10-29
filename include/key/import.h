@@ -8,4 +8,8 @@
 #ifndef _KEY_IMPORT_H
 #define _KEY_IMPORT_H
 
+struct key_import {
+
+};
+
 #endif /* _KEY_IMPORT_H */

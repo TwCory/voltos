@@ -3,6 +3,7 @@
 /*
  *	include/voltos/align.h
  *
+ * 	General Alignment Helpers
  */
 
 #ifndef _VOLTOS_ALIGN_H

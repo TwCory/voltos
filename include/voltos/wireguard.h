@@ -3,6 +3,7 @@
 /*
  *	include/voltos/wireguard.h
  *
+ * 	WireGuard(R) Tunneling Protocol
  */
 
 #ifndef _VOLTOS_WIREGUARD_H

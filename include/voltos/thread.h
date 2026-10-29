@@ -3,6 +3,7 @@
 /*
  *	include/voltos/thread.h
  *
+ * 	Threads
  */
 
 #ifndef _VOLTOS_THREAD_H

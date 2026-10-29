@@ -9,10 +9,11 @@
 #ifndef _VOLTOS_BBU_H
 #define _VOLTOS_BBU_H
 
+#include <voltos/device.h>
 #include <nbapi/voltos/bbu.h>
 
 struct bbu {
-	const char *name;
+	const char 			*name;
 };
 
 #endif /* _VOLTOS_BBU_H */

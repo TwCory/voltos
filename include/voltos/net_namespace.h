@@ -10,8 +10,6 @@
 
 #include <nbapi/voltos/net_namespace.h>
 
-struct net_namespace {
-
-};
+struct net_namespace;
 
 #endif /* _VOLTOS_NET_NAMESPACE_H */

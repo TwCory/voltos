@@ -3,6 +3,7 @@
 /*
  *	include/voltos/garp.h
  *
+ * 	Gratuitous ARP (GARP)
  */
 
 #ifndef _VOLTOS_GARP_H

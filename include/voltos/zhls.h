@@ -3,6 +3,7 @@
 /*
  *	include/voltos/zhls.h
  *
+ * 	Zone-Based Hierarchical Link State (ZHLS)
  */
 
 #ifndef _VOLTOS_ZHLS_H

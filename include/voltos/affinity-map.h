@@ -12,8 +12,8 @@
 #include <nbapi/voltos/affinity-map.h>
 
 struct affinity_map {
-	const char 		name[AFFINITY_MAP_NAME_SIZE];
-	refcount_t 		ref_count;
+	const char 			name[AFFINITY_MAP_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_AFFINITY_MAP_H */
