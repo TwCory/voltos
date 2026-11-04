@@ -8,4 +8,8 @@
 #ifndef _ROUTER_BGMP_H
 #define _ROUTER_BGMP_H
 
+struct bgmp_interface {
+
+};
+
 #endif /* _ROUTER_BGMP_H */

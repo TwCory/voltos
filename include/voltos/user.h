@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/user.h>
 
+struct voltos_user {
+
+};
+
 #endif /* _VOLTOS_USER_H */

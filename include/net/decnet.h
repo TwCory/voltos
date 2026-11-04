@@ -8,4 +8,8 @@
 #ifndef _NET_DECNET_H
 #define _NET_DECNET_H
 
+struct decnet_interface {
+
+};
+
 #endif /* _NET_DECNET_H */

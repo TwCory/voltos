@@ -8,6 +8,8 @@
 #ifndef _ALPS_SERVICE_MSG_H
 #define _ALPS_SERVICE_MSG_H
 
+#include <voltos/alps.h>
+
 struct alps_service_msg {
 
 };

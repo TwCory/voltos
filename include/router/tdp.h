@@ -8,4 +8,8 @@
 #ifndef _ROUTER_TDP_H
 #define _ROUTER_TDP_H
 
+struct tdp_interface {
+
+};
+
 #endif /* _ROUTER_TDP_H */

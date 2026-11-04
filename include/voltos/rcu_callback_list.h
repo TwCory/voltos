@@ -12,4 +12,8 @@ struct rcu_callback_list {
 
 };
 
+struct rcu_seg_callback_list {
+
+};
+
 #endif /* _VOLTOS_RCU_CALLBACK_LIST_H */

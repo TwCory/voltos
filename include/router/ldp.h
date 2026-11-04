@@ -8,4 +8,8 @@
 #ifndef _ROUTER_LDP_H
 #define _ROUTER_LDP_H
 
+struct ldp_interface {
+
+};
+
 #endif /* _ROUTER_LDP_H */

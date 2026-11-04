@@ -8,4 +8,8 @@
 #ifndef _NET_ICMPV6_H
 #define _NET_ICMPV6_H
 
+struct icmpv6_interface {
+
+};
+
 #endif /* _NET_ICMPV6_H */

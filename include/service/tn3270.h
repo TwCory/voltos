@@ -8,4 +8,8 @@
 #ifndef _SERVICE_TN3270_H
 #define _SERVICE_TN3270_H
 
+struct tn3270_service {
+
+};
+
 #endif /* _SERVICE_TN3270_H */

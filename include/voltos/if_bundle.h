@@ -8,10 +8,11 @@
 #ifndef _VOLTOS_IF_BUNDLE_H
 #define _VOLTOS_IF_BUNDLE_H
 
+#include <voltos/if.h>
 #include <nbapi/voltos/if_bundle.h>
 
-struct bundle_if {
-
+struct bundle_interface {
+	struct interface *ifp;
 };
 
 #endif /* _VOLTOS_IF_BUNDLE_H */

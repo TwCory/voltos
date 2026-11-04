@@ -8,4 +8,8 @@
 #ifndef _ROUTER_NLSP_H
 #define _ROUTER_NLSP_H
 
+struct nlsp_interface {
+
+};
+
 #endif /* _ROUTER_NLSP_H */

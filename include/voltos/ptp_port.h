@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/ptp_port.h>
 
+struct ptp_port {
+
+};
+
 #endif /* _VOLTOS_PTP_PORT_H */

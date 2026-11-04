@@ -8,6 +8,8 @@
 #ifndef _VPDN_GROUP_SELECT_H
 #define _VPDN_GROUP_SELECT_H
 
+#include <voltos/vpdn.h>
+
 struct vpdn_group_select {
 
 };

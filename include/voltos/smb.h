@@ -11,4 +11,12 @@
 
 #include <nbapi/voltos/smb.h>
 
+struct smb_buffer_descriptor_v1 {
+
+};
+
+struct smb_socket_parameters {
+
+};
+
 #endif /* _VOLTOS_SMB_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ACL_IPV6_ROLE_BASED_H
 #define _VOLTOS_ACL_IPV6_ROLE_BASED_H
 
+struct ipv6_role_based_ace {
+
+};
+
 #endif /* _VOLTOS_ACL_IPV6_ROLE_BASED_H */

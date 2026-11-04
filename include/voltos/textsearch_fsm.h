@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TEXTSEARCH_FSM_H
 #define _VOLTOS_TEXTSEARCH_FSM_H
 
+struct ts_fsm_token {
+
+};
+
 #endif /* _VOLTOS_TEXTSEARCH_FSM_H */

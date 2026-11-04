@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_PTP_CLOCK_VOLTOS_H
 #define _VOLTOS_PTP_CLOCK_VOLTOS_H
 
+struct ptp_clock_voltos {
+
+};
+
 #endif /* _VOLTOS_PTP_CLOCK_VOLTOS_H */

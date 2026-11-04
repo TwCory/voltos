@@ -10,4 +10,12 @@
 
 #include <memory.h>
 
+struct memory_group {
+
+};
+
+struct memory_block {
+
+};
+
 #endif /* _VOLTOS_MEMORY_H */

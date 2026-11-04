@@ -8,10 +8,11 @@
 #ifndef _VOLTOS_IF_LOOPBACK_H
 #define _VOLTOS_IF_LOOPBACK_H
 
+#include <voltos/if.h>
 #include <nbapi/voltos/if_loopback.h>
 
-struct loopback_if {
-
+struct loopback_interface {
+	struct interface *ifp;
 };
 
 #endif /* _VOLTOS_IF_LOOPBACK_H */

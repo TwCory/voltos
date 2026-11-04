@@ -8,4 +8,12 @@
 #ifndef _ROUTER_MIP_H
 #define _ROUTER_MIP_H
 
+struct mobile_interface {
+
+};
+
+struct mobile_route {
+
+};
+
 #endif /* _ROUTER_MIP_H */

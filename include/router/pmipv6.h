@@ -8,4 +8,12 @@
 #ifndef _ROUTER_PMIPV6_H
 #define _ROUTER_PMIPV6_H
 
+struct pmipv6_interface {
+
+};
+
+struct pmipv6_route {
+
+};
+
 #endif /* _ROUTER_PMIPV6_H */

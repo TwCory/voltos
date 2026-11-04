@@ -8,6 +8,8 @@
 #ifndef _BSM_SET_H
 #define _BSM_SET_H
 
+#include <voltos/bsm.h>
+
 struct bsm_set {
 
 };

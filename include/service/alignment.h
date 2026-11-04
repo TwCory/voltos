@@ -8,4 +8,8 @@
 #ifndef _SERVICE_ALIGNMENT_H
 #define _SERVICE_ALIGNMENT_H
 
+struct alignment_service {
+
+};
+
 #endif /* _SERVICE_ALIGNMENT_H */

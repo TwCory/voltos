@@ -10,4 +10,12 @@
 
 #include <nbapi/voltos/module-version.h>
 
+struct module_version_ctx {
+
+};
+
+struct module_version_attribute {
+
+};
+
 #endif /* _VOLTOS_MODULE_VERSION_H */

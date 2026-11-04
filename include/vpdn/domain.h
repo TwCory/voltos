@@ -8,6 +8,8 @@
 #ifndef _VPDN_DOMAIN_H
 #define _VPDN_DOMAIN_H
 
+#include <voltos/vpdn.h>
+
 struct vpdn_domain {
 
 };

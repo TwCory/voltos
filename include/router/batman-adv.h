@@ -8,4 +8,12 @@
 #ifndef _ROUTER_BATMAN_ADV_H
 #define _ROUTER_BATMAN_ADV_H
 
+struct batadv_interface {
+
+};
+
+struct batadv_route {
+
+};
+
 #endif /* _ROUTER_BATMAN_ADV_H */

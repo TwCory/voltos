@@ -9,8 +9,12 @@
 #ifndef __VS_REF_H__
 #define __VS_REF_H__
 
-struct vs_ref {
+#include <voltos/refcount.h>
 
+struct vs_ref {
+	refcount_t ref_count;
 };
+
+#define VS_REF_INIT(i)
 
 #endif /* __VS_REF_H__ */

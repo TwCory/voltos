@@ -8,4 +8,8 @@
 #ifndef _NET_DSPU_H
 #define _NET_DSPU_H
 
+struct dspu_interface {
+
+};
+
 #endif /* _NET_DSPU_H */

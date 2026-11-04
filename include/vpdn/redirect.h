@@ -8,4 +8,6 @@
 #ifndef _VPDN_REDIRECT_H
 #define _VPDN_REDIRECT_H
 
+#include <voltos/vpdn.h>
+
 #endif /* _VPDN_REDIRECT_H */

@@ -8,4 +8,8 @@
 #ifndef _SERVICE_CONFIG_H
 #define _SERVICE_CONFIG_H
 
+struct config_service {
+
+};
+
 #endif /* _SERVICE_CONFIG_H */

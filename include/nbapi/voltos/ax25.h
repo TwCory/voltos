@@ -22,7 +22,7 @@ struct ax25_addr {
 struct sockaddr_ax25 {
 	__voltos_sa_family_t 	sax25_family;
 	struct ax25_addr	sax25_call;
-	int			sax25_ndigis;
+	int32_t			sax25_ndigis;
 };
 
 struct full_sockaddr_ax25 {

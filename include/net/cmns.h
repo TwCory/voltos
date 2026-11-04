@@ -8,4 +8,8 @@
 #ifndef _NET_CMNS_H
 #define _NET_CMNS_H
 
+struct cmns_interface {
+
+};
+
 #endif /* _NET_CMNS_H */

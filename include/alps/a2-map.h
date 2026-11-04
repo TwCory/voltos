@@ -8,6 +8,8 @@
 #ifndef _ALPS_A2_MAP_H
 #define _ALPS_A2_MAP_H
 
+#include <voltos/alps.h>
+
 struct a2_map {
 
 };

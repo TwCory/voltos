@@ -8,5 +8,8 @@
 #ifndef _VOLTOS_FACILITY_H
 #define _VOLTOS_FACILITY_H
 
+struct facility_alarm {
+
+};
 
 #endif /* _VOLTOS_FACILITY_H */

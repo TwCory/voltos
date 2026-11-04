@@ -8,4 +8,8 @@
 #ifndef _ROUTER_BOOTP_H
 #define _ROUTER_BOOTP_H
 
+struct bootp_interface {
+
+};
+
 #endif /* _ROUTER_BOOTP_H */

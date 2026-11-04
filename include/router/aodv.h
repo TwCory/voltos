@@ -8,4 +8,12 @@
 #ifndef _ROUTER_AODV_H
 #define _ROUTER_AODV_H
 
+struct aodv_interface {
+
+};
+
+struct aodv_route {
+
+};
+
 #endif /* _ROUTER_AODV_H */

@@ -8,4 +8,6 @@
 #ifndef _ALPS_SERVLIM_H
 #define _ALPS_SERVLIM_H
 
+#include <voltos/alps.h>
+
 #endif /* _ALPS_SERVLIM_H */

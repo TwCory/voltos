@@ -8,6 +8,8 @@
 #ifndef _ALPS_PEER_H
 #define _ALPS_PEER_H
 
+#include <voltos/alps.h>
+
 struct alps_peer {
 
 };

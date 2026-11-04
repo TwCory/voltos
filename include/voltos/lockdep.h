@@ -10,4 +10,12 @@
 
 #include <voltos/lockdep_types.h>
 
+struct lock_list {
+
+};
+
+struct lock_chain {
+
+};
+
 #endif /* _VOLTOS_LOCKDEP_H */

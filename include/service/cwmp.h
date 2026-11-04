@@ -8,6 +8,10 @@
 #ifndef _SERVICE_CWMP_H
 #define _SERVICE_CWMP_H
 
+#include <voltos/cwmp.h>
 
+struct cwmp_service {
+
+};
 
 #endif /* _SERVICE_CWMP_H */

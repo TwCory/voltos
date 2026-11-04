@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ACL_APPLETALK_H
 #define _VOLTOS_ACL_APPLETALK_H
 
+struct appletalk_ace {
+
+};
+
 #endif /* _VOLTOS_ACL_APPLETALK_H */

@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_MUTEX_TYPES_H
 #define _VOLTOS_MUTEX_TYPES_H
 
-typedef struct mutex {
+#include <voltos/spinlock.h>
 
+typedef struct mutex {
+	raw_spinlock_t lock;
 } mutex_t;
 
 #endif /* _VOLTOS_MUTEX_TYPES_H */

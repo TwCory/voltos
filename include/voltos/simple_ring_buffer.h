@@ -11,4 +11,12 @@
 
 #include <voltos/ring_buffer_types.h>
 
+struct simple_buffer_page {
+
+};
+
+struct simple_buffer_percpu {
+
+};
+
 #endif /* _VOLTOS_SIMPLE_RING_BUFFER_H */

@@ -10,4 +10,6 @@
 
 #include <voltos/outref_types.h>
 
+#define OUTREF_INIT(i)	{ (i) }
+
 #endif /* _VOLTOS_OUTREF_H */

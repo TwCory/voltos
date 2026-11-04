@@ -8,4 +8,8 @@
 #ifndef _ROUTER_RIFT_H
 #define _ROUTER_RIFT_H
 
+struct rift_interface {
+
+};
+
 #endif /* _ROUTER_RIFT_H */

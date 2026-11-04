@@ -8,7 +8,9 @@
 #ifndef _VOLTOS_ERRSEQ_H
 #define _VOLTOS_ERRSEQ_H
 
-typedef unsigned int errseq_t;
+#include <voltos/types.h>
+
+typedef u32 errseq_t;
 
 errseq_t errseq_set(errseq_t *eseq, int err);
 errseq_t errseq_sample(errseq_t *eseq);

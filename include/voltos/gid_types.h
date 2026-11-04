@@ -9,8 +9,10 @@
 #ifndef _VOLTOS_GID_TYPES_H
 #define _VOLTOS_GID_TYPES_H
 
-typedef struct {
+#include <voltos/types.h>
 
+typedef struct {
+	gid_t value;
 } vs_gid_t;
 
 #endif /* _VOLTOS_GID_TYPES_H */

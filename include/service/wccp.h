@@ -8,6 +8,8 @@
 #ifndef _SERVICE_WCCP_H
 #define _SERVICE_WCCP_H
 
+struct wccp_service {
 
+};
 
 #endif /* _SERVICE_WCCP_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_FAULT_INJECT_H
 #define _VOLTOS_FAULT_INJECT_H
 
+struct fault_attr {
+
+};
+
 #endif /* _VOLTOS_FAULT_INJECT_H */

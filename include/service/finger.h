@@ -8,4 +8,8 @@
 #ifndef _SERVICE_FINGER_H
 #define _SERVICE_FINGER_H
 
+struct finger_service {
+
+};
+
 #endif /* _SERVICE_FINGER_H */

@@ -12,9 +12,13 @@
 #include <voltos/async_io.h>
 #include <voltos/async_locks.h>
 
-#ifndef __voltos_async
-#define __voltos_async
-#endif /* __voltos_async */
+#ifndef __async
+#define __async
+#endif /* __async */
+
+#ifndef __async_inline
+#define __async_inline		__async inline
+#endif /* __async_inline */
 
 struct async_domain {
 

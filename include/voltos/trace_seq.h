@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_TRACE_SEQ_H
 #define _VOLTOS_TRACE_SEQ_H
 
+struct trace_seq {
+
+};
+
 #endif /* _VOLTOS_TRACE_SEQ_H */

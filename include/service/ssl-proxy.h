@@ -8,4 +8,8 @@
 #ifndef _SERVICE_SSL_PROXY_H
 #define _SERVICE_SSL_PROXY_H
 
+struct ssl_proxy_service {
+
+};
+
 #endif /* _SERVICE_SSL_PROXY_H */

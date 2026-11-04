@@ -8,4 +8,8 @@
 #ifndef _SERVICE_UDPSTP_H
 #define _SERVICE_UDPSTP_H
 
+struct udpstp_service {
+
+};
+
 #endif /* _SERVICE_UDPSTP_H */

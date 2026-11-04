@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ACL_VLAN_H
 #define _VOLTOS_ACL_VLAN_H
 
+struct vlan_ace {
+
+};
+
 #endif /* _VOLTOS_ACL_VLAN_H */

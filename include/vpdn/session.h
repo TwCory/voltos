@@ -8,6 +8,8 @@
 #ifndef _VPDN_SESSION_H
 #define _VPDN_SESSION_H
 
+#include <voltos/vpdn.h>
+
 struct vpdn_session {
 
 };

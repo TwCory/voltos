@@ -11,4 +11,20 @@
 #include <sys/uio.h>
 #include <nbapi/voltos/uio.h>
 
+struct vs_vec {
+
+};
+
+struct iovec_iter_state {
+
+};
+
+struct iovec_iter {
+
+};
+
+struct uio_metadata {
+
+};
+
 #endif /* _VOLTOS_UIO_H */

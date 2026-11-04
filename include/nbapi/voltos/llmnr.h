@@ -9,6 +9,10 @@
 #ifndef _NBAPI_VOLTOS_LLMNR_H
 #define _NBAPI_VOLTOS_LLMNR_H
 
-#define LLMNR_PORT
+#define LLMNR_PORT	5355
+
+struct llmnr_hdr {
+
+};
 
 #endif /* _NBAPI_VOLTOS_LLMNR_H */

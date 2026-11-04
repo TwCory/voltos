@@ -8,4 +8,6 @@
 #ifndef _VPDN_MULTILINK_H
 #define _VPDN_MULTILINK_H
 
+#include <voltos/vpdn.h>
+
 #endif /* _VPDN_MULTILINK_H */

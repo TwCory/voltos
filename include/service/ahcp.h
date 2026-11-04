@@ -8,4 +8,10 @@
 #ifndef _SERVICE_AHCP_H
 #define _SERVICE_AHCP_H
 
+#include <voltos/ahcp.h>
+
+struct ahcp_service {
+
+};
+
 #endif /* _SERVICE_AHCP_H */

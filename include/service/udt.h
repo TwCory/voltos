@@ -8,4 +8,8 @@
 #ifndef _SERVICE_UDT_H
 #define _SERVICE_UDT_H
 
+struct udt_service {
+
+};
+
 #endif /* _SERVICE_UDT_H */

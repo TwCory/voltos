@@ -8,7 +8,11 @@
 #ifndef _VOLTOS_JOBSTATS_H
 #define _VOLTOS_JOBSTATS_H
 
-struct job_stats {
+struct jobstats {
+
+};
+
+struct jobstats_ctx {
 
 };
 

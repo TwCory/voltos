@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_MEDIATRACE_H
 #define _VOLTOS_MEDIATRACE_H
 
-#include <nbapi/voltos/mediatrace.h>
+//#include <nbapi/voltos/mediatrace.h>
 
 #endif /* _VOLTOS_MEDIATRACE_H */

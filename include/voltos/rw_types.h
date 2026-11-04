@@ -9,4 +9,8 @@
 #ifndef _VOLTOS_RW_TYPES_H
 #define _VOLTOS_RW_TYPES_H
 
+struct rw_rt {
+
+};
+
 #endif /* _VOLTOS_RW_TYPES_H */

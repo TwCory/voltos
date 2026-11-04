@@ -8,4 +8,8 @@
 #ifndef _SERVICE_XCOPY_H
 #define _SERVICE_XCOPY_H
 
+struct xcopy_service {
+
+};
+
 #endif /* _SERVICE_XCOPY_H */

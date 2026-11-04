@@ -8,4 +8,8 @@
 #ifndef _NET_IP_H
 #define _NET_IP_H
 
+struct ip_interface {
+
+};
+
 #endif /* _NET_IP_H */

@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_PTP_CLASSIFY_H
 #define _VOLTOS_PTP_CLASSIFY_H
 
+struct ptp_classify {
+
+};
+
 #endif /* _VOLTOS_PTP_CLASSIFY_H */

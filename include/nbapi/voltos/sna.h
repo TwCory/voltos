@@ -12,13 +12,15 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
-struct sna_addr {
-
-};
+#define SNA_NODE_SIZE			8
+#define SNA_LINK_SIZE			8
 
 struct sockaddr_sna {
 	__voltos_sa_family_t 		ssna_family;
-	struct sna_addr 		ssna_addr;
+	uint8_t 			ssna_len;
+
+	unsigned char 			ssna_node[SNA_NODE_SIZE];
+	unsigned char 			ssna_link[SNA_LINK_SIZE];
 };
 
 #endif /* _NBAPI_VOLTOS_SNA_H */

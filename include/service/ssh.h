@@ -8,4 +8,8 @@
 #ifndef _SERVICE_SSH_H
 #define _SERVICE_SSH_H
 
+struct ssh_service {
+
+};
+
 #endif /* _SERVICE_SSH_H */

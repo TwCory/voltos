@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_GNSS_DEVICE_H
 #define _VOLTOS_GNSS_DEVICE_H
 
+struct gnss_device {
+
+};
+
 #endif /* _VOLTOS_GNSS_DEVICE_H */

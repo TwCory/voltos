@@ -8,4 +8,8 @@
 #ifndef _ROUTER_HMP_H
 #define _ROUTER_HMP_H
 
+struct hmp_interface {
+
+};
+
 #endif /* _ROUTER_HMP_H */

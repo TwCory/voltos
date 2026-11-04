@@ -8,4 +8,8 @@
 #ifndef _ROUTER_PGM_H
 #define _ROUTER_PGM_H
 
+struct pgm_interface {
+
+};
+
 #endif /* _ROUTER_PGM_H */

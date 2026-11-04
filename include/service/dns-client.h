@@ -8,4 +8,8 @@
 #ifndef _SERVICE_DNS_CLIENT_H
 #define _SERVICE_DNS_CLIENT_H
 
+struct dns_client {
+
+};
+
 #endif /* _SERVICE_DNS_CLIENT_H */

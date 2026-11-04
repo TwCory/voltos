@@ -8,6 +8,10 @@
 #ifndef _SERVICE_BEEP_H
 #define _SERVICE_BEEP_H
 
+#include <voltos/beep.h>
 
+struct beep_service {
+
+};
 
 #endif /* _SERVICE_BEEP_H */

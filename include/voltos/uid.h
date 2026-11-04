@@ -11,6 +11,6 @@
 
 #include <voltos/uid_types.h>
 
-#define VS_UID_INIT(i)
+#define VS_UID_T_INIT(i)	{ (i) }
 
 #endif /* _VOLTOS_UID_H */

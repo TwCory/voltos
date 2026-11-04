@@ -8,4 +8,12 @@
 #ifndef _NET_BFD_H
 #define _NET_BFD_H
 
+struct bfd_interface {
+
+};
+
+struct bfd_session {
+
+};
+
 #endif /* _NET_BFD_H */

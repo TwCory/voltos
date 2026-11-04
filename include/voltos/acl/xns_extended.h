@@ -8,4 +8,8 @@
 #ifndef _VOLTOS_ACL_XNS_EXTENDED_H
 #define _VOLTOS_ACL_XNS_EXTENDED_H
 
+struct xns_extended_ace {
+
+};
+
 #endif /* _VOLTOS_ACL_XNS_EXTENDED_H */

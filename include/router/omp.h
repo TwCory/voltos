@@ -8,4 +8,12 @@
 #ifndef _ROUTER_OMP_H
 #define _ROUTER_OMP_H
 
+struct omp_interface {
+
+};
+
+struct omp_route {
+
+};
+
 #endif /* _ROUTER_OMP_H */

@@ -9,6 +9,7 @@
 #define _VOLTOS_INET_H
 
 #include <voltos/inet_addr.h>
+#include <voltos/inet_const.h>
 #include <voltos/inet_prefix.h>
 #include <voltos/inet_types.h>
 

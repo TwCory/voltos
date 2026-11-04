@@ -8,4 +8,8 @@
 #ifndef _ROUTER_HIP_H
 #define _ROUTER_HIP_H
 
+struct hip_interface {
+
+};
+
 #endif /* _ROUTER_HIP_H */

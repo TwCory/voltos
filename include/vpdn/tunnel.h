@@ -8,6 +8,8 @@
 #ifndef _VPDN_TUNNEL_H
 #define _VPDN_TUNNEL_H
 
+#include <voltos/vpdn.h>
+
 struct vpdn_tunnel {
 
 };

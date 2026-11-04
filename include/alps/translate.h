@@ -8,4 +8,6 @@
 #ifndef _ALPS_TRANSLATE_H
 #define _ALPS_TRANSLATE_H
 
+#include <voltos/alps.h>
+
 #endif /* _ALPS_TRANSLATE_H */

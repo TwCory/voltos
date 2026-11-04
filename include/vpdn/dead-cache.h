@@ -8,6 +8,8 @@
 #ifndef _VPDN_DEAD_CACHE_H
 #define _VPDN_DEAD_CACHE_H
 
+#include <voltos/vpdn.h>
+
 struct vpdn_dead_cache {
 
 };

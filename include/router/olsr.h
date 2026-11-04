@@ -8,4 +8,12 @@
 #ifndef _ROUTER_OLSR_H
 #define _ROUTER_OLSR_H
 
+struct olsr_interface {
+
+};
+
+struct olsr_route {
+
+};
+
 #endif /* _ROUTER_OLSR_H */

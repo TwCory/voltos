@@ -8,6 +8,8 @@
 #ifndef _BSM_SESSION_H
 #define _BSM_SESSION_H
 
+#include <voltos/bsm.h>
+
 struct bsm_session {
 
 };

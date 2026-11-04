@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_PTP_H
 #define _NBAPI_VOLTOS_PTP_H
 
+struct ptp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_PTP_H */

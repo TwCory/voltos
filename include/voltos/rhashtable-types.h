@@ -9,15 +9,35 @@
 #ifndef _VOLTOS_RHASHTABLE_TYPES_H
 #define _VOLTOS_RHASHTABLE_TYPES_H
 
-struct rht_head {
+struct rhash_head {
 
 };
 
-struct rht_params {
+struct rhlist_head {
 
 };
 
-struct rht {
+struct rhashtable_compare_arg {
+
+};
+
+struct rhashtable_params {
+
+};
+
+struct rhashtable {
+
+};
+
+struct rhlist_table {
+
+};
+
+struct rhashtable_walker {
+
+};
+
+struct rhashtable_iter {
 
 };
 

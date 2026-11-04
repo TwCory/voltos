@@ -9,6 +9,10 @@
 #ifndef _NBAPI_VOLTOS_MDNS_H
 #define _NBAPI_VOLTOS_MDNS_H
 
-#define MDNS_PORT
+#define MDNS_PORT		5353
+
+struct mdns_hdr {
+
+};
 
 #endif /* _NBAPI_VOLTOS_MDNS_H */

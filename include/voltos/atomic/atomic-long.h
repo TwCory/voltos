@@ -10,7 +10,20 @@
 
 #include <voltos/atomic/types.h>
 
-typedef atomic32_t			atomic_long_t;
-typedef atomic64_t			atomic_llong_t;
+typedef _Atomic long			atomic_long_t;
+
+#define ATOMIC_LONG_INIT(i)		{ (i) }
+
+typedef _Atomic unsigned long		atomic_ulong_t;
+
+#define ATOMIC_ULONG_INIT(i)		{ (i) }
+
+typedef _Atomic long long		atomic_llong_t;
+
+#define ATOMIC_LLONG_INIT(i)		{ (i) }
+
+typedef _Atomic unsigned long long	atomic_ullong_t;
+
+#define ATOMIC_ULLONG_INIT(i)		{ (i) }
 
 #endif /* _VOLTOS_ATOMIC_ATOMIC_LONG_H */

@@ -10,6 +10,14 @@
 
 #include <nbapi/voltos/hw_monitor.h>
 
+struct hw_monitor_ops {
+
+};
+
+struct hw_monitor_channel_ctx {
+
+};
+
 struct hw_monitor {
 
 };

@@ -8,6 +8,8 @@
 #ifndef _ALPS_CIRCUIT_H
 #define _ALPS_CIRCUIT_H
 
+#include <voltos/alps.h>
+
 struct alps_circuit {
 
 };

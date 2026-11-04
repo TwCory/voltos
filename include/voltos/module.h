@@ -10,4 +10,20 @@
 
 #include <nbapi/voltos/module.h>
 
+struct module_vs_object {
+
+};
+
+struct module_attribute {
+
+};
+
+struct module_tree_node {
+
+};
+
+struct module {
+
+};
+
 #endif /* _VOLTOS_MODULE_H */

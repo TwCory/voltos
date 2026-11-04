@@ -8,4 +8,8 @@
 #ifndef _ROUTER_MRD_H
 #define _ROUTER_MRD_H
 
+struct mrd_interface {
+
+};
+
 #endif /* _ROUTER_MRD_H */

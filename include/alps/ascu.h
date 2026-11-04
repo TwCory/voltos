@@ -8,6 +8,8 @@
 #ifndef _ALPS_ASCU_H
 #define _ALPS_ASCU_H
 
+#include <voltos/alps.h>
+
 struct alps_ascu {
 
 };

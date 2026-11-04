@@ -13,4 +13,8 @@ struct rolling_buffer {
 
 };
 
+struct rolling_buffer_snapshot {
+
+};
+
 #endif /* _VOLTOS_ROLLING_BUFFER_H */

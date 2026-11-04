@@ -8,4 +8,8 @@
 #ifndef _ROUTER_IRDP_H
 #define _ROUTER_IRDP_H
 
+struct irdp_interface {
+
+};
+
 #endif /* _ROUTER_IRDP_H */

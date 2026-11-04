@@ -11,7 +11,7 @@
 #include <sys/file.h>
 
 struct file {
-	int f_fd;
+	int fd;
 };
 
 #endif /* _VOLTOS_FILE_H */

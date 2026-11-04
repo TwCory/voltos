@@ -8,6 +8,8 @@
 #ifndef _BSM_GROUP_H
 #define _BSM_GROUP_H
 
+#include <voltos/bsm.h>
+
 struct bsm_group {
 
 };

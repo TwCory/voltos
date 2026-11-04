@@ -8,10 +8,11 @@
 #ifndef _VOLTOS_IF_NVE_H
 #define _VOLTOS_IF_NVE_H
 
+#include <voltos/if.h>
 #include <nbapi/voltos/if_nve.h>
 
-struct nve_if {
-
+struct nve_interface {
+	struct interface *ifp;
 };
 
 #endif /* _VOLTOS_IF_NVE_H */

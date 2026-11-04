@@ -11,4 +11,6 @@
 
 #include <voltos/types.h>
 
+extern void *bsearch(const void *key, const void *base, usize num, usize size, cmp_fn_t cmp);
+
 #endif /* _VOLTOS_BSEARCH_H */

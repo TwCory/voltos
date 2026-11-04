@@ -8,4 +8,12 @@
 #ifndef _ROUTER_LISP_H
 #define _ROUTER_LISP_H
 
+struct lisp_interface {
+
+};
+
+struct lisp_route {
+
+};
+
 #endif /* _ROUTER_LISP_H */

@@ -8,4 +8,8 @@
 #ifndef _NET_ICMP_H
 #define _NET_ICMP_H
 
+struct icmp_interface {
+
+};
+
 #endif /* _NET_ICMP_H */

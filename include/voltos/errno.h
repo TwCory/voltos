@@ -11,4 +11,7 @@
 #include <sys/errno.h>
 #include <nbapi/voltos/errno.h>
 
+#define ESECONDARY	1001
+#define ENOCONFIG	1002
+
 #endif /* _VOLTOS_ERRNO_H */

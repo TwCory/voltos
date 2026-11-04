@@ -8,4 +8,8 @@
 #ifndef _ROUTER_NMSP_H
 #define _ROUTER_NMSP_H
 
+struct nmsp_interface {
+
+};
+
 #endif /* _ROUTER_NMSP_H */

@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_LOCKREF_H
 #define _VOLTOS_LOCKREF_H
 
+#include <voltos/lockref_types.h>
+
 #endif /* _VOLTOS_LOCKREF_H */

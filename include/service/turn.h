@@ -8,4 +8,8 @@
 #ifndef _SERVICE_TURN_H
 #define _SERVICE_TURN_H
 
+struct turn_service {
+
+};
+
 #endif /* _SERVICE_TURN_H */

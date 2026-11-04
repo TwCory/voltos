@@ -8,4 +8,8 @@
 #ifndef _SERVICE_VNC_H
 #define _SERVICE_VNC_H
 
+struct vnc_service {
+
+};
+
 #endif /* _SERVICE_VNC_H */

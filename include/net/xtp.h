@@ -8,4 +8,8 @@
 #ifndef _NET_XTP_H
 #define _NET_XTP_H
 
+struct xtp_interface {
+
+};
+
 #endif /* _NET_XTP_H */

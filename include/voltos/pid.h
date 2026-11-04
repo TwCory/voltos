@@ -11,6 +11,8 @@
 
 #include <voltos/pid_types.h>
 
+#define VS_PID_T_INIT(i)
+
 struct pid {
 
 };

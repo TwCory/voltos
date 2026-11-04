@@ -8,8 +8,11 @@
 #ifndef _VOLTOS_MEMRANGE_H
 #define _VOLTOS_MEMRANGE_H
 
-struct memrange_ctx {
+#include <voltos/types.h>
 
+struct memrange_ctx {
+	phy_addr_t	start;
+	phy_addr_t	stop;
 };
 
 #endif /* _VOLTOS_MEMRANGE_H */

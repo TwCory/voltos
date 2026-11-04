@@ -12,7 +12,8 @@
 #include <nbapi/voltos/l2vpn.h>
 
 struct pseudowire_class {
-
+	const char 			name[PSEUDOWIRE_CLASS_NAME_SIZE];
+	refcount_t 			ref_count;
 };
 
 #endif /* _VOLTOS_L2VPN_H */

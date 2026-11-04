@@ -8,6 +8,11 @@
 #ifndef _VOLTOS_QUEUE_H
 #define _VOLTOS_QUEUE_H
 
+#include <voltos/queue/fifo.h>
+#include <voltos/queue/lifo.h>
+#include <voltos/queue/round_robin.h>
+#include <voltos/queue/types.h>
+
 typedef struct {
 
 } queue_t;

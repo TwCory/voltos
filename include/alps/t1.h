@@ -8,4 +8,6 @@
 #ifndef _ALPS_T1_H
 #define _ALPS_T1_H
 
+#include <voltos/alps.h>
+
 #endif /* _ALPS_T1_H */

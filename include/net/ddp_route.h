@@ -8,4 +8,8 @@
 #ifndef _NET_DDP_ROUTE_H
 #define _NET_DDP_ROUTE_H
 
+struct ddp_route {
+
+};
+
 #endif /* _NET_DDP_ROUTE_H */

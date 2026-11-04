@@ -8,6 +8,8 @@
 #ifndef _SERVICE_TELNET_H
 #define _SERVICE_TELNET_H
 
+struct telnet_service {
 
+};
 
 #endif /* _SERVICE_TELNET_H */

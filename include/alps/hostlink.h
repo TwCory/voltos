@@ -8,4 +8,6 @@
 #ifndef _ALPS_HOSTLINK_H
 #define _ALPS_HOSTLINK_H
 
+#include <voltos/alps.h>
+
 #endif /* _ALPS_HOSTLINK_H */

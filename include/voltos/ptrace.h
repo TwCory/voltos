@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/ptrace.h>
 
+struct syscall_ctx {
+
+};
+
 #endif /* _VOLTOS_PTRACE_H */

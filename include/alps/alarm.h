@@ -8,6 +8,8 @@
 #ifndef _ALPS_ALARM_H
 #define _ALPS_ALARM_H
 
+#include <voltos/alps.h>
+
 struct alps_alarm {
 
 };

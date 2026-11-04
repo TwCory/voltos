@@ -8,4 +8,8 @@
 #ifndef _NET_IPX_H
 #define _NET_IPX_H
 
+struct ipx_interface {
+
+};
+
 #endif /* _NET_IPX_H */

@@ -8,4 +8,6 @@
 #ifndef _ALPS_KEEPALIVE_H
 #define _ALPS_KEEPALIVE_H
 
+#include <voltos/alps.h>
+
 #endif /* _ALPS_KEEPALIVE_H */

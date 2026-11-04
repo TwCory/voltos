@@ -8,4 +8,12 @@
 #ifndef _ROUTER_SDRP_H
 #define _ROUTER_SDRP_H
 
+struct sdrp_interface {
+
+};
+
+struct sdrp_route {
+
+};
+
 #endif /* _ROUTER_SDRP_H */

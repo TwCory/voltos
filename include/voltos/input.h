@@ -10,4 +10,16 @@
 
 #include <nbapi/voltos/input.h>
 
+struct input_value {
+
+};
+
+struct input_device {
+
+};
+
+struct input_handler {
+
+};
+
 #endif /* _VOLTOS_INPUT_H */

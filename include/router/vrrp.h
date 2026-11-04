@@ -8,4 +8,8 @@
 #ifndef _ROUTER_VRRP_H
 #define _ROUTER_VRRP_H
 
+struct vrrp_interface {
+
+};
+
 #endif /* _ROUTER_VRRP_H */

@@ -9,7 +9,7 @@
 #ifndef _VOLTOS_SOCKOPT_H
 #define _VOLTOS_SOCKOPT_H
 
-typedef struct {
+typedef struct sockopt {
 
 } sockopt_t;
 

@@ -8,4 +8,12 @@
 #ifndef _ROUTER_NEMO_H
 #define _ROUTER_NEMO_H
 
+struct nemo_interface {
+
+};
+
+struct nemo_route {
+
+};
+
 #endif /* _ROUTER_NEMO_H */

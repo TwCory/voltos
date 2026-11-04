@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_IF_BDI_H
 #define _VOLTOS_IF_BDI_H
 
-struct bdi {
+#include <voltos/if.h>
 
+struct bdi {
+	struct interface *ifp;
 };
 
 #endif /* _VOLTOS_IF_BDI_H */

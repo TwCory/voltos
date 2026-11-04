@@ -8,4 +8,12 @@
 #ifndef _VOLTOS_STATIC_CALL_TYPES_H
 #define _VOLTOS_STATIC_CALL_TYPES_H
 
+struct static_call_site {
+
+};
+
+struct static_call_key {
+
+};
+
 #endif /* _VOLTOS_STATIC_CALL_TYPES_H */

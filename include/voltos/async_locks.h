@@ -8,8 +8,10 @@
 #ifndef _VOLTOS_ASYNC_LOCKS_H
 #define _VOLTOS_ASYNC_LOCKS_H
 
-typedef struct async_lock {
+#include <voltos/spinlock.h>
 
+typedef struct async_lock {
+	spinlock_t lock;
 } async_lock_t;
 
 #endif /* _VOLTOS_ASYNC_LOCKS_H */

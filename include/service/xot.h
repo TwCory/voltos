@@ -8,4 +8,8 @@
 #ifndef _SERVICE_XOT_H
 #define _SERVICE_XOT_H
 
+struct xot_service {
+
+};
+
 #endif /* _SERVICE_XOT_H */

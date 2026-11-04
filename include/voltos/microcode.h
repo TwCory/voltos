@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_MICROCODE_H
 #define _VOLTOS_MICROCODE_H
 
-#include <nbapi/voltos/microcode.h>
+//#include <nbapi/voltos/microcode.h>
 
 #endif /* _VOLTOS_MICROCODE_H */

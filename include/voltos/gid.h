@@ -11,6 +11,6 @@
 
 #include <voltos/gid_types.h>
 
-#define VS_GID_INIT(n)
+#define VS_GID_T_INIT(i)	{ (i) }
 
 #endif /* _VOLTOS_GID_H */

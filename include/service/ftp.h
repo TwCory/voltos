@@ -8,4 +8,8 @@
 #ifndef _SERVICE_FTP_H
 #define _SERVICE_FTP_H
 
+struct ftp_service {
+
+};
+
 #endif /* _SERVICE_FTP_H */
