@@ -11,6 +11,8 @@
 #include <voltos/if.h>
 #include <nbapi/voltos/if_tunnel.h>
 
+typedef __voltos_tunnel_key_t tunnel_key_t;
+
 struct tunnel_interface {
 	struct interface *ifp;
 };
