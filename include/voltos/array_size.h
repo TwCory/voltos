@@ -8,12 +8,14 @@
 #ifndef _VOLTOS_ARRAY_SIZE_H
 #define _VOLTOS_ARRAY_SIZE_H
 
+#include <voltos/compiler.h>
+
 #ifndef ARRAY_SIZE
-#define ARRAY_SIZE(array)
+#define ARRAY_SIZE(array)	(sizeof(array) / sizeof((array)[0]) + __must_be_array(array))
 #endif /* ARRAY_SIZE */
 
 #ifndef ARRAY_END
-#define ARRAY_END(array)
+#define ARRAY_END(array)	(&(array)[ARRAY_SIZE(array)])
 #endif /* ARRAY_END */
 
 #endif /* _VOLTOS_ARRAY_SIZE_H */
