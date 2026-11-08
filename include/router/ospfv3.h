@@ -16,7 +16,19 @@ struct ospfv3_interface {
 
 };
 
+struct ospfv3_ism {
+
+};
+
+struct ospfv3_lsdb {
+
+};
+
 struct ospfv3_neighbour {
+
+};
+
+struct ospfv3_nsm {
 
 };
 

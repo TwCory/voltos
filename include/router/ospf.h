@@ -20,6 +20,10 @@ struct ospf_ism {
 
 };
 
+struct ospf_lsdb {
+
+};
+
 struct ospf_neighbour {
 
 };
