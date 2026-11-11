@@ -1,4 +1,0 @@
-#ifndef _OPENVPN_SESSION_H
-#define _OPENVPN_SESSION_H
-
-#endif /* _OPENVPN_SESSION_H */
