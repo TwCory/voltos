@@ -3,6 +3,7 @@
 /*
  *	include/router/dual.h
  *
+ *	Diffusing Update Algorithm (DUAL)
  */
 
 #ifndef _ROUTER_DUAL_H

@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *	ipc/ipc.c
+ *	sys/ns_tree.c
  *
  */
-
-#include <voltos/ipc.h>

@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
- *	ipc/holdq.c
+ *	sys/resource.c
  *
  */
-
-#include <voltos/ipc.h>

@@ -24,4 +24,10 @@ struct rip_route {
 
 };
 
+extern void rip_request_send();
+extern void rip_request_recv();
+
+extern void rip_response_send();
+extern void rip_response_recv();
+
 #endif /* _ROUTER_RIP_H */

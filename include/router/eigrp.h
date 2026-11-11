@@ -24,4 +24,22 @@ struct eigrp_route {
 
 };
 
+extern void eigrp_hello_send();
+extern void eigrp_hello_recv();
+
+extern void eigrp_query_send();
+extern void eigrp_query_recv();
+
+extern void eigrp_reply_send();
+extern void eigrp_reply_recv();
+
+extern void eigrp_siaquery_send();
+extern void eigrp_siaquery_recv();
+
+extern void eigrp_siareply_send();
+extern void eigrp_siareply_recv();
+
+extern void eigrp_update_send();
+extern void eigrp_update_recv();
+
 #endif /* _ROUTER_EIGRP_H */
