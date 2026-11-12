@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*
+ *	include/net/ipx.h
+ *
+ *	Internetwork Packet Exchange (IPX)
+ */
+
+#ifndef _NET_IPX_H
+#define _NET_IPX_H
+
+#include <voltos/ipx.h>
+
+#endif /* _NET_IPX_H */
