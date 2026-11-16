@@ -8,47 +8,45 @@
 #ifndef _VOLTOS_TYPES_H
 #define _VOLTOS_TYPES_H
 
-#include <sys/types.h>
 #include <nbapi/voltos/types.h>
 
-typedef int8_t				i8;
-typedef uint8_t				u8;
+typedef __i8				i8;
+typedef __u8				u8;
 
-typedef int16_t				i16;
-typedef uint16_t			u16;
+typedef __i16				i16;
+typedef __u16				u16;
 
-typedef int32_t				i32;
-typedef uint32_t			u32;
+typedef __i32				i32;
+typedef __u32				u32;
 
-typedef int64_t				i64;
-typedef uint64_t			u64;
+typedef __i64				i64;
+typedef __u64				u64;
 
-typedef int128_t			i128;
-typedef uint128_t			u128;
+typedef __i128				i128;
+typedef __u128				u128;
 
-typedef float				f16;
-typedef float				f32;
-typedef double				f64;
+typedef __f16				f16;
+typedef __f32				f32;
+typedef __f64				f64;
+typedef __f128				f128;
 
-#define FLOAT128_SIZE32			4
-#define FLOAT128_SIZE64			2
+#ifndef __SIZE_T
+#define __SIZE_T
+typedef __voltos_size_t			size_t;
+#endif /* __SIZE_T */
 
-typedef union {
-	float				s_float32[FLOAT128_SIZE32];
-	double				s_float64[FLOAT128_SIZE64];
-} __attribute__ ((packed)) f128;
+#ifndef __SSIZE_T
+#define __SSIZE_T
+typedef __voltos_ssize_t		ssize_t;
+#endif /* __SIZE_T */
 
-typedef ssize_t				isize;
-typedef size_t				usize;
+#ifndef __PTRDIFF_T
+#define __PTRDIFF_T
+typedef __voltos_ptrdiff_t		ptrdiff_t;
+#endif /* __PTRDIFF_T */
 
-typedef ssize_t				iword;
-typedef size_t				uword;
-
-typedef intmax_t			imax;
-typedef uintmax_t			umax;
-
-typedef intptr_t			iptr;
-typedef uintptr_t			uptr;
+typedef signed long			intptr_t;
+typedef unsigned long			uintptr_t;
 
 typedef unsigned char			nibble_t;
 typedef uint8_t				byte_t;
@@ -61,7 +59,7 @@ typedef size_t				resource_size_t;
 
 typedef struct {
 	phy_addr_t 			address;
-	usize				length;
+	size_t				length;
 } phy_vec_t;
 
 #define aligned_i64			__aligned_i64

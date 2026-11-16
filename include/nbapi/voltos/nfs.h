@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_NFS_H
 #define _NBAPI_VOLTOS_NFS_H
 
+#define NFS_PORT	2049
+
 #endif /* _NBAPI_VOLTOS_NFS_H */

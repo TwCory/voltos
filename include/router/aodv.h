@@ -20,7 +20,8 @@ struct aodv_route {
 };
 
 struct aodv_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void aodv_interface_init(void);

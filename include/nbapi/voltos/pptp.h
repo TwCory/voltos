@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_PPTP_H
 #define _NBAPI_VOLTOS_PPTP_H
 
+#define PPTP_PORT	1723
+
 struct pptp_hdr {
 
 };

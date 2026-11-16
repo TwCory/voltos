@@ -20,7 +20,8 @@ struct omp_route {
 };
 
 struct omp_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void omp_interface_init(void);

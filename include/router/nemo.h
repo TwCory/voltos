@@ -20,7 +20,8 @@ struct nemo_route {
 };
 
 struct nemo_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void nemo_router_init(void);

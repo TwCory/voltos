@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_SCTP_H
 #define _NBAPI_VOLTOS_SCTP_H
 
+#define SCTP_TUNNEL_PORT	9899
+
 #endif /* _NBAPI_VOLTOS_SCTP_H */

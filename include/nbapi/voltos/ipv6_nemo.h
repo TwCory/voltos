@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipv6_nemo.h
  *
+ *	IPv6 Network Mobility (NEMO)
  */
 
 #ifndef _NBAPI_VOLTOS_IPV6_NEMO_H

@@ -12,20 +12,23 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define ATALK_ETHERTYPE			0x809B
+#define ATALK_AARP_ETHERTYPE		0x80F3
+
 struct at_addr {
 	__net16 			s_net;
-	uint8_t 			s_node;
+	__u8 				s_node;
 };
 
 struct sockaddr_at {
 	__voltos_sa_family_t 		sat_family;
-	uint8_t 			sat_port;
+	__u8 				sat_port;
 	struct at_addr 			sat_addr;
 	unsigned char 			sat_zero;
 };
 
 struct at_netrange {
-	uint8_t 			nr_phase;
+	__u8 				nr_phase;
 	__net16 			nr_firstnet;
 	__net16 			nr_lastnet;
 };

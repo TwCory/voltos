@@ -3,11 +3,13 @@
 /*
  *	include/nbapi/voltos/xtp.h
  *
- * 	Express Transport Protocol (XTP)
+ * 	Xpress Transport Protocol (XTP)
  */
 
 #ifndef _NBAPI_VOLTOS_XTP_H
 #define _NBAPI_VOLTOS_XTP_H
+
+#define XTP_ETHERTYPE	0x817D
 
 struct xtp_hdr {
 

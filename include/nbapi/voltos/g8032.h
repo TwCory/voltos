@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/g8032.h
  *
+ *	G.8032
  */
 
 #ifndef _NBAPI_VOLTOS_G8032_H

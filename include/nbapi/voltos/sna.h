@@ -12,12 +12,14 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define SNA_ETHERTYPE			0x80D5
+
 #define SNA_NODE_SIZE			8
 #define SNA_LINK_SIZE			8
 
 struct sockaddr_sna {
 	__voltos_sa_family_t 		ssna_family;
-	uint8_t 			ssna_len;
+	__u8				ssna_len;
 
 	unsigned char 			ssna_node[SNA_NODE_SIZE];
 	unsigned char 			ssna_link[SNA_LINK_SIZE];

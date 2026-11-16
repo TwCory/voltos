@@ -9,5 +9,6 @@
 #ifndef _NBAPI_VOLTOS_IPP_H
 #define _NBAPI_VOLTOS_IPP_H
 
+#define IPP_PORT			631
 
 #endif /* _NBAPI_VOLTOS_IPP_H */

@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_COAP_H
 #define _NBAPI_VOLTOS_COAP_H
 
+#define COAP_PORT	5083
+
 #endif /* _NBAPI_VOLTOS_COAP_H */

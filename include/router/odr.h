@@ -20,7 +20,8 @@ struct odr_route {
 };
 
 struct odr_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void odr_interface_init(void);

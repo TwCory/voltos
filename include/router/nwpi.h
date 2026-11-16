@@ -3,6 +3,7 @@
 /*
  *	include/router/nwpi.h
  *
+ *	Network-Wide Path Insights (NWPI)
  */
 
 #ifndef _ROUTER_NWPI_H

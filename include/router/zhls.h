@@ -20,7 +20,8 @@ struct zhls_route {
 };
 
 struct zhls_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void zhls_interface_init(void);

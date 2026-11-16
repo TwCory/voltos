@@ -8,4 +8,6 @@
 #ifndef _NBAPI_VOLTOS_IF_TR_H
 #define _NBAPI_VOLTOS_IF_TR_H
 
+#define TR_ADDR_LEN	6
+
 #endif /* _NBAPI_VOLTOS_IF_TR_H */

@@ -12,6 +12,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define XNS_COMPAT_ETHERTYPE		0x0807
+
 struct xns_addr {
 
 };

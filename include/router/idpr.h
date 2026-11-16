@@ -20,7 +20,8 @@ struct idpr_route {
 };
 
 struct idpr_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void idpr_interface_init(void);

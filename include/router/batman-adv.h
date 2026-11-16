@@ -20,7 +20,8 @@ struct batadv_route {
 };
 
 struct batadv_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void batadv_interface_init(void);

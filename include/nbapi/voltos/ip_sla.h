@@ -9,4 +9,7 @@
 #ifndef _NBAPI_VOLTOS_IP_SLA_H
 #define _NBAPI_VOLTOS_IP_SLA_H
 
+#define IP_SLA_PORT				1167
+#define IP_SLA_CONTROL_PORT			1967
+
 #endif /* _NBAPI_VOLTOS_IP_SLA_H */

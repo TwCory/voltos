@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_SNTP_H
 #define _NBAPI_VOLTOS_SNTP_H
 
+#define SNTP_PORT				123
+
 #endif /* _NBAPI_VOLTOS_SNTP_H */

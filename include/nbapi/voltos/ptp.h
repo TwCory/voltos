@@ -9,6 +9,11 @@
 #ifndef _NBAPI_VOLTOS_PTP_H
 #define _NBAPI_VOLTOS_PTP_H
 
+#define PTP_ETHERTYPE		0x88F7
+
+#define PTP_EVENT_PORT		319
+#define PTP_GENERAL_PORT	320
+
 struct ptp_hdr {
 
 };

@@ -31,7 +31,7 @@ struct ospf_nsm {
 };
 
 struct ospf_router {
-
+	bool 				enabled;
 };
 
 extern void ospf_interface_init(void);

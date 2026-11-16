@@ -23,7 +23,7 @@ struct isis_interface {
 };
 
 struct isis_router {
-
+	bool 				enabled;
 };
 
 extern void isis_interface_init(void);

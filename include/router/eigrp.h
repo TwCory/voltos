@@ -9,17 +9,24 @@
 #ifndef _ROUTER_EIGRP_H
 #define _ROUTER_EIGRP_H
 
+typedef u16					eigrp_asn_t;
+
 struct eigrp_interface {
-	struct eigrp_router		*eigrp;
-	struct interface 		*interface;
+	struct eigrp_router			*eigrp;
+	struct interface 			*interface;
 };
 
 struct eigrp_neighbour {
-	struct eigrp_router		*eigrp;
+	struct eigrp_router			*eigrp;
 };
 
 struct eigrp_router {
+	eigrp_asn_t				asn;
+	const char				name[EIGRP_INSTANCE_NAME_SIZE];
+	bool 					enabled;
 
+	distance_t				distance_internal;
+	distance_t				distance_external;
 };
 
 extern void eigrp_interface_init(void);

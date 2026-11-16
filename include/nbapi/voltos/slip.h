@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/slip.h
  *
+ *	Serial Line Internet Protocol (SLIP)
  */
 
 #ifndef _NBAPI_VOLTOS_SLIP_H

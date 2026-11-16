@@ -20,7 +20,8 @@ struct sdrp_route {
 };
 
 struct sdrp_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void sdrp_interface_init(void);

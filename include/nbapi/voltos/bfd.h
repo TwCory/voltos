@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_BFD_H
 #define _NBAPI_VOLTOS_BFD_H
 
+#define BFD_SINGLE_HOP_PORT	3784
+
 #endif /* _NBAPI_VOLTOS_BFD_H */

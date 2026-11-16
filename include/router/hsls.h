@@ -20,7 +20,8 @@ struct hsls_route {
 };
 
 struct hsls_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void hsls_interface_init(void);

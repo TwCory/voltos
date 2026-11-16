@@ -21,7 +21,8 @@ struct mobile_route {
 };
 
 struct mobile_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void mobile_interface_init(void);

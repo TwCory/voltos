@@ -8,4 +8,12 @@
 #ifndef _NBAPI_VOLTOS_INET_DIAG_H
 #define _NBAPI_VOLTOS_INET_DIAG_H
 
+struct inet_diag_req {
+
+};
+
+struct inet_diag_req_v2 {
+
+};
+
 #endif /* _NBAPI_VOLTOS_INET_DIAG_H */

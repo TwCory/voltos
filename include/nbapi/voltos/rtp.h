@@ -8,4 +8,8 @@
 #ifndef _NBAPI_VOLTOS_RTP_H
 #define _NBAPI_VOLTOS_RTP_H
 
+struct rtp_hdr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_RTP_H */

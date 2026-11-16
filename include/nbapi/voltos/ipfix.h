@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_IPFIX_H
 #define _NBAPI_VOLTOS_IPFIX_H
 
+#define IPFIX_PORT	4739
+
 #endif /* _NBAPI_VOLTOS_IPFIX_H */

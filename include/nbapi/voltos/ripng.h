@@ -12,7 +12,12 @@
 #include <voltos/in6.h>
 #include <voltos/types.h>
 
+#define RIPNG_INFINITY			16
 #define RIPNG_PORT			521
+#define RIPNG_VERSION			1
+
+#define RIPNG_METRIC_MIN		1
+#define RIPNG_METRIC_MAX		15
 
 enum {
 	RIPNG_COMMAND_T_UNSPEC		= 0,
@@ -38,14 +43,14 @@ enum {
 
 struct ripng_rte {
 	struct in6_addr			prefix;
-	uint16_t 			tag;
-	uint8_t				prefix_length;
-	uint8_t				metric;
+	__u16 				tag;
+	__u8				prefix_length;
+	__u8				metric;
 };
 
-struct ripng_pkt {
-	uint8_t				command;
-	uint8_t				version;
+struct ripng_msg {
+	__u8				command;
+	__u8				version;
 	unsigned short			pad0;
 	struct ripng_rte		rte[1];
 };

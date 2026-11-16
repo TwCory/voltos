@@ -3,6 +3,7 @@
 /*
  *	include/router/vrrs.h
  *
+ *	Virtual Router Redundancy Services (VRRS)
  */
 
 #ifndef _ROUTER_VRRS_H

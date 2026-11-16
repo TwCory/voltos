@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_RARP_H
 #define _NBAPI_VOLTOS_RARP_H
 
+#define RARP_ETHERTYPE		0x8035
+
 #endif /* _NBAPI_VOLTOS_RARP_H */

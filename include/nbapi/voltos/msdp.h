@@ -9,6 +9,6 @@
 #ifndef _NBAPI_VOLTOS_MSDP_H
 #define _NBAPI_VOLTOS_MSDP_H
 
-#define MSDP_PORT
+#define MSDP_PORT		639
 
 #endif /* _NBAPI_VOLTOS_MSDP_H */

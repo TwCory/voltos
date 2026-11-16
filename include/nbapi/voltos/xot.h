@@ -9,8 +9,12 @@
 #ifndef _NBAPI_VOLTOS_XOT_H
 #define _NBAPI_VOLTOS_XOT_H
 
-struct xot_hdr {
+#define XOT_PORT		1998
+#define XOT_VERSION		0
 
+struct xot_hdr {
+	__net16 		version;
+	__net16 		length;
 };
 
 #endif /* _NBAPI_VOLTOS_XOT_H */

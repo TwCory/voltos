@@ -8,4 +8,13 @@
 #ifndef _NBAPI_VOLTOS_IF_FC_H
 #define _NBAPI_VOLTOS_IF_FC_H
 
+#define FC_ADDR_LEN		6
+#define FC_HDR_LEN
+#define FC_ID_LEN		3
+
+struct fc_hdr_meta {
+	unsigned char		dst_addr[FC_ADDR_LEN];
+	unsigned char		src_addr[FC_ADDR_LEN];
+};
+
 #endif /* _NBAPI_VOLTOS_IF_FC_H */

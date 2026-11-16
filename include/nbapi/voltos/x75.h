@@ -8,4 +8,6 @@
 #ifndef _NBAPI_VOLTOS_X75_H
 #define _NBAPI_VOLTOS_X75_H
 
+#define X75_ETHERTYPE		0x0801
+
 #endif /* _NBAPI_VOLTOS_X75_H */

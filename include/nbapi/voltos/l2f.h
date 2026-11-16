@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_L2F_H
 #define _NBAPI_VOLTOS_L2F_H
 
+#define L2F_PORT	1701
+
 struct l2f_hdr {
 
 };

@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_CMP_H
 #define _NBAPI_VOLTOS_CMP_H
 
+#define CMP_PORT	829
+
 #endif /* _NBAPI_VOLTOS_CMP_H */

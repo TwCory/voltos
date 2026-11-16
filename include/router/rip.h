@@ -9,8 +9,6 @@
 #ifndef _ROUTER_RIP_H
 #define _ROUTER_RIP_H
 
-struct rip_router;
-
 struct rip_interface {
 	struct rip_router 		*rip;
 	struct interface 		*interface;
@@ -30,7 +28,8 @@ struct rip_route {
 };
 
 struct rip_router {
-
+	bool				enabled;
+	distance_t			distance;
 };
 
 extern void rip_interface_init(void);

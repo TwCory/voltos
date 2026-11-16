@@ -3,6 +3,7 @@
 /*
  *	include/router/route_direct.h
  *
+ *	Directly-Connected Routes
  */
 
 #ifndef _ROUTER_ROUTE_DIRECT_H
@@ -11,11 +12,11 @@
 #include <voltos/route.h>
 
 struct connected_route {
-	struct route *rtp;
+	struct route *route;
 };
 
 struct local_route {
-	struct route *rtp;
+	struct route *route;
 };
 
 #endif /* _ROUTER_ROUTE_DIRECT_H */

@@ -9,5 +9,6 @@
 #ifndef _NBAPI_VOLTOS_ISIS_H
 #define _NBAPI_VOLTOS_ISIS_H
 
+#define ISIS_ETHERTYPE		0x22F4
 
 #endif /* _NBAPI_VOLTOS_ISIS_H */

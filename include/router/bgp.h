@@ -32,7 +32,12 @@ struct bgp_route {
 };
 
 struct bgp_router {
+	bgp_asn_t			asn;
+	const char			name[BGP_INSTANCE_NAME_SIZE];
+	bool				enabled;
 
+	distance_t			distance_external;
+	distance_t			distance_internal;
 };
 
 struct bgp_update_group {

@@ -25,7 +25,8 @@ struct igrp_route {
 };
 
 struct igrp_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void igrp_interface_init(void);

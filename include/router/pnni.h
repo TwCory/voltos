@@ -20,7 +20,8 @@ struct pnni_route {
 };
 
 struct pnni_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void pnni_interface_init(void);

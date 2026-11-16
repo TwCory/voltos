@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_SSDP_H
 #define _NBAPI_VOLTOS_SSDP_H
 
+#define SSDP_PORT	1900
+
 struct ssdp_hdr {
 
 };

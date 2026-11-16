@@ -20,7 +20,8 @@ struct lisp_route {
 };
 
 struct lisp_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void lisp_interface_init(void);

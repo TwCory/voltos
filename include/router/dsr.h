@@ -20,7 +20,8 @@ struct dsr_route {
 };
 
 struct dsr_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void dsr_interface_init(void);

@@ -20,7 +20,8 @@ struct rpl_route {
 };
 
 struct rpl_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void rpl_interface_init(void);

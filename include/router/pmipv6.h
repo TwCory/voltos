@@ -20,7 +20,8 @@ struct pmipv6_route {
 };
 
 struct pmipv6_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void pmipv6_interface_init(void);

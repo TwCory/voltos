@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_RTMP_H
 #define _NBAPI_VOLTOS_RTMP_H
 
+#define RTMP_PORT	201
+
 #endif /* _NBAPI_VOLTOS_RTMP_H */

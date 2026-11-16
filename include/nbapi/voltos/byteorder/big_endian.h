@@ -8,8 +8,6 @@
 #ifndef _NBAPI_VOLTOS_BYTEORDER_BIG_ENDIAN_H
 #define _NBAPI_VOLTOS_BYTEORDER_BIG_ENDIAN_H
 
-#include <linux/byteorder/big_endian.h>
-
 #ifndef __BIG_ENDIAN_BYTE_ORDER__
 #define __BIG_ENDIAN_BYTE_ORDER__
 #endif /* __BIG_ENDIAN_BYTE_ORDER__ */

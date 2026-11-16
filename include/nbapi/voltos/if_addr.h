@@ -8,4 +8,8 @@
 #ifndef _NBAPI_VOLTOS_IF_ADDR_H
 #define _NBAPI_VOLTOS_IF_ADDR_H
 
+struct ifaddr {
+
+};
+
 #endif /* _NBAPI_VOLTOS_IF_ADDR_H */

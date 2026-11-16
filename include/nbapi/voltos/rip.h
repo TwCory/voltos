@@ -12,7 +12,14 @@
 #include <voltos/in.h>
 #include <voltos/types.h>
 
+#define RIP_INFINITY				16
 #define RIP_PORT				520
+
+#define RIP_V1					1
+#define RIP_V2					2
+
+#define RIP_METRIC_MIN				1
+#define RIP_METRIC_MAX				15
 
 enum {
 	RIP_COMMAND_T_INVALID			= 0,
@@ -81,17 +88,17 @@ enum {
 #define RIP_AUTH_TYPE_MAX			(__RIP_AUTH_TYPE_T_MAX__ - 1)
 
 struct rip_rte {
-	uint16_t 				family;
-	uint16_t 				tag;
+	__u16 					family;
+	__u16 					tag;
 	struct in_addr 				prefix;
 	struct in_addr 				mask;
 	struct in_addr				nexthop;
-	uint32_t				metric;
+	__u32					metric;
 };
 
-struct rip_pkt {
-	uint8_t					command;
-	uint8_t					version;
+struct rip_msg {
+	__u8					command;
+	__u8					version;
 	unsigned char				pad0;
 	unsigned char				pad1;
 	struct rip_rte				rte[1];

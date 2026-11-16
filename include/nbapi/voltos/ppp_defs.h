@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_PPP_DEFS_H
 #define _NBAPI_VOLTOS_PPP_DEFS_H
 
+#define PPP_ETHERTYPE	0x880B
+
 #endif /* _NBAPI_VOLTOS_PPP_DEFS_H */

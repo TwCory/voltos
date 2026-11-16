@@ -12,6 +12,9 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define MPLS_ETHERTYPE			0x8847
+#define MPLS_UA_ETHERTYPE		0x8848
+
 struct mpls_shim_hdr {
 
 };

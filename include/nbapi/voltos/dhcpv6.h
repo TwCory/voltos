@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_DHCPV6_H
 #define _NBAPI_VOLTOS_DHCPV6_H
 
-struct dhcpv6_pkt {
+struct dhcpv6_msg {
 
 };
 

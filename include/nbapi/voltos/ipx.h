@@ -19,7 +19,7 @@ struct sockaddr_ipx {
 	__net16 			sipx_port;
 	__net32 			sipx_network;
 	unsigned char 			sipx_node[IPX_NODE_SIZE];
-	uint8_t 			sipx_type;
+	__u8 				sipx_type;
 	unsigned char 			sipx_zero;
 };
 

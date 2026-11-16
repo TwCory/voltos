@@ -3,6 +3,7 @@
 /*
  *	include/router/route_static.h
  *
+ *	Static Routes
  */
 
 #ifndef _ROUTER_ROUTE_STATIC_H
@@ -15,7 +16,7 @@ struct periodic_download_static_route {
 };
 
 struct static_route {
-	struct route *rtp;
+	struct route *route;
 };
 
 struct user_static_route {

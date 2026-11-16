@@ -11,8 +11,8 @@
 
 #include <voltos/types.h>
 
-typedef uint16_t 			__comp1_t;
-typedef uint32_t 			__comp2_t;
+typedef __u16 				__comp1_t;
+typedef __u32 				__comp2_t;
 
 #define ACCT_CMD			16
 #define ACCT_VERSION			2

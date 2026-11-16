@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_L2TP_H
 #define _NBAPI_VOLTOS_L2TP_H
 
+#define L2TP_PORT	1701
+
 struct l2tp_v2_hdr {
 
 };

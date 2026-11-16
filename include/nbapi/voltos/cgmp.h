@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cgmp.h
  *
+ *	Cisco Group Management Protocol (CGMP)
  */
 
 #ifndef _NBAPI_VOLTOS_CGMP_H

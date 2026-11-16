@@ -10,7 +10,9 @@
 #define _NBAPI_VOLTOS_ICMP_H
 
 struct icmp_hdr {
-
+	__u8 type;
+	__u8 code;
+	__csum16 checksum;
 };
 
 #endif /* _NBAPI_VOLTOS_ICMP_H */

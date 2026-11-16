@@ -8,6 +8,8 @@
 #ifndef _NBAPI_VOLTOS_SYSLOG_H
 #define _NBAPI_VOLTOS_SYSLOG_H
 
-#include <syslog.h>
+#define SYSLOG_PORT				514
+#define SYSLOG_RELIABLE_PORT			601
+#define SYSLOG_TLS_PORT				6514
 
 #endif /* _NBAPI_VOLTOS_SYSLOG_H */

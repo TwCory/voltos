@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_OLSR_H
 #define _NBAPI_VOLTOS_OLSR_H
 
+#define OLSR_PORT	698
+
 #endif /* _NBAPI_VOLTOS_OLSR_H */

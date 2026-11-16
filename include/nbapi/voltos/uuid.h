@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/uuid.h
  *
- * 	Universally Unique ID (UUID)
+ * 	Universally Unique Identifier (UUID)
  */
 
 #ifndef _NBAPI_VOLTOS_UUID_H

@@ -27,7 +27,8 @@ struct babel_route {
 };
 
 struct babel_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 struct babel_source {

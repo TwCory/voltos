@@ -8,8 +8,6 @@
 #ifndef _NBAPI_VOLTOS_BYTEORDER_LITTLE_ENDIAN_H
 #define _NBAPI_VOLTOS_BYTEORDER_LITTLE_ENDIAN_H
 
-#include <linux/byteorder/little_endian.h>
-
 #ifndef __LITTLE_ENDIAN_BYTE_ORDER__
 #define __LITTLE_ENDIAN_BYTE_ORDER__
 #endif /* __LITTLE_ENDIAN_BYTE_ORDER__ */

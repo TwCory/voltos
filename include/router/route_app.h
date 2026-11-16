@@ -3,6 +3,7 @@
 /*
  *	include/router/route_app.h
  *
+ *	Application Routes
  */
 
 #ifndef _ROUTER_ROUTE_APP_H
@@ -11,7 +12,7 @@
 #include <voltos/route.h>
 
 struct application_route {
-	struct route *rtp;
+	struct route *route;
 };
 
 #endif /* _ROUTER_ROUTE_APP_H */

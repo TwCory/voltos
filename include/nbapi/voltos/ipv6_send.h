@@ -8,4 +8,6 @@
 #ifndef _NBAPI_VOLTOS_IPV6_SEND_H
 #define _NBAPI_VOLTOS_IPV6_SEND_H
 
+#define SEND_PORT	169
+
 #endif /* _NBAPI_VOLTOS_IPV6_SEND_H */

@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_SCCP_H
 #define _NBAPI_VOLTOS_SCCP_H
 
+#define SCCP_PORT	2000
+
 #endif /* _NBAPI_VOLTOS_SCCP_H */

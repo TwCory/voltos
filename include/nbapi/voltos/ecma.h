@@ -11,6 +11,8 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
+#define ECMA_ETHERTYPE			0x0803
+
 struct sockaddr_ecma {
 	__voltos_sa_family_t 		secma_family;
 };

@@ -9,5 +9,6 @@
 #ifndef _NBAPI_VOLTOS_EPP_H
 #define _NBAPI_VOLTOS_EPP_H
 
+#define EPP_PORT	700
 
 #endif /* _NBAPI_VOLTOS_EPP_H */

@@ -8,4 +8,6 @@
 #ifndef _NBAPI_VOLTOS_MADCAP_H
 #define _NBAPI_VOLTOS_MADCAP_H
 
+#define MADCAP_PORT	2535
+
 #endif /* _NBAPI_VOLTOS_MADCAP_H */

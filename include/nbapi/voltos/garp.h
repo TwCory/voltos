@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/garp.h
  *
+ *	Gratuitous Address Resolution Protocol (GARP)
  */
 
 #ifndef _NBAPI_VOLTOS_GARP_H

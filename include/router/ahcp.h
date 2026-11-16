@@ -15,11 +15,11 @@ struct ahcp_client {
 };
 
 struct ahcp_interface {
-	struct interface 		*interface;
+	struct interface 			*interface;
 };
 
 struct ahcp_pool {
-	const char 			name[AHCP_POOL_NAME_SIZE];
+	const char 				name[AHCP_POOL_NAME_SIZE];
 };
 
 struct ahcp_relay_agent {
@@ -27,7 +27,7 @@ struct ahcp_relay_agent {
 };
 
 struct ahcp_route {
-	struct route 			*route;
+	struct route 				*route;
 };
 
 struct ahcp_server {

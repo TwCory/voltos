@@ -15,9 +15,9 @@
 
 struct sockaddr_ash {
 	__voltos_sa_family_t 		sash_family;
-	int32_t 			sash_ifindex;
-	uint8_t 			sash_channel;
-	uint32_t 			sash_plen;
+	int 				sash_ifindex;
+	__u8 				sash_channel;
+	__u32 				sash_plen;
 	unsigned char 			sash_prefix[ASH_PREFIX_SIZE];
 };
 

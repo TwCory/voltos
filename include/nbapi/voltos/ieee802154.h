@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ieee802154.h
  *
- * 	IEEE 802.15.4 Socket Family
+ * 	IEEE 802.15.4 Socket Family (AF_IEEE802154)
  */
 
 #ifndef _NBAPI_VOLTOS_IEEE802154_H

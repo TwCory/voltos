@@ -28,9 +28,6 @@ struct dhcp_relay_agent {
 struct dhcp_route {
 	struct route 			*route;
 
-	struct in_addr 			address;
-	struct in_addr 			netmask;
-	struct in_addr 			nexthop;
 };
 
 struct dhcp_server {

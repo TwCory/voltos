@@ -8,67 +8,72 @@
 #ifndef _NBAPI_VOLTOS_TYPES_H
 #define _NBAPI_VOLTOS_TYPES_H
 
-#include <inttypes.h>
-#include <stdbool.h>
-#include <stdint.h>
 #include <voltos/posix_types.h>
 
-#ifdef __SIZEOF_INT128__
-typedef signed 		__int128 		int128_t;
-typedef unsigned 	__int128 		uint128_t;
+typedef signed char			__i8;
+typedef unsigned char			__u8;
+
+typedef signed short			__i16;
+typedef unsigned short			__u16;
+
+typedef signed int			__i32;
+typedef unsigned int			__u32;
+
+typedef signed long long		__i64;
+typedef unsigned long long		__u64;
+
+#ifdef HAVE_INT128_TYPE
+typedef signed __int128			__i128;
+typedef unsigned __int128		__u128;
 #else
-#define INT128_SIZE8				16
-#define INT128_SIZE16				8
-#define INT128_SIZE32				4
-#define INT128_SIZE64				2
+#define INT128_SIZE			(16)
+typedef struct {
+	signed char 			s_bytes[INT128_SIZE];
+} __attribute__ ((packed)) __i128;
+typedef struct {
+	unsigned char 			s_bytes[INT128_SIZE];
+} __attribute__ ((packed)) __u128;
+#endif /* HAVE_INT128_TYPE */
+
+typedef float				__f16;
+typedef float				__f32;
+typedef double				__f64;
+
+#define FLOAT128_SIZE32			(4)
+#define FLOAT128_SIZE64			(2)
 typedef union {
-	int8_t					s_int8[INT128_SIZE8];
-	int16_t					s_int16[INT128_SIZE16];
-	int32_t 				s_int32[INT128_SIZE32];
-	int64_t 				s_int64[INT128_SIZE64];
-} __attribute__ ((packed)) int128_t;
-typedef union {
-	uint8_t 				s_int8[INT128_SIZE8];
-	uint16_t 				s_int16[INT128_SIZE16];
-	uint32_t 				s_int32[INT128_SIZE32];
-	uint64_t 				s_int64[INT128_SIZE64];
-} __attribute__ ((packed)) uint128_t;
-#endif /* __SIZEOF_INT128__ */
+	float				s_float32[FLOAT128_SIZE32];
+	double				s_float64[FLOAT128_SIZE64];
+} __attribute__ ((packed)) __f128;
 
-#ifdef __CHECKER__
-#define __voltos_bitwise			__attribute__ ((bitwise))
-#else
-#define __voltos_bitwise
-#endif /* __CHECKER__ */
+typedef __u16				__be16;
+typedef __u32				__be32;
+typedef __u64				__be64;
+typedef __u128				__be128;
 
-typedef uint16_t 	__voltos_bitwise 	__be16;
-typedef uint32_t 	__voltos_bitwise 	__be32;
-typedef uint64_t 	__voltos_bitwise 	__be64;
-typedef uint128_t 	__voltos_bitwise 	__be128;
+typedef __u16				__le16;
+typedef __u32				__le32;
+typedef __u64				__le64;
+typedef __u128				__le128;
 
-typedef uint16_t 	__voltos_bitwise 	__le16;
-typedef uint32_t 	__voltos_bitwise 	__le32;
-typedef uint64_t 	__voltos_bitwise 	__le64;
-typedef uint128_t 	__voltos_bitwise 	__le128;
+typedef __u16				__net16;
+typedef __u32				__net32;
+typedef __u64				__net64;
+typedef __u128				__net128;
 
-typedef uint16_t 	__voltos_bitwise 	__net16;
-typedef uint32_t 	__voltos_bitwise 	__net32;
-typedef uint64_t 	__voltos_bitwise 	__net64;
-typedef uint128_t 	__voltos_bitwise 	__net128;
+typedef __u16				__host16;
+typedef __u32				__host32;
+typedef __u64				__host64;
+typedef __u128				__host128;
 
-typedef uint16_t 	__voltos_bitwise 	__host16;
-typedef uint32_t 	__voltos_bitwise 	__host32;
-typedef uint64_t 	__voltos_bitwise 	__host64;
-typedef uint128_t 	__voltos_bitwise 	__host128;
+typedef __u16				__csum16;
+typedef __u32				__csum32;
 
-typedef uint16_t 	__voltos_bitwise 	__csum16;
-typedef uint32_t 	__voltos_bitwise 	__csum32;
-
-#define __aligned_i64				int64_t		__attribute__ ((aligned(8)))
-#define __aligned_u64				uint64_t	__attribute__ ((aligned(8)))
-#define __aligned_be64				__be64		__attribute__ ((aligned(8)))
-#define __aligned_le64				__le64		__attribute__ ((aligned(8)))
-#define __aligned_net64				__net64		__attribute__ ((aligned(8)))
-#define __aligned_host64			__host64	__attribute__ ((aligned(8)))
+#define __aligned_i64			__i64		__attribute__ ((aligned(8)))
+#define __aligned_u64			__u64		__attribute__ ((aligned(8)))
+#define __aligned_be64			__be64		__attribute__ ((aligned(8)))
+#define __aligned_le64			__le64		__attribute__ ((aligned(8)))
+#define __aligned_net64			__net64		__attribute__ ((aligned(8)))
+#define __aligned_host64		__host64	__attribute__ ((aligned(8)))
 
 #endif /* _NBAPI_VOLTOS_TYPES_H */

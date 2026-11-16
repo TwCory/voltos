@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_BGMP_H
 #define _NBAPI_VOLTOS_BGMP_H
 
+#define BGMP_PORT	264
+
 #endif /* _NBAPI_VOLTOS_BGMP_H */

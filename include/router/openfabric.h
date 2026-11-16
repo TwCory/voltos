@@ -15,7 +15,7 @@ struct openfabric_interface {
 };
 
 struct openfabric_router {
-
+	bool 				enabled;
 };
 
 extern void openfabric_interface_init(void);

@@ -23,7 +23,7 @@ struct ospf6_neighbour {
 };
 
 struct ospf6_router {
-
+	bool 				enabled;
 };
 
 extern void ospf6_interface_init(void);

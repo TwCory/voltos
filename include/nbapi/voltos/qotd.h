@@ -9,6 +9,6 @@
 #ifndef _NBAPI_VOLTOS_QOTD_H
 #define _NBAPI_VOLTOS_QOTD_H
 
-#define QOTD_PORT
+#define QOTD_PORT	17
 
 #endif /* _NBAPI_VOLTOS_QOTD_H */

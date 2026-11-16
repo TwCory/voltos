@@ -8,12 +8,19 @@
 #ifndef _NBAPI_VOLTOS_EVENTPOLL_H
 #define _NBAPI_VOLTOS_EVENTPOLL_H
 
-struct __voltos_epoll_event {
+#define EPOLL_PACKED
 
-};
+struct epoll_event {
+	__poll_t 		events;
+	__u64 			data;
+} EPOLL_PACKED;
 
-struct __voltos_epoll_params {
+struct epoll_params {
+	__u32 			busy_poll_usecs;
+	__u16 			busy_poll_budget;
+	__u8 			prefer_busy_poll;
 
+	__u8 			__pad;
 };
 
 #endif /* _NBAPI_VOLTOS_EVENTPOLL_H */

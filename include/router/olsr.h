@@ -20,7 +20,8 @@ struct olsr_route {
 };
 
 struct olsr_router {
-
+	bool 				enabled;
+	distance_t			distance;
 };
 
 extern void olsr_interface_init(void);

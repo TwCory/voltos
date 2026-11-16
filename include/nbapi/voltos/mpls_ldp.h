@@ -9,4 +9,6 @@
 #ifndef _NBAPI_VOLTOS_MPLS_LDP_H
 #define _NBAPI_VOLTOS_MPLS_LDP_H
 
+#define LDP_PORT		646
+
 #endif /* _NBAPI_VOLTOS_MPLS_LDP_H */
