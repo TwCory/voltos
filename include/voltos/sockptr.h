@@ -13,7 +13,7 @@
 typedef struct {
 	union {
 		void 	*system;
-		void 	*user;
+		void 	__user *user;
 	};
 	bool 		is_system:1;
 } sockptr_t;

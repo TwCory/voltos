@@ -9,11 +9,15 @@
 #define _VOLTOS_RESOURCE_EXT_H
 
 struct resource_window {
-
+	struct resource 	resource;
+	resource_size_t 	offset;
 };
 
 struct resource_entry {
-
+	struct list_head 	node;
+	struct resource		*resource;
+	resource_size_t		offset;
+	struct resource 	__resource;
 };
 
 #endif /* _VOLTOS_RESOURCE_EXT_H */

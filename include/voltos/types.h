@@ -30,6 +30,30 @@ typedef __f32				f32;
 typedef __f64				f64;
 typedef __f128				f128;
 
+typedef u64				__voltos_dev_t;
+
+typedef __voltos_fd_set 		fd_set;
+
+typedef __voltos_caddr_t 		caddr_t;
+typedef __voltos_clock_t 		clock_t;
+typedef __voltos_clockid_t 		clockid_t;
+typedef __voltos_daddr_t 		daddr_t;
+typedef __voltos_dev_t			dev_t;
+typedef __voltos_fd_t 			fd_t;
+typedef __voltos_index_t 		index_t;
+typedef __voltos_ino_t 			ino_t;
+typedef __voltos_key_t 			key_t;
+typedef __voltos_loff_t			loff_t;
+typedef __voltos_mode_t 		mode_t;
+typedef __voltos_nlink_t 		nlink_t;
+typedef __voltos_off_t 			off_t;
+typedef __voltos_old_gid_t 		old_gid_t;
+typedef __voltos_old_uid_t 		old_uid_t;
+typedef __voltos_suseconds_t 		suseconds_t;
+typedef __voltos_time_t 		time_t;
+typedef __voltos_timer_t 		timer_t;
+typedef __voltos_uoff_t			uoff_t;
+
 #ifndef __SIZE_T
 #define __SIZE_T
 typedef __voltos_size_t			size_t;
@@ -48,10 +72,52 @@ typedef __voltos_ptrdiff_t		ptrdiff_t;
 typedef signed long			intptr_t;
 typedef unsigned long			uintptr_t;
 
+typedef signed long			intmax_t;
+typedef unsigned long			uintmax_t;
+
+typedef signed int			intfptr_t;
+typedef unsigned int			uintfptr_t;
+
+typedef i8				int8_t;
+typedef u8				uint8_t;
+
+typedef i16				int16_t;
+typedef u16				uint16_t;
+
+typedef i32				int32_t;
+typedef u32				uint32_t;
+
+typedef i64				int64_t;
+typedef u64				uint64_t;
+
+typedef i8 				int_fast8_t;
+typedef u8 				uint_fast8_t;
+
+typedef i16 				int_fast16_t;
+typedef u16 				uint_fast16_t;
+
+typedef i32 				int_fast32_t;
+typedef u32 				uint_fast32_t;
+
+typedef i64 				int_fast64_t;
+typedef u64 				uint_fast64_t;
+
+typedef i8 				int_least8_t;
+typedef u8 				uint_least8_t;
+
+typedef i16 				int_least16_t;
+typedef u16 				uint_least16_t;
+
+typedef i32 				int_least32_t;
+typedef u32 				uint_least32_t;
+
+typedef i64 				int_least64_t;
+typedef u64 				uint_least64_t;
+
 typedef unsigned char			nibble_t;
-typedef uint8_t				byte_t;
-typedef uint8_t				octet_t;
-typedef uint16_t			hextet_t;
+typedef u8				byte_t;
+typedef u8				octet_t;
+typedef u16				hextet_t;
 
 typedef size_t				phy_addr_t;
 typedef size_t				dma_addr_t;
@@ -69,6 +135,7 @@ typedef struct {
 #define aligned_net64			__aligned_net64
 #define aligned_host64			__aligned_host64
 
+typedef u64				blkcnt_t;
 typedef u64 				sector_t;
 typedef unsigned long 			pgoff_t;
 

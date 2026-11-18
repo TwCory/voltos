@@ -8,8 +8,8 @@
 #ifndef _VOLTOS_POLL_H
 #define _VOLTOS_POLL_H
 
-struct poll_table {
+typedef struct poll_table {
 
-};
+} poll_table_t;
 
 #endif /* _VOLTOS_POLL_H */

@@ -9,8 +9,18 @@
 #ifndef _VOLTOS_PFLOCK_TYPES_H
 #define _VOLTOS_PFLOCK_TYPES_H
 
-typedef struct pflock {
+struct pflock {
+	raw_spinlock_t		lock;
+	struct {
+		atomic_t 	in;
+		atomic_t 	out;
+	} read;
+	struct {
+		atomic_t 	in;
+		atomic_t 	out;
+	} write;
+};
 
-} pflock_t;
+typedef struct pflock pflock_t;
 
 #endif /* _VOLTOS_PFLOCK_TYPES_H */

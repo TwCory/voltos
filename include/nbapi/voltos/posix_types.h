@@ -23,6 +23,7 @@ typedef unsigned long			__voltos_ulong_t;
 typedef signed long long		__voltos_sllong_t;
 typedef unsigned long long		__voltos_ullong_t;
 
+typedef float				__voltos_float16_t;
 typedef float				__voltos_float32_t;
 typedef double				__voltos_float64_t;
 
@@ -38,12 +39,27 @@ typedef unsigned short			__voltos_pid16_t;
 typedef unsigned int			__voltos_pid32_t;
 typedef unsigned long long		__voltos_pid64_t;
 
+typedef int				__voltos_caddr_t;
+typedef int				__voltos_clock_t;
+typedef int				__voltos_clockid_t;
+typedef int				__voltos_daddr_t;
 typedef int				__voltos_fd_t;
+typedef int				__voltos_index_t;
+typedef unsigned long			__voltos_ino_t;
 typedef int				__voltos_key_t;
+typedef int				__voltos_loff_t;
+typedef int				__voltos_mode_t;
+typedef int				__voltos_nlink_t;
+typedef int				__voltos_off_t;
+typedef unsigned int			__voltos_old_gid_t;
+typedef unsigned int			__voltos_old_uid_t;
 typedef int				__voltos_ptrdiff_t;
 typedef signed int			__voltos_ssize_t;
 typedef unsigned int			__voltos_size_t;
+typedef int				__voltos_suseconds_t;
 typedef int				__voltos_time_t;
+typedef int				__voltos_timer_t;
+typedef unsigned int			__voltos_uoff_t;
 
 #ifndef __FD_SET_SIZE
 #define __FD_SET_SIZE			(1024)

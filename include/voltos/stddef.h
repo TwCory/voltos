@@ -8,21 +8,18 @@
 #ifndef _VOLTOS_STDDEF_H
 #define _VOLTOS_STDDEF_H
 
-#include <stddef.h>
 #include <nbapi/voltos/stddef.h>
 
-#ifndef NULL
+#undef NULL
 #define NULL									((void *)0)
-#endif
 
 enum {
 	false 									= 0,
 	true 									= 1
 };
 
-#ifndef offsetof
+#undef offsetof
 #define offsetof(TYPE, MEMBER)							__builtin_offsetof(TYPE, MEMBER)
-#endif /* offsetof */
 
 #ifndef sizeof_field
 #define sizeof_field(TYPE, MEMBER)						sizeof((((TYPE *)0)->MEMBER))

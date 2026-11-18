@@ -12,6 +12,7 @@
 #include <nbapi/voltos/table-map.h>
 
 struct table_map {
+	const char name[TABLE_MAP_NAME_SIZE];
 	refcount_t ref_count;
 };
 

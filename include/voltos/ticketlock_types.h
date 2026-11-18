@@ -11,8 +11,17 @@
 
 #include <voltos/spinlock.h>
 
-typedef struct ticketlock {
-	raw_spinlock_t lock;
-} ticketlock_t;
+struct ticketlock {
+	raw_spinlock_t 			lock;
+	union {
+		atomic_t 		tickets;
+		struct {
+			atomic_t 	current_ticket;
+			atomic_t 	next_ticket;
+		};
+	};
+};
+
+typedef struct ticketlock 		ticketlock_t;
 
 #endif /* _VOLTOS_TICKETLOCK_TYPES_H */

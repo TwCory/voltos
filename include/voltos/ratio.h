@@ -11,8 +11,8 @@
 #include <voltos/types.h>
 
 struct ratio {
-	imax value;
-	imax denominator:1;
+	intmax_t 	value;
+	intmax_t 	denominator:1;
 };
 
 #endif /* _VOLTOS_RATIO_H */

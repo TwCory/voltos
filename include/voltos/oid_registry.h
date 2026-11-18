@@ -145,4 +145,8 @@ typedef enum {
 	__OID_MAX__
 } OID_t;
 
+extern OID_t lookup_OID(const void *data, size_t data_size);
+extern int parse_OID(const void *data, size_t data_size, OID_t *oid);
+extern int sprint_OID(const void *, size_t, char *, size_t);
+
 #endif /* _VOLTOS_OID_REGISTRY_H */

@@ -9,9 +9,9 @@
 #ifndef _VOLTOS_RCU_H
 #define _VOLTOS_RCU_H
 
-#ifndef __voltos_rcu
-#define __voltos_rcu
-#endif /* __voltos_rcu */
+#ifndef __rcu
+#define __rcu
+#endif /* __rcu */
 
 struct rcu_head {
 

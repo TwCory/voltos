@@ -9,7 +9,18 @@
 #define _VOLTOS_SEQ_BUF_H
 
 struct seq_buf {
+	char 					*buffer;
+	size_t 					size;
+	size_t 					length;
 
 };
+
+#ifndef DECLARE_SEQ_BUF
+#define DECLARE_SEQ_BUF(NAME, SIZE)		\
+	struct seq_buf NAME = {			\
+		.buffer = (char[SIZE]) { 0 },	\
+		.size = SIZE,			\
+	}
+#endif /* DECLARE_SEQ_BUF */
 
 #endif /* _VOLTOS_SEQ_BUF_H */
