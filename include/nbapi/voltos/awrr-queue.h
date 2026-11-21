@@ -8,7 +8,7 @@
 #ifndef _NBAPI_VOLTOS_AWRR_QUEUE_H
 #define _NBAPI_VOLTOS_AWRR_QUEUE_H
 
-#define AWRR_QUEUE_NAME_SIZE			32
+#define AWRR_QUEUE_NAME_SIZE			(32)
 
 enum awrr_queue_type {
 	AWRR_QUEUE_TYPE_T_UNSPEC		= 0,

@@ -25,6 +25,8 @@ enum {
 	__BFD_DIAG_CODE_T_MAX__
 };
 
+#define BFD_DIAG_CODE_MAX					(__BFD_DIAG_CODE_T_MAX__ - 1)
+
 enum {
 	BFD_AUTH_TYPE_T_UNSPEC 					= 0,
 	BFD_AUTH_TYPE_T_SIMPLE_PASSWORD 			= 1,
@@ -37,5 +39,7 @@ enum {
 	BFD_AUTH_TYPE_T_OPTIMIZED_SHA1_METICULOUS_KEYED_ISAAC	= 8,
 	__BFD_AUTH_TYPE_T_MAX__
 };
+
+#define BFD_AUTH_TYPE_MAX					(__BFD_AUTH_TYPE_T_MAX__ - 1)
 
 #endif /* _NBAPI_VOLTOS_BFD_H */

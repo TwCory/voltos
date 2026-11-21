@@ -14,16 +14,16 @@
 typedef __u16 				__comp1_t;
 typedef __u32 				__comp2_t;
 
-#define ACCT_CMD			16
-#define ACCT_VERSION			2
+#define ACCT_CMD			(16)
+#define ACCT_VERSION			(2)
 
 struct __voltos_acct {
 	char 				ac_flag;
 	char 				ac_version;
-	uint16_t 			ac_uid16;
-	uint16_t 			ac_gid16;
-	uint16_t 			ac_terminal;
-	uint32_t 			ac_btime;
+	__u16 				ac_uid16;
+	__u16 				ac_gid16;
+	__u16 				ac_terminal;
+	__u32 				ac_btime;
 	__comp1_t 			ac_utime;
 	__comp1_t 			ac_stime;
 	__comp1_t 			ac_etime;
@@ -34,24 +34,24 @@ struct __voltos_acct {
 	__comp1_t 			ac_major_faults;
 	__comp1_t 			ac_swaps;
 
-	uint32_t 			ac_exit_code;
+	__u32 				ac_exit_code;
 	char 				ac_cmd[ACCT_CMD + 1];
-	uint8_t 			ac_etime_hi;
-	uint16_t 			ac_etime_lo;
-	uint32_t 			ac_uid;
-	uint32_t 			ac_gid;
+	__u8 				ac_etime_hi;
+	__u16 				ac_etime_lo;
+	__u32 				ac_uid;
+	__u32 				ac_gid;
 };
 
 struct __voltos_acct_v3 {
 	char 				ac_flag;
 	char 				ac_version;
-	uint16_t 			ac_terminal;
-	uint32_t 			ac_exit_code;
-	uint32_t 			ac_uid;
-	uint32_t 			ac_gid;
-	uint32_t 			ac_pid;
-	uint32_t 			ac_parent_pid;
-	uint32_t 			ac_btime;
+	__u16 				ac_terminal;
+	__u32 				ac_exit_code;
+	__u32 				ac_uid;
+	__u32 				ac_gid;
+	__u32 				ac_pid;
+	__u32 				ac_parent_pid;
+	__u32 				ac_btime;
 	float 				ac_etime;
 	__comp1_t 			ac_utime;
 	__comp1_t 			ac_stime;
