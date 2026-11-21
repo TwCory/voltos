@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_BBA_GROUP_H
 #define _NBAPI_VOLTOS_BBA_GROUP_H
 
-#define BBA_GROUP_NAME_SIZE			32
+#define BBA_GROUP_NAME_SIZE			(32)
 
 enum bba_group_type {
 	BBA_GROUP_TYPE_T_UNSPEC			= 0,

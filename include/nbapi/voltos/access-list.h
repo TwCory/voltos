@@ -9,8 +9,8 @@
 #ifndef _NBAPI_VOLTOS_ACCESS_LIST_H
 #define _NBAPI_VOLTOS_ACCESS_LIST_H
 
-#define ACL_NAME_SIZE				32
-#define ACL_REMARK_SIZE				64
+#define ACL_NAME_SIZE				(32)
+#define ACL_REMARK_SIZE				(64)
 
 #define ACL_ID_IPV4_STD_MIN			1
 #define ACL_ID_IPV4_STD_MAX			99

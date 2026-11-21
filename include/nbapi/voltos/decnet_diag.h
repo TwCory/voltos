@@ -8,4 +8,8 @@
 #ifndef _NBAPI_VOLTOS_DECNET_DIAG_H
 #define _NBAPI_VOLTOS_DECNET_DIAG_H
 
+struct decnet_diag_req {
+
+};
+
 #endif /* _NBAPI_VOLTOS_DECNET_DIAG_H */

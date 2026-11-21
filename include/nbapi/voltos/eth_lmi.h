@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/eth_lmi.h
  *
+ *	Ethernet Local Management Interface (LMI)
  */
 
 #ifndef _NBAPI_VOLTOS_ETH_LMI_H

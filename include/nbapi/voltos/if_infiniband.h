@@ -11,7 +11,7 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
-#define IPOIB_ADDR_LEN			20
+#define IPOIB_ADDR_LEN			(20)
 
 struct ib_addr {
 

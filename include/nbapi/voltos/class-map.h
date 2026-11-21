@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_CLASS_MAP_H
 #define _NBAPI_VOLTOS_CLASS_MAP_H
 
-#define CLASS_MAP_NAME_SIZE			32
+#define CLASS_MAP_NAME_SIZE			(32)
 
 enum class_map_type {
 	CLASS_MAP_TYPE_T_UNSPEC 		= 0,

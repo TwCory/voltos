@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_CDDL_H
 #define _NBAPI_VOLTOS_CDDL_H
 
+enum {
+	CDDL_OPERATOR_T_
+};
+
 #endif /* _NBAPI_VOLTOS_CDDL_H */

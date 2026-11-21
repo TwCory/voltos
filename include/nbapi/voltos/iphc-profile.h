@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_IPHC_PROFILE_H
 #define _NBAPI_VOLTOS_IPHC_PROFILE_H
 
-#define IPHC_PROFILE_NAME_SIZE			32
+#define IPHC_PROFILE_NAME_SIZE			(32)
 
 enum iphc_profile_type {
 	IPHC_PROFILE_TYPE_T_UNSPEC		= 0,

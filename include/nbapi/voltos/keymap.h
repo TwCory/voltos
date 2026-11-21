@@ -9,6 +9,6 @@
 #ifndef _NBAPI_VOLTOS_KEYMAP_H
 #define _NBAPI_VOLTOS_KEYMAP_H
 
-#define KEYMAP_NAME_SIZE	32
+#define KEYMAP_NAME_SIZE	(32)
 
 #endif /* _NBAPI_VOLTOS_KEYMAP_H */

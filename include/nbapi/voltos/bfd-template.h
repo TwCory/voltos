@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_BFD_TEMPLATE_H
 #define _NBAPI_VOLTOS_BFD_TEMPLATE_H
 
-#define BFD_TEMPLATE_NAME_SIZE			32
+#define BFD_TEMPLATE_NAME_SIZE			(32)
 
 enum bfd_template_type {
 	BFD_TEMPLATE_TYPE_T_UNSPEC		= 0,

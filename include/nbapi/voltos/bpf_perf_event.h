@@ -13,8 +13,8 @@
 #include <voltos/types.h>
 
 struct bpf_perf_event_ctx {
-	uint64_t sample_period;
-	uint64_t address;
+	__u64 sample_period;
+	__u64 address;
 };
 
 #endif /* _NBAPI_VOLTOS_BPF_PERF_EVENT_H */

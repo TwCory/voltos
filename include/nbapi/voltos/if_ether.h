@@ -8,8 +8,8 @@
 #ifndef _NBAPI_VOLTOS_IF_ETHER_H
 #define _NBAPI_VOLTOS_IF_ETHER_H
 
-#define ETH_ADDR_LEN			6
-#define ETH_TYPE_LEN			2
+#define ETH_ADDR_LEN			(6)
+#define ETH_TYPE_LEN			(2)
 
 #define ETH_MTU_MIN			68U
 #define ETH_MTU_MAX			65535U

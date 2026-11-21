@@ -9,8 +9,8 @@
 #ifndef _NBAPI_VOLTOS_ALPS_H
 #define _NBAPI_VOLTOS_ALPS_H
 
-#define ALPS_ASCU_NAME_SIZE			32
-#define ALPS_CIRCUIT_NAME_SIZE			32
+#define ALPS_ASCU_NAME_SIZE			(32)
+#define ALPS_CIRCUIT_NAME_SIZE			(32)
 
 enum alps_peer_type {
 	ALPS_PEER_TYPE_T_UNSPEC			= 0,

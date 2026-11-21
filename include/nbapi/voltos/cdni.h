@@ -9,4 +9,16 @@
 #ifndef _NBAPI_VOLTOS_CDNI_H
 #define _NBAPI_VOLTOS_CDNI_H
 
+enum {
+	CDNI_PAYLOAD_T_
+};
+
+enum {
+	CDNI_CIT_TRIGGER_T_
+};
+
+enum {
+	CDNI_CIT_ERROR_T_
+};
+
 #endif /* _NBAPI_VOLTOS_CDNI_H */

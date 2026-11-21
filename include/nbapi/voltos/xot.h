@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_XOT_H
 #define _NBAPI_VOLTOS_XOT_H
 
+#include <voltos/types.h>
+
 #define XOT_PORT		1998
 #define XOT_VERSION		0
 

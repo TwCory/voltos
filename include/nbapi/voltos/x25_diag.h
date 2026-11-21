@@ -8,4 +8,8 @@
 #ifndef _NBAPI_VOLTOS_X25_DIAG_H
 #define _NBAPI_VOLTOS_X25_DIAG_H
 
+struct x25_diag_req {
+
+};
+
 #endif /* _NBAPI_VOLTOS_X25_DIAG_H */

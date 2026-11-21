@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ila.h
  *
+ *	Identifier-Locator Address (ILA)
  */
 
 #ifndef _NBAPI_VOLTOS_ILA_H

@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_GENETLINK_H
 #define _NBAPI_VOLTOS_GENETLINK_H
 
-#define GENL_NAME_SIZE		16
+#define GENL_NAME_SIZE		(16)
 
 #define GENL_ID_MIN		1
 #define GENL_ID_MAX		1024

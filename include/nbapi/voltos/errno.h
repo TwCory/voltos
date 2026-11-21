@@ -8,6 +8,6 @@
 #ifndef _NBAPI_VOLTOS_ERRNO_H
 #define _NBAPI_VOLTOS_ERRNO_H
 
-#include <errno.h>
+#include <asm/errno.h>
 
 #endif /* _NBAPI_VOLTOS_ERRNO_H */

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/macff.h
  *
+ *	MAC Forced Forwarding (MACFF)
  */
 
 #ifndef _NBAPI_VOLTOS_MACFF_H

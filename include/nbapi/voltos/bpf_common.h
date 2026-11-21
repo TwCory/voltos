@@ -26,7 +26,7 @@
 #define	BPF_H				0x08 /* 16-bit */
 #define	BPF_B				0x10 /*  8-bit */
 /* eBPF	BPF_DW				0x18    64-bit */
-#define BPF_MODE(code)  		((code) & 0xe0)
+#define BPF_MODE(code)  		((code) & 0xE0)
 #define	BPF_IMM				0x00
 #define	BPF_ABS				0x20
 #define	BPF_IND				0x40
@@ -35,7 +35,7 @@
 #define	BPF_MSH				0xa0
 
 /* ALU/JMP Fields */
-#define BPF_OP(code)    		((code) & 0xf0)
+#define BPF_OP(code)    		((code) & 0xF0)
 #define	BPF_ADD				0x00
 #define	BPF_SUB				0x10
 #define	BPF_MUL				0x20
