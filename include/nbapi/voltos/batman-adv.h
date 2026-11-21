@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/batman-adv.h
  *
+ *	Better Approach to Mobile Ad Hoc Networks (BATMAN) Advanced
  */
 
 #ifndef _NBAPI_VOLTOS_BATMAN_ADV_H

@@ -11,6 +11,18 @@
 
 #define NTP_PORT	123
 
+enum {
+	NTP_REFERENCE_ID_T_
+};
+
+enum {
+	NTP_KISS_O_DEATH_T_
+};
+
+enum {
+	NTP_EXT_FIELD_T_
+};
+
 struct ntp_hdr {
 
 };

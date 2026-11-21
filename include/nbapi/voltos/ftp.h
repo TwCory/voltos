@@ -15,4 +15,8 @@
 #define FTPS_DATA_PORT					989
 #define FTPS_CONTROL_PORT				990
 
+enum {
+	FTP_CMD_T_
+};
+
 #endif /* _NBAPI_VOLTOS_FTP_H */

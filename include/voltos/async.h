@@ -20,8 +20,12 @@
 #define __async_inline		__async inline
 #endif /* __async_inline */
 
-struct async_domain {
+typedef u64			async_cookie_t;
+typedef void			(*async_fn_t)(void *data, async_cookie_t cookie);
 
+struct async_domain {
+	struct list_head	pending;
+	unsigned int		flags;
 };
 
 #endif /* _VOLTOS_ASYNC_H */

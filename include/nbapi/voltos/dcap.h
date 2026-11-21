@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/dcap.h
  *
+ *	DLSW Client Access Protocol (DCAP)
  */
 
 #ifndef _NBAPI_VOLTOS_DCAP_H

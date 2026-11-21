@@ -9,11 +9,16 @@
 #ifndef _NBAPI_VOLTOS_VXLAN_H
 #define _NBAPI_VOLTOS_VXLAN_H
 
-#define VXLAN_PORT		4789
-#define VXLAN_VNI_SIZE		3
+#define VXLAN_PORT			4789
+#define VXLAN_VNI_SIZE			3
+
+enum {
+	VXLAN_FLAG_F_INSTANCE_ID	= (1 << 4),
+#define VXLAN_FLAG_INSTANCE_ID		VXLAN_FLAG_F_INSTANCE_ID
+};
 
 struct vxlan_vni {
-	unsigned char		s_vni[VXLAN_VNI_SIZE];
+	unsigned char			s_vni[VXLAN_VNI_SIZE];
 };
 
 struct vxlan_hdr {

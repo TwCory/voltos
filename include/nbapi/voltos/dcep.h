@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/dcep.h
  *
+ *	Data Channel Establishment Protocol (DCEP)
  */
 
 #ifndef _NBAPI_VOLTOS_DCEP_H

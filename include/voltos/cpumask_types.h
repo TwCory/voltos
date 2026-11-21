@@ -9,7 +9,11 @@
 #define _VOLTOS_CPUMASK_TYPES_H
 
 typedef struct cpumask {
-
+	DECLARE_BITMAP(bits, );
 } cpumask_t;
+
+#define cpumask_bits(maskp)	((maskp)->bits)
+
+typedef struct cpumask 		*cpumask_var_t;
 
 #endif /* _VOLTOS_CPUMASK_TYPES_H */

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/idrp.h
  *
+ *	Inter-Domain Routing Protocol (IDRP)
  */
 
 #ifndef _NBAPI_VOLTOS_IDRP_H

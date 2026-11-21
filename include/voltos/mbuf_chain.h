@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_MBUF_CHAIN_H
 #define _VOLTOS_MBUF_CHAIN_H
 
-struct m_buf_chain {
+struct mbuf_chain {
 
 };
 

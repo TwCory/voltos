@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/dssc.h
  *
+ *	Data Structure for the Security Suitability of Cryptographic Algorithms (DSSC)
  */
 
 #ifndef _NBAPI_VOLTOS_DSSC_H

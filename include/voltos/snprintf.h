@@ -8,4 +8,6 @@
 #ifndef _VOLTOS_SNPRINTF_H
 #define _VOLTOS_SNPRINTF_H
 
+#define __snprintf(buffer, size, format, ...)
+
 #endif /* _VOLTOS_SNPRINTF_H */

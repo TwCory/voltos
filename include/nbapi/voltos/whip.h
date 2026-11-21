@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/whip.h
  *
+ *	WebRTC-HTTP Ingestion Protocol (WHIP)
  */
 
 #ifndef _NBAPI_VOLTOS_WHIP_H

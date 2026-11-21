@@ -9,7 +9,7 @@
 #ifndef _NBAPI_VOLTOS_IO_H
 #define _NBAPI_VOLTOS_IO_H
 
-#include <stdio.h>
-#include <stdio_ext.h>
+#define READ		(0)
+#define WRITE		(1)
 
 #endif /* _NBAPI_VOLTOS_IO_H */

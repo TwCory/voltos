@@ -13,4 +13,12 @@
 #define NNSP_PORT			433
 #define NNTP_SECURE_PORT		563
 
+enum {
+	NNTP_CAP_LABEL_T_
+};
+
+enum {
+	NNTP_COMP_ALGO_T_
+};
+
 #endif /* _NBAPI_VOLTOS_NNTP_H */

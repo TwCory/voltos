@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/tesla.h
  *
+ *	Timed Efficient Stream Loss-Tolerant Authentication (TESLA)
  */
 
 #ifndef _NBAPI_VOLTOS_TESLA_H

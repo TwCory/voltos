@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/ifcp.h
  *
- *	Internet Fibre Channel Protocol (IFCP)
+ *	Internet Fibre Channel Protocol (iFCP)
  */
 
 #ifndef _NBAPI_VOLTOS_IFCP_H

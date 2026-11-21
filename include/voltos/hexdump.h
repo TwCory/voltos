@@ -10,4 +10,10 @@
 
 #include <voltos/hex.h>
 
+void hex_dump(struct file *file, const char *title,
+	      const char *buffer, unsigned int length);
+
+void mem_dump(struct file *file, const char *title,
+	      const char *buffer, unsigned int length);
+
 #endif /* _VOLTOS_HEXDUMP_H */

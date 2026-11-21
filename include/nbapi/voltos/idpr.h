@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/idpr.h
  *
+ *	Inter-Domain Policy Routing Protocol (IDPR)
  */
 
 #ifndef _NBAPI_VOLTOS_IDPR_H

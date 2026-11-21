@@ -9,4 +9,8 @@
 #ifndef _NBAPI_VOLTOS_ULE_H
 #define _NBAPI_VOLTOS_ULE_H
 
+enum {
+	ULE_NEXT_HEADER_T_
+};
+
 #endif /* _NBAPI_VOLTOS_ULE_H */

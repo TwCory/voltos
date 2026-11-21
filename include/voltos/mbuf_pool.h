@@ -8,7 +8,7 @@
 #ifndef _VOLTOS_MBUF_POOL_H
 #define _VOLTOS_MBUF_POOL_H
 
-struct m_buf_pool {
+struct mbuf_pool {
 
 };
 

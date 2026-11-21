@@ -11,4 +11,12 @@
 
 #define IPP_PORT			631
 
+enum {
+	IPP_OBJECT_T_
+};
+
+enum {
+	IPP_ATTRIBUTE_T_
+};
+
 #endif /* _NBAPI_VOLTOS_IPP_H */

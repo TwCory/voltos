@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cops.h
  *
+ *	Common Open Policy Service (COPS)
  */
 
 #ifndef _NBAPI_VOLTOS_COPS_H

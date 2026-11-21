@@ -12,8 +12,16 @@
 #define __percpu
 #endif /* __percpu */
 
-#ifndef DECLARE_PER_CPU
-#define DECLARE_PER_CPU
-#endif /* DECLARE_PER_CPU */
+#define DECLARE_PER_CPU_SECTION(type, name, section)
+
+#define DEFINE_PER_CPU_SECTION(type, name, section)
+
+#define DECLARE_PER_CPU(type, name)
+
+#define DEFINE_PER_CPU(type, name)
+
+#define DECLARE_PER_CPU_FAST_CACHE(type, name)
+
+#define DEFINE_PER_CPU_FAST_CACHE(type, name)
 
 #endif /* _VOLTOS_PERCPU_DEFS_H */

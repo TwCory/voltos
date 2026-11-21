@@ -11,7 +11,7 @@
 
 #include <voltos/types.h>
 
-__static_always_inline
+static __always_inline
 void *__inline_bsearch(const void *key, const void *base, size_t num, size_t size, cmp_fn_t cmp)
 {
 	const char *pivot;

@@ -10,4 +10,12 @@
 
 #define TWAMP_CONTROL_PORT	862
 
+enum {
+	TWAMP_CCN_T_
+};
+
+enum {
+	TWAMP_MODE_T_
+};
+
 #endif /* _NBAPI_VOLTOS_TWAMP_H */

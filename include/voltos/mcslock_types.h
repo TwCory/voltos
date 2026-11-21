@@ -11,7 +11,8 @@
 #include <voltos/spinlock.h>
 
 typedef struct mcslock {
-	raw_spinlock_t lock;
+	raw_spinlock_t 		lock;
+	atomic_t 		is_locked;
 } mcslock_t;
 
 #endif /* _VOLTOS_MCSLOCK_TYPES_H */

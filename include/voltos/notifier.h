@@ -10,5 +10,8 @@
 
 struct notifier_block;
 
+typedef int (*notifier_fn_t)(struct notifier_block *block,
+			     unsigned long action,
+			     void *data);
 
 #endif /* _VOLTOS_NOTIFIER_H */

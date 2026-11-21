@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/prophet.h
  *
+ *	Probabilistic Routing Protocol using History of Encounters and Transitivity (PRoPHET)
  */
 
 #ifndef _NBAPI_VOLTOS_PROPHET_H

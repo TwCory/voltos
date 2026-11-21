@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/cdni.h
  *
+ *	Content Delivery Network Interconnection (CDNI)
  */
 
 #ifndef _NBAPI_VOLTOS_CDNI_H

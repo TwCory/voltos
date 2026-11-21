@@ -11,4 +11,8 @@
 
 #define MSDP_PORT		639
 
+enum {
+	MSDP_TLV_T_
+};
+
 #endif /* _NBAPI_VOLTOS_MSDP_H */

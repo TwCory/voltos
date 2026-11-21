@@ -15,4 +15,8 @@
 #define NETCONF_SOAP_BEEP_PORT		833
 #define NETCONF_TLS_PORT		6513
 
+enum {
+	NETCONF_CAP_URN_T_
+};
+
 #endif /* _NBAPI_VOLTOS_NETCONF_H */

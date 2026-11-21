@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/mime.h
  *
+ *	Multipurpose Internet Mail Extensions (MIME)
  */
 
 #ifndef _NBAPI_VOLTOS_MIME_H
