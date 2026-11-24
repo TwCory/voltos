@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_WESP_H
 #define _NBAPI_VOLTOS_WESP_H
 
+#include <voltos/types.h>
+
 enum {
 	WESP_FLAG_F_VERSION_1			= (1 << 0),
 #define WESP_FLAG_VERSION_1			WESP_FLAG_F_VERSION_1

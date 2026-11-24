@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipv6_rpl.h
  *
+ *	IPv6 Routing Protocol for Low-power/Lossy networks
  */
 
 #ifndef _NBAPI_VOLTOS_IPV6_RPL_H

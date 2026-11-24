@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/avb.h>
 
+struct avb_domain {
+
+};
+
 #endif /* _VOLTOS_AVB_H */

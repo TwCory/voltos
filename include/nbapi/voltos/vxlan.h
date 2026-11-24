@@ -10,7 +10,7 @@
 #define _NBAPI_VOLTOS_VXLAN_H
 
 #define VXLAN_PORT			4789
-#define VXLAN_VNI_SIZE			3
+#define VXLAN_VNI_LEN			(3)
 
 enum {
 	VXLAN_FLAG_F_INSTANCE_ID	= (1 << 4),
@@ -18,7 +18,7 @@ enum {
 };
 
 struct vxlan_vni {
-	unsigned char			s_vni[VXLAN_VNI_SIZE];
+	unsigned char			s_vni[VXLAN_VNI_LEN];
 };
 
 struct vxlan_hdr {

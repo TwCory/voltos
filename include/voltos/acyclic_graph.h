@@ -3,7 +3,7 @@
 /*
  *	include/voltos/acyclic_graph.h
  *
- * 	Acyclic Directed Graphs
+ * 	Acyclic directed graphs
  */
 
 #ifndef _VOLTOS_ACYCLIC_GRAPH_H

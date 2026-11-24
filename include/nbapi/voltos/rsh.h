@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rsh.h
  *
+ *	Remote Shell (RSH) Service
  */
 
 #ifndef _NBAPI_VOLTOS_RSH_H

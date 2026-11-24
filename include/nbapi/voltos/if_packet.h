@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_packet.h
  *
+ *	Packet and Link-Layer (AF_PACKET) Socket Interface
  */
 
 #ifndef _NBAPI_VOLTOS_IF_PACKET_H

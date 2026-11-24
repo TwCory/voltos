@@ -39,7 +39,7 @@ enum {
 
 struct aodv_rreq_msg {
 	__u8 				type;
-	__net16					j_bit:1,
+	__u16					j_bit:1,
 						r_bit:1,
 						g_bit:1,
 						d_bit:1,
@@ -55,7 +55,7 @@ struct aodv_rreq_msg {
 
 struct aodv_rrep_msg {
 	__u8				type;
-	__net16					r_bit:1,
+	__u16					r_bit:1,
 						a_bit:1,
 						reserved:8,
 						prefix_size:6;
@@ -68,7 +68,7 @@ struct aodv_rrep_msg {
 
 struct aodv_rerr_msg {
 	__u8				type;
-	__net16					n_bit:1,
+	__u16					n_bit:1,
 						reserved:15;
 	__u8				dst_count;
 	struct {

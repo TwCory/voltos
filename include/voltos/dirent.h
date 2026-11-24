@@ -8,7 +8,6 @@
 #ifndef _VOLTOS_DIRENT_H
 #define _VOLTOS_DIRENT_H
 
-#include <dirent.h>
 #include <voltos/types.h>
 
 struct voltos_dirent64 {

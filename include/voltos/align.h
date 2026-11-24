@@ -3,13 +3,12 @@
 /*
  *	include/voltos/align.h
  *
- * 	General Alignment Helpers
+ * 	General alignment helpers
  */
 
 #ifndef _VOLTOS_ALIGN_H
 #define _VOLTOS_ALIGN_H
 
-#include <stdalign.h>
 #include <voltos/const.h>
 
 #define ALIGN(x, a)			__ALIGN_VOLTOS((x), (a))

@@ -11,7 +11,7 @@
 #include <voltos/math.h>
 #include <voltos/types.h>
 
-#define ASCII85_BUFFER_SIZE	6
+#define ASCII85_BUFFER_SIZE	(6)
 
 static inline long
 ascii85_encode_len(long len)

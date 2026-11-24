@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_phonet.h
  *
+ *	Phonet Interfaces and Socket Family (AF_PHONET)
  */
 
 #ifndef _NBAPI_VOLTOS_IF_PHONET_H

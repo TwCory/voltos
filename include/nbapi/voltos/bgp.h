@@ -12,10 +12,10 @@
 #define BGP_PORT		179
 #define BGP_VERSION		4
 
-#define BGP_MARKER_SIZE		16
+#define BGP_MARKER_LEN		(16)
 
 struct bgp_msg_hdr {
-	unsigned char 		marker[BGP_MARKER_SIZE];
+	unsigned char 		marker[BGP_MARKER_LEN];
 	__net16 		length;
 	__u8 			type;
 };

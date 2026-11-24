@@ -8,8 +8,6 @@
 #ifndef _NBAPI_VOLTOS_TIME_H
 #define _NBAPI_VOLTOS_TIME_H
 
-#include <time.h>
-
 struct timeval {
 
 };

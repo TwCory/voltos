@@ -9,8 +9,11 @@
 #ifndef _NBAPI_VOLTOS_IPV6_H
 #define _NBAPI_VOLTOS_IPV6_H
 
+#define IPV6_ETHERTYPE				0x86DD
+#define IPV6_VERSION				6
+
 struct ipv6_hdr {
-	__net32					version:4,
+	__u32					version:4,
 						traffic_class:8,
 						flow_label:20;
 	__net16				payload_length;

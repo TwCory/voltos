@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/acct.h
  *
- * 	Generic Accounting
+ * 	Generic Accounting Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ACCT_H

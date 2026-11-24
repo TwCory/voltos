@@ -8,6 +8,6 @@
 #ifndef _NBAPI_VOLTOS_POLL_H
 #define _NBAPI_VOLTOS_POLL_H
 
-#include <poll.h>
+typedef int __poll_t;
 
 #endif /* _NBAPI_VOLTOS_POLL_H */

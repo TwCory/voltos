@@ -3,9 +3,11 @@
 /*
  *	include/nbapi/voltos/if_vlan.h
  *
+ *	VLAN Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_VLAN_H
 #define _NBAPI_VOLTOS_IF_VLAN_H
+
 
 #endif /* _NBAPI_VOLTOS_IF_VLAN_H */

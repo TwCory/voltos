@@ -8,19 +8,19 @@
 #ifndef _NBAPI_VOLTOS_POSIX_TYPES_H
 #define _NBAPI_VOLTOS_POSIX_TYPES_H
 
-typedef signed char			__voltos_schar_t;
+typedef signed char			__voltos_char_t;
 typedef unsigned char			__voltos_uchar_t;
 
-typedef signed short			__voltos_sshort_t;
+typedef signed short			__voltos_short_t;
 typedef unsigned short			__voltos_ushort_t;
 
-typedef signed int			__voltos_sint_t;
+typedef signed int			__voltos_int_t;
 typedef unsigned int			__voltos_uint_t;
 
-typedef signed long			__voltos_slong_t;
+typedef signed long			__voltos_long_t;
 typedef unsigned long			__voltos_ulong_t;
 
-typedef signed long long		__voltos_sllong_t;
+typedef signed long long		__voltos_llong_t;
 typedef unsigned long long		__voltos_ullong_t;
 
 typedef float				__voltos_float16_t;

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/prp.h
  *
- * 	Port Redundancy Protocol (PRP)
+ * 	Parallel Redundancy Protocol (PRP)
  */
 
 #ifndef _NBAPI_VOLTOS_PRP_H

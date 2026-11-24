@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rxrpc.h
  *
+ *	RxRPC (AF_RXRPC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_RXRPC_H

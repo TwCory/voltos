@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/fx25.h>
 
+struct fx25_platform_data {
+
+};
+
 #endif /* _VOLTOS_FX25_H */

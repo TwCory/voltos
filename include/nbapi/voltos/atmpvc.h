@@ -9,11 +9,16 @@
 #ifndef _NBAPI_VOLTOS_ATMPVC_H
 #define _NBAPI_VOLTOS_ATMPVC_H
 
+#include <voltos/atm_api.h>
 #include <voltos/socket.h>
-#include <voltos/types.h>
 
 struct sockaddr_atmpvc {
-	__voltos_sa_family_t 		satmpvc_family;
+	__voltos_sa_family_t 			satmpvc_family;
+	struct {
+		short				iface;
+		short				vpi;
+		short				vci;
+	} satmpvc_addr __ATM_API_ALIGNED__;
 };
 
 #endif /* _NBAPI_VOLTOS_ATMPVC_H */

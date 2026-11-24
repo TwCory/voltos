@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/smc.h
  *
+ *	Shared Memory Communications (AF_SMC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_SMC_H

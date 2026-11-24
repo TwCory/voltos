@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/mpls_mldp.h
  *
+ *	Multicast Label Distribution Protocol (mLDP)
  */
 
 #ifndef _NBAPI_VOLTOS_MPLS_MLDP_H

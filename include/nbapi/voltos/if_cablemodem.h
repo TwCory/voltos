@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_cablemodem.h
  *
+ *	Cable Modem Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_CABLEMODEM_H

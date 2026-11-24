@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/rmon.h
  *
- * 	Remote Monitoring Service
+ * 	Remote Monitoring (RMON) Service
  */
 
 #ifndef _NBAPI_VOLTOS_RMON_H

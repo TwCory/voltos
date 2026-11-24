@@ -9,9 +9,10 @@
 #ifndef _NBAPI_VOLTOS_NSH_H
 #define _NBAPI_VOLTOS_NSH_H
 
-#define NSH_ETHERTYPE	0x894F
+#define NSH_ETHERTYPE		0x894F
+#define NSH_PROTOCOL		145
 
-struct nsh {
+struct ns_hdr {
 
 };
 

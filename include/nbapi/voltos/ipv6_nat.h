@@ -3,11 +3,12 @@
 /*
  *	include/nbapi/voltos/ipv6_nat.h
  *
+ *	IPv6 Network Prefix Translation (NPTv6)
  */
 
 #ifndef _NBAPI_VOLTOS_IPV6_NAT_H
 #define _NBAPI_VOLTOS_IPV6_NAT_H
 
-#define NPTV6_POOL_NAME_SIZE	(32)
+#define NPT6_POOL_NAME_SIZE	(32)
 
 #endif /* _NBAPI_VOLTOS_IPV6_NAT_H */

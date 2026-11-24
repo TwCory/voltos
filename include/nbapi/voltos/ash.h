@@ -11,14 +11,14 @@
 #include <voltos/socket.h>
 #include <voltos/types.h>
 
-#define ASH_PREFIX_SIZE			16
+#define ASH_PREFIX_LEN			(16)
 
 struct sockaddr_ash {
 	__voltos_sa_family_t 		sash_family;
 	int 				sash_ifindex;
 	__u8 				sash_channel;
 	__u32 				sash_plen;
-	unsigned char 			sash_prefix[ASH_PREFIX_SIZE];
+	unsigned char 			sash_prefix[ASH_PREFIX_LEN];
 };
 
 #endif /* _NBAPI_VOLTOS_ASH_H */

@@ -9,7 +9,8 @@
 #define _NBAPI_VOLTOS_DECNET_DIAG_H
 
 struct decnet_diag_req {
-
+	__u8 ddiag_family;
+	__u8 ddiag_protocol;
 };
 
 #endif /* _NBAPI_VOLTOS_DECNET_DIAG_H */

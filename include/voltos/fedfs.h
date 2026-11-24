@@ -9,4 +9,6 @@
 #ifndef _VOLTOS_FEDFS_H
 #define _VOLTOS_FEDFS_H
 
+#include <nbapi/voltos/fedfs.h>
+
 #endif /* _VOLTOS_FEDFS_H */

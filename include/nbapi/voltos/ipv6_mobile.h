@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipv6_mobile.h
  *
+ *	Mobile IPv6 Router
  */
 
 #ifndef _NBAPI_VOLTOS_IPV6_MOBILE_H

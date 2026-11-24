@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/wanpipe.h
  *
- * 	WANPipe API Socket Family
+ * 	WANpipe API (AF_WANPIPE) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_WANPIPE_H

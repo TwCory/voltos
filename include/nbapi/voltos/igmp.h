@@ -9,6 +9,8 @@
 #ifndef _NBAPI_VOLTOS_IGMP_H
 #define _NBAPI_VOLTOS_IGMP_H
 
+#include <voltos/types.h>
+
 struct igmp_hdr {
 	__u8 				type;
 	__u8 				code;

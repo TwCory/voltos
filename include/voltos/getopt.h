@@ -8,6 +8,6 @@
 #ifndef _VOLTOS_GETOPT_H
 #define _VOLTOS_GETOPT_H
 
-#include <getopt.h>
+
 
 #endif /* _VOLTOS_GETOPT_H */

@@ -8,6 +8,8 @@
 #ifndef _NBAPI_VOLTOS_UTIME_H
 #define _NBAPI_VOLTOS_UTIME_H
 
+#include <voltos/types.h>
+
 struct utimbuf {
 	__voltos_old_time_t actime;
 	__voltos_old_time_t modtime;

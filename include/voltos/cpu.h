@@ -12,7 +12,8 @@
 
 struct cpu {
 	struct device 			device;
-	int 				node_id;
+	int 				node;
+	int				hotplug;
 };
 
 #endif /* _VOLTOS_CPU_H */

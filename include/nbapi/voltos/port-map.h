@@ -9,6 +9,6 @@
 #ifndef _NBAPI_VOLTOS_PORT_MAP_H
 #define _NBAPI_VOLTOS_PORT_MAP_H
 
-#define PORT_MAP_NAME_SIZE	32
+#define PORT_MAP_NAME_SIZE	(32)
 
 #endif /* _NBAPI_VOLTOS_PORT_MAP_H */

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/rds.h
  *
- * 	Reliable Datagram Sockets (RDS) Socket Family
+ * 	Reliable Datagram Sockets (AF_RDS) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_RDS_H

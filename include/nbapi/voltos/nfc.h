@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/nfc.h
  *
- * 	Nearfield Communication (NFC) Socket Family
+ * 	Nearfield Communication (AF_NFC) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_NFC_H

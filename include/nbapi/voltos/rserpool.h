@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rserpool.h
  *
+ *	Reliable Server Pooling (RSerPool)
  */
 
 #ifndef _NBAPI_VOLTOS_RSERPOOL_H

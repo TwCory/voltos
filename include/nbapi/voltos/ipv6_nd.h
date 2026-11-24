@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipv6_nd.h
  *
+ *	IPv6 Neighbour Discovery (ND) Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_IPV6_ND_H

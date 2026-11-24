@@ -8,7 +8,6 @@
 #ifndef _VOLTOS_CTYPE_H
 #define _VOLTOS_CTYPE_H
 
-#include <ctype.h>
 #include <voltos/compiler.h>
 
 #define _U			0x01

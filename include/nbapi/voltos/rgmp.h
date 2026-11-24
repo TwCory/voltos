@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rgmp.h
  *
+ *	Router-Port Group Management Protocol (RGMP)
  */
 
 #ifndef _NBAPI_VOLTOS_RGMP_H

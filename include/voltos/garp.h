@@ -9,5 +9,6 @@
 #ifndef _VOLTOS_GARP_H
 #define _VOLTOS_GARP_H
 
+#include <nbapi/voltos/garp.h>
 
 #endif /* _VOLTOS_GARP_H */

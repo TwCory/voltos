@@ -9,10 +9,10 @@
 #define _NBAPI_VOLTOS_GENEVE_H
 
 #define GENEVE_PORT		6081
-#define GENEVE_VNI_SIZE		3
+#define GENEVE_VNI_LEN		(3)
 
 struct geneve_vni {
-	unsigned char 		s_vni[GENEVE_VNI_SIZE];
+	unsigned char 		s_vni[GENEVE_VNI_LEN];
 };
 
 struct geneve_hdr {

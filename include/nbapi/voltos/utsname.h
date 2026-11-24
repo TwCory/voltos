@@ -8,7 +8,7 @@
 #ifndef _NBAPI_VOLTOS_UTSNAME_H
 #define _NBAPI_VOLTOS_UTSNAME_H
 
-#define UTS_LEN		64
+#define UTS_LEN		(64)
 
 struct __voltos_utsname {
 	char sysname[UTS_LEN + 1];

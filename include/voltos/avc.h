@@ -10,4 +10,8 @@
 
 #include <nbapi/voltos/avc.h>
 
+struct avc_client {
+
+};
+
 #endif /* _VOLTOS_AVC_H */

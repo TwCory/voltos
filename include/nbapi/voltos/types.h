@@ -26,12 +26,12 @@ typedef unsigned long long		__u64;
 typedef signed __int128			__i128;
 typedef unsigned __int128		__u128;
 #else
-#define INT128_SIZE			(16)
+#define INT128_LEN			(16)
 typedef struct {
-	signed char 			s_bytes[INT128_SIZE];
+	signed char 			s_bytes[INT128_LEN];
 } __attribute__ ((packed)) __i128;
 typedef struct {
-	unsigned char 			s_bytes[INT128_SIZE];
+	unsigned char 			s_bytes[INT128_LEN];
 } __attribute__ ((packed)) __u128;
 #endif /* HAVE_INT128_TYPE */
 
@@ -39,11 +39,11 @@ typedef float				__f16;
 typedef float				__f32;
 typedef double				__f64;
 
-#define FLOAT128_SIZE32			(4)
-#define FLOAT128_SIZE64			(2)
+#define FLOAT128_LEN32			(4)
+#define FLOAT128_LEN64			(2)
 typedef union {
-	float				s_float32[FLOAT128_SIZE32];
-	double				s_float64[FLOAT128_SIZE64];
+	float				s_float32[FLOAT128_LEN32];
+	double				s_float64[FLOAT128_LEN64];
 } __attribute__ ((packed)) __f128;
 
 typedef __u16				__be16;

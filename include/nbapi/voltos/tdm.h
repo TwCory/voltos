@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/tdm.h
  *
+ *	Time Division Multiplexing (TDM)
  */
 
 #ifndef _NBAPI_VOLTOS_TDM_H

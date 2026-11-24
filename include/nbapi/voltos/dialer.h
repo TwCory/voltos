@@ -23,18 +23,22 @@ typedef unsigned char 					__dialer_watch_list_id_t;
 typedef unsigned char 					__dialer_pool_id_t;
 
 enum dialer_type {
-	DIALER_TYPE_T_UNSPEC				= 0,
-	DIALER_TYPE_T_ISDN				= 1,
-	DIALER_TYPE_T_IN_BAND				= 2,
-	DIALER_TYPE_T_DTR_SYNC				= 3,
-	__DIALER_TYPE_T_MAX__
+	DIALER_TYPE_UNSPEC				= 0,
+	DIALER_TYPE_ISDN				= 1,
+	DIALER_TYPE_IN_BAND				= 2,
+	DIALER_TYPE_DTR_SYNC				= 3,
+	__DIALER_TYPE_MAX__
 };
 
+#define DIALER_TYPE_MAX					(__DIALER_TYPE_MAX__ - 1)
+
 enum dialer_call_status {
-	DIALER_CALL_STATUS_T_UNSPEC			= 0,
-	DIALER_CALL_STATUS_T_SUCCESS			= 1,
-	DIALER_CALL_STATUS_T_FAILURE			= 2,
-	__DIALER_CALL_STATUS_T_MAX__
+	DIALER_CALL_STATUS_UNSPEC			= 0,
+	DIALER_CALL_STATUS_SUCCESS			= 1,
+	DIALER_CALL_STATUS_FAILURE			= 2,
+	__DIALER_CALL_STATUS_MAX__
 };
+
+#define DIALER_CALL_STATUS_MAX				(__DIALER_CALL_STATUS_MAX__ - 1)
 
 #endif /* _NBAPI_VOLTOS_DIALER_H */

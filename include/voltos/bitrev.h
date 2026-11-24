@@ -3,7 +3,7 @@
 /*
  *	include/voltos/bitrev.h
  *
- * 	Bit Reversal Functions
+ * 	Bit reversal functions
  */
 
 #ifndef _VOLTOS_BITREV_H
@@ -12,7 +12,6 @@
 #define __bitrev8
 #define __bitrev16
 #define __bitrev32
-
 #define __bitrev8x4
 
 #endif /* _VOLTOS_BITREV_H */

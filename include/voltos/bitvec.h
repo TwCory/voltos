@@ -3,14 +3,19 @@
 /*
  *	include/voltos/bitvec.h
  *
- * 	Bit Vectors
+ * 	Bit vectors
  */
 
 #ifndef _VOLTOS_BITVEC_H
 #define _VOLTOS_BITVEC_H
 
-typedef struct {
+#include <voltos/bits.h>
+#include <voltos/types.h>
 
+typedef struct {
+	bit_t 			*data;
+	size_t 			length;
+	size_t 			capacity;
 } bitvec_t;
 
 #ifndef DEFINE_BITVEC

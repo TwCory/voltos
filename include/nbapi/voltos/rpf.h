@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/rpf.h
  *
- * 	Reverse Path Forwarding (RPF)
+ * 	Reverse Path Forwarding (RPF) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_RPF_H

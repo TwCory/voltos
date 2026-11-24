@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_ether.h
  *
+ *	Ethernet Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_ETHER_H
@@ -10,9 +11,11 @@
 
 #define ETH_ADDR_LEN			(6)
 #define ETH_TYPE_LEN			(2)
+#define ETH_FCS_LEN			(4)
 
 #define ETH_MTU_MIN			68U
 #define ETH_MTU_MAX			65535U
+#define ETH_MTU_DEFAULT			1500U
 
 enum {
 	ETH_TYPE_T_UNSPEC		= 0x0000,
@@ -101,8 +104,8 @@ enum {
 #define ETH_TYPE_MAX			(__ETH_TYPE_T_MAX__ - 1)
 
 struct eth_hdr {
-	unsigned char 			dst_addr[ETH_ADDR_LEN];
-	unsigned char 			src_addr[ETH_ADDR_LEN];
+	unsigned char 			dst[ETH_ADDR_LEN];
+	unsigned char 			src[ETH_ADDR_LEN];
 	__net16 			type;
 } __attribute__ ((packed));
 

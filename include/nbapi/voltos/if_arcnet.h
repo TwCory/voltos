@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/if_arcnet.h
  *
- * 	Attached Resource Computer Network (ARCnet)
+ * 	Attached Resource Computer Network (ARCnet) Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_ARCNET_H

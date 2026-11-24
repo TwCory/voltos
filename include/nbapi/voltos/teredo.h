@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/teredo.h
  *
+ *	Teredo Tunneling Protocol
  */
 
 #ifndef _NBAPI_VOLTOS_TEREDO_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/tod_clock.h
  *
+ *	Time-of-Day (TOD) Clock
  */
 
 #ifndef _NBAPI_VOLTOS_TOD_CLOCK_H

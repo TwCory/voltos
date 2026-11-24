@@ -3,7 +3,7 @@
 /*
  *	include/voltos/approx.h
  *
- * 	Rational Approximation
+ * 	Rational approximation
  */
 
 #ifndef _VOLTOS_APPROX_H

@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/udpstp.h
  *
- * 	User Datagram Protocol Speed Test Protocol (UDPSTP)
+ * 	UDP Speed Test Protocol (UDPSTP)
  */
 
 #ifndef _NBAPI_VOLTOS_UDPSTP_H

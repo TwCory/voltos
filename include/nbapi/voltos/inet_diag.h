@@ -9,7 +9,8 @@
 #define _NBAPI_VOLTOS_INET_DIAG_H
 
 struct inet_diag_req {
-
+	__u8 idiag_family;
+	__u8 idiag_protocol;
 };
 
 struct inet_diag_req_v2 {

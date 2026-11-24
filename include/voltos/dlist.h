@@ -3,7 +3,7 @@
 /*
  *	include/voltos/dlist.h
  *
- * 	Doubly-Linked Lists
+ * 	Doubly-linked lists
  */
 
 #ifndef _VOLTOS_DLIST_H

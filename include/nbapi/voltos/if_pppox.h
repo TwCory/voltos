@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/if_pppox.h
  *
+ *	PPP-over-X (AF_PPPOX) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_IF_PPPOX_H

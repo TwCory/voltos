@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rose.h
  *
+ *	ROSE (AF_ROSE) Socket Family
  */
 
 #ifndef _NBAPI_VOLTOS_ROSE_H

@@ -3,7 +3,7 @@
 /*
  *	include/voltos/alloc_tag.h
  *
- * 	Memory Allocation Tagging
+ * 	Memory allocation tagging
  */
 
 #ifndef _VOLTOS_ALLOC_TAG_H

@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/ipv6_send.h
  *
+ *	IPv6 Secure Neighbour Discovery (SEND)
  */
 
 #ifndef _NBAPI_VOLTOS_IPV6_SEND_H

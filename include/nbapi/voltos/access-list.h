@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/access-list.h
  *
- * 	Access Control List
+ * 	Access Control List (ACL) Definitions
  */
 
 #ifndef _NBAPI_VOLTOS_ACCESS_LIST_H
@@ -61,10 +61,12 @@ typedef unsigned short 				__voltos_acl_id_t;
 typedef unsigned int				__voltos_acl_seqno_t;
 
 enum acl_action_type {
-	ACL_ACTION_TYPE_T_DENY			= 0,
-	ACL_ACTION_TYPE_T_PERMIT		= 1,
-	__ACL_ACTION_TYPE_T_MAX__
+	ACL_ACTION_TYPE_DENY			= 0,
+	ACL_ACTION_TYPE_PERMIT			= 1,
+	__ACL_ACTION_TYPE_MAX__
 };
+
+#define ACL_ACTION_TYPE_MAX			(__ACL_ACTION_TYPE_MAX__ - 1)
 
 enum {
 	ACL_FLAG_F_INTERNAL			= (1 << 0),

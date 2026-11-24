@@ -3,12 +3,12 @@
 /*
  *	include/nbapi/voltos/if_ieee80211.h
  *
- * 	IEEE 802.11
+ * 	IEEE 802.11 (Wi-Fi) Interfaces
  */
 
 #ifndef _NBAPI_VOLTOS_IF_IEEE80211_H
 #define _NBAPI_VOLTOS_IF_IEEE80211_H
 
-#define DOT11_ADDR_LEN	6
+#define DOT11_ADDR_LEN			(6)
 
 #endif /* _NBAPI_VOLTOS_IF_IEEE80211_H */

@@ -10,11 +10,13 @@
 #define _NBAPI_VOLTOS_STP_H
 
 enum stp_mode {
-	STP_MODE_T_UNSPEC		= 0,
-	STP_MODE_T_CST			= 1,
-	STP_MODE_T_RST			= 2,
-	STP_MODE_T_MST			= 3,
-	__STP_MODE_T_MAX__
+	STP_MODE_UNSPEC			= 0,
+	STP_MODE_CST			= 1,
+	STP_MODE_RST			= 2,
+	STP_MODE_MST			= 3,
+	__STP_MODE_MAX__
 };
+
+#define STP_MODE_MAX			(__STP_MODE_MAX__ - 1)
 
 #endif /* _NBAPI_VOLTOS_STP_H */

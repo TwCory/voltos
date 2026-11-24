@@ -3,7 +3,7 @@
 /*
  *	include/voltos/alist.h
  *
- * 	Association Lists
+ * 	Association lists
  */
 
 #ifndef _VOLTOS_ALIST_H

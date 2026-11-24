@@ -3,6 +3,7 @@
 /*
  *	include/nbapi/voltos/rcmd.h
  *
+ *	Remote Command (RCMD) Service
  */
 
 #ifndef _NBAPI_VOLTOS_RCMD_H

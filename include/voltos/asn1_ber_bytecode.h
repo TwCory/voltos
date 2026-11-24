@@ -3,6 +3,7 @@
 /*
  *	include/voltos/asn1_ber_bytecode.h
  *
+ *	ASN.1 Basic Encoding Rules (BER) byte code
  */
 
 #ifndef _VOLTOS_ASN1_BER_BYTECODE_H

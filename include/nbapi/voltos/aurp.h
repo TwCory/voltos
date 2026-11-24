@@ -3,7 +3,7 @@
 /*
  *	include/nbapi/voltos/aurp.h
  *
- * 	AppleTalk Update-Based Routing Protocol (AURP)
+ * 	AppleTalk Update-based Routing Protocol (AURP)
  */
 
 #ifndef _NBAPI_VOLTOS_AURP_H
