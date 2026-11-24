@@ -11,6 +11,14 @@
 
 #include <voltos/const.h>
 
+#ifndef alignas
+#define alignas				_Alignas
+#endif /* alignas */
+
+#ifndef alignof
+#define alignof				_Alignof
+#endif /* alignof */
+
 #define ALIGN(x, a)			__ALIGN_VOLTOS((x), (a))
 #define ALIGN_DOWN(x, a)		__ALIGN_VOLTOS((x) - ((a) - 1), (a))
 #define __ALIGN_MASK(x, mask)		__ALIGN_VOLTOS_MASK((x), (mask))

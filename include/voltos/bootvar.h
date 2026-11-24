@@ -3,7 +3,7 @@
 /*
  *	include/voltos/bootvar.h
  *
- * 	Boot Variable Handling
+ * 	Boot variable handling
  */
 
 #ifndef _VOLTOS_BOOTVAR_H

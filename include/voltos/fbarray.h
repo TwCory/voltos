@@ -11,7 +11,7 @@
 
 #include <voltos/rwlock.h>
 
-#define FBARRAY_NAME_SIZE	32
+#define FBARRAY_NAME_SIZE	(32)
 
 struct fbarray {
 	char 			name[FBARRAY_NAME_SIZE];

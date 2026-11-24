@@ -14,7 +14,8 @@
 
 struct bfd_template {
 	const char 			name[BFD_TEMPLATE_NAME_SIZE];
-	refcount_t 			ref_count;
+	enum bfd_template_type		type;
+	refcount_t 			refcount;
 };
 
 #endif /* _VOLTOS_BFD_TEMPLATE_H */

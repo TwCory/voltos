@@ -14,7 +14,7 @@
 
 struct bba_group {
 	const char 			name[BBA_GROUP_NAME_SIZE];
-	refcount_t 			ref_count;
+	refcount_t 			refcount;
 };
 
 #endif /* _VOLTOS_BBA_GROUP_H */

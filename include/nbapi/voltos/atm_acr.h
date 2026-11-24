@@ -6,7 +6,7 @@
  * 	Asynchronous Transfer Mode (ATM) Access Circuit Redundancy (ACR)
  */
 
-#ifndef _NBAPI_VOLTOS_XYZ_H
-#define _NBAPI_VOLTOS_XYZ_H
+#ifndef _NBAPI_VOLTOS_ATM_ACR_H
+#define _NBAPI_VOLTOS_ATM_ACR_H
 
-#endif /* _NBAPI_VOLTOS_XYZ_H */
+#endif /* _NBAPI_VOLTOS_ATM_ACR_H */

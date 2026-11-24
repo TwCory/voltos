@@ -14,7 +14,7 @@
 
 struct chat_script {
 	const char 		name[CHAT_SCRIPT_NAME_SIZE];
-	refcount_t 		ref_count;
+	refcount_t 		refcount;
 };
 
 #endif /* _VOLTOS_CHAT_SCRIPT_H */

@@ -13,7 +13,6 @@
 #include <voltos/types.h>
 
 #define ATALK_ETHERTYPE			0x809B
-#define ATALK_AARP_ETHERTYPE		0x80F3
 
 struct at_addr {
 	__net16 			s_net;

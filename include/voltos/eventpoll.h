@@ -8,7 +8,6 @@
 #ifndef _VOLTOS_EVENTPOLL_H
 #define _VOLTOS_EVENTPOLL_H
 
-#include <sys/epoll.h>
 #include <nbapi/voltos/eventpoll.h>
 
 struct event_poll_key {

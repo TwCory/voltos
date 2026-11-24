@@ -8,8 +8,9 @@
 #ifndef _VOLTOS_CACHE_H
 #define _VOLTOS_CACHE_H
 
-#define L1_CACHE_SHIFT						5
+#define L1_CACHE_SHIFT						(5)
 #define L1_CACHE_BYTES						(1 << L1_CACHE_SHIFT)
+
 #define SMP_CACHE_BYTES						L1_CACHE_BYTES
 
 #ifndef L1_CACHE_ALIGN
